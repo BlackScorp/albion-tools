@@ -13,7 +13,7 @@ Regel: Genau eine Aufgabe steht gleichzeitig auf **IN ARBEIT**. Der ausführende
 
 ## M2 – Daten bleiben lokal erhalten
 
-- [ ] **T02 – Domänenmodell und Startkatalog**
+- [x] **T02 – Domänenmodell und Startkatalog**
   - Item-, Markt-, Qualitäts- und Preisstrukturen definieren.
   - Kleinen repräsentativen Katalog mit Kategorien, Tiers und Enchantments einbetten.
   - Ringdistanz und Sondermärkte mit Tabellentests absichern.

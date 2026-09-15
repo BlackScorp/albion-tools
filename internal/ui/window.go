@@ -8,18 +8,21 @@ import (
 	"fyne.io/fyne/v2"
 	"fyne.io/fyne/v2/container"
 	"fyne.io/fyne/v2/widget"
+	"github.com/blackscorp/albion-helper/internal/catalog"
 )
 
 type marketRow struct {
-	item, buyCity, sellCity string
-	buy, sell               int
+	item, itemID, buyCity, sellCity string
+	buy, sell                       int
 }
 
-var sampleRows = []marketRow{
-	{item: "Adept's Broadsword", buyCity: "Martlock", sellCity: "Bridgewatch", buy: 1240, sell: 1590},
-	{item: "Adept's Cape", buyCity: "Lymhurst", sellCity: "Thetford", buy: 8700, sell: 9450},
-	{item: "Elder's Wood", buyCity: "Fort Sterling", sellCity: "Caerleon", buy: 410, sell: 525},
-	{item: "Expert's Riding Horse", buyCity: "Thetford", sellCity: "Martlock", buy: 18200, sell: 19750},
+var sampleQuotes = map[string]marketRow{
+	"T4_MAIN_SWORD":   {buyCity: "Martlock", sellCity: "Bridgewatch", buy: 1240, sell: 1590},
+	"T4_CAPE":         {buyCity: "Lymhurst", sellCity: "Thetford", buy: 8700, sell: 9450},
+	"T4_WOOD":         {buyCity: "Fort Sterling", sellCity: "Caerleon", buy: 410, sell: 525},
+	"T4_MOUNT_HORSE":  {buyCity: "Thetford", sellCity: "Martlock", buy: 18200, sell: 19750},
+	"T4_MAIN_SWORD@1": {buyCity: "Martlock", sellCity: "Bridgewatch", buy: 2450, sell: 2920},
+	"T5_MAIN_SWORD":   {buyCity: "Thetford", sellCity: "Fort Sterling", buy: 5600, sell: 6320},
 }
 
 var columns = []string{"Item", "Kaufstadt", "Verkaufsstadt", "Kaufpreis", "Verkaufspreis", "Bruttogewinn", "ROI (brutto)"}
@@ -36,7 +39,14 @@ func NewWindow(a fyne.App) fyne.Window {
 	sync := widget.NewButton("Preise aktualisieren", nil)
 	status := widget.NewLabel("Beispieldaten · Gebühren und Transportkosten nicht berücksichtigt")
 
-	rows := append([]marketRow(nil), sampleRows...)
+	catalogItems := catalog.Items()
+	allRows := make([]marketRow, 0, len(catalogItems))
+	for _, item := range catalogItems {
+		quote := sampleQuotes[item.ID]
+		name := fmt.Sprintf("%s · T%d.%d", item.Name, item.Tier, item.Enchantment)
+		allRows = append(allRows, marketRow{item: name, itemID: item.ID, buyCity: quote.buyCity, sellCity: quote.sellCity, buy: quote.buy, sell: quote.sell})
+	}
+	rows := append([]marketRow(nil), allRows...)
 	ascending := true
 	table := widget.NewTable(
 		func() (int, int) { return len(rows) + 1, len(columns) },
@@ -91,7 +101,7 @@ func NewWindow(a fyne.App) fyne.Window {
 	}
 	filter.OnChanged = func(query string) {
 		rows = rows[:0]
-		for _, row := range sampleRows {
+		for _, row := range allRows {
 			if query == "" || containsFold(row.item, query) {
 				rows = append(rows, row)
 			}
