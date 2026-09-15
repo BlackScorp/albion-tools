@@ -4,7 +4,7 @@ Regel: Genau eine Aufgabe steht gleichzeitig auf **IN ARBEIT**. Der ausführende
 
 ## M1 – Innerhalb der ersten Sitzung sichtbar
 
-- [ ] **T01 – Walking Skeleton und Docker-Build**
+- [x] **T01 – Walking Skeleton und Docker-Build**
   - Go-Modul, minimale Fyne-App und geplante Verzeichnisstruktur anlegen.
   - Fenster mit Serverwahl, Filterzeile, Sync-Button und sortierbarer Beispieltabelle anzeigen.
   - `Dockerfile` und kurze Make-Ziele mindestens für `test`, `build-windows` und `verify` anlegen; Versionen pinnen.
