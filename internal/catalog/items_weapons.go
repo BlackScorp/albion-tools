@@ -1,0 +1,14635 @@
+package catalog
+
+var recipe_3a347084b026 = &CraftingRecipe{SourceItemID: "T2_2H_BOW", Attributes: map[string]string{
+	"craftingfocus": "560",
+	"silver":        "0",
+	"time":          "0.667",
+}, Resources: []CraftingResource{
+	{ItemID: "T2_PLANKS", Attributes: map[string]string{
+		"count": "32",
+	}},
+}}
+
+var recipe_eb38e57f8b8f = &CraftingRecipe{SourceItemID: "T3_2H_BOW", Attributes: map[string]string{
+	"craftingfocus": "980",
+	"silver":        "0",
+	"time":          "1",
+}, Resources: []CraftingResource{
+	{ItemID: "T3_PLANKS", Attributes: map[string]string{
+		"count": "32",
+	}},
+}}
+
+var recipe_10731b23d3a2 = &CraftingRecipe{SourceItemID: "T4_2H_BOW", Attributes: map[string]string{
+	"craftingfocus": "1715",
+	"silver":        "0",
+	"time":          "1.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T4_PLANKS", Attributes: map[string]string{
+		"count": "32",
+	}},
+}}
+
+var recipe_23e25dd19712 = &CraftingRecipe{SourceItemID: "T5_2H_BOW", Attributes: map[string]string{
+	"craftingfocus": "3001",
+	"silver":        "0",
+	"time":          "2",
+}, Resources: []CraftingResource{
+	{ItemID: "T5_PLANKS", Attributes: map[string]string{
+		"count": "32",
+	}},
+}}
+
+var recipe_47512d6adf60 = &CraftingRecipe{SourceItemID: "T6_2H_BOW", Attributes: map[string]string{
+	"craftingfocus": "5252",
+	"silver":        "0",
+	"time":          "2.667",
+}, Resources: []CraftingResource{
+	{ItemID: "T6_PLANKS", Attributes: map[string]string{
+		"count": "32",
+	}},
+}}
+
+var recipe_b09e058fa32a = &CraftingRecipe{SourceItemID: "T7_2H_BOW", Attributes: map[string]string{
+	"craftingfocus": "9191",
+	"silver":        "0",
+	"time":          "3.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T7_PLANKS", Attributes: map[string]string{
+		"count": "32",
+	}},
+}}
+
+var recipe_b52857e318e8 = &CraftingRecipe{SourceItemID: "T8_2H_BOW", Attributes: map[string]string{
+	"craftingfocus": "16085",
+	"silver":        "0",
+	"time":          "5",
+}, Resources: []CraftingResource{
+	{ItemID: "T8_PLANKS", Attributes: map[string]string{
+		"count": "32",
+	}},
+}}
+
+var recipe_de7c813b7c5b = &CraftingRecipe{SourceItemID: "T4_2H_WARBOW", Attributes: map[string]string{
+	"craftingfocus": "1715",
+	"silver":        "0",
+	"time":          "1.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T4_PLANKS", Attributes: map[string]string{
+		"count": "32",
+	}},
+}}
+
+var recipe_a09a2e3ca463 = &CraftingRecipe{SourceItemID: "T5_2H_WARBOW", Attributes: map[string]string{
+	"craftingfocus": "3001",
+	"silver":        "0",
+	"time":          "2",
+}, Resources: []CraftingResource{
+	{ItemID: "T5_PLANKS", Attributes: map[string]string{
+		"count": "32",
+	}},
+}}
+
+var recipe_86ea3a23cbe3 = &CraftingRecipe{SourceItemID: "T6_2H_WARBOW", Attributes: map[string]string{
+	"craftingfocus": "5252",
+	"silver":        "0",
+	"time":          "2.667",
+}, Resources: []CraftingResource{
+	{ItemID: "T6_PLANKS", Attributes: map[string]string{
+		"count": "32",
+	}},
+}}
+
+var recipe_cc35da949703 = &CraftingRecipe{SourceItemID: "T7_2H_WARBOW", Attributes: map[string]string{
+	"craftingfocus": "9191",
+	"silver":        "0",
+	"time":          "3.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T7_PLANKS", Attributes: map[string]string{
+		"count": "32",
+	}},
+}}
+
+var recipe_9ff79e7c3e1d = &CraftingRecipe{SourceItemID: "T8_2H_WARBOW", Attributes: map[string]string{
+	"craftingfocus": "16085",
+	"silver":        "0",
+	"time":          "5",
+}, Resources: []CraftingResource{
+	{ItemID: "T8_PLANKS", Attributes: map[string]string{
+		"count": "32",
+	}},
+}}
+
+var recipe_bcc735a83feb = &CraftingRecipe{SourceItemID: "T4_2H_LONGBOW", Attributes: map[string]string{
+	"craftingfocus": "1715",
+	"silver":        "0",
+	"time":          "1.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T4_PLANKS", Attributes: map[string]string{
+		"count": "32",
+	}},
+}}
+
+var recipe_c9b8b4f141b3 = &CraftingRecipe{SourceItemID: "T5_2H_LONGBOW", Attributes: map[string]string{
+	"craftingfocus": "3001",
+	"silver":        "0",
+	"time":          "2",
+}, Resources: []CraftingResource{
+	{ItemID: "T5_PLANKS", Attributes: map[string]string{
+		"count": "32",
+	}},
+}}
+
+var recipe_b4419f3617b0 = &CraftingRecipe{SourceItemID: "T6_2H_LONGBOW", Attributes: map[string]string{
+	"craftingfocus": "5252",
+	"silver":        "0",
+	"time":          "2.667",
+}, Resources: []CraftingResource{
+	{ItemID: "T6_PLANKS", Attributes: map[string]string{
+		"count": "32",
+	}},
+}}
+
+var recipe_3a46433218d2 = &CraftingRecipe{SourceItemID: "T7_2H_LONGBOW", Attributes: map[string]string{
+	"craftingfocus": "9191",
+	"silver":        "0",
+	"time":          "3.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T7_PLANKS", Attributes: map[string]string{
+		"count": "32",
+	}},
+}}
+
+var recipe_e3794770cfa8 = &CraftingRecipe{SourceItemID: "T8_2H_LONGBOW", Attributes: map[string]string{
+	"craftingfocus": "16085",
+	"silver":        "0",
+	"time":          "5",
+}, Resources: []CraftingResource{
+	{ItemID: "T8_PLANKS", Attributes: map[string]string{
+		"count": "32",
+	}},
+}}
+
+var recipe_0b45555a4c9a = &CraftingRecipe{SourceItemID: "T4_2H_LONGBOW_UNDEAD", Attributes: map[string]string{
+	"craftingfocus": "1715",
+	"silver":        "0",
+	"time":          "1.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T4_PLANKS", Attributes: map[string]string{
+		"count": "32",
+	}},
+	{ItemID: "T4_ARTEFACT_2H_LONGBOW_UNDEAD", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_24d98eee94c6 = &CraftingRecipe{SourceItemID: "T5_2H_LONGBOW_UNDEAD", Attributes: map[string]string{
+	"craftingfocus": "3001",
+	"silver":        "0",
+	"time":          "2",
+}, Resources: []CraftingResource{
+	{ItemID: "T5_PLANKS", Attributes: map[string]string{
+		"count": "32",
+	}},
+	{ItemID: "T5_ARTEFACT_2H_LONGBOW_UNDEAD", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_ce6c60c787a1 = &CraftingRecipe{SourceItemID: "T6_2H_LONGBOW_UNDEAD", Attributes: map[string]string{
+	"craftingfocus": "5252",
+	"silver":        "0",
+	"time":          "2.667",
+}, Resources: []CraftingResource{
+	{ItemID: "T6_PLANKS", Attributes: map[string]string{
+		"count": "32",
+	}},
+	{ItemID: "T6_ARTEFACT_2H_LONGBOW_UNDEAD", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_5cca8f6345ea = &CraftingRecipe{SourceItemID: "T7_2H_LONGBOW_UNDEAD", Attributes: map[string]string{
+	"craftingfocus": "9191",
+	"silver":        "0",
+	"time":          "3.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T7_PLANKS", Attributes: map[string]string{
+		"count": "32",
+	}},
+	{ItemID: "T7_ARTEFACT_2H_LONGBOW_UNDEAD", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_508396f25eb5 = &CraftingRecipe{SourceItemID: "T8_2H_LONGBOW_UNDEAD", Attributes: map[string]string{
+	"craftingfocus": "16085",
+	"silver":        "0",
+	"time":          "5",
+}, Resources: []CraftingResource{
+	{ItemID: "T8_PLANKS", Attributes: map[string]string{
+		"count": "32",
+	}},
+	{ItemID: "T8_ARTEFACT_2H_LONGBOW_UNDEAD", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_8b68ca4a33dc = &CraftingRecipe{SourceItemID: "T4_2H_BOW_HELL", Attributes: map[string]string{
+	"craftingfocus": "1715",
+	"silver":        "0",
+	"time":          "1.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T4_PLANKS", Attributes: map[string]string{
+		"count": "32",
+	}},
+	{ItemID: "T4_ARTEFACT_2H_BOW_HELL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_6462dec45824 = &CraftingRecipe{SourceItemID: "T5_2H_BOW_HELL", Attributes: map[string]string{
+	"craftingfocus": "3001",
+	"silver":        "0",
+	"time":          "2",
+}, Resources: []CraftingResource{
+	{ItemID: "T5_PLANKS", Attributes: map[string]string{
+		"count": "32",
+	}},
+	{ItemID: "T5_ARTEFACT_2H_BOW_HELL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_cf4c5cbfc43a = &CraftingRecipe{SourceItemID: "T6_2H_BOW_HELL", Attributes: map[string]string{
+	"craftingfocus": "5252",
+	"silver":        "0",
+	"time":          "2.667",
+}, Resources: []CraftingResource{
+	{ItemID: "T6_PLANKS", Attributes: map[string]string{
+		"count": "32",
+	}},
+	{ItemID: "T6_ARTEFACT_2H_BOW_HELL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_e1d4903fafd1 = &CraftingRecipe{SourceItemID: "T7_2H_BOW_HELL", Attributes: map[string]string{
+	"craftingfocus": "9191",
+	"silver":        "0",
+	"time":          "3.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T7_PLANKS", Attributes: map[string]string{
+		"count": "32",
+	}},
+	{ItemID: "T7_ARTEFACT_2H_BOW_HELL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_f51ef13ac998 = &CraftingRecipe{SourceItemID: "T8_2H_BOW_HELL", Attributes: map[string]string{
+	"craftingfocus": "16085",
+	"silver":        "0",
+	"time":          "5",
+}, Resources: []CraftingResource{
+	{ItemID: "T8_PLANKS", Attributes: map[string]string{
+		"count": "32",
+	}},
+	{ItemID: "T8_ARTEFACT_2H_BOW_HELL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_79fcaf103f5e = &CraftingRecipe{SourceItemID: "T4_2H_BOW_KEEPER", Attributes: map[string]string{
+	"craftingfocus": "1715",
+	"silver":        "0",
+	"time":          "1.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T4_PLANKS", Attributes: map[string]string{
+		"count": "32",
+	}},
+	{ItemID: "T4_ARTEFACT_2H_BOW_KEEPER", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_5041ea4d3a50 = &CraftingRecipe{SourceItemID: "T5_2H_BOW_KEEPER", Attributes: map[string]string{
+	"craftingfocus": "3001",
+	"silver":        "0",
+	"time":          "2",
+}, Resources: []CraftingResource{
+	{ItemID: "T5_PLANKS", Attributes: map[string]string{
+		"count": "32",
+	}},
+	{ItemID: "T5_ARTEFACT_2H_BOW_KEEPER", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_54e5f2dbfab1 = &CraftingRecipe{SourceItemID: "T6_2H_BOW_KEEPER", Attributes: map[string]string{
+	"craftingfocus": "5252",
+	"silver":        "0",
+	"time":          "2.667",
+}, Resources: []CraftingResource{
+	{ItemID: "T6_PLANKS", Attributes: map[string]string{
+		"count": "32",
+	}},
+	{ItemID: "T6_ARTEFACT_2H_BOW_KEEPER", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_9689d6c1a2fa = &CraftingRecipe{SourceItemID: "T7_2H_BOW_KEEPER", Attributes: map[string]string{
+	"craftingfocus": "9191",
+	"silver":        "0",
+	"time":          "3.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T7_PLANKS", Attributes: map[string]string{
+		"count": "32",
+	}},
+	{ItemID: "T7_ARTEFACT_2H_BOW_KEEPER", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_6c0a947a8ffc = &CraftingRecipe{SourceItemID: "T8_2H_BOW_KEEPER", Attributes: map[string]string{
+	"craftingfocus": "16085",
+	"silver":        "0",
+	"time":          "5",
+}, Resources: []CraftingResource{
+	{ItemID: "T8_PLANKS", Attributes: map[string]string{
+		"count": "32",
+	}},
+	{ItemID: "T8_ARTEFACT_2H_BOW_KEEPER", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_60a4775e5b9c = &CraftingRecipe{SourceItemID: "T4_2H_BOW_AVALON", Attributes: map[string]string{
+	"craftingfocus": "1715",
+	"silver":        "0",
+	"time":          "1.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T4_PLANKS", Attributes: map[string]string{
+		"count": "32",
+	}},
+	{ItemID: "T4_ARTEFACT_2H_BOW_AVALON", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_0fdf44542129 = &CraftingRecipe{SourceItemID: "T5_2H_BOW_AVALON", Attributes: map[string]string{
+	"craftingfocus": "3001",
+	"silver":        "0",
+	"time":          "2",
+}, Resources: []CraftingResource{
+	{ItemID: "T5_PLANKS", Attributes: map[string]string{
+		"count": "32",
+	}},
+	{ItemID: "T5_ARTEFACT_2H_BOW_AVALON", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_89154bfd7bc7 = &CraftingRecipe{SourceItemID: "T6_2H_BOW_AVALON", Attributes: map[string]string{
+	"craftingfocus": "5252",
+	"silver":        "0",
+	"time":          "2.667",
+}, Resources: []CraftingResource{
+	{ItemID: "T6_PLANKS", Attributes: map[string]string{
+		"count": "32",
+	}},
+	{ItemID: "T6_ARTEFACT_2H_BOW_AVALON", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_2801cb7de927 = &CraftingRecipe{SourceItemID: "T7_2H_BOW_AVALON", Attributes: map[string]string{
+	"craftingfocus": "9191",
+	"silver":        "0",
+	"time":          "3.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T7_PLANKS", Attributes: map[string]string{
+		"count": "32",
+	}},
+	{ItemID: "T7_ARTEFACT_2H_BOW_AVALON", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_a4134a5d864b = &CraftingRecipe{SourceItemID: "T8_2H_BOW_AVALON", Attributes: map[string]string{
+	"craftingfocus": "16085",
+	"silver":        "0",
+	"time":          "5",
+}, Resources: []CraftingResource{
+	{ItemID: "T8_PLANKS", Attributes: map[string]string{
+		"count": "32",
+	}},
+	{ItemID: "T8_ARTEFACT_2H_BOW_AVALON", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_f6476692bd9b = &CraftingRecipe{SourceItemID: "T4_2H_BOW_CRYSTAL", Attributes: map[string]string{
+	"craftingfocus": "1715",
+	"silver":        "0",
+	"time":          "1.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T4_PLANKS", Attributes: map[string]string{
+		"count": "32",
+	}},
+	{ItemID: "T4_ARTEFACT_2H_BOW_CRYSTAL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_aaf73a29f855 = &CraftingRecipe{SourceItemID: "T5_2H_BOW_CRYSTAL", Attributes: map[string]string{
+	"craftingfocus": "3001",
+	"silver":        "0",
+	"time":          "2",
+}, Resources: []CraftingResource{
+	{ItemID: "T5_PLANKS", Attributes: map[string]string{
+		"count": "32",
+	}},
+	{ItemID: "T5_ARTEFACT_2H_BOW_CRYSTAL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_38eedbda9415 = &CraftingRecipe{SourceItemID: "T6_2H_BOW_CRYSTAL", Attributes: map[string]string{
+	"craftingfocus": "5252",
+	"silver":        "0",
+	"time":          "2.667",
+}, Resources: []CraftingResource{
+	{ItemID: "T6_PLANKS", Attributes: map[string]string{
+		"count": "32",
+	}},
+	{ItemID: "T6_ARTEFACT_2H_BOW_CRYSTAL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_e67c4d93139c = &CraftingRecipe{SourceItemID: "T7_2H_BOW_CRYSTAL", Attributes: map[string]string{
+	"craftingfocus": "9191",
+	"silver":        "0",
+	"time":          "3.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T7_PLANKS", Attributes: map[string]string{
+		"count": "32",
+	}},
+	{ItemID: "T7_ARTEFACT_2H_BOW_CRYSTAL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_209ae956b44f = &CraftingRecipe{SourceItemID: "T8_2H_BOW_CRYSTAL", Attributes: map[string]string{
+	"craftingfocus": "16085",
+	"silver":        "0",
+	"time":          "5",
+}, Resources: []CraftingResource{
+	{ItemID: "T8_PLANKS", Attributes: map[string]string{
+		"count": "32",
+	}},
+	{ItemID: "T8_ARTEFACT_2H_BOW_CRYSTAL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_db023cfe5042 = &CraftingRecipe{SourceItemID: "T3_2H_CROSSBOW", Attributes: map[string]string{
+	"craftingfocus": "980",
+	"silver":        "0",
+	"time":          "1",
+}, Resources: []CraftingResource{
+	{ItemID: "T3_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T3_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+}}
+
+var recipe_e58f51e42b2d = &CraftingRecipe{SourceItemID: "T4_2H_CROSSBOW", Attributes: map[string]string{
+	"craftingfocus": "1715",
+	"silver":        "0",
+	"time":          "1.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T4_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T4_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+}}
+
+var recipe_e4b7c69fce3e = &CraftingRecipe{SourceItemID: "T5_2H_CROSSBOW", Attributes: map[string]string{
+	"craftingfocus": "3001",
+	"silver":        "0",
+	"time":          "2",
+}, Resources: []CraftingResource{
+	{ItemID: "T5_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T5_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+}}
+
+var recipe_8f86986ec119 = &CraftingRecipe{SourceItemID: "T6_2H_CROSSBOW", Attributes: map[string]string{
+	"craftingfocus": "5252",
+	"silver":        "0",
+	"time":          "2.667",
+}, Resources: []CraftingResource{
+	{ItemID: "T6_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T6_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+}}
+
+var recipe_0b0107553991 = &CraftingRecipe{SourceItemID: "T7_2H_CROSSBOW", Attributes: map[string]string{
+	"craftingfocus": "9191",
+	"silver":        "0",
+	"time":          "3.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T7_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T7_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+}}
+
+var recipe_414f660f3312 = &CraftingRecipe{SourceItemID: "T8_2H_CROSSBOW", Attributes: map[string]string{
+	"craftingfocus": "16085",
+	"silver":        "0",
+	"time":          "5",
+}, Resources: []CraftingResource{
+	{ItemID: "T8_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T8_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+}}
+
+var recipe_dfe48a0e56c7 = &CraftingRecipe{SourceItemID: "T4_2H_CROSSBOWLARGE", Attributes: map[string]string{
+	"craftingfocus": "1715",
+	"silver":        "0",
+	"time":          "1.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T4_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T4_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+}}
+
+var recipe_7f54104f3a22 = &CraftingRecipe{SourceItemID: "T5_2H_CROSSBOWLARGE", Attributes: map[string]string{
+	"craftingfocus": "3001",
+	"silver":        "0",
+	"time":          "2",
+}, Resources: []CraftingResource{
+	{ItemID: "T5_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T5_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+}}
+
+var recipe_fa19b49d35ee = &CraftingRecipe{SourceItemID: "T6_2H_CROSSBOWLARGE", Attributes: map[string]string{
+	"craftingfocus": "5252",
+	"silver":        "0",
+	"time":          "2.667",
+}, Resources: []CraftingResource{
+	{ItemID: "T6_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T6_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+}}
+
+var recipe_5a84af7d33f0 = &CraftingRecipe{SourceItemID: "T7_2H_CROSSBOWLARGE", Attributes: map[string]string{
+	"craftingfocus": "9191",
+	"silver":        "0",
+	"time":          "3.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T7_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T7_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+}}
+
+var recipe_97556eea20cc = &CraftingRecipe{SourceItemID: "T8_2H_CROSSBOWLARGE", Attributes: map[string]string{
+	"craftingfocus": "16085",
+	"silver":        "0",
+	"time":          "5",
+}, Resources: []CraftingResource{
+	{ItemID: "T8_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T8_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+}}
+
+var recipe_adc507b1748a = &CraftingRecipe{SourceItemID: "T4_MAIN_1HCROSSBOW", Attributes: map[string]string{
+	"craftingfocus": "1286",
+	"silver":        "0",
+	"time":          "1",
+}, Resources: []CraftingResource{
+	{ItemID: "T4_PLANKS", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T4_METALBAR", Attributes: map[string]string{
+		"count": "8",
+	}},
+}}
+
+var recipe_fe8570c364b3 = &CraftingRecipe{SourceItemID: "T5_MAIN_1HCROSSBOW", Attributes: map[string]string{
+	"craftingfocus": "2251",
+	"silver":        "0",
+	"time":          "1.5",
+}, Resources: []CraftingResource{
+	{ItemID: "T5_PLANKS", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T5_METALBAR", Attributes: map[string]string{
+		"count": "8",
+	}},
+}}
+
+var recipe_8c7e8d8c1e83 = &CraftingRecipe{SourceItemID: "T6_MAIN_1HCROSSBOW", Attributes: map[string]string{
+	"craftingfocus": "3939",
+	"silver":        "0",
+	"time":          "2",
+}, Resources: []CraftingResource{
+	{ItemID: "T6_PLANKS", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T6_METALBAR", Attributes: map[string]string{
+		"count": "8",
+	}},
+}}
+
+var recipe_59ef8e1dd31d = &CraftingRecipe{SourceItemID: "T7_MAIN_1HCROSSBOW", Attributes: map[string]string{
+	"craftingfocus": "6893",
+	"silver":        "0",
+	"time":          "2.5",
+}, Resources: []CraftingResource{
+	{ItemID: "T7_PLANKS", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T7_METALBAR", Attributes: map[string]string{
+		"count": "8",
+	}},
+}}
+
+var recipe_31fe9898d477 = &CraftingRecipe{SourceItemID: "T8_MAIN_1HCROSSBOW", Attributes: map[string]string{
+	"craftingfocus": "12064",
+	"silver":        "0",
+	"time":          "3.75",
+}, Resources: []CraftingResource{
+	{ItemID: "T8_PLANKS", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T8_METALBAR", Attributes: map[string]string{
+		"count": "8",
+	}},
+}}
+
+var recipe_18a54b39f34a = &CraftingRecipe{SourceItemID: "T4_2H_REPEATINGCROSSBOW_UNDEAD", Attributes: map[string]string{
+	"craftingfocus": "1715",
+	"silver":        "0",
+	"time":          "1.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T4_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T4_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T4_ARTEFACT_2H_REPEATINGCROSSBOW_UNDEAD", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_5e9169ad805a = &CraftingRecipe{SourceItemID: "T5_2H_REPEATINGCROSSBOW_UNDEAD", Attributes: map[string]string{
+	"craftingfocus": "3001",
+	"silver":        "0",
+	"time":          "2",
+}, Resources: []CraftingResource{
+	{ItemID: "T5_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T5_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T5_ARTEFACT_2H_REPEATINGCROSSBOW_UNDEAD", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_0b337104166e = &CraftingRecipe{SourceItemID: "T6_2H_REPEATINGCROSSBOW_UNDEAD", Attributes: map[string]string{
+	"craftingfocus": "5252",
+	"silver":        "0",
+	"time":          "2.667",
+}, Resources: []CraftingResource{
+	{ItemID: "T6_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T6_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T6_ARTEFACT_2H_REPEATINGCROSSBOW_UNDEAD", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_6269c693d3ca = &CraftingRecipe{SourceItemID: "T7_2H_REPEATINGCROSSBOW_UNDEAD", Attributes: map[string]string{
+	"craftingfocus": "9191",
+	"silver":        "0",
+	"time":          "3.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T7_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T7_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T7_ARTEFACT_2H_REPEATINGCROSSBOW_UNDEAD", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_e5fc7350b271 = &CraftingRecipe{SourceItemID: "T8_2H_REPEATINGCROSSBOW_UNDEAD", Attributes: map[string]string{
+	"craftingfocus": "16085",
+	"silver":        "0",
+	"time":          "5",
+}, Resources: []CraftingResource{
+	{ItemID: "T8_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T8_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T8_ARTEFACT_2H_REPEATINGCROSSBOW_UNDEAD", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_4194372d63bc = &CraftingRecipe{SourceItemID: "T4_2H_DUALCROSSBOW_HELL", Attributes: map[string]string{
+	"craftingfocus": "1715",
+	"silver":        "0",
+	"time":          "1.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T4_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T4_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T4_ARTEFACT_2H_DUALCROSSBOW_HELL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_90fdb829e241 = &CraftingRecipe{SourceItemID: "T5_2H_DUALCROSSBOW_HELL", Attributes: map[string]string{
+	"craftingfocus": "3001",
+	"silver":        "0",
+	"time":          "2",
+}, Resources: []CraftingResource{
+	{ItemID: "T5_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T5_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T5_ARTEFACT_2H_DUALCROSSBOW_HELL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_dfc987ed57e8 = &CraftingRecipe{SourceItemID: "T6_2H_DUALCROSSBOW_HELL", Attributes: map[string]string{
+	"craftingfocus": "5252",
+	"silver":        "0",
+	"time":          "2.667",
+}, Resources: []CraftingResource{
+	{ItemID: "T6_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T6_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T6_ARTEFACT_2H_DUALCROSSBOW_HELL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_e799ba554612 = &CraftingRecipe{SourceItemID: "T7_2H_DUALCROSSBOW_HELL", Attributes: map[string]string{
+	"craftingfocus": "9191",
+	"silver":        "0",
+	"time":          "3.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T7_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T7_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T7_ARTEFACT_2H_DUALCROSSBOW_HELL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_cf61c972870b = &CraftingRecipe{SourceItemID: "T8_2H_DUALCROSSBOW_HELL", Attributes: map[string]string{
+	"craftingfocus": "16085",
+	"silver":        "0",
+	"time":          "5",
+}, Resources: []CraftingResource{
+	{ItemID: "T8_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T8_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T8_ARTEFACT_2H_DUALCROSSBOW_HELL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_98fa09a6be24 = &CraftingRecipe{SourceItemID: "T4_2H_CROSSBOWLARGE_MORGANA", Attributes: map[string]string{
+	"craftingfocus":   "1715",
+	"silver":          "0",
+	"swaptransaction": "true",
+	"time":            "1.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T4_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T4_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T4_ARTEFACT_2H_CROSSBOWLARGE_MORGANA", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_f1485e8b332e = &CraftingRecipe{SourceItemID: "T5_2H_CROSSBOWLARGE_MORGANA", Attributes: map[string]string{
+	"craftingfocus":   "3001",
+	"silver":          "0",
+	"swaptransaction": "true",
+	"time":            "2",
+}, Resources: []CraftingResource{
+	{ItemID: "T5_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T5_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T5_ARTEFACT_2H_CROSSBOWLARGE_MORGANA", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_3050a92b52d8 = &CraftingRecipe{SourceItemID: "T6_2H_CROSSBOWLARGE_MORGANA", Attributes: map[string]string{
+	"craftingfocus":   "5252",
+	"silver":          "0",
+	"swaptransaction": "true",
+	"time":            "2.667",
+}, Resources: []CraftingResource{
+	{ItemID: "T6_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T6_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T6_ARTEFACT_2H_CROSSBOWLARGE_MORGANA", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_11ad3d1a8588 = &CraftingRecipe{SourceItemID: "T7_2H_CROSSBOWLARGE_MORGANA", Attributes: map[string]string{
+	"craftingfocus":   "9191",
+	"silver":          "0",
+	"swaptransaction": "true",
+	"time":            "3.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T7_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T7_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T7_ARTEFACT_2H_CROSSBOWLARGE_MORGANA", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_00dd5dc3525b = &CraftingRecipe{SourceItemID: "T8_2H_CROSSBOWLARGE_MORGANA", Attributes: map[string]string{
+	"craftingfocus":   "16085",
+	"silver":          "0",
+	"swaptransaction": "true",
+	"time":            "5",
+}, Resources: []CraftingResource{
+	{ItemID: "T8_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T8_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T8_ARTEFACT_2H_CROSSBOWLARGE_MORGANA", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_24b263ae1fd9 = &CraftingRecipe{SourceItemID: "T4_2H_CROSSBOW_CANNON_AVALON", Attributes: map[string]string{
+	"craftingfocus":   "1715",
+	"silver":          "0",
+	"swaptransaction": "true",
+	"time":            "1.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T4_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T4_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T4_ARTEFACT_2H_CROSSBOW_CANNON_AVALON", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_1a2ac5e042c6 = &CraftingRecipe{SourceItemID: "T5_2H_CROSSBOW_CANNON_AVALON", Attributes: map[string]string{
+	"craftingfocus":   "3001",
+	"silver":          "0",
+	"swaptransaction": "true",
+	"time":            "2",
+}, Resources: []CraftingResource{
+	{ItemID: "T5_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T5_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T5_ARTEFACT_2H_CROSSBOW_CANNON_AVALON", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_719a97429dc7 = &CraftingRecipe{SourceItemID: "T6_2H_CROSSBOW_CANNON_AVALON", Attributes: map[string]string{
+	"craftingfocus":   "5252",
+	"silver":          "0",
+	"swaptransaction": "true",
+	"time":            "2.667",
+}, Resources: []CraftingResource{
+	{ItemID: "T6_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T6_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T6_ARTEFACT_2H_CROSSBOW_CANNON_AVALON", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_95839576f69a = &CraftingRecipe{SourceItemID: "T7_2H_CROSSBOW_CANNON_AVALON", Attributes: map[string]string{
+	"craftingfocus":   "9191",
+	"silver":          "0",
+	"swaptransaction": "true",
+	"time":            "3.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T7_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T7_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T7_ARTEFACT_2H_CROSSBOW_CANNON_AVALON", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_6d6de4b2dfb9 = &CraftingRecipe{SourceItemID: "T8_2H_CROSSBOW_CANNON_AVALON", Attributes: map[string]string{
+	"craftingfocus":   "16085",
+	"silver":          "0",
+	"swaptransaction": "true",
+	"time":            "5",
+}, Resources: []CraftingResource{
+	{ItemID: "T8_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T8_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T8_ARTEFACT_2H_CROSSBOW_CANNON_AVALON", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_90c2195b0188 = &CraftingRecipe{SourceItemID: "T4_2H_DUALCROSSBOW_CRYSTAL", Attributes: map[string]string{
+	"craftingfocus": "1715",
+	"silver":        "0",
+	"time":          "1.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T4_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T4_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T4_ARTEFACT_2H_DUALCROSSBOW_CRYSTAL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_4e753cad2745 = &CraftingRecipe{SourceItemID: "T5_2H_DUALCROSSBOW_CRYSTAL", Attributes: map[string]string{
+	"craftingfocus": "3001",
+	"silver":        "0",
+	"time":          "2",
+}, Resources: []CraftingResource{
+	{ItemID: "T5_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T5_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T5_ARTEFACT_2H_DUALCROSSBOW_CRYSTAL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_459c4f999e80 = &CraftingRecipe{SourceItemID: "T6_2H_DUALCROSSBOW_CRYSTAL", Attributes: map[string]string{
+	"craftingfocus": "5252",
+	"silver":        "0",
+	"time":          "2.667",
+}, Resources: []CraftingResource{
+	{ItemID: "T6_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T6_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T6_ARTEFACT_2H_DUALCROSSBOW_CRYSTAL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_a453a98c2d12 = &CraftingRecipe{SourceItemID: "T7_2H_DUALCROSSBOW_CRYSTAL", Attributes: map[string]string{
+	"craftingfocus": "9191",
+	"silver":        "0",
+	"time":          "3.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T7_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T7_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T7_ARTEFACT_2H_DUALCROSSBOW_CRYSTAL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_fe47332ae12b = &CraftingRecipe{SourceItemID: "T8_2H_DUALCROSSBOW_CRYSTAL", Attributes: map[string]string{
+	"craftingfocus": "16085",
+	"silver":        "0",
+	"time":          "5",
+}, Resources: []CraftingResource{
+	{ItemID: "T8_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T8_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T8_ARTEFACT_2H_DUALCROSSBOW_CRYSTAL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_81a3d6eae906 = &CraftingRecipe{SourceItemID: "T3_MAIN_CURSEDSTAFF", Attributes: map[string]string{
+	"craftingfocus": "735",
+	"silver":        "0",
+	"time":          "0.75",
+}, Resources: []CraftingResource{
+	{ItemID: "T3_PLANKS", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T3_METALBAR", Attributes: map[string]string{
+		"count": "8",
+	}},
+}}
+
+var recipe_8a9c4649866a = &CraftingRecipe{SourceItemID: "T4_MAIN_CURSEDSTAFF", Attributes: map[string]string{
+	"craftingfocus": "1286",
+	"silver":        "0",
+	"time":          "1",
+}, Resources: []CraftingResource{
+	{ItemID: "T4_PLANKS", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T4_METALBAR", Attributes: map[string]string{
+		"count": "8",
+	}},
+}}
+
+var recipe_789135ad3e6d = &CraftingRecipe{SourceItemID: "T5_MAIN_CURSEDSTAFF", Attributes: map[string]string{
+	"craftingfocus": "2251",
+	"silver":        "0",
+	"time":          "1.5",
+}, Resources: []CraftingResource{
+	{ItemID: "T5_PLANKS", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T5_METALBAR", Attributes: map[string]string{
+		"count": "8",
+	}},
+}}
+
+var recipe_0ac741b8de92 = &CraftingRecipe{SourceItemID: "T6_MAIN_CURSEDSTAFF", Attributes: map[string]string{
+	"craftingfocus": "3939",
+	"silver":        "0",
+	"time":          "2",
+}, Resources: []CraftingResource{
+	{ItemID: "T6_PLANKS", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T6_METALBAR", Attributes: map[string]string{
+		"count": "8",
+	}},
+}}
+
+var recipe_12f6ae0e5c43 = &CraftingRecipe{SourceItemID: "T7_MAIN_CURSEDSTAFF", Attributes: map[string]string{
+	"craftingfocus": "6893",
+	"silver":        "0",
+	"time":          "2.5",
+}, Resources: []CraftingResource{
+	{ItemID: "T7_PLANKS", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T7_METALBAR", Attributes: map[string]string{
+		"count": "8",
+	}},
+}}
+
+var recipe_cde75afbf189 = &CraftingRecipe{SourceItemID: "T8_MAIN_CURSEDSTAFF", Attributes: map[string]string{
+	"craftingfocus": "12064",
+	"silver":        "0",
+	"time":          "3.75",
+}, Resources: []CraftingResource{
+	{ItemID: "T8_PLANKS", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T8_METALBAR", Attributes: map[string]string{
+		"count": "8",
+	}},
+}}
+
+var recipe_58141d198fc0 = &CraftingRecipe{SourceItemID: "T4_2H_CURSEDSTAFF", Attributes: map[string]string{
+	"craftingfocus": "1715",
+	"silver":        "0",
+	"time":          "1.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T4_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T4_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+}}
+
+var recipe_fed110313f6c = &CraftingRecipe{SourceItemID: "T5_2H_CURSEDSTAFF", Attributes: map[string]string{
+	"craftingfocus": "3001",
+	"silver":        "0",
+	"time":          "2",
+}, Resources: []CraftingResource{
+	{ItemID: "T5_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T5_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+}}
+
+var recipe_1a93d0e721fa = &CraftingRecipe{SourceItemID: "T6_2H_CURSEDSTAFF", Attributes: map[string]string{
+	"craftingfocus": "5252",
+	"silver":        "0",
+	"time":          "2.667",
+}, Resources: []CraftingResource{
+	{ItemID: "T6_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T6_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+}}
+
+var recipe_d06085d88041 = &CraftingRecipe{SourceItemID: "T7_2H_CURSEDSTAFF", Attributes: map[string]string{
+	"craftingfocus": "9191",
+	"silver":        "0",
+	"time":          "3.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T7_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T7_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+}}
+
+var recipe_9d3ac43d4f6e = &CraftingRecipe{SourceItemID: "T8_2H_CURSEDSTAFF", Attributes: map[string]string{
+	"craftingfocus": "16085",
+	"silver":        "0",
+	"time":          "5",
+}, Resources: []CraftingResource{
+	{ItemID: "T8_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T8_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+}}
+
+var recipe_9c4455dfa02d = &CraftingRecipe{SourceItemID: "T4_2H_DEMONICSTAFF", Attributes: map[string]string{
+	"craftingfocus": "1715",
+	"silver":        "0",
+	"time":          "1.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T4_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T4_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+}}
+
+var recipe_9060d8bd1207 = &CraftingRecipe{SourceItemID: "T5_2H_DEMONICSTAFF", Attributes: map[string]string{
+	"craftingfocus": "3001",
+	"silver":        "0",
+	"time":          "2",
+}, Resources: []CraftingResource{
+	{ItemID: "T5_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T5_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+}}
+
+var recipe_8c36997145a0 = &CraftingRecipe{SourceItemID: "T6_2H_DEMONICSTAFF", Attributes: map[string]string{
+	"craftingfocus": "5252",
+	"silver":        "0",
+	"time":          "2.667",
+}, Resources: []CraftingResource{
+	{ItemID: "T6_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T6_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+}}
+
+var recipe_503c28545570 = &CraftingRecipe{SourceItemID: "T7_2H_DEMONICSTAFF", Attributes: map[string]string{
+	"craftingfocus": "9191",
+	"silver":        "0",
+	"time":          "3.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T7_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T7_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+}}
+
+var recipe_4a470b5a2e39 = &CraftingRecipe{SourceItemID: "T8_2H_DEMONICSTAFF", Attributes: map[string]string{
+	"craftingfocus": "16085",
+	"silver":        "0",
+	"time":          "5",
+}, Resources: []CraftingResource{
+	{ItemID: "T8_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T8_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+}}
+
+var recipe_ecd99b59d176 = &CraftingRecipe{SourceItemID: "T4_MAIN_CURSEDSTAFF_UNDEAD", Attributes: map[string]string{
+	"craftingfocus": "1286",
+	"silver":        "0",
+	"time":          "1",
+}, Resources: []CraftingResource{
+	{ItemID: "T4_PLANKS", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T4_METALBAR", Attributes: map[string]string{
+		"count": "8",
+	}},
+	{ItemID: "T4_ARTEFACT_MAIN_CURSEDSTAFF_UNDEAD", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_95f40546c552 = &CraftingRecipe{SourceItemID: "T5_MAIN_CURSEDSTAFF_UNDEAD", Attributes: map[string]string{
+	"craftingfocus": "2251",
+	"silver":        "0",
+	"time":          "1.5",
+}, Resources: []CraftingResource{
+	{ItemID: "T5_PLANKS", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T5_METALBAR", Attributes: map[string]string{
+		"count": "8",
+	}},
+	{ItemID: "T5_ARTEFACT_MAIN_CURSEDSTAFF_UNDEAD", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_4357b0f0d0f5 = &CraftingRecipe{SourceItemID: "T6_MAIN_CURSEDSTAFF_UNDEAD", Attributes: map[string]string{
+	"craftingfocus": "3939",
+	"silver":        "0",
+	"time":          "2",
+}, Resources: []CraftingResource{
+	{ItemID: "T6_PLANKS", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T6_METALBAR", Attributes: map[string]string{
+		"count": "8",
+	}},
+	{ItemID: "T6_ARTEFACT_MAIN_CURSEDSTAFF_UNDEAD", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_a4339a1173dc = &CraftingRecipe{SourceItemID: "T7_MAIN_CURSEDSTAFF_UNDEAD", Attributes: map[string]string{
+	"craftingfocus": "6893",
+	"silver":        "0",
+	"time":          "2.5",
+}, Resources: []CraftingResource{
+	{ItemID: "T7_PLANKS", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T7_METALBAR", Attributes: map[string]string{
+		"count": "8",
+	}},
+	{ItemID: "T7_ARTEFACT_MAIN_CURSEDSTAFF_UNDEAD", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_29aca92c44ac = &CraftingRecipe{SourceItemID: "T8_MAIN_CURSEDSTAFF_UNDEAD", Attributes: map[string]string{
+	"craftingfocus": "12064",
+	"silver":        "0",
+	"time":          "3.75",
+}, Resources: []CraftingResource{
+	{ItemID: "T8_PLANKS", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T8_METALBAR", Attributes: map[string]string{
+		"count": "8",
+	}},
+	{ItemID: "T8_ARTEFACT_MAIN_CURSEDSTAFF_UNDEAD", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_70ccb9904ebc = &CraftingRecipe{SourceItemID: "T4_2H_SKULLORB_HELL", Attributes: map[string]string{
+	"craftingfocus": "1715",
+	"silver":        "0",
+	"time":          "1.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T4_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T4_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T4_ARTEFACT_2H_SKULLORB_HELL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_a1d9134b554c = &CraftingRecipe{SourceItemID: "T5_2H_SKULLORB_HELL", Attributes: map[string]string{
+	"craftingfocus": "3001",
+	"silver":        "0",
+	"time":          "2",
+}, Resources: []CraftingResource{
+	{ItemID: "T5_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T5_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T5_ARTEFACT_2H_SKULLORB_HELL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_ba059079fde5 = &CraftingRecipe{SourceItemID: "T6_2H_SKULLORB_HELL", Attributes: map[string]string{
+	"craftingfocus": "5252",
+	"silver":        "0",
+	"time":          "2.667",
+}, Resources: []CraftingResource{
+	{ItemID: "T6_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T6_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T6_ARTEFACT_2H_SKULLORB_HELL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_b985c61f9e72 = &CraftingRecipe{SourceItemID: "T7_2H_SKULLORB_HELL", Attributes: map[string]string{
+	"craftingfocus": "9191",
+	"silver":        "0",
+	"time":          "3.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T7_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T7_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T7_ARTEFACT_2H_SKULLORB_HELL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_0b203eb149a1 = &CraftingRecipe{SourceItemID: "T8_2H_SKULLORB_HELL", Attributes: map[string]string{
+	"craftingfocus": "16085",
+	"silver":        "0",
+	"time":          "5",
+}, Resources: []CraftingResource{
+	{ItemID: "T8_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T8_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T8_ARTEFACT_2H_SKULLORB_HELL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_9280517e52d6 = &CraftingRecipe{SourceItemID: "T4_2H_CURSEDSTAFF_MORGANA", Attributes: map[string]string{
+	"craftingfocus": "1715",
+	"silver":        "0",
+	"time":          "1.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T4_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T4_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T4_ARTEFACT_2H_CURSEDSTAFF_MORGANA", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_014067491ac7 = &CraftingRecipe{SourceItemID: "T5_2H_CURSEDSTAFF_MORGANA", Attributes: map[string]string{
+	"craftingfocus": "3001",
+	"silver":        "0",
+	"time":          "2",
+}, Resources: []CraftingResource{
+	{ItemID: "T5_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T5_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T5_ARTEFACT_2H_CURSEDSTAFF_MORGANA", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_bd844663b731 = &CraftingRecipe{SourceItemID: "T6_2H_CURSEDSTAFF_MORGANA", Attributes: map[string]string{
+	"craftingfocus": "5252",
+	"silver":        "0",
+	"time":          "2.667",
+}, Resources: []CraftingResource{
+	{ItemID: "T6_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T6_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T6_ARTEFACT_2H_CURSEDSTAFF_MORGANA", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_f9680028aae1 = &CraftingRecipe{SourceItemID: "T7_2H_CURSEDSTAFF_MORGANA", Attributes: map[string]string{
+	"craftingfocus": "9191",
+	"silver":        "0",
+	"time":          "3.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T7_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T7_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T7_ARTEFACT_2H_CURSEDSTAFF_MORGANA", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_485ee6c492bf = &CraftingRecipe{SourceItemID: "T8_2H_CURSEDSTAFF_MORGANA", Attributes: map[string]string{
+	"craftingfocus": "16085",
+	"silver":        "0",
+	"time":          "5",
+}, Resources: []CraftingResource{
+	{ItemID: "T8_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T8_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T8_ARTEFACT_2H_CURSEDSTAFF_MORGANA", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_4368993bce26 = &CraftingRecipe{SourceItemID: "T4_MAIN_CURSEDSTAFF_AVALON", Attributes: map[string]string{
+	"craftingfocus": "1286",
+	"silver":        "0",
+	"time":          "1",
+}, Resources: []CraftingResource{
+	{ItemID: "T4_PLANKS", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T4_METALBAR", Attributes: map[string]string{
+		"count": "8",
+	}},
+	{ItemID: "T4_ARTEFACT_MAIN_CURSEDSTAFF_AVALON", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_7d710f5f8c24 = &CraftingRecipe{SourceItemID: "T5_MAIN_CURSEDSTAFF_AVALON", Attributes: map[string]string{
+	"craftingfocus": "2251",
+	"silver":        "0",
+	"time":          "1.5",
+}, Resources: []CraftingResource{
+	{ItemID: "T5_PLANKS", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T5_METALBAR", Attributes: map[string]string{
+		"count": "8",
+	}},
+	{ItemID: "T5_ARTEFACT_MAIN_CURSEDSTAFF_AVALON", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_00bd67b18790 = &CraftingRecipe{SourceItemID: "T6_MAIN_CURSEDSTAFF_AVALON", Attributes: map[string]string{
+	"craftingfocus": "3939",
+	"silver":        "0",
+	"time":          "2",
+}, Resources: []CraftingResource{
+	{ItemID: "T6_PLANKS", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T6_METALBAR", Attributes: map[string]string{
+		"count": "8",
+	}},
+	{ItemID: "T6_ARTEFACT_MAIN_CURSEDSTAFF_AVALON", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_ef6b4e85f85b = &CraftingRecipe{SourceItemID: "T7_MAIN_CURSEDSTAFF_AVALON", Attributes: map[string]string{
+	"craftingfocus": "6893",
+	"silver":        "0",
+	"time":          "2.5",
+}, Resources: []CraftingResource{
+	{ItemID: "T7_PLANKS", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T7_METALBAR", Attributes: map[string]string{
+		"count": "8",
+	}},
+	{ItemID: "T7_ARTEFACT_MAIN_CURSEDSTAFF_AVALON", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_a95a0d6ec6ca = &CraftingRecipe{SourceItemID: "T8_MAIN_CURSEDSTAFF_AVALON", Attributes: map[string]string{
+	"craftingfocus": "12064",
+	"silver":        "0",
+	"time":          "3.75",
+}, Resources: []CraftingResource{
+	{ItemID: "T8_PLANKS", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T8_METALBAR", Attributes: map[string]string{
+		"count": "8",
+	}},
+	{ItemID: "T8_ARTEFACT_MAIN_CURSEDSTAFF_AVALON", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_8afc3e180b56 = &CraftingRecipe{SourceItemID: "T4_MAIN_CURSEDSTAFF_CRYSTAL", Attributes: map[string]string{
+	"craftingfocus": "1286",
+	"silver":        "0",
+	"time":          "1",
+}, Resources: []CraftingResource{
+	{ItemID: "T4_PLANKS", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T4_METALBAR", Attributes: map[string]string{
+		"count": "8",
+	}},
+	{ItemID: "T4_ARTEFACT_MAIN_CURSEDSTAFF_CRYSTAL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_0a1c89bfe34f = &CraftingRecipe{SourceItemID: "T5_MAIN_CURSEDSTAFF_CRYSTAL", Attributes: map[string]string{
+	"craftingfocus": "2251",
+	"silver":        "0",
+	"time":          "1.5",
+}, Resources: []CraftingResource{
+	{ItemID: "T5_PLANKS", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T5_METALBAR", Attributes: map[string]string{
+		"count": "8",
+	}},
+	{ItemID: "T5_ARTEFACT_MAIN_CURSEDSTAFF_CRYSTAL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_aa3b96425d15 = &CraftingRecipe{SourceItemID: "T6_MAIN_CURSEDSTAFF_CRYSTAL", Attributes: map[string]string{
+	"craftingfocus": "3939",
+	"silver":        "0",
+	"time":          "2",
+}, Resources: []CraftingResource{
+	{ItemID: "T6_PLANKS", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T6_METALBAR", Attributes: map[string]string{
+		"count": "8",
+	}},
+	{ItemID: "T6_ARTEFACT_MAIN_CURSEDSTAFF_CRYSTAL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_61992ece16f1 = &CraftingRecipe{SourceItemID: "T7_MAIN_CURSEDSTAFF_CRYSTAL", Attributes: map[string]string{
+	"craftingfocus": "6893",
+	"silver":        "0",
+	"time":          "2.5",
+}, Resources: []CraftingResource{
+	{ItemID: "T7_PLANKS", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T7_METALBAR", Attributes: map[string]string{
+		"count": "8",
+	}},
+	{ItemID: "T7_ARTEFACT_MAIN_CURSEDSTAFF_CRYSTAL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_7e439531bc29 = &CraftingRecipe{SourceItemID: "T8_MAIN_CURSEDSTAFF_CRYSTAL", Attributes: map[string]string{
+	"craftingfocus": "12064",
+	"silver":        "0",
+	"time":          "3.75",
+}, Resources: []CraftingResource{
+	{ItemID: "T8_PLANKS", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T8_METALBAR", Attributes: map[string]string{
+		"count": "8",
+	}},
+	{ItemID: "T8_ARTEFACT_MAIN_CURSEDSTAFF_CRYSTAL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_991e9089cb4e = &CraftingRecipe{SourceItemID: "T2_MAIN_FIRESTAFF", Attributes: map[string]string{
+	"craftingfocus": "420",
+	"silver":        "0",
+	"time":          "0.5",
+}, Resources: []CraftingResource{
+	{ItemID: "T2_PLANKS", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T2_METALBAR", Attributes: map[string]string{
+		"count": "8",
+	}},
+}}
+
+var recipe_7c7f829e94d9 = &CraftingRecipe{SourceItemID: "T3_MAIN_FIRESTAFF", Attributes: map[string]string{
+	"craftingfocus": "735",
+	"silver":        "0",
+	"time":          "0.75",
+}, Resources: []CraftingResource{
+	{ItemID: "T3_PLANKS", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T3_METALBAR", Attributes: map[string]string{
+		"count": "8",
+	}},
+}}
+
+var recipe_08e51242a1be = &CraftingRecipe{SourceItemID: "T4_MAIN_FIRESTAFF", Attributes: map[string]string{
+	"craftingfocus": "1286",
+	"silver":        "0",
+	"time":          "1",
+}, Resources: []CraftingResource{
+	{ItemID: "T4_PLANKS", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T4_METALBAR", Attributes: map[string]string{
+		"count": "8",
+	}},
+}}
+
+var recipe_ab2dee42f89c = &CraftingRecipe{SourceItemID: "T5_MAIN_FIRESTAFF", Attributes: map[string]string{
+	"craftingfocus": "2251",
+	"silver":        "0",
+	"time":          "1.5",
+}, Resources: []CraftingResource{
+	{ItemID: "T5_PLANKS", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T5_METALBAR", Attributes: map[string]string{
+		"count": "8",
+	}},
+}}
+
+var recipe_a5995fc1a31f = &CraftingRecipe{SourceItemID: "T6_MAIN_FIRESTAFF", Attributes: map[string]string{
+	"craftingfocus": "3939",
+	"silver":        "0",
+	"time":          "2",
+}, Resources: []CraftingResource{
+	{ItemID: "T6_PLANKS", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T6_METALBAR", Attributes: map[string]string{
+		"count": "8",
+	}},
+}}
+
+var recipe_9b6fc0363a17 = &CraftingRecipe{SourceItemID: "T7_MAIN_FIRESTAFF", Attributes: map[string]string{
+	"craftingfocus": "6893",
+	"silver":        "0",
+	"time":          "2.5",
+}, Resources: []CraftingResource{
+	{ItemID: "T7_PLANKS", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T7_METALBAR", Attributes: map[string]string{
+		"count": "8",
+	}},
+}}
+
+var recipe_a560b98a5ea2 = &CraftingRecipe{SourceItemID: "T8_MAIN_FIRESTAFF", Attributes: map[string]string{
+	"craftingfocus": "12064",
+	"silver":        "0",
+	"time":          "3.75",
+}, Resources: []CraftingResource{
+	{ItemID: "T8_PLANKS", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T8_METALBAR", Attributes: map[string]string{
+		"count": "8",
+	}},
+}}
+
+var recipe_ebd1b8bbd80e = &CraftingRecipe{SourceItemID: "T4_2H_FIRESTAFF", Attributes: map[string]string{
+	"craftingfocus": "1715",
+	"silver":        "0",
+	"time":          "1.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T4_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T4_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+}}
+
+var recipe_14775347d1d2 = &CraftingRecipe{SourceItemID: "T5_2H_FIRESTAFF", Attributes: map[string]string{
+	"craftingfocus": "3001",
+	"silver":        "0",
+	"time":          "2",
+}, Resources: []CraftingResource{
+	{ItemID: "T5_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T5_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+}}
+
+var recipe_e1bdeb3955a4 = &CraftingRecipe{SourceItemID: "T6_2H_FIRESTAFF", Attributes: map[string]string{
+	"craftingfocus": "5252",
+	"silver":        "0",
+	"time":          "2.667",
+}, Resources: []CraftingResource{
+	{ItemID: "T6_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T6_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+}}
+
+var recipe_6f1d2c9b2788 = &CraftingRecipe{SourceItemID: "T7_2H_FIRESTAFF", Attributes: map[string]string{
+	"craftingfocus": "9191",
+	"silver":        "0",
+	"time":          "3.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T7_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T7_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+}}
+
+var recipe_e1a7b7e38617 = &CraftingRecipe{SourceItemID: "T8_2H_FIRESTAFF", Attributes: map[string]string{
+	"craftingfocus": "16085",
+	"silver":        "0",
+	"time":          "5",
+}, Resources: []CraftingResource{
+	{ItemID: "T8_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T8_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+}}
+
+var recipe_53be827d59db = &CraftingRecipe{SourceItemID: "T4_2H_INFERNOSTAFF", Attributes: map[string]string{
+	"craftingfocus": "1715",
+	"silver":        "0",
+	"time":          "1.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T4_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T4_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+}}
+
+var recipe_b13d80a09897 = &CraftingRecipe{SourceItemID: "T5_2H_INFERNOSTAFF", Attributes: map[string]string{
+	"craftingfocus": "3001",
+	"silver":        "0",
+	"time":          "2",
+}, Resources: []CraftingResource{
+	{ItemID: "T5_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T5_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+}}
+
+var recipe_fc6c6ec70b70 = &CraftingRecipe{SourceItemID: "T6_2H_INFERNOSTAFF", Attributes: map[string]string{
+	"craftingfocus": "5252",
+	"silver":        "0",
+	"time":          "2.667",
+}, Resources: []CraftingResource{
+	{ItemID: "T6_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T6_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+}}
+
+var recipe_e16a30c0258f = &CraftingRecipe{SourceItemID: "T7_2H_INFERNOSTAFF", Attributes: map[string]string{
+	"craftingfocus": "9191",
+	"silver":        "0",
+	"time":          "3.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T7_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T7_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+}}
+
+var recipe_5f2475d40664 = &CraftingRecipe{SourceItemID: "T8_2H_INFERNOSTAFF", Attributes: map[string]string{
+	"craftingfocus": "16085",
+	"silver":        "0",
+	"time":          "5",
+}, Resources: []CraftingResource{
+	{ItemID: "T8_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T8_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+}}
+
+var recipe_81c7caef1c44 = &CraftingRecipe{SourceItemID: "T4_MAIN_FIRESTAFF_KEEPER", Attributes: map[string]string{
+	"craftingfocus": "1286",
+	"silver":        "0",
+	"time":          "1",
+}, Resources: []CraftingResource{
+	{ItemID: "T4_PLANKS", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T4_METALBAR", Attributes: map[string]string{
+		"count": "8",
+	}},
+	{ItemID: "T4_ARTEFACT_MAIN_FIRESTAFF_KEEPER", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_be38f50d3421 = &CraftingRecipe{SourceItemID: "T5_MAIN_FIRESTAFF_KEEPER", Attributes: map[string]string{
+	"craftingfocus": "2251",
+	"silver":        "0",
+	"time":          "1.5",
+}, Resources: []CraftingResource{
+	{ItemID: "T5_PLANKS", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T5_METALBAR", Attributes: map[string]string{
+		"count": "8",
+	}},
+	{ItemID: "T5_ARTEFACT_MAIN_FIRESTAFF_KEEPER", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_79b4bd19cf3e = &CraftingRecipe{SourceItemID: "T6_MAIN_FIRESTAFF_KEEPER", Attributes: map[string]string{
+	"craftingfocus": "3939",
+	"silver":        "0",
+	"time":          "2",
+}, Resources: []CraftingResource{
+	{ItemID: "T6_PLANKS", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T6_METALBAR", Attributes: map[string]string{
+		"count": "8",
+	}},
+	{ItemID: "T6_ARTEFACT_MAIN_FIRESTAFF_KEEPER", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_6930568333c9 = &CraftingRecipe{SourceItemID: "T7_MAIN_FIRESTAFF_KEEPER", Attributes: map[string]string{
+	"craftingfocus": "6893",
+	"silver":        "0",
+	"time":          "2.5",
+}, Resources: []CraftingResource{
+	{ItemID: "T7_PLANKS", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T7_METALBAR", Attributes: map[string]string{
+		"count": "8",
+	}},
+	{ItemID: "T7_ARTEFACT_MAIN_FIRESTAFF_KEEPER", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_8048ec83eea3 = &CraftingRecipe{SourceItemID: "T8_MAIN_FIRESTAFF_KEEPER", Attributes: map[string]string{
+	"craftingfocus": "12064",
+	"silver":        "0",
+	"time":          "3.75",
+}, Resources: []CraftingResource{
+	{ItemID: "T8_PLANKS", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T8_METALBAR", Attributes: map[string]string{
+		"count": "8",
+	}},
+	{ItemID: "T8_ARTEFACT_MAIN_FIRESTAFF_KEEPER", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_d9a8fcec8379 = &CraftingRecipe{SourceItemID: "T4_2H_FIRESTAFF_HELL", Attributes: map[string]string{
+	"craftingfocus": "1715",
+	"silver":        "0",
+	"time":          "1.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T4_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T4_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T4_ARTEFACT_2H_FIRESTAFF_HELL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_6ede5476534b = &CraftingRecipe{SourceItemID: "T5_2H_FIRESTAFF_HELL", Attributes: map[string]string{
+	"craftingfocus": "3001",
+	"silver":        "0",
+	"time":          "2",
+}, Resources: []CraftingResource{
+	{ItemID: "T5_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T5_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T5_ARTEFACT_2H_FIRESTAFF_HELL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_5f33fb895dd7 = &CraftingRecipe{SourceItemID: "T6_2H_FIRESTAFF_HELL", Attributes: map[string]string{
+	"craftingfocus": "5252",
+	"silver":        "0",
+	"time":          "2.667",
+}, Resources: []CraftingResource{
+	{ItemID: "T6_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T6_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T6_ARTEFACT_2H_FIRESTAFF_HELL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_957214059779 = &CraftingRecipe{SourceItemID: "T7_2H_FIRESTAFF_HELL", Attributes: map[string]string{
+	"craftingfocus": "9191",
+	"silver":        "0",
+	"time":          "3.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T7_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T7_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T7_ARTEFACT_2H_FIRESTAFF_HELL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_cd03b47e6ead = &CraftingRecipe{SourceItemID: "T8_2H_FIRESTAFF_HELL", Attributes: map[string]string{
+	"craftingfocus": "16085",
+	"silver":        "0",
+	"time":          "5",
+}, Resources: []CraftingResource{
+	{ItemID: "T8_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T8_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T8_ARTEFACT_2H_FIRESTAFF_HELL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_0fb2759b0b1a = &CraftingRecipe{SourceItemID: "T4_2H_INFERNOSTAFF_MORGANA", Attributes: map[string]string{
+	"craftingfocus": "1715",
+	"silver":        "0",
+	"time":          "1.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T4_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T4_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T4_ARTEFACT_2H_INFERNOSTAFF_MORGANA", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_b89e9cd01f35 = &CraftingRecipe{SourceItemID: "T5_2H_INFERNOSTAFF_MORGANA", Attributes: map[string]string{
+	"craftingfocus": "3001",
+	"silver":        "0",
+	"time":          "2",
+}, Resources: []CraftingResource{
+	{ItemID: "T5_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T5_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T5_ARTEFACT_2H_INFERNOSTAFF_MORGANA", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_136b44fc67b3 = &CraftingRecipe{SourceItemID: "T6_2H_INFERNOSTAFF_MORGANA", Attributes: map[string]string{
+	"craftingfocus": "5252",
+	"silver":        "0",
+	"time":          "2.667",
+}, Resources: []CraftingResource{
+	{ItemID: "T6_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T6_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T6_ARTEFACT_2H_INFERNOSTAFF_MORGANA", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_15704c37e73e = &CraftingRecipe{SourceItemID: "T7_2H_INFERNOSTAFF_MORGANA", Attributes: map[string]string{
+	"craftingfocus": "9191",
+	"silver":        "0",
+	"time":          "3.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T7_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T7_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T7_ARTEFACT_2H_INFERNOSTAFF_MORGANA", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_95bb7ea8b58e = &CraftingRecipe{SourceItemID: "T8_2H_INFERNOSTAFF_MORGANA", Attributes: map[string]string{
+	"craftingfocus": "16085",
+	"silver":        "0",
+	"time":          "5",
+}, Resources: []CraftingResource{
+	{ItemID: "T8_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T8_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T8_ARTEFACT_2H_INFERNOSTAFF_MORGANA", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_09ce291cba48 = &CraftingRecipe{SourceItemID: "T4_2H_FIRE_RINGPAIR_AVALON", Attributes: map[string]string{
+	"craftingfocus": "1715",
+	"silver":        "0",
+	"time":          "1.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T4_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T4_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T4_ARTEFACT_2H_FIRE_RINGPAIR_AVALON", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_9198c1e8162e = &CraftingRecipe{SourceItemID: "T5_2H_FIRE_RINGPAIR_AVALON", Attributes: map[string]string{
+	"craftingfocus": "3001",
+	"silver":        "0",
+	"time":          "2",
+}, Resources: []CraftingResource{
+	{ItemID: "T5_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T5_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T5_ARTEFACT_2H_FIRE_RINGPAIR_AVALON", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_6a9a213e7b40 = &CraftingRecipe{SourceItemID: "T6_2H_FIRE_RINGPAIR_AVALON", Attributes: map[string]string{
+	"craftingfocus": "5252",
+	"silver":        "0",
+	"time":          "2.667",
+}, Resources: []CraftingResource{
+	{ItemID: "T6_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T6_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T6_ARTEFACT_2H_FIRE_RINGPAIR_AVALON", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_e2589182fdb4 = &CraftingRecipe{SourceItemID: "T7_2H_FIRE_RINGPAIR_AVALON", Attributes: map[string]string{
+	"craftingfocus": "9191",
+	"silver":        "0",
+	"time":          "3.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T7_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T7_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T7_ARTEFACT_2H_FIRE_RINGPAIR_AVALON", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_e2491755aed2 = &CraftingRecipe{SourceItemID: "T8_2H_FIRE_RINGPAIR_AVALON", Attributes: map[string]string{
+	"craftingfocus": "16085",
+	"silver":        "0",
+	"time":          "5",
+}, Resources: []CraftingResource{
+	{ItemID: "T8_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T8_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T8_ARTEFACT_2H_FIRE_RINGPAIR_AVALON", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_d8d9a10ef441 = &CraftingRecipe{SourceItemID: "T4_MAIN_FIRESTAFF_CRYSTAL", Attributes: map[string]string{
+	"craftingfocus": "1286",
+	"silver":        "0",
+	"time":          "1",
+}, Resources: []CraftingResource{
+	{ItemID: "T4_PLANKS", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T4_METALBAR", Attributes: map[string]string{
+		"count": "8",
+	}},
+	{ItemID: "T4_ARTEFACT_MAIN_FIRESTAFF_CRYSTAL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_535535916220 = &CraftingRecipe{SourceItemID: "T5_MAIN_FIRESTAFF_CRYSTAL", Attributes: map[string]string{
+	"craftingfocus": "2251",
+	"silver":        "0",
+	"time":          "1.5",
+}, Resources: []CraftingResource{
+	{ItemID: "T5_PLANKS", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T5_METALBAR", Attributes: map[string]string{
+		"count": "8",
+	}},
+	{ItemID: "T5_ARTEFACT_MAIN_FIRESTAFF_CRYSTAL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_3778ec30534c = &CraftingRecipe{SourceItemID: "T6_MAIN_FIRESTAFF_CRYSTAL", Attributes: map[string]string{
+	"craftingfocus": "3939",
+	"silver":        "0",
+	"time":          "2",
+}, Resources: []CraftingResource{
+	{ItemID: "T6_PLANKS", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T6_METALBAR", Attributes: map[string]string{
+		"count": "8",
+	}},
+	{ItemID: "T6_ARTEFACT_MAIN_FIRESTAFF_CRYSTAL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_a488d1287999 = &CraftingRecipe{SourceItemID: "T7_MAIN_FIRESTAFF_CRYSTAL", Attributes: map[string]string{
+	"craftingfocus": "6893",
+	"silver":        "0",
+	"time":          "2.5",
+}, Resources: []CraftingResource{
+	{ItemID: "T7_PLANKS", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T7_METALBAR", Attributes: map[string]string{
+		"count": "8",
+	}},
+	{ItemID: "T7_ARTEFACT_MAIN_FIRESTAFF_CRYSTAL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_8fd9f01ffce6 = &CraftingRecipe{SourceItemID: "T8_MAIN_FIRESTAFF_CRYSTAL", Attributes: map[string]string{
+	"craftingfocus": "12064",
+	"silver":        "0",
+	"time":          "3.75",
+}, Resources: []CraftingResource{
+	{ItemID: "T8_PLANKS", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T8_METALBAR", Attributes: map[string]string{
+		"count": "8",
+	}},
+	{ItemID: "T8_ARTEFACT_MAIN_FIRESTAFF_CRYSTAL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_8b9be69e3a9b = &CraftingRecipe{SourceItemID: "T3_MAIN_FROSTSTAFF", Attributes: map[string]string{
+	"craftingfocus": "735",
+	"silver":        "0",
+	"time":          "0.75",
+}, Resources: []CraftingResource{
+	{ItemID: "T3_PLANKS", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T3_METALBAR", Attributes: map[string]string{
+		"count": "8",
+	}},
+}}
+
+var recipe_fc99464383c2 = &CraftingRecipe{SourceItemID: "T4_MAIN_FROSTSTAFF", Attributes: map[string]string{
+	"craftingfocus": "1286",
+	"silver":        "0",
+	"time":          "1",
+}, Resources: []CraftingResource{
+	{ItemID: "T4_PLANKS", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T4_METALBAR", Attributes: map[string]string{
+		"count": "8",
+	}},
+}}
+
+var recipe_e25e7bc64f7c = &CraftingRecipe{SourceItemID: "T5_MAIN_FROSTSTAFF", Attributes: map[string]string{
+	"craftingfocus": "2251",
+	"silver":        "0",
+	"time":          "1.5",
+}, Resources: []CraftingResource{
+	{ItemID: "T5_PLANKS", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T5_METALBAR", Attributes: map[string]string{
+		"count": "8",
+	}},
+}}
+
+var recipe_4f311ec9f876 = &CraftingRecipe{SourceItemID: "T6_MAIN_FROSTSTAFF", Attributes: map[string]string{
+	"craftingfocus": "3939",
+	"silver":        "0",
+	"time":          "2",
+}, Resources: []CraftingResource{
+	{ItemID: "T6_PLANKS", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T6_METALBAR", Attributes: map[string]string{
+		"count": "8",
+	}},
+}}
+
+var recipe_13bca2ff70af = &CraftingRecipe{SourceItemID: "T7_MAIN_FROSTSTAFF", Attributes: map[string]string{
+	"craftingfocus": "6893",
+	"silver":        "0",
+	"time":          "2.5",
+}, Resources: []CraftingResource{
+	{ItemID: "T7_PLANKS", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T7_METALBAR", Attributes: map[string]string{
+		"count": "8",
+	}},
+}}
+
+var recipe_5894dbddcbe1 = &CraftingRecipe{SourceItemID: "T8_MAIN_FROSTSTAFF", Attributes: map[string]string{
+	"craftingfocus": "12064",
+	"silver":        "0",
+	"time":          "3.75",
+}, Resources: []CraftingResource{
+	{ItemID: "T8_PLANKS", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T8_METALBAR", Attributes: map[string]string{
+		"count": "8",
+	}},
+}}
+
+var recipe_7b86cf632490 = &CraftingRecipe{SourceItemID: "T4_2H_FROSTSTAFF", Attributes: map[string]string{
+	"craftingfocus": "1715",
+	"silver":        "0",
+	"time":          "1.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T4_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T4_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+}}
+
+var recipe_cd089c6787f5 = &CraftingRecipe{SourceItemID: "T5_2H_FROSTSTAFF", Attributes: map[string]string{
+	"craftingfocus": "3001",
+	"silver":        "0",
+	"time":          "2",
+}, Resources: []CraftingResource{
+	{ItemID: "T5_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T5_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+}}
+
+var recipe_5774eb307700 = &CraftingRecipe{SourceItemID: "T6_2H_FROSTSTAFF", Attributes: map[string]string{
+	"craftingfocus": "5252",
+	"silver":        "0",
+	"time":          "2.667",
+}, Resources: []CraftingResource{
+	{ItemID: "T6_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T6_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+}}
+
+var recipe_9bab7da2cac6 = &CraftingRecipe{SourceItemID: "T7_2H_FROSTSTAFF", Attributes: map[string]string{
+	"craftingfocus": "9191",
+	"silver":        "0",
+	"time":          "3.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T7_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T7_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+}}
+
+var recipe_457a7112466e = &CraftingRecipe{SourceItemID: "T8_2H_FROSTSTAFF", Attributes: map[string]string{
+	"craftingfocus": "16085",
+	"silver":        "0",
+	"time":          "5",
+}, Resources: []CraftingResource{
+	{ItemID: "T8_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T8_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+}}
+
+var recipe_27569fcc6fb2 = &CraftingRecipe{SourceItemID: "T4_2H_GLACIALSTAFF", Attributes: map[string]string{
+	"craftingfocus": "1715",
+	"silver":        "0",
+	"time":          "1.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T4_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T4_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+}}
+
+var recipe_df280910c3d3 = &CraftingRecipe{SourceItemID: "T5_2H_GLACIALSTAFF", Attributes: map[string]string{
+	"craftingfocus": "3001",
+	"silver":        "0",
+	"time":          "2",
+}, Resources: []CraftingResource{
+	{ItemID: "T5_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T5_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+}}
+
+var recipe_be4eadc02627 = &CraftingRecipe{SourceItemID: "T6_2H_GLACIALSTAFF", Attributes: map[string]string{
+	"craftingfocus": "5252",
+	"silver":        "0",
+	"time":          "2.667",
+}, Resources: []CraftingResource{
+	{ItemID: "T6_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T6_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+}}
+
+var recipe_f35ec69e8495 = &CraftingRecipe{SourceItemID: "T7_2H_GLACIALSTAFF", Attributes: map[string]string{
+	"craftingfocus": "9191",
+	"silver":        "0",
+	"time":          "3.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T7_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T7_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+}}
+
+var recipe_bc526ecbefbf = &CraftingRecipe{SourceItemID: "T8_2H_GLACIALSTAFF", Attributes: map[string]string{
+	"craftingfocus": "16085",
+	"silver":        "0",
+	"time":          "5",
+}, Resources: []CraftingResource{
+	{ItemID: "T8_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T8_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+}}
+
+var recipe_4cc46ba7ec17 = &CraftingRecipe{SourceItemID: "T4_MAIN_FROSTSTAFF_KEEPER", Attributes: map[string]string{
+	"craftingfocus": "1286",
+	"silver":        "0",
+	"time":          "1",
+}, Resources: []CraftingResource{
+	{ItemID: "T4_PLANKS", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T4_METALBAR", Attributes: map[string]string{
+		"count": "8",
+	}},
+	{ItemID: "T4_ARTEFACT_MAIN_FROSTSTAFF_KEEPER", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_5773dc9a8d28 = &CraftingRecipe{SourceItemID: "T5_MAIN_FROSTSTAFF_KEEPER", Attributes: map[string]string{
+	"craftingfocus": "2251",
+	"silver":        "0",
+	"time":          "1.5",
+}, Resources: []CraftingResource{
+	{ItemID: "T5_PLANKS", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T5_METALBAR", Attributes: map[string]string{
+		"count": "8",
+	}},
+	{ItemID: "T5_ARTEFACT_MAIN_FROSTSTAFF_KEEPER", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_d40e5b49985d = &CraftingRecipe{SourceItemID: "T6_MAIN_FROSTSTAFF_KEEPER", Attributes: map[string]string{
+	"craftingfocus": "3939",
+	"silver":        "0",
+	"time":          "2",
+}, Resources: []CraftingResource{
+	{ItemID: "T6_PLANKS", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T6_METALBAR", Attributes: map[string]string{
+		"count": "8",
+	}},
+	{ItemID: "T6_ARTEFACT_MAIN_FROSTSTAFF_KEEPER", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_f23a3d3482fa = &CraftingRecipe{SourceItemID: "T7_MAIN_FROSTSTAFF_KEEPER", Attributes: map[string]string{
+	"craftingfocus": "6893",
+	"silver":        "0",
+	"time":          "2.5",
+}, Resources: []CraftingResource{
+	{ItemID: "T7_PLANKS", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T7_METALBAR", Attributes: map[string]string{
+		"count": "8",
+	}},
+	{ItemID: "T7_ARTEFACT_MAIN_FROSTSTAFF_KEEPER", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_d89aabdd3b65 = &CraftingRecipe{SourceItemID: "T8_MAIN_FROSTSTAFF_KEEPER", Attributes: map[string]string{
+	"craftingfocus": "12064",
+	"silver":        "0",
+	"time":          "3.75",
+}, Resources: []CraftingResource{
+	{ItemID: "T8_PLANKS", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T8_METALBAR", Attributes: map[string]string{
+		"count": "8",
+	}},
+	{ItemID: "T8_ARTEFACT_MAIN_FROSTSTAFF_KEEPER", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_f85e12160f04 = &CraftingRecipe{SourceItemID: "T4_2H_ICEGAUNTLETS_HELL", Attributes: map[string]string{
+	"craftingfocus": "1715",
+	"silver":        "0",
+	"time":          "1.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T4_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T4_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T4_ARTEFACT_2H_ICEGAUNTLETS_HELL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_108ab013837d = &CraftingRecipe{SourceItemID: "T5_2H_ICEGAUNTLETS_HELL", Attributes: map[string]string{
+	"craftingfocus": "3001",
+	"silver":        "0",
+	"time":          "2",
+}, Resources: []CraftingResource{
+	{ItemID: "T5_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T5_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T5_ARTEFACT_2H_ICEGAUNTLETS_HELL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_a0fe4bde172c = &CraftingRecipe{SourceItemID: "T6_2H_ICEGAUNTLETS_HELL", Attributes: map[string]string{
+	"craftingfocus": "5252",
+	"silver":        "0",
+	"time":          "2.667",
+}, Resources: []CraftingResource{
+	{ItemID: "T6_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T6_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T6_ARTEFACT_2H_ICEGAUNTLETS_HELL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_06ec4a9ce5c7 = &CraftingRecipe{SourceItemID: "T7_2H_ICEGAUNTLETS_HELL", Attributes: map[string]string{
+	"craftingfocus": "9191",
+	"silver":        "0",
+	"time":          "3.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T7_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T7_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T7_ARTEFACT_2H_ICEGAUNTLETS_HELL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_b2278020425d = &CraftingRecipe{SourceItemID: "T8_2H_ICEGAUNTLETS_HELL", Attributes: map[string]string{
+	"craftingfocus": "16085",
+	"silver":        "0",
+	"time":          "5",
+}, Resources: []CraftingResource{
+	{ItemID: "T8_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T8_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T8_ARTEFACT_2H_ICEGAUNTLETS_HELL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_cd4b347619d0 = &CraftingRecipe{SourceItemID: "T4_2H_ICECRYSTAL_UNDEAD", Attributes: map[string]string{
+	"craftingfocus": "1715",
+	"silver":        "0",
+	"time":          "1.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T4_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T4_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T4_ARTEFACT_2H_ICECRYSTAL_UNDEAD", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_e84a50e12636 = &CraftingRecipe{SourceItemID: "T5_2H_ICECRYSTAL_UNDEAD", Attributes: map[string]string{
+	"craftingfocus": "3001",
+	"silver":        "0",
+	"time":          "2",
+}, Resources: []CraftingResource{
+	{ItemID: "T5_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T5_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T5_ARTEFACT_2H_ICECRYSTAL_UNDEAD", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_176c2bb4bc3a = &CraftingRecipe{SourceItemID: "T6_2H_ICECRYSTAL_UNDEAD", Attributes: map[string]string{
+	"craftingfocus": "5252",
+	"silver":        "0",
+	"time":          "2.667",
+}, Resources: []CraftingResource{
+	{ItemID: "T6_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T6_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T6_ARTEFACT_2H_ICECRYSTAL_UNDEAD", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_ab96819052d8 = &CraftingRecipe{SourceItemID: "T7_2H_ICECRYSTAL_UNDEAD", Attributes: map[string]string{
+	"craftingfocus": "9191",
+	"silver":        "0",
+	"time":          "3.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T7_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T7_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T7_ARTEFACT_2H_ICECRYSTAL_UNDEAD", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_3b5e36aad10e = &CraftingRecipe{SourceItemID: "T8_2H_ICECRYSTAL_UNDEAD", Attributes: map[string]string{
+	"craftingfocus": "16085",
+	"silver":        "0",
+	"time":          "5",
+}, Resources: []CraftingResource{
+	{ItemID: "T8_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T8_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T8_ARTEFACT_2H_ICECRYSTAL_UNDEAD", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_4c1491a27848 = &CraftingRecipe{SourceItemID: "T4_MAIN_FROSTSTAFF_AVALON", Attributes: map[string]string{
+	"craftingfocus": "1286",
+	"silver":        "0",
+	"time":          "1",
+}, Resources: []CraftingResource{
+	{ItemID: "T4_PLANKS", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T4_METALBAR", Attributes: map[string]string{
+		"count": "8",
+	}},
+	{ItemID: "T4_ARTEFACT_MAIN_FROSTSTAFF_AVALON", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_b29ae26b6ae8 = &CraftingRecipe{SourceItemID: "T5_MAIN_FROSTSTAFF_AVALON", Attributes: map[string]string{
+	"craftingfocus": "2251",
+	"silver":        "0",
+	"time":          "1.5",
+}, Resources: []CraftingResource{
+	{ItemID: "T5_PLANKS", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T5_METALBAR", Attributes: map[string]string{
+		"count": "8",
+	}},
+	{ItemID: "T5_ARTEFACT_MAIN_FROSTSTAFF_AVALON", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_adda674c3b52 = &CraftingRecipe{SourceItemID: "T6_MAIN_FROSTSTAFF_AVALON", Attributes: map[string]string{
+	"craftingfocus": "3939",
+	"silver":        "0",
+	"time":          "2",
+}, Resources: []CraftingResource{
+	{ItemID: "T6_PLANKS", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T6_METALBAR", Attributes: map[string]string{
+		"count": "8",
+	}},
+	{ItemID: "T6_ARTEFACT_MAIN_FROSTSTAFF_AVALON", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_40ecac1fca64 = &CraftingRecipe{SourceItemID: "T7_MAIN_FROSTSTAFF_AVALON", Attributes: map[string]string{
+	"craftingfocus": "6893",
+	"silver":        "0",
+	"time":          "2.5",
+}, Resources: []CraftingResource{
+	{ItemID: "T7_PLANKS", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T7_METALBAR", Attributes: map[string]string{
+		"count": "8",
+	}},
+	{ItemID: "T7_ARTEFACT_MAIN_FROSTSTAFF_AVALON", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_5af520336139 = &CraftingRecipe{SourceItemID: "T8_MAIN_FROSTSTAFF_AVALON", Attributes: map[string]string{
+	"craftingfocus": "12064",
+	"silver":        "0",
+	"time":          "3.75",
+}, Resources: []CraftingResource{
+	{ItemID: "T8_PLANKS", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T8_METALBAR", Attributes: map[string]string{
+		"count": "8",
+	}},
+	{ItemID: "T8_ARTEFACT_MAIN_FROSTSTAFF_AVALON", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_effd00ce9dc6 = &CraftingRecipe{SourceItemID: "T4_2H_FROSTSTAFF_CRYSTAL", Attributes: map[string]string{
+	"craftingfocus": "1715",
+	"silver":        "0",
+	"time":          "1.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T4_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T4_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T4_ARTEFACT_2H_FROSTSTAFF_CRYSTAL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_d9fe473d6274 = &CraftingRecipe{SourceItemID: "T5_2H_FROSTSTAFF_CRYSTAL", Attributes: map[string]string{
+	"craftingfocus": "3001",
+	"silver":        "0",
+	"time":          "2",
+}, Resources: []CraftingResource{
+	{ItemID: "T5_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T5_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T5_ARTEFACT_2H_FROSTSTAFF_CRYSTAL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_0f1af3a94a41 = &CraftingRecipe{SourceItemID: "T6_2H_FROSTSTAFF_CRYSTAL", Attributes: map[string]string{
+	"craftingfocus": "5252",
+	"silver":        "0",
+	"time":          "2.667",
+}, Resources: []CraftingResource{
+	{ItemID: "T6_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T6_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T6_ARTEFACT_2H_FROSTSTAFF_CRYSTAL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_0912d576111b = &CraftingRecipe{SourceItemID: "T7_2H_FROSTSTAFF_CRYSTAL", Attributes: map[string]string{
+	"craftingfocus": "9191",
+	"silver":        "0",
+	"time":          "3.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T7_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T7_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T7_ARTEFACT_2H_FROSTSTAFF_CRYSTAL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_9a0dcb8072ab = &CraftingRecipe{SourceItemID: "T8_2H_FROSTSTAFF_CRYSTAL", Attributes: map[string]string{
+	"craftingfocus": "16085",
+	"silver":        "0",
+	"time":          "5",
+}, Resources: []CraftingResource{
+	{ItemID: "T8_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T8_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T8_ARTEFACT_2H_FROSTSTAFF_CRYSTAL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_342699aabb94 = &CraftingRecipe{SourceItemID: "T3_MAIN_ARCANESTAFF", Attributes: map[string]string{
+	"craftingfocus": "735",
+	"silver":        "0",
+	"time":          "0.75",
+}, Resources: []CraftingResource{
+	{ItemID: "T3_PLANKS", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T3_METALBAR", Attributes: map[string]string{
+		"count": "8",
+	}},
+}}
+
+var recipe_837fcb975be9 = &CraftingRecipe{SourceItemID: "T4_MAIN_ARCANESTAFF", Attributes: map[string]string{
+	"craftingfocus": "1286",
+	"silver":        "0",
+	"time":          "1",
+}, Resources: []CraftingResource{
+	{ItemID: "T4_PLANKS", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T4_METALBAR", Attributes: map[string]string{
+		"count": "8",
+	}},
+}}
+
+var recipe_24e6fe818596 = &CraftingRecipe{SourceItemID: "T5_MAIN_ARCANESTAFF", Attributes: map[string]string{
+	"craftingfocus": "2251",
+	"silver":        "0",
+	"time":          "1.5",
+}, Resources: []CraftingResource{
+	{ItemID: "T5_PLANKS", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T5_METALBAR", Attributes: map[string]string{
+		"count": "8",
+	}},
+}}
+
+var recipe_f808e5cb51b3 = &CraftingRecipe{SourceItemID: "T6_MAIN_ARCANESTAFF", Attributes: map[string]string{
+	"craftingfocus": "3939",
+	"silver":        "0",
+	"time":          "2",
+}, Resources: []CraftingResource{
+	{ItemID: "T6_PLANKS", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T6_METALBAR", Attributes: map[string]string{
+		"count": "8",
+	}},
+}}
+
+var recipe_cf544838d990 = &CraftingRecipe{SourceItemID: "T7_MAIN_ARCANESTAFF", Attributes: map[string]string{
+	"craftingfocus": "6893",
+	"silver":        "0",
+	"time":          "2.5",
+}, Resources: []CraftingResource{
+	{ItemID: "T7_PLANKS", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T7_METALBAR", Attributes: map[string]string{
+		"count": "8",
+	}},
+}}
+
+var recipe_e8465d349b67 = &CraftingRecipe{SourceItemID: "T8_MAIN_ARCANESTAFF", Attributes: map[string]string{
+	"craftingfocus": "12064",
+	"silver":        "0",
+	"time":          "3.75",
+}, Resources: []CraftingResource{
+	{ItemID: "T8_PLANKS", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T8_METALBAR", Attributes: map[string]string{
+		"count": "8",
+	}},
+}}
+
+var recipe_cda6cb435243 = &CraftingRecipe{SourceItemID: "T4_2H_ARCANESTAFF", Attributes: map[string]string{
+	"craftingfocus": "1715",
+	"silver":        "0",
+	"time":          "1.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T4_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T4_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+}}
+
+var recipe_ab27d6fccc0f = &CraftingRecipe{SourceItemID: "T5_2H_ARCANESTAFF", Attributes: map[string]string{
+	"craftingfocus": "3001",
+	"silver":        "0",
+	"time":          "2",
+}, Resources: []CraftingResource{
+	{ItemID: "T5_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T5_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+}}
+
+var recipe_bda52fe3d4ae = &CraftingRecipe{SourceItemID: "T6_2H_ARCANESTAFF", Attributes: map[string]string{
+	"craftingfocus": "5252",
+	"silver":        "0",
+	"time":          "2.667",
+}, Resources: []CraftingResource{
+	{ItemID: "T6_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T6_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+}}
+
+var recipe_92cb870a9803 = &CraftingRecipe{SourceItemID: "T7_2H_ARCANESTAFF", Attributes: map[string]string{
+	"craftingfocus": "9191",
+	"silver":        "0",
+	"time":          "3.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T7_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T7_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+}}
+
+var recipe_3817a48dfd1d = &CraftingRecipe{SourceItemID: "T8_2H_ARCANESTAFF", Attributes: map[string]string{
+	"craftingfocus": "16085",
+	"silver":        "0",
+	"time":          "5",
+}, Resources: []CraftingResource{
+	{ItemID: "T8_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T8_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+}}
+
+var recipe_fee957776753 = &CraftingRecipe{SourceItemID: "T4_2H_ENIGMATICSTAFF", Attributes: map[string]string{
+	"craftingfocus": "1715",
+	"silver":        "0",
+	"time":          "1.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T4_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T4_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+}}
+
+var recipe_7e2c207b8dfc = &CraftingRecipe{SourceItemID: "T5_2H_ENIGMATICSTAFF", Attributes: map[string]string{
+	"craftingfocus": "3001",
+	"silver":        "0",
+	"time":          "2",
+}, Resources: []CraftingResource{
+	{ItemID: "T5_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T5_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+}}
+
+var recipe_c2d61ea45ad4 = &CraftingRecipe{SourceItemID: "T6_2H_ENIGMATICSTAFF", Attributes: map[string]string{
+	"craftingfocus": "5252",
+	"silver":        "0",
+	"time":          "2.667",
+}, Resources: []CraftingResource{
+	{ItemID: "T6_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T6_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+}}
+
+var recipe_a462b1274518 = &CraftingRecipe{SourceItemID: "T7_2H_ENIGMATICSTAFF", Attributes: map[string]string{
+	"craftingfocus": "9191",
+	"silver":        "0",
+	"time":          "3.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T7_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T7_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+}}
+
+var recipe_2b1e018a82cc = &CraftingRecipe{SourceItemID: "T8_2H_ENIGMATICSTAFF", Attributes: map[string]string{
+	"craftingfocus": "16085",
+	"silver":        "0",
+	"time":          "5",
+}, Resources: []CraftingResource{
+	{ItemID: "T8_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T8_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+}}
+
+var recipe_e8056f342aee = &CraftingRecipe{SourceItemID: "T4_MAIN_ARCANESTAFF_UNDEAD", Attributes: map[string]string{
+	"craftingfocus": "1286",
+	"silver":        "0",
+	"time":          "1",
+}, Resources: []CraftingResource{
+	{ItemID: "T4_PLANKS", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T4_METALBAR", Attributes: map[string]string{
+		"count": "8",
+	}},
+	{ItemID: "T4_ARTEFACT_MAIN_ARCANESTAFF_UNDEAD", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_858d29dc78c3 = &CraftingRecipe{SourceItemID: "T5_MAIN_ARCANESTAFF_UNDEAD", Attributes: map[string]string{
+	"craftingfocus": "2251",
+	"silver":        "0",
+	"time":          "1.5",
+}, Resources: []CraftingResource{
+	{ItemID: "T5_PLANKS", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T5_METALBAR", Attributes: map[string]string{
+		"count": "8",
+	}},
+	{ItemID: "T5_ARTEFACT_MAIN_ARCANESTAFF_UNDEAD", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_9551659fd626 = &CraftingRecipe{SourceItemID: "T6_MAIN_ARCANESTAFF_UNDEAD", Attributes: map[string]string{
+	"craftingfocus": "3939",
+	"silver":        "0",
+	"time":          "2",
+}, Resources: []CraftingResource{
+	{ItemID: "T6_PLANKS", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T6_METALBAR", Attributes: map[string]string{
+		"count": "8",
+	}},
+	{ItemID: "T6_ARTEFACT_MAIN_ARCANESTAFF_UNDEAD", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_7b63c0a63abb = &CraftingRecipe{SourceItemID: "T7_MAIN_ARCANESTAFF_UNDEAD", Attributes: map[string]string{
+	"craftingfocus": "6893",
+	"silver":        "0",
+	"time":          "2.5",
+}, Resources: []CraftingResource{
+	{ItemID: "T7_PLANKS", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T7_METALBAR", Attributes: map[string]string{
+		"count": "8",
+	}},
+	{ItemID: "T7_ARTEFACT_MAIN_ARCANESTAFF_UNDEAD", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_9f4692133dc1 = &CraftingRecipe{SourceItemID: "T8_MAIN_ARCANESTAFF_UNDEAD", Attributes: map[string]string{
+	"craftingfocus": "12064",
+	"silver":        "0",
+	"time":          "3.75",
+}, Resources: []CraftingResource{
+	{ItemID: "T8_PLANKS", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T8_METALBAR", Attributes: map[string]string{
+		"count": "8",
+	}},
+	{ItemID: "T8_ARTEFACT_MAIN_ARCANESTAFF_UNDEAD", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_c57c9bf412cf = &CraftingRecipe{SourceItemID: "T4_2H_ARCANESTAFF_HELL", Attributes: map[string]string{
+	"craftingfocus": "1715",
+	"silver":        "0",
+	"time":          "1.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T4_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T4_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T4_ARTEFACT_2H_ARCANESTAFF_HELL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_a6164f0dc7b6 = &CraftingRecipe{SourceItemID: "T5_2H_ARCANESTAFF_HELL", Attributes: map[string]string{
+	"craftingfocus": "3001",
+	"silver":        "0",
+	"time":          "2",
+}, Resources: []CraftingResource{
+	{ItemID: "T5_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T5_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T5_ARTEFACT_2H_ARCANESTAFF_HELL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_c066b109b71c = &CraftingRecipe{SourceItemID: "T6_2H_ARCANESTAFF_HELL", Attributes: map[string]string{
+	"craftingfocus": "5252",
+	"silver":        "0",
+	"time":          "2.667",
+}, Resources: []CraftingResource{
+	{ItemID: "T6_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T6_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T6_ARTEFACT_2H_ARCANESTAFF_HELL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_9b4a8f00aa93 = &CraftingRecipe{SourceItemID: "T7_2H_ARCANESTAFF_HELL", Attributes: map[string]string{
+	"craftingfocus": "9191",
+	"silver":        "0",
+	"time":          "3.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T7_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T7_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T7_ARTEFACT_2H_ARCANESTAFF_HELL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_ef669934bea0 = &CraftingRecipe{SourceItemID: "T8_2H_ARCANESTAFF_HELL", Attributes: map[string]string{
+	"craftingfocus": "16085",
+	"silver":        "0",
+	"time":          "5",
+}, Resources: []CraftingResource{
+	{ItemID: "T8_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T8_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T8_ARTEFACT_2H_ARCANESTAFF_HELL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_6b11adf0c5a5 = &CraftingRecipe{SourceItemID: "T4_2H_ENIGMATICORB_MORGANA", Attributes: map[string]string{
+	"craftingfocus": "1715",
+	"silver":        "0",
+	"time":          "1.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T4_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T4_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T4_ARTEFACT_2H_ENIGMATICORB_MORGANA", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_07f3dd0762c2 = &CraftingRecipe{SourceItemID: "T5_2H_ENIGMATICORB_MORGANA", Attributes: map[string]string{
+	"craftingfocus": "3001",
+	"silver":        "0",
+	"time":          "2",
+}, Resources: []CraftingResource{
+	{ItemID: "T5_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T5_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T5_ARTEFACT_2H_ENIGMATICORB_MORGANA", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_49620821479e = &CraftingRecipe{SourceItemID: "T6_2H_ENIGMATICORB_MORGANA", Attributes: map[string]string{
+	"craftingfocus": "5252",
+	"silver":        "0",
+	"time":          "2.667",
+}, Resources: []CraftingResource{
+	{ItemID: "T6_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T6_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T6_ARTEFACT_2H_ENIGMATICORB_MORGANA", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_478bb5f9dfb9 = &CraftingRecipe{SourceItemID: "T7_2H_ENIGMATICORB_MORGANA", Attributes: map[string]string{
+	"craftingfocus": "9191",
+	"silver":        "0",
+	"time":          "3.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T7_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T7_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T7_ARTEFACT_2H_ENIGMATICORB_MORGANA", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_f4ce26d92069 = &CraftingRecipe{SourceItemID: "T8_2H_ENIGMATICORB_MORGANA", Attributes: map[string]string{
+	"craftingfocus": "16085",
+	"silver":        "0",
+	"time":          "5",
+}, Resources: []CraftingResource{
+	{ItemID: "T8_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T8_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T8_ARTEFACT_2H_ENIGMATICORB_MORGANA", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_0ac55d931fcc = &CraftingRecipe{SourceItemID: "T4_2H_ARCANE_RINGPAIR_AVALON", Attributes: map[string]string{
+	"craftingfocus": "1715",
+	"silver":        "0",
+	"time":          "1.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T4_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T4_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T4_ARTEFACT_2H_ARCANE_RINGPAIR_AVALON", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_79e46b8e4b01 = &CraftingRecipe{SourceItemID: "T5_2H_ARCANE_RINGPAIR_AVALON", Attributes: map[string]string{
+	"craftingfocus": "3001",
+	"silver":        "0",
+	"time":          "2",
+}, Resources: []CraftingResource{
+	{ItemID: "T5_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T5_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T5_ARTEFACT_2H_ARCANE_RINGPAIR_AVALON", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_6050e467bc61 = &CraftingRecipe{SourceItemID: "T6_2H_ARCANE_RINGPAIR_AVALON", Attributes: map[string]string{
+	"craftingfocus": "5252",
+	"silver":        "0",
+	"time":          "2.667",
+}, Resources: []CraftingResource{
+	{ItemID: "T6_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T6_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T6_ARTEFACT_2H_ARCANE_RINGPAIR_AVALON", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_db29a99d4a27 = &CraftingRecipe{SourceItemID: "T7_2H_ARCANE_RINGPAIR_AVALON", Attributes: map[string]string{
+	"craftingfocus": "9191",
+	"silver":        "0",
+	"time":          "3.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T7_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T7_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T7_ARTEFACT_2H_ARCANE_RINGPAIR_AVALON", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_cc59021b3235 = &CraftingRecipe{SourceItemID: "T8_2H_ARCANE_RINGPAIR_AVALON", Attributes: map[string]string{
+	"craftingfocus": "16085",
+	"silver":        "0",
+	"time":          "5",
+}, Resources: []CraftingResource{
+	{ItemID: "T8_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T8_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T8_ARTEFACT_2H_ARCANE_RINGPAIR_AVALON", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_d2a8f78ac558 = &CraftingRecipe{SourceItemID: "T4_2H_ARCANESTAFF_CRYSTAL", Attributes: map[string]string{
+	"craftingfocus": "1715",
+	"silver":        "0",
+	"time":          "1.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T4_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T4_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T4_ARTEFACT_2H_ARCANESTAFF_CRYSTAL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_7bf32ba7fade = &CraftingRecipe{SourceItemID: "T5_2H_ARCANESTAFF_CRYSTAL", Attributes: map[string]string{
+	"craftingfocus": "3001",
+	"silver":        "0",
+	"time":          "2",
+}, Resources: []CraftingResource{
+	{ItemID: "T5_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T5_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T5_ARTEFACT_2H_ARCANESTAFF_CRYSTAL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_ec901384d821 = &CraftingRecipe{SourceItemID: "T6_2H_ARCANESTAFF_CRYSTAL", Attributes: map[string]string{
+	"craftingfocus": "5252",
+	"silver":        "0",
+	"time":          "2.667",
+}, Resources: []CraftingResource{
+	{ItemID: "T6_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T6_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T6_ARTEFACT_2H_ARCANESTAFF_CRYSTAL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_f1d8f7634a01 = &CraftingRecipe{SourceItemID: "T7_2H_ARCANESTAFF_CRYSTAL", Attributes: map[string]string{
+	"craftingfocus": "9191",
+	"silver":        "0",
+	"time":          "3.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T7_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T7_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T7_ARTEFACT_2H_ARCANESTAFF_CRYSTAL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_b9a814113508 = &CraftingRecipe{SourceItemID: "T8_2H_ARCANESTAFF_CRYSTAL", Attributes: map[string]string{
+	"craftingfocus": "16085",
+	"silver":        "0",
+	"time":          "5",
+}, Resources: []CraftingResource{
+	{ItemID: "T8_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T8_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T8_ARTEFACT_2H_ARCANESTAFF_CRYSTAL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_54839930f414 = &CraftingRecipe{SourceItemID: "T3_MAIN_HOLYSTAFF", Attributes: map[string]string{
+	"craftingfocus": "735",
+	"silver":        "0",
+	"time":          "0.75",
+}, Resources: []CraftingResource{
+	{ItemID: "T3_PLANKS", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T3_CLOTH", Attributes: map[string]string{
+		"count": "8",
+	}},
+}}
+
+var recipe_44850ba71bf0 = &CraftingRecipe{SourceItemID: "T4_MAIN_HOLYSTAFF", Attributes: map[string]string{
+	"craftingfocus": "1286",
+	"silver":        "0",
+	"time":          "1",
+}, Resources: []CraftingResource{
+	{ItemID: "T4_PLANKS", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T4_CLOTH", Attributes: map[string]string{
+		"count": "8",
+	}},
+}}
+
+var recipe_29ce5f881b9b = &CraftingRecipe{SourceItemID: "T5_MAIN_HOLYSTAFF", Attributes: map[string]string{
+	"craftingfocus": "2251",
+	"silver":        "0",
+	"time":          "1.5",
+}, Resources: []CraftingResource{
+	{ItemID: "T5_PLANKS", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T5_CLOTH", Attributes: map[string]string{
+		"count": "8",
+	}},
+}}
+
+var recipe_07b7a6541ce4 = &CraftingRecipe{SourceItemID: "T6_MAIN_HOLYSTAFF", Attributes: map[string]string{
+	"craftingfocus": "3939",
+	"silver":        "0",
+	"time":          "2",
+}, Resources: []CraftingResource{
+	{ItemID: "T6_PLANKS", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T6_CLOTH", Attributes: map[string]string{
+		"count": "8",
+	}},
+}}
+
+var recipe_06f628270f6d = &CraftingRecipe{SourceItemID: "T7_MAIN_HOLYSTAFF", Attributes: map[string]string{
+	"craftingfocus": "6893",
+	"silver":        "0",
+	"time":          "2.5",
+}, Resources: []CraftingResource{
+	{ItemID: "T7_PLANKS", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T7_CLOTH", Attributes: map[string]string{
+		"count": "8",
+	}},
+}}
+
+var recipe_ca5b09532499 = &CraftingRecipe{SourceItemID: "T8_MAIN_HOLYSTAFF", Attributes: map[string]string{
+	"craftingfocus": "12064",
+	"silver":        "0",
+	"time":          "3.75",
+}, Resources: []CraftingResource{
+	{ItemID: "T8_PLANKS", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T8_CLOTH", Attributes: map[string]string{
+		"count": "8",
+	}},
+}}
+
+var recipe_881551b500da = &CraftingRecipe{SourceItemID: "T4_2H_HOLYSTAFF", Attributes: map[string]string{
+	"craftingfocus": "1715",
+	"silver":        "0",
+	"time":          "1.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T4_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T4_CLOTH", Attributes: map[string]string{
+		"count": "12",
+	}},
+}}
+
+var recipe_412b143e6eef = &CraftingRecipe{SourceItemID: "T5_2H_HOLYSTAFF", Attributes: map[string]string{
+	"craftingfocus": "3001",
+	"silver":        "0",
+	"time":          "2",
+}, Resources: []CraftingResource{
+	{ItemID: "T5_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T5_CLOTH", Attributes: map[string]string{
+		"count": "12",
+	}},
+}}
+
+var recipe_c85417aad83d = &CraftingRecipe{SourceItemID: "T6_2H_HOLYSTAFF", Attributes: map[string]string{
+	"craftingfocus": "5252",
+	"silver":        "0",
+	"time":          "2.667",
+}, Resources: []CraftingResource{
+	{ItemID: "T6_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T6_CLOTH", Attributes: map[string]string{
+		"count": "12",
+	}},
+}}
+
+var recipe_f4f641159de3 = &CraftingRecipe{SourceItemID: "T7_2H_HOLYSTAFF", Attributes: map[string]string{
+	"craftingfocus": "9191",
+	"silver":        "0",
+	"time":          "3.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T7_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T7_CLOTH", Attributes: map[string]string{
+		"count": "12",
+	}},
+}}
+
+var recipe_fb8976dbac79 = &CraftingRecipe{SourceItemID: "T8_2H_HOLYSTAFF", Attributes: map[string]string{
+	"craftingfocus": "16085",
+	"silver":        "0",
+	"time":          "5",
+}, Resources: []CraftingResource{
+	{ItemID: "T8_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T8_CLOTH", Attributes: map[string]string{
+		"count": "12",
+	}},
+}}
+
+var recipe_4d23d79c6594 = &CraftingRecipe{SourceItemID: "T4_2H_DIVINESTAFF", Attributes: map[string]string{
+	"craftingfocus": "1715",
+	"silver":        "0",
+	"time":          "1.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T4_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T4_CLOTH", Attributes: map[string]string{
+		"count": "12",
+	}},
+}}
+
+var recipe_69691f01126b = &CraftingRecipe{SourceItemID: "T5_2H_DIVINESTAFF", Attributes: map[string]string{
+	"craftingfocus": "3001",
+	"silver":        "0",
+	"time":          "2",
+}, Resources: []CraftingResource{
+	{ItemID: "T5_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T5_CLOTH", Attributes: map[string]string{
+		"count": "12",
+	}},
+}}
+
+var recipe_3b309c8325ba = &CraftingRecipe{SourceItemID: "T6_2H_DIVINESTAFF", Attributes: map[string]string{
+	"craftingfocus": "5252",
+	"silver":        "0",
+	"time":          "2.667",
+}, Resources: []CraftingResource{
+	{ItemID: "T6_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T6_CLOTH", Attributes: map[string]string{
+		"count": "12",
+	}},
+}}
+
+var recipe_fcbf8b9adaed = &CraftingRecipe{SourceItemID: "T7_2H_DIVINESTAFF", Attributes: map[string]string{
+	"craftingfocus": "9191",
+	"silver":        "0",
+	"time":          "3.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T7_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T7_CLOTH", Attributes: map[string]string{
+		"count": "12",
+	}},
+}}
+
+var recipe_1c2a155b1a17 = &CraftingRecipe{SourceItemID: "T8_2H_DIVINESTAFF", Attributes: map[string]string{
+	"craftingfocus": "16085",
+	"silver":        "0",
+	"time":          "5",
+}, Resources: []CraftingResource{
+	{ItemID: "T8_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T8_CLOTH", Attributes: map[string]string{
+		"count": "12",
+	}},
+}}
+
+var recipe_9b5e9d579edb = &CraftingRecipe{SourceItemID: "T4_MAIN_HOLYSTAFF_MORGANA", Attributes: map[string]string{
+	"craftingfocus": "1286",
+	"silver":        "0",
+	"time":          "1",
+}, Resources: []CraftingResource{
+	{ItemID: "T4_PLANKS", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T4_CLOTH", Attributes: map[string]string{
+		"count": "8",
+	}},
+	{ItemID: "T4_ARTEFACT_MAIN_HOLYSTAFF_MORGANA", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_dc5ba10d28f2 = &CraftingRecipe{SourceItemID: "T5_MAIN_HOLYSTAFF_MORGANA", Attributes: map[string]string{
+	"craftingfocus": "2251",
+	"silver":        "0",
+	"time":          "1.5",
+}, Resources: []CraftingResource{
+	{ItemID: "T5_PLANKS", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T5_CLOTH", Attributes: map[string]string{
+		"count": "8",
+	}},
+	{ItemID: "T5_ARTEFACT_MAIN_HOLYSTAFF_MORGANA", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_2a6758cb0f0e = &CraftingRecipe{SourceItemID: "T6_MAIN_HOLYSTAFF_MORGANA", Attributes: map[string]string{
+	"craftingfocus": "3939",
+	"silver":        "0",
+	"time":          "2",
+}, Resources: []CraftingResource{
+	{ItemID: "T6_PLANKS", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T6_CLOTH", Attributes: map[string]string{
+		"count": "8",
+	}},
+	{ItemID: "T6_ARTEFACT_MAIN_HOLYSTAFF_MORGANA", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_ab14173ff86b = &CraftingRecipe{SourceItemID: "T7_MAIN_HOLYSTAFF_MORGANA", Attributes: map[string]string{
+	"craftingfocus": "6893",
+	"silver":        "0",
+	"time":          "2.5",
+}, Resources: []CraftingResource{
+	{ItemID: "T7_PLANKS", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T7_CLOTH", Attributes: map[string]string{
+		"count": "8",
+	}},
+	{ItemID: "T7_ARTEFACT_MAIN_HOLYSTAFF_MORGANA", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_712db5beef4c = &CraftingRecipe{SourceItemID: "T8_MAIN_HOLYSTAFF_MORGANA", Attributes: map[string]string{
+	"craftingfocus": "12064",
+	"silver":        "0",
+	"time":          "3.75",
+}, Resources: []CraftingResource{
+	{ItemID: "T8_PLANKS", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T8_CLOTH", Attributes: map[string]string{
+		"count": "8",
+	}},
+	{ItemID: "T8_ARTEFACT_MAIN_HOLYSTAFF_MORGANA", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_33e04ff70ca3 = &CraftingRecipe{SourceItemID: "T4_2H_HOLYSTAFF_HELL", Attributes: map[string]string{
+	"craftingfocus": "1715",
+	"silver":        "0",
+	"time":          "1.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T4_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T4_CLOTH", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T4_ARTEFACT_2H_HOLYSTAFF_HELL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_635108bf252d = &CraftingRecipe{SourceItemID: "T5_2H_HOLYSTAFF_HELL", Attributes: map[string]string{
+	"craftingfocus": "3001",
+	"silver":        "0",
+	"time":          "2",
+}, Resources: []CraftingResource{
+	{ItemID: "T5_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T5_CLOTH", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T5_ARTEFACT_2H_HOLYSTAFF_HELL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_b8e97df8631f = &CraftingRecipe{SourceItemID: "T6_2H_HOLYSTAFF_HELL", Attributes: map[string]string{
+	"craftingfocus": "5252",
+	"silver":        "0",
+	"time":          "2.667",
+}, Resources: []CraftingResource{
+	{ItemID: "T6_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T6_CLOTH", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T6_ARTEFACT_2H_HOLYSTAFF_HELL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_76e695c7f018 = &CraftingRecipe{SourceItemID: "T7_2H_HOLYSTAFF_HELL", Attributes: map[string]string{
+	"craftingfocus": "9191",
+	"silver":        "0",
+	"time":          "3.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T7_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T7_CLOTH", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T7_ARTEFACT_2H_HOLYSTAFF_HELL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_75f11a13f5cd = &CraftingRecipe{SourceItemID: "T8_2H_HOLYSTAFF_HELL", Attributes: map[string]string{
+	"craftingfocus": "16085",
+	"silver":        "0",
+	"time":          "5",
+}, Resources: []CraftingResource{
+	{ItemID: "T8_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T8_CLOTH", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T8_ARTEFACT_2H_HOLYSTAFF_HELL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_9d7f18fa8989 = &CraftingRecipe{SourceItemID: "T4_2H_HOLYSTAFF_UNDEAD", Attributes: map[string]string{
+	"craftingfocus": "1715",
+	"silver":        "0",
+	"time":          "1.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T4_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T4_CLOTH", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T4_ARTEFACT_2H_HOLYSTAFF_UNDEAD", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_032ba5d485e5 = &CraftingRecipe{SourceItemID: "T5_2H_HOLYSTAFF_UNDEAD", Attributes: map[string]string{
+	"craftingfocus": "3001",
+	"silver":        "0",
+	"time":          "2",
+}, Resources: []CraftingResource{
+	{ItemID: "T5_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T5_CLOTH", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T5_ARTEFACT_2H_HOLYSTAFF_UNDEAD", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_d88c4bab708e = &CraftingRecipe{SourceItemID: "T6_2H_HOLYSTAFF_UNDEAD", Attributes: map[string]string{
+	"craftingfocus": "5252",
+	"silver":        "0",
+	"time":          "2.667",
+}, Resources: []CraftingResource{
+	{ItemID: "T6_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T6_CLOTH", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T6_ARTEFACT_2H_HOLYSTAFF_UNDEAD", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_85f928bc5c3a = &CraftingRecipe{SourceItemID: "T7_2H_HOLYSTAFF_UNDEAD", Attributes: map[string]string{
+	"craftingfocus": "9191",
+	"silver":        "0",
+	"time":          "3.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T7_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T7_CLOTH", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T7_ARTEFACT_2H_HOLYSTAFF_UNDEAD", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_11b007e144df = &CraftingRecipe{SourceItemID: "T8_2H_HOLYSTAFF_UNDEAD", Attributes: map[string]string{
+	"craftingfocus": "16085",
+	"silver":        "0",
+	"time":          "5",
+}, Resources: []CraftingResource{
+	{ItemID: "T8_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T8_CLOTH", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T8_ARTEFACT_2H_HOLYSTAFF_UNDEAD", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_e811accf704a = &CraftingRecipe{SourceItemID: "T4_MAIN_HOLYSTAFF_AVALON", Attributes: map[string]string{
+	"craftingfocus": "1286",
+	"silver":        "0",
+	"time":          "1",
+}, Resources: []CraftingResource{
+	{ItemID: "T4_PLANKS", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T4_CLOTH", Attributes: map[string]string{
+		"count": "8",
+	}},
+	{ItemID: "T4_ARTEFACT_MAIN_HOLYSTAFF_AVALON", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_e5b7b9ae5070 = &CraftingRecipe{SourceItemID: "T5_MAIN_HOLYSTAFF_AVALON", Attributes: map[string]string{
+	"craftingfocus": "2251",
+	"silver":        "0",
+	"time":          "1.5",
+}, Resources: []CraftingResource{
+	{ItemID: "T5_PLANKS", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T5_CLOTH", Attributes: map[string]string{
+		"count": "8",
+	}},
+	{ItemID: "T5_ARTEFACT_MAIN_HOLYSTAFF_AVALON", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_9cc129b1188c = &CraftingRecipe{SourceItemID: "T6_MAIN_HOLYSTAFF_AVALON", Attributes: map[string]string{
+	"craftingfocus": "3939",
+	"silver":        "0",
+	"time":          "2",
+}, Resources: []CraftingResource{
+	{ItemID: "T6_PLANKS", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T6_CLOTH", Attributes: map[string]string{
+		"count": "8",
+	}},
+	{ItemID: "T6_ARTEFACT_MAIN_HOLYSTAFF_AVALON", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_ecdc75646615 = &CraftingRecipe{SourceItemID: "T7_MAIN_HOLYSTAFF_AVALON", Attributes: map[string]string{
+	"craftingfocus": "6893",
+	"silver":        "0",
+	"time":          "2.5",
+}, Resources: []CraftingResource{
+	{ItemID: "T7_PLANKS", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T7_CLOTH", Attributes: map[string]string{
+		"count": "8",
+	}},
+	{ItemID: "T7_ARTEFACT_MAIN_HOLYSTAFF_AVALON", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_e1bb97555daa = &CraftingRecipe{SourceItemID: "T8_MAIN_HOLYSTAFF_AVALON", Attributes: map[string]string{
+	"craftingfocus": "12064",
+	"silver":        "0",
+	"time":          "3.75",
+}, Resources: []CraftingResource{
+	{ItemID: "T8_PLANKS", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T8_CLOTH", Attributes: map[string]string{
+		"count": "8",
+	}},
+	{ItemID: "T8_ARTEFACT_MAIN_HOLYSTAFF_AVALON", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_2e22a7b2583f = &CraftingRecipe{SourceItemID: "T4_2H_HOLYSTAFF_CRYSTAL", Attributes: map[string]string{
+	"craftingfocus": "1715",
+	"silver":        "0",
+	"time":          "1.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T4_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T4_CLOTH", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T4_ARTEFACT_2H_HOLYSTAFF_CRYSTAL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_9cb12005c96d = &CraftingRecipe{SourceItemID: "T5_2H_HOLYSTAFF_CRYSTAL", Attributes: map[string]string{
+	"craftingfocus": "3001",
+	"silver":        "0",
+	"time":          "2",
+}, Resources: []CraftingResource{
+	{ItemID: "T5_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T5_CLOTH", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T5_ARTEFACT_2H_HOLYSTAFF_CRYSTAL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_7663369adf0e = &CraftingRecipe{SourceItemID: "T6_2H_HOLYSTAFF_CRYSTAL", Attributes: map[string]string{
+	"craftingfocus": "5252",
+	"silver":        "0",
+	"time":          "2.667",
+}, Resources: []CraftingResource{
+	{ItemID: "T6_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T6_CLOTH", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T6_ARTEFACT_2H_HOLYSTAFF_CRYSTAL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_1f334073f127 = &CraftingRecipe{SourceItemID: "T7_2H_HOLYSTAFF_CRYSTAL", Attributes: map[string]string{
+	"craftingfocus": "9191",
+	"silver":        "0",
+	"time":          "3.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T7_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T7_CLOTH", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T7_ARTEFACT_2H_HOLYSTAFF_CRYSTAL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_2c98f54fd5a9 = &CraftingRecipe{SourceItemID: "T8_2H_HOLYSTAFF_CRYSTAL", Attributes: map[string]string{
+	"craftingfocus": "16085",
+	"silver":        "0",
+	"time":          "5",
+}, Resources: []CraftingResource{
+	{ItemID: "T8_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T8_CLOTH", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T8_ARTEFACT_2H_HOLYSTAFF_CRYSTAL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_3bc39802a863 = &CraftingRecipe{SourceItemID: "T3_MAIN_NATURESTAFF", Attributes: map[string]string{
+	"craftingfocus": "735",
+	"silver":        "0",
+	"time":          "0.75",
+}, Resources: []CraftingResource{
+	{ItemID: "T3_PLANKS", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T3_CLOTH", Attributes: map[string]string{
+		"count": "8",
+	}},
+}}
+
+var recipe_d06afe5bd67c = &CraftingRecipe{SourceItemID: "T4_MAIN_NATURESTAFF", Attributes: map[string]string{
+	"craftingfocus": "1286",
+	"silver":        "0",
+	"time":          "1",
+}, Resources: []CraftingResource{
+	{ItemID: "T4_PLANKS", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T4_CLOTH", Attributes: map[string]string{
+		"count": "8",
+	}},
+}}
+
+var recipe_679f70fb6c96 = &CraftingRecipe{SourceItemID: "T5_MAIN_NATURESTAFF", Attributes: map[string]string{
+	"craftingfocus": "2251",
+	"silver":        "0",
+	"time":          "1.5",
+}, Resources: []CraftingResource{
+	{ItemID: "T5_PLANKS", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T5_CLOTH", Attributes: map[string]string{
+		"count": "8",
+	}},
+}}
+
+var recipe_db95823847b9 = &CraftingRecipe{SourceItemID: "T6_MAIN_NATURESTAFF", Attributes: map[string]string{
+	"craftingfocus": "3939",
+	"silver":        "0",
+	"time":          "2",
+}, Resources: []CraftingResource{
+	{ItemID: "T6_PLANKS", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T6_CLOTH", Attributes: map[string]string{
+		"count": "8",
+	}},
+}}
+
+var recipe_299e0e00c44b = &CraftingRecipe{SourceItemID: "T7_MAIN_NATURESTAFF", Attributes: map[string]string{
+	"craftingfocus": "6893",
+	"silver":        "0",
+	"time":          "2.5",
+}, Resources: []CraftingResource{
+	{ItemID: "T7_PLANKS", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T7_CLOTH", Attributes: map[string]string{
+		"count": "8",
+	}},
+}}
+
+var recipe_5aefdb37bd2f = &CraftingRecipe{SourceItemID: "T8_MAIN_NATURESTAFF", Attributes: map[string]string{
+	"craftingfocus": "12064",
+	"silver":        "0",
+	"time":          "3.75",
+}, Resources: []CraftingResource{
+	{ItemID: "T8_PLANKS", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T8_CLOTH", Attributes: map[string]string{
+		"count": "8",
+	}},
+}}
+
+var recipe_b9c2483a0809 = &CraftingRecipe{SourceItemID: "T4_2H_NATURESTAFF", Attributes: map[string]string{
+	"craftingfocus": "1715",
+	"silver":        "0",
+	"time":          "1.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T4_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T4_CLOTH", Attributes: map[string]string{
+		"count": "12",
+	}},
+}}
+
+var recipe_7606918a13f1 = &CraftingRecipe{SourceItemID: "T5_2H_NATURESTAFF", Attributes: map[string]string{
+	"craftingfocus": "3001",
+	"silver":        "0",
+	"time":          "2",
+}, Resources: []CraftingResource{
+	{ItemID: "T5_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T5_CLOTH", Attributes: map[string]string{
+		"count": "12",
+	}},
+}}
+
+var recipe_c5314e6a8857 = &CraftingRecipe{SourceItemID: "T6_2H_NATURESTAFF", Attributes: map[string]string{
+	"craftingfocus": "5252",
+	"silver":        "0",
+	"time":          "2.667",
+}, Resources: []CraftingResource{
+	{ItemID: "T6_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T6_CLOTH", Attributes: map[string]string{
+		"count": "12",
+	}},
+}}
+
+var recipe_f0852f7a2eb8 = &CraftingRecipe{SourceItemID: "T7_2H_NATURESTAFF", Attributes: map[string]string{
+	"craftingfocus": "9191",
+	"silver":        "0",
+	"time":          "3.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T7_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T7_CLOTH", Attributes: map[string]string{
+		"count": "12",
+	}},
+}}
+
+var recipe_9c3eb8526ab1 = &CraftingRecipe{SourceItemID: "T8_2H_NATURESTAFF", Attributes: map[string]string{
+	"craftingfocus": "16085",
+	"silver":        "0",
+	"time":          "5",
+}, Resources: []CraftingResource{
+	{ItemID: "T8_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T8_CLOTH", Attributes: map[string]string{
+		"count": "12",
+	}},
+}}
+
+var recipe_95dd0c213a05 = &CraftingRecipe{SourceItemID: "T4_2H_WILDSTAFF", Attributes: map[string]string{
+	"craftingfocus": "1715",
+	"silver":        "0",
+	"time":          "1.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T4_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T4_CLOTH", Attributes: map[string]string{
+		"count": "12",
+	}},
+}}
+
+var recipe_2073f1536872 = &CraftingRecipe{SourceItemID: "T5_2H_WILDSTAFF", Attributes: map[string]string{
+	"craftingfocus": "3001",
+	"silver":        "0",
+	"time":          "2",
+}, Resources: []CraftingResource{
+	{ItemID: "T5_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T5_CLOTH", Attributes: map[string]string{
+		"count": "12",
+	}},
+}}
+
+var recipe_6778062e3454 = &CraftingRecipe{SourceItemID: "T6_2H_WILDSTAFF", Attributes: map[string]string{
+	"craftingfocus": "5252",
+	"silver":        "0",
+	"time":          "2.667",
+}, Resources: []CraftingResource{
+	{ItemID: "T6_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T6_CLOTH", Attributes: map[string]string{
+		"count": "12",
+	}},
+}}
+
+var recipe_5af037cfa10b = &CraftingRecipe{SourceItemID: "T7_2H_WILDSTAFF", Attributes: map[string]string{
+	"craftingfocus": "9191",
+	"silver":        "0",
+	"time":          "3.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T7_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T7_CLOTH", Attributes: map[string]string{
+		"count": "12",
+	}},
+}}
+
+var recipe_45be76fd068e = &CraftingRecipe{SourceItemID: "T8_2H_WILDSTAFF", Attributes: map[string]string{
+	"craftingfocus": "16085",
+	"silver":        "0",
+	"time":          "5",
+}, Resources: []CraftingResource{
+	{ItemID: "T8_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T8_CLOTH", Attributes: map[string]string{
+		"count": "12",
+	}},
+}}
+
+var recipe_5ed22284b7a2 = &CraftingRecipe{SourceItemID: "T4_MAIN_NATURESTAFF_KEEPER", Attributes: map[string]string{
+	"craftingfocus": "1286",
+	"silver":        "0",
+	"time":          "1",
+}, Resources: []CraftingResource{
+	{ItemID: "T4_PLANKS", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T4_CLOTH", Attributes: map[string]string{
+		"count": "8",
+	}},
+	{ItemID: "T4_ARTEFACT_MAIN_NATURESTAFF_KEEPER", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_f89b0523012e = &CraftingRecipe{SourceItemID: "T5_MAIN_NATURESTAFF_KEEPER", Attributes: map[string]string{
+	"craftingfocus": "2251",
+	"silver":        "0",
+	"time":          "1.5",
+}, Resources: []CraftingResource{
+	{ItemID: "T5_PLANKS", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T5_CLOTH", Attributes: map[string]string{
+		"count": "8",
+	}},
+	{ItemID: "T5_ARTEFACT_MAIN_NATURESTAFF_KEEPER", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_5c8d9ea166be = &CraftingRecipe{SourceItemID: "T6_MAIN_NATURESTAFF_KEEPER", Attributes: map[string]string{
+	"craftingfocus": "3939",
+	"silver":        "0",
+	"time":          "2",
+}, Resources: []CraftingResource{
+	{ItemID: "T6_PLANKS", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T6_CLOTH", Attributes: map[string]string{
+		"count": "8",
+	}},
+	{ItemID: "T6_ARTEFACT_MAIN_NATURESTAFF_KEEPER", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_7afb1e20fe7d = &CraftingRecipe{SourceItemID: "T7_MAIN_NATURESTAFF_KEEPER", Attributes: map[string]string{
+	"craftingfocus": "6893",
+	"silver":        "0",
+	"time":          "2.5",
+}, Resources: []CraftingResource{
+	{ItemID: "T7_PLANKS", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T7_CLOTH", Attributes: map[string]string{
+		"count": "8",
+	}},
+	{ItemID: "T7_ARTEFACT_MAIN_NATURESTAFF_KEEPER", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_dac216ab8e78 = &CraftingRecipe{SourceItemID: "T8_MAIN_NATURESTAFF_KEEPER", Attributes: map[string]string{
+	"craftingfocus": "12064",
+	"silver":        "0",
+	"time":          "3.75",
+}, Resources: []CraftingResource{
+	{ItemID: "T8_PLANKS", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T8_CLOTH", Attributes: map[string]string{
+		"count": "8",
+	}},
+	{ItemID: "T8_ARTEFACT_MAIN_NATURESTAFF_KEEPER", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_bd38d4e9ab1f = &CraftingRecipe{SourceItemID: "T4_2H_NATURESTAFF_HELL", Attributes: map[string]string{
+	"craftingfocus": "1715",
+	"silver":        "0",
+	"time":          "1.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T4_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T4_CLOTH", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T4_ARTEFACT_2H_NATURESTAFF_HELL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_d456d52e6e84 = &CraftingRecipe{SourceItemID: "T5_2H_NATURESTAFF_HELL", Attributes: map[string]string{
+	"craftingfocus": "3001",
+	"silver":        "0",
+	"time":          "2",
+}, Resources: []CraftingResource{
+	{ItemID: "T5_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T5_CLOTH", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T5_ARTEFACT_2H_NATURESTAFF_HELL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_9fa719fabac3 = &CraftingRecipe{SourceItemID: "T6_2H_NATURESTAFF_HELL", Attributes: map[string]string{
+	"craftingfocus": "5252",
+	"silver":        "0",
+	"time":          "2.667",
+}, Resources: []CraftingResource{
+	{ItemID: "T6_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T6_CLOTH", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T6_ARTEFACT_2H_NATURESTAFF_HELL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_50b0ba8bfcb9 = &CraftingRecipe{SourceItemID: "T7_2H_NATURESTAFF_HELL", Attributes: map[string]string{
+	"craftingfocus": "9191",
+	"silver":        "0",
+	"time":          "3.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T7_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T7_CLOTH", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T7_ARTEFACT_2H_NATURESTAFF_HELL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_de360b5e9eea = &CraftingRecipe{SourceItemID: "T8_2H_NATURESTAFF_HELL", Attributes: map[string]string{
+	"craftingfocus": "16085",
+	"silver":        "0",
+	"time":          "5",
+}, Resources: []CraftingResource{
+	{ItemID: "T8_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T8_CLOTH", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T8_ARTEFACT_2H_NATURESTAFF_HELL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_f6c7d8a519e6 = &CraftingRecipe{SourceItemID: "T4_2H_NATURESTAFF_KEEPER", Attributes: map[string]string{
+	"craftingfocus": "1715",
+	"silver":        "0",
+	"time":          "1.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T4_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T4_CLOTH", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T4_ARTEFACT_2H_NATURESTAFF_KEEPER", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_7a63f53f01ce = &CraftingRecipe{SourceItemID: "T5_2H_NATURESTAFF_KEEPER", Attributes: map[string]string{
+	"craftingfocus": "3001",
+	"silver":        "0",
+	"time":          "2",
+}, Resources: []CraftingResource{
+	{ItemID: "T5_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T5_CLOTH", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T5_ARTEFACT_2H_NATURESTAFF_KEEPER", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_3dca209ff577 = &CraftingRecipe{SourceItemID: "T6_2H_NATURESTAFF_KEEPER", Attributes: map[string]string{
+	"craftingfocus": "5252",
+	"silver":        "0",
+	"time":          "2.667",
+}, Resources: []CraftingResource{
+	{ItemID: "T6_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T6_CLOTH", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T6_ARTEFACT_2H_NATURESTAFF_KEEPER", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_512fec7b8799 = &CraftingRecipe{SourceItemID: "T7_2H_NATURESTAFF_KEEPER", Attributes: map[string]string{
+	"craftingfocus": "9191",
+	"silver":        "0",
+	"time":          "3.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T7_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T7_CLOTH", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T7_ARTEFACT_2H_NATURESTAFF_KEEPER", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_0aa2a3b4dcd6 = &CraftingRecipe{SourceItemID: "T8_2H_NATURESTAFF_KEEPER", Attributes: map[string]string{
+	"craftingfocus": "16085",
+	"silver":        "0",
+	"time":          "5",
+}, Resources: []CraftingResource{
+	{ItemID: "T8_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T8_CLOTH", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T8_ARTEFACT_2H_NATURESTAFF_KEEPER", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_1c25257907c5 = &CraftingRecipe{SourceItemID: "T4_MAIN_NATURESTAFF_AVALON", Attributes: map[string]string{
+	"craftingfocus": "1286",
+	"silver":        "0",
+	"time":          "1",
+}, Resources: []CraftingResource{
+	{ItemID: "T4_PLANKS", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T4_CLOTH", Attributes: map[string]string{
+		"count": "8",
+	}},
+	{ItemID: "T4_ARTEFACT_MAIN_NATURESTAFF_AVALON", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_f14cd8fac5c9 = &CraftingRecipe{SourceItemID: "T5_MAIN_NATURESTAFF_AVALON", Attributes: map[string]string{
+	"craftingfocus": "2251",
+	"silver":        "0",
+	"time":          "1.5",
+}, Resources: []CraftingResource{
+	{ItemID: "T5_PLANKS", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T5_CLOTH", Attributes: map[string]string{
+		"count": "8",
+	}},
+	{ItemID: "T5_ARTEFACT_MAIN_NATURESTAFF_AVALON", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_a794a531b5b4 = &CraftingRecipe{SourceItemID: "T6_MAIN_NATURESTAFF_AVALON", Attributes: map[string]string{
+	"craftingfocus": "3939",
+	"silver":        "0",
+	"time":          "2",
+}, Resources: []CraftingResource{
+	{ItemID: "T6_PLANKS", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T6_CLOTH", Attributes: map[string]string{
+		"count": "8",
+	}},
+	{ItemID: "T6_ARTEFACT_MAIN_NATURESTAFF_AVALON", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_658355a12fd0 = &CraftingRecipe{SourceItemID: "T7_MAIN_NATURESTAFF_AVALON", Attributes: map[string]string{
+	"craftingfocus": "6893",
+	"silver":        "0",
+	"time":          "2.5",
+}, Resources: []CraftingResource{
+	{ItemID: "T7_PLANKS", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T7_CLOTH", Attributes: map[string]string{
+		"count": "8",
+	}},
+	{ItemID: "T7_ARTEFACT_MAIN_NATURESTAFF_AVALON", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_bd9e25b12e54 = &CraftingRecipe{SourceItemID: "T8_MAIN_NATURESTAFF_AVALON", Attributes: map[string]string{
+	"craftingfocus": "12064",
+	"silver":        "0",
+	"time":          "3.75",
+}, Resources: []CraftingResource{
+	{ItemID: "T8_PLANKS", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T8_CLOTH", Attributes: map[string]string{
+		"count": "8",
+	}},
+	{ItemID: "T8_ARTEFACT_MAIN_NATURESTAFF_AVALON", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_f98e16a7e9fd = &CraftingRecipe{SourceItemID: "T4_MAIN_NATURESTAFF_CRYSTAL", Attributes: map[string]string{
+	"craftingfocus": "1286",
+	"silver":        "0",
+	"time":          "1",
+}, Resources: []CraftingResource{
+	{ItemID: "T4_PLANKS", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T4_CLOTH", Attributes: map[string]string{
+		"count": "8",
+	}},
+	{ItemID: "T4_ARTEFACT_MAIN_NATURESTAFF_CRYSTAL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_488901cd4d57 = &CraftingRecipe{SourceItemID: "T5_MAIN_NATURESTAFF_CRYSTAL", Attributes: map[string]string{
+	"craftingfocus": "2251",
+	"silver":        "0",
+	"time":          "1.5",
+}, Resources: []CraftingResource{
+	{ItemID: "T5_PLANKS", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T5_CLOTH", Attributes: map[string]string{
+		"count": "8",
+	}},
+	{ItemID: "T5_ARTEFACT_MAIN_NATURESTAFF_CRYSTAL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_cc7c22234f81 = &CraftingRecipe{SourceItemID: "T6_MAIN_NATURESTAFF_CRYSTAL", Attributes: map[string]string{
+	"craftingfocus": "3939",
+	"silver":        "0",
+	"time":          "2",
+}, Resources: []CraftingResource{
+	{ItemID: "T6_PLANKS", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T6_CLOTH", Attributes: map[string]string{
+		"count": "8",
+	}},
+	{ItemID: "T6_ARTEFACT_MAIN_NATURESTAFF_CRYSTAL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_862704233a76 = &CraftingRecipe{SourceItemID: "T7_MAIN_NATURESTAFF_CRYSTAL", Attributes: map[string]string{
+	"craftingfocus": "6893",
+	"silver":        "0",
+	"time":          "2.5",
+}, Resources: []CraftingResource{
+	{ItemID: "T7_PLANKS", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T7_CLOTH", Attributes: map[string]string{
+		"count": "8",
+	}},
+	{ItemID: "T7_ARTEFACT_MAIN_NATURESTAFF_CRYSTAL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_a268be85ab83 = &CraftingRecipe{SourceItemID: "T8_MAIN_NATURESTAFF_CRYSTAL", Attributes: map[string]string{
+	"craftingfocus": "12064",
+	"silver":        "0",
+	"time":          "3.75",
+}, Resources: []CraftingResource{
+	{ItemID: "T8_PLANKS", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T8_CLOTH", Attributes: map[string]string{
+		"count": "8",
+	}},
+	{ItemID: "T8_ARTEFACT_MAIN_NATURESTAFF_CRYSTAL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_b21c601ab691 = &CraftingRecipe{SourceItemID: "T3_MAIN_DAGGER", Attributes: map[string]string{
+	"craftingfocus": "735",
+	"silver":        "0",
+	"time":          "0.75",
+}, Resources: []CraftingResource{
+	{ItemID: "T3_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T3_LEATHER", Attributes: map[string]string{
+		"count": "12",
+	}},
+}}
+
+var recipe_09496e01d979 = &CraftingRecipe{SourceItemID: "T4_MAIN_DAGGER", Attributes: map[string]string{
+	"craftingfocus": "1286",
+	"silver":        "0",
+	"time":          "1",
+}, Resources: []CraftingResource{
+	{ItemID: "T4_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T4_LEATHER", Attributes: map[string]string{
+		"count": "12",
+	}},
+}}
+
+var recipe_ab4bc6deea5e = &CraftingRecipe{SourceItemID: "T5_MAIN_DAGGER", Attributes: map[string]string{
+	"craftingfocus": "2251",
+	"silver":        "0",
+	"time":          "1.5",
+}, Resources: []CraftingResource{
+	{ItemID: "T5_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T5_LEATHER", Attributes: map[string]string{
+		"count": "12",
+	}},
+}}
+
+var recipe_e86bafda5857 = &CraftingRecipe{SourceItemID: "T6_MAIN_DAGGER", Attributes: map[string]string{
+	"craftingfocus": "3939",
+	"silver":        "0",
+	"time":          "2",
+}, Resources: []CraftingResource{
+	{ItemID: "T6_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T6_LEATHER", Attributes: map[string]string{
+		"count": "12",
+	}},
+}}
+
+var recipe_bc831d752b29 = &CraftingRecipe{SourceItemID: "T7_MAIN_DAGGER", Attributes: map[string]string{
+	"craftingfocus": "6893",
+	"silver":        "0",
+	"time":          "2.5",
+}, Resources: []CraftingResource{
+	{ItemID: "T7_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T7_LEATHER", Attributes: map[string]string{
+		"count": "12",
+	}},
+}}
+
+var recipe_6a40b86e9d2c = &CraftingRecipe{SourceItemID: "T8_MAIN_DAGGER", Attributes: map[string]string{
+	"craftingfocus": "12064",
+	"silver":        "0",
+	"time":          "3.75",
+}, Resources: []CraftingResource{
+	{ItemID: "T8_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T8_LEATHER", Attributes: map[string]string{
+		"count": "12",
+	}},
+}}
+
+var recipe_91eb990f698e = &CraftingRecipe{SourceItemID: "T4_2H_DAGGERPAIR", Attributes: map[string]string{
+	"craftingfocus": "1715",
+	"silver":        "0",
+	"time":          "1.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T4_METALBAR", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T4_LEATHER", Attributes: map[string]string{
+		"count": "16",
+	}},
+}}
+
+var recipe_b70b1f8f7228 = &CraftingRecipe{SourceItemID: "T5_2H_DAGGERPAIR", Attributes: map[string]string{
+	"craftingfocus": "3001",
+	"silver":        "0",
+	"time":          "2",
+}, Resources: []CraftingResource{
+	{ItemID: "T5_METALBAR", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T5_LEATHER", Attributes: map[string]string{
+		"count": "16",
+	}},
+}}
+
+var recipe_75674c427e15 = &CraftingRecipe{SourceItemID: "T6_2H_DAGGERPAIR", Attributes: map[string]string{
+	"craftingfocus": "5252",
+	"silver":        "0",
+	"time":          "2.667",
+}, Resources: []CraftingResource{
+	{ItemID: "T6_METALBAR", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T6_LEATHER", Attributes: map[string]string{
+		"count": "16",
+	}},
+}}
+
+var recipe_dbfa555d1075 = &CraftingRecipe{SourceItemID: "T7_2H_DAGGERPAIR", Attributes: map[string]string{
+	"craftingfocus": "9191",
+	"silver":        "0",
+	"time":          "3.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T7_METALBAR", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T7_LEATHER", Attributes: map[string]string{
+		"count": "16",
+	}},
+}}
+
+var recipe_9fc0452c502a = &CraftingRecipe{SourceItemID: "T8_2H_DAGGERPAIR", Attributes: map[string]string{
+	"craftingfocus": "16085",
+	"silver":        "0",
+	"time":          "5",
+}, Resources: []CraftingResource{
+	{ItemID: "T8_METALBAR", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T8_LEATHER", Attributes: map[string]string{
+		"count": "16",
+	}},
+}}
+
+var recipe_cf426350d5e5 = &CraftingRecipe{SourceItemID: "T4_2H_CLAWPAIR", Attributes: map[string]string{
+	"craftingfocus": "1715",
+	"silver":        "0",
+	"time":          "1.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T4_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T4_LEATHER", Attributes: map[string]string{
+		"count": "20",
+	}},
+}}
+
+var recipe_c427de608aed = &CraftingRecipe{SourceItemID: "T5_2H_CLAWPAIR", Attributes: map[string]string{
+	"craftingfocus": "3001",
+	"silver":        "0",
+	"time":          "2",
+}, Resources: []CraftingResource{
+	{ItemID: "T5_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T5_LEATHER", Attributes: map[string]string{
+		"count": "20",
+	}},
+}}
+
+var recipe_fb2a596503f5 = &CraftingRecipe{SourceItemID: "T6_2H_CLAWPAIR", Attributes: map[string]string{
+	"craftingfocus": "5252",
+	"silver":        "0",
+	"time":          "2.667",
+}, Resources: []CraftingResource{
+	{ItemID: "T6_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T6_LEATHER", Attributes: map[string]string{
+		"count": "20",
+	}},
+}}
+
+var recipe_fb66755c4bdd = &CraftingRecipe{SourceItemID: "T7_2H_CLAWPAIR", Attributes: map[string]string{
+	"craftingfocus": "9191",
+	"silver":        "0",
+	"time":          "3.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T7_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T7_LEATHER", Attributes: map[string]string{
+		"count": "20",
+	}},
+}}
+
+var recipe_5af010dd70f1 = &CraftingRecipe{SourceItemID: "T8_2H_CLAWPAIR", Attributes: map[string]string{
+	"craftingfocus": "16085",
+	"silver":        "0",
+	"time":          "5",
+}, Resources: []CraftingResource{
+	{ItemID: "T8_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T8_LEATHER", Attributes: map[string]string{
+		"count": "20",
+	}},
+}}
+
+var recipe_c16b7a859b0f = &CraftingRecipe{SourceItemID: "T4_MAIN_RAPIER_MORGANA", Attributes: map[string]string{
+	"craftingfocus": "1286",
+	"silver":        "0",
+	"time":          "1",
+}, Resources: []CraftingResource{
+	{ItemID: "T4_METALBAR", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T4_LEATHER", Attributes: map[string]string{
+		"count": "8",
+	}},
+	{ItemID: "T4_ARTEFACT_MAIN_RAPIER_MORGANA", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_81180b5884e6 = &CraftingRecipe{SourceItemID: "T5_MAIN_RAPIER_MORGANA", Attributes: map[string]string{
+	"craftingfocus": "2251",
+	"silver":        "0",
+	"time":          "1.5",
+}, Resources: []CraftingResource{
+	{ItemID: "T5_METALBAR", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T5_LEATHER", Attributes: map[string]string{
+		"count": "8",
+	}},
+	{ItemID: "T5_ARTEFACT_MAIN_RAPIER_MORGANA", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_02d0e5cf92e1 = &CraftingRecipe{SourceItemID: "T6_MAIN_RAPIER_MORGANA", Attributes: map[string]string{
+	"craftingfocus": "3939",
+	"silver":        "0",
+	"time":          "2",
+}, Resources: []CraftingResource{
+	{ItemID: "T6_METALBAR", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T6_LEATHER", Attributes: map[string]string{
+		"count": "8",
+	}},
+	{ItemID: "T6_ARTEFACT_MAIN_RAPIER_MORGANA", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_3ab8b75a9080 = &CraftingRecipe{SourceItemID: "T7_MAIN_RAPIER_MORGANA", Attributes: map[string]string{
+	"craftingfocus": "6893",
+	"silver":        "0",
+	"time":          "2.5",
+}, Resources: []CraftingResource{
+	{ItemID: "T7_METALBAR", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T7_LEATHER", Attributes: map[string]string{
+		"count": "8",
+	}},
+	{ItemID: "T7_ARTEFACT_MAIN_RAPIER_MORGANA", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_e05f4bec56a0 = &CraftingRecipe{SourceItemID: "T8_MAIN_RAPIER_MORGANA", Attributes: map[string]string{
+	"craftingfocus": "12064",
+	"silver":        "0",
+	"time":          "3.75",
+}, Resources: []CraftingResource{
+	{ItemID: "T8_METALBAR", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T8_LEATHER", Attributes: map[string]string{
+		"count": "8",
+	}},
+	{ItemID: "T8_ARTEFACT_MAIN_RAPIER_MORGANA", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_39eb0cb87071 = &CraftingRecipe{SourceItemID: "T4_MAIN_DAGGER_HELL", Attributes: map[string]string{
+	"craftingfocus": "1286",
+	"silver":        "0",
+	"time":          "1",
+}, Resources: []CraftingResource{
+	{ItemID: "T4_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T4_LEATHER", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T4_ARTEFACT_MAIN_DAGGER_HELL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_da6738ee5446 = &CraftingRecipe{SourceItemID: "T5_MAIN_DAGGER_HELL", Attributes: map[string]string{
+	"craftingfocus": "2251",
+	"silver":        "0",
+	"time":          "1.5",
+}, Resources: []CraftingResource{
+	{ItemID: "T5_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T5_LEATHER", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T5_ARTEFACT_MAIN_DAGGER_HELL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_02a15139e7e9 = &CraftingRecipe{SourceItemID: "T6_MAIN_DAGGER_HELL", Attributes: map[string]string{
+	"craftingfocus": "3939",
+	"silver":        "0",
+	"time":          "2",
+}, Resources: []CraftingResource{
+	{ItemID: "T6_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T6_LEATHER", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T6_ARTEFACT_MAIN_DAGGER_HELL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_1e5099202f1f = &CraftingRecipe{SourceItemID: "T7_MAIN_DAGGER_HELL", Attributes: map[string]string{
+	"craftingfocus": "6893",
+	"silver":        "0",
+	"time":          "2.5",
+}, Resources: []CraftingResource{
+	{ItemID: "T7_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T7_LEATHER", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T7_ARTEFACT_MAIN_DAGGER_HELL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_e405a2629b9f = &CraftingRecipe{SourceItemID: "T8_MAIN_DAGGER_HELL", Attributes: map[string]string{
+	"craftingfocus": "12064",
+	"silver":        "0",
+	"time":          "3.75",
+}, Resources: []CraftingResource{
+	{ItemID: "T8_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T8_LEATHER", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T8_ARTEFACT_MAIN_DAGGER_HELL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_f7bee2e9d1c9 = &CraftingRecipe{SourceItemID: "T4_2H_IRONGAUNTLETS_HELL", Attributes: map[string]string{
+	"craftingfocus": "1715",
+	"silver":        "0",
+	"time":          "1.33333",
+}, Resources: []CraftingResource{
+	{ItemID: "T4_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T4_LEATHER", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T4_ARTEFACT_2H_IRONGAUNTLETS_HELL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_61fdf020c67e = &CraftingRecipe{SourceItemID: "T5_2H_IRONGAUNTLETS_HELL", Attributes: map[string]string{
+	"craftingfocus": "3001",
+	"silver":        "0",
+	"time":          "2",
+}, Resources: []CraftingResource{
+	{ItemID: "T5_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T5_LEATHER", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T5_ARTEFACT_2H_IRONGAUNTLETS_HELL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_94cf2487a6a4 = &CraftingRecipe{SourceItemID: "T6_2H_IRONGAUNTLETS_HELL", Attributes: map[string]string{
+	"craftingfocus": "5252",
+	"silver":        "0",
+	"time":          "2.66667",
+}, Resources: []CraftingResource{
+	{ItemID: "T6_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T6_LEATHER", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T6_ARTEFACT_2H_IRONGAUNTLETS_HELL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_207bec2276ca = &CraftingRecipe{SourceItemID: "T7_2H_IRONGAUNTLETS_HELL", Attributes: map[string]string{
+	"craftingfocus": "9191",
+	"silver":        "0",
+	"time":          "3.33333",
+}, Resources: []CraftingResource{
+	{ItemID: "T7_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T7_LEATHER", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T7_ARTEFACT_2H_IRONGAUNTLETS_HELL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_72df82a686c0 = &CraftingRecipe{SourceItemID: "T8_2H_IRONGAUNTLETS_HELL", Attributes: map[string]string{
+	"craftingfocus": "16085",
+	"silver":        "0",
+	"time":          "5",
+}, Resources: []CraftingResource{
+	{ItemID: "T8_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T8_LEATHER", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T8_ARTEFACT_2H_IRONGAUNTLETS_HELL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_4e0cee4947dc = &CraftingRecipe{SourceItemID: "T4_2H_DUALSICKLE_UNDEAD", Attributes: map[string]string{
+	"craftingfocus": "1715",
+	"silver":        "0",
+	"time":          "1.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T4_METALBAR", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T4_LEATHER", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T4_ARTEFACT_2H_DUALSICKLE_UNDEAD", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_c2653260fdb4 = &CraftingRecipe{SourceItemID: "T5_2H_DUALSICKLE_UNDEAD", Attributes: map[string]string{
+	"craftingfocus": "3001",
+	"silver":        "0",
+	"time":          "2",
+}, Resources: []CraftingResource{
+	{ItemID: "T5_METALBAR", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T5_LEATHER", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T5_ARTEFACT_2H_DUALSICKLE_UNDEAD", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_3495cf61eeb0 = &CraftingRecipe{SourceItemID: "T6_2H_DUALSICKLE_UNDEAD", Attributes: map[string]string{
+	"craftingfocus": "5252",
+	"silver":        "0",
+	"time":          "2.667",
+}, Resources: []CraftingResource{
+	{ItemID: "T6_METALBAR", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T6_LEATHER", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T6_ARTEFACT_2H_DUALSICKLE_UNDEAD", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_9a7c13e7403c = &CraftingRecipe{SourceItemID: "T7_2H_DUALSICKLE_UNDEAD", Attributes: map[string]string{
+	"craftingfocus": "9191",
+	"silver":        "0",
+	"time":          "3.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T7_METALBAR", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T7_LEATHER", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T7_ARTEFACT_2H_DUALSICKLE_UNDEAD", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_a5ef19f6f213 = &CraftingRecipe{SourceItemID: "T8_2H_DUALSICKLE_UNDEAD", Attributes: map[string]string{
+	"craftingfocus": "16085",
+	"silver":        "0",
+	"time":          "5",
+}, Resources: []CraftingResource{
+	{ItemID: "T8_METALBAR", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T8_LEATHER", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T8_ARTEFACT_2H_DUALSICKLE_UNDEAD", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_0924b4d66934 = &CraftingRecipe{SourceItemID: "T4_2H_DAGGER_KATAR_AVALON", Attributes: map[string]string{
+	"craftingfocus": "1715",
+	"silver":        "0",
+	"time":          "1.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T4_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T4_LEATHER", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T4_ARTEFACT_2H_DAGGER_KATAR_AVALON", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_f6f234f199b5 = &CraftingRecipe{SourceItemID: "T5_2H_DAGGER_KATAR_AVALON", Attributes: map[string]string{
+	"craftingfocus": "3001",
+	"silver":        "0",
+	"time":          "2",
+}, Resources: []CraftingResource{
+	{ItemID: "T5_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T5_LEATHER", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T5_ARTEFACT_2H_DAGGER_KATAR_AVALON", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_739f32b3c981 = &CraftingRecipe{SourceItemID: "T6_2H_DAGGER_KATAR_AVALON", Attributes: map[string]string{
+	"craftingfocus": "5252",
+	"silver":        "0",
+	"time":          "2.667",
+}, Resources: []CraftingResource{
+	{ItemID: "T6_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T6_LEATHER", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T6_ARTEFACT_2H_DAGGER_KATAR_AVALON", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_c7c4e4222854 = &CraftingRecipe{SourceItemID: "T7_2H_DAGGER_KATAR_AVALON", Attributes: map[string]string{
+	"craftingfocus": "9191",
+	"silver":        "0",
+	"time":          "3.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T7_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T7_LEATHER", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T7_ARTEFACT_2H_DAGGER_KATAR_AVALON", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_1f2f3c9e1729 = &CraftingRecipe{SourceItemID: "T8_2H_DAGGER_KATAR_AVALON", Attributes: map[string]string{
+	"craftingfocus": "16085",
+	"silver":        "0",
+	"time":          "5",
+}, Resources: []CraftingResource{
+	{ItemID: "T8_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T8_LEATHER", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T8_ARTEFACT_2H_DAGGER_KATAR_AVALON", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_26e248645252 = &CraftingRecipe{SourceItemID: "T4_2H_DAGGERPAIR_CRYSTAL", Attributes: map[string]string{
+	"craftingfocus": "1715",
+	"silver":        "0",
+	"time":          "1.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T4_METALBAR", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T4_LEATHER", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T4_ARTEFACT_2H_DAGGERPAIR_CRYSTAL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_7a677cd967b8 = &CraftingRecipe{SourceItemID: "T5_2H_DAGGERPAIR_CRYSTAL", Attributes: map[string]string{
+	"craftingfocus": "3001",
+	"silver":        "0",
+	"time":          "2",
+}, Resources: []CraftingResource{
+	{ItemID: "T5_METALBAR", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T5_LEATHER", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T5_ARTEFACT_2H_DAGGERPAIR_CRYSTAL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_8c50d7c2545f = &CraftingRecipe{SourceItemID: "T6_2H_DAGGERPAIR_CRYSTAL", Attributes: map[string]string{
+	"craftingfocus": "5252",
+	"silver":        "0",
+	"time":          "2.667",
+}, Resources: []CraftingResource{
+	{ItemID: "T6_METALBAR", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T6_LEATHER", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T6_ARTEFACT_2H_DAGGERPAIR_CRYSTAL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_3d6e4211c129 = &CraftingRecipe{SourceItemID: "T7_2H_DAGGERPAIR_CRYSTAL", Attributes: map[string]string{
+	"craftingfocus": "9191",
+	"silver":        "0",
+	"time":          "3.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T7_METALBAR", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T7_LEATHER", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T7_ARTEFACT_2H_DAGGERPAIR_CRYSTAL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_7039a6e8be64 = &CraftingRecipe{SourceItemID: "T8_2H_DAGGERPAIR_CRYSTAL", Attributes: map[string]string{
+	"craftingfocus": "16085",
+	"silver":        "0",
+	"time":          "5",
+}, Resources: []CraftingResource{
+	{ItemID: "T8_METALBAR", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T8_LEATHER", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T8_ARTEFACT_2H_DAGGERPAIR_CRYSTAL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_8cac28d301b2 = &CraftingRecipe{SourceItemID: "T3_MAIN_SPEAR", Attributes: map[string]string{
+	"craftingfocus": "735",
+	"silver":        "0",
+	"time":          "0.75",
+}, Resources: []CraftingResource{
+	{ItemID: "T3_PLANKS", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T3_METALBAR", Attributes: map[string]string{
+		"count": "8",
+	}},
+}}
+
+var recipe_aecdf2b0cacd = &CraftingRecipe{SourceItemID: "T4_MAIN_SPEAR", Attributes: map[string]string{
+	"craftingfocus": "1286",
+	"silver":        "0",
+	"time":          "1",
+}, Resources: []CraftingResource{
+	{ItemID: "T4_PLANKS", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T4_METALBAR", Attributes: map[string]string{
+		"count": "8",
+	}},
+}}
+
+var recipe_bb012aa4212f = &CraftingRecipe{SourceItemID: "T5_MAIN_SPEAR", Attributes: map[string]string{
+	"craftingfocus": "2251",
+	"silver":        "0",
+	"time":          "1.5",
+}, Resources: []CraftingResource{
+	{ItemID: "T5_PLANKS", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T5_METALBAR", Attributes: map[string]string{
+		"count": "8",
+	}},
+}}
+
+var recipe_3089cd6093d2 = &CraftingRecipe{SourceItemID: "T6_MAIN_SPEAR", Attributes: map[string]string{
+	"craftingfocus": "3939",
+	"silver":        "0",
+	"time":          "2",
+}, Resources: []CraftingResource{
+	{ItemID: "T6_PLANKS", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T6_METALBAR", Attributes: map[string]string{
+		"count": "8",
+	}},
+}}
+
+var recipe_090a9e047830 = &CraftingRecipe{SourceItemID: "T7_MAIN_SPEAR", Attributes: map[string]string{
+	"craftingfocus": "6893",
+	"silver":        "0",
+	"time":          "2.5",
+}, Resources: []CraftingResource{
+	{ItemID: "T7_PLANKS", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T7_METALBAR", Attributes: map[string]string{
+		"count": "8",
+	}},
+}}
+
+var recipe_c22ce092c5c1 = &CraftingRecipe{SourceItemID: "T8_MAIN_SPEAR", Attributes: map[string]string{
+	"craftingfocus": "12064",
+	"silver":        "0",
+	"time":          "3.75",
+}, Resources: []CraftingResource{
+	{ItemID: "T8_PLANKS", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T8_METALBAR", Attributes: map[string]string{
+		"count": "8",
+	}},
+}}
+
+var recipe_4e04a98b4887 = &CraftingRecipe{SourceItemID: "T4_2H_SPEAR", Attributes: map[string]string{
+	"craftingfocus": "1715",
+	"silver":        "0",
+	"time":          "1.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T4_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T4_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+}}
+
+var recipe_2a14fbbc242a = &CraftingRecipe{SourceItemID: "T5_2H_SPEAR", Attributes: map[string]string{
+	"craftingfocus": "3001",
+	"silver":        "0",
+	"time":          "2",
+}, Resources: []CraftingResource{
+	{ItemID: "T5_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T5_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+}}
+
+var recipe_7d4ead915166 = &CraftingRecipe{SourceItemID: "T6_2H_SPEAR", Attributes: map[string]string{
+	"craftingfocus": "5252",
+	"silver":        "0",
+	"time":          "2.667",
+}, Resources: []CraftingResource{
+	{ItemID: "T6_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T6_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+}}
+
+var recipe_7f07f9e546ae = &CraftingRecipe{SourceItemID: "T7_2H_SPEAR", Attributes: map[string]string{
+	"craftingfocus": "9191",
+	"silver":        "0",
+	"time":          "3.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T7_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T7_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+}}
+
+var recipe_52f4fb0fae91 = &CraftingRecipe{SourceItemID: "T8_2H_SPEAR", Attributes: map[string]string{
+	"craftingfocus": "16085",
+	"silver":        "0",
+	"time":          "5",
+}, Resources: []CraftingResource{
+	{ItemID: "T8_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T8_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+}}
+
+var recipe_6ee6a9431ee1 = &CraftingRecipe{SourceItemID: "T4_2H_GLAIVE", Attributes: map[string]string{
+	"craftingfocus": "1715",
+	"silver":        "0",
+	"time":          "1.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T4_PLANKS", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T4_METALBAR", Attributes: map[string]string{
+		"count": "20",
+	}},
+}}
+
+var recipe_9bb048c41275 = &CraftingRecipe{SourceItemID: "T5_2H_GLAIVE", Attributes: map[string]string{
+	"craftingfocus": "3001",
+	"silver":        "0",
+	"time":          "2",
+}, Resources: []CraftingResource{
+	{ItemID: "T5_PLANKS", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T5_METALBAR", Attributes: map[string]string{
+		"count": "20",
+	}},
+}}
+
+var recipe_b39633211ff4 = &CraftingRecipe{SourceItemID: "T6_2H_GLAIVE", Attributes: map[string]string{
+	"craftingfocus": "5252",
+	"silver":        "0",
+	"time":          "2.667",
+}, Resources: []CraftingResource{
+	{ItemID: "T6_PLANKS", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T6_METALBAR", Attributes: map[string]string{
+		"count": "20",
+	}},
+}}
+
+var recipe_7037eb09f17d = &CraftingRecipe{SourceItemID: "T7_2H_GLAIVE", Attributes: map[string]string{
+	"craftingfocus": "9191",
+	"silver":        "0",
+	"time":          "3.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T7_PLANKS", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T7_METALBAR", Attributes: map[string]string{
+		"count": "20",
+	}},
+}}
+
+var recipe_7fb7df4bd770 = &CraftingRecipe{SourceItemID: "T8_2H_GLAIVE", Attributes: map[string]string{
+	"craftingfocus": "16085",
+	"silver":        "0",
+	"time":          "5",
+}, Resources: []CraftingResource{
+	{ItemID: "T8_PLANKS", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T8_METALBAR", Attributes: map[string]string{
+		"count": "20",
+	}},
+}}
+
+var recipe_76ba04e419bd = &CraftingRecipe{SourceItemID: "T4_MAIN_SPEAR_KEEPER", Attributes: map[string]string{
+	"craftingfocus": "1286",
+	"silver":        "0",
+	"time":          "1",
+}, Resources: []CraftingResource{
+	{ItemID: "T4_PLANKS", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T4_METALBAR", Attributes: map[string]string{
+		"count": "8",
+	}},
+	{ItemID: "T4_ARTEFACT_MAIN_SPEAR_KEEPER", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_b480239575dc = &CraftingRecipe{SourceItemID: "T5_MAIN_SPEAR_KEEPER", Attributes: map[string]string{
+	"craftingfocus": "2251",
+	"silver":        "0",
+	"time":          "1.5",
+}, Resources: []CraftingResource{
+	{ItemID: "T5_PLANKS", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T5_METALBAR", Attributes: map[string]string{
+		"count": "8",
+	}},
+	{ItemID: "T5_ARTEFACT_MAIN_SPEAR_KEEPER", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_afb92267e7e0 = &CraftingRecipe{SourceItemID: "T6_MAIN_SPEAR_KEEPER", Attributes: map[string]string{
+	"craftingfocus": "3939",
+	"silver":        "0",
+	"time":          "2",
+}, Resources: []CraftingResource{
+	{ItemID: "T6_PLANKS", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T6_METALBAR", Attributes: map[string]string{
+		"count": "8",
+	}},
+	{ItemID: "T6_ARTEFACT_MAIN_SPEAR_KEEPER", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_30a9d956721e = &CraftingRecipe{SourceItemID: "T7_MAIN_SPEAR_KEEPER", Attributes: map[string]string{
+	"craftingfocus": "6893",
+	"silver":        "0",
+	"time":          "2.5",
+}, Resources: []CraftingResource{
+	{ItemID: "T7_PLANKS", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T7_METALBAR", Attributes: map[string]string{
+		"count": "8",
+	}},
+	{ItemID: "T7_ARTEFACT_MAIN_SPEAR_KEEPER", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_54137cc5efdb = &CraftingRecipe{SourceItemID: "T8_MAIN_SPEAR_KEEPER", Attributes: map[string]string{
+	"craftingfocus": "12064",
+	"silver":        "0",
+	"time":          "3.75",
+}, Resources: []CraftingResource{
+	{ItemID: "T8_PLANKS", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T8_METALBAR", Attributes: map[string]string{
+		"count": "8",
+	}},
+	{ItemID: "T8_ARTEFACT_MAIN_SPEAR_KEEPER", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_acd9f636162a = &CraftingRecipe{SourceItemID: "T4_2H_HARPOON_HELL", Attributes: map[string]string{
+	"craftingfocus": "1715",
+	"silver":        "0",
+	"time":          "1.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T4_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T4_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T4_ARTEFACT_2H_HARPOON_HELL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_b17a9c841278 = &CraftingRecipe{SourceItemID: "T5_2H_HARPOON_HELL", Attributes: map[string]string{
+	"craftingfocus": "3001",
+	"silver":        "0",
+	"time":          "2",
+}, Resources: []CraftingResource{
+	{ItemID: "T5_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T5_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T5_ARTEFACT_2H_HARPOON_HELL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_b806e3253fbc = &CraftingRecipe{SourceItemID: "T6_2H_HARPOON_HELL", Attributes: map[string]string{
+	"craftingfocus": "5252",
+	"silver":        "0",
+	"time":          "2.667",
+}, Resources: []CraftingResource{
+	{ItemID: "T6_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T6_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T6_ARTEFACT_2H_HARPOON_HELL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_fc9fa96d3c14 = &CraftingRecipe{SourceItemID: "T7_2H_HARPOON_HELL", Attributes: map[string]string{
+	"craftingfocus": "9191",
+	"silver":        "0",
+	"time":          "3.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T7_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T7_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T7_ARTEFACT_2H_HARPOON_HELL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_ee9b4bb5e87c = &CraftingRecipe{SourceItemID: "T8_2H_HARPOON_HELL", Attributes: map[string]string{
+	"craftingfocus": "16085",
+	"silver":        "0",
+	"time":          "5",
+}, Resources: []CraftingResource{
+	{ItemID: "T8_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T8_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T8_ARTEFACT_2H_HARPOON_HELL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_3b1e465d20e4 = &CraftingRecipe{SourceItemID: "T4_2H_TRIDENT_UNDEAD", Attributes: map[string]string{
+	"craftingfocus": "1715",
+	"silver":        "0",
+	"time":          "1.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T4_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T4_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T4_ARTEFACT_2H_TRIDENT_UNDEAD", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_4be252bbe156 = &CraftingRecipe{SourceItemID: "T5_2H_TRIDENT_UNDEAD", Attributes: map[string]string{
+	"craftingfocus": "3001",
+	"silver":        "0",
+	"time":          "2",
+}, Resources: []CraftingResource{
+	{ItemID: "T5_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T5_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T5_ARTEFACT_2H_TRIDENT_UNDEAD", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_3d6cbc3fb99f = &CraftingRecipe{SourceItemID: "T6_2H_TRIDENT_UNDEAD", Attributes: map[string]string{
+	"craftingfocus": "5252",
+	"silver":        "0",
+	"time":          "2.667",
+}, Resources: []CraftingResource{
+	{ItemID: "T6_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T6_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T6_ARTEFACT_2H_TRIDENT_UNDEAD", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_b0e78f1d3f39 = &CraftingRecipe{SourceItemID: "T7_2H_TRIDENT_UNDEAD", Attributes: map[string]string{
+	"craftingfocus": "9191",
+	"silver":        "0",
+	"time":          "3.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T7_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T7_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T7_ARTEFACT_2H_TRIDENT_UNDEAD", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_b5003897cb46 = &CraftingRecipe{SourceItemID: "T8_2H_TRIDENT_UNDEAD", Attributes: map[string]string{
+	"craftingfocus": "16085",
+	"silver":        "0",
+	"time":          "5",
+}, Resources: []CraftingResource{
+	{ItemID: "T8_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T8_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T8_ARTEFACT_2H_TRIDENT_UNDEAD", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_4cf2d6dad5de = &CraftingRecipe{SourceItemID: "T4_MAIN_SPEAR_LANCE_AVALON", Attributes: map[string]string{
+	"craftingfocus": "1286",
+	"silver":        "0",
+	"time":          "1",
+}, Resources: []CraftingResource{
+	{ItemID: "T4_PLANKS", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T4_METALBAR", Attributes: map[string]string{
+		"count": "8",
+	}},
+	{ItemID: "T4_ARTEFACT_MAIN_SPEAR_LANCE_AVALON", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_77dcfb872ae1 = &CraftingRecipe{SourceItemID: "T5_MAIN_SPEAR_LANCE_AVALON", Attributes: map[string]string{
+	"craftingfocus": "2251",
+	"silver":        "0",
+	"time":          "1.5",
+}, Resources: []CraftingResource{
+	{ItemID: "T5_PLANKS", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T5_METALBAR", Attributes: map[string]string{
+		"count": "8",
+	}},
+	{ItemID: "T5_ARTEFACT_MAIN_SPEAR_LANCE_AVALON", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_80a7af483c52 = &CraftingRecipe{SourceItemID: "T6_MAIN_SPEAR_LANCE_AVALON", Attributes: map[string]string{
+	"craftingfocus": "3939",
+	"silver":        "0",
+	"time":          "2",
+}, Resources: []CraftingResource{
+	{ItemID: "T6_PLANKS", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T6_METALBAR", Attributes: map[string]string{
+		"count": "8",
+	}},
+	{ItemID: "T6_ARTEFACT_MAIN_SPEAR_LANCE_AVALON", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_44dc46726bab = &CraftingRecipe{SourceItemID: "T7_MAIN_SPEAR_LANCE_AVALON", Attributes: map[string]string{
+	"craftingfocus": "6893",
+	"silver":        "0",
+	"time":          "2.5",
+}, Resources: []CraftingResource{
+	{ItemID: "T7_PLANKS", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T7_METALBAR", Attributes: map[string]string{
+		"count": "8",
+	}},
+	{ItemID: "T7_ARTEFACT_MAIN_SPEAR_LANCE_AVALON", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_61c84b3ef6ee = &CraftingRecipe{SourceItemID: "T8_MAIN_SPEAR_LANCE_AVALON", Attributes: map[string]string{
+	"craftingfocus": "12064",
+	"silver":        "0",
+	"time":          "3.75",
+}, Resources: []CraftingResource{
+	{ItemID: "T8_PLANKS", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T8_METALBAR", Attributes: map[string]string{
+		"count": "8",
+	}},
+	{ItemID: "T8_ARTEFACT_MAIN_SPEAR_LANCE_AVALON", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_04304e381798 = &CraftingRecipe{SourceItemID: "T4_2H_GLAIVE_CRYSTAL", Attributes: map[string]string{
+	"craftingfocus": "1715",
+	"silver":        "0",
+	"time":          "1.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T4_PLANKS", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T4_METALBAR", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T4_ARTEFACT_2H_GLAIVE_CRYSTAL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_717ea8b3b4a2 = &CraftingRecipe{SourceItemID: "T5_2H_GLAIVE_CRYSTAL", Attributes: map[string]string{
+	"craftingfocus": "3001",
+	"silver":        "0",
+	"time":          "2",
+}, Resources: []CraftingResource{
+	{ItemID: "T5_PLANKS", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T5_METALBAR", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T5_ARTEFACT_2H_GLAIVE_CRYSTAL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_474680cdb60d = &CraftingRecipe{SourceItemID: "T6_2H_GLAIVE_CRYSTAL", Attributes: map[string]string{
+	"craftingfocus": "5252",
+	"silver":        "0",
+	"time":          "2.667",
+}, Resources: []CraftingResource{
+	{ItemID: "T6_PLANKS", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T6_METALBAR", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T6_ARTEFACT_2H_GLAIVE_CRYSTAL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_a2d400658fb4 = &CraftingRecipe{SourceItemID: "T7_2H_GLAIVE_CRYSTAL", Attributes: map[string]string{
+	"craftingfocus": "9191",
+	"silver":        "0",
+	"time":          "3.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T7_PLANKS", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T7_METALBAR", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T7_ARTEFACT_2H_GLAIVE_CRYSTAL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_8d2a9fbec5c3 = &CraftingRecipe{SourceItemID: "T8_2H_GLAIVE_CRYSTAL", Attributes: map[string]string{
+	"craftingfocus": "16085",
+	"silver":        "0",
+	"time":          "5",
+}, Resources: []CraftingResource{
+	{ItemID: "T8_PLANKS", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T8_METALBAR", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T8_ARTEFACT_2H_GLAIVE_CRYSTAL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_3f6afc87bc10 = &CraftingRecipe{SourceItemID: "T3_MAIN_AXE", Attributes: map[string]string{
+	"craftingfocus": "735",
+	"silver":        "0",
+	"time":          "0.75",
+}, Resources: []CraftingResource{
+	{ItemID: "T3_PLANKS", Attributes: map[string]string{
+		"count": "8",
+	}},
+	{ItemID: "T3_METALBAR", Attributes: map[string]string{
+		"count": "16",
+	}},
+}}
+
+var recipe_03d042c6964b = &CraftingRecipe{SourceItemID: "T4_MAIN_AXE", Attributes: map[string]string{
+	"craftingfocus": "1286",
+	"silver":        "0",
+	"time":          "1",
+}, Resources: []CraftingResource{
+	{ItemID: "T4_PLANKS", Attributes: map[string]string{
+		"count": "8",
+	}},
+	{ItemID: "T4_METALBAR", Attributes: map[string]string{
+		"count": "16",
+	}},
+}}
+
+var recipe_e1358a6c0dd9 = &CraftingRecipe{SourceItemID: "T5_MAIN_AXE", Attributes: map[string]string{
+	"craftingfocus": "2251",
+	"silver":        "0",
+	"time":          "1.5",
+}, Resources: []CraftingResource{
+	{ItemID: "T5_PLANKS", Attributes: map[string]string{
+		"count": "8",
+	}},
+	{ItemID: "T5_METALBAR", Attributes: map[string]string{
+		"count": "16",
+	}},
+}}
+
+var recipe_ebd0182f3762 = &CraftingRecipe{SourceItemID: "T6_MAIN_AXE", Attributes: map[string]string{
+	"craftingfocus": "3939",
+	"silver":        "0",
+	"time":          "2",
+}, Resources: []CraftingResource{
+	{ItemID: "T6_PLANKS", Attributes: map[string]string{
+		"count": "8",
+	}},
+	{ItemID: "T6_METALBAR", Attributes: map[string]string{
+		"count": "16",
+	}},
+}}
+
+var recipe_a7622b3d9854 = &CraftingRecipe{SourceItemID: "T7_MAIN_AXE", Attributes: map[string]string{
+	"craftingfocus": "6893",
+	"silver":        "0",
+	"time":          "2.5",
+}, Resources: []CraftingResource{
+	{ItemID: "T7_PLANKS", Attributes: map[string]string{
+		"count": "8",
+	}},
+	{ItemID: "T7_METALBAR", Attributes: map[string]string{
+		"count": "16",
+	}},
+}}
+
+var recipe_0e9e172589ff = &CraftingRecipe{SourceItemID: "T8_MAIN_AXE", Attributes: map[string]string{
+	"craftingfocus": "12064",
+	"silver":        "0",
+	"time":          "3.75",
+}, Resources: []CraftingResource{
+	{ItemID: "T8_PLANKS", Attributes: map[string]string{
+		"count": "8",
+	}},
+	{ItemID: "T8_METALBAR", Attributes: map[string]string{
+		"count": "16",
+	}},
+}}
+
+var recipe_998be68f4dec = &CraftingRecipe{SourceItemID: "T4_2H_AXE", Attributes: map[string]string{
+	"craftingfocus": "1715",
+	"silver":        "0",
+	"time":          "1.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T4_PLANKS", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T4_METALBAR", Attributes: map[string]string{
+		"count": "20",
+	}},
+}}
+
+var recipe_2a510c4ad6c5 = &CraftingRecipe{SourceItemID: "T5_2H_AXE", Attributes: map[string]string{
+	"craftingfocus": "3001",
+	"silver":        "0",
+	"time":          "2",
+}, Resources: []CraftingResource{
+	{ItemID: "T5_PLANKS", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T5_METALBAR", Attributes: map[string]string{
+		"count": "20",
+	}},
+}}
+
+var recipe_d363e7a54628 = &CraftingRecipe{SourceItemID: "T6_2H_AXE", Attributes: map[string]string{
+	"craftingfocus": "5252",
+	"silver":        "0",
+	"time":          "2.667",
+}, Resources: []CraftingResource{
+	{ItemID: "T6_PLANKS", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T6_METALBAR", Attributes: map[string]string{
+		"count": "20",
+	}},
+}}
+
+var recipe_e905d20f7c88 = &CraftingRecipe{SourceItemID: "T7_2H_AXE", Attributes: map[string]string{
+	"craftingfocus": "9191",
+	"silver":        "0",
+	"time":          "3.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T7_PLANKS", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T7_METALBAR", Attributes: map[string]string{
+		"count": "20",
+	}},
+}}
+
+var recipe_ab131fc9fb65 = &CraftingRecipe{SourceItemID: "T8_2H_AXE", Attributes: map[string]string{
+	"craftingfocus": "16085",
+	"silver":        "0",
+	"time":          "5",
+}, Resources: []CraftingResource{
+	{ItemID: "T8_PLANKS", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T8_METALBAR", Attributes: map[string]string{
+		"count": "20",
+	}},
+}}
+
+var recipe_9eb36488172e = &CraftingRecipe{SourceItemID: "T4_2H_HALBERD", Attributes: map[string]string{
+	"craftingfocus": "1715",
+	"silver":        "0",
+	"time":          "1.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T4_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T4_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+}}
+
+var recipe_9c46cc456193 = &CraftingRecipe{SourceItemID: "T5_2H_HALBERD", Attributes: map[string]string{
+	"craftingfocus": "3001",
+	"silver":        "0",
+	"time":          "2",
+}, Resources: []CraftingResource{
+	{ItemID: "T5_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T5_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+}}
+
+var recipe_958d5c688cb9 = &CraftingRecipe{SourceItemID: "T6_2H_HALBERD", Attributes: map[string]string{
+	"craftingfocus": "5252",
+	"silver":        "0",
+	"time":          "2.667",
+}, Resources: []CraftingResource{
+	{ItemID: "T6_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T6_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+}}
+
+var recipe_aa01f817e500 = &CraftingRecipe{SourceItemID: "T7_2H_HALBERD", Attributes: map[string]string{
+	"craftingfocus": "9191",
+	"silver":        "0",
+	"time":          "3.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T7_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T7_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+}}
+
+var recipe_650c2b5c0a24 = &CraftingRecipe{SourceItemID: "T8_2H_HALBERD", Attributes: map[string]string{
+	"craftingfocus": "16085",
+	"silver":        "0",
+	"time":          "5",
+}, Resources: []CraftingResource{
+	{ItemID: "T8_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T8_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+}}
+
+var recipe_d08eb10da58e = &CraftingRecipe{SourceItemID: "T4_2H_HALBERD_MORGANA", Attributes: map[string]string{
+	"craftingfocus":   "1715",
+	"silver":          "0",
+	"swaptransaction": "true",
+	"time":            "1.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T4_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T4_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T4_ARTEFACT_2H_HALBERD_MORGANA", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_d64b39f8d158 = &CraftingRecipe{SourceItemID: "T5_2H_HALBERD_MORGANA", Attributes: map[string]string{
+	"craftingfocus":   "3001",
+	"silver":          "0",
+	"swaptransaction": "true",
+	"time":            "2",
+}, Resources: []CraftingResource{
+	{ItemID: "T5_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T5_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T5_ARTEFACT_2H_HALBERD_MORGANA", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_6b907232484f = &CraftingRecipe{SourceItemID: "T6_2H_HALBERD_MORGANA", Attributes: map[string]string{
+	"craftingfocus":   "5252",
+	"silver":          "0",
+	"swaptransaction": "true",
+	"time":            "2.667",
+}, Resources: []CraftingResource{
+	{ItemID: "T6_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T6_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T6_ARTEFACT_2H_HALBERD_MORGANA", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_60842e8e7ea5 = &CraftingRecipe{SourceItemID: "T7_2H_HALBERD_MORGANA", Attributes: map[string]string{
+	"craftingfocus":   "9191",
+	"silver":          "0",
+	"swaptransaction": "true",
+	"time":            "3.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T7_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T7_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T7_ARTEFACT_2H_HALBERD_MORGANA", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_cd5e109d5fd3 = &CraftingRecipe{SourceItemID: "T8_2H_HALBERD_MORGANA", Attributes: map[string]string{
+	"craftingfocus":   "16085",
+	"silver":          "0",
+	"swaptransaction": "true",
+	"time":            "5",
+}, Resources: []CraftingResource{
+	{ItemID: "T8_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T8_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T8_ARTEFACT_2H_HALBERD_MORGANA", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_1ed156e0251d = &CraftingRecipe{SourceItemID: "T4_2H_SCYTHE_HELL", Attributes: map[string]string{
+	"craftingfocus": "1715",
+	"silver":        "0",
+	"time":          "1.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T4_PLANKS", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T4_METALBAR", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T4_ARTEFACT_2H_SCYTHE_HELL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_ca696d12beeb = &CraftingRecipe{SourceItemID: "T5_2H_SCYTHE_HELL", Attributes: map[string]string{
+	"craftingfocus": "3001",
+	"silver":        "0",
+	"time":          "2",
+}, Resources: []CraftingResource{
+	{ItemID: "T5_PLANKS", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T5_METALBAR", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T5_ARTEFACT_2H_SCYTHE_HELL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_9265d186ef79 = &CraftingRecipe{SourceItemID: "T6_2H_SCYTHE_HELL", Attributes: map[string]string{
+	"craftingfocus": "5252",
+	"silver":        "0",
+	"time":          "2.667",
+}, Resources: []CraftingResource{
+	{ItemID: "T6_PLANKS", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T6_METALBAR", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T6_ARTEFACT_2H_SCYTHE_HELL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_c6d233d16824 = &CraftingRecipe{SourceItemID: "T7_2H_SCYTHE_HELL", Attributes: map[string]string{
+	"craftingfocus": "9191",
+	"silver":        "0",
+	"time":          "3.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T7_PLANKS", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T7_METALBAR", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T7_ARTEFACT_2H_SCYTHE_HELL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_f54a1d56d500 = &CraftingRecipe{SourceItemID: "T8_2H_SCYTHE_HELL", Attributes: map[string]string{
+	"craftingfocus": "16085",
+	"silver":        "0",
+	"time":          "5",
+}, Resources: []CraftingResource{
+	{ItemID: "T8_PLANKS", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T8_METALBAR", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T8_ARTEFACT_2H_SCYTHE_HELL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_ca6cf7f7f08e = &CraftingRecipe{SourceItemID: "T4_2H_DUALAXE_KEEPER", Attributes: map[string]string{
+	"craftingfocus": "1715",
+	"silver":        "0",
+	"time":          "1.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T4_PLANKS", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T4_METALBAR", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T4_ARTEFACT_2H_DUALAXE_KEEPER", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_9ce93702497e = &CraftingRecipe{SourceItemID: "T5_2H_DUALAXE_KEEPER", Attributes: map[string]string{
+	"craftingfocus": "3001",
+	"silver":        "0",
+	"time":          "2",
+}, Resources: []CraftingResource{
+	{ItemID: "T5_PLANKS", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T5_METALBAR", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T5_ARTEFACT_2H_DUALAXE_KEEPER", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_b993e5255b67 = &CraftingRecipe{SourceItemID: "T6_2H_DUALAXE_KEEPER", Attributes: map[string]string{
+	"craftingfocus": "5252",
+	"silver":        "0",
+	"time":          "2.667",
+}, Resources: []CraftingResource{
+	{ItemID: "T6_PLANKS", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T6_METALBAR", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T6_ARTEFACT_2H_DUALAXE_KEEPER", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_c136fc515503 = &CraftingRecipe{SourceItemID: "T7_2H_DUALAXE_KEEPER", Attributes: map[string]string{
+	"craftingfocus": "9191",
+	"silver":        "0",
+	"time":          "3.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T7_PLANKS", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T7_METALBAR", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T7_ARTEFACT_2H_DUALAXE_KEEPER", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_523016f48bd3 = &CraftingRecipe{SourceItemID: "T8_2H_DUALAXE_KEEPER", Attributes: map[string]string{
+	"craftingfocus": "16085",
+	"silver":        "0",
+	"time":          "5",
+}, Resources: []CraftingResource{
+	{ItemID: "T8_PLANKS", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T8_METALBAR", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T8_ARTEFACT_2H_DUALAXE_KEEPER", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_92d73a905b7b = &CraftingRecipe{SourceItemID: "T4_2H_AXE_AVALON", Attributes: map[string]string{
+	"craftingfocus": "1715",
+	"silver":        "0",
+	"time":          "1.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T4_PLANKS", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T4_METALBAR", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T4_ARTEFACT_2H_AXE_AVALON", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_def343cb8f8b = &CraftingRecipe{SourceItemID: "T5_2H_AXE_AVALON", Attributes: map[string]string{
+	"craftingfocus": "3001",
+	"silver":        "0",
+	"time":          "2",
+}, Resources: []CraftingResource{
+	{ItemID: "T5_PLANKS", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T5_METALBAR", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T5_ARTEFACT_2H_AXE_AVALON", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_b337aff24c72 = &CraftingRecipe{SourceItemID: "T6_2H_AXE_AVALON", Attributes: map[string]string{
+	"craftingfocus": "5252",
+	"silver":        "0",
+	"time":          "2.667",
+}, Resources: []CraftingResource{
+	{ItemID: "T6_PLANKS", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T6_METALBAR", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T6_ARTEFACT_2H_AXE_AVALON", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_63a2ab964f2f = &CraftingRecipe{SourceItemID: "T7_2H_AXE_AVALON", Attributes: map[string]string{
+	"craftingfocus": "9191",
+	"silver":        "0",
+	"time":          "3.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T7_PLANKS", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T7_METALBAR", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T7_ARTEFACT_2H_AXE_AVALON", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_6319c28cfd1a = &CraftingRecipe{SourceItemID: "T8_2H_AXE_AVALON", Attributes: map[string]string{
+	"craftingfocus": "16085",
+	"silver":        "0",
+	"time":          "5",
+}, Resources: []CraftingResource{
+	{ItemID: "T8_PLANKS", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T8_METALBAR", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T8_ARTEFACT_2H_AXE_AVALON", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_1042352b5155 = &CraftingRecipe{SourceItemID: "T4_2H_SCYTHE_CRYSTAL", Attributes: map[string]string{
+	"craftingfocus": "1715",
+	"silver":        "0",
+	"time":          "1.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T4_PLANKS", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T4_METALBAR", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T4_ARTEFACT_2H_SCYTHE_CRYSTAL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_6fe9f3df2677 = &CraftingRecipe{SourceItemID: "T5_2H_SCYTHE_CRYSTAL", Attributes: map[string]string{
+	"craftingfocus": "3001",
+	"silver":        "0",
+	"time":          "2",
+}, Resources: []CraftingResource{
+	{ItemID: "T5_PLANKS", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T5_METALBAR", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T5_ARTEFACT_2H_SCYTHE_CRYSTAL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_90abcc18e56f = &CraftingRecipe{SourceItemID: "T6_2H_SCYTHE_CRYSTAL", Attributes: map[string]string{
+	"craftingfocus": "5252",
+	"silver":        "0",
+	"time":          "2.667",
+}, Resources: []CraftingResource{
+	{ItemID: "T6_PLANKS", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T6_METALBAR", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T6_ARTEFACT_2H_SCYTHE_CRYSTAL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_7afd61886a4e = &CraftingRecipe{SourceItemID: "T7_2H_SCYTHE_CRYSTAL", Attributes: map[string]string{
+	"craftingfocus": "9191",
+	"silver":        "0",
+	"time":          "3.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T7_PLANKS", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T7_METALBAR", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T7_ARTEFACT_2H_SCYTHE_CRYSTAL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_55b622417950 = &CraftingRecipe{SourceItemID: "T8_2H_SCYTHE_CRYSTAL", Attributes: map[string]string{
+	"craftingfocus": "16085",
+	"silver":        "0",
+	"time":          "5",
+}, Resources: []CraftingResource{
+	{ItemID: "T8_PLANKS", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T8_METALBAR", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T8_ARTEFACT_2H_SCYTHE_CRYSTAL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_59e5640ff251 = &CraftingRecipe{SourceItemID: "T1_MAIN_SWORD", Attributes: map[string]string{
+	"craftingfocus": "0",
+	"silver":        "0",
+	"time":          "0.5",
+}, Resources: []CraftingResource{
+	{ItemID: "T1_ROCK", Attributes: map[string]string{
+		"count": "6",
+	}},
+	{ItemID: "T1_WOOD", Attributes: map[string]string{
+		"count": "6",
+	}},
+}}
+
+var recipe_19dd5d885326 = &CraftingRecipe{SourceItemID: "T2_MAIN_SWORD", Attributes: map[string]string{
+	"craftingfocus": "420",
+	"silver":        "0",
+	"time":          "0.5",
+}, Resources: []CraftingResource{
+	{ItemID: "T2_METALBAR", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T2_LEATHER", Attributes: map[string]string{
+		"count": "8",
+	}},
+}}
+
+var recipe_871f29ce211f = &CraftingRecipe{SourceItemID: "T3_MAIN_SWORD", Attributes: map[string]string{
+	"craftingfocus": "735",
+	"silver":        "0",
+	"time":          "0.75",
+}, Resources: []CraftingResource{
+	{ItemID: "T3_METALBAR", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T3_LEATHER", Attributes: map[string]string{
+		"count": "8",
+	}},
+}}
+
+var recipe_3713d36b27ea = &CraftingRecipe{SourceItemID: "T4_MAIN_SWORD", Attributes: map[string]string{
+	"craftingfocus": "1286",
+	"silver":        "0",
+	"time":          "1",
+}, Resources: []CraftingResource{
+	{ItemID: "T4_METALBAR", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T4_LEATHER", Attributes: map[string]string{
+		"count": "8",
+	}},
+}}
+
+var recipe_5ad44dda52a9 = &CraftingRecipe{SourceItemID: "T5_MAIN_SWORD", Attributes: map[string]string{
+	"craftingfocus": "2251",
+	"silver":        "0",
+	"time":          "1.5",
+}, Resources: []CraftingResource{
+	{ItemID: "T5_METALBAR", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T5_LEATHER", Attributes: map[string]string{
+		"count": "8",
+	}},
+}}
+
+var recipe_5dfaa51bd20f = &CraftingRecipe{SourceItemID: "T6_MAIN_SWORD", Attributes: map[string]string{
+	"craftingfocus": "3939",
+	"silver":        "0",
+	"time":          "2",
+}, Resources: []CraftingResource{
+	{ItemID: "T6_METALBAR", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T6_LEATHER", Attributes: map[string]string{
+		"count": "8",
+	}},
+}}
+
+var recipe_b728e6dffa3a = &CraftingRecipe{SourceItemID: "T7_MAIN_SWORD", Attributes: map[string]string{
+	"craftingfocus": "6893",
+	"silver":        "0",
+	"time":          "2.5",
+}, Resources: []CraftingResource{
+	{ItemID: "T7_METALBAR", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T7_LEATHER", Attributes: map[string]string{
+		"count": "8",
+	}},
+}}
+
+var recipe_364941955a40 = &CraftingRecipe{SourceItemID: "T8_MAIN_SWORD", Attributes: map[string]string{
+	"craftingfocus": "12064",
+	"silver":        "0",
+	"time":          "3.75",
+}, Resources: []CraftingResource{
+	{ItemID: "T8_METALBAR", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T8_LEATHER", Attributes: map[string]string{
+		"count": "8",
+	}},
+}}
+
+var recipe_5e66994cb46c = &CraftingRecipe{SourceItemID: "T4_2H_CLAYMORE", Attributes: map[string]string{
+	"craftingfocus": "1715",
+	"silver":        "0",
+	"time":          "1.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T4_METALBAR", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T4_LEATHER", Attributes: map[string]string{
+		"count": "12",
+	}},
+}}
+
+var recipe_911289c99a04 = &CraftingRecipe{SourceItemID: "T5_2H_CLAYMORE", Attributes: map[string]string{
+	"craftingfocus": "3001",
+	"silver":        "0",
+	"time":          "2",
+}, Resources: []CraftingResource{
+	{ItemID: "T5_METALBAR", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T5_LEATHER", Attributes: map[string]string{
+		"count": "12",
+	}},
+}}
+
+var recipe_ae3ca6e0996a = &CraftingRecipe{SourceItemID: "T6_2H_CLAYMORE", Attributes: map[string]string{
+	"craftingfocus": "5252",
+	"silver":        "0",
+	"time":          "2.667",
+}, Resources: []CraftingResource{
+	{ItemID: "T6_METALBAR", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T6_LEATHER", Attributes: map[string]string{
+		"count": "12",
+	}},
+}}
+
+var recipe_6524d1ae245d = &CraftingRecipe{SourceItemID: "T7_2H_CLAYMORE", Attributes: map[string]string{
+	"craftingfocus": "9191",
+	"silver":        "0",
+	"time":          "3.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T7_METALBAR", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T7_LEATHER", Attributes: map[string]string{
+		"count": "12",
+	}},
+}}
+
+var recipe_50b56846a309 = &CraftingRecipe{SourceItemID: "T8_2H_CLAYMORE", Attributes: map[string]string{
+	"craftingfocus": "16085",
+	"silver":        "0",
+	"time":          "5",
+}, Resources: []CraftingResource{
+	{ItemID: "T8_METALBAR", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T8_LEATHER", Attributes: map[string]string{
+		"count": "12",
+	}},
+}}
+
+var recipe_4501222262df = &CraftingRecipe{SourceItemID: "T4_2H_DUALSWORD", Attributes: map[string]string{
+	"craftingfocus": "1715",
+	"silver":        "0",
+	"time":          "1.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T4_METALBAR", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T4_LEATHER", Attributes: map[string]string{
+		"count": "12",
+	}},
+}}
+
+var recipe_155aee8a028d = &CraftingRecipe{SourceItemID: "T5_2H_DUALSWORD", Attributes: map[string]string{
+	"craftingfocus": "3001",
+	"silver":        "0",
+	"time":          "2",
+}, Resources: []CraftingResource{
+	{ItemID: "T5_METALBAR", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T5_LEATHER", Attributes: map[string]string{
+		"count": "12",
+	}},
+}}
+
+var recipe_8bbdd5d7ed88 = &CraftingRecipe{SourceItemID: "T6_2H_DUALSWORD", Attributes: map[string]string{
+	"craftingfocus": "5252",
+	"silver":        "0",
+	"time":          "2.667",
+}, Resources: []CraftingResource{
+	{ItemID: "T6_METALBAR", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T6_LEATHER", Attributes: map[string]string{
+		"count": "12",
+	}},
+}}
+
+var recipe_b88bb4a49231 = &CraftingRecipe{SourceItemID: "T7_2H_DUALSWORD", Attributes: map[string]string{
+	"craftingfocus": "9191",
+	"silver":        "0",
+	"time":          "3.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T7_METALBAR", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T7_LEATHER", Attributes: map[string]string{
+		"count": "12",
+	}},
+}}
+
+var recipe_71438e6d5955 = &CraftingRecipe{SourceItemID: "T8_2H_DUALSWORD", Attributes: map[string]string{
+	"craftingfocus": "16085",
+	"silver":        "0",
+	"time":          "5",
+}, Resources: []CraftingResource{
+	{ItemID: "T8_METALBAR", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T8_LEATHER", Attributes: map[string]string{
+		"count": "12",
+	}},
+}}
+
+var recipe_1c014c448e06 = &CraftingRecipe{SourceItemID: "T4_MAIN_SCIMITAR_MORGANA", Attributes: map[string]string{
+	"craftingfocus": "1286",
+	"silver":        "0",
+	"time":          "1",
+}, Resources: []CraftingResource{
+	{ItemID: "T4_METALBAR", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T4_LEATHER", Attributes: map[string]string{
+		"count": "8",
+	}},
+	{ItemID: "T4_ARTEFACT_MAIN_SCIMITAR_MORGANA", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_c1fdb33c8fc6 = &CraftingRecipe{SourceItemID: "T5_MAIN_SCIMITAR_MORGANA", Attributes: map[string]string{
+	"craftingfocus": "2251",
+	"silver":        "0",
+	"time":          "1.5",
+}, Resources: []CraftingResource{
+	{ItemID: "T5_METALBAR", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T5_LEATHER", Attributes: map[string]string{
+		"count": "8",
+	}},
+	{ItemID: "T5_ARTEFACT_MAIN_SCIMITAR_MORGANA", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_fa6b9550bbb8 = &CraftingRecipe{SourceItemID: "T6_MAIN_SCIMITAR_MORGANA", Attributes: map[string]string{
+	"craftingfocus": "3939",
+	"silver":        "0",
+	"time":          "2",
+}, Resources: []CraftingResource{
+	{ItemID: "T6_METALBAR", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T6_LEATHER", Attributes: map[string]string{
+		"count": "8",
+	}},
+	{ItemID: "T6_ARTEFACT_MAIN_SCIMITAR_MORGANA", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_b4dd139232a8 = &CraftingRecipe{SourceItemID: "T7_MAIN_SCIMITAR_MORGANA", Attributes: map[string]string{
+	"craftingfocus": "6893",
+	"silver":        "0",
+	"time":          "2.5",
+}, Resources: []CraftingResource{
+	{ItemID: "T7_METALBAR", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T7_LEATHER", Attributes: map[string]string{
+		"count": "8",
+	}},
+	{ItemID: "T7_ARTEFACT_MAIN_SCIMITAR_MORGANA", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_9e305665a825 = &CraftingRecipe{SourceItemID: "T8_MAIN_SCIMITAR_MORGANA", Attributes: map[string]string{
+	"craftingfocus": "12064",
+	"silver":        "0",
+	"time":          "3.75",
+}, Resources: []CraftingResource{
+	{ItemID: "T8_METALBAR", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T8_LEATHER", Attributes: map[string]string{
+		"count": "8",
+	}},
+	{ItemID: "T8_ARTEFACT_MAIN_SCIMITAR_MORGANA", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_8a3b6df3a2c0 = &CraftingRecipe{SourceItemID: "T4_2H_CLEAVER_HELL", Attributes: map[string]string{
+	"craftingfocus": "1715",
+	"silver":        "0",
+	"time":          "1.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T4_METALBAR", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T4_LEATHER", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T4_ARTEFACT_2H_CLEAVER_HELL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_5f54b38eb7d7 = &CraftingRecipe{SourceItemID: "T5_2H_CLEAVER_HELL", Attributes: map[string]string{
+	"craftingfocus": "3001",
+	"silver":        "0",
+	"time":          "2",
+}, Resources: []CraftingResource{
+	{ItemID: "T5_METALBAR", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T5_LEATHER", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T5_ARTEFACT_2H_CLEAVER_HELL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_07a95e73fe01 = &CraftingRecipe{SourceItemID: "T6_2H_CLEAVER_HELL", Attributes: map[string]string{
+	"craftingfocus": "5252",
+	"silver":        "0",
+	"time":          "2.667",
+}, Resources: []CraftingResource{
+	{ItemID: "T6_METALBAR", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T6_LEATHER", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T6_ARTEFACT_2H_CLEAVER_HELL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_6785458fbafe = &CraftingRecipe{SourceItemID: "T7_2H_CLEAVER_HELL", Attributes: map[string]string{
+	"craftingfocus": "9191",
+	"silver":        "0",
+	"time":          "3.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T7_METALBAR", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T7_LEATHER", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T7_ARTEFACT_2H_CLEAVER_HELL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_49e1fd85ee02 = &CraftingRecipe{SourceItemID: "T8_2H_CLEAVER_HELL", Attributes: map[string]string{
+	"craftingfocus": "16085",
+	"silver":        "0",
+	"time":          "5",
+}, Resources: []CraftingResource{
+	{ItemID: "T8_METALBAR", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T8_LEATHER", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T8_ARTEFACT_2H_CLEAVER_HELL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_9721edd736d0 = &CraftingRecipe{SourceItemID: "T4_2H_DUALSCIMITAR_UNDEAD", Attributes: map[string]string{
+	"craftingfocus": "1715",
+	"silver":        "0",
+	"time":          "1.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T4_METALBAR", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T4_LEATHER", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T4_ARTEFACT_2H_DUALSCIMITAR_UNDEAD", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_59373abd0447 = &CraftingRecipe{SourceItemID: "T5_2H_DUALSCIMITAR_UNDEAD", Attributes: map[string]string{
+	"craftingfocus": "3001",
+	"silver":        "0",
+	"time":          "2",
+}, Resources: []CraftingResource{
+	{ItemID: "T5_METALBAR", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T5_LEATHER", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T5_ARTEFACT_2H_DUALSCIMITAR_UNDEAD", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_16f78cb8e88c = &CraftingRecipe{SourceItemID: "T6_2H_DUALSCIMITAR_UNDEAD", Attributes: map[string]string{
+	"craftingfocus": "5252",
+	"silver":        "0",
+	"time":          "2.667",
+}, Resources: []CraftingResource{
+	{ItemID: "T6_METALBAR", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T6_LEATHER", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T6_ARTEFACT_2H_DUALSCIMITAR_UNDEAD", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_a61f4ad78793 = &CraftingRecipe{SourceItemID: "T7_2H_DUALSCIMITAR_UNDEAD", Attributes: map[string]string{
+	"craftingfocus": "9191",
+	"silver":        "0",
+	"time":          "3.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T7_METALBAR", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T7_LEATHER", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T7_ARTEFACT_2H_DUALSCIMITAR_UNDEAD", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_77b052a58de2 = &CraftingRecipe{SourceItemID: "T8_2H_DUALSCIMITAR_UNDEAD", Attributes: map[string]string{
+	"craftingfocus": "16085",
+	"silver":        "0",
+	"time":          "5",
+}, Resources: []CraftingResource{
+	{ItemID: "T8_METALBAR", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T8_LEATHER", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T8_ARTEFACT_2H_DUALSCIMITAR_UNDEAD", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_9deef34ba3e4 = &CraftingRecipe{SourceItemID: "T4_2H_CLAYMORE_AVALON", Attributes: map[string]string{
+	"craftingfocus": "1715",
+	"silver":        "0",
+	"time":          "1.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T4_METALBAR", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T4_LEATHER", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T4_ARTEFACT_2H_CLAYMORE_AVALON", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_73b11ec4f718 = &CraftingRecipe{SourceItemID: "T5_2H_CLAYMORE_AVALON", Attributes: map[string]string{
+	"craftingfocus": "3001",
+	"silver":        "0",
+	"time":          "2",
+}, Resources: []CraftingResource{
+	{ItemID: "T5_METALBAR", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T5_LEATHER", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T5_ARTEFACT_2H_CLAYMORE_AVALON", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_1ab4dd5a8770 = &CraftingRecipe{SourceItemID: "T6_2H_CLAYMORE_AVALON", Attributes: map[string]string{
+	"craftingfocus": "5252",
+	"silver":        "0",
+	"time":          "2.667",
+}, Resources: []CraftingResource{
+	{ItemID: "T6_METALBAR", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T6_LEATHER", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T6_ARTEFACT_2H_CLAYMORE_AVALON", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_020a3fb0e18d = &CraftingRecipe{SourceItemID: "T7_2H_CLAYMORE_AVALON", Attributes: map[string]string{
+	"craftingfocus": "9191",
+	"silver":        "0",
+	"time":          "3.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T7_METALBAR", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T7_LEATHER", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T7_ARTEFACT_2H_CLAYMORE_AVALON", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_cfd7a4a80246 = &CraftingRecipe{SourceItemID: "T8_2H_CLAYMORE_AVALON", Attributes: map[string]string{
+	"craftingfocus": "16085",
+	"silver":        "0",
+	"time":          "5",
+}, Resources: []CraftingResource{
+	{ItemID: "T8_METALBAR", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T8_LEATHER", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T8_ARTEFACT_2H_CLAYMORE_AVALON", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_70507160e5dc = &CraftingRecipe{SourceItemID: "T4_MAIN_SWORD_CRYSTAL", Attributes: map[string]string{
+	"craftingfocus": "1286",
+	"silver":        "0",
+	"time":          "1",
+}, Resources: []CraftingResource{
+	{ItemID: "T4_METALBAR", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T4_LEATHER", Attributes: map[string]string{
+		"count": "8",
+	}},
+	{ItemID: "T4_ARTEFACT_MAIN_SWORD_CRYSTAL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_b56b01ddeb44 = &CraftingRecipe{SourceItemID: "T5_MAIN_SWORD_CRYSTAL", Attributes: map[string]string{
+	"craftingfocus": "2251",
+	"silver":        "0",
+	"time":          "1.5",
+}, Resources: []CraftingResource{
+	{ItemID: "T5_METALBAR", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T5_LEATHER", Attributes: map[string]string{
+		"count": "8",
+	}},
+	{ItemID: "T5_ARTEFACT_MAIN_SWORD_CRYSTAL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_2d1d71c1dcbb = &CraftingRecipe{SourceItemID: "T6_MAIN_SWORD_CRYSTAL", Attributes: map[string]string{
+	"craftingfocus": "3939",
+	"silver":        "0",
+	"time":          "2",
+}, Resources: []CraftingResource{
+	{ItemID: "T6_METALBAR", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T6_LEATHER", Attributes: map[string]string{
+		"count": "8",
+	}},
+	{ItemID: "T6_ARTEFACT_MAIN_SWORD_CRYSTAL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_f07a4ce70252 = &CraftingRecipe{SourceItemID: "T7_MAIN_SWORD_CRYSTAL", Attributes: map[string]string{
+	"craftingfocus": "6893",
+	"silver":        "0",
+	"time":          "2.5",
+}, Resources: []CraftingResource{
+	{ItemID: "T7_METALBAR", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T7_LEATHER", Attributes: map[string]string{
+		"count": "8",
+	}},
+	{ItemID: "T7_ARTEFACT_MAIN_SWORD_CRYSTAL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_3293e0da11a0 = &CraftingRecipe{SourceItemID: "T8_MAIN_SWORD_CRYSTAL", Attributes: map[string]string{
+	"craftingfocus": "12064",
+	"silver":        "0",
+	"time":          "3.75",
+}, Resources: []CraftingResource{
+	{ItemID: "T8_METALBAR", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T8_LEATHER", Attributes: map[string]string{
+		"count": "8",
+	}},
+	{ItemID: "T8_ARTEFACT_MAIN_SWORD_CRYSTAL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_cbc7b64ae686 = &CraftingRecipe{SourceItemID: "T3_2H_QUARTERSTAFF", Attributes: map[string]string{
+	"craftingfocus": "980",
+	"silver":        "0",
+	"time":          "1",
+}, Resources: []CraftingResource{
+	{ItemID: "T3_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T3_LEATHER", Attributes: map[string]string{
+		"count": "20",
+	}},
+}}
+
+var recipe_6fa8534ec7b1 = &CraftingRecipe{SourceItemID: "T4_2H_QUARTERSTAFF", Attributes: map[string]string{
+	"craftingfocus": "1715",
+	"silver":        "0",
+	"time":          "1.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T4_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T4_LEATHER", Attributes: map[string]string{
+		"count": "20",
+	}},
+}}
+
+var recipe_24f9356591e2 = &CraftingRecipe{SourceItemID: "T5_2H_QUARTERSTAFF", Attributes: map[string]string{
+	"craftingfocus": "3001",
+	"silver":        "0",
+	"time":          "2",
+}, Resources: []CraftingResource{
+	{ItemID: "T5_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T5_LEATHER", Attributes: map[string]string{
+		"count": "20",
+	}},
+}}
+
+var recipe_4b9883af90ed = &CraftingRecipe{SourceItemID: "T6_2H_QUARTERSTAFF", Attributes: map[string]string{
+	"craftingfocus": "5252",
+	"silver":        "0",
+	"time":          "2.667",
+}, Resources: []CraftingResource{
+	{ItemID: "T6_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T6_LEATHER", Attributes: map[string]string{
+		"count": "20",
+	}},
+}}
+
+var recipe_cedf1302a826 = &CraftingRecipe{SourceItemID: "T7_2H_QUARTERSTAFF", Attributes: map[string]string{
+	"craftingfocus": "9191",
+	"silver":        "0",
+	"time":          "3.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T7_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T7_LEATHER", Attributes: map[string]string{
+		"count": "20",
+	}},
+}}
+
+var recipe_c46addf733b6 = &CraftingRecipe{SourceItemID: "T8_2H_QUARTERSTAFF", Attributes: map[string]string{
+	"craftingfocus": "16085",
+	"silver":        "0",
+	"time":          "5",
+}, Resources: []CraftingResource{
+	{ItemID: "T8_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T8_LEATHER", Attributes: map[string]string{
+		"count": "20",
+	}},
+}}
+
+var recipe_ef74b59fa564 = &CraftingRecipe{SourceItemID: "T4_2H_IRONCLADEDSTAFF", Attributes: map[string]string{
+	"craftingfocus": "1715",
+	"silver":        "0",
+	"time":          "1.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T4_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T4_LEATHER", Attributes: map[string]string{
+		"count": "20",
+	}},
+}}
+
+var recipe_b3ff15f0ec8d = &CraftingRecipe{SourceItemID: "T5_2H_IRONCLADEDSTAFF", Attributes: map[string]string{
+	"craftingfocus": "3001",
+	"silver":        "0",
+	"time":          "2",
+}, Resources: []CraftingResource{
+	{ItemID: "T5_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T5_LEATHER", Attributes: map[string]string{
+		"count": "20",
+	}},
+}}
+
+var recipe_08d29e13975f = &CraftingRecipe{SourceItemID: "T6_2H_IRONCLADEDSTAFF", Attributes: map[string]string{
+	"craftingfocus": "5252",
+	"silver":        "0",
+	"time":          "2.667",
+}, Resources: []CraftingResource{
+	{ItemID: "T6_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T6_LEATHER", Attributes: map[string]string{
+		"count": "20",
+	}},
+}}
+
+var recipe_432d90d14e02 = &CraftingRecipe{SourceItemID: "T7_2H_IRONCLADEDSTAFF", Attributes: map[string]string{
+	"craftingfocus": "9191",
+	"silver":        "0",
+	"time":          "3.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T7_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T7_LEATHER", Attributes: map[string]string{
+		"count": "20",
+	}},
+}}
+
+var recipe_29addfee9b42 = &CraftingRecipe{SourceItemID: "T8_2H_IRONCLADEDSTAFF", Attributes: map[string]string{
+	"craftingfocus": "16085",
+	"silver":        "0",
+	"time":          "5",
+}, Resources: []CraftingResource{
+	{ItemID: "T8_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T8_LEATHER", Attributes: map[string]string{
+		"count": "20",
+	}},
+}}
+
+var recipe_24919d1b23e9 = &CraftingRecipe{SourceItemID: "T4_2H_DOUBLEBLADEDSTAFF", Attributes: map[string]string{
+	"craftingfocus": "1715",
+	"silver":        "0",
+	"time":          "1.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T4_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T4_LEATHER", Attributes: map[string]string{
+		"count": "20",
+	}},
+}}
+
+var recipe_496aaa88a89d = &CraftingRecipe{SourceItemID: "T5_2H_DOUBLEBLADEDSTAFF", Attributes: map[string]string{
+	"craftingfocus": "3001",
+	"silver":        "0",
+	"time":          "2",
+}, Resources: []CraftingResource{
+	{ItemID: "T5_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T5_LEATHER", Attributes: map[string]string{
+		"count": "20",
+	}},
+}}
+
+var recipe_ec8696a6ae1a = &CraftingRecipe{SourceItemID: "T6_2H_DOUBLEBLADEDSTAFF", Attributes: map[string]string{
+	"craftingfocus": "5252",
+	"silver":        "0",
+	"time":          "2.667",
+}, Resources: []CraftingResource{
+	{ItemID: "T6_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T6_LEATHER", Attributes: map[string]string{
+		"count": "20",
+	}},
+}}
+
+var recipe_ee0569e8825e = &CraftingRecipe{SourceItemID: "T7_2H_DOUBLEBLADEDSTAFF", Attributes: map[string]string{
+	"craftingfocus": "9191",
+	"silver":        "0",
+	"time":          "3.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T7_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T7_LEATHER", Attributes: map[string]string{
+		"count": "20",
+	}},
+}}
+
+var recipe_328608bb6fae = &CraftingRecipe{SourceItemID: "T8_2H_DOUBLEBLADEDSTAFF", Attributes: map[string]string{
+	"craftingfocus": "16085",
+	"silver":        "0",
+	"time":          "5",
+}, Resources: []CraftingResource{
+	{ItemID: "T8_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T8_LEATHER", Attributes: map[string]string{
+		"count": "20",
+	}},
+}}
+
+var recipe_fe4c8d3624ec = &CraftingRecipe{SourceItemID: "T4_2H_COMBATSTAFF_MORGANA", Attributes: map[string]string{
+	"craftingfocus": "1715",
+	"silver":        "0",
+	"time":          "1.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T4_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T4_LEATHER", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T4_ARTEFACT_2H_COMBATSTAFF_MORGANA", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_956f7e994599 = &CraftingRecipe{SourceItemID: "T5_2H_COMBATSTAFF_MORGANA", Attributes: map[string]string{
+	"craftingfocus": "3001",
+	"silver":        "0",
+	"time":          "2",
+}, Resources: []CraftingResource{
+	{ItemID: "T5_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T5_LEATHER", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T5_ARTEFACT_2H_COMBATSTAFF_MORGANA", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_0ca7b9e2d603 = &CraftingRecipe{SourceItemID: "T6_2H_COMBATSTAFF_MORGANA", Attributes: map[string]string{
+	"craftingfocus": "5252",
+	"silver":        "0",
+	"time":          "2.667",
+}, Resources: []CraftingResource{
+	{ItemID: "T6_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T6_LEATHER", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T6_ARTEFACT_2H_COMBATSTAFF_MORGANA", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_996ef6802a6b = &CraftingRecipe{SourceItemID: "T7_2H_COMBATSTAFF_MORGANA", Attributes: map[string]string{
+	"craftingfocus": "9191",
+	"silver":        "0",
+	"time":          "3.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T7_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T7_LEATHER", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T7_ARTEFACT_2H_COMBATSTAFF_MORGANA", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_f2e1d75769bb = &CraftingRecipe{SourceItemID: "T8_2H_COMBATSTAFF_MORGANA", Attributes: map[string]string{
+	"craftingfocus": "16085",
+	"silver":        "0",
+	"time":          "5",
+}, Resources: []CraftingResource{
+	{ItemID: "T8_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T8_LEATHER", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T8_ARTEFACT_2H_COMBATSTAFF_MORGANA", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_a791bb095413 = &CraftingRecipe{SourceItemID: "T4_2H_TWINSCYTHE_HELL", Attributes: map[string]string{
+	"craftingfocus": "1715",
+	"silver":        "0",
+	"time":          "1.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T4_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T4_LEATHER", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T4_ARTEFACT_2H_TWINSCYTHE_HELL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_1dc411f35fd3 = &CraftingRecipe{SourceItemID: "T5_2H_TWINSCYTHE_HELL", Attributes: map[string]string{
+	"craftingfocus": "3001",
+	"silver":        "0",
+	"time":          "2",
+}, Resources: []CraftingResource{
+	{ItemID: "T5_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T5_LEATHER", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T5_ARTEFACT_2H_TWINSCYTHE_HELL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_a4774ee243d3 = &CraftingRecipe{SourceItemID: "T6_2H_TWINSCYTHE_HELL", Attributes: map[string]string{
+	"craftingfocus": "5252",
+	"silver":        "0",
+	"time":          "2.667",
+}, Resources: []CraftingResource{
+	{ItemID: "T6_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T6_LEATHER", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T6_ARTEFACT_2H_TWINSCYTHE_HELL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_a7bceb9cd7db = &CraftingRecipe{SourceItemID: "T7_2H_TWINSCYTHE_HELL", Attributes: map[string]string{
+	"craftingfocus": "9191",
+	"silver":        "0",
+	"time":          "3.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T7_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T7_LEATHER", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T7_ARTEFACT_2H_TWINSCYTHE_HELL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_cf715ca2579e = &CraftingRecipe{SourceItemID: "T8_2H_TWINSCYTHE_HELL", Attributes: map[string]string{
+	"craftingfocus": "16085",
+	"silver":        "0",
+	"time":          "5",
+}, Resources: []CraftingResource{
+	{ItemID: "T8_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T8_LEATHER", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T8_ARTEFACT_2H_TWINSCYTHE_HELL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_ce65c81319b4 = &CraftingRecipe{SourceItemID: "T4_2H_ROCKSTAFF_KEEPER", Attributes: map[string]string{
+	"craftingfocus": "1715",
+	"silver":        "0",
+	"time":          "1.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T4_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T4_LEATHER", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T4_ARTEFACT_2H_ROCKSTAFF_KEEPER", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_6fd31341264d = &CraftingRecipe{SourceItemID: "T5_2H_ROCKSTAFF_KEEPER", Attributes: map[string]string{
+	"craftingfocus": "3001",
+	"silver":        "0",
+	"time":          "2",
+}, Resources: []CraftingResource{
+	{ItemID: "T5_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T5_LEATHER", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T5_ARTEFACT_2H_ROCKSTAFF_KEEPER", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_68765021e1dc = &CraftingRecipe{SourceItemID: "T6_2H_ROCKSTAFF_KEEPER", Attributes: map[string]string{
+	"craftingfocus": "5252",
+	"silver":        "0",
+	"time":          "2.667",
+}, Resources: []CraftingResource{
+	{ItemID: "T6_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T6_LEATHER", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T6_ARTEFACT_2H_ROCKSTAFF_KEEPER", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_7baa3e4c8e51 = &CraftingRecipe{SourceItemID: "T7_2H_ROCKSTAFF_KEEPER", Attributes: map[string]string{
+	"craftingfocus": "9191",
+	"silver":        "0",
+	"time":          "3.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T7_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T7_LEATHER", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T7_ARTEFACT_2H_ROCKSTAFF_KEEPER", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_c4e3ba035d5c = &CraftingRecipe{SourceItemID: "T8_2H_ROCKSTAFF_KEEPER", Attributes: map[string]string{
+	"craftingfocus": "16085",
+	"silver":        "0",
+	"time":          "5",
+}, Resources: []CraftingResource{
+	{ItemID: "T8_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T8_LEATHER", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T8_ARTEFACT_2H_ROCKSTAFF_KEEPER", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_e2fc52f15a72 = &CraftingRecipe{SourceItemID: "T4_2H_QUARTERSTAFF_AVALON", Attributes: map[string]string{
+	"craftingfocus": "1715",
+	"silver":        "0",
+	"time":          "1.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T4_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T4_LEATHER", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T4_ARTEFACT_2H_QUARTERSTAFF_AVALON", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_58a1e4d77ee0 = &CraftingRecipe{SourceItemID: "T5_2H_QUARTERSTAFF_AVALON", Attributes: map[string]string{
+	"craftingfocus": "3001",
+	"silver":        "0",
+	"time":          "2",
+}, Resources: []CraftingResource{
+	{ItemID: "T5_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T5_LEATHER", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T5_ARTEFACT_2H_QUARTERSTAFF_AVALON", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_f2a9157fdd09 = &CraftingRecipe{SourceItemID: "T6_2H_QUARTERSTAFF_AVALON", Attributes: map[string]string{
+	"craftingfocus": "5252",
+	"silver":        "0",
+	"time":          "2.667",
+}, Resources: []CraftingResource{
+	{ItemID: "T6_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T6_LEATHER", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T6_ARTEFACT_2H_QUARTERSTAFF_AVALON", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_5c61e4dffec3 = &CraftingRecipe{SourceItemID: "T7_2H_QUARTERSTAFF_AVALON", Attributes: map[string]string{
+	"craftingfocus": "9191",
+	"silver":        "0",
+	"time":          "3.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T7_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T7_LEATHER", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T7_ARTEFACT_2H_QUARTERSTAFF_AVALON", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_859b9caf6d18 = &CraftingRecipe{SourceItemID: "T8_2H_QUARTERSTAFF_AVALON", Attributes: map[string]string{
+	"craftingfocus": "16085",
+	"silver":        "0",
+	"time":          "5",
+}, Resources: []CraftingResource{
+	{ItemID: "T8_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T8_LEATHER", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T8_ARTEFACT_2H_QUARTERSTAFF_AVALON", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_14d866578509 = &CraftingRecipe{SourceItemID: "T4_2H_DOUBLEBLADEDSTAFF_CRYSTAL", Attributes: map[string]string{
+	"craftingfocus": "1715",
+	"silver":        "0",
+	"time":          "1.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T4_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T4_LEATHER", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T4_ARTEFACT_2H_DOUBLEBLADEDSTAFF_CRYSTAL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_41ab2316136d = &CraftingRecipe{SourceItemID: "T5_2H_DOUBLEBLADEDSTAFF_CRYSTAL", Attributes: map[string]string{
+	"craftingfocus": "3001",
+	"silver":        "0",
+	"time":          "2",
+}, Resources: []CraftingResource{
+	{ItemID: "T5_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T5_LEATHER", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T5_ARTEFACT_2H_DOUBLEBLADEDSTAFF_CRYSTAL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_12fddeb25ee0 = &CraftingRecipe{SourceItemID: "T6_2H_DOUBLEBLADEDSTAFF_CRYSTAL", Attributes: map[string]string{
+	"craftingfocus": "5252",
+	"silver":        "0",
+	"time":          "2.667",
+}, Resources: []CraftingResource{
+	{ItemID: "T6_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T6_LEATHER", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T6_ARTEFACT_2H_DOUBLEBLADEDSTAFF_CRYSTAL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_ac9165f65e8d = &CraftingRecipe{SourceItemID: "T7_2H_DOUBLEBLADEDSTAFF_CRYSTAL", Attributes: map[string]string{
+	"craftingfocus": "9191",
+	"silver":        "0",
+	"time":          "3.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T7_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T7_LEATHER", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T7_ARTEFACT_2H_DOUBLEBLADEDSTAFF_CRYSTAL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_7cd7ee6b039e = &CraftingRecipe{SourceItemID: "T8_2H_DOUBLEBLADEDSTAFF_CRYSTAL", Attributes: map[string]string{
+	"craftingfocus": "16085",
+	"silver":        "0",
+	"time":          "5",
+}, Resources: []CraftingResource{
+	{ItemID: "T8_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T8_LEATHER", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T8_ARTEFACT_2H_DOUBLEBLADEDSTAFF_CRYSTAL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_1d6e17aa325a = &CraftingRecipe{SourceItemID: "T3_MAIN_HAMMER", Attributes: map[string]string{
+	"craftingfocus": "735",
+	"silver":        "0",
+	"time":          "0.75",
+}, Resources: []CraftingResource{
+	{ItemID: "T3_METALBAR", Attributes: map[string]string{
+		"count": "24",
+	}},
+}}
+
+var recipe_0c6fd281c8d4 = &CraftingRecipe{SourceItemID: "T4_MAIN_HAMMER", Attributes: map[string]string{
+	"craftingfocus": "1286",
+	"silver":        "0",
+	"time":          "1",
+}, Resources: []CraftingResource{
+	{ItemID: "T4_METALBAR", Attributes: map[string]string{
+		"count": "24",
+	}},
+}}
+
+var recipe_4799103de292 = &CraftingRecipe{SourceItemID: "T5_MAIN_HAMMER", Attributes: map[string]string{
+	"craftingfocus": "2251",
+	"silver":        "0",
+	"time":          "1.5",
+}, Resources: []CraftingResource{
+	{ItemID: "T5_METALBAR", Attributes: map[string]string{
+		"count": "24",
+	}},
+}}
+
+var recipe_cae6021a5cc9 = &CraftingRecipe{SourceItemID: "T6_MAIN_HAMMER", Attributes: map[string]string{
+	"craftingfocus": "3939",
+	"silver":        "0",
+	"time":          "2",
+}, Resources: []CraftingResource{
+	{ItemID: "T6_METALBAR", Attributes: map[string]string{
+		"count": "24",
+	}},
+}}
+
+var recipe_d381cacaa466 = &CraftingRecipe{SourceItemID: "T7_MAIN_HAMMER", Attributes: map[string]string{
+	"craftingfocus": "6893",
+	"silver":        "0",
+	"time":          "2.5",
+}, Resources: []CraftingResource{
+	{ItemID: "T7_METALBAR", Attributes: map[string]string{
+		"count": "24",
+	}},
+}}
+
+var recipe_b9b71cabe312 = &CraftingRecipe{SourceItemID: "T8_MAIN_HAMMER", Attributes: map[string]string{
+	"craftingfocus": "12064",
+	"silver":        "0",
+	"time":          "3.75",
+}, Resources: []CraftingResource{
+	{ItemID: "T8_METALBAR", Attributes: map[string]string{
+		"count": "24",
+	}},
+}}
+
+var recipe_361c544ad4b3 = &CraftingRecipe{SourceItemID: "T4_2H_POLEHAMMER", Attributes: map[string]string{
+	"craftingfocus": "1715",
+	"silver":        "0",
+	"time":          "1.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T4_METALBAR", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T4_CLOTH", Attributes: map[string]string{
+		"count": "12",
+	}},
+}}
+
+var recipe_83addbea03b6 = &CraftingRecipe{SourceItemID: "T5_2H_POLEHAMMER", Attributes: map[string]string{
+	"craftingfocus": "3001",
+	"silver":        "0",
+	"time":          "2",
+}, Resources: []CraftingResource{
+	{ItemID: "T5_METALBAR", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T5_CLOTH", Attributes: map[string]string{
+		"count": "12",
+	}},
+}}
+
+var recipe_9c376670c69c = &CraftingRecipe{SourceItemID: "T6_2H_POLEHAMMER", Attributes: map[string]string{
+	"craftingfocus": "5252",
+	"silver":        "0",
+	"time":          "2.667",
+}, Resources: []CraftingResource{
+	{ItemID: "T6_METALBAR", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T6_CLOTH", Attributes: map[string]string{
+		"count": "12",
+	}},
+}}
+
+var recipe_918e455b9b32 = &CraftingRecipe{SourceItemID: "T7_2H_POLEHAMMER", Attributes: map[string]string{
+	"craftingfocus": "9191",
+	"silver":        "0",
+	"time":          "3.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T7_METALBAR", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T7_CLOTH", Attributes: map[string]string{
+		"count": "12",
+	}},
+}}
+
+var recipe_c7cbb08ef383 = &CraftingRecipe{SourceItemID: "T8_2H_POLEHAMMER", Attributes: map[string]string{
+	"craftingfocus": "16085",
+	"silver":        "0",
+	"time":          "5",
+}, Resources: []CraftingResource{
+	{ItemID: "T8_METALBAR", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T8_CLOTH", Attributes: map[string]string{
+		"count": "12",
+	}},
+}}
+
+var recipe_9a0b645bced0 = &CraftingRecipe{SourceItemID: "T4_2H_HAMMER", Attributes: map[string]string{
+	"craftingfocus": "1715",
+	"silver":        "0",
+	"time":          "1.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T4_METALBAR", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T4_CLOTH", Attributes: map[string]string{
+		"count": "12",
+	}},
+}}
+
+var recipe_58a45ff13d20 = &CraftingRecipe{SourceItemID: "T5_2H_HAMMER", Attributes: map[string]string{
+	"craftingfocus": "3001",
+	"silver":        "0",
+	"time":          "2",
+}, Resources: []CraftingResource{
+	{ItemID: "T5_METALBAR", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T5_CLOTH", Attributes: map[string]string{
+		"count": "12",
+	}},
+}}
+
+var recipe_658a8683c1c3 = &CraftingRecipe{SourceItemID: "T6_2H_HAMMER", Attributes: map[string]string{
+	"craftingfocus": "5252",
+	"silver":        "0",
+	"time":          "2.667",
+}, Resources: []CraftingResource{
+	{ItemID: "T6_METALBAR", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T6_CLOTH", Attributes: map[string]string{
+		"count": "12",
+	}},
+}}
+
+var recipe_6b07bcd51b9c = &CraftingRecipe{SourceItemID: "T7_2H_HAMMER", Attributes: map[string]string{
+	"craftingfocus": "9191",
+	"silver":        "0",
+	"time":          "3.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T7_METALBAR", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T7_CLOTH", Attributes: map[string]string{
+		"count": "12",
+	}},
+}}
+
+var recipe_1c17476841bf = &CraftingRecipe{SourceItemID: "T8_2H_HAMMER", Attributes: map[string]string{
+	"craftingfocus": "16085",
+	"silver":        "0",
+	"time":          "5",
+}, Resources: []CraftingResource{
+	{ItemID: "T8_METALBAR", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T8_CLOTH", Attributes: map[string]string{
+		"count": "12",
+	}},
+}}
+
+var recipe_fe41536169a0 = &CraftingRecipe{SourceItemID: "T4_2H_HAMMER_UNDEAD", Attributes: map[string]string{
+	"craftingfocus": "1715",
+	"silver":        "0",
+	"time":          "1.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T4_METALBAR", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T4_CLOTH", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T4_ARTEFACT_2H_HAMMER_UNDEAD", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_b066483e6f56 = &CraftingRecipe{SourceItemID: "T5_2H_HAMMER_UNDEAD", Attributes: map[string]string{
+	"craftingfocus": "3001",
+	"silver":        "0",
+	"time":          "2",
+}, Resources: []CraftingResource{
+	{ItemID: "T5_METALBAR", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T5_CLOTH", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T5_ARTEFACT_2H_HAMMER_UNDEAD", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_24f3daa63bf0 = &CraftingRecipe{SourceItemID: "T6_2H_HAMMER_UNDEAD", Attributes: map[string]string{
+	"craftingfocus": "5252",
+	"silver":        "0",
+	"time":          "2.667",
+}, Resources: []CraftingResource{
+	{ItemID: "T6_METALBAR", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T6_CLOTH", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T6_ARTEFACT_2H_HAMMER_UNDEAD", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_2e6ff78367f3 = &CraftingRecipe{SourceItemID: "T7_2H_HAMMER_UNDEAD", Attributes: map[string]string{
+	"craftingfocus": "9191",
+	"silver":        "0",
+	"time":          "3.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T7_METALBAR", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T7_CLOTH", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T7_ARTEFACT_2H_HAMMER_UNDEAD", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_711ff6663d4b = &CraftingRecipe{SourceItemID: "T8_2H_HAMMER_UNDEAD", Attributes: map[string]string{
+	"craftingfocus": "16085",
+	"silver":        "0",
+	"time":          "5",
+}, Resources: []CraftingResource{
+	{ItemID: "T8_METALBAR", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T8_CLOTH", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T8_ARTEFACT_2H_HAMMER_UNDEAD", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_bae38b7b7113 = &CraftingRecipe{SourceItemID: "T4_2H_DUALHAMMER_HELL", Attributes: map[string]string{
+	"craftingfocus": "1715",
+	"silver":        "0",
+	"time":          "1.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T4_METALBAR", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T4_CLOTH", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T4_ARTEFACT_2H_DUALHAMMER_HELL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_578c35aa2876 = &CraftingRecipe{SourceItemID: "T5_2H_DUALHAMMER_HELL", Attributes: map[string]string{
+	"craftingfocus": "3001",
+	"silver":        "0",
+	"time":          "2",
+}, Resources: []CraftingResource{
+	{ItemID: "T5_METALBAR", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T5_CLOTH", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T5_ARTEFACT_2H_DUALHAMMER_HELL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_137ddb318737 = &CraftingRecipe{SourceItemID: "T6_2H_DUALHAMMER_HELL", Attributes: map[string]string{
+	"craftingfocus": "5252",
+	"silver":        "0",
+	"time":          "2.667",
+}, Resources: []CraftingResource{
+	{ItemID: "T6_METALBAR", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T6_CLOTH", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T6_ARTEFACT_2H_DUALHAMMER_HELL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_b8481fc99d02 = &CraftingRecipe{SourceItemID: "T7_2H_DUALHAMMER_HELL", Attributes: map[string]string{
+	"craftingfocus": "9191",
+	"silver":        "0",
+	"time":          "3.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T7_METALBAR", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T7_CLOTH", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T7_ARTEFACT_2H_DUALHAMMER_HELL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_3ccb5fe604e0 = &CraftingRecipe{SourceItemID: "T8_2H_DUALHAMMER_HELL", Attributes: map[string]string{
+	"craftingfocus": "16085",
+	"silver":        "0",
+	"time":          "5",
+}, Resources: []CraftingResource{
+	{ItemID: "T8_METALBAR", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T8_CLOTH", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T8_ARTEFACT_2H_DUALHAMMER_HELL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_3d887cf0b25c = &CraftingRecipe{SourceItemID: "T4_2H_RAM_KEEPER", Attributes: map[string]string{
+	"craftingfocus": "1715",
+	"silver":        "0",
+	"time":          "1.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T4_METALBAR", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T4_CLOTH", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T4_ARTEFACT_2H_RAM_KEEPER", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_3f5d45ad646a = &CraftingRecipe{SourceItemID: "T5_2H_RAM_KEEPER", Attributes: map[string]string{
+	"craftingfocus": "3001",
+	"silver":        "0",
+	"time":          "2",
+}, Resources: []CraftingResource{
+	{ItemID: "T5_METALBAR", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T5_CLOTH", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T5_ARTEFACT_2H_RAM_KEEPER", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_dc82a3d9d4e6 = &CraftingRecipe{SourceItemID: "T6_2H_RAM_KEEPER", Attributes: map[string]string{
+	"craftingfocus": "5252",
+	"silver":        "0",
+	"time":          "2.667",
+}, Resources: []CraftingResource{
+	{ItemID: "T6_METALBAR", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T6_CLOTH", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T6_ARTEFACT_2H_RAM_KEEPER", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_504c6c6a387d = &CraftingRecipe{SourceItemID: "T7_2H_RAM_KEEPER", Attributes: map[string]string{
+	"craftingfocus": "9191",
+	"silver":        "0",
+	"time":          "3.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T7_METALBAR", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T7_CLOTH", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T7_ARTEFACT_2H_RAM_KEEPER", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_47f23f1544ac = &CraftingRecipe{SourceItemID: "T8_2H_RAM_KEEPER", Attributes: map[string]string{
+	"craftingfocus": "16085",
+	"silver":        "0",
+	"time":          "5",
+}, Resources: []CraftingResource{
+	{ItemID: "T8_METALBAR", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T8_CLOTH", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T8_ARTEFACT_2H_RAM_KEEPER", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_bd45ca03d82b = &CraftingRecipe{SourceItemID: "T4_2H_HAMMER_AVALON", Attributes: map[string]string{
+	"craftingfocus": "1715",
+	"silver":        "0",
+	"time":          "1.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T4_METALBAR", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T4_CLOTH", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T4_ARTEFACT_2H_HAMMER_AVALON", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_b1f60197586b = &CraftingRecipe{SourceItemID: "T5_2H_HAMMER_AVALON", Attributes: map[string]string{
+	"craftingfocus": "3001",
+	"silver":        "0",
+	"time":          "2",
+}, Resources: []CraftingResource{
+	{ItemID: "T5_METALBAR", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T5_CLOTH", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T5_ARTEFACT_2H_HAMMER_AVALON", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_5fcea6a7abc0 = &CraftingRecipe{SourceItemID: "T6_2H_HAMMER_AVALON", Attributes: map[string]string{
+	"craftingfocus": "5252",
+	"silver":        "0",
+	"time":          "2.667",
+}, Resources: []CraftingResource{
+	{ItemID: "T6_METALBAR", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T6_CLOTH", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T6_ARTEFACT_2H_HAMMER_AVALON", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_d8ce824aad06 = &CraftingRecipe{SourceItemID: "T7_2H_HAMMER_AVALON", Attributes: map[string]string{
+	"craftingfocus": "9191",
+	"silver":        "0",
+	"time":          "3.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T7_METALBAR", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T7_CLOTH", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T7_ARTEFACT_2H_HAMMER_AVALON", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_ebb205a3894f = &CraftingRecipe{SourceItemID: "T8_2H_HAMMER_AVALON", Attributes: map[string]string{
+	"craftingfocus": "16085",
+	"silver":        "0",
+	"time":          "5",
+}, Resources: []CraftingResource{
+	{ItemID: "T8_METALBAR", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T8_CLOTH", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T8_ARTEFACT_2H_HAMMER_AVALON", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_01f64305dd24 = &CraftingRecipe{SourceItemID: "T4_2H_HAMMER_CRYSTAL", Attributes: map[string]string{
+	"craftingfocus": "1715",
+	"silver":        "0",
+	"time":          "1.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T4_METALBAR", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T4_CLOTH", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T4_ARTEFACT_2H_HAMMER_CRYSTAL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_ffc0ba2f3cd1 = &CraftingRecipe{SourceItemID: "T5_2H_HAMMER_CRYSTAL", Attributes: map[string]string{
+	"craftingfocus": "3001",
+	"silver":        "0",
+	"time":          "2",
+}, Resources: []CraftingResource{
+	{ItemID: "T5_METALBAR", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T5_CLOTH", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T5_ARTEFACT_2H_HAMMER_CRYSTAL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_33c9b5be35a0 = &CraftingRecipe{SourceItemID: "T6_2H_HAMMER_CRYSTAL", Attributes: map[string]string{
+	"craftingfocus": "5252",
+	"silver":        "0",
+	"time":          "2.667",
+}, Resources: []CraftingResource{
+	{ItemID: "T6_METALBAR", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T6_CLOTH", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T6_ARTEFACT_2H_HAMMER_CRYSTAL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_9706965d119d = &CraftingRecipe{SourceItemID: "T7_2H_HAMMER_CRYSTAL", Attributes: map[string]string{
+	"craftingfocus": "9191",
+	"silver":        "0",
+	"time":          "3.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T7_METALBAR", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T7_CLOTH", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T7_ARTEFACT_2H_HAMMER_CRYSTAL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_1a9be88a60f8 = &CraftingRecipe{SourceItemID: "T8_2H_HAMMER_CRYSTAL", Attributes: map[string]string{
+	"craftingfocus": "16085",
+	"silver":        "0",
+	"time":          "5",
+}, Resources: []CraftingResource{
+	{ItemID: "T8_METALBAR", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T8_CLOTH", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T8_ARTEFACT_2H_HAMMER_CRYSTAL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_7c2a8543c5fa = &CraftingRecipe{SourceItemID: "T3_MAIN_MACE", Attributes: map[string]string{
+	"craftingfocus": "735",
+	"silver":        "0",
+	"time":          "0.75",
+}, Resources: []CraftingResource{
+	{ItemID: "T3_METALBAR", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T3_CLOTH", Attributes: map[string]string{
+		"count": "8",
+	}},
+}}
+
+var recipe_0de6174c5041 = &CraftingRecipe{SourceItemID: "T4_MAIN_MACE", Attributes: map[string]string{
+	"craftingfocus": "1286",
+	"silver":        "0",
+	"time":          "1",
+}, Resources: []CraftingResource{
+	{ItemID: "T4_METALBAR", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T4_CLOTH", Attributes: map[string]string{
+		"count": "8",
+	}},
+}}
+
+var recipe_ea46020cfe60 = &CraftingRecipe{SourceItemID: "T5_MAIN_MACE", Attributes: map[string]string{
+	"craftingfocus": "2251",
+	"silver":        "0",
+	"time":          "1.5",
+}, Resources: []CraftingResource{
+	{ItemID: "T5_METALBAR", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T5_CLOTH", Attributes: map[string]string{
+		"count": "8",
+	}},
+}}
+
+var recipe_e038cf4c3f17 = &CraftingRecipe{SourceItemID: "T6_MAIN_MACE", Attributes: map[string]string{
+	"craftingfocus": "3939",
+	"silver":        "0",
+	"time":          "2",
+}, Resources: []CraftingResource{
+	{ItemID: "T6_METALBAR", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T6_CLOTH", Attributes: map[string]string{
+		"count": "8",
+	}},
+}}
+
+var recipe_a8eebdbc1c60 = &CraftingRecipe{SourceItemID: "T7_MAIN_MACE", Attributes: map[string]string{
+	"craftingfocus": "6893",
+	"silver":        "0",
+	"time":          "2.5",
+}, Resources: []CraftingResource{
+	{ItemID: "T7_METALBAR", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T7_CLOTH", Attributes: map[string]string{
+		"count": "8",
+	}},
+}}
+
+var recipe_a5282a0e1ef2 = &CraftingRecipe{SourceItemID: "T8_MAIN_MACE", Attributes: map[string]string{
+	"craftingfocus": "12064",
+	"silver":        "0",
+	"time":          "3.75",
+}, Resources: []CraftingResource{
+	{ItemID: "T8_METALBAR", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T8_CLOTH", Attributes: map[string]string{
+		"count": "8",
+	}},
+}}
+
+var recipe_260202433d08 = &CraftingRecipe{SourceItemID: "T4_2H_MACE", Attributes: map[string]string{
+	"craftingfocus": "1715",
+	"silver":        "0",
+	"time":          "1.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T4_METALBAR", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T4_CLOTH", Attributes: map[string]string{
+		"count": "12",
+	}},
+}}
+
+var recipe_923ddda7f731 = &CraftingRecipe{SourceItemID: "T5_2H_MACE", Attributes: map[string]string{
+	"craftingfocus": "3001",
+	"silver":        "0",
+	"time":          "2",
+}, Resources: []CraftingResource{
+	{ItemID: "T5_METALBAR", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T5_CLOTH", Attributes: map[string]string{
+		"count": "12",
+	}},
+}}
+
+var recipe_8425b8a7c97f = &CraftingRecipe{SourceItemID: "T6_2H_MACE", Attributes: map[string]string{
+	"craftingfocus": "5252",
+	"silver":        "0",
+	"time":          "2.667",
+}, Resources: []CraftingResource{
+	{ItemID: "T6_METALBAR", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T6_CLOTH", Attributes: map[string]string{
+		"count": "12",
+	}},
+}}
+
+var recipe_11fecfd19ba4 = &CraftingRecipe{SourceItemID: "T7_2H_MACE", Attributes: map[string]string{
+	"craftingfocus": "9191",
+	"silver":        "0",
+	"time":          "3.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T7_METALBAR", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T7_CLOTH", Attributes: map[string]string{
+		"count": "12",
+	}},
+}}
+
+var recipe_79d8744dd70c = &CraftingRecipe{SourceItemID: "T8_2H_MACE", Attributes: map[string]string{
+	"craftingfocus": "16085",
+	"silver":        "0",
+	"time":          "5",
+}, Resources: []CraftingResource{
+	{ItemID: "T8_METALBAR", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T8_CLOTH", Attributes: map[string]string{
+		"count": "12",
+	}},
+}}
+
+var recipe_3bea0e7baefe = &CraftingRecipe{SourceItemID: "T4_2H_FLAIL", Attributes: map[string]string{
+	"craftingfocus": "1715",
+	"silver":        "0",
+	"time":          "1.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T4_METALBAR", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T4_CLOTH", Attributes: map[string]string{
+		"count": "12",
+	}},
+}}
+
+var recipe_74845d048421 = &CraftingRecipe{SourceItemID: "T5_2H_FLAIL", Attributes: map[string]string{
+	"craftingfocus": "3001",
+	"silver":        "0",
+	"time":          "2",
+}, Resources: []CraftingResource{
+	{ItemID: "T5_METALBAR", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T5_CLOTH", Attributes: map[string]string{
+		"count": "12",
+	}},
+}}
+
+var recipe_d27f56c1cfa8 = &CraftingRecipe{SourceItemID: "T6_2H_FLAIL", Attributes: map[string]string{
+	"craftingfocus": "5252",
+	"silver":        "0",
+	"time":          "2.667",
+}, Resources: []CraftingResource{
+	{ItemID: "T6_METALBAR", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T6_CLOTH", Attributes: map[string]string{
+		"count": "12",
+	}},
+}}
+
+var recipe_580d863ed7e0 = &CraftingRecipe{SourceItemID: "T7_2H_FLAIL", Attributes: map[string]string{
+	"craftingfocus": "9191",
+	"silver":        "0",
+	"time":          "3.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T7_METALBAR", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T7_CLOTH", Attributes: map[string]string{
+		"count": "12",
+	}},
+}}
+
+var recipe_fe04bcc0e657 = &CraftingRecipe{SourceItemID: "T8_2H_FLAIL", Attributes: map[string]string{
+	"craftingfocus": "16085",
+	"silver":        "0",
+	"time":          "5",
+}, Resources: []CraftingResource{
+	{ItemID: "T8_METALBAR", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T8_CLOTH", Attributes: map[string]string{
+		"count": "12",
+	}},
+}}
+
+var recipe_868ec4384cd9 = &CraftingRecipe{SourceItemID: "T4_MAIN_ROCKMACE_KEEPER", Attributes: map[string]string{
+	"craftingfocus": "1286",
+	"silver":        "0",
+	"time":          "1",
+}, Resources: []CraftingResource{
+	{ItemID: "T4_METALBAR", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T4_CLOTH", Attributes: map[string]string{
+		"count": "8",
+	}},
+	{ItemID: "T4_ARTEFACT_MAIN_ROCKMACE_KEEPER", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_9e385b5a2b6c = &CraftingRecipe{SourceItemID: "T5_MAIN_ROCKMACE_KEEPER", Attributes: map[string]string{
+	"craftingfocus": "2251",
+	"silver":        "0",
+	"time":          "1.5",
+}, Resources: []CraftingResource{
+	{ItemID: "T5_METALBAR", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T5_CLOTH", Attributes: map[string]string{
+		"count": "8",
+	}},
+	{ItemID: "T5_ARTEFACT_MAIN_ROCKMACE_KEEPER", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_f91af23f9c3a = &CraftingRecipe{SourceItemID: "T6_MAIN_ROCKMACE_KEEPER", Attributes: map[string]string{
+	"craftingfocus": "3939",
+	"silver":        "0",
+	"time":          "2",
+}, Resources: []CraftingResource{
+	{ItemID: "T6_METALBAR", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T6_CLOTH", Attributes: map[string]string{
+		"count": "8",
+	}},
+	{ItemID: "T6_ARTEFACT_MAIN_ROCKMACE_KEEPER", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_3776c96ba183 = &CraftingRecipe{SourceItemID: "T7_MAIN_ROCKMACE_KEEPER", Attributes: map[string]string{
+	"craftingfocus": "6893",
+	"silver":        "0",
+	"time":          "2.5",
+}, Resources: []CraftingResource{
+	{ItemID: "T7_METALBAR", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T7_CLOTH", Attributes: map[string]string{
+		"count": "8",
+	}},
+	{ItemID: "T7_ARTEFACT_MAIN_ROCKMACE_KEEPER", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_6b82d841c4d7 = &CraftingRecipe{SourceItemID: "T8_MAIN_ROCKMACE_KEEPER", Attributes: map[string]string{
+	"craftingfocus": "12064",
+	"silver":        "0",
+	"time":          "3.75",
+}, Resources: []CraftingResource{
+	{ItemID: "T8_METALBAR", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T8_CLOTH", Attributes: map[string]string{
+		"count": "8",
+	}},
+	{ItemID: "T8_ARTEFACT_MAIN_ROCKMACE_KEEPER", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_7075c5f21541 = &CraftingRecipe{SourceItemID: "T4_MAIN_MACE_HELL", Attributes: map[string]string{
+	"craftingfocus": "1286",
+	"silver":        "0",
+	"time":          "1",
+}, Resources: []CraftingResource{
+	{ItemID: "T4_METALBAR", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T4_CLOTH", Attributes: map[string]string{
+		"count": "8",
+	}},
+	{ItemID: "T4_ARTEFACT_MAIN_MACE_HELL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_b5ffbd03cdc9 = &CraftingRecipe{SourceItemID: "T5_MAIN_MACE_HELL", Attributes: map[string]string{
+	"craftingfocus": "2251",
+	"silver":        "0",
+	"time":          "1.5",
+}, Resources: []CraftingResource{
+	{ItemID: "T5_METALBAR", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T5_CLOTH", Attributes: map[string]string{
+		"count": "8",
+	}},
+	{ItemID: "T5_ARTEFACT_MAIN_MACE_HELL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_e6eb4bb02510 = &CraftingRecipe{SourceItemID: "T6_MAIN_MACE_HELL", Attributes: map[string]string{
+	"craftingfocus": "3939",
+	"silver":        "0",
+	"time":          "2",
+}, Resources: []CraftingResource{
+	{ItemID: "T6_METALBAR", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T6_CLOTH", Attributes: map[string]string{
+		"count": "8",
+	}},
+	{ItemID: "T6_ARTEFACT_MAIN_MACE_HELL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_886170f6be7a = &CraftingRecipe{SourceItemID: "T7_MAIN_MACE_HELL", Attributes: map[string]string{
+	"craftingfocus": "6893",
+	"silver":        "0",
+	"time":          "2.5",
+}, Resources: []CraftingResource{
+	{ItemID: "T7_METALBAR", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T7_CLOTH", Attributes: map[string]string{
+		"count": "8",
+	}},
+	{ItemID: "T7_ARTEFACT_MAIN_MACE_HELL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_54dda3142d3a = &CraftingRecipe{SourceItemID: "T8_MAIN_MACE_HELL", Attributes: map[string]string{
+	"craftingfocus": "12064",
+	"silver":        "0",
+	"time":          "3.75",
+}, Resources: []CraftingResource{
+	{ItemID: "T8_METALBAR", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T8_CLOTH", Attributes: map[string]string{
+		"count": "8",
+	}},
+	{ItemID: "T8_ARTEFACT_MAIN_MACE_HELL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_b2b3648e5c52 = &CraftingRecipe{SourceItemID: "T4_2H_MACE_MORGANA", Attributes: map[string]string{
+	"craftingfocus": "1715",
+	"silver":        "0",
+	"time":          "1.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T4_METALBAR", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T4_CLOTH", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T4_ARTEFACT_2H_MACE_MORGANA", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_3f1f4bd00d22 = &CraftingRecipe{SourceItemID: "T5_2H_MACE_MORGANA", Attributes: map[string]string{
+	"craftingfocus": "3001",
+	"silver":        "0",
+	"time":          "2",
+}, Resources: []CraftingResource{
+	{ItemID: "T5_METALBAR", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T5_CLOTH", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T5_ARTEFACT_2H_MACE_MORGANA", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_f8956a2efa3b = &CraftingRecipe{SourceItemID: "T6_2H_MACE_MORGANA", Attributes: map[string]string{
+	"craftingfocus": "5252",
+	"silver":        "0",
+	"time":          "2.667",
+}, Resources: []CraftingResource{
+	{ItemID: "T6_METALBAR", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T6_CLOTH", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T6_ARTEFACT_2H_MACE_MORGANA", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_1aa00424e3dc = &CraftingRecipe{SourceItemID: "T7_2H_MACE_MORGANA", Attributes: map[string]string{
+	"craftingfocus": "9191",
+	"silver":        "0",
+	"time":          "3.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T7_METALBAR", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T7_CLOTH", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T7_ARTEFACT_2H_MACE_MORGANA", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_4594d6ce06b3 = &CraftingRecipe{SourceItemID: "T8_2H_MACE_MORGANA", Attributes: map[string]string{
+	"craftingfocus": "16085",
+	"silver":        "0",
+	"time":          "5",
+}, Resources: []CraftingResource{
+	{ItemID: "T8_METALBAR", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T8_CLOTH", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T8_ARTEFACT_2H_MACE_MORGANA", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_02ed2e4ff339 = &CraftingRecipe{SourceItemID: "T4_2H_DUALMACE_AVALON", Attributes: map[string]string{
+	"craftingfocus": "1715",
+	"silver":        "0",
+	"time":          "1.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T4_METALBAR", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T4_CLOTH", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T4_ARTEFACT_2H_DUALMACE_AVALON", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_efe660956e75 = &CraftingRecipe{SourceItemID: "T5_2H_DUALMACE_AVALON", Attributes: map[string]string{
+	"craftingfocus": "3001",
+	"silver":        "0",
+	"time":          "2",
+}, Resources: []CraftingResource{
+	{ItemID: "T5_METALBAR", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T5_CLOTH", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T5_ARTEFACT_2H_DUALMACE_AVALON", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_1f22c7fc1cb5 = &CraftingRecipe{SourceItemID: "T6_2H_DUALMACE_AVALON", Attributes: map[string]string{
+	"craftingfocus": "5252",
+	"silver":        "0",
+	"time":          "2.667",
+}, Resources: []CraftingResource{
+	{ItemID: "T6_METALBAR", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T6_CLOTH", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T6_ARTEFACT_2H_DUALMACE_AVALON", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_0870d44bf909 = &CraftingRecipe{SourceItemID: "T7_2H_DUALMACE_AVALON", Attributes: map[string]string{
+	"craftingfocus": "9191",
+	"silver":        "0",
+	"time":          "3.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T7_METALBAR", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T7_CLOTH", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T7_ARTEFACT_2H_DUALMACE_AVALON", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_ed605e9fc958 = &CraftingRecipe{SourceItemID: "T8_2H_DUALMACE_AVALON", Attributes: map[string]string{
+	"craftingfocus": "16085",
+	"silver":        "0",
+	"time":          "5",
+}, Resources: []CraftingResource{
+	{ItemID: "T8_METALBAR", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T8_CLOTH", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T8_ARTEFACT_2H_DUALMACE_AVALON", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_856d7ce0c84c = &CraftingRecipe{SourceItemID: "T4_MAIN_MACE_CRYSTAL", Attributes: map[string]string{
+	"craftingfocus": "1286",
+	"silver":        "0",
+	"time":          "1",
+}, Resources: []CraftingResource{
+	{ItemID: "T4_METALBAR", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T4_CLOTH", Attributes: map[string]string{
+		"count": "8",
+	}},
+	{ItemID: "T4_ARTEFACT_MAIN_MACE_CRYSTAL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_7091ed996b05 = &CraftingRecipe{SourceItemID: "T5_MAIN_MACE_CRYSTAL", Attributes: map[string]string{
+	"craftingfocus": "2251",
+	"silver":        "0",
+	"time":          "1.5",
+}, Resources: []CraftingResource{
+	{ItemID: "T5_METALBAR", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T5_CLOTH", Attributes: map[string]string{
+		"count": "8",
+	}},
+	{ItemID: "T5_ARTEFACT_MAIN_MACE_CRYSTAL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_edbee839d49b = &CraftingRecipe{SourceItemID: "T6_MAIN_MACE_CRYSTAL", Attributes: map[string]string{
+	"craftingfocus": "3939",
+	"silver":        "0",
+	"time":          "2",
+}, Resources: []CraftingResource{
+	{ItemID: "T6_METALBAR", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T6_CLOTH", Attributes: map[string]string{
+		"count": "8",
+	}},
+	{ItemID: "T6_ARTEFACT_MAIN_MACE_CRYSTAL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_e8d1f99bd5dc = &CraftingRecipe{SourceItemID: "T7_MAIN_MACE_CRYSTAL", Attributes: map[string]string{
+	"craftingfocus": "6893",
+	"silver":        "0",
+	"time":          "2.5",
+}, Resources: []CraftingResource{
+	{ItemID: "T7_METALBAR", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T7_CLOTH", Attributes: map[string]string{
+		"count": "8",
+	}},
+	{ItemID: "T7_ARTEFACT_MAIN_MACE_CRYSTAL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_544599716431 = &CraftingRecipe{SourceItemID: "T8_MAIN_MACE_CRYSTAL", Attributes: map[string]string{
+	"craftingfocus": "12064",
+	"silver":        "0",
+	"time":          "3.75",
+}, Resources: []CraftingResource{
+	{ItemID: "T8_METALBAR", Attributes: map[string]string{
+		"count": "16",
+	}},
+	{ItemID: "T8_CLOTH", Attributes: map[string]string{
+		"count": "8",
+	}},
+	{ItemID: "T8_ARTEFACT_MAIN_MACE_CRYSTAL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_d44c05e09b92 = &CraftingRecipe{SourceItemID: "T3_2H_KNUCKLES_SET1", Attributes: map[string]string{
+	"craftingfocus": "980",
+	"silver":        "0",
+	"time":          "1",
+}, Resources: []CraftingResource{
+	{ItemID: "T3_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T3_LEATHER", Attributes: map[string]string{
+		"count": "20",
+	}},
+}}
+
+var recipe_37d67d1375ef = &CraftingRecipe{SourceItemID: "T4_2H_KNUCKLES_SET1", Attributes: map[string]string{
+	"craftingfocus": "1715",
+	"silver":        "0",
+	"time":          "1.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T4_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T4_LEATHER", Attributes: map[string]string{
+		"count": "20",
+	}},
+}}
+
+var recipe_a3056082d6a9 = &CraftingRecipe{SourceItemID: "T5_2H_KNUCKLES_SET1", Attributes: map[string]string{
+	"craftingfocus": "3001",
+	"silver":        "0",
+	"time":          "2",
+}, Resources: []CraftingResource{
+	{ItemID: "T5_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T5_LEATHER", Attributes: map[string]string{
+		"count": "20",
+	}},
+}}
+
+var recipe_2733e787633d = &CraftingRecipe{SourceItemID: "T6_2H_KNUCKLES_SET1", Attributes: map[string]string{
+	"craftingfocus": "5252",
+	"silver":        "0",
+	"time":          "2.667",
+}, Resources: []CraftingResource{
+	{ItemID: "T6_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T6_LEATHER", Attributes: map[string]string{
+		"count": "20",
+	}},
+}}
+
+var recipe_0677d0939a65 = &CraftingRecipe{SourceItemID: "T7_2H_KNUCKLES_SET1", Attributes: map[string]string{
+	"craftingfocus": "9191",
+	"silver":        "0",
+	"time":          "3.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T7_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T7_LEATHER", Attributes: map[string]string{
+		"count": "20",
+	}},
+}}
+
+var recipe_386ca0cab8d7 = &CraftingRecipe{SourceItemID: "T8_2H_KNUCKLES_SET1", Attributes: map[string]string{
+	"craftingfocus": "16085",
+	"silver":        "0",
+	"time":          "5",
+}, Resources: []CraftingResource{
+	{ItemID: "T8_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T8_LEATHER", Attributes: map[string]string{
+		"count": "20",
+	}},
+}}
+
+var recipe_afb8b1fb075b = &CraftingRecipe{SourceItemID: "T4_2H_KNUCKLES_SET2", Attributes: map[string]string{
+	"craftingfocus": "1715",
+	"silver":        "0",
+	"time":          "1.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T4_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T4_LEATHER", Attributes: map[string]string{
+		"count": "20",
+	}},
+}}
+
+var recipe_5e035e8aeb44 = &CraftingRecipe{SourceItemID: "T5_2H_KNUCKLES_SET2", Attributes: map[string]string{
+	"craftingfocus": "3001",
+	"silver":        "0",
+	"time":          "2",
+}, Resources: []CraftingResource{
+	{ItemID: "T5_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T5_LEATHER", Attributes: map[string]string{
+		"count": "20",
+	}},
+}}
+
+var recipe_c6b4ae5b5ec9 = &CraftingRecipe{SourceItemID: "T6_2H_KNUCKLES_SET2", Attributes: map[string]string{
+	"craftingfocus": "5252",
+	"silver":        "0",
+	"time":          "2.667",
+}, Resources: []CraftingResource{
+	{ItemID: "T6_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T6_LEATHER", Attributes: map[string]string{
+		"count": "20",
+	}},
+}}
+
+var recipe_312e80cb6ce8 = &CraftingRecipe{SourceItemID: "T7_2H_KNUCKLES_SET2", Attributes: map[string]string{
+	"craftingfocus": "9191",
+	"silver":        "0",
+	"time":          "3.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T7_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T7_LEATHER", Attributes: map[string]string{
+		"count": "20",
+	}},
+}}
+
+var recipe_a4513d2455d9 = &CraftingRecipe{SourceItemID: "T8_2H_KNUCKLES_SET2", Attributes: map[string]string{
+	"craftingfocus": "16085",
+	"silver":        "0",
+	"time":          "5",
+}, Resources: []CraftingResource{
+	{ItemID: "T8_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T8_LEATHER", Attributes: map[string]string{
+		"count": "20",
+	}},
+}}
+
+var recipe_9716c712e889 = &CraftingRecipe{SourceItemID: "T4_2H_KNUCKLES_SET3", Attributes: map[string]string{
+	"craftingfocus": "1715",
+	"silver":        "0",
+	"time":          "1.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T4_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T4_LEATHER", Attributes: map[string]string{
+		"count": "20",
+	}},
+}}
+
+var recipe_a565a8418f02 = &CraftingRecipe{SourceItemID: "T5_2H_KNUCKLES_SET3", Attributes: map[string]string{
+	"craftingfocus": "3001",
+	"silver":        "0",
+	"time":          "2",
+}, Resources: []CraftingResource{
+	{ItemID: "T5_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T5_LEATHER", Attributes: map[string]string{
+		"count": "20",
+	}},
+}}
+
+var recipe_77981e06de0f = &CraftingRecipe{SourceItemID: "T6_2H_KNUCKLES_SET3", Attributes: map[string]string{
+	"craftingfocus": "5252",
+	"silver":        "0",
+	"time":          "2.667",
+}, Resources: []CraftingResource{
+	{ItemID: "T6_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T6_LEATHER", Attributes: map[string]string{
+		"count": "20",
+	}},
+}}
+
+var recipe_683574c99182 = &CraftingRecipe{SourceItemID: "T7_2H_KNUCKLES_SET3", Attributes: map[string]string{
+	"craftingfocus": "9191",
+	"silver":        "0",
+	"time":          "3.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T7_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T7_LEATHER", Attributes: map[string]string{
+		"count": "20",
+	}},
+}}
+
+var recipe_98eb2533b82f = &CraftingRecipe{SourceItemID: "T8_2H_KNUCKLES_SET3", Attributes: map[string]string{
+	"craftingfocus": "16085",
+	"silver":        "0",
+	"time":          "5",
+}, Resources: []CraftingResource{
+	{ItemID: "T8_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T8_LEATHER", Attributes: map[string]string{
+		"count": "20",
+	}},
+}}
+
+var recipe_13781a86efa0 = &CraftingRecipe{SourceItemID: "T4_2H_KNUCKLES_KEEPER", Attributes: map[string]string{
+	"craftingfocus": "1715",
+	"silver":        "0",
+	"time":          "1.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T4_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T4_LEATHER", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T4_ARTEFACT_2H_KNUCKLES_KEEPER", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_ca730591a51e = &CraftingRecipe{SourceItemID: "T5_2H_KNUCKLES_KEEPER", Attributes: map[string]string{
+	"craftingfocus": "3001",
+	"silver":        "0",
+	"time":          "2",
+}, Resources: []CraftingResource{
+	{ItemID: "T5_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T5_LEATHER", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T5_ARTEFACT_2H_KNUCKLES_KEEPER", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_776baf7b13fc = &CraftingRecipe{SourceItemID: "T6_2H_KNUCKLES_KEEPER", Attributes: map[string]string{
+	"craftingfocus": "5252",
+	"silver":        "0",
+	"time":          "2.667",
+}, Resources: []CraftingResource{
+	{ItemID: "T6_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T6_LEATHER", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T6_ARTEFACT_2H_KNUCKLES_KEEPER", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_e62d1890597a = &CraftingRecipe{SourceItemID: "T7_2H_KNUCKLES_KEEPER", Attributes: map[string]string{
+	"craftingfocus": "9191",
+	"silver":        "0",
+	"time":          "3.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T7_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T7_LEATHER", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T7_ARTEFACT_2H_KNUCKLES_KEEPER", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_992bae659079 = &CraftingRecipe{SourceItemID: "T8_2H_KNUCKLES_KEEPER", Attributes: map[string]string{
+	"craftingfocus": "16085",
+	"silver":        "0",
+	"time":          "5",
+}, Resources: []CraftingResource{
+	{ItemID: "T8_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T8_LEATHER", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T8_ARTEFACT_2H_KNUCKLES_KEEPER", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_a62dbb9e628a = &CraftingRecipe{SourceItemID: "T4_2H_KNUCKLES_HELL", Attributes: map[string]string{
+	"craftingfocus": "1715",
+	"silver":        "0",
+	"time":          "1.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T4_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T4_LEATHER", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T4_ARTEFACT_2H_KNUCKLES_HELL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_05fc46e1d714 = &CraftingRecipe{SourceItemID: "T5_2H_KNUCKLES_HELL", Attributes: map[string]string{
+	"craftingfocus": "3001",
+	"silver":        "0",
+	"time":          "2",
+}, Resources: []CraftingResource{
+	{ItemID: "T5_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T5_LEATHER", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T5_ARTEFACT_2H_KNUCKLES_HELL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_e059d7e61666 = &CraftingRecipe{SourceItemID: "T6_2H_KNUCKLES_HELL", Attributes: map[string]string{
+	"craftingfocus": "5252",
+	"silver":        "0",
+	"time":          "2.667",
+}, Resources: []CraftingResource{
+	{ItemID: "T6_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T6_LEATHER", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T6_ARTEFACT_2H_KNUCKLES_HELL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_7531084a72cc = &CraftingRecipe{SourceItemID: "T7_2H_KNUCKLES_HELL", Attributes: map[string]string{
+	"craftingfocus": "9191",
+	"silver":        "0",
+	"time":          "3.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T7_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T7_LEATHER", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T7_ARTEFACT_2H_KNUCKLES_HELL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_9db94855eab6 = &CraftingRecipe{SourceItemID: "T8_2H_KNUCKLES_HELL", Attributes: map[string]string{
+	"craftingfocus": "16085",
+	"silver":        "0",
+	"time":          "5",
+}, Resources: []CraftingResource{
+	{ItemID: "T8_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T8_LEATHER", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T8_ARTEFACT_2H_KNUCKLES_HELL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_80bfbc52b96e = &CraftingRecipe{SourceItemID: "T4_2H_KNUCKLES_MORGANA", Attributes: map[string]string{
+	"craftingfocus": "1715",
+	"silver":        "0",
+	"time":          "1.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T4_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T4_LEATHER", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T4_ARTEFACT_2H_KNUCKLES_MORGANA", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_4f8941b731b8 = &CraftingRecipe{SourceItemID: "T5_2H_KNUCKLES_MORGANA", Attributes: map[string]string{
+	"craftingfocus": "3001",
+	"silver":        "0",
+	"time":          "2",
+}, Resources: []CraftingResource{
+	{ItemID: "T5_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T5_LEATHER", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T5_ARTEFACT_2H_KNUCKLES_MORGANA", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_393d6fba5fbd = &CraftingRecipe{SourceItemID: "T6_2H_KNUCKLES_MORGANA", Attributes: map[string]string{
+	"craftingfocus": "5252",
+	"silver":        "0",
+	"time":          "2.667",
+}, Resources: []CraftingResource{
+	{ItemID: "T6_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T6_LEATHER", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T6_ARTEFACT_2H_KNUCKLES_MORGANA", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_116b42d73169 = &CraftingRecipe{SourceItemID: "T7_2H_KNUCKLES_MORGANA", Attributes: map[string]string{
+	"craftingfocus": "9191",
+	"silver":        "0",
+	"time":          "3.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T7_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T7_LEATHER", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T7_ARTEFACT_2H_KNUCKLES_MORGANA", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_cc6ed7600137 = &CraftingRecipe{SourceItemID: "T8_2H_KNUCKLES_MORGANA", Attributes: map[string]string{
+	"craftingfocus": "16085",
+	"silver":        "0",
+	"time":          "5",
+}, Resources: []CraftingResource{
+	{ItemID: "T8_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T8_LEATHER", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T8_ARTEFACT_2H_KNUCKLES_MORGANA", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_073e95447293 = &CraftingRecipe{SourceItemID: "T4_2H_KNUCKLES_AVALON", Attributes: map[string]string{
+	"craftingfocus": "1715",
+	"silver":        "0",
+	"time":          "1.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T4_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T4_LEATHER", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T4_ARTEFACT_2H_KNUCKLES_AVALON", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_42ee4e9f0440 = &CraftingRecipe{SourceItemID: "T5_2H_KNUCKLES_AVALON", Attributes: map[string]string{
+	"craftingfocus": "3001",
+	"silver":        "0",
+	"time":          "2",
+}, Resources: []CraftingResource{
+	{ItemID: "T5_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T5_LEATHER", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T5_ARTEFACT_2H_KNUCKLES_AVALON", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_90c0236e18fc = &CraftingRecipe{SourceItemID: "T6_2H_KNUCKLES_AVALON", Attributes: map[string]string{
+	"craftingfocus": "5252",
+	"silver":        "0",
+	"time":          "2.667",
+}, Resources: []CraftingResource{
+	{ItemID: "T6_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T6_LEATHER", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T6_ARTEFACT_2H_KNUCKLES_AVALON", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_a268070ae135 = &CraftingRecipe{SourceItemID: "T7_2H_KNUCKLES_AVALON", Attributes: map[string]string{
+	"craftingfocus": "9191",
+	"silver":        "0",
+	"time":          "3.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T7_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T7_LEATHER", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T7_ARTEFACT_2H_KNUCKLES_AVALON", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_20ba59b2906f = &CraftingRecipe{SourceItemID: "T8_2H_KNUCKLES_AVALON", Attributes: map[string]string{
+	"craftingfocus": "16085",
+	"silver":        "0",
+	"time":          "5",
+}, Resources: []CraftingResource{
+	{ItemID: "T8_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T8_LEATHER", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T8_ARTEFACT_2H_KNUCKLES_AVALON", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_31955fbd9428 = &CraftingRecipe{SourceItemID: "T4_2H_KNUCKLES_CRYSTAL", Attributes: map[string]string{
+	"craftingfocus": "1715",
+	"silver":        "0",
+	"time":          "1.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T4_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T4_LEATHER", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T4_ARTEFACT_2H_KNUCKLES_CRYSTAL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_c53508a8c110 = &CraftingRecipe{SourceItemID: "T5_2H_KNUCKLES_CRYSTAL", Attributes: map[string]string{
+	"craftingfocus": "3001",
+	"silver":        "0",
+	"time":          "2",
+}, Resources: []CraftingResource{
+	{ItemID: "T5_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T5_LEATHER", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T5_ARTEFACT_2H_KNUCKLES_CRYSTAL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_1e6330010a6e = &CraftingRecipe{SourceItemID: "T6_2H_KNUCKLES_CRYSTAL", Attributes: map[string]string{
+	"craftingfocus": "5252",
+	"silver":        "0",
+	"time":          "2.667",
+}, Resources: []CraftingResource{
+	{ItemID: "T6_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T6_LEATHER", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T6_ARTEFACT_2H_KNUCKLES_CRYSTAL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_6bf661d3ccef = &CraftingRecipe{SourceItemID: "T7_2H_KNUCKLES_CRYSTAL", Attributes: map[string]string{
+	"craftingfocus": "9191",
+	"silver":        "0",
+	"time":          "3.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T7_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T7_LEATHER", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T7_ARTEFACT_2H_KNUCKLES_CRYSTAL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_3d4c9818afa4 = &CraftingRecipe{SourceItemID: "T8_2H_KNUCKLES_CRYSTAL", Attributes: map[string]string{
+	"craftingfocus": "16085",
+	"silver":        "0",
+	"time":          "5",
+}, Resources: []CraftingResource{
+	{ItemID: "T8_METALBAR", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T8_LEATHER", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T8_ARTEFACT_2H_KNUCKLES_CRYSTAL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_5c5516cce1d3 = &CraftingRecipe{SourceItemID: "T3_2H_SHAPESHIFTER_SET1", Attributes: map[string]string{
+	"craftingfocus": "980",
+	"silver":        "0",
+	"time":          "1",
+}, Resources: []CraftingResource{
+	{ItemID: "T3_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T3_LEATHER", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T1_ALCHEMY_COMMON", Attributes: map[string]string{
+		"count":           "5",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_fd1755f0a264 = &CraftingRecipe{SourceItemID: "T4_2H_SHAPESHIFTER_SET1", Attributes: map[string]string{
+	"craftingfocus": "1715",
+	"silver":        "0",
+	"time":          "1.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T4_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T4_LEATHER", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T3_ALCHEMY_RARE_PANTHER", Attributes: map[string]string{
+		"count":           "2",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_4fb6b52efce7 = &CraftingRecipe{SourceItemID: "T5_2H_SHAPESHIFTER_SET1", Attributes: map[string]string{
+	"craftingfocus": "3001",
+	"silver":        "0",
+	"time":          "2",
+}, Resources: []CraftingResource{
+	{ItemID: "T5_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T5_LEATHER", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T5_ALCHEMY_RARE_PANTHER", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_0338749ba07d = &CraftingRecipe{SourceItemID: "T6_2H_SHAPESHIFTER_SET1", Attributes: map[string]string{
+	"craftingfocus": "5252",
+	"silver":        "0",
+	"time":          "2.667",
+}, Resources: []CraftingResource{
+	{ItemID: "T6_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T6_LEATHER", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T5_ALCHEMY_RARE_PANTHER", Attributes: map[string]string{
+		"count":           "2",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_9e34092784be = &CraftingRecipe{SourceItemID: "T7_2H_SHAPESHIFTER_SET1", Attributes: map[string]string{
+	"craftingfocus": "9191",
+	"silver":        "0",
+	"time":          "3.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T7_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T7_LEATHER", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T7_ALCHEMY_RARE_PANTHER", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_15220e5ca258 = &CraftingRecipe{SourceItemID: "T8_2H_SHAPESHIFTER_SET1", Attributes: map[string]string{
+	"craftingfocus": "16085",
+	"silver":        "0",
+	"time":          "5",
+}, Resources: []CraftingResource{
+	{ItemID: "T8_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T8_LEATHER", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T7_ALCHEMY_RARE_PANTHER", Attributes: map[string]string{
+		"count":           "2",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_6babeabb389d = &CraftingRecipe{SourceItemID: "T4_2H_SHAPESHIFTER_SET2", Attributes: map[string]string{
+	"craftingfocus": "1715",
+	"silver":        "0",
+	"time":          "1.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T4_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T4_LEATHER", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T3_ALCHEMY_RARE_ENT", Attributes: map[string]string{
+		"count":           "2",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_10e787b0d58c = &CraftingRecipe{SourceItemID: "T5_2H_SHAPESHIFTER_SET2", Attributes: map[string]string{
+	"craftingfocus": "3001",
+	"silver":        "0",
+	"time":          "2",
+}, Resources: []CraftingResource{
+	{ItemID: "T5_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T5_LEATHER", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T5_ALCHEMY_RARE_ENT", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_30b0fc3848aa = &CraftingRecipe{SourceItemID: "T6_2H_SHAPESHIFTER_SET2", Attributes: map[string]string{
+	"craftingfocus": "5252",
+	"silver":        "0",
+	"time":          "2.667",
+}, Resources: []CraftingResource{
+	{ItemID: "T6_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T6_LEATHER", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T5_ALCHEMY_RARE_ENT", Attributes: map[string]string{
+		"count":           "2",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_6825803fb8fd = &CraftingRecipe{SourceItemID: "T7_2H_SHAPESHIFTER_SET2", Attributes: map[string]string{
+	"craftingfocus": "9191",
+	"silver":        "0",
+	"time":          "3.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T7_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T7_LEATHER", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T7_ALCHEMY_RARE_ENT", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_2849803f009d = &CraftingRecipe{SourceItemID: "T8_2H_SHAPESHIFTER_SET2", Attributes: map[string]string{
+	"craftingfocus": "16085",
+	"silver":        "0",
+	"time":          "5",
+}, Resources: []CraftingResource{
+	{ItemID: "T8_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T8_LEATHER", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T7_ALCHEMY_RARE_ENT", Attributes: map[string]string{
+		"count":           "2",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_7dd302a5c9f9 = &CraftingRecipe{SourceItemID: "T4_2H_SHAPESHIFTER_SET3", Attributes: map[string]string{
+	"craftingfocus": "1715",
+	"silver":        "0",
+	"time":          "1.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T4_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T4_LEATHER", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T3_ALCHEMY_RARE_DIREBEAR", Attributes: map[string]string{
+		"count":           "2",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_c81204aa9798 = &CraftingRecipe{SourceItemID: "T5_2H_SHAPESHIFTER_SET3", Attributes: map[string]string{
+	"craftingfocus": "3001",
+	"silver":        "0",
+	"time":          "2",
+}, Resources: []CraftingResource{
+	{ItemID: "T5_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T5_LEATHER", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T5_ALCHEMY_RARE_DIREBEAR", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_86c1efc276ab = &CraftingRecipe{SourceItemID: "T6_2H_SHAPESHIFTER_SET3", Attributes: map[string]string{
+	"craftingfocus": "5252",
+	"silver":        "0",
+	"time":          "2.667",
+}, Resources: []CraftingResource{
+	{ItemID: "T6_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T6_LEATHER", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T5_ALCHEMY_RARE_DIREBEAR", Attributes: map[string]string{
+		"count":           "2",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_b90ea8632713 = &CraftingRecipe{SourceItemID: "T7_2H_SHAPESHIFTER_SET3", Attributes: map[string]string{
+	"craftingfocus": "9191",
+	"silver":        "0",
+	"time":          "3.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T7_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T7_LEATHER", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T7_ALCHEMY_RARE_DIREBEAR", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_972dcfddc704 = &CraftingRecipe{SourceItemID: "T8_2H_SHAPESHIFTER_SET3", Attributes: map[string]string{
+	"craftingfocus": "16085",
+	"silver":        "0",
+	"time":          "5",
+}, Resources: []CraftingResource{
+	{ItemID: "T8_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T8_LEATHER", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T7_ALCHEMY_RARE_DIREBEAR", Attributes: map[string]string{
+		"count":           "2",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_1e6dc9505002 = &CraftingRecipe{SourceItemID: "T4_2H_SHAPESHIFTER_MORGANA", Attributes: map[string]string{
+	"craftingfocus": "1715",
+	"silver":        "0",
+	"time":          "1.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T4_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T4_LEATHER", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T4_ARTEFACT_2H_SHAPESHIFTER_MORGANA", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+	{ItemID: "T3_ALCHEMY_RARE_WEREWOLF", Attributes: map[string]string{
+		"count":           "2",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_86d4d8e32f28 = &CraftingRecipe{SourceItemID: "T5_2H_SHAPESHIFTER_MORGANA", Attributes: map[string]string{
+	"craftingfocus": "3001",
+	"silver":        "0",
+	"time":          "2",
+}, Resources: []CraftingResource{
+	{ItemID: "T5_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T5_LEATHER", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T5_ARTEFACT_2H_SHAPESHIFTER_MORGANA", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+	{ItemID: "T5_ALCHEMY_RARE_WEREWOLF", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_ab52449a30c8 = &CraftingRecipe{SourceItemID: "T6_2H_SHAPESHIFTER_MORGANA", Attributes: map[string]string{
+	"craftingfocus": "5252",
+	"silver":        "0",
+	"time":          "2.667",
+}, Resources: []CraftingResource{
+	{ItemID: "T6_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T6_LEATHER", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T6_ARTEFACT_2H_SHAPESHIFTER_MORGANA", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+	{ItemID: "T5_ALCHEMY_RARE_WEREWOLF", Attributes: map[string]string{
+		"count":           "2",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_c0ef5ab605d2 = &CraftingRecipe{SourceItemID: "T7_2H_SHAPESHIFTER_MORGANA", Attributes: map[string]string{
+	"craftingfocus": "9191",
+	"silver":        "0",
+	"time":          "3.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T7_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T7_LEATHER", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T7_ARTEFACT_2H_SHAPESHIFTER_MORGANA", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+	{ItemID: "T7_ALCHEMY_RARE_WEREWOLF", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_b1a16e3485a2 = &CraftingRecipe{SourceItemID: "T8_2H_SHAPESHIFTER_MORGANA", Attributes: map[string]string{
+	"craftingfocus": "16085",
+	"silver":        "0",
+	"time":          "5",
+}, Resources: []CraftingResource{
+	{ItemID: "T8_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T8_LEATHER", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T8_ARTEFACT_2H_SHAPESHIFTER_MORGANA", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+	{ItemID: "T7_ALCHEMY_RARE_WEREWOLF", Attributes: map[string]string{
+		"count":           "2",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_b185f2a4f102 = &CraftingRecipe{SourceItemID: "T4_2H_SHAPESHIFTER_HELL", Attributes: map[string]string{
+	"craftingfocus": "1715",
+	"silver":        "0",
+	"time":          "1.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T4_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T4_LEATHER", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T4_ARTEFACT_2H_SHAPESHIFTER_HELL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+	{ItemID: "T3_ALCHEMY_RARE_IMP", Attributes: map[string]string{
+		"count":           "2",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_f81e778de0f6 = &CraftingRecipe{SourceItemID: "T5_2H_SHAPESHIFTER_HELL", Attributes: map[string]string{
+	"craftingfocus": "3001",
+	"silver":        "0",
+	"time":          "2",
+}, Resources: []CraftingResource{
+	{ItemID: "T5_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T5_LEATHER", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T5_ARTEFACT_2H_SHAPESHIFTER_HELL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+	{ItemID: "T5_ALCHEMY_RARE_IMP", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_f9d6d360396a = &CraftingRecipe{SourceItemID: "T6_2H_SHAPESHIFTER_HELL", Attributes: map[string]string{
+	"craftingfocus": "5252",
+	"silver":        "0",
+	"time":          "2.667",
+}, Resources: []CraftingResource{
+	{ItemID: "T6_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T6_LEATHER", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T6_ARTEFACT_2H_SHAPESHIFTER_HELL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+	{ItemID: "T5_ALCHEMY_RARE_IMP", Attributes: map[string]string{
+		"count":           "2",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_832e14972899 = &CraftingRecipe{SourceItemID: "T7_2H_SHAPESHIFTER_HELL", Attributes: map[string]string{
+	"craftingfocus": "9191",
+	"silver":        "0",
+	"time":          "3.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T7_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T7_LEATHER", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T7_ARTEFACT_2H_SHAPESHIFTER_HELL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+	{ItemID: "T7_ALCHEMY_RARE_IMP", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_97d5f9372255 = &CraftingRecipe{SourceItemID: "T8_2H_SHAPESHIFTER_HELL", Attributes: map[string]string{
+	"craftingfocus": "16085",
+	"silver":        "0",
+	"time":          "5",
+}, Resources: []CraftingResource{
+	{ItemID: "T8_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T8_LEATHER", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T8_ARTEFACT_2H_SHAPESHIFTER_HELL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+	{ItemID: "T7_ALCHEMY_RARE_IMP", Attributes: map[string]string{
+		"count":           "2",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_33eef0390888 = &CraftingRecipe{SourceItemID: "T4_2H_SHAPESHIFTER_KEEPER", Attributes: map[string]string{
+	"craftingfocus": "1715",
+	"silver":        "0",
+	"time":          "1.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T4_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T4_LEATHER", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T4_ARTEFACT_2H_SHAPESHIFTER_KEEPER", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+	{ItemID: "T3_ALCHEMY_RARE_ELEMENTAL", Attributes: map[string]string{
+		"count":           "2",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_7ce8e24c3bb8 = &CraftingRecipe{SourceItemID: "T5_2H_SHAPESHIFTER_KEEPER", Attributes: map[string]string{
+	"craftingfocus": "3001",
+	"silver":        "0",
+	"time":          "2",
+}, Resources: []CraftingResource{
+	{ItemID: "T5_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T5_LEATHER", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T5_ARTEFACT_2H_SHAPESHIFTER_KEEPER", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+	{ItemID: "T5_ALCHEMY_RARE_ELEMENTAL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_177542447b84 = &CraftingRecipe{SourceItemID: "T6_2H_SHAPESHIFTER_KEEPER", Attributes: map[string]string{
+	"craftingfocus": "5252",
+	"silver":        "0",
+	"time":          "2.667",
+}, Resources: []CraftingResource{
+	{ItemID: "T6_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T6_LEATHER", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T6_ARTEFACT_2H_SHAPESHIFTER_KEEPER", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+	{ItemID: "T5_ALCHEMY_RARE_ELEMENTAL", Attributes: map[string]string{
+		"count":           "2",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_73f4009c1b73 = &CraftingRecipe{SourceItemID: "T7_2H_SHAPESHIFTER_KEEPER", Attributes: map[string]string{
+	"craftingfocus": "9191",
+	"silver":        "0",
+	"time":          "3.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T7_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T7_LEATHER", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T7_ARTEFACT_2H_SHAPESHIFTER_KEEPER", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+	{ItemID: "T7_ALCHEMY_RARE_ELEMENTAL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_3ff18754403e = &CraftingRecipe{SourceItemID: "T8_2H_SHAPESHIFTER_KEEPER", Attributes: map[string]string{
+	"craftingfocus": "16085",
+	"silver":        "0",
+	"time":          "5",
+}, Resources: []CraftingResource{
+	{ItemID: "T8_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T8_LEATHER", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T8_ARTEFACT_2H_SHAPESHIFTER_KEEPER", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+	{ItemID: "T7_ALCHEMY_RARE_ELEMENTAL", Attributes: map[string]string{
+		"count":           "2",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_40a7bd33243a = &CraftingRecipe{SourceItemID: "T4_2H_SHAPESHIFTER_AVALON", Attributes: map[string]string{
+	"craftingfocus": "1715",
+	"silver":        "0",
+	"time":          "1.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T4_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T4_LEATHER", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T4_ARTEFACT_2H_SHAPESHIFTER_AVALON", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+	{ItemID: "T3_ALCHEMY_RARE_EAGLE", Attributes: map[string]string{
+		"count":           "2",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_d0e60d6a524b = &CraftingRecipe{SourceItemID: "T5_2H_SHAPESHIFTER_AVALON", Attributes: map[string]string{
+	"craftingfocus": "3001",
+	"silver":        "0",
+	"time":          "2",
+}, Resources: []CraftingResource{
+	{ItemID: "T5_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T5_LEATHER", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T5_ARTEFACT_2H_SHAPESHIFTER_AVALON", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+	{ItemID: "T5_ALCHEMY_RARE_EAGLE", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_4d76ccc854c3 = &CraftingRecipe{SourceItemID: "T6_2H_SHAPESHIFTER_AVALON", Attributes: map[string]string{
+	"craftingfocus": "5252",
+	"silver":        "0",
+	"time":          "2.667",
+}, Resources: []CraftingResource{
+	{ItemID: "T6_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T6_LEATHER", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T6_ARTEFACT_2H_SHAPESHIFTER_AVALON", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+	{ItemID: "T5_ALCHEMY_RARE_EAGLE", Attributes: map[string]string{
+		"count":           "2",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_04427c649974 = &CraftingRecipe{SourceItemID: "T7_2H_SHAPESHIFTER_AVALON", Attributes: map[string]string{
+	"craftingfocus": "9191",
+	"silver":        "0",
+	"time":          "3.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T7_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T7_LEATHER", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T7_ARTEFACT_2H_SHAPESHIFTER_AVALON", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+	{ItemID: "T7_ALCHEMY_RARE_EAGLE", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_9d5ee484bd77 = &CraftingRecipe{SourceItemID: "T8_2H_SHAPESHIFTER_AVALON", Attributes: map[string]string{
+	"craftingfocus": "16085",
+	"silver":        "0",
+	"time":          "5",
+}, Resources: []CraftingResource{
+	{ItemID: "T8_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T8_LEATHER", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T8_ARTEFACT_2H_SHAPESHIFTER_AVALON", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+	{ItemID: "T7_ALCHEMY_RARE_EAGLE", Attributes: map[string]string{
+		"count":           "2",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_3bd2eb50107f = &CraftingRecipe{SourceItemID: "T4_2H_SHAPESHIFTER_CRYSTAL", Attributes: map[string]string{
+	"craftingfocus": "1715",
+	"silver":        "0",
+	"time":          "1.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T4_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T4_LEATHER", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T4_ARTEFACT_2H_SHAPESHIFTER_CRYSTAL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_aaf0eee02a28 = &CraftingRecipe{SourceItemID: "T5_2H_SHAPESHIFTER_CRYSTAL", Attributes: map[string]string{
+	"craftingfocus": "3001",
+	"silver":        "0",
+	"time":          "2",
+}, Resources: []CraftingResource{
+	{ItemID: "T5_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T5_LEATHER", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T5_ARTEFACT_2H_SHAPESHIFTER_CRYSTAL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_9c5200780ea8 = &CraftingRecipe{SourceItemID: "T6_2H_SHAPESHIFTER_CRYSTAL", Attributes: map[string]string{
+	"craftingfocus": "5252",
+	"silver":        "0",
+	"time":          "2.667",
+}, Resources: []CraftingResource{
+	{ItemID: "T6_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T6_LEATHER", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T6_ARTEFACT_2H_SHAPESHIFTER_CRYSTAL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_db32fce14e90 = &CraftingRecipe{SourceItemID: "T7_2H_SHAPESHIFTER_CRYSTAL", Attributes: map[string]string{
+	"craftingfocus": "9191",
+	"silver":        "0",
+	"time":          "3.333",
+}, Resources: []CraftingResource{
+	{ItemID: "T7_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T7_LEATHER", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T7_ARTEFACT_2H_SHAPESHIFTER_CRYSTAL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var recipe_dd788bced923 = &CraftingRecipe{SourceItemID: "T8_2H_SHAPESHIFTER_CRYSTAL", Attributes: map[string]string{
+	"craftingfocus": "16085",
+	"silver":        "0",
+	"time":          "5",
+}, Resources: []CraftingResource{
+	{ItemID: "T8_PLANKS", Attributes: map[string]string{
+		"count": "20",
+	}},
+	{ItemID: "T8_LEATHER", Attributes: map[string]string{
+		"count": "12",
+	}},
+	{ItemID: "T8_ARTEFACT_2H_SHAPESHIFTER_CRYSTAL", Attributes: map[string]string{
+		"count":           "1",
+		"maxreturnamount": "0",
+	}},
+}}
+
+var itemFamilies_weapons = []ItemDefinition{
+	{Name: "Großer Arkanstab des Adepten", BaseID: "2H_ARCANESTAFF", MinTier: 4, MaxTier: 8, MinEnchantment: 0, MaxEnchantment: 4, Variants: []ItemVariant{
+		{ID: "T4_2H_ARCANESTAFF", Name: "Großer Arkanstab des Adepten", Tier: 4, Enchantment: 0, CategoryPath: "weapons/arcanestaff/arcanestaff_2h_arcanestaff", Recipe: recipe_cda6cb435243},
+		{ID: "T4_2H_ARCANESTAFF@1", Name: "Großer Arkanstab des Adepten", Tier: 4, Enchantment: 1, CategoryPath: "weapons/arcanestaff/arcanestaff_2h_arcanestaff", Recipe: recipe_cda6cb435243},
+		{ID: "T4_2H_ARCANESTAFF@2", Name: "Großer Arkanstab des Adepten", Tier: 4, Enchantment: 2, CategoryPath: "weapons/arcanestaff/arcanestaff_2h_arcanestaff", Recipe: recipe_cda6cb435243},
+		{ID: "T4_2H_ARCANESTAFF@3", Name: "Großer Arkanstab des Adepten", Tier: 4, Enchantment: 3, CategoryPath: "weapons/arcanestaff/arcanestaff_2h_arcanestaff", Recipe: recipe_cda6cb435243},
+		{ID: "T4_2H_ARCANESTAFF@4", Name: "Großer Arkanstab des Adepten", Tier: 4, Enchantment: 4, CategoryPath: "weapons/arcanestaff/arcanestaff_2h_arcanestaff", Recipe: recipe_cda6cb435243},
+		{ID: "T5_2H_ARCANESTAFF", Name: "Großer Arkanstab des Experten", Tier: 5, Enchantment: 0, CategoryPath: "weapons/arcanestaff/arcanestaff_2h_arcanestaff", Recipe: recipe_ab27d6fccc0f},
+		{ID: "T5_2H_ARCANESTAFF@1", Name: "Großer Arkanstab des Experten", Tier: 5, Enchantment: 1, CategoryPath: "weapons/arcanestaff/arcanestaff_2h_arcanestaff", Recipe: recipe_ab27d6fccc0f},
+		{ID: "T5_2H_ARCANESTAFF@2", Name: "Großer Arkanstab des Experten", Tier: 5, Enchantment: 2, CategoryPath: "weapons/arcanestaff/arcanestaff_2h_arcanestaff", Recipe: recipe_ab27d6fccc0f},
+		{ID: "T5_2H_ARCANESTAFF@3", Name: "Großer Arkanstab des Experten", Tier: 5, Enchantment: 3, CategoryPath: "weapons/arcanestaff/arcanestaff_2h_arcanestaff", Recipe: recipe_ab27d6fccc0f},
+		{ID: "T5_2H_ARCANESTAFF@4", Name: "Großer Arkanstab des Experten", Tier: 5, Enchantment: 4, CategoryPath: "weapons/arcanestaff/arcanestaff_2h_arcanestaff", Recipe: recipe_ab27d6fccc0f},
+		{ID: "T6_2H_ARCANESTAFF", Name: "Großer Arkanstab des Meisters", Tier: 6, Enchantment: 0, CategoryPath: "weapons/arcanestaff/arcanestaff_2h_arcanestaff", Recipe: recipe_bda52fe3d4ae},
+		{ID: "T6_2H_ARCANESTAFF@1", Name: "Großer Arkanstab des Meisters", Tier: 6, Enchantment: 1, CategoryPath: "weapons/arcanestaff/arcanestaff_2h_arcanestaff", Recipe: recipe_bda52fe3d4ae},
+		{ID: "T6_2H_ARCANESTAFF@2", Name: "Großer Arkanstab des Meisters", Tier: 6, Enchantment: 2, CategoryPath: "weapons/arcanestaff/arcanestaff_2h_arcanestaff", Recipe: recipe_bda52fe3d4ae},
+		{ID: "T6_2H_ARCANESTAFF@3", Name: "Großer Arkanstab des Meisters", Tier: 6, Enchantment: 3, CategoryPath: "weapons/arcanestaff/arcanestaff_2h_arcanestaff", Recipe: recipe_bda52fe3d4ae},
+		{ID: "T6_2H_ARCANESTAFF@4", Name: "Großer Arkanstab des Meisters", Tier: 6, Enchantment: 4, CategoryPath: "weapons/arcanestaff/arcanestaff_2h_arcanestaff", Recipe: recipe_bda52fe3d4ae},
+		{ID: "T7_2H_ARCANESTAFF", Name: "Großer Arkanstab des Großmeisters", Tier: 7, Enchantment: 0, CategoryPath: "weapons/arcanestaff/arcanestaff_2h_arcanestaff", Recipe: recipe_92cb870a9803},
+		{ID: "T7_2H_ARCANESTAFF@1", Name: "Großer Arkanstab des Großmeisters", Tier: 7, Enchantment: 1, CategoryPath: "weapons/arcanestaff/arcanestaff_2h_arcanestaff", Recipe: recipe_92cb870a9803},
+		{ID: "T7_2H_ARCANESTAFF@2", Name: "Großer Arkanstab des Großmeisters", Tier: 7, Enchantment: 2, CategoryPath: "weapons/arcanestaff/arcanestaff_2h_arcanestaff", Recipe: recipe_92cb870a9803},
+		{ID: "T7_2H_ARCANESTAFF@3", Name: "Großer Arkanstab des Großmeisters", Tier: 7, Enchantment: 3, CategoryPath: "weapons/arcanestaff/arcanestaff_2h_arcanestaff", Recipe: recipe_92cb870a9803},
+		{ID: "T7_2H_ARCANESTAFF@4", Name: "Großer Arkanstab des Großmeisters", Tier: 7, Enchantment: 4, CategoryPath: "weapons/arcanestaff/arcanestaff_2h_arcanestaff", Recipe: recipe_92cb870a9803},
+		{ID: "T8_2H_ARCANESTAFF", Name: "Großer Arkanstab des Ältesten", Tier: 8, Enchantment: 0, CategoryPath: "weapons/arcanestaff/arcanestaff_2h_arcanestaff", Recipe: recipe_3817a48dfd1d},
+		{ID: "T8_2H_ARCANESTAFF@1", Name: "Großer Arkanstab des Ältesten", Tier: 8, Enchantment: 1, CategoryPath: "weapons/arcanestaff/arcanestaff_2h_arcanestaff", Recipe: recipe_3817a48dfd1d},
+		{ID: "T8_2H_ARCANESTAFF@2", Name: "Großer Arkanstab des Ältesten", Tier: 8, Enchantment: 2, CategoryPath: "weapons/arcanestaff/arcanestaff_2h_arcanestaff", Recipe: recipe_3817a48dfd1d},
+		{ID: "T8_2H_ARCANESTAFF@3", Name: "Großer Arkanstab des Ältesten", Tier: 8, Enchantment: 3, CategoryPath: "weapons/arcanestaff/arcanestaff_2h_arcanestaff", Recipe: recipe_3817a48dfd1d},
+		{ID: "T8_2H_ARCANESTAFF@4", Name: "Großer Arkanstab des Ältesten", Tier: 8, Enchantment: 4, CategoryPath: "weapons/arcanestaff/arcanestaff_2h_arcanestaff", Recipe: recipe_3817a48dfd1d},
+	}},
+	{Name: "Astralstab des Adepten", BaseID: "2H_ARCANESTAFF_CRYSTAL", MinTier: 4, MaxTier: 8, MinEnchantment: 0, MaxEnchantment: 4, Variants: []ItemVariant{
+		{ID: "T4_2H_ARCANESTAFF_CRYSTAL", Name: "Astralstab des Adepten", Tier: 4, Enchantment: 0, CategoryPath: "weapons/arcanestaff/arcanestaff_crystal", Recipe: recipe_d2a8f78ac558},
+		{ID: "T4_2H_ARCANESTAFF_CRYSTAL@1", Name: "Astralstab des Adepten", Tier: 4, Enchantment: 1, CategoryPath: "weapons/arcanestaff/arcanestaff_crystal", Recipe: recipe_d2a8f78ac558},
+		{ID: "T4_2H_ARCANESTAFF_CRYSTAL@2", Name: "Astralstab des Adepten", Tier: 4, Enchantment: 2, CategoryPath: "weapons/arcanestaff/arcanestaff_crystal", Recipe: recipe_d2a8f78ac558},
+		{ID: "T4_2H_ARCANESTAFF_CRYSTAL@3", Name: "Astralstab des Adepten", Tier: 4, Enchantment: 3, CategoryPath: "weapons/arcanestaff/arcanestaff_crystal", Recipe: recipe_d2a8f78ac558},
+		{ID: "T4_2H_ARCANESTAFF_CRYSTAL@4", Name: "Astralstab des Adepten", Tier: 4, Enchantment: 4, CategoryPath: "weapons/arcanestaff/arcanestaff_crystal", Recipe: recipe_d2a8f78ac558},
+		{ID: "T5_2H_ARCANESTAFF_CRYSTAL", Name: "Astralstab des Experten", Tier: 5, Enchantment: 0, CategoryPath: "weapons/arcanestaff/arcanestaff_crystal", Recipe: recipe_7bf32ba7fade},
+		{ID: "T5_2H_ARCANESTAFF_CRYSTAL@1", Name: "Astralstab des Experten", Tier: 5, Enchantment: 1, CategoryPath: "weapons/arcanestaff/arcanestaff_crystal", Recipe: recipe_7bf32ba7fade},
+		{ID: "T5_2H_ARCANESTAFF_CRYSTAL@2", Name: "Astralstab des Experten", Tier: 5, Enchantment: 2, CategoryPath: "weapons/arcanestaff/arcanestaff_crystal", Recipe: recipe_7bf32ba7fade},
+		{ID: "T5_2H_ARCANESTAFF_CRYSTAL@3", Name: "Astralstab des Experten", Tier: 5, Enchantment: 3, CategoryPath: "weapons/arcanestaff/arcanestaff_crystal", Recipe: recipe_7bf32ba7fade},
+		{ID: "T5_2H_ARCANESTAFF_CRYSTAL@4", Name: "Astralstab des Experten", Tier: 5, Enchantment: 4, CategoryPath: "weapons/arcanestaff/arcanestaff_crystal", Recipe: recipe_7bf32ba7fade},
+		{ID: "T6_2H_ARCANESTAFF_CRYSTAL", Name: "Astralstab des Meisters", Tier: 6, Enchantment: 0, CategoryPath: "weapons/arcanestaff/arcanestaff_crystal", Recipe: recipe_ec901384d821},
+		{ID: "T6_2H_ARCANESTAFF_CRYSTAL@1", Name: "Astralstab des Meisters", Tier: 6, Enchantment: 1, CategoryPath: "weapons/arcanestaff/arcanestaff_crystal", Recipe: recipe_ec901384d821},
+		{ID: "T6_2H_ARCANESTAFF_CRYSTAL@2", Name: "Astralstab des Meisters", Tier: 6, Enchantment: 2, CategoryPath: "weapons/arcanestaff/arcanestaff_crystal", Recipe: recipe_ec901384d821},
+		{ID: "T6_2H_ARCANESTAFF_CRYSTAL@3", Name: "Astralstab des Meisters", Tier: 6, Enchantment: 3, CategoryPath: "weapons/arcanestaff/arcanestaff_crystal", Recipe: recipe_ec901384d821},
+		{ID: "T6_2H_ARCANESTAFF_CRYSTAL@4", Name: "Astralstab des Meisters", Tier: 6, Enchantment: 4, CategoryPath: "weapons/arcanestaff/arcanestaff_crystal", Recipe: recipe_ec901384d821},
+		{ID: "T7_2H_ARCANESTAFF_CRYSTAL", Name: "Astralstab des Großmeisters", Tier: 7, Enchantment: 0, CategoryPath: "weapons/arcanestaff/arcanestaff_crystal", Recipe: recipe_f1d8f7634a01},
+		{ID: "T7_2H_ARCANESTAFF_CRYSTAL@1", Name: "Astralstab des Großmeisters", Tier: 7, Enchantment: 1, CategoryPath: "weapons/arcanestaff/arcanestaff_crystal", Recipe: recipe_f1d8f7634a01},
+		{ID: "T7_2H_ARCANESTAFF_CRYSTAL@2", Name: "Astralstab des Großmeisters", Tier: 7, Enchantment: 2, CategoryPath: "weapons/arcanestaff/arcanestaff_crystal", Recipe: recipe_f1d8f7634a01},
+		{ID: "T7_2H_ARCANESTAFF_CRYSTAL@3", Name: "Astralstab des Großmeisters", Tier: 7, Enchantment: 3, CategoryPath: "weapons/arcanestaff/arcanestaff_crystal", Recipe: recipe_f1d8f7634a01},
+		{ID: "T7_2H_ARCANESTAFF_CRYSTAL@4", Name: "Astralstab des Großmeisters", Tier: 7, Enchantment: 4, CategoryPath: "weapons/arcanestaff/arcanestaff_crystal", Recipe: recipe_f1d8f7634a01},
+		{ID: "T8_2H_ARCANESTAFF_CRYSTAL", Name: "Astralstab des Ältesten", Tier: 8, Enchantment: 0, CategoryPath: "weapons/arcanestaff/arcanestaff_crystal", Recipe: recipe_b9a814113508},
+		{ID: "T8_2H_ARCANESTAFF_CRYSTAL@1", Name: "Astralstab des Ältesten", Tier: 8, Enchantment: 1, CategoryPath: "weapons/arcanestaff/arcanestaff_crystal", Recipe: recipe_b9a814113508},
+		{ID: "T8_2H_ARCANESTAFF_CRYSTAL@2", Name: "Astralstab des Ältesten", Tier: 8, Enchantment: 2, CategoryPath: "weapons/arcanestaff/arcanestaff_crystal", Recipe: recipe_b9a814113508},
+		{ID: "T8_2H_ARCANESTAFF_CRYSTAL@3", Name: "Astralstab des Ältesten", Tier: 8, Enchantment: 3, CategoryPath: "weapons/arcanestaff/arcanestaff_crystal", Recipe: recipe_b9a814113508},
+		{ID: "T8_2H_ARCANESTAFF_CRYSTAL@4", Name: "Astralstab des Ältesten", Tier: 8, Enchantment: 4, CategoryPath: "weapons/arcanestaff/arcanestaff_crystal", Recipe: recipe_b9a814113508},
+	}},
+	{Name: "Okkulter Stab des Adepten", BaseID: "2H_ARCANESTAFF_HELL", MinTier: 4, MaxTier: 8, MinEnchantment: 0, MaxEnchantment: 4, Variants: []ItemVariant{
+		{ID: "T4_2H_ARCANESTAFF_HELL", Name: "Okkulter Stab des Adepten", Tier: 4, Enchantment: 0, CategoryPath: "weapons/arcanestaff/arcanestaff_hell", Recipe: recipe_c57c9bf412cf},
+		{ID: "T4_2H_ARCANESTAFF_HELL@1", Name: "Okkulter Stab des Adepten", Tier: 4, Enchantment: 1, CategoryPath: "weapons/arcanestaff/arcanestaff_hell", Recipe: recipe_c57c9bf412cf},
+		{ID: "T4_2H_ARCANESTAFF_HELL@2", Name: "Okkulter Stab des Adepten", Tier: 4, Enchantment: 2, CategoryPath: "weapons/arcanestaff/arcanestaff_hell", Recipe: recipe_c57c9bf412cf},
+		{ID: "T4_2H_ARCANESTAFF_HELL@3", Name: "Okkulter Stab des Adepten", Tier: 4, Enchantment: 3, CategoryPath: "weapons/arcanestaff/arcanestaff_hell", Recipe: recipe_c57c9bf412cf},
+		{ID: "T4_2H_ARCANESTAFF_HELL@4", Name: "Okkulter Stab des Adepten", Tier: 4, Enchantment: 4, CategoryPath: "weapons/arcanestaff/arcanestaff_hell", Recipe: recipe_c57c9bf412cf},
+		{ID: "T5_2H_ARCANESTAFF_HELL", Name: "Okkulter Stab des Experten", Tier: 5, Enchantment: 0, CategoryPath: "weapons/arcanestaff/arcanestaff_hell", Recipe: recipe_a6164f0dc7b6},
+		{ID: "T5_2H_ARCANESTAFF_HELL@1", Name: "Okkulter Stab des Experten", Tier: 5, Enchantment: 1, CategoryPath: "weapons/arcanestaff/arcanestaff_hell", Recipe: recipe_a6164f0dc7b6},
+		{ID: "T5_2H_ARCANESTAFF_HELL@2", Name: "Okkulter Stab des Experten", Tier: 5, Enchantment: 2, CategoryPath: "weapons/arcanestaff/arcanestaff_hell", Recipe: recipe_a6164f0dc7b6},
+		{ID: "T5_2H_ARCANESTAFF_HELL@3", Name: "Okkulter Stab des Experten", Tier: 5, Enchantment: 3, CategoryPath: "weapons/arcanestaff/arcanestaff_hell", Recipe: recipe_a6164f0dc7b6},
+		{ID: "T5_2H_ARCANESTAFF_HELL@4", Name: "Okkulter Stab des Experten", Tier: 5, Enchantment: 4, CategoryPath: "weapons/arcanestaff/arcanestaff_hell", Recipe: recipe_a6164f0dc7b6},
+		{ID: "T6_2H_ARCANESTAFF_HELL", Name: "Okkulter Stab des Meisters", Tier: 6, Enchantment: 0, CategoryPath: "weapons/arcanestaff/arcanestaff_hell", Recipe: recipe_c066b109b71c},
+		{ID: "T6_2H_ARCANESTAFF_HELL@1", Name: "Okkulter Stab des Meisters", Tier: 6, Enchantment: 1, CategoryPath: "weapons/arcanestaff/arcanestaff_hell", Recipe: recipe_c066b109b71c},
+		{ID: "T6_2H_ARCANESTAFF_HELL@2", Name: "Okkulter Stab des Meisters", Tier: 6, Enchantment: 2, CategoryPath: "weapons/arcanestaff/arcanestaff_hell", Recipe: recipe_c066b109b71c},
+		{ID: "T6_2H_ARCANESTAFF_HELL@3", Name: "Okkulter Stab des Meisters", Tier: 6, Enchantment: 3, CategoryPath: "weapons/arcanestaff/arcanestaff_hell", Recipe: recipe_c066b109b71c},
+		{ID: "T6_2H_ARCANESTAFF_HELL@4", Name: "Okkulter Stab des Meisters", Tier: 6, Enchantment: 4, CategoryPath: "weapons/arcanestaff/arcanestaff_hell", Recipe: recipe_c066b109b71c},
+		{ID: "T7_2H_ARCANESTAFF_HELL", Name: "Okkulter Stab des Großmeisters", Tier: 7, Enchantment: 0, CategoryPath: "weapons/arcanestaff/arcanestaff_hell", Recipe: recipe_9b4a8f00aa93},
+		{ID: "T7_2H_ARCANESTAFF_HELL@1", Name: "Okkulter Stab des Großmeisters", Tier: 7, Enchantment: 1, CategoryPath: "weapons/arcanestaff/arcanestaff_hell", Recipe: recipe_9b4a8f00aa93},
+		{ID: "T7_2H_ARCANESTAFF_HELL@2", Name: "Okkulter Stab des Großmeisters", Tier: 7, Enchantment: 2, CategoryPath: "weapons/arcanestaff/arcanestaff_hell", Recipe: recipe_9b4a8f00aa93},
+		{ID: "T7_2H_ARCANESTAFF_HELL@3", Name: "Okkulter Stab des Großmeisters", Tier: 7, Enchantment: 3, CategoryPath: "weapons/arcanestaff/arcanestaff_hell", Recipe: recipe_9b4a8f00aa93},
+		{ID: "T7_2H_ARCANESTAFF_HELL@4", Name: "Okkulter Stab des Großmeisters", Tier: 7, Enchantment: 4, CategoryPath: "weapons/arcanestaff/arcanestaff_hell", Recipe: recipe_9b4a8f00aa93},
+		{ID: "T8_2H_ARCANESTAFF_HELL", Name: "Okkulter Stab des Ältesten", Tier: 8, Enchantment: 0, CategoryPath: "weapons/arcanestaff/arcanestaff_hell", Recipe: recipe_ef669934bea0},
+		{ID: "T8_2H_ARCANESTAFF_HELL@1", Name: "Okkulter Stab des Ältesten", Tier: 8, Enchantment: 1, CategoryPath: "weapons/arcanestaff/arcanestaff_hell", Recipe: recipe_ef669934bea0},
+		{ID: "T8_2H_ARCANESTAFF_HELL@2", Name: "Okkulter Stab des Ältesten", Tier: 8, Enchantment: 2, CategoryPath: "weapons/arcanestaff/arcanestaff_hell", Recipe: recipe_ef669934bea0},
+		{ID: "T8_2H_ARCANESTAFF_HELL@3", Name: "Okkulter Stab des Ältesten", Tier: 8, Enchantment: 3, CategoryPath: "weapons/arcanestaff/arcanestaff_hell", Recipe: recipe_ef669934bea0},
+		{ID: "T8_2H_ARCANESTAFF_HELL@4", Name: "Okkulter Stab des Ältesten", Tier: 8, Enchantment: 4, CategoryPath: "weapons/arcanestaff/arcanestaff_hell", Recipe: recipe_ef669934bea0},
+	}},
+	{Name: "Abendlied des Adepten", BaseID: "2H_ARCANE_RINGPAIR_AVALON", MinTier: 4, MaxTier: 8, MinEnchantment: 0, MaxEnchantment: 4, Variants: []ItemVariant{
+		{ID: "T4_2H_ARCANE_RINGPAIR_AVALON", Name: "Abendlied des Adepten", Tier: 4, Enchantment: 0, CategoryPath: "weapons/arcanestaff/arcanestaff_avalon", Recipe: recipe_0ac55d931fcc},
+		{ID: "T4_2H_ARCANE_RINGPAIR_AVALON@1", Name: "Abendlied des Adepten", Tier: 4, Enchantment: 1, CategoryPath: "weapons/arcanestaff/arcanestaff_avalon", Recipe: recipe_0ac55d931fcc},
+		{ID: "T4_2H_ARCANE_RINGPAIR_AVALON@2", Name: "Abendlied des Adepten", Tier: 4, Enchantment: 2, CategoryPath: "weapons/arcanestaff/arcanestaff_avalon", Recipe: recipe_0ac55d931fcc},
+		{ID: "T4_2H_ARCANE_RINGPAIR_AVALON@3", Name: "Abendlied des Adepten", Tier: 4, Enchantment: 3, CategoryPath: "weapons/arcanestaff/arcanestaff_avalon", Recipe: recipe_0ac55d931fcc},
+		{ID: "T4_2H_ARCANE_RINGPAIR_AVALON@4", Name: "Abendlied des Adepten", Tier: 4, Enchantment: 4, CategoryPath: "weapons/arcanestaff/arcanestaff_avalon", Recipe: recipe_0ac55d931fcc},
+		{ID: "T5_2H_ARCANE_RINGPAIR_AVALON", Name: "Abendlied des Experten", Tier: 5, Enchantment: 0, CategoryPath: "weapons/arcanestaff/arcanestaff_avalon", Recipe: recipe_79e46b8e4b01},
+		{ID: "T5_2H_ARCANE_RINGPAIR_AVALON@1", Name: "Abendlied des Experten", Tier: 5, Enchantment: 1, CategoryPath: "weapons/arcanestaff/arcanestaff_avalon", Recipe: recipe_79e46b8e4b01},
+		{ID: "T5_2H_ARCANE_RINGPAIR_AVALON@2", Name: "Abendlied des Experten", Tier: 5, Enchantment: 2, CategoryPath: "weapons/arcanestaff/arcanestaff_avalon", Recipe: recipe_79e46b8e4b01},
+		{ID: "T5_2H_ARCANE_RINGPAIR_AVALON@3", Name: "Abendlied des Experten", Tier: 5, Enchantment: 3, CategoryPath: "weapons/arcanestaff/arcanestaff_avalon", Recipe: recipe_79e46b8e4b01},
+		{ID: "T5_2H_ARCANE_RINGPAIR_AVALON@4", Name: "Abendlied des Experten", Tier: 5, Enchantment: 4, CategoryPath: "weapons/arcanestaff/arcanestaff_avalon", Recipe: recipe_79e46b8e4b01},
+		{ID: "T6_2H_ARCANE_RINGPAIR_AVALON", Name: "Abendlied des Meisters", Tier: 6, Enchantment: 0, CategoryPath: "weapons/arcanestaff/arcanestaff_avalon", Recipe: recipe_6050e467bc61},
+		{ID: "T6_2H_ARCANE_RINGPAIR_AVALON@1", Name: "Abendlied des Meisters", Tier: 6, Enchantment: 1, CategoryPath: "weapons/arcanestaff/arcanestaff_avalon", Recipe: recipe_6050e467bc61},
+		{ID: "T6_2H_ARCANE_RINGPAIR_AVALON@2", Name: "Abendlied des Meisters", Tier: 6, Enchantment: 2, CategoryPath: "weapons/arcanestaff/arcanestaff_avalon", Recipe: recipe_6050e467bc61},
+		{ID: "T6_2H_ARCANE_RINGPAIR_AVALON@3", Name: "Abendlied des Meisters", Tier: 6, Enchantment: 3, CategoryPath: "weapons/arcanestaff/arcanestaff_avalon", Recipe: recipe_6050e467bc61},
+		{ID: "T6_2H_ARCANE_RINGPAIR_AVALON@4", Name: "Abendlied des Meisters", Tier: 6, Enchantment: 4, CategoryPath: "weapons/arcanestaff/arcanestaff_avalon", Recipe: recipe_6050e467bc61},
+		{ID: "T7_2H_ARCANE_RINGPAIR_AVALON", Name: "Abendlied des Großmeisters", Tier: 7, Enchantment: 0, CategoryPath: "weapons/arcanestaff/arcanestaff_avalon", Recipe: recipe_db29a99d4a27},
+		{ID: "T7_2H_ARCANE_RINGPAIR_AVALON@1", Name: "Abendlied des Großmeisters", Tier: 7, Enchantment: 1, CategoryPath: "weapons/arcanestaff/arcanestaff_avalon", Recipe: recipe_db29a99d4a27},
+		{ID: "T7_2H_ARCANE_RINGPAIR_AVALON@2", Name: "Abendlied des Großmeisters", Tier: 7, Enchantment: 2, CategoryPath: "weapons/arcanestaff/arcanestaff_avalon", Recipe: recipe_db29a99d4a27},
+		{ID: "T7_2H_ARCANE_RINGPAIR_AVALON@3", Name: "Abendlied des Großmeisters", Tier: 7, Enchantment: 3, CategoryPath: "weapons/arcanestaff/arcanestaff_avalon", Recipe: recipe_db29a99d4a27},
+		{ID: "T7_2H_ARCANE_RINGPAIR_AVALON@4", Name: "Abendlied des Großmeisters", Tier: 7, Enchantment: 4, CategoryPath: "weapons/arcanestaff/arcanestaff_avalon", Recipe: recipe_db29a99d4a27},
+		{ID: "T8_2H_ARCANE_RINGPAIR_AVALON", Name: "Abendlied des Ältesten", Tier: 8, Enchantment: 0, CategoryPath: "weapons/arcanestaff/arcanestaff_avalon", Recipe: recipe_cc59021b3235},
+		{ID: "T8_2H_ARCANE_RINGPAIR_AVALON@1", Name: "Abendlied des Ältesten", Tier: 8, Enchantment: 1, CategoryPath: "weapons/arcanestaff/arcanestaff_avalon", Recipe: recipe_cc59021b3235},
+		{ID: "T8_2H_ARCANE_RINGPAIR_AVALON@2", Name: "Abendlied des Ältesten", Tier: 8, Enchantment: 2, CategoryPath: "weapons/arcanestaff/arcanestaff_avalon", Recipe: recipe_cc59021b3235},
+		{ID: "T8_2H_ARCANE_RINGPAIR_AVALON@3", Name: "Abendlied des Ältesten", Tier: 8, Enchantment: 3, CategoryPath: "weapons/arcanestaff/arcanestaff_avalon", Recipe: recipe_cc59021b3235},
+		{ID: "T8_2H_ARCANE_RINGPAIR_AVALON@4", Name: "Abendlied des Ältesten", Tier: 8, Enchantment: 4, CategoryPath: "weapons/arcanestaff/arcanestaff_avalon", Recipe: recipe_cc59021b3235},
+	}},
+	{Name: "Großaxt des Adepten", BaseID: "2H_AXE", MinTier: 4, MaxTier: 8, MinEnchantment: 0, MaxEnchantment: 4, Variants: []ItemVariant{
+		{ID: "T4_2H_AXE", Name: "Großaxt des Adepten", Tier: 4, Enchantment: 0, CategoryPath: "weapons/axe/axe_2h_axe", Recipe: recipe_998be68f4dec},
+		{ID: "T4_2H_AXE@1", Name: "Großaxt des Adepten", Tier: 4, Enchantment: 1, CategoryPath: "weapons/axe/axe_2h_axe", Recipe: recipe_998be68f4dec},
+		{ID: "T4_2H_AXE@2", Name: "Großaxt des Adepten", Tier: 4, Enchantment: 2, CategoryPath: "weapons/axe/axe_2h_axe", Recipe: recipe_998be68f4dec},
+		{ID: "T4_2H_AXE@3", Name: "Großaxt des Adepten", Tier: 4, Enchantment: 3, CategoryPath: "weapons/axe/axe_2h_axe", Recipe: recipe_998be68f4dec},
+		{ID: "T4_2H_AXE@4", Name: "Großaxt des Adepten", Tier: 4, Enchantment: 4, CategoryPath: "weapons/axe/axe_2h_axe", Recipe: recipe_998be68f4dec},
+		{ID: "T5_2H_AXE", Name: "Großaxt des Experten", Tier: 5, Enchantment: 0, CategoryPath: "weapons/axe/axe_2h_axe", Recipe: recipe_2a510c4ad6c5},
+		{ID: "T5_2H_AXE@1", Name: "Großaxt des Experten", Tier: 5, Enchantment: 1, CategoryPath: "weapons/axe/axe_2h_axe", Recipe: recipe_2a510c4ad6c5},
+		{ID: "T5_2H_AXE@2", Name: "Großaxt des Experten", Tier: 5, Enchantment: 2, CategoryPath: "weapons/axe/axe_2h_axe", Recipe: recipe_2a510c4ad6c5},
+		{ID: "T5_2H_AXE@3", Name: "Großaxt des Experten", Tier: 5, Enchantment: 3, CategoryPath: "weapons/axe/axe_2h_axe", Recipe: recipe_2a510c4ad6c5},
+		{ID: "T5_2H_AXE@4", Name: "Großaxt des Experten", Tier: 5, Enchantment: 4, CategoryPath: "weapons/axe/axe_2h_axe", Recipe: recipe_2a510c4ad6c5},
+		{ID: "T6_2H_AXE", Name: "Großaxt des Meisters", Tier: 6, Enchantment: 0, CategoryPath: "weapons/axe/axe_2h_axe", Recipe: recipe_d363e7a54628},
+		{ID: "T6_2H_AXE@1", Name: "Großaxt des Meisters", Tier: 6, Enchantment: 1, CategoryPath: "weapons/axe/axe_2h_axe", Recipe: recipe_d363e7a54628},
+		{ID: "T6_2H_AXE@2", Name: "Großaxt des Meisters", Tier: 6, Enchantment: 2, CategoryPath: "weapons/axe/axe_2h_axe", Recipe: recipe_d363e7a54628},
+		{ID: "T6_2H_AXE@3", Name: "Großaxt des Meisters", Tier: 6, Enchantment: 3, CategoryPath: "weapons/axe/axe_2h_axe", Recipe: recipe_d363e7a54628},
+		{ID: "T6_2H_AXE@4", Name: "Großaxt des Meisters", Tier: 6, Enchantment: 4, CategoryPath: "weapons/axe/axe_2h_axe", Recipe: recipe_d363e7a54628},
+		{ID: "T7_2H_AXE", Name: "Großaxt des Großmeisters", Tier: 7, Enchantment: 0, CategoryPath: "weapons/axe/axe_2h_axe", Recipe: recipe_e905d20f7c88},
+		{ID: "T7_2H_AXE@1", Name: "Großaxt des Großmeisters", Tier: 7, Enchantment: 1, CategoryPath: "weapons/axe/axe_2h_axe", Recipe: recipe_e905d20f7c88},
+		{ID: "T7_2H_AXE@2", Name: "Großaxt des Großmeisters", Tier: 7, Enchantment: 2, CategoryPath: "weapons/axe/axe_2h_axe", Recipe: recipe_e905d20f7c88},
+		{ID: "T7_2H_AXE@3", Name: "Großaxt des Großmeisters", Tier: 7, Enchantment: 3, CategoryPath: "weapons/axe/axe_2h_axe", Recipe: recipe_e905d20f7c88},
+		{ID: "T7_2H_AXE@4", Name: "Großaxt des Großmeisters", Tier: 7, Enchantment: 4, CategoryPath: "weapons/axe/axe_2h_axe", Recipe: recipe_e905d20f7c88},
+		{ID: "T8_2H_AXE", Name: "Die Hand des Khor", Tier: 8, Enchantment: 0, CategoryPath: "weapons/axe/axe_2h_axe", Recipe: recipe_ab131fc9fb65},
+		{ID: "T8_2H_AXE@1", Name: "Die Hand des Khor", Tier: 8, Enchantment: 1, CategoryPath: "weapons/axe/axe_2h_axe", Recipe: recipe_ab131fc9fb65},
+		{ID: "T8_2H_AXE@2", Name: "Die Hand des Khor", Tier: 8, Enchantment: 2, CategoryPath: "weapons/axe/axe_2h_axe", Recipe: recipe_ab131fc9fb65},
+		{ID: "T8_2H_AXE@3", Name: "Die Hand des Khor", Tier: 8, Enchantment: 3, CategoryPath: "weapons/axe/axe_2h_axe", Recipe: recipe_ab131fc9fb65},
+		{ID: "T8_2H_AXE@4", Name: "Die Hand des Khor", Tier: 8, Enchantment: 4, CategoryPath: "weapons/axe/axe_2h_axe", Recipe: recipe_ab131fc9fb65},
+	}},
+	{Name: "Sphärenbrecher des Adepten", BaseID: "2H_AXE_AVALON", MinTier: 4, MaxTier: 8, MinEnchantment: 0, MaxEnchantment: 4, Variants: []ItemVariant{
+		{ID: "T4_2H_AXE_AVALON", Name: "Sphärenbrecher des Adepten", Tier: 4, Enchantment: 0, CategoryPath: "weapons/axe/axe_avalon", Recipe: recipe_92d73a905b7b},
+		{ID: "T4_2H_AXE_AVALON@1", Name: "Sphärenbrecher des Adepten", Tier: 4, Enchantment: 1, CategoryPath: "weapons/axe/axe_avalon", Recipe: recipe_92d73a905b7b},
+		{ID: "T4_2H_AXE_AVALON@2", Name: "Sphärenbrecher des Adepten", Tier: 4, Enchantment: 2, CategoryPath: "weapons/axe/axe_avalon", Recipe: recipe_92d73a905b7b},
+		{ID: "T4_2H_AXE_AVALON@3", Name: "Sphärenbrecher des Adepten", Tier: 4, Enchantment: 3, CategoryPath: "weapons/axe/axe_avalon", Recipe: recipe_92d73a905b7b},
+		{ID: "T4_2H_AXE_AVALON@4", Name: "Sphärenbrecher des Adepten", Tier: 4, Enchantment: 4, CategoryPath: "weapons/axe/axe_avalon", Recipe: recipe_92d73a905b7b},
+		{ID: "T5_2H_AXE_AVALON", Name: "Sphärenbrecher des Experten", Tier: 5, Enchantment: 0, CategoryPath: "weapons/axe/axe_avalon", Recipe: recipe_def343cb8f8b},
+		{ID: "T5_2H_AXE_AVALON@1", Name: "Sphärenbrecher des Experten", Tier: 5, Enchantment: 1, CategoryPath: "weapons/axe/axe_avalon", Recipe: recipe_def343cb8f8b},
+		{ID: "T5_2H_AXE_AVALON@2", Name: "Sphärenbrecher des Experten", Tier: 5, Enchantment: 2, CategoryPath: "weapons/axe/axe_avalon", Recipe: recipe_def343cb8f8b},
+		{ID: "T5_2H_AXE_AVALON@3", Name: "Sphärenbrecher des Experten", Tier: 5, Enchantment: 3, CategoryPath: "weapons/axe/axe_avalon", Recipe: recipe_def343cb8f8b},
+		{ID: "T5_2H_AXE_AVALON@4", Name: "Sphärenbrecher des Experten", Tier: 5, Enchantment: 4, CategoryPath: "weapons/axe/axe_avalon", Recipe: recipe_def343cb8f8b},
+		{ID: "T6_2H_AXE_AVALON", Name: "Sphärenbrecher des Meisters", Tier: 6, Enchantment: 0, CategoryPath: "weapons/axe/axe_avalon", Recipe: recipe_b337aff24c72},
+		{ID: "T6_2H_AXE_AVALON@1", Name: "Sphärenbrecher des Meisters", Tier: 6, Enchantment: 1, CategoryPath: "weapons/axe/axe_avalon", Recipe: recipe_b337aff24c72},
+		{ID: "T6_2H_AXE_AVALON@2", Name: "Sphärenbrecher des Meisters", Tier: 6, Enchantment: 2, CategoryPath: "weapons/axe/axe_avalon", Recipe: recipe_b337aff24c72},
+		{ID: "T6_2H_AXE_AVALON@3", Name: "Sphärenbrecher des Meisters", Tier: 6, Enchantment: 3, CategoryPath: "weapons/axe/axe_avalon", Recipe: recipe_b337aff24c72},
+		{ID: "T6_2H_AXE_AVALON@4", Name: "Sphärenbrecher des Meisters", Tier: 6, Enchantment: 4, CategoryPath: "weapons/axe/axe_avalon", Recipe: recipe_b337aff24c72},
+		{ID: "T7_2H_AXE_AVALON", Name: "Sphärenbrecher des Großmeisters", Tier: 7, Enchantment: 0, CategoryPath: "weapons/axe/axe_avalon", Recipe: recipe_63a2ab964f2f},
+		{ID: "T7_2H_AXE_AVALON@1", Name: "Sphärenbrecher des Großmeisters", Tier: 7, Enchantment: 1, CategoryPath: "weapons/axe/axe_avalon", Recipe: recipe_63a2ab964f2f},
+		{ID: "T7_2H_AXE_AVALON@2", Name: "Sphärenbrecher des Großmeisters", Tier: 7, Enchantment: 2, CategoryPath: "weapons/axe/axe_avalon", Recipe: recipe_63a2ab964f2f},
+		{ID: "T7_2H_AXE_AVALON@3", Name: "Sphärenbrecher des Großmeisters", Tier: 7, Enchantment: 3, CategoryPath: "weapons/axe/axe_avalon", Recipe: recipe_63a2ab964f2f},
+		{ID: "T7_2H_AXE_AVALON@4", Name: "Sphärenbrecher des Großmeisters", Tier: 7, Enchantment: 4, CategoryPath: "weapons/axe/axe_avalon", Recipe: recipe_63a2ab964f2f},
+		{ID: "T8_2H_AXE_AVALON", Name: "Sphärenbrecher des Ältesten", Tier: 8, Enchantment: 0, CategoryPath: "weapons/axe/axe_avalon", Recipe: recipe_6319c28cfd1a},
+		{ID: "T8_2H_AXE_AVALON@1", Name: "Sphärenbrecher des Ältesten", Tier: 8, Enchantment: 1, CategoryPath: "weapons/axe/axe_avalon", Recipe: recipe_6319c28cfd1a},
+		{ID: "T8_2H_AXE_AVALON@2", Name: "Sphärenbrecher des Ältesten", Tier: 8, Enchantment: 2, CategoryPath: "weapons/axe/axe_avalon", Recipe: recipe_6319c28cfd1a},
+		{ID: "T8_2H_AXE_AVALON@3", Name: "Sphärenbrecher des Ältesten", Tier: 8, Enchantment: 3, CategoryPath: "weapons/axe/axe_avalon", Recipe: recipe_6319c28cfd1a},
+		{ID: "T8_2H_AXE_AVALON@4", Name: "Sphärenbrecher des Ältesten", Tier: 8, Enchantment: 4, CategoryPath: "weapons/axe/axe_avalon", Recipe: recipe_6319c28cfd1a},
+	}},
+	{Name: "Bogen des Novizen", BaseID: "2H_BOW", MinTier: 2, MaxTier: 8, MinEnchantment: 0, MaxEnchantment: 4, Variants: []ItemVariant{
+		{ID: "T2_2H_BOW", Name: "Bogen des Novizen", Tier: 2, Enchantment: 0, CategoryPath: "weapons/bow/bow_bow", Recipe: recipe_3a347084b026},
+		{ID: "T3_2H_BOW", Name: "Bogen des Gesellen", Tier: 3, Enchantment: 0, CategoryPath: "weapons/bow/bow_bow", Recipe: recipe_eb38e57f8b8f},
+		{ID: "T4_2H_BOW", Name: "Bogen des Adepten", Tier: 4, Enchantment: 0, CategoryPath: "weapons/bow/bow_bow", Recipe: recipe_10731b23d3a2},
+		{ID: "T4_2H_BOW@1", Name: "Bogen des Adepten", Tier: 4, Enchantment: 1, CategoryPath: "weapons/bow/bow_bow", Recipe: recipe_10731b23d3a2},
+		{ID: "T4_2H_BOW@2", Name: "Bogen des Adepten", Tier: 4, Enchantment: 2, CategoryPath: "weapons/bow/bow_bow", Recipe: recipe_10731b23d3a2},
+		{ID: "T4_2H_BOW@3", Name: "Bogen des Adepten", Tier: 4, Enchantment: 3, CategoryPath: "weapons/bow/bow_bow", Recipe: recipe_10731b23d3a2},
+		{ID: "T4_2H_BOW@4", Name: "Bogen des Adepten", Tier: 4, Enchantment: 4, CategoryPath: "weapons/bow/bow_bow", Recipe: recipe_10731b23d3a2},
+		{ID: "T5_2H_BOW", Name: "Bogen des Experten", Tier: 5, Enchantment: 0, CategoryPath: "weapons/bow/bow_bow", Recipe: recipe_23e25dd19712},
+		{ID: "T5_2H_BOW@1", Name: "Bogen des Experten", Tier: 5, Enchantment: 1, CategoryPath: "weapons/bow/bow_bow", Recipe: recipe_23e25dd19712},
+		{ID: "T5_2H_BOW@2", Name: "Bogen des Experten", Tier: 5, Enchantment: 2, CategoryPath: "weapons/bow/bow_bow", Recipe: recipe_23e25dd19712},
+		{ID: "T5_2H_BOW@3", Name: "Bogen des Experten", Tier: 5, Enchantment: 3, CategoryPath: "weapons/bow/bow_bow", Recipe: recipe_23e25dd19712},
+		{ID: "T5_2H_BOW@4", Name: "Bogen des Experten", Tier: 5, Enchantment: 4, CategoryPath: "weapons/bow/bow_bow", Recipe: recipe_23e25dd19712},
+		{ID: "T6_2H_BOW", Name: "Bogen des Meisters", Tier: 6, Enchantment: 0, CategoryPath: "weapons/bow/bow_bow", Recipe: recipe_47512d6adf60},
+		{ID: "T6_2H_BOW@1", Name: "Bogen des Meisters", Tier: 6, Enchantment: 1, CategoryPath: "weapons/bow/bow_bow", Recipe: recipe_47512d6adf60},
+		{ID: "T6_2H_BOW@2", Name: "Bogen des Meisters", Tier: 6, Enchantment: 2, CategoryPath: "weapons/bow/bow_bow", Recipe: recipe_47512d6adf60},
+		{ID: "T6_2H_BOW@3", Name: "Bogen des Meisters", Tier: 6, Enchantment: 3, CategoryPath: "weapons/bow/bow_bow", Recipe: recipe_47512d6adf60},
+		{ID: "T6_2H_BOW@4", Name: "Bogen des Meisters", Tier: 6, Enchantment: 4, CategoryPath: "weapons/bow/bow_bow", Recipe: recipe_47512d6adf60},
+		{ID: "T7_2H_BOW", Name: "Bogen des Großmeisters", Tier: 7, Enchantment: 0, CategoryPath: "weapons/bow/bow_bow", Recipe: recipe_b09e058fa32a},
+		{ID: "T7_2H_BOW@1", Name: "Bogen des Großmeisters", Tier: 7, Enchantment: 1, CategoryPath: "weapons/bow/bow_bow", Recipe: recipe_b09e058fa32a},
+		{ID: "T7_2H_BOW@2", Name: "Bogen des Großmeisters", Tier: 7, Enchantment: 2, CategoryPath: "weapons/bow/bow_bow", Recipe: recipe_b09e058fa32a},
+		{ID: "T7_2H_BOW@3", Name: "Bogen des Großmeisters", Tier: 7, Enchantment: 3, CategoryPath: "weapons/bow/bow_bow", Recipe: recipe_b09e058fa32a},
+		{ID: "T7_2H_BOW@4", Name: "Bogen des Großmeisters", Tier: 7, Enchantment: 4, CategoryPath: "weapons/bow/bow_bow", Recipe: recipe_b09e058fa32a},
+		{ID: "T8_2H_BOW", Name: "Bogen des Ältesten", Tier: 8, Enchantment: 0, CategoryPath: "weapons/bow/bow_bow", Recipe: recipe_b52857e318e8},
+		{ID: "T8_2H_BOW@1", Name: "Bogen des Ältesten", Tier: 8, Enchantment: 1, CategoryPath: "weapons/bow/bow_bow", Recipe: recipe_b52857e318e8},
+		{ID: "T8_2H_BOW@2", Name: "Bogen des Ältesten", Tier: 8, Enchantment: 2, CategoryPath: "weapons/bow/bow_bow", Recipe: recipe_b52857e318e8},
+		{ID: "T8_2H_BOW@3", Name: "Bogen des Ältesten", Tier: 8, Enchantment: 3, CategoryPath: "weapons/bow/bow_bow", Recipe: recipe_b52857e318e8},
+		{ID: "T8_2H_BOW@4", Name: "Bogen des Ältesten", Tier: 8, Enchantment: 4, CategoryPath: "weapons/bow/bow_bow", Recipe: recipe_b52857e318e8},
+	}},
+	{Name: "Nebelbrecher des Adepten", BaseID: "2H_BOW_AVALON", MinTier: 4, MaxTier: 8, MinEnchantment: 0, MaxEnchantment: 4, Variants: []ItemVariant{
+		{ID: "T4_2H_BOW_AVALON", Name: "Nebelbrecher des Adepten", Tier: 4, Enchantment: 0, CategoryPath: "weapons/bow/bow_avalon", Recipe: recipe_60a4775e5b9c},
+		{ID: "T4_2H_BOW_AVALON@1", Name: "Nebelbrecher des Adepten", Tier: 4, Enchantment: 1, CategoryPath: "weapons/bow/bow_avalon", Recipe: recipe_60a4775e5b9c},
+		{ID: "T4_2H_BOW_AVALON@2", Name: "Nebelbrecher des Adepten", Tier: 4, Enchantment: 2, CategoryPath: "weapons/bow/bow_avalon", Recipe: recipe_60a4775e5b9c},
+		{ID: "T4_2H_BOW_AVALON@3", Name: "Nebelbrecher des Adepten", Tier: 4, Enchantment: 3, CategoryPath: "weapons/bow/bow_avalon", Recipe: recipe_60a4775e5b9c},
+		{ID: "T4_2H_BOW_AVALON@4", Name: "Nebelbrecher des Adepten", Tier: 4, Enchantment: 4, CategoryPath: "weapons/bow/bow_avalon", Recipe: recipe_60a4775e5b9c},
+		{ID: "T5_2H_BOW_AVALON", Name: "Nebelbrecher des Experten", Tier: 5, Enchantment: 0, CategoryPath: "weapons/bow/bow_avalon", Recipe: recipe_0fdf44542129},
+		{ID: "T5_2H_BOW_AVALON@1", Name: "Nebelbrecher des Experten", Tier: 5, Enchantment: 1, CategoryPath: "weapons/bow/bow_avalon", Recipe: recipe_0fdf44542129},
+		{ID: "T5_2H_BOW_AVALON@2", Name: "Nebelbrecher des Experten", Tier: 5, Enchantment: 2, CategoryPath: "weapons/bow/bow_avalon", Recipe: recipe_0fdf44542129},
+		{ID: "T5_2H_BOW_AVALON@3", Name: "Nebelbrecher des Experten", Tier: 5, Enchantment: 3, CategoryPath: "weapons/bow/bow_avalon", Recipe: recipe_0fdf44542129},
+		{ID: "T5_2H_BOW_AVALON@4", Name: "Nebelbrecher des Experten", Tier: 5, Enchantment: 4, CategoryPath: "weapons/bow/bow_avalon", Recipe: recipe_0fdf44542129},
+		{ID: "T6_2H_BOW_AVALON", Name: "Nebelbrecher des Meisters", Tier: 6, Enchantment: 0, CategoryPath: "weapons/bow/bow_avalon", Recipe: recipe_89154bfd7bc7},
+		{ID: "T6_2H_BOW_AVALON@1", Name: "Nebelbrecher des Meisters", Tier: 6, Enchantment: 1, CategoryPath: "weapons/bow/bow_avalon", Recipe: recipe_89154bfd7bc7},
+		{ID: "T6_2H_BOW_AVALON@2", Name: "Nebelbrecher des Meisters", Tier: 6, Enchantment: 2, CategoryPath: "weapons/bow/bow_avalon", Recipe: recipe_89154bfd7bc7},
+		{ID: "T6_2H_BOW_AVALON@3", Name: "Nebelbrecher des Meisters", Tier: 6, Enchantment: 3, CategoryPath: "weapons/bow/bow_avalon", Recipe: recipe_89154bfd7bc7},
+		{ID: "T6_2H_BOW_AVALON@4", Name: "Nebelbrecher des Meisters", Tier: 6, Enchantment: 4, CategoryPath: "weapons/bow/bow_avalon", Recipe: recipe_89154bfd7bc7},
+		{ID: "T7_2H_BOW_AVALON", Name: "Nebelbrecher des Großmeisters", Tier: 7, Enchantment: 0, CategoryPath: "weapons/bow/bow_avalon", Recipe: recipe_2801cb7de927},
+		{ID: "T7_2H_BOW_AVALON@1", Name: "Nebelbrecher des Großmeisters", Tier: 7, Enchantment: 1, CategoryPath: "weapons/bow/bow_avalon", Recipe: recipe_2801cb7de927},
+		{ID: "T7_2H_BOW_AVALON@2", Name: "Nebelbrecher des Großmeisters", Tier: 7, Enchantment: 2, CategoryPath: "weapons/bow/bow_avalon", Recipe: recipe_2801cb7de927},
+		{ID: "T7_2H_BOW_AVALON@3", Name: "Nebelbrecher des Großmeisters", Tier: 7, Enchantment: 3, CategoryPath: "weapons/bow/bow_avalon", Recipe: recipe_2801cb7de927},
+		{ID: "T7_2H_BOW_AVALON@4", Name: "Nebelbrecher des Großmeisters", Tier: 7, Enchantment: 4, CategoryPath: "weapons/bow/bow_avalon", Recipe: recipe_2801cb7de927},
+		{ID: "T8_2H_BOW_AVALON", Name: "Nebelbrecher des Ältesten", Tier: 8, Enchantment: 0, CategoryPath: "weapons/bow/bow_avalon", Recipe: recipe_a4134a5d864b},
+		{ID: "T8_2H_BOW_AVALON@1", Name: "Nebelbrecher des Ältesten", Tier: 8, Enchantment: 1, CategoryPath: "weapons/bow/bow_avalon", Recipe: recipe_a4134a5d864b},
+		{ID: "T8_2H_BOW_AVALON@2", Name: "Nebelbrecher des Ältesten", Tier: 8, Enchantment: 2, CategoryPath: "weapons/bow/bow_avalon", Recipe: recipe_a4134a5d864b},
+		{ID: "T8_2H_BOW_AVALON@3", Name: "Nebelbrecher des Ältesten", Tier: 8, Enchantment: 3, CategoryPath: "weapons/bow/bow_avalon", Recipe: recipe_a4134a5d864b},
+		{ID: "T8_2H_BOW_AVALON@4", Name: "Nebelbrecher des Ältesten", Tier: 8, Enchantment: 4, CategoryPath: "weapons/bow/bow_avalon", Recipe: recipe_a4134a5d864b},
+	}},
+	{Name: "Himmelsläufer-Bogen des Adepten", BaseID: "2H_BOW_CRYSTAL", MinTier: 4, MaxTier: 8, MinEnchantment: 0, MaxEnchantment: 4, Variants: []ItemVariant{
+		{ID: "T4_2H_BOW_CRYSTAL", Name: "Himmelsläufer-Bogen des Adepten", Tier: 4, Enchantment: 0, CategoryPath: "weapons/bow/bow_crystal", Recipe: recipe_f6476692bd9b},
+		{ID: "T4_2H_BOW_CRYSTAL@1", Name: "Himmelsläufer-Bogen des Adepten", Tier: 4, Enchantment: 1, CategoryPath: "weapons/bow/bow_crystal", Recipe: recipe_f6476692bd9b},
+		{ID: "T4_2H_BOW_CRYSTAL@2", Name: "Himmelsläufer-Bogen des Adepten", Tier: 4, Enchantment: 2, CategoryPath: "weapons/bow/bow_crystal", Recipe: recipe_f6476692bd9b},
+		{ID: "T4_2H_BOW_CRYSTAL@3", Name: "Himmelsläufer-Bogen des Adepten", Tier: 4, Enchantment: 3, CategoryPath: "weapons/bow/bow_crystal", Recipe: recipe_f6476692bd9b},
+		{ID: "T4_2H_BOW_CRYSTAL@4", Name: "Himmelsläufer-Bogen des Adepten", Tier: 4, Enchantment: 4, CategoryPath: "weapons/bow/bow_crystal", Recipe: recipe_f6476692bd9b},
+		{ID: "T5_2H_BOW_CRYSTAL", Name: "Himmelsläufer-Bogen des Experten", Tier: 5, Enchantment: 0, CategoryPath: "weapons/bow/bow_crystal", Recipe: recipe_aaf73a29f855},
+		{ID: "T5_2H_BOW_CRYSTAL@1", Name: "Himmelsläufer-Bogen des Experten", Tier: 5, Enchantment: 1, CategoryPath: "weapons/bow/bow_crystal", Recipe: recipe_aaf73a29f855},
+		{ID: "T5_2H_BOW_CRYSTAL@2", Name: "Himmelsläufer-Bogen des Experten", Tier: 5, Enchantment: 2, CategoryPath: "weapons/bow/bow_crystal", Recipe: recipe_aaf73a29f855},
+		{ID: "T5_2H_BOW_CRYSTAL@3", Name: "Himmelsläufer-Bogen des Experten", Tier: 5, Enchantment: 3, CategoryPath: "weapons/bow/bow_crystal", Recipe: recipe_aaf73a29f855},
+		{ID: "T5_2H_BOW_CRYSTAL@4", Name: "Himmelsläufer-Bogen des Experten", Tier: 5, Enchantment: 4, CategoryPath: "weapons/bow/bow_crystal", Recipe: recipe_aaf73a29f855},
+		{ID: "T6_2H_BOW_CRYSTAL", Name: "Himmelsläufer-Bogen des Meisters", Tier: 6, Enchantment: 0, CategoryPath: "weapons/bow/bow_crystal", Recipe: recipe_38eedbda9415},
+		{ID: "T6_2H_BOW_CRYSTAL@1", Name: "Himmelsläufer-Bogen des Meisters", Tier: 6, Enchantment: 1, CategoryPath: "weapons/bow/bow_crystal", Recipe: recipe_38eedbda9415},
+		{ID: "T6_2H_BOW_CRYSTAL@2", Name: "Himmelsläufer-Bogen des Meisters", Tier: 6, Enchantment: 2, CategoryPath: "weapons/bow/bow_crystal", Recipe: recipe_38eedbda9415},
+		{ID: "T6_2H_BOW_CRYSTAL@3", Name: "Himmelsläufer-Bogen des Meisters", Tier: 6, Enchantment: 3, CategoryPath: "weapons/bow/bow_crystal", Recipe: recipe_38eedbda9415},
+		{ID: "T6_2H_BOW_CRYSTAL@4", Name: "Himmelsläufer-Bogen des Meisters", Tier: 6, Enchantment: 4, CategoryPath: "weapons/bow/bow_crystal", Recipe: recipe_38eedbda9415},
+		{ID: "T7_2H_BOW_CRYSTAL", Name: "Himmelsläufer-Bogen des Großmeisters", Tier: 7, Enchantment: 0, CategoryPath: "weapons/bow/bow_crystal", Recipe: recipe_e67c4d93139c},
+		{ID: "T7_2H_BOW_CRYSTAL@1", Name: "Himmelsläufer-Bogen des Großmeisters", Tier: 7, Enchantment: 1, CategoryPath: "weapons/bow/bow_crystal", Recipe: recipe_e67c4d93139c},
+		{ID: "T7_2H_BOW_CRYSTAL@2", Name: "Himmelsläufer-Bogen des Großmeisters", Tier: 7, Enchantment: 2, CategoryPath: "weapons/bow/bow_crystal", Recipe: recipe_e67c4d93139c},
+		{ID: "T7_2H_BOW_CRYSTAL@3", Name: "Himmelsläufer-Bogen des Großmeisters", Tier: 7, Enchantment: 3, CategoryPath: "weapons/bow/bow_crystal", Recipe: recipe_e67c4d93139c},
+		{ID: "T7_2H_BOW_CRYSTAL@4", Name: "Himmelsläufer-Bogen des Großmeisters", Tier: 7, Enchantment: 4, CategoryPath: "weapons/bow/bow_crystal", Recipe: recipe_e67c4d93139c},
+		{ID: "T8_2H_BOW_CRYSTAL", Name: "Himmelsläufer-Bogen des Ältesten", Tier: 8, Enchantment: 0, CategoryPath: "weapons/bow/bow_crystal", Recipe: recipe_209ae956b44f},
+		{ID: "T8_2H_BOW_CRYSTAL@1", Name: "Himmelsläufer-Bogen des Ältesten", Tier: 8, Enchantment: 1, CategoryPath: "weapons/bow/bow_crystal", Recipe: recipe_209ae956b44f},
+		{ID: "T8_2H_BOW_CRYSTAL@2", Name: "Himmelsläufer-Bogen des Ältesten", Tier: 8, Enchantment: 2, CategoryPath: "weapons/bow/bow_crystal", Recipe: recipe_209ae956b44f},
+		{ID: "T8_2H_BOW_CRYSTAL@3", Name: "Himmelsläufer-Bogen des Ältesten", Tier: 8, Enchantment: 3, CategoryPath: "weapons/bow/bow_crystal", Recipe: recipe_209ae956b44f},
+		{ID: "T8_2H_BOW_CRYSTAL@4", Name: "Himmelsläufer-Bogen des Ältesten", Tier: 8, Enchantment: 4, CategoryPath: "weapons/bow/bow_crystal", Recipe: recipe_209ae956b44f},
+	}},
+	{Name: "Heulender Bogen des Adepten", BaseID: "2H_BOW_HELL", MinTier: 4, MaxTier: 8, MinEnchantment: 0, MaxEnchantment: 4, Variants: []ItemVariant{
+		{ID: "T4_2H_BOW_HELL", Name: "Heulender Bogen des Adepten", Tier: 4, Enchantment: 0, CategoryPath: "weapons/bow/bow_hell", Recipe: recipe_8b68ca4a33dc},
+		{ID: "T4_2H_BOW_HELL@1", Name: "Heulender Bogen des Adepten", Tier: 4, Enchantment: 1, CategoryPath: "weapons/bow/bow_hell", Recipe: recipe_8b68ca4a33dc},
+		{ID: "T4_2H_BOW_HELL@2", Name: "Heulender Bogen des Adepten", Tier: 4, Enchantment: 2, CategoryPath: "weapons/bow/bow_hell", Recipe: recipe_8b68ca4a33dc},
+		{ID: "T4_2H_BOW_HELL@3", Name: "Heulender Bogen des Adepten", Tier: 4, Enchantment: 3, CategoryPath: "weapons/bow/bow_hell", Recipe: recipe_8b68ca4a33dc},
+		{ID: "T4_2H_BOW_HELL@4", Name: "Heulender Bogen des Adepten", Tier: 4, Enchantment: 4, CategoryPath: "weapons/bow/bow_hell", Recipe: recipe_8b68ca4a33dc},
+		{ID: "T5_2H_BOW_HELL", Name: "Heulender Bogen des Experten", Tier: 5, Enchantment: 0, CategoryPath: "weapons/bow/bow_hell", Recipe: recipe_6462dec45824},
+		{ID: "T5_2H_BOW_HELL@1", Name: "Heulender Bogen des Experten", Tier: 5, Enchantment: 1, CategoryPath: "weapons/bow/bow_hell", Recipe: recipe_6462dec45824},
+		{ID: "T5_2H_BOW_HELL@2", Name: "Heulender Bogen des Experten", Tier: 5, Enchantment: 2, CategoryPath: "weapons/bow/bow_hell", Recipe: recipe_6462dec45824},
+		{ID: "T5_2H_BOW_HELL@3", Name: "Heulender Bogen des Experten", Tier: 5, Enchantment: 3, CategoryPath: "weapons/bow/bow_hell", Recipe: recipe_6462dec45824},
+		{ID: "T5_2H_BOW_HELL@4", Name: "Heulender Bogen des Experten", Tier: 5, Enchantment: 4, CategoryPath: "weapons/bow/bow_hell", Recipe: recipe_6462dec45824},
+		{ID: "T6_2H_BOW_HELL", Name: "Heulender Bogen des Meisters", Tier: 6, Enchantment: 0, CategoryPath: "weapons/bow/bow_hell", Recipe: recipe_cf4c5cbfc43a},
+		{ID: "T6_2H_BOW_HELL@1", Name: "Heulender Bogen des Meisters", Tier: 6, Enchantment: 1, CategoryPath: "weapons/bow/bow_hell", Recipe: recipe_cf4c5cbfc43a},
+		{ID: "T6_2H_BOW_HELL@2", Name: "Heulender Bogen des Meisters", Tier: 6, Enchantment: 2, CategoryPath: "weapons/bow/bow_hell", Recipe: recipe_cf4c5cbfc43a},
+		{ID: "T6_2H_BOW_HELL@3", Name: "Heulender Bogen des Meisters", Tier: 6, Enchantment: 3, CategoryPath: "weapons/bow/bow_hell", Recipe: recipe_cf4c5cbfc43a},
+		{ID: "T6_2H_BOW_HELL@4", Name: "Heulender Bogen des Meisters", Tier: 6, Enchantment: 4, CategoryPath: "weapons/bow/bow_hell", Recipe: recipe_cf4c5cbfc43a},
+		{ID: "T7_2H_BOW_HELL", Name: "Heulender Bogen des Großmeisters", Tier: 7, Enchantment: 0, CategoryPath: "weapons/bow/bow_hell", Recipe: recipe_e1d4903fafd1},
+		{ID: "T7_2H_BOW_HELL@1", Name: "Heulender Bogen des Großmeisters", Tier: 7, Enchantment: 1, CategoryPath: "weapons/bow/bow_hell", Recipe: recipe_e1d4903fafd1},
+		{ID: "T7_2H_BOW_HELL@2", Name: "Heulender Bogen des Großmeisters", Tier: 7, Enchantment: 2, CategoryPath: "weapons/bow/bow_hell", Recipe: recipe_e1d4903fafd1},
+		{ID: "T7_2H_BOW_HELL@3", Name: "Heulender Bogen des Großmeisters", Tier: 7, Enchantment: 3, CategoryPath: "weapons/bow/bow_hell", Recipe: recipe_e1d4903fafd1},
+		{ID: "T7_2H_BOW_HELL@4", Name: "Heulender Bogen des Großmeisters", Tier: 7, Enchantment: 4, CategoryPath: "weapons/bow/bow_hell", Recipe: recipe_e1d4903fafd1},
+		{ID: "T8_2H_BOW_HELL", Name: "Heulender Bogen des Ältesten", Tier: 8, Enchantment: 0, CategoryPath: "weapons/bow/bow_hell", Recipe: recipe_f51ef13ac998},
+		{ID: "T8_2H_BOW_HELL@1", Name: "Heulender Bogen des Ältesten", Tier: 8, Enchantment: 1, CategoryPath: "weapons/bow/bow_hell", Recipe: recipe_f51ef13ac998},
+		{ID: "T8_2H_BOW_HELL@2", Name: "Heulender Bogen des Ältesten", Tier: 8, Enchantment: 2, CategoryPath: "weapons/bow/bow_hell", Recipe: recipe_f51ef13ac998},
+		{ID: "T8_2H_BOW_HELL@3", Name: "Heulender Bogen des Ältesten", Tier: 8, Enchantment: 3, CategoryPath: "weapons/bow/bow_hell", Recipe: recipe_f51ef13ac998},
+		{ID: "T8_2H_BOW_HELL@4", Name: "Heulender Bogen des Ältesten", Tier: 8, Enchantment: 4, CategoryPath: "weapons/bow/bow_hell", Recipe: recipe_f51ef13ac998},
+	}},
+	{Name: "Badon-Bogen des Adepten", BaseID: "2H_BOW_KEEPER", MinTier: 4, MaxTier: 8, MinEnchantment: 0, MaxEnchantment: 4, Variants: []ItemVariant{
+		{ID: "T4_2H_BOW_KEEPER", Name: "Badon-Bogen des Adepten", Tier: 4, Enchantment: 0, CategoryPath: "weapons/bow/bow_keeper", Recipe: recipe_79fcaf103f5e},
+		{ID: "T4_2H_BOW_KEEPER@1", Name: "Badon-Bogen des Adepten", Tier: 4, Enchantment: 1, CategoryPath: "weapons/bow/bow_keeper", Recipe: recipe_79fcaf103f5e},
+		{ID: "T4_2H_BOW_KEEPER@2", Name: "Badon-Bogen des Adepten", Tier: 4, Enchantment: 2, CategoryPath: "weapons/bow/bow_keeper", Recipe: recipe_79fcaf103f5e},
+		{ID: "T4_2H_BOW_KEEPER@3", Name: "Badon-Bogen des Adepten", Tier: 4, Enchantment: 3, CategoryPath: "weapons/bow/bow_keeper", Recipe: recipe_79fcaf103f5e},
+		{ID: "T4_2H_BOW_KEEPER@4", Name: "Badon-Bogen des Adepten", Tier: 4, Enchantment: 4, CategoryPath: "weapons/bow/bow_keeper", Recipe: recipe_79fcaf103f5e},
+		{ID: "T5_2H_BOW_KEEPER", Name: "Badon-Bogen des Experten", Tier: 5, Enchantment: 0, CategoryPath: "weapons/bow/bow_keeper", Recipe: recipe_5041ea4d3a50},
+		{ID: "T5_2H_BOW_KEEPER@1", Name: "Badon-Bogen des Experten", Tier: 5, Enchantment: 1, CategoryPath: "weapons/bow/bow_keeper", Recipe: recipe_5041ea4d3a50},
+		{ID: "T5_2H_BOW_KEEPER@2", Name: "Badon-Bogen des Experten", Tier: 5, Enchantment: 2, CategoryPath: "weapons/bow/bow_keeper", Recipe: recipe_5041ea4d3a50},
+		{ID: "T5_2H_BOW_KEEPER@3", Name: "Badon-Bogen des Experten", Tier: 5, Enchantment: 3, CategoryPath: "weapons/bow/bow_keeper", Recipe: recipe_5041ea4d3a50},
+		{ID: "T5_2H_BOW_KEEPER@4", Name: "Badon-Bogen des Experten", Tier: 5, Enchantment: 4, CategoryPath: "weapons/bow/bow_keeper", Recipe: recipe_5041ea4d3a50},
+		{ID: "T6_2H_BOW_KEEPER", Name: "Badon-Bogen des Meisters", Tier: 6, Enchantment: 0, CategoryPath: "weapons/bow/bow_keeper", Recipe: recipe_54e5f2dbfab1},
+		{ID: "T6_2H_BOW_KEEPER@1", Name: "Badon-Bogen des Meisters", Tier: 6, Enchantment: 1, CategoryPath: "weapons/bow/bow_keeper", Recipe: recipe_54e5f2dbfab1},
+		{ID: "T6_2H_BOW_KEEPER@2", Name: "Badon-Bogen des Meisters", Tier: 6, Enchantment: 2, CategoryPath: "weapons/bow/bow_keeper", Recipe: recipe_54e5f2dbfab1},
+		{ID: "T6_2H_BOW_KEEPER@3", Name: "Badon-Bogen des Meisters", Tier: 6, Enchantment: 3, CategoryPath: "weapons/bow/bow_keeper", Recipe: recipe_54e5f2dbfab1},
+		{ID: "T6_2H_BOW_KEEPER@4", Name: "Badon-Bogen des Meisters", Tier: 6, Enchantment: 4, CategoryPath: "weapons/bow/bow_keeper", Recipe: recipe_54e5f2dbfab1},
+		{ID: "T7_2H_BOW_KEEPER", Name: "Badon-Bogen des Großmeisters", Tier: 7, Enchantment: 0, CategoryPath: "weapons/bow/bow_keeper", Recipe: recipe_9689d6c1a2fa},
+		{ID: "T7_2H_BOW_KEEPER@1", Name: "Badon-Bogen des Großmeisters", Tier: 7, Enchantment: 1, CategoryPath: "weapons/bow/bow_keeper", Recipe: recipe_9689d6c1a2fa},
+		{ID: "T7_2H_BOW_KEEPER@2", Name: "Badon-Bogen des Großmeisters", Tier: 7, Enchantment: 2, CategoryPath: "weapons/bow/bow_keeper", Recipe: recipe_9689d6c1a2fa},
+		{ID: "T7_2H_BOW_KEEPER@3", Name: "Badon-Bogen des Großmeisters", Tier: 7, Enchantment: 3, CategoryPath: "weapons/bow/bow_keeper", Recipe: recipe_9689d6c1a2fa},
+		{ID: "T7_2H_BOW_KEEPER@4", Name: "Badon-Bogen des Großmeisters", Tier: 7, Enchantment: 4, CategoryPath: "weapons/bow/bow_keeper", Recipe: recipe_9689d6c1a2fa},
+		{ID: "T8_2H_BOW_KEEPER", Name: "Badon-Bogen des Ältesten", Tier: 8, Enchantment: 0, CategoryPath: "weapons/bow/bow_keeper", Recipe: recipe_6c0a947a8ffc},
+		{ID: "T8_2H_BOW_KEEPER@1", Name: "Badon-Bogen des Ältesten", Tier: 8, Enchantment: 1, CategoryPath: "weapons/bow/bow_keeper", Recipe: recipe_6c0a947a8ffc},
+		{ID: "T8_2H_BOW_KEEPER@2", Name: "Badon-Bogen des Ältesten", Tier: 8, Enchantment: 2, CategoryPath: "weapons/bow/bow_keeper", Recipe: recipe_6c0a947a8ffc},
+		{ID: "T8_2H_BOW_KEEPER@3", Name: "Badon-Bogen des Ältesten", Tier: 8, Enchantment: 3, CategoryPath: "weapons/bow/bow_keeper", Recipe: recipe_6c0a947a8ffc},
+		{ID: "T8_2H_BOW_KEEPER@4", Name: "Badon-Bogen des Ältesten", Tier: 8, Enchantment: 4, CategoryPath: "weapons/bow/bow_keeper", Recipe: recipe_6c0a947a8ffc},
+	}},
+	{Name: "Klauen des Adepten", BaseID: "2H_CLAWPAIR", MinTier: 4, MaxTier: 8, MinEnchantment: 0, MaxEnchantment: 4, Variants: []ItemVariant{
+		{ID: "T4_2H_CLAWPAIR", Name: "Klauen des Adepten", Tier: 4, Enchantment: 0, CategoryPath: "weapons/dagger/dagger_clawpair", Recipe: recipe_cf426350d5e5},
+		{ID: "T4_2H_CLAWPAIR@1", Name: "Klauen des Adepten", Tier: 4, Enchantment: 1, CategoryPath: "weapons/dagger/dagger_clawpair", Recipe: recipe_cf426350d5e5},
+		{ID: "T4_2H_CLAWPAIR@2", Name: "Klauen des Adepten", Tier: 4, Enchantment: 2, CategoryPath: "weapons/dagger/dagger_clawpair", Recipe: recipe_cf426350d5e5},
+		{ID: "T4_2H_CLAWPAIR@3", Name: "Klauen des Adepten", Tier: 4, Enchantment: 3, CategoryPath: "weapons/dagger/dagger_clawpair", Recipe: recipe_cf426350d5e5},
+		{ID: "T4_2H_CLAWPAIR@4", Name: "Klauen des Adepten", Tier: 4, Enchantment: 4, CategoryPath: "weapons/dagger/dagger_clawpair", Recipe: recipe_cf426350d5e5},
+		{ID: "T5_2H_CLAWPAIR", Name: "Klauen des Experten", Tier: 5, Enchantment: 0, CategoryPath: "weapons/dagger/dagger_clawpair", Recipe: recipe_c427de608aed},
+		{ID: "T5_2H_CLAWPAIR@1", Name: "Klauen des Experten", Tier: 5, Enchantment: 1, CategoryPath: "weapons/dagger/dagger_clawpair", Recipe: recipe_c427de608aed},
+		{ID: "T5_2H_CLAWPAIR@2", Name: "Klauen des Experten", Tier: 5, Enchantment: 2, CategoryPath: "weapons/dagger/dagger_clawpair", Recipe: recipe_c427de608aed},
+		{ID: "T5_2H_CLAWPAIR@3", Name: "Klauen des Experten", Tier: 5, Enchantment: 3, CategoryPath: "weapons/dagger/dagger_clawpair", Recipe: recipe_c427de608aed},
+		{ID: "T5_2H_CLAWPAIR@4", Name: "Klauen des Experten", Tier: 5, Enchantment: 4, CategoryPath: "weapons/dagger/dagger_clawpair", Recipe: recipe_c427de608aed},
+		{ID: "T6_2H_CLAWPAIR", Name: "Klauen des Meisters", Tier: 6, Enchantment: 0, CategoryPath: "weapons/dagger/dagger_clawpair", Recipe: recipe_fb2a596503f5},
+		{ID: "T6_2H_CLAWPAIR@1", Name: "Klauen des Meisters", Tier: 6, Enchantment: 1, CategoryPath: "weapons/dagger/dagger_clawpair", Recipe: recipe_fb2a596503f5},
+		{ID: "T6_2H_CLAWPAIR@2", Name: "Klauen des Meisters", Tier: 6, Enchantment: 2, CategoryPath: "weapons/dagger/dagger_clawpair", Recipe: recipe_fb2a596503f5},
+		{ID: "T6_2H_CLAWPAIR@3", Name: "Klauen des Meisters", Tier: 6, Enchantment: 3, CategoryPath: "weapons/dagger/dagger_clawpair", Recipe: recipe_fb2a596503f5},
+		{ID: "T6_2H_CLAWPAIR@4", Name: "Klauen des Meisters", Tier: 6, Enchantment: 4, CategoryPath: "weapons/dagger/dagger_clawpair", Recipe: recipe_fb2a596503f5},
+		{ID: "T7_2H_CLAWPAIR", Name: "Klauen des Großmeisters", Tier: 7, Enchantment: 0, CategoryPath: "weapons/dagger/dagger_clawpair", Recipe: recipe_fb66755c4bdd},
+		{ID: "T7_2H_CLAWPAIR@1", Name: "Klauen des Großmeisters", Tier: 7, Enchantment: 1, CategoryPath: "weapons/dagger/dagger_clawpair", Recipe: recipe_fb66755c4bdd},
+		{ID: "T7_2H_CLAWPAIR@2", Name: "Klauen des Großmeisters", Tier: 7, Enchantment: 2, CategoryPath: "weapons/dagger/dagger_clawpair", Recipe: recipe_fb66755c4bdd},
+		{ID: "T7_2H_CLAWPAIR@3", Name: "Klauen des Großmeisters", Tier: 7, Enchantment: 3, CategoryPath: "weapons/dagger/dagger_clawpair", Recipe: recipe_fb66755c4bdd},
+		{ID: "T7_2H_CLAWPAIR@4", Name: "Klauen des Großmeisters", Tier: 7, Enchantment: 4, CategoryPath: "weapons/dagger/dagger_clawpair", Recipe: recipe_fb66755c4bdd},
+		{ID: "T8_2H_CLAWPAIR", Name: "Klauen des Ältesten", Tier: 8, Enchantment: 0, CategoryPath: "weapons/dagger/dagger_clawpair", Recipe: recipe_5af010dd70f1},
+		{ID: "T8_2H_CLAWPAIR@1", Name: "Klauen des Ältesten", Tier: 8, Enchantment: 1, CategoryPath: "weapons/dagger/dagger_clawpair", Recipe: recipe_5af010dd70f1},
+		{ID: "T8_2H_CLAWPAIR@2", Name: "Klauen des Ältesten", Tier: 8, Enchantment: 2, CategoryPath: "weapons/dagger/dagger_clawpair", Recipe: recipe_5af010dd70f1},
+		{ID: "T8_2H_CLAWPAIR@3", Name: "Klauen des Ältesten", Tier: 8, Enchantment: 3, CategoryPath: "weapons/dagger/dagger_clawpair", Recipe: recipe_5af010dd70f1},
+		{ID: "T8_2H_CLAWPAIR@4", Name: "Klauen des Ältesten", Tier: 8, Enchantment: 4, CategoryPath: "weapons/dagger/dagger_clawpair", Recipe: recipe_5af010dd70f1},
+	}},
+	{Name: "Claymore des Adepten", BaseID: "2H_CLAYMORE", MinTier: 4, MaxTier: 8, MinEnchantment: 0, MaxEnchantment: 4, Variants: []ItemVariant{
+		{ID: "T4_2H_CLAYMORE", Name: "Claymore des Adepten", Tier: 4, Enchantment: 0, CategoryPath: "weapons/sword/sword_claymore", Recipe: recipe_5e66994cb46c},
+		{ID: "T4_2H_CLAYMORE@1", Name: "Claymore des Adepten", Tier: 4, Enchantment: 1, CategoryPath: "weapons/sword/sword_claymore", Recipe: recipe_5e66994cb46c},
+		{ID: "T4_2H_CLAYMORE@2", Name: "Claymore des Adepten", Tier: 4, Enchantment: 2, CategoryPath: "weapons/sword/sword_claymore", Recipe: recipe_5e66994cb46c},
+		{ID: "T4_2H_CLAYMORE@3", Name: "Claymore des Adepten", Tier: 4, Enchantment: 3, CategoryPath: "weapons/sword/sword_claymore", Recipe: recipe_5e66994cb46c},
+		{ID: "T4_2H_CLAYMORE@4", Name: "Claymore des Adepten", Tier: 4, Enchantment: 4, CategoryPath: "weapons/sword/sword_claymore", Recipe: recipe_5e66994cb46c},
+		{ID: "T5_2H_CLAYMORE", Name: "Claymore des Experten", Tier: 5, Enchantment: 0, CategoryPath: "weapons/sword/sword_claymore", Recipe: recipe_911289c99a04},
+		{ID: "T5_2H_CLAYMORE@1", Name: "Claymore des Experten", Tier: 5, Enchantment: 1, CategoryPath: "weapons/sword/sword_claymore", Recipe: recipe_911289c99a04},
+		{ID: "T5_2H_CLAYMORE@2", Name: "Claymore des Experten", Tier: 5, Enchantment: 2, CategoryPath: "weapons/sword/sword_claymore", Recipe: recipe_911289c99a04},
+		{ID: "T5_2H_CLAYMORE@3", Name: "Claymore des Experten", Tier: 5, Enchantment: 3, CategoryPath: "weapons/sword/sword_claymore", Recipe: recipe_911289c99a04},
+		{ID: "T5_2H_CLAYMORE@4", Name: "Claymore des Experten", Tier: 5, Enchantment: 4, CategoryPath: "weapons/sword/sword_claymore", Recipe: recipe_911289c99a04},
+		{ID: "T6_2H_CLAYMORE", Name: "Claymore des Meisters", Tier: 6, Enchantment: 0, CategoryPath: "weapons/sword/sword_claymore", Recipe: recipe_ae3ca6e0996a},
+		{ID: "T6_2H_CLAYMORE@1", Name: "Claymore des Meisters", Tier: 6, Enchantment: 1, CategoryPath: "weapons/sword/sword_claymore", Recipe: recipe_ae3ca6e0996a},
+		{ID: "T6_2H_CLAYMORE@2", Name: "Claymore des Meisters", Tier: 6, Enchantment: 2, CategoryPath: "weapons/sword/sword_claymore", Recipe: recipe_ae3ca6e0996a},
+		{ID: "T6_2H_CLAYMORE@3", Name: "Claymore des Meisters", Tier: 6, Enchantment: 3, CategoryPath: "weapons/sword/sword_claymore", Recipe: recipe_ae3ca6e0996a},
+		{ID: "T6_2H_CLAYMORE@4", Name: "Claymore des Meisters", Tier: 6, Enchantment: 4, CategoryPath: "weapons/sword/sword_claymore", Recipe: recipe_ae3ca6e0996a},
+		{ID: "T7_2H_CLAYMORE", Name: "Claymore des Großmeisters", Tier: 7, Enchantment: 0, CategoryPath: "weapons/sword/sword_claymore", Recipe: recipe_6524d1ae245d},
+		{ID: "T7_2H_CLAYMORE@1", Name: "Claymore des Großmeisters", Tier: 7, Enchantment: 1, CategoryPath: "weapons/sword/sword_claymore", Recipe: recipe_6524d1ae245d},
+		{ID: "T7_2H_CLAYMORE@2", Name: "Claymore des Großmeisters", Tier: 7, Enchantment: 2, CategoryPath: "weapons/sword/sword_claymore", Recipe: recipe_6524d1ae245d},
+		{ID: "T7_2H_CLAYMORE@3", Name: "Claymore des Großmeisters", Tier: 7, Enchantment: 3, CategoryPath: "weapons/sword/sword_claymore", Recipe: recipe_6524d1ae245d},
+		{ID: "T7_2H_CLAYMORE@4", Name: "Claymore des Großmeisters", Tier: 7, Enchantment: 4, CategoryPath: "weapons/sword/sword_claymore", Recipe: recipe_6524d1ae245d},
+		{ID: "T8_2H_CLAYMORE", Name: "Claymore des Ältesten", Tier: 8, Enchantment: 0, CategoryPath: "weapons/sword/sword_claymore", Recipe: recipe_50b56846a309},
+		{ID: "T8_2H_CLAYMORE@1", Name: "Claymore des Ältesten", Tier: 8, Enchantment: 1, CategoryPath: "weapons/sword/sword_claymore", Recipe: recipe_50b56846a309},
+		{ID: "T8_2H_CLAYMORE@2", Name: "Claymore des Ältesten", Tier: 8, Enchantment: 2, CategoryPath: "weapons/sword/sword_claymore", Recipe: recipe_50b56846a309},
+		{ID: "T8_2H_CLAYMORE@3", Name: "Claymore des Ältesten", Tier: 8, Enchantment: 3, CategoryPath: "weapons/sword/sword_claymore", Recipe: recipe_50b56846a309},
+		{ID: "T8_2H_CLAYMORE@4", Name: "Claymore des Ältesten", Tier: 8, Enchantment: 4, CategoryPath: "weapons/sword/sword_claymore", Recipe: recipe_50b56846a309},
+	}},
+	{Name: "Königsmacher des Adepten", BaseID: "2H_CLAYMORE_AVALON", MinTier: 4, MaxTier: 8, MinEnchantment: 0, MaxEnchantment: 4, Variants: []ItemVariant{
+		{ID: "T4_2H_CLAYMORE_AVALON", Name: "Königsmacher des Adepten", Tier: 4, Enchantment: 0, CategoryPath: "weapons/sword/sword_avalon", Recipe: recipe_9deef34ba3e4},
+		{ID: "T4_2H_CLAYMORE_AVALON@1", Name: "Königsmacher des Adepten", Tier: 4, Enchantment: 1, CategoryPath: "weapons/sword/sword_avalon", Recipe: recipe_9deef34ba3e4},
+		{ID: "T4_2H_CLAYMORE_AVALON@2", Name: "Königsmacher des Adepten", Tier: 4, Enchantment: 2, CategoryPath: "weapons/sword/sword_avalon", Recipe: recipe_9deef34ba3e4},
+		{ID: "T4_2H_CLAYMORE_AVALON@3", Name: "Königsmacher des Adepten", Tier: 4, Enchantment: 3, CategoryPath: "weapons/sword/sword_avalon", Recipe: recipe_9deef34ba3e4},
+		{ID: "T4_2H_CLAYMORE_AVALON@4", Name: "Königsmacher des Adepten", Tier: 4, Enchantment: 4, CategoryPath: "weapons/sword/sword_avalon", Recipe: recipe_9deef34ba3e4},
+		{ID: "T5_2H_CLAYMORE_AVALON", Name: "Königsmacher des Experten", Tier: 5, Enchantment: 0, CategoryPath: "weapons/sword/sword_avalon", Recipe: recipe_73b11ec4f718},
+		{ID: "T5_2H_CLAYMORE_AVALON@1", Name: "Königsmacher des Experten", Tier: 5, Enchantment: 1, CategoryPath: "weapons/sword/sword_avalon", Recipe: recipe_73b11ec4f718},
+		{ID: "T5_2H_CLAYMORE_AVALON@2", Name: "Königsmacher des Experten", Tier: 5, Enchantment: 2, CategoryPath: "weapons/sword/sword_avalon", Recipe: recipe_73b11ec4f718},
+		{ID: "T5_2H_CLAYMORE_AVALON@3", Name: "Königsmacher des Experten", Tier: 5, Enchantment: 3, CategoryPath: "weapons/sword/sword_avalon", Recipe: recipe_73b11ec4f718},
+		{ID: "T5_2H_CLAYMORE_AVALON@4", Name: "Königsmacher des Experten", Tier: 5, Enchantment: 4, CategoryPath: "weapons/sword/sword_avalon", Recipe: recipe_73b11ec4f718},
+		{ID: "T6_2H_CLAYMORE_AVALON", Name: "Königsmacher des Meisters", Tier: 6, Enchantment: 0, CategoryPath: "weapons/sword/sword_avalon", Recipe: recipe_1ab4dd5a8770},
+		{ID: "T6_2H_CLAYMORE_AVALON@1", Name: "Königsmacher des Meisters", Tier: 6, Enchantment: 1, CategoryPath: "weapons/sword/sword_avalon", Recipe: recipe_1ab4dd5a8770},
+		{ID: "T6_2H_CLAYMORE_AVALON@2", Name: "Königsmacher des Meisters", Tier: 6, Enchantment: 2, CategoryPath: "weapons/sword/sword_avalon", Recipe: recipe_1ab4dd5a8770},
+		{ID: "T6_2H_CLAYMORE_AVALON@3", Name: "Königsmacher des Meisters", Tier: 6, Enchantment: 3, CategoryPath: "weapons/sword/sword_avalon", Recipe: recipe_1ab4dd5a8770},
+		{ID: "T6_2H_CLAYMORE_AVALON@4", Name: "Königsmacher des Meisters", Tier: 6, Enchantment: 4, CategoryPath: "weapons/sword/sword_avalon", Recipe: recipe_1ab4dd5a8770},
+		{ID: "T7_2H_CLAYMORE_AVALON", Name: "Königsmacher des Großmeisters", Tier: 7, Enchantment: 0, CategoryPath: "weapons/sword/sword_avalon", Recipe: recipe_020a3fb0e18d},
+		{ID: "T7_2H_CLAYMORE_AVALON@1", Name: "Königsmacher des Großmeisters", Tier: 7, Enchantment: 1, CategoryPath: "weapons/sword/sword_avalon", Recipe: recipe_020a3fb0e18d},
+		{ID: "T7_2H_CLAYMORE_AVALON@2", Name: "Königsmacher des Großmeisters", Tier: 7, Enchantment: 2, CategoryPath: "weapons/sword/sword_avalon", Recipe: recipe_020a3fb0e18d},
+		{ID: "T7_2H_CLAYMORE_AVALON@3", Name: "Königsmacher des Großmeisters", Tier: 7, Enchantment: 3, CategoryPath: "weapons/sword/sword_avalon", Recipe: recipe_020a3fb0e18d},
+		{ID: "T7_2H_CLAYMORE_AVALON@4", Name: "Königsmacher des Großmeisters", Tier: 7, Enchantment: 4, CategoryPath: "weapons/sword/sword_avalon", Recipe: recipe_020a3fb0e18d},
+		{ID: "T8_2H_CLAYMORE_AVALON", Name: "Königsmacher des Ältesten", Tier: 8, Enchantment: 0, CategoryPath: "weapons/sword/sword_avalon", Recipe: recipe_cfd7a4a80246},
+		{ID: "T8_2H_CLAYMORE_AVALON@1", Name: "Königsmacher des Ältesten", Tier: 8, Enchantment: 1, CategoryPath: "weapons/sword/sword_avalon", Recipe: recipe_cfd7a4a80246},
+		{ID: "T8_2H_CLAYMORE_AVALON@2", Name: "Königsmacher des Ältesten", Tier: 8, Enchantment: 2, CategoryPath: "weapons/sword/sword_avalon", Recipe: recipe_cfd7a4a80246},
+		{ID: "T8_2H_CLAYMORE_AVALON@3", Name: "Königsmacher des Ältesten", Tier: 8, Enchantment: 3, CategoryPath: "weapons/sword/sword_avalon", Recipe: recipe_cfd7a4a80246},
+		{ID: "T8_2H_CLAYMORE_AVALON@4", Name: "Königsmacher des Ältesten", Tier: 8, Enchantment: 4, CategoryPath: "weapons/sword/sword_avalon", Recipe: recipe_cfd7a4a80246},
+	}},
+	{Name: "Schnitzschwert des Adepten", BaseID: "2H_CLEAVER_HELL", MinTier: 4, MaxTier: 8, MinEnchantment: 0, MaxEnchantment: 4, Variants: []ItemVariant{
+		{ID: "T4_2H_CLEAVER_HELL", Name: "Schnitzschwert des Adepten", Tier: 4, Enchantment: 0, CategoryPath: "weapons/sword/sword_hell", Recipe: recipe_8a3b6df3a2c0},
+		{ID: "T4_2H_CLEAVER_HELL@1", Name: "Schnitzschwert des Adepten", Tier: 4, Enchantment: 1, CategoryPath: "weapons/sword/sword_hell", Recipe: recipe_8a3b6df3a2c0},
+		{ID: "T4_2H_CLEAVER_HELL@2", Name: "Schnitzschwert des Adepten", Tier: 4, Enchantment: 2, CategoryPath: "weapons/sword/sword_hell", Recipe: recipe_8a3b6df3a2c0},
+		{ID: "T4_2H_CLEAVER_HELL@3", Name: "Schnitzschwert des Adepten", Tier: 4, Enchantment: 3, CategoryPath: "weapons/sword/sword_hell", Recipe: recipe_8a3b6df3a2c0},
+		{ID: "T4_2H_CLEAVER_HELL@4", Name: "Schnitzschwert des Adepten", Tier: 4, Enchantment: 4, CategoryPath: "weapons/sword/sword_hell", Recipe: recipe_8a3b6df3a2c0},
+		{ID: "T5_2H_CLEAVER_HELL", Name: "Schnitzschwert des Experten", Tier: 5, Enchantment: 0, CategoryPath: "weapons/sword/sword_hell", Recipe: recipe_5f54b38eb7d7},
+		{ID: "T5_2H_CLEAVER_HELL@1", Name: "Schnitzschwert des Experten", Tier: 5, Enchantment: 1, CategoryPath: "weapons/sword/sword_hell", Recipe: recipe_5f54b38eb7d7},
+		{ID: "T5_2H_CLEAVER_HELL@2", Name: "Schnitzschwert des Experten", Tier: 5, Enchantment: 2, CategoryPath: "weapons/sword/sword_hell", Recipe: recipe_5f54b38eb7d7},
+		{ID: "T5_2H_CLEAVER_HELL@3", Name: "Schnitzschwert des Experten", Tier: 5, Enchantment: 3, CategoryPath: "weapons/sword/sword_hell", Recipe: recipe_5f54b38eb7d7},
+		{ID: "T5_2H_CLEAVER_HELL@4", Name: "Schnitzschwert des Experten", Tier: 5, Enchantment: 4, CategoryPath: "weapons/sword/sword_hell", Recipe: recipe_5f54b38eb7d7},
+		{ID: "T6_2H_CLEAVER_HELL", Name: "Schnitzschwert des Meisters", Tier: 6, Enchantment: 0, CategoryPath: "weapons/sword/sword_hell", Recipe: recipe_07a95e73fe01},
+		{ID: "T6_2H_CLEAVER_HELL@1", Name: "Schnitzschwert des Meisters", Tier: 6, Enchantment: 1, CategoryPath: "weapons/sword/sword_hell", Recipe: recipe_07a95e73fe01},
+		{ID: "T6_2H_CLEAVER_HELL@2", Name: "Schnitzschwert des Meisters", Tier: 6, Enchantment: 2, CategoryPath: "weapons/sword/sword_hell", Recipe: recipe_07a95e73fe01},
+		{ID: "T6_2H_CLEAVER_HELL@3", Name: "Schnitzschwert des Meisters", Tier: 6, Enchantment: 3, CategoryPath: "weapons/sword/sword_hell", Recipe: recipe_07a95e73fe01},
+		{ID: "T6_2H_CLEAVER_HELL@4", Name: "Schnitzschwert des Meisters", Tier: 6, Enchantment: 4, CategoryPath: "weapons/sword/sword_hell", Recipe: recipe_07a95e73fe01},
+		{ID: "T7_2H_CLEAVER_HELL", Name: "Schnitzschwert des Großmeisters", Tier: 7, Enchantment: 0, CategoryPath: "weapons/sword/sword_hell", Recipe: recipe_6785458fbafe},
+		{ID: "T7_2H_CLEAVER_HELL@1", Name: "Schnitzschwert des Großmeisters", Tier: 7, Enchantment: 1, CategoryPath: "weapons/sword/sword_hell", Recipe: recipe_6785458fbafe},
+		{ID: "T7_2H_CLEAVER_HELL@2", Name: "Schnitzschwert des Großmeisters", Tier: 7, Enchantment: 2, CategoryPath: "weapons/sword/sword_hell", Recipe: recipe_6785458fbafe},
+		{ID: "T7_2H_CLEAVER_HELL@3", Name: "Schnitzschwert des Großmeisters", Tier: 7, Enchantment: 3, CategoryPath: "weapons/sword/sword_hell", Recipe: recipe_6785458fbafe},
+		{ID: "T7_2H_CLEAVER_HELL@4", Name: "Schnitzschwert des Großmeisters", Tier: 7, Enchantment: 4, CategoryPath: "weapons/sword/sword_hell", Recipe: recipe_6785458fbafe},
+		{ID: "T8_2H_CLEAVER_HELL", Name: "Schnitzschwert des Ältesten", Tier: 8, Enchantment: 0, CategoryPath: "weapons/sword/sword_hell", Recipe: recipe_49e1fd85ee02},
+		{ID: "T8_2H_CLEAVER_HELL@1", Name: "Schnitzschwert des Ältesten", Tier: 8, Enchantment: 1, CategoryPath: "weapons/sword/sword_hell", Recipe: recipe_49e1fd85ee02},
+		{ID: "T8_2H_CLEAVER_HELL@2", Name: "Schnitzschwert des Ältesten", Tier: 8, Enchantment: 2, CategoryPath: "weapons/sword/sword_hell", Recipe: recipe_49e1fd85ee02},
+		{ID: "T8_2H_CLEAVER_HELL@3", Name: "Schnitzschwert des Ältesten", Tier: 8, Enchantment: 3, CategoryPath: "weapons/sword/sword_hell", Recipe: recipe_49e1fd85ee02},
+		{ID: "T8_2H_CLEAVER_HELL@4", Name: "Schnitzschwert des Ältesten", Tier: 8, Enchantment: 4, CategoryPath: "weapons/sword/sword_hell", Recipe: recipe_49e1fd85ee02},
+	}},
+	{Name: "Schwarzer-Mönch-Stab des Adepten", BaseID: "2H_COMBATSTAFF_MORGANA", MinTier: 4, MaxTier: 8, MinEnchantment: 0, MaxEnchantment: 4, Variants: []ItemVariant{
+		{ID: "T4_2H_COMBATSTAFF_MORGANA", Name: "Schwarzer-Mönch-Stab des Adepten", Tier: 4, Enchantment: 0, CategoryPath: "weapons/quarterstaff/quarterstaff_morgana", Recipe: recipe_fe4c8d3624ec},
+		{ID: "T4_2H_COMBATSTAFF_MORGANA@1", Name: "Schwarzer-Mönch-Stab des Adepten", Tier: 4, Enchantment: 1, CategoryPath: "weapons/quarterstaff/quarterstaff_morgana", Recipe: recipe_fe4c8d3624ec},
+		{ID: "T4_2H_COMBATSTAFF_MORGANA@2", Name: "Schwarzer-Mönch-Stab des Adepten", Tier: 4, Enchantment: 2, CategoryPath: "weapons/quarterstaff/quarterstaff_morgana", Recipe: recipe_fe4c8d3624ec},
+		{ID: "T4_2H_COMBATSTAFF_MORGANA@3", Name: "Schwarzer-Mönch-Stab des Adepten", Tier: 4, Enchantment: 3, CategoryPath: "weapons/quarterstaff/quarterstaff_morgana", Recipe: recipe_fe4c8d3624ec},
+		{ID: "T4_2H_COMBATSTAFF_MORGANA@4", Name: "Schwarzer-Mönch-Stab des Adepten", Tier: 4, Enchantment: 4, CategoryPath: "weapons/quarterstaff/quarterstaff_morgana", Recipe: recipe_fe4c8d3624ec},
+		{ID: "T5_2H_COMBATSTAFF_MORGANA", Name: "Schwarzer-Mönch-Stab des Experten", Tier: 5, Enchantment: 0, CategoryPath: "weapons/quarterstaff/quarterstaff_morgana", Recipe: recipe_956f7e994599},
+		{ID: "T5_2H_COMBATSTAFF_MORGANA@1", Name: "Schwarzer-Mönch-Stab des Experten", Tier: 5, Enchantment: 1, CategoryPath: "weapons/quarterstaff/quarterstaff_morgana", Recipe: recipe_956f7e994599},
+		{ID: "T5_2H_COMBATSTAFF_MORGANA@2", Name: "Schwarzer-Mönch-Stab des Experten", Tier: 5, Enchantment: 2, CategoryPath: "weapons/quarterstaff/quarterstaff_morgana", Recipe: recipe_956f7e994599},
+		{ID: "T5_2H_COMBATSTAFF_MORGANA@3", Name: "Schwarzer-Mönch-Stab des Experten", Tier: 5, Enchantment: 3, CategoryPath: "weapons/quarterstaff/quarterstaff_morgana", Recipe: recipe_956f7e994599},
+		{ID: "T5_2H_COMBATSTAFF_MORGANA@4", Name: "Schwarzer-Mönch-Stab des Experten", Tier: 5, Enchantment: 4, CategoryPath: "weapons/quarterstaff/quarterstaff_morgana", Recipe: recipe_956f7e994599},
+		{ID: "T6_2H_COMBATSTAFF_MORGANA", Name: "Schwarzer-Mönch-Stab des Meisters", Tier: 6, Enchantment: 0, CategoryPath: "weapons/quarterstaff/quarterstaff_morgana", Recipe: recipe_0ca7b9e2d603},
+		{ID: "T6_2H_COMBATSTAFF_MORGANA@1", Name: "Schwarzer-Mönch-Stab des Meisters", Tier: 6, Enchantment: 1, CategoryPath: "weapons/quarterstaff/quarterstaff_morgana", Recipe: recipe_0ca7b9e2d603},
+		{ID: "T6_2H_COMBATSTAFF_MORGANA@2", Name: "Schwarzer-Mönch-Stab des Meisters", Tier: 6, Enchantment: 2, CategoryPath: "weapons/quarterstaff/quarterstaff_morgana", Recipe: recipe_0ca7b9e2d603},
+		{ID: "T6_2H_COMBATSTAFF_MORGANA@3", Name: "Schwarzer-Mönch-Stab des Meisters", Tier: 6, Enchantment: 3, CategoryPath: "weapons/quarterstaff/quarterstaff_morgana", Recipe: recipe_0ca7b9e2d603},
+		{ID: "T6_2H_COMBATSTAFF_MORGANA@4", Name: "Schwarzer-Mönch-Stab des Meisters", Tier: 6, Enchantment: 4, CategoryPath: "weapons/quarterstaff/quarterstaff_morgana", Recipe: recipe_0ca7b9e2d603},
+		{ID: "T7_2H_COMBATSTAFF_MORGANA", Name: "Schwarzer-Mönch-Stab des Großmeisters", Tier: 7, Enchantment: 0, CategoryPath: "weapons/quarterstaff/quarterstaff_morgana", Recipe: recipe_996ef6802a6b},
+		{ID: "T7_2H_COMBATSTAFF_MORGANA@1", Name: "Schwarzer-Mönch-Stab des Großmeisters", Tier: 7, Enchantment: 1, CategoryPath: "weapons/quarterstaff/quarterstaff_morgana", Recipe: recipe_996ef6802a6b},
+		{ID: "T7_2H_COMBATSTAFF_MORGANA@2", Name: "Schwarzer-Mönch-Stab des Großmeisters", Tier: 7, Enchantment: 2, CategoryPath: "weapons/quarterstaff/quarterstaff_morgana", Recipe: recipe_996ef6802a6b},
+		{ID: "T7_2H_COMBATSTAFF_MORGANA@3", Name: "Schwarzer-Mönch-Stab des Großmeisters", Tier: 7, Enchantment: 3, CategoryPath: "weapons/quarterstaff/quarterstaff_morgana", Recipe: recipe_996ef6802a6b},
+		{ID: "T7_2H_COMBATSTAFF_MORGANA@4", Name: "Schwarzer-Mönch-Stab des Großmeisters", Tier: 7, Enchantment: 4, CategoryPath: "weapons/quarterstaff/quarterstaff_morgana", Recipe: recipe_996ef6802a6b},
+		{ID: "T8_2H_COMBATSTAFF_MORGANA", Name: "Schwarzer-Mönch-Stab des Ältesten", Tier: 8, Enchantment: 0, CategoryPath: "weapons/quarterstaff/quarterstaff_morgana", Recipe: recipe_f2e1d75769bb},
+		{ID: "T8_2H_COMBATSTAFF_MORGANA@1", Name: "Schwarzer-Mönch-Stab des Ältesten", Tier: 8, Enchantment: 1, CategoryPath: "weapons/quarterstaff/quarterstaff_morgana", Recipe: recipe_f2e1d75769bb},
+		{ID: "T8_2H_COMBATSTAFF_MORGANA@2", Name: "Schwarzer-Mönch-Stab des Ältesten", Tier: 8, Enchantment: 2, CategoryPath: "weapons/quarterstaff/quarterstaff_morgana", Recipe: recipe_f2e1d75769bb},
+		{ID: "T8_2H_COMBATSTAFF_MORGANA@3", Name: "Schwarzer-Mönch-Stab des Ältesten", Tier: 8, Enchantment: 3, CategoryPath: "weapons/quarterstaff/quarterstaff_morgana", Recipe: recipe_f2e1d75769bb},
+		{ID: "T8_2H_COMBATSTAFF_MORGANA@4", Name: "Schwarzer-Mönch-Stab des Ältesten", Tier: 8, Enchantment: 4, CategoryPath: "weapons/quarterstaff/quarterstaff_morgana", Recipe: recipe_f2e1d75769bb},
+	}},
+	{Name: "Armbrust des Gesellen", BaseID: "2H_CROSSBOW", MinTier: 3, MaxTier: 8, MinEnchantment: 0, MaxEnchantment: 4, Variants: []ItemVariant{
+		{ID: "T3_2H_CROSSBOW", Name: "Armbrust des Gesellen", Tier: 3, Enchantment: 0, CategoryPath: "weapons/crossbow/crossbow_crossbow", Recipe: recipe_db023cfe5042},
+		{ID: "T4_2H_CROSSBOW", Name: "Armbrust des Adepten", Tier: 4, Enchantment: 0, CategoryPath: "weapons/crossbow/crossbow_crossbow", Recipe: recipe_e58f51e42b2d},
+		{ID: "T4_2H_CROSSBOW@1", Name: "Armbrust des Adepten", Tier: 4, Enchantment: 1, CategoryPath: "weapons/crossbow/crossbow_crossbow", Recipe: recipe_e58f51e42b2d},
+		{ID: "T4_2H_CROSSBOW@2", Name: "Armbrust des Adepten", Tier: 4, Enchantment: 2, CategoryPath: "weapons/crossbow/crossbow_crossbow", Recipe: recipe_e58f51e42b2d},
+		{ID: "T4_2H_CROSSBOW@3", Name: "Armbrust des Adepten", Tier: 4, Enchantment: 3, CategoryPath: "weapons/crossbow/crossbow_crossbow", Recipe: recipe_e58f51e42b2d},
+		{ID: "T4_2H_CROSSBOW@4", Name: "Armbrust des Adepten", Tier: 4, Enchantment: 4, CategoryPath: "weapons/crossbow/crossbow_crossbow", Recipe: recipe_e58f51e42b2d},
+		{ID: "T5_2H_CROSSBOW", Name: "Armbrust des Experten", Tier: 5, Enchantment: 0, CategoryPath: "weapons/crossbow/crossbow_crossbow", Recipe: recipe_e4b7c69fce3e},
+		{ID: "T5_2H_CROSSBOW@1", Name: "Armbrust des Experten", Tier: 5, Enchantment: 1, CategoryPath: "weapons/crossbow/crossbow_crossbow", Recipe: recipe_e4b7c69fce3e},
+		{ID: "T5_2H_CROSSBOW@2", Name: "Armbrust des Experten", Tier: 5, Enchantment: 2, CategoryPath: "weapons/crossbow/crossbow_crossbow", Recipe: recipe_e4b7c69fce3e},
+		{ID: "T5_2H_CROSSBOW@3", Name: "Armbrust des Experten", Tier: 5, Enchantment: 3, CategoryPath: "weapons/crossbow/crossbow_crossbow", Recipe: recipe_e4b7c69fce3e},
+		{ID: "T5_2H_CROSSBOW@4", Name: "Armbrust des Experten", Tier: 5, Enchantment: 4, CategoryPath: "weapons/crossbow/crossbow_crossbow", Recipe: recipe_e4b7c69fce3e},
+		{ID: "T6_2H_CROSSBOW", Name: "Armbrust des Meisters", Tier: 6, Enchantment: 0, CategoryPath: "weapons/crossbow/crossbow_crossbow", Recipe: recipe_8f86986ec119},
+		{ID: "T6_2H_CROSSBOW@1", Name: "Armbrust des Meisters", Tier: 6, Enchantment: 1, CategoryPath: "weapons/crossbow/crossbow_crossbow", Recipe: recipe_8f86986ec119},
+		{ID: "T6_2H_CROSSBOW@2", Name: "Armbrust des Meisters", Tier: 6, Enchantment: 2, CategoryPath: "weapons/crossbow/crossbow_crossbow", Recipe: recipe_8f86986ec119},
+		{ID: "T6_2H_CROSSBOW@3", Name: "Armbrust des Meisters", Tier: 6, Enchantment: 3, CategoryPath: "weapons/crossbow/crossbow_crossbow", Recipe: recipe_8f86986ec119},
+		{ID: "T6_2H_CROSSBOW@4", Name: "Armbrust des Meisters", Tier: 6, Enchantment: 4, CategoryPath: "weapons/crossbow/crossbow_crossbow", Recipe: recipe_8f86986ec119},
+		{ID: "T7_2H_CROSSBOW", Name: "Armbrust des Großmeisters", Tier: 7, Enchantment: 0, CategoryPath: "weapons/crossbow/crossbow_crossbow", Recipe: recipe_0b0107553991},
+		{ID: "T7_2H_CROSSBOW@1", Name: "Armbrust des Großmeisters", Tier: 7, Enchantment: 1, CategoryPath: "weapons/crossbow/crossbow_crossbow", Recipe: recipe_0b0107553991},
+		{ID: "T7_2H_CROSSBOW@2", Name: "Armbrust des Großmeisters", Tier: 7, Enchantment: 2, CategoryPath: "weapons/crossbow/crossbow_crossbow", Recipe: recipe_0b0107553991},
+		{ID: "T7_2H_CROSSBOW@3", Name: "Armbrust des Großmeisters", Tier: 7, Enchantment: 3, CategoryPath: "weapons/crossbow/crossbow_crossbow", Recipe: recipe_0b0107553991},
+		{ID: "T7_2H_CROSSBOW@4", Name: "Armbrust des Großmeisters", Tier: 7, Enchantment: 4, CategoryPath: "weapons/crossbow/crossbow_crossbow", Recipe: recipe_0b0107553991},
+		{ID: "T8_2H_CROSSBOW", Name: "Armbrust des Ältesten", Tier: 8, Enchantment: 0, CategoryPath: "weapons/crossbow/crossbow_crossbow", Recipe: recipe_414f660f3312},
+		{ID: "T8_2H_CROSSBOW@1", Name: "Armbrust des Ältesten", Tier: 8, Enchantment: 1, CategoryPath: "weapons/crossbow/crossbow_crossbow", Recipe: recipe_414f660f3312},
+		{ID: "T8_2H_CROSSBOW@2", Name: "Armbrust des Ältesten", Tier: 8, Enchantment: 2, CategoryPath: "weapons/crossbow/crossbow_crossbow", Recipe: recipe_414f660f3312},
+		{ID: "T8_2H_CROSSBOW@3", Name: "Armbrust des Ältesten", Tier: 8, Enchantment: 3, CategoryPath: "weapons/crossbow/crossbow_crossbow", Recipe: recipe_414f660f3312},
+		{ID: "T8_2H_CROSSBOW@4", Name: "Armbrust des Ältesten", Tier: 8, Enchantment: 4, CategoryPath: "weapons/crossbow/crossbow_crossbow", Recipe: recipe_414f660f3312},
+	}},
+	{Name: "Schwere Armbrust des Adepten", BaseID: "2H_CROSSBOWLARGE", MinTier: 4, MaxTier: 8, MinEnchantment: 0, MaxEnchantment: 4, Variants: []ItemVariant{
+		{ID: "T4_2H_CROSSBOWLARGE", Name: "Schwere Armbrust des Adepten", Tier: 4, Enchantment: 0, CategoryPath: "weapons/crossbow/crossbow_crossbowlarge", Recipe: recipe_dfe48a0e56c7},
+		{ID: "T4_2H_CROSSBOWLARGE@1", Name: "Schwere Armbrust des Adepten", Tier: 4, Enchantment: 1, CategoryPath: "weapons/crossbow/crossbow_crossbowlarge", Recipe: recipe_dfe48a0e56c7},
+		{ID: "T4_2H_CROSSBOWLARGE@2", Name: "Schwere Armbrust des Adepten", Tier: 4, Enchantment: 2, CategoryPath: "weapons/crossbow/crossbow_crossbowlarge", Recipe: recipe_dfe48a0e56c7},
+		{ID: "T4_2H_CROSSBOWLARGE@3", Name: "Schwere Armbrust des Adepten", Tier: 4, Enchantment: 3, CategoryPath: "weapons/crossbow/crossbow_crossbowlarge", Recipe: recipe_dfe48a0e56c7},
+		{ID: "T4_2H_CROSSBOWLARGE@4", Name: "Schwere Armbrust des Adepten", Tier: 4, Enchantment: 4, CategoryPath: "weapons/crossbow/crossbow_crossbowlarge", Recipe: recipe_dfe48a0e56c7},
+		{ID: "T5_2H_CROSSBOWLARGE", Name: "Schwere Armbrust des Experten", Tier: 5, Enchantment: 0, CategoryPath: "weapons/crossbow/crossbow_crossbowlarge", Recipe: recipe_7f54104f3a22},
+		{ID: "T5_2H_CROSSBOWLARGE@1", Name: "Schwere Armbrust des Experten", Tier: 5, Enchantment: 1, CategoryPath: "weapons/crossbow/crossbow_crossbowlarge", Recipe: recipe_7f54104f3a22},
+		{ID: "T5_2H_CROSSBOWLARGE@2", Name: "Schwere Armbrust des Experten", Tier: 5, Enchantment: 2, CategoryPath: "weapons/crossbow/crossbow_crossbowlarge", Recipe: recipe_7f54104f3a22},
+		{ID: "T5_2H_CROSSBOWLARGE@3", Name: "Schwere Armbrust des Experten", Tier: 5, Enchantment: 3, CategoryPath: "weapons/crossbow/crossbow_crossbowlarge", Recipe: recipe_7f54104f3a22},
+		{ID: "T5_2H_CROSSBOWLARGE@4", Name: "Schwere Armbrust des Experten", Tier: 5, Enchantment: 4, CategoryPath: "weapons/crossbow/crossbow_crossbowlarge", Recipe: recipe_7f54104f3a22},
+		{ID: "T6_2H_CROSSBOWLARGE", Name: "Schwere Armbrust des Meisters", Tier: 6, Enchantment: 0, CategoryPath: "weapons/crossbow/crossbow_crossbowlarge", Recipe: recipe_fa19b49d35ee},
+		{ID: "T6_2H_CROSSBOWLARGE@1", Name: "Schwere Armbrust des Meisters", Tier: 6, Enchantment: 1, CategoryPath: "weapons/crossbow/crossbow_crossbowlarge", Recipe: recipe_fa19b49d35ee},
+		{ID: "T6_2H_CROSSBOWLARGE@2", Name: "Schwere Armbrust des Meisters", Tier: 6, Enchantment: 2, CategoryPath: "weapons/crossbow/crossbow_crossbowlarge", Recipe: recipe_fa19b49d35ee},
+		{ID: "T6_2H_CROSSBOWLARGE@3", Name: "Schwere Armbrust des Meisters", Tier: 6, Enchantment: 3, CategoryPath: "weapons/crossbow/crossbow_crossbowlarge", Recipe: recipe_fa19b49d35ee},
+		{ID: "T6_2H_CROSSBOWLARGE@4", Name: "Schwere Armbrust des Meisters", Tier: 6, Enchantment: 4, CategoryPath: "weapons/crossbow/crossbow_crossbowlarge", Recipe: recipe_fa19b49d35ee},
+		{ID: "T7_2H_CROSSBOWLARGE", Name: "Schwere Armbrust des Großmeisters", Tier: 7, Enchantment: 0, CategoryPath: "weapons/crossbow/crossbow_crossbowlarge", Recipe: recipe_5a84af7d33f0},
+		{ID: "T7_2H_CROSSBOWLARGE@1", Name: "Schwere Armbrust des Großmeisters", Tier: 7, Enchantment: 1, CategoryPath: "weapons/crossbow/crossbow_crossbowlarge", Recipe: recipe_5a84af7d33f0},
+		{ID: "T7_2H_CROSSBOWLARGE@2", Name: "Schwere Armbrust des Großmeisters", Tier: 7, Enchantment: 2, CategoryPath: "weapons/crossbow/crossbow_crossbowlarge", Recipe: recipe_5a84af7d33f0},
+		{ID: "T7_2H_CROSSBOWLARGE@3", Name: "Schwere Armbrust des Großmeisters", Tier: 7, Enchantment: 3, CategoryPath: "weapons/crossbow/crossbow_crossbowlarge", Recipe: recipe_5a84af7d33f0},
+		{ID: "T7_2H_CROSSBOWLARGE@4", Name: "Schwere Armbrust des Großmeisters", Tier: 7, Enchantment: 4, CategoryPath: "weapons/crossbow/crossbow_crossbowlarge", Recipe: recipe_5a84af7d33f0},
+		{ID: "T8_2H_CROSSBOWLARGE", Name: "Schwere Armbrust des Ältesten", Tier: 8, Enchantment: 0, CategoryPath: "weapons/crossbow/crossbow_crossbowlarge", Recipe: recipe_97556eea20cc},
+		{ID: "T8_2H_CROSSBOWLARGE@1", Name: "Schwere Armbrust des Ältesten", Tier: 8, Enchantment: 1, CategoryPath: "weapons/crossbow/crossbow_crossbowlarge", Recipe: recipe_97556eea20cc},
+		{ID: "T8_2H_CROSSBOWLARGE@2", Name: "Schwere Armbrust des Ältesten", Tier: 8, Enchantment: 2, CategoryPath: "weapons/crossbow/crossbow_crossbowlarge", Recipe: recipe_97556eea20cc},
+		{ID: "T8_2H_CROSSBOWLARGE@3", Name: "Schwere Armbrust des Ältesten", Tier: 8, Enchantment: 3, CategoryPath: "weapons/crossbow/crossbow_crossbowlarge", Recipe: recipe_97556eea20cc},
+		{ID: "T8_2H_CROSSBOWLARGE@4", Name: "Schwere Armbrust des Ältesten", Tier: 8, Enchantment: 4, CategoryPath: "weapons/crossbow/crossbow_crossbowlarge", Recipe: recipe_97556eea20cc},
+	}},
+	{Name: "Belagerungsbogen des Adepten", BaseID: "2H_CROSSBOWLARGE_MORGANA", MinTier: 4, MaxTier: 8, MinEnchantment: 0, MaxEnchantment: 4, Variants: []ItemVariant{
+		{ID: "T4_2H_CROSSBOWLARGE_MORGANA", Name: "Belagerungsbogen des Adepten", Tier: 4, Enchantment: 0, CategoryPath: "weapons/crossbow/crossbow_morgana", Recipe: recipe_98fa09a6be24},
+		{ID: "T4_2H_CROSSBOWLARGE_MORGANA@1", Name: "Belagerungsbogen des Adepten", Tier: 4, Enchantment: 1, CategoryPath: "weapons/crossbow/crossbow_morgana", Recipe: recipe_98fa09a6be24},
+		{ID: "T4_2H_CROSSBOWLARGE_MORGANA@2", Name: "Belagerungsbogen des Adepten", Tier: 4, Enchantment: 2, CategoryPath: "weapons/crossbow/crossbow_morgana", Recipe: recipe_98fa09a6be24},
+		{ID: "T4_2H_CROSSBOWLARGE_MORGANA@3", Name: "Belagerungsbogen des Adepten", Tier: 4, Enchantment: 3, CategoryPath: "weapons/crossbow/crossbow_morgana", Recipe: recipe_98fa09a6be24},
+		{ID: "T4_2H_CROSSBOWLARGE_MORGANA@4", Name: "Belagerungsbogen des Adepten", Tier: 4, Enchantment: 4, CategoryPath: "weapons/crossbow/crossbow_morgana", Recipe: recipe_98fa09a6be24},
+		{ID: "T5_2H_CROSSBOWLARGE_MORGANA", Name: "Belagerungsbogen des Experten", Tier: 5, Enchantment: 0, CategoryPath: "weapons/crossbow/crossbow_morgana", Recipe: recipe_f1485e8b332e},
+		{ID: "T5_2H_CROSSBOWLARGE_MORGANA@1", Name: "Belagerungsbogen des Experten", Tier: 5, Enchantment: 1, CategoryPath: "weapons/crossbow/crossbow_morgana", Recipe: recipe_f1485e8b332e},
+		{ID: "T5_2H_CROSSBOWLARGE_MORGANA@2", Name: "Belagerungsbogen des Experten", Tier: 5, Enchantment: 2, CategoryPath: "weapons/crossbow/crossbow_morgana", Recipe: recipe_f1485e8b332e},
+		{ID: "T5_2H_CROSSBOWLARGE_MORGANA@3", Name: "Belagerungsbogen des Experten", Tier: 5, Enchantment: 3, CategoryPath: "weapons/crossbow/crossbow_morgana", Recipe: recipe_f1485e8b332e},
+		{ID: "T5_2H_CROSSBOWLARGE_MORGANA@4", Name: "Belagerungsbogen des Experten", Tier: 5, Enchantment: 4, CategoryPath: "weapons/crossbow/crossbow_morgana", Recipe: recipe_f1485e8b332e},
+		{ID: "T6_2H_CROSSBOWLARGE_MORGANA", Name: "Belagerungsbogen des Meisters", Tier: 6, Enchantment: 0, CategoryPath: "weapons/crossbow/crossbow_morgana", Recipe: recipe_3050a92b52d8},
+		{ID: "T6_2H_CROSSBOWLARGE_MORGANA@1", Name: "Belagerungsbogen des Meisters", Tier: 6, Enchantment: 1, CategoryPath: "weapons/crossbow/crossbow_morgana", Recipe: recipe_3050a92b52d8},
+		{ID: "T6_2H_CROSSBOWLARGE_MORGANA@2", Name: "Belagerungsbogen des Meisters", Tier: 6, Enchantment: 2, CategoryPath: "weapons/crossbow/crossbow_morgana", Recipe: recipe_3050a92b52d8},
+		{ID: "T6_2H_CROSSBOWLARGE_MORGANA@3", Name: "Belagerungsbogen des Meisters", Tier: 6, Enchantment: 3, CategoryPath: "weapons/crossbow/crossbow_morgana", Recipe: recipe_3050a92b52d8},
+		{ID: "T6_2H_CROSSBOWLARGE_MORGANA@4", Name: "Belagerungsbogen des Meisters", Tier: 6, Enchantment: 4, CategoryPath: "weapons/crossbow/crossbow_morgana", Recipe: recipe_3050a92b52d8},
+		{ID: "T7_2H_CROSSBOWLARGE_MORGANA", Name: "Belagerungsbogen des Großmeisters", Tier: 7, Enchantment: 0, CategoryPath: "weapons/crossbow/crossbow_morgana", Recipe: recipe_11ad3d1a8588},
+		{ID: "T7_2H_CROSSBOWLARGE_MORGANA@1", Name: "Belagerungsbogen des Großmeisters", Tier: 7, Enchantment: 1, CategoryPath: "weapons/crossbow/crossbow_morgana", Recipe: recipe_11ad3d1a8588},
+		{ID: "T7_2H_CROSSBOWLARGE_MORGANA@2", Name: "Belagerungsbogen des Großmeisters", Tier: 7, Enchantment: 2, CategoryPath: "weapons/crossbow/crossbow_morgana", Recipe: recipe_11ad3d1a8588},
+		{ID: "T7_2H_CROSSBOWLARGE_MORGANA@3", Name: "Belagerungsbogen des Großmeisters", Tier: 7, Enchantment: 3, CategoryPath: "weapons/crossbow/crossbow_morgana", Recipe: recipe_11ad3d1a8588},
+		{ID: "T7_2H_CROSSBOWLARGE_MORGANA@4", Name: "Belagerungsbogen des Großmeisters", Tier: 7, Enchantment: 4, CategoryPath: "weapons/crossbow/crossbow_morgana", Recipe: recipe_11ad3d1a8588},
+		{ID: "T8_2H_CROSSBOWLARGE_MORGANA", Name: "Belagerungsbogen des Ältesten", Tier: 8, Enchantment: 0, CategoryPath: "weapons/crossbow/crossbow_morgana", Recipe: recipe_00dd5dc3525b},
+		{ID: "T8_2H_CROSSBOWLARGE_MORGANA@1", Name: "Belagerungsbogen des Ältesten", Tier: 8, Enchantment: 1, CategoryPath: "weapons/crossbow/crossbow_morgana", Recipe: recipe_00dd5dc3525b},
+		{ID: "T8_2H_CROSSBOWLARGE_MORGANA@2", Name: "Belagerungsbogen des Ältesten", Tier: 8, Enchantment: 2, CategoryPath: "weapons/crossbow/crossbow_morgana", Recipe: recipe_00dd5dc3525b},
+		{ID: "T8_2H_CROSSBOWLARGE_MORGANA@3", Name: "Belagerungsbogen des Ältesten", Tier: 8, Enchantment: 3, CategoryPath: "weapons/crossbow/crossbow_morgana", Recipe: recipe_00dd5dc3525b},
+		{ID: "T8_2H_CROSSBOWLARGE_MORGANA@4", Name: "Belagerungsbogen des Ältesten", Tier: 8, Enchantment: 4, CategoryPath: "weapons/crossbow/crossbow_morgana", Recipe: recipe_00dd5dc3525b},
+	}},
+	{Name: "Energieformer des Adepten", BaseID: "2H_CROSSBOW_CANNON_AVALON", MinTier: 4, MaxTier: 8, MinEnchantment: 0, MaxEnchantment: 4, Variants: []ItemVariant{
+		{ID: "T4_2H_CROSSBOW_CANNON_AVALON", Name: "Energieformer des Adepten", Tier: 4, Enchantment: 0, CategoryPath: "weapons/crossbow/crossbow_avalon", Recipe: recipe_24b263ae1fd9},
+		{ID: "T4_2H_CROSSBOW_CANNON_AVALON@1", Name: "Energieformer des Adepten", Tier: 4, Enchantment: 1, CategoryPath: "weapons/crossbow/crossbow_avalon", Recipe: recipe_24b263ae1fd9},
+		{ID: "T4_2H_CROSSBOW_CANNON_AVALON@2", Name: "Energieformer des Adepten", Tier: 4, Enchantment: 2, CategoryPath: "weapons/crossbow/crossbow_avalon", Recipe: recipe_24b263ae1fd9},
+		{ID: "T4_2H_CROSSBOW_CANNON_AVALON@3", Name: "Energieformer des Adepten", Tier: 4, Enchantment: 3, CategoryPath: "weapons/crossbow/crossbow_avalon", Recipe: recipe_24b263ae1fd9},
+		{ID: "T4_2H_CROSSBOW_CANNON_AVALON@4", Name: "Energieformer des Adepten", Tier: 4, Enchantment: 4, CategoryPath: "weapons/crossbow/crossbow_avalon", Recipe: recipe_24b263ae1fd9},
+		{ID: "T5_2H_CROSSBOW_CANNON_AVALON", Name: "Energieformer des Experten", Tier: 5, Enchantment: 0, CategoryPath: "weapons/crossbow/crossbow_avalon", Recipe: recipe_1a2ac5e042c6},
+		{ID: "T5_2H_CROSSBOW_CANNON_AVALON@1", Name: "Energieformer des Experten", Tier: 5, Enchantment: 1, CategoryPath: "weapons/crossbow/crossbow_avalon", Recipe: recipe_1a2ac5e042c6},
+		{ID: "T5_2H_CROSSBOW_CANNON_AVALON@2", Name: "Energieformer des Experten", Tier: 5, Enchantment: 2, CategoryPath: "weapons/crossbow/crossbow_avalon", Recipe: recipe_1a2ac5e042c6},
+		{ID: "T5_2H_CROSSBOW_CANNON_AVALON@3", Name: "Energieformer des Experten", Tier: 5, Enchantment: 3, CategoryPath: "weapons/crossbow/crossbow_avalon", Recipe: recipe_1a2ac5e042c6},
+		{ID: "T5_2H_CROSSBOW_CANNON_AVALON@4", Name: "Energieformer des Experten", Tier: 5, Enchantment: 4, CategoryPath: "weapons/crossbow/crossbow_avalon", Recipe: recipe_1a2ac5e042c6},
+		{ID: "T6_2H_CROSSBOW_CANNON_AVALON", Name: "Energieformer des Meisters", Tier: 6, Enchantment: 0, CategoryPath: "weapons/crossbow/crossbow_avalon", Recipe: recipe_719a97429dc7},
+		{ID: "T6_2H_CROSSBOW_CANNON_AVALON@1", Name: "Energieformer des Meisters", Tier: 6, Enchantment: 1, CategoryPath: "weapons/crossbow/crossbow_avalon", Recipe: recipe_719a97429dc7},
+		{ID: "T6_2H_CROSSBOW_CANNON_AVALON@2", Name: "Energieformer des Meisters", Tier: 6, Enchantment: 2, CategoryPath: "weapons/crossbow/crossbow_avalon", Recipe: recipe_719a97429dc7},
+		{ID: "T6_2H_CROSSBOW_CANNON_AVALON@3", Name: "Energieformer des Meisters", Tier: 6, Enchantment: 3, CategoryPath: "weapons/crossbow/crossbow_avalon", Recipe: recipe_719a97429dc7},
+		{ID: "T6_2H_CROSSBOW_CANNON_AVALON@4", Name: "Energieformer des Meisters", Tier: 6, Enchantment: 4, CategoryPath: "weapons/crossbow/crossbow_avalon", Recipe: recipe_719a97429dc7},
+		{ID: "T7_2H_CROSSBOW_CANNON_AVALON", Name: "Energieformer des Großmeisters", Tier: 7, Enchantment: 0, CategoryPath: "weapons/crossbow/crossbow_avalon", Recipe: recipe_95839576f69a},
+		{ID: "T7_2H_CROSSBOW_CANNON_AVALON@1", Name: "Energieformer des Großmeisters", Tier: 7, Enchantment: 1, CategoryPath: "weapons/crossbow/crossbow_avalon", Recipe: recipe_95839576f69a},
+		{ID: "T7_2H_CROSSBOW_CANNON_AVALON@2", Name: "Energieformer des Großmeisters", Tier: 7, Enchantment: 2, CategoryPath: "weapons/crossbow/crossbow_avalon", Recipe: recipe_95839576f69a},
+		{ID: "T7_2H_CROSSBOW_CANNON_AVALON@3", Name: "Energieformer des Großmeisters", Tier: 7, Enchantment: 3, CategoryPath: "weapons/crossbow/crossbow_avalon", Recipe: recipe_95839576f69a},
+		{ID: "T7_2H_CROSSBOW_CANNON_AVALON@4", Name: "Energieformer des Großmeisters", Tier: 7, Enchantment: 4, CategoryPath: "weapons/crossbow/crossbow_avalon", Recipe: recipe_95839576f69a},
+		{ID: "T8_2H_CROSSBOW_CANNON_AVALON", Name: "Energieformer des Ältesten", Tier: 8, Enchantment: 0, CategoryPath: "weapons/crossbow/crossbow_avalon", Recipe: recipe_6d6de4b2dfb9},
+		{ID: "T8_2H_CROSSBOW_CANNON_AVALON@1", Name: "Energieformer des Ältesten", Tier: 8, Enchantment: 1, CategoryPath: "weapons/crossbow/crossbow_avalon", Recipe: recipe_6d6de4b2dfb9},
+		{ID: "T8_2H_CROSSBOW_CANNON_AVALON@2", Name: "Energieformer des Ältesten", Tier: 8, Enchantment: 2, CategoryPath: "weapons/crossbow/crossbow_avalon", Recipe: recipe_6d6de4b2dfb9},
+		{ID: "T8_2H_CROSSBOW_CANNON_AVALON@3", Name: "Energieformer des Ältesten", Tier: 8, Enchantment: 3, CategoryPath: "weapons/crossbow/crossbow_avalon", Recipe: recipe_6d6de4b2dfb9},
+		{ID: "T8_2H_CROSSBOW_CANNON_AVALON@4", Name: "Energieformer des Ältesten", Tier: 8, Enchantment: 4, CategoryPath: "weapons/crossbow/crossbow_avalon", Recipe: recipe_6d6de4b2dfb9},
+	}},
+	{Name: "Großer verfluchter Stab des Adepten", BaseID: "2H_CURSEDSTAFF", MinTier: 4, MaxTier: 8, MinEnchantment: 0, MaxEnchantment: 4, Variants: []ItemVariant{
+		{ID: "T4_2H_CURSEDSTAFF", Name: "Großer verfluchter Stab des Adepten", Tier: 4, Enchantment: 0, CategoryPath: "weapons/cursestaff/cursestaff_2h_cursedstaff", Recipe: recipe_58141d198fc0},
+		{ID: "T4_2H_CURSEDSTAFF@1", Name: "Großer verfluchter Stab des Adepten", Tier: 4, Enchantment: 1, CategoryPath: "weapons/cursestaff/cursestaff_2h_cursedstaff", Recipe: recipe_58141d198fc0},
+		{ID: "T4_2H_CURSEDSTAFF@2", Name: "Großer verfluchter Stab des Adepten", Tier: 4, Enchantment: 2, CategoryPath: "weapons/cursestaff/cursestaff_2h_cursedstaff", Recipe: recipe_58141d198fc0},
+		{ID: "T4_2H_CURSEDSTAFF@3", Name: "Großer verfluchter Stab des Adepten", Tier: 4, Enchantment: 3, CategoryPath: "weapons/cursestaff/cursestaff_2h_cursedstaff", Recipe: recipe_58141d198fc0},
+		{ID: "T4_2H_CURSEDSTAFF@4", Name: "Großer verfluchter Stab des Adepten", Tier: 4, Enchantment: 4, CategoryPath: "weapons/cursestaff/cursestaff_2h_cursedstaff", Recipe: recipe_58141d198fc0},
+		{ID: "T5_2H_CURSEDSTAFF", Name: "Großer verfluchter Stab des Experten", Tier: 5, Enchantment: 0, CategoryPath: "weapons/cursestaff/cursestaff_2h_cursedstaff", Recipe: recipe_fed110313f6c},
+		{ID: "T5_2H_CURSEDSTAFF@1", Name: "Großer verfluchter Stab des Experten", Tier: 5, Enchantment: 1, CategoryPath: "weapons/cursestaff/cursestaff_2h_cursedstaff", Recipe: recipe_fed110313f6c},
+		{ID: "T5_2H_CURSEDSTAFF@2", Name: "Großer verfluchter Stab des Experten", Tier: 5, Enchantment: 2, CategoryPath: "weapons/cursestaff/cursestaff_2h_cursedstaff", Recipe: recipe_fed110313f6c},
+		{ID: "T5_2H_CURSEDSTAFF@3", Name: "Großer verfluchter Stab des Experten", Tier: 5, Enchantment: 3, CategoryPath: "weapons/cursestaff/cursestaff_2h_cursedstaff", Recipe: recipe_fed110313f6c},
+		{ID: "T5_2H_CURSEDSTAFF@4", Name: "Großer verfluchter Stab des Experten", Tier: 5, Enchantment: 4, CategoryPath: "weapons/cursestaff/cursestaff_2h_cursedstaff", Recipe: recipe_fed110313f6c},
+		{ID: "T6_2H_CURSEDSTAFF", Name: "Großer verfluchter Stab des Meisters", Tier: 6, Enchantment: 0, CategoryPath: "weapons/cursestaff/cursestaff_2h_cursedstaff", Recipe: recipe_1a93d0e721fa},
+		{ID: "T6_2H_CURSEDSTAFF@1", Name: "Großer verfluchter Stab des Meisters", Tier: 6, Enchantment: 1, CategoryPath: "weapons/cursestaff/cursestaff_2h_cursedstaff", Recipe: recipe_1a93d0e721fa},
+		{ID: "T6_2H_CURSEDSTAFF@2", Name: "Großer verfluchter Stab des Meisters", Tier: 6, Enchantment: 2, CategoryPath: "weapons/cursestaff/cursestaff_2h_cursedstaff", Recipe: recipe_1a93d0e721fa},
+		{ID: "T6_2H_CURSEDSTAFF@3", Name: "Großer verfluchter Stab des Meisters", Tier: 6, Enchantment: 3, CategoryPath: "weapons/cursestaff/cursestaff_2h_cursedstaff", Recipe: recipe_1a93d0e721fa},
+		{ID: "T6_2H_CURSEDSTAFF@4", Name: "Großer verfluchter Stab des Meisters", Tier: 6, Enchantment: 4, CategoryPath: "weapons/cursestaff/cursestaff_2h_cursedstaff", Recipe: recipe_1a93d0e721fa},
+		{ID: "T7_2H_CURSEDSTAFF", Name: "Großer verfluchter Stab des Großmeisters", Tier: 7, Enchantment: 0, CategoryPath: "weapons/cursestaff/cursestaff_2h_cursedstaff", Recipe: recipe_d06085d88041},
+		{ID: "T7_2H_CURSEDSTAFF@1", Name: "Großer verfluchter Stab des Großmeisters", Tier: 7, Enchantment: 1, CategoryPath: "weapons/cursestaff/cursestaff_2h_cursedstaff", Recipe: recipe_d06085d88041},
+		{ID: "T7_2H_CURSEDSTAFF@2", Name: "Großer verfluchter Stab des Großmeisters", Tier: 7, Enchantment: 2, CategoryPath: "weapons/cursestaff/cursestaff_2h_cursedstaff", Recipe: recipe_d06085d88041},
+		{ID: "T7_2H_CURSEDSTAFF@3", Name: "Großer verfluchter Stab des Großmeisters", Tier: 7, Enchantment: 3, CategoryPath: "weapons/cursestaff/cursestaff_2h_cursedstaff", Recipe: recipe_d06085d88041},
+		{ID: "T7_2H_CURSEDSTAFF@4", Name: "Großer verfluchter Stab des Großmeisters", Tier: 7, Enchantment: 4, CategoryPath: "weapons/cursestaff/cursestaff_2h_cursedstaff", Recipe: recipe_d06085d88041},
+		{ID: "T8_2H_CURSEDSTAFF", Name: "Großer verfluchter Stab des Ältesten", Tier: 8, Enchantment: 0, CategoryPath: "weapons/cursestaff/cursestaff_2h_cursedstaff", Recipe: recipe_9d3ac43d4f6e},
+		{ID: "T8_2H_CURSEDSTAFF@1", Name: "Großer verfluchter Stab des Ältesten", Tier: 8, Enchantment: 1, CategoryPath: "weapons/cursestaff/cursestaff_2h_cursedstaff", Recipe: recipe_9d3ac43d4f6e},
+		{ID: "T8_2H_CURSEDSTAFF@2", Name: "Großer verfluchter Stab des Ältesten", Tier: 8, Enchantment: 2, CategoryPath: "weapons/cursestaff/cursestaff_2h_cursedstaff", Recipe: recipe_9d3ac43d4f6e},
+		{ID: "T8_2H_CURSEDSTAFF@3", Name: "Großer verfluchter Stab des Ältesten", Tier: 8, Enchantment: 3, CategoryPath: "weapons/cursestaff/cursestaff_2h_cursedstaff", Recipe: recipe_9d3ac43d4f6e},
+		{ID: "T8_2H_CURSEDSTAFF@4", Name: "Großer verfluchter Stab des Ältesten", Tier: 8, Enchantment: 4, CategoryPath: "weapons/cursestaff/cursestaff_2h_cursedstaff", Recipe: recipe_9d3ac43d4f6e},
+	}},
+	{Name: "Verdammnisstab des Adepten", BaseID: "2H_CURSEDSTAFF_MORGANA", MinTier: 4, MaxTier: 8, MinEnchantment: 0, MaxEnchantment: 4, Variants: []ItemVariant{
+		{ID: "T4_2H_CURSEDSTAFF_MORGANA", Name: "Verdammnisstab des Adepten", Tier: 4, Enchantment: 0, CategoryPath: "weapons/cursestaff/cursestaff_morgana", Recipe: recipe_9280517e52d6},
+		{ID: "T4_2H_CURSEDSTAFF_MORGANA@1", Name: "Verdammnisstab des Adepten", Tier: 4, Enchantment: 1, CategoryPath: "weapons/cursestaff/cursestaff_morgana", Recipe: recipe_9280517e52d6},
+		{ID: "T4_2H_CURSEDSTAFF_MORGANA@2", Name: "Verdammnisstab des Adepten", Tier: 4, Enchantment: 2, CategoryPath: "weapons/cursestaff/cursestaff_morgana", Recipe: recipe_9280517e52d6},
+		{ID: "T4_2H_CURSEDSTAFF_MORGANA@3", Name: "Verdammnisstab des Adepten", Tier: 4, Enchantment: 3, CategoryPath: "weapons/cursestaff/cursestaff_morgana", Recipe: recipe_9280517e52d6},
+		{ID: "T4_2H_CURSEDSTAFF_MORGANA@4", Name: "Verdammnisstab des Adepten", Tier: 4, Enchantment: 4, CategoryPath: "weapons/cursestaff/cursestaff_morgana", Recipe: recipe_9280517e52d6},
+		{ID: "T5_2H_CURSEDSTAFF_MORGANA", Name: "Verdammnisstab des Experten", Tier: 5, Enchantment: 0, CategoryPath: "weapons/cursestaff/cursestaff_morgana", Recipe: recipe_014067491ac7},
+		{ID: "T5_2H_CURSEDSTAFF_MORGANA@1", Name: "Verdammnisstab des Experten", Tier: 5, Enchantment: 1, CategoryPath: "weapons/cursestaff/cursestaff_morgana", Recipe: recipe_014067491ac7},
+		{ID: "T5_2H_CURSEDSTAFF_MORGANA@2", Name: "Verdammnisstab des Experten", Tier: 5, Enchantment: 2, CategoryPath: "weapons/cursestaff/cursestaff_morgana", Recipe: recipe_014067491ac7},
+		{ID: "T5_2H_CURSEDSTAFF_MORGANA@3", Name: "Verdammnisstab des Experten", Tier: 5, Enchantment: 3, CategoryPath: "weapons/cursestaff/cursestaff_morgana", Recipe: recipe_014067491ac7},
+		{ID: "T5_2H_CURSEDSTAFF_MORGANA@4", Name: "Verdammnisstab des Experten", Tier: 5, Enchantment: 4, CategoryPath: "weapons/cursestaff/cursestaff_morgana", Recipe: recipe_014067491ac7},
+		{ID: "T6_2H_CURSEDSTAFF_MORGANA", Name: "Verdammnisstab des Meisters", Tier: 6, Enchantment: 0, CategoryPath: "weapons/cursestaff/cursestaff_morgana", Recipe: recipe_bd844663b731},
+		{ID: "T6_2H_CURSEDSTAFF_MORGANA@1", Name: "Verdammnisstab des Meisters", Tier: 6, Enchantment: 1, CategoryPath: "weapons/cursestaff/cursestaff_morgana", Recipe: recipe_bd844663b731},
+		{ID: "T6_2H_CURSEDSTAFF_MORGANA@2", Name: "Verdammnisstab des Meisters", Tier: 6, Enchantment: 2, CategoryPath: "weapons/cursestaff/cursestaff_morgana", Recipe: recipe_bd844663b731},
+		{ID: "T6_2H_CURSEDSTAFF_MORGANA@3", Name: "Verdammnisstab des Meisters", Tier: 6, Enchantment: 3, CategoryPath: "weapons/cursestaff/cursestaff_morgana", Recipe: recipe_bd844663b731},
+		{ID: "T6_2H_CURSEDSTAFF_MORGANA@4", Name: "Verdammnisstab des Meisters", Tier: 6, Enchantment: 4, CategoryPath: "weapons/cursestaff/cursestaff_morgana", Recipe: recipe_bd844663b731},
+		{ID: "T7_2H_CURSEDSTAFF_MORGANA", Name: "Verdammnisstab des Großmeisters", Tier: 7, Enchantment: 0, CategoryPath: "weapons/cursestaff/cursestaff_morgana", Recipe: recipe_f9680028aae1},
+		{ID: "T7_2H_CURSEDSTAFF_MORGANA@1", Name: "Verdammnisstab des Großmeisters", Tier: 7, Enchantment: 1, CategoryPath: "weapons/cursestaff/cursestaff_morgana", Recipe: recipe_f9680028aae1},
+		{ID: "T7_2H_CURSEDSTAFF_MORGANA@2", Name: "Verdammnisstab des Großmeisters", Tier: 7, Enchantment: 2, CategoryPath: "weapons/cursestaff/cursestaff_morgana", Recipe: recipe_f9680028aae1},
+		{ID: "T7_2H_CURSEDSTAFF_MORGANA@3", Name: "Verdammnisstab des Großmeisters", Tier: 7, Enchantment: 3, CategoryPath: "weapons/cursestaff/cursestaff_morgana", Recipe: recipe_f9680028aae1},
+		{ID: "T7_2H_CURSEDSTAFF_MORGANA@4", Name: "Verdammnisstab des Großmeisters", Tier: 7, Enchantment: 4, CategoryPath: "weapons/cursestaff/cursestaff_morgana", Recipe: recipe_f9680028aae1},
+		{ID: "T8_2H_CURSEDSTAFF_MORGANA", Name: "Verdammnisstab des Ältesten", Tier: 8, Enchantment: 0, CategoryPath: "weapons/cursestaff/cursestaff_morgana", Recipe: recipe_485ee6c492bf},
+		{ID: "T8_2H_CURSEDSTAFF_MORGANA@1", Name: "Verdammnisstab des Ältesten", Tier: 8, Enchantment: 1, CategoryPath: "weapons/cursestaff/cursestaff_morgana", Recipe: recipe_485ee6c492bf},
+		{ID: "T8_2H_CURSEDSTAFF_MORGANA@2", Name: "Verdammnisstab des Ältesten", Tier: 8, Enchantment: 2, CategoryPath: "weapons/cursestaff/cursestaff_morgana", Recipe: recipe_485ee6c492bf},
+		{ID: "T8_2H_CURSEDSTAFF_MORGANA@3", Name: "Verdammnisstab des Ältesten", Tier: 8, Enchantment: 3, CategoryPath: "weapons/cursestaff/cursestaff_morgana", Recipe: recipe_485ee6c492bf},
+		{ID: "T8_2H_CURSEDSTAFF_MORGANA@4", Name: "Verdammnisstab des Ältesten", Tier: 8, Enchantment: 4, CategoryPath: "weapons/cursestaff/cursestaff_morgana", Recipe: recipe_485ee6c492bf},
+	}},
+	{Name: "Dolchpaar des Adepten", BaseID: "2H_DAGGERPAIR", MinTier: 4, MaxTier: 8, MinEnchantment: 0, MaxEnchantment: 4, Variants: []ItemVariant{
+		{ID: "T4_2H_DAGGERPAIR", Name: "Dolchpaar des Adepten", Tier: 4, Enchantment: 0, CategoryPath: "weapons/dagger/dagger_daggerpair", Recipe: recipe_91eb990f698e},
+		{ID: "T4_2H_DAGGERPAIR@1", Name: "Dolchpaar des Adepten", Tier: 4, Enchantment: 1, CategoryPath: "weapons/dagger/dagger_daggerpair", Recipe: recipe_91eb990f698e},
+		{ID: "T4_2H_DAGGERPAIR@2", Name: "Dolchpaar des Adepten", Tier: 4, Enchantment: 2, CategoryPath: "weapons/dagger/dagger_daggerpair", Recipe: recipe_91eb990f698e},
+		{ID: "T4_2H_DAGGERPAIR@3", Name: "Dolchpaar des Adepten", Tier: 4, Enchantment: 3, CategoryPath: "weapons/dagger/dagger_daggerpair", Recipe: recipe_91eb990f698e},
+		{ID: "T4_2H_DAGGERPAIR@4", Name: "Dolchpaar des Adepten", Tier: 4, Enchantment: 4, CategoryPath: "weapons/dagger/dagger_daggerpair", Recipe: recipe_91eb990f698e},
+		{ID: "T5_2H_DAGGERPAIR", Name: "Dolchpaar des Experten", Tier: 5, Enchantment: 0, CategoryPath: "weapons/dagger/dagger_daggerpair", Recipe: recipe_b70b1f8f7228},
+		{ID: "T5_2H_DAGGERPAIR@1", Name: "Dolchpaar des Experten", Tier: 5, Enchantment: 1, CategoryPath: "weapons/dagger/dagger_daggerpair", Recipe: recipe_b70b1f8f7228},
+		{ID: "T5_2H_DAGGERPAIR@2", Name: "Dolchpaar des Experten", Tier: 5, Enchantment: 2, CategoryPath: "weapons/dagger/dagger_daggerpair", Recipe: recipe_b70b1f8f7228},
+		{ID: "T5_2H_DAGGERPAIR@3", Name: "Dolchpaar des Experten", Tier: 5, Enchantment: 3, CategoryPath: "weapons/dagger/dagger_daggerpair", Recipe: recipe_b70b1f8f7228},
+		{ID: "T5_2H_DAGGERPAIR@4", Name: "Dolchpaar des Experten", Tier: 5, Enchantment: 4, CategoryPath: "weapons/dagger/dagger_daggerpair", Recipe: recipe_b70b1f8f7228},
+		{ID: "T6_2H_DAGGERPAIR", Name: "Dolchpaar des Meisters", Tier: 6, Enchantment: 0, CategoryPath: "weapons/dagger/dagger_daggerpair", Recipe: recipe_75674c427e15},
+		{ID: "T6_2H_DAGGERPAIR@1", Name: "Dolchpaar des Meisters", Tier: 6, Enchantment: 1, CategoryPath: "weapons/dagger/dagger_daggerpair", Recipe: recipe_75674c427e15},
+		{ID: "T6_2H_DAGGERPAIR@2", Name: "Dolchpaar des Meisters", Tier: 6, Enchantment: 2, CategoryPath: "weapons/dagger/dagger_daggerpair", Recipe: recipe_75674c427e15},
+		{ID: "T6_2H_DAGGERPAIR@3", Name: "Dolchpaar des Meisters", Tier: 6, Enchantment: 3, CategoryPath: "weapons/dagger/dagger_daggerpair", Recipe: recipe_75674c427e15},
+		{ID: "T6_2H_DAGGERPAIR@4", Name: "Dolchpaar des Meisters", Tier: 6, Enchantment: 4, CategoryPath: "weapons/dagger/dagger_daggerpair", Recipe: recipe_75674c427e15},
+		{ID: "T7_2H_DAGGERPAIR", Name: "Dolchpaar des Großmeisters", Tier: 7, Enchantment: 0, CategoryPath: "weapons/dagger/dagger_daggerpair", Recipe: recipe_dbfa555d1075},
+		{ID: "T7_2H_DAGGERPAIR@1", Name: "Dolchpaar des Großmeisters", Tier: 7, Enchantment: 1, CategoryPath: "weapons/dagger/dagger_daggerpair", Recipe: recipe_dbfa555d1075},
+		{ID: "T7_2H_DAGGERPAIR@2", Name: "Dolchpaar des Großmeisters", Tier: 7, Enchantment: 2, CategoryPath: "weapons/dagger/dagger_daggerpair", Recipe: recipe_dbfa555d1075},
+		{ID: "T7_2H_DAGGERPAIR@3", Name: "Dolchpaar des Großmeisters", Tier: 7, Enchantment: 3, CategoryPath: "weapons/dagger/dagger_daggerpair", Recipe: recipe_dbfa555d1075},
+		{ID: "T7_2H_DAGGERPAIR@4", Name: "Dolchpaar des Großmeisters", Tier: 7, Enchantment: 4, CategoryPath: "weapons/dagger/dagger_daggerpair", Recipe: recipe_dbfa555d1075},
+		{ID: "T8_2H_DAGGERPAIR", Name: "Dolchpaar des Ältesten", Tier: 8, Enchantment: 0, CategoryPath: "weapons/dagger/dagger_daggerpair", Recipe: recipe_9fc0452c502a},
+		{ID: "T8_2H_DAGGERPAIR@1", Name: "Dolchpaar des Ältesten", Tier: 8, Enchantment: 1, CategoryPath: "weapons/dagger/dagger_daggerpair", Recipe: recipe_9fc0452c502a},
+		{ID: "T8_2H_DAGGERPAIR@2", Name: "Dolchpaar des Ältesten", Tier: 8, Enchantment: 2, CategoryPath: "weapons/dagger/dagger_daggerpair", Recipe: recipe_9fc0452c502a},
+		{ID: "T8_2H_DAGGERPAIR@3", Name: "Dolchpaar des Ältesten", Tier: 8, Enchantment: 3, CategoryPath: "weapons/dagger/dagger_daggerpair", Recipe: recipe_9fc0452c502a},
+		{ID: "T8_2H_DAGGERPAIR@4", Name: "Dolchpaar des Ältesten", Tier: 8, Enchantment: 4, CategoryPath: "weapons/dagger/dagger_daggerpair", Recipe: recipe_9fc0452c502a},
+	}},
+	{Name: "Zwillingsschlächter des Adepten", BaseID: "2H_DAGGERPAIR_CRYSTAL", MinTier: 4, MaxTier: 8, MinEnchantment: 0, MaxEnchantment: 4, Variants: []ItemVariant{
+		{ID: "T4_2H_DAGGERPAIR_CRYSTAL", Name: "Zwillingsschlächter des Adepten", Tier: 4, Enchantment: 0, CategoryPath: "weapons/dagger/dagger_crystal", Recipe: recipe_26e248645252},
+		{ID: "T4_2H_DAGGERPAIR_CRYSTAL@1", Name: "Zwillingsschlächter des Adepten", Tier: 4, Enchantment: 1, CategoryPath: "weapons/dagger/dagger_crystal", Recipe: recipe_26e248645252},
+		{ID: "T4_2H_DAGGERPAIR_CRYSTAL@2", Name: "Zwillingsschlächter des Adepten", Tier: 4, Enchantment: 2, CategoryPath: "weapons/dagger/dagger_crystal", Recipe: recipe_26e248645252},
+		{ID: "T4_2H_DAGGERPAIR_CRYSTAL@3", Name: "Zwillingsschlächter des Adepten", Tier: 4, Enchantment: 3, CategoryPath: "weapons/dagger/dagger_crystal", Recipe: recipe_26e248645252},
+		{ID: "T4_2H_DAGGERPAIR_CRYSTAL@4", Name: "Zwillingsschlächter des Adepten", Tier: 4, Enchantment: 4, CategoryPath: "weapons/dagger/dagger_crystal", Recipe: recipe_26e248645252},
+		{ID: "T5_2H_DAGGERPAIR_CRYSTAL", Name: "Zwillingsschlächter des Experten", Tier: 5, Enchantment: 0, CategoryPath: "weapons/dagger/dagger_crystal", Recipe: recipe_7a677cd967b8},
+		{ID: "T5_2H_DAGGERPAIR_CRYSTAL@1", Name: "Zwillingsschlächter des Experten", Tier: 5, Enchantment: 1, CategoryPath: "weapons/dagger/dagger_crystal", Recipe: recipe_7a677cd967b8},
+		{ID: "T5_2H_DAGGERPAIR_CRYSTAL@2", Name: "Zwillingsschlächter des Experten", Tier: 5, Enchantment: 2, CategoryPath: "weapons/dagger/dagger_crystal", Recipe: recipe_7a677cd967b8},
+		{ID: "T5_2H_DAGGERPAIR_CRYSTAL@3", Name: "Zwillingsschlächter des Experten", Tier: 5, Enchantment: 3, CategoryPath: "weapons/dagger/dagger_crystal", Recipe: recipe_7a677cd967b8},
+		{ID: "T5_2H_DAGGERPAIR_CRYSTAL@4", Name: "Zwillingsschlächter des Experten", Tier: 5, Enchantment: 4, CategoryPath: "weapons/dagger/dagger_crystal", Recipe: recipe_7a677cd967b8},
+		{ID: "T6_2H_DAGGERPAIR_CRYSTAL", Name: "Zwillingsschlächter des Meisters", Tier: 6, Enchantment: 0, CategoryPath: "weapons/dagger/dagger_crystal", Recipe: recipe_8c50d7c2545f},
+		{ID: "T6_2H_DAGGERPAIR_CRYSTAL@1", Name: "Zwillingsschlächter des Meisters", Tier: 6, Enchantment: 1, CategoryPath: "weapons/dagger/dagger_crystal", Recipe: recipe_8c50d7c2545f},
+		{ID: "T6_2H_DAGGERPAIR_CRYSTAL@2", Name: "Zwillingsschlächter des Meisters", Tier: 6, Enchantment: 2, CategoryPath: "weapons/dagger/dagger_crystal", Recipe: recipe_8c50d7c2545f},
+		{ID: "T6_2H_DAGGERPAIR_CRYSTAL@3", Name: "Zwillingsschlächter des Meisters", Tier: 6, Enchantment: 3, CategoryPath: "weapons/dagger/dagger_crystal", Recipe: recipe_8c50d7c2545f},
+		{ID: "T6_2H_DAGGERPAIR_CRYSTAL@4", Name: "Zwillingsschlächter des Meisters", Tier: 6, Enchantment: 4, CategoryPath: "weapons/dagger/dagger_crystal", Recipe: recipe_8c50d7c2545f},
+		{ID: "T7_2H_DAGGERPAIR_CRYSTAL", Name: "Zwillingsschlächter des Großmeisters", Tier: 7, Enchantment: 0, CategoryPath: "weapons/dagger/dagger_crystal", Recipe: recipe_3d6e4211c129},
+		{ID: "T7_2H_DAGGERPAIR_CRYSTAL@1", Name: "Zwillingsschlächter des Großmeisters", Tier: 7, Enchantment: 1, CategoryPath: "weapons/dagger/dagger_crystal", Recipe: recipe_3d6e4211c129},
+		{ID: "T7_2H_DAGGERPAIR_CRYSTAL@2", Name: "Zwillingsschlächter des Großmeisters", Tier: 7, Enchantment: 2, CategoryPath: "weapons/dagger/dagger_crystal", Recipe: recipe_3d6e4211c129},
+		{ID: "T7_2H_DAGGERPAIR_CRYSTAL@3", Name: "Zwillingsschlächter des Großmeisters", Tier: 7, Enchantment: 3, CategoryPath: "weapons/dagger/dagger_crystal", Recipe: recipe_3d6e4211c129},
+		{ID: "T7_2H_DAGGERPAIR_CRYSTAL@4", Name: "Zwillingsschlächter des Großmeisters", Tier: 7, Enchantment: 4, CategoryPath: "weapons/dagger/dagger_crystal", Recipe: recipe_3d6e4211c129},
+		{ID: "T8_2H_DAGGERPAIR_CRYSTAL", Name: "Zwillingsschlächter des Ältesten", Tier: 8, Enchantment: 0, CategoryPath: "weapons/dagger/dagger_crystal", Recipe: recipe_7039a6e8be64},
+		{ID: "T8_2H_DAGGERPAIR_CRYSTAL@1", Name: "Zwillingsschlächter des Ältesten", Tier: 8, Enchantment: 1, CategoryPath: "weapons/dagger/dagger_crystal", Recipe: recipe_7039a6e8be64},
+		{ID: "T8_2H_DAGGERPAIR_CRYSTAL@2", Name: "Zwillingsschlächter des Ältesten", Tier: 8, Enchantment: 2, CategoryPath: "weapons/dagger/dagger_crystal", Recipe: recipe_7039a6e8be64},
+		{ID: "T8_2H_DAGGERPAIR_CRYSTAL@3", Name: "Zwillingsschlächter des Ältesten", Tier: 8, Enchantment: 3, CategoryPath: "weapons/dagger/dagger_crystal", Recipe: recipe_7039a6e8be64},
+		{ID: "T8_2H_DAGGERPAIR_CRYSTAL@4", Name: "Zwillingsschlächter des Ältesten", Tier: 8, Enchantment: 4, CategoryPath: "weapons/dagger/dagger_crystal", Recipe: recipe_7039a6e8be64},
+	}},
+	{Name: "Gezügelte Wut des Adepten", BaseID: "2H_DAGGER_KATAR_AVALON", MinTier: 4, MaxTier: 8, MinEnchantment: 0, MaxEnchantment: 4, Variants: []ItemVariant{
+		{ID: "T4_2H_DAGGER_KATAR_AVALON", Name: "Gezügelte Wut des Adepten", Tier: 4, Enchantment: 0, CategoryPath: "weapons/dagger/dagger_avalon", Recipe: recipe_0924b4d66934},
+		{ID: "T4_2H_DAGGER_KATAR_AVALON@1", Name: "Gezügelte Wut des Adepten", Tier: 4, Enchantment: 1, CategoryPath: "weapons/dagger/dagger_avalon", Recipe: recipe_0924b4d66934},
+		{ID: "T4_2H_DAGGER_KATAR_AVALON@2", Name: "Gezügelte Wut des Adepten", Tier: 4, Enchantment: 2, CategoryPath: "weapons/dagger/dagger_avalon", Recipe: recipe_0924b4d66934},
+		{ID: "T4_2H_DAGGER_KATAR_AVALON@3", Name: "Gezügelte Wut des Adepten", Tier: 4, Enchantment: 3, CategoryPath: "weapons/dagger/dagger_avalon", Recipe: recipe_0924b4d66934},
+		{ID: "T4_2H_DAGGER_KATAR_AVALON@4", Name: "Gezügelte Wut des Adepten", Tier: 4, Enchantment: 4, CategoryPath: "weapons/dagger/dagger_avalon", Recipe: recipe_0924b4d66934},
+		{ID: "T5_2H_DAGGER_KATAR_AVALON", Name: "Gezügelte Wut des Experten", Tier: 5, Enchantment: 0, CategoryPath: "weapons/dagger/dagger_avalon", Recipe: recipe_f6f234f199b5},
+		{ID: "T5_2H_DAGGER_KATAR_AVALON@1", Name: "Gezügelte Wut des Experten", Tier: 5, Enchantment: 1, CategoryPath: "weapons/dagger/dagger_avalon", Recipe: recipe_f6f234f199b5},
+		{ID: "T5_2H_DAGGER_KATAR_AVALON@2", Name: "Gezügelte Wut des Experten", Tier: 5, Enchantment: 2, CategoryPath: "weapons/dagger/dagger_avalon", Recipe: recipe_f6f234f199b5},
+		{ID: "T5_2H_DAGGER_KATAR_AVALON@3", Name: "Gezügelte Wut des Experten", Tier: 5, Enchantment: 3, CategoryPath: "weapons/dagger/dagger_avalon", Recipe: recipe_f6f234f199b5},
+		{ID: "T5_2H_DAGGER_KATAR_AVALON@4", Name: "Gezügelte Wut des Experten", Tier: 5, Enchantment: 4, CategoryPath: "weapons/dagger/dagger_avalon", Recipe: recipe_f6f234f199b5},
+		{ID: "T6_2H_DAGGER_KATAR_AVALON", Name: "Gezügelte Wut des Meisters", Tier: 6, Enchantment: 0, CategoryPath: "weapons/dagger/dagger_avalon", Recipe: recipe_739f32b3c981},
+		{ID: "T6_2H_DAGGER_KATAR_AVALON@1", Name: "Gezügelte Wut des Meisters", Tier: 6, Enchantment: 1, CategoryPath: "weapons/dagger/dagger_avalon", Recipe: recipe_739f32b3c981},
+		{ID: "T6_2H_DAGGER_KATAR_AVALON@2", Name: "Gezügelte Wut des Meisters", Tier: 6, Enchantment: 2, CategoryPath: "weapons/dagger/dagger_avalon", Recipe: recipe_739f32b3c981},
+		{ID: "T6_2H_DAGGER_KATAR_AVALON@3", Name: "Gezügelte Wut des Meisters", Tier: 6, Enchantment: 3, CategoryPath: "weapons/dagger/dagger_avalon", Recipe: recipe_739f32b3c981},
+		{ID: "T6_2H_DAGGER_KATAR_AVALON@4", Name: "Gezügelte Wut des Meisters", Tier: 6, Enchantment: 4, CategoryPath: "weapons/dagger/dagger_avalon", Recipe: recipe_739f32b3c981},
+		{ID: "T7_2H_DAGGER_KATAR_AVALON", Name: "Gezügelte Wut des Großmeisters", Tier: 7, Enchantment: 0, CategoryPath: "weapons/dagger/dagger_avalon", Recipe: recipe_c7c4e4222854},
+		{ID: "T7_2H_DAGGER_KATAR_AVALON@1", Name: "Gezügelte Wut des Großmeisters", Tier: 7, Enchantment: 1, CategoryPath: "weapons/dagger/dagger_avalon", Recipe: recipe_c7c4e4222854},
+		{ID: "T7_2H_DAGGER_KATAR_AVALON@2", Name: "Gezügelte Wut des Großmeisters", Tier: 7, Enchantment: 2, CategoryPath: "weapons/dagger/dagger_avalon", Recipe: recipe_c7c4e4222854},
+		{ID: "T7_2H_DAGGER_KATAR_AVALON@3", Name: "Gezügelte Wut des Großmeisters", Tier: 7, Enchantment: 3, CategoryPath: "weapons/dagger/dagger_avalon", Recipe: recipe_c7c4e4222854},
+		{ID: "T7_2H_DAGGER_KATAR_AVALON@4", Name: "Gezügelte Wut des Großmeisters", Tier: 7, Enchantment: 4, CategoryPath: "weapons/dagger/dagger_avalon", Recipe: recipe_c7c4e4222854},
+		{ID: "T8_2H_DAGGER_KATAR_AVALON", Name: "Gezügelte Wut des Ältesten", Tier: 8, Enchantment: 0, CategoryPath: "weapons/dagger/dagger_avalon", Recipe: recipe_1f2f3c9e1729},
+		{ID: "T8_2H_DAGGER_KATAR_AVALON@1", Name: "Gezügelte Wut des Ältesten", Tier: 8, Enchantment: 1, CategoryPath: "weapons/dagger/dagger_avalon", Recipe: recipe_1f2f3c9e1729},
+		{ID: "T8_2H_DAGGER_KATAR_AVALON@2", Name: "Gezügelte Wut des Ältesten", Tier: 8, Enchantment: 2, CategoryPath: "weapons/dagger/dagger_avalon", Recipe: recipe_1f2f3c9e1729},
+		{ID: "T8_2H_DAGGER_KATAR_AVALON@3", Name: "Gezügelte Wut des Ältesten", Tier: 8, Enchantment: 3, CategoryPath: "weapons/dagger/dagger_avalon", Recipe: recipe_1f2f3c9e1729},
+		{ID: "T8_2H_DAGGER_KATAR_AVALON@4", Name: "Gezügelte Wut des Ältesten", Tier: 8, Enchantment: 4, CategoryPath: "weapons/dagger/dagger_avalon", Recipe: recipe_1f2f3c9e1729},
+	}},
+	{Name: "Dämonenstab des Adepten", BaseID: "2H_DEMONICSTAFF", MinTier: 4, MaxTier: 8, MinEnchantment: 0, MaxEnchantment: 4, Variants: []ItemVariant{
+		{ID: "T4_2H_DEMONICSTAFF", Name: "Dämonenstab des Adepten", Tier: 4, Enchantment: 0, CategoryPath: "weapons/cursestaff/cursestaff_demonicstaff", Recipe: recipe_9c4455dfa02d},
+		{ID: "T4_2H_DEMONICSTAFF@1", Name: "Dämonenstab des Adepten", Tier: 4, Enchantment: 1, CategoryPath: "weapons/cursestaff/cursestaff_demonicstaff", Recipe: recipe_9c4455dfa02d},
+		{ID: "T4_2H_DEMONICSTAFF@2", Name: "Dämonenstab des Adepten", Tier: 4, Enchantment: 2, CategoryPath: "weapons/cursestaff/cursestaff_demonicstaff", Recipe: recipe_9c4455dfa02d},
+		{ID: "T4_2H_DEMONICSTAFF@3", Name: "Dämonenstab des Adepten", Tier: 4, Enchantment: 3, CategoryPath: "weapons/cursestaff/cursestaff_demonicstaff", Recipe: recipe_9c4455dfa02d},
+		{ID: "T4_2H_DEMONICSTAFF@4", Name: "Dämonenstab des Adepten", Tier: 4, Enchantment: 4, CategoryPath: "weapons/cursestaff/cursestaff_demonicstaff", Recipe: recipe_9c4455dfa02d},
+		{ID: "T5_2H_DEMONICSTAFF", Name: "Dämonenstab des Experten", Tier: 5, Enchantment: 0, CategoryPath: "weapons/cursestaff/cursestaff_demonicstaff", Recipe: recipe_9060d8bd1207},
+		{ID: "T5_2H_DEMONICSTAFF@1", Name: "Dämonenstab des Experten", Tier: 5, Enchantment: 1, CategoryPath: "weapons/cursestaff/cursestaff_demonicstaff", Recipe: recipe_9060d8bd1207},
+		{ID: "T5_2H_DEMONICSTAFF@2", Name: "Dämonenstab des Experten", Tier: 5, Enchantment: 2, CategoryPath: "weapons/cursestaff/cursestaff_demonicstaff", Recipe: recipe_9060d8bd1207},
+		{ID: "T5_2H_DEMONICSTAFF@3", Name: "Dämonenstab des Experten", Tier: 5, Enchantment: 3, CategoryPath: "weapons/cursestaff/cursestaff_demonicstaff", Recipe: recipe_9060d8bd1207},
+		{ID: "T5_2H_DEMONICSTAFF@4", Name: "Dämonenstab des Experten", Tier: 5, Enchantment: 4, CategoryPath: "weapons/cursestaff/cursestaff_demonicstaff", Recipe: recipe_9060d8bd1207},
+		{ID: "T6_2H_DEMONICSTAFF", Name: "Dämonenstab des Meisters", Tier: 6, Enchantment: 0, CategoryPath: "weapons/cursestaff/cursestaff_demonicstaff", Recipe: recipe_8c36997145a0},
+		{ID: "T6_2H_DEMONICSTAFF@1", Name: "Dämonenstab des Meisters", Tier: 6, Enchantment: 1, CategoryPath: "weapons/cursestaff/cursestaff_demonicstaff", Recipe: recipe_8c36997145a0},
+		{ID: "T6_2H_DEMONICSTAFF@2", Name: "Dämonenstab des Meisters", Tier: 6, Enchantment: 2, CategoryPath: "weapons/cursestaff/cursestaff_demonicstaff", Recipe: recipe_8c36997145a0},
+		{ID: "T6_2H_DEMONICSTAFF@3", Name: "Dämonenstab des Meisters", Tier: 6, Enchantment: 3, CategoryPath: "weapons/cursestaff/cursestaff_demonicstaff", Recipe: recipe_8c36997145a0},
+		{ID: "T6_2H_DEMONICSTAFF@4", Name: "Dämonenstab des Meisters", Tier: 6, Enchantment: 4, CategoryPath: "weapons/cursestaff/cursestaff_demonicstaff", Recipe: recipe_8c36997145a0},
+		{ID: "T7_2H_DEMONICSTAFF", Name: "Dämonenstab des Großmeisters", Tier: 7, Enchantment: 0, CategoryPath: "weapons/cursestaff/cursestaff_demonicstaff", Recipe: recipe_503c28545570},
+		{ID: "T7_2H_DEMONICSTAFF@1", Name: "Dämonenstab des Großmeisters", Tier: 7, Enchantment: 1, CategoryPath: "weapons/cursestaff/cursestaff_demonicstaff", Recipe: recipe_503c28545570},
+		{ID: "T7_2H_DEMONICSTAFF@2", Name: "Dämonenstab des Großmeisters", Tier: 7, Enchantment: 2, CategoryPath: "weapons/cursestaff/cursestaff_demonicstaff", Recipe: recipe_503c28545570},
+		{ID: "T7_2H_DEMONICSTAFF@3", Name: "Dämonenstab des Großmeisters", Tier: 7, Enchantment: 3, CategoryPath: "weapons/cursestaff/cursestaff_demonicstaff", Recipe: recipe_503c28545570},
+		{ID: "T7_2H_DEMONICSTAFF@4", Name: "Dämonenstab des Großmeisters", Tier: 7, Enchantment: 4, CategoryPath: "weapons/cursestaff/cursestaff_demonicstaff", Recipe: recipe_503c28545570},
+		{ID: "T8_2H_DEMONICSTAFF", Name: "Dämonenstab des Ältesten", Tier: 8, Enchantment: 0, CategoryPath: "weapons/cursestaff/cursestaff_demonicstaff", Recipe: recipe_4a470b5a2e39},
+		{ID: "T8_2H_DEMONICSTAFF@1", Name: "Dämonenstab des Ältesten", Tier: 8, Enchantment: 1, CategoryPath: "weapons/cursestaff/cursestaff_demonicstaff", Recipe: recipe_4a470b5a2e39},
+		{ID: "T8_2H_DEMONICSTAFF@2", Name: "Dämonenstab des Ältesten", Tier: 8, Enchantment: 2, CategoryPath: "weapons/cursestaff/cursestaff_demonicstaff", Recipe: recipe_4a470b5a2e39},
+		{ID: "T8_2H_DEMONICSTAFF@3", Name: "Dämonenstab des Ältesten", Tier: 8, Enchantment: 3, CategoryPath: "weapons/cursestaff/cursestaff_demonicstaff", Recipe: recipe_4a470b5a2e39},
+		{ID: "T8_2H_DEMONICSTAFF@4", Name: "Dämonenstab des Ältesten", Tier: 8, Enchantment: 4, CategoryPath: "weapons/cursestaff/cursestaff_demonicstaff", Recipe: recipe_4a470b5a2e39},
+	}},
+	{Name: "Gottesstab des Adepten", BaseID: "2H_DIVINESTAFF", MinTier: 4, MaxTier: 8, MinEnchantment: 0, MaxEnchantment: 4, Variants: []ItemVariant{
+		{ID: "T4_2H_DIVINESTAFF", Name: "Gottesstab des Adepten", Tier: 4, Enchantment: 0, CategoryPath: "weapons/holystaff/holystaff_divinestaff", Recipe: recipe_4d23d79c6594},
+		{ID: "T4_2H_DIVINESTAFF@1", Name: "Gottesstab des Adepten", Tier: 4, Enchantment: 1, CategoryPath: "weapons/holystaff/holystaff_divinestaff", Recipe: recipe_4d23d79c6594},
+		{ID: "T4_2H_DIVINESTAFF@2", Name: "Gottesstab des Adepten", Tier: 4, Enchantment: 2, CategoryPath: "weapons/holystaff/holystaff_divinestaff", Recipe: recipe_4d23d79c6594},
+		{ID: "T4_2H_DIVINESTAFF@3", Name: "Gottesstab des Adepten", Tier: 4, Enchantment: 3, CategoryPath: "weapons/holystaff/holystaff_divinestaff", Recipe: recipe_4d23d79c6594},
+		{ID: "T4_2H_DIVINESTAFF@4", Name: "Gottesstab des Adepten", Tier: 4, Enchantment: 4, CategoryPath: "weapons/holystaff/holystaff_divinestaff", Recipe: recipe_4d23d79c6594},
+		{ID: "T5_2H_DIVINESTAFF", Name: "Gottesstab des Experten", Tier: 5, Enchantment: 0, CategoryPath: "weapons/holystaff/holystaff_divinestaff", Recipe: recipe_69691f01126b},
+		{ID: "T5_2H_DIVINESTAFF@1", Name: "Gottesstab des Experten", Tier: 5, Enchantment: 1, CategoryPath: "weapons/holystaff/holystaff_divinestaff", Recipe: recipe_69691f01126b},
+		{ID: "T5_2H_DIVINESTAFF@2", Name: "Gottesstab des Experten", Tier: 5, Enchantment: 2, CategoryPath: "weapons/holystaff/holystaff_divinestaff", Recipe: recipe_69691f01126b},
+		{ID: "T5_2H_DIVINESTAFF@3", Name: "Gottesstab des Experten", Tier: 5, Enchantment: 3, CategoryPath: "weapons/holystaff/holystaff_divinestaff", Recipe: recipe_69691f01126b},
+		{ID: "T5_2H_DIVINESTAFF@4", Name: "Gottesstab des Experten", Tier: 5, Enchantment: 4, CategoryPath: "weapons/holystaff/holystaff_divinestaff", Recipe: recipe_69691f01126b},
+		{ID: "T6_2H_DIVINESTAFF", Name: "Gottesstab des Meisters", Tier: 6, Enchantment: 0, CategoryPath: "weapons/holystaff/holystaff_divinestaff", Recipe: recipe_3b309c8325ba},
+		{ID: "T6_2H_DIVINESTAFF@1", Name: "Gottesstab des Meisters", Tier: 6, Enchantment: 1, CategoryPath: "weapons/holystaff/holystaff_divinestaff", Recipe: recipe_3b309c8325ba},
+		{ID: "T6_2H_DIVINESTAFF@2", Name: "Gottesstab des Meisters", Tier: 6, Enchantment: 2, CategoryPath: "weapons/holystaff/holystaff_divinestaff", Recipe: recipe_3b309c8325ba},
+		{ID: "T6_2H_DIVINESTAFF@3", Name: "Gottesstab des Meisters", Tier: 6, Enchantment: 3, CategoryPath: "weapons/holystaff/holystaff_divinestaff", Recipe: recipe_3b309c8325ba},
+		{ID: "T6_2H_DIVINESTAFF@4", Name: "Gottesstab des Meisters", Tier: 6, Enchantment: 4, CategoryPath: "weapons/holystaff/holystaff_divinestaff", Recipe: recipe_3b309c8325ba},
+		{ID: "T7_2H_DIVINESTAFF", Name: "Gottesstab des Großmeisters", Tier: 7, Enchantment: 0, CategoryPath: "weapons/holystaff/holystaff_divinestaff", Recipe: recipe_fcbf8b9adaed},
+		{ID: "T7_2H_DIVINESTAFF@1", Name: "Gottesstab des Großmeisters", Tier: 7, Enchantment: 1, CategoryPath: "weapons/holystaff/holystaff_divinestaff", Recipe: recipe_fcbf8b9adaed},
+		{ID: "T7_2H_DIVINESTAFF@2", Name: "Gottesstab des Großmeisters", Tier: 7, Enchantment: 2, CategoryPath: "weapons/holystaff/holystaff_divinestaff", Recipe: recipe_fcbf8b9adaed},
+		{ID: "T7_2H_DIVINESTAFF@3", Name: "Gottesstab des Großmeisters", Tier: 7, Enchantment: 3, CategoryPath: "weapons/holystaff/holystaff_divinestaff", Recipe: recipe_fcbf8b9adaed},
+		{ID: "T7_2H_DIVINESTAFF@4", Name: "Gottesstab des Großmeisters", Tier: 7, Enchantment: 4, CategoryPath: "weapons/holystaff/holystaff_divinestaff", Recipe: recipe_fcbf8b9adaed},
+		{ID: "T8_2H_DIVINESTAFF", Name: "Gottesstab des Ältesten", Tier: 8, Enchantment: 0, CategoryPath: "weapons/holystaff/holystaff_divinestaff", Recipe: recipe_1c2a155b1a17},
+		{ID: "T8_2H_DIVINESTAFF@1", Name: "Gottesstab des Ältesten", Tier: 8, Enchantment: 1, CategoryPath: "weapons/holystaff/holystaff_divinestaff", Recipe: recipe_1c2a155b1a17},
+		{ID: "T8_2H_DIVINESTAFF@2", Name: "Gottesstab des Ältesten", Tier: 8, Enchantment: 2, CategoryPath: "weapons/holystaff/holystaff_divinestaff", Recipe: recipe_1c2a155b1a17},
+		{ID: "T8_2H_DIVINESTAFF@3", Name: "Gottesstab des Ältesten", Tier: 8, Enchantment: 3, CategoryPath: "weapons/holystaff/holystaff_divinestaff", Recipe: recipe_1c2a155b1a17},
+		{ID: "T8_2H_DIVINESTAFF@4", Name: "Gottesstab des Ältesten", Tier: 8, Enchantment: 4, CategoryPath: "weapons/holystaff/holystaff_divinestaff", Recipe: recipe_1c2a155b1a17},
+	}},
+	{Name: "Doppelklingenstab des Adepten", BaseID: "2H_DOUBLEBLADEDSTAFF", MinTier: 4, MaxTier: 8, MinEnchantment: 0, MaxEnchantment: 4, Variants: []ItemVariant{
+		{ID: "T4_2H_DOUBLEBLADEDSTAFF", Name: "Doppelklingenstab des Adepten", Tier: 4, Enchantment: 0, CategoryPath: "weapons/quarterstaff/quarterstaff_doublebladedstaff", Recipe: recipe_24919d1b23e9},
+		{ID: "T4_2H_DOUBLEBLADEDSTAFF@1", Name: "Doppelklingenstab des Adepten", Tier: 4, Enchantment: 1, CategoryPath: "weapons/quarterstaff/quarterstaff_doublebladedstaff", Recipe: recipe_24919d1b23e9},
+		{ID: "T4_2H_DOUBLEBLADEDSTAFF@2", Name: "Doppelklingenstab des Adepten", Tier: 4, Enchantment: 2, CategoryPath: "weapons/quarterstaff/quarterstaff_doublebladedstaff", Recipe: recipe_24919d1b23e9},
+		{ID: "T4_2H_DOUBLEBLADEDSTAFF@3", Name: "Doppelklingenstab des Adepten", Tier: 4, Enchantment: 3, CategoryPath: "weapons/quarterstaff/quarterstaff_doublebladedstaff", Recipe: recipe_24919d1b23e9},
+		{ID: "T4_2H_DOUBLEBLADEDSTAFF@4", Name: "Doppelklingenstab des Adepten", Tier: 4, Enchantment: 4, CategoryPath: "weapons/quarterstaff/quarterstaff_doublebladedstaff", Recipe: recipe_24919d1b23e9},
+		{ID: "T5_2H_DOUBLEBLADEDSTAFF", Name: "Doppelklingenstab des Experten", Tier: 5, Enchantment: 0, CategoryPath: "weapons/quarterstaff/quarterstaff_doublebladedstaff", Recipe: recipe_496aaa88a89d},
+		{ID: "T5_2H_DOUBLEBLADEDSTAFF@1", Name: "Doppelklingenstab des Experten", Tier: 5, Enchantment: 1, CategoryPath: "weapons/quarterstaff/quarterstaff_doublebladedstaff", Recipe: recipe_496aaa88a89d},
+		{ID: "T5_2H_DOUBLEBLADEDSTAFF@2", Name: "Doppelklingenstab des Experten", Tier: 5, Enchantment: 2, CategoryPath: "weapons/quarterstaff/quarterstaff_doublebladedstaff", Recipe: recipe_496aaa88a89d},
+		{ID: "T5_2H_DOUBLEBLADEDSTAFF@3", Name: "Doppelklingenstab des Experten", Tier: 5, Enchantment: 3, CategoryPath: "weapons/quarterstaff/quarterstaff_doublebladedstaff", Recipe: recipe_496aaa88a89d},
+		{ID: "T5_2H_DOUBLEBLADEDSTAFF@4", Name: "Doppelklingenstab des Experten", Tier: 5, Enchantment: 4, CategoryPath: "weapons/quarterstaff/quarterstaff_doublebladedstaff", Recipe: recipe_496aaa88a89d},
+		{ID: "T6_2H_DOUBLEBLADEDSTAFF", Name: "Doppelklingenstab des Meisters", Tier: 6, Enchantment: 0, CategoryPath: "weapons/quarterstaff/quarterstaff_doublebladedstaff", Recipe: recipe_ec8696a6ae1a},
+		{ID: "T6_2H_DOUBLEBLADEDSTAFF@1", Name: "Doppelklingenstab des Meisters", Tier: 6, Enchantment: 1, CategoryPath: "weapons/quarterstaff/quarterstaff_doublebladedstaff", Recipe: recipe_ec8696a6ae1a},
+		{ID: "T6_2H_DOUBLEBLADEDSTAFF@2", Name: "Doppelklingenstab des Meisters", Tier: 6, Enchantment: 2, CategoryPath: "weapons/quarterstaff/quarterstaff_doublebladedstaff", Recipe: recipe_ec8696a6ae1a},
+		{ID: "T6_2H_DOUBLEBLADEDSTAFF@3", Name: "Doppelklingenstab des Meisters", Tier: 6, Enchantment: 3, CategoryPath: "weapons/quarterstaff/quarterstaff_doublebladedstaff", Recipe: recipe_ec8696a6ae1a},
+		{ID: "T6_2H_DOUBLEBLADEDSTAFF@4", Name: "Doppelklingenstab des Meisters", Tier: 6, Enchantment: 4, CategoryPath: "weapons/quarterstaff/quarterstaff_doublebladedstaff", Recipe: recipe_ec8696a6ae1a},
+		{ID: "T7_2H_DOUBLEBLADEDSTAFF", Name: "Doppelklingenstab des Großmeisters", Tier: 7, Enchantment: 0, CategoryPath: "weapons/quarterstaff/quarterstaff_doublebladedstaff", Recipe: recipe_ee0569e8825e},
+		{ID: "T7_2H_DOUBLEBLADEDSTAFF@1", Name: "Doppelklingenstab des Großmeisters", Tier: 7, Enchantment: 1, CategoryPath: "weapons/quarterstaff/quarterstaff_doublebladedstaff", Recipe: recipe_ee0569e8825e},
+		{ID: "T7_2H_DOUBLEBLADEDSTAFF@2", Name: "Doppelklingenstab des Großmeisters", Tier: 7, Enchantment: 2, CategoryPath: "weapons/quarterstaff/quarterstaff_doublebladedstaff", Recipe: recipe_ee0569e8825e},
+		{ID: "T7_2H_DOUBLEBLADEDSTAFF@3", Name: "Doppelklingenstab des Großmeisters", Tier: 7, Enchantment: 3, CategoryPath: "weapons/quarterstaff/quarterstaff_doublebladedstaff", Recipe: recipe_ee0569e8825e},
+		{ID: "T7_2H_DOUBLEBLADEDSTAFF@4", Name: "Doppelklingenstab des Großmeisters", Tier: 7, Enchantment: 4, CategoryPath: "weapons/quarterstaff/quarterstaff_doublebladedstaff", Recipe: recipe_ee0569e8825e},
+		{ID: "T8_2H_DOUBLEBLADEDSTAFF", Name: "Doppelklingenstab des Ältesten", Tier: 8, Enchantment: 0, CategoryPath: "weapons/quarterstaff/quarterstaff_doublebladedstaff", Recipe: recipe_328608bb6fae},
+		{ID: "T8_2H_DOUBLEBLADEDSTAFF@1", Name: "Doppelklingenstab des Ältesten", Tier: 8, Enchantment: 1, CategoryPath: "weapons/quarterstaff/quarterstaff_doublebladedstaff", Recipe: recipe_328608bb6fae},
+		{ID: "T8_2H_DOUBLEBLADEDSTAFF@2", Name: "Doppelklingenstab des Ältesten", Tier: 8, Enchantment: 2, CategoryPath: "weapons/quarterstaff/quarterstaff_doublebladedstaff", Recipe: recipe_328608bb6fae},
+		{ID: "T8_2H_DOUBLEBLADEDSTAFF@3", Name: "Doppelklingenstab des Ältesten", Tier: 8, Enchantment: 3, CategoryPath: "weapons/quarterstaff/quarterstaff_doublebladedstaff", Recipe: recipe_328608bb6fae},
+		{ID: "T8_2H_DOUBLEBLADEDSTAFF@4", Name: "Doppelklingenstab des Ältesten", Tier: 8, Enchantment: 4, CategoryPath: "weapons/quarterstaff/quarterstaff_doublebladedstaff", Recipe: recipe_328608bb6fae},
+	}},
+	{Name: "Phantom-Zwillingsklinge des Adepten", BaseID: "2H_DOUBLEBLADEDSTAFF_CRYSTAL", MinTier: 4, MaxTier: 8, MinEnchantment: 0, MaxEnchantment: 4, Variants: []ItemVariant{
+		{ID: "T4_2H_DOUBLEBLADEDSTAFF_CRYSTAL", Name: "Phantom-Zwillingsklinge des Adepten", Tier: 4, Enchantment: 0, CategoryPath: "weapons/quarterstaff/quarterstaff_crystal", Recipe: recipe_14d866578509},
+		{ID: "T4_2H_DOUBLEBLADEDSTAFF_CRYSTAL@1", Name: "Phantom-Zwillingsklinge des Adepten", Tier: 4, Enchantment: 1, CategoryPath: "weapons/quarterstaff/quarterstaff_crystal", Recipe: recipe_14d866578509},
+		{ID: "T4_2H_DOUBLEBLADEDSTAFF_CRYSTAL@2", Name: "Phantom-Zwillingsklinge des Adepten", Tier: 4, Enchantment: 2, CategoryPath: "weapons/quarterstaff/quarterstaff_crystal", Recipe: recipe_14d866578509},
+		{ID: "T4_2H_DOUBLEBLADEDSTAFF_CRYSTAL@3", Name: "Phantom-Zwillingsklinge des Adepten", Tier: 4, Enchantment: 3, CategoryPath: "weapons/quarterstaff/quarterstaff_crystal", Recipe: recipe_14d866578509},
+		{ID: "T4_2H_DOUBLEBLADEDSTAFF_CRYSTAL@4", Name: "Phantom-Zwillingsklinge des Adepten", Tier: 4, Enchantment: 4, CategoryPath: "weapons/quarterstaff/quarterstaff_crystal", Recipe: recipe_14d866578509},
+		{ID: "T5_2H_DOUBLEBLADEDSTAFF_CRYSTAL", Name: "Phantom-Zwillingsklinge des Experten", Tier: 5, Enchantment: 0, CategoryPath: "weapons/quarterstaff/quarterstaff_crystal", Recipe: recipe_41ab2316136d},
+		{ID: "T5_2H_DOUBLEBLADEDSTAFF_CRYSTAL@1", Name: "Phantom-Zwillingsklinge des Experten", Tier: 5, Enchantment: 1, CategoryPath: "weapons/quarterstaff/quarterstaff_crystal", Recipe: recipe_41ab2316136d},
+		{ID: "T5_2H_DOUBLEBLADEDSTAFF_CRYSTAL@2", Name: "Phantom-Zwillingsklinge des Experten", Tier: 5, Enchantment: 2, CategoryPath: "weapons/quarterstaff/quarterstaff_crystal", Recipe: recipe_41ab2316136d},
+		{ID: "T5_2H_DOUBLEBLADEDSTAFF_CRYSTAL@3", Name: "Phantom-Zwillingsklinge des Experten", Tier: 5, Enchantment: 3, CategoryPath: "weapons/quarterstaff/quarterstaff_crystal", Recipe: recipe_41ab2316136d},
+		{ID: "T5_2H_DOUBLEBLADEDSTAFF_CRYSTAL@4", Name: "Phantom-Zwillingsklinge des Experten", Tier: 5, Enchantment: 4, CategoryPath: "weapons/quarterstaff/quarterstaff_crystal", Recipe: recipe_41ab2316136d},
+		{ID: "T6_2H_DOUBLEBLADEDSTAFF_CRYSTAL", Name: "Phantom-Zwillingsklinge des Meisters", Tier: 6, Enchantment: 0, CategoryPath: "weapons/quarterstaff/quarterstaff_crystal", Recipe: recipe_12fddeb25ee0},
+		{ID: "T6_2H_DOUBLEBLADEDSTAFF_CRYSTAL@1", Name: "Phantom-Zwillingsklinge des Meisters", Tier: 6, Enchantment: 1, CategoryPath: "weapons/quarterstaff/quarterstaff_crystal", Recipe: recipe_12fddeb25ee0},
+		{ID: "T6_2H_DOUBLEBLADEDSTAFF_CRYSTAL@2", Name: "Phantom-Zwillingsklinge des Meisters", Tier: 6, Enchantment: 2, CategoryPath: "weapons/quarterstaff/quarterstaff_crystal", Recipe: recipe_12fddeb25ee0},
+		{ID: "T6_2H_DOUBLEBLADEDSTAFF_CRYSTAL@3", Name: "Phantom-Zwillingsklinge des Meisters", Tier: 6, Enchantment: 3, CategoryPath: "weapons/quarterstaff/quarterstaff_crystal", Recipe: recipe_12fddeb25ee0},
+		{ID: "T6_2H_DOUBLEBLADEDSTAFF_CRYSTAL@4", Name: "Phantom-Zwillingsklinge des Meisters", Tier: 6, Enchantment: 4, CategoryPath: "weapons/quarterstaff/quarterstaff_crystal", Recipe: recipe_12fddeb25ee0},
+		{ID: "T7_2H_DOUBLEBLADEDSTAFF_CRYSTAL", Name: "Phantom-Zwillingsklinge des Großmeisters", Tier: 7, Enchantment: 0, CategoryPath: "weapons/quarterstaff/quarterstaff_crystal", Recipe: recipe_ac9165f65e8d},
+		{ID: "T7_2H_DOUBLEBLADEDSTAFF_CRYSTAL@1", Name: "Phantom-Zwillingsklinge des Großmeisters", Tier: 7, Enchantment: 1, CategoryPath: "weapons/quarterstaff/quarterstaff_crystal", Recipe: recipe_ac9165f65e8d},
+		{ID: "T7_2H_DOUBLEBLADEDSTAFF_CRYSTAL@2", Name: "Phantom-Zwillingsklinge des Großmeisters", Tier: 7, Enchantment: 2, CategoryPath: "weapons/quarterstaff/quarterstaff_crystal", Recipe: recipe_ac9165f65e8d},
+		{ID: "T7_2H_DOUBLEBLADEDSTAFF_CRYSTAL@3", Name: "Phantom-Zwillingsklinge des Großmeisters", Tier: 7, Enchantment: 3, CategoryPath: "weapons/quarterstaff/quarterstaff_crystal", Recipe: recipe_ac9165f65e8d},
+		{ID: "T7_2H_DOUBLEBLADEDSTAFF_CRYSTAL@4", Name: "Phantom-Zwillingsklinge des Großmeisters", Tier: 7, Enchantment: 4, CategoryPath: "weapons/quarterstaff/quarterstaff_crystal", Recipe: recipe_ac9165f65e8d},
+		{ID: "T8_2H_DOUBLEBLADEDSTAFF_CRYSTAL", Name: "Phantom-Zwillingsklinge des Ältesten", Tier: 8, Enchantment: 0, CategoryPath: "weapons/quarterstaff/quarterstaff_crystal", Recipe: recipe_7cd7ee6b039e},
+		{ID: "T8_2H_DOUBLEBLADEDSTAFF_CRYSTAL@1", Name: "Phantom-Zwillingsklinge des Ältesten", Tier: 8, Enchantment: 1, CategoryPath: "weapons/quarterstaff/quarterstaff_crystal", Recipe: recipe_7cd7ee6b039e},
+		{ID: "T8_2H_DOUBLEBLADEDSTAFF_CRYSTAL@2", Name: "Phantom-Zwillingsklinge des Ältesten", Tier: 8, Enchantment: 2, CategoryPath: "weapons/quarterstaff/quarterstaff_crystal", Recipe: recipe_7cd7ee6b039e},
+		{ID: "T8_2H_DOUBLEBLADEDSTAFF_CRYSTAL@3", Name: "Phantom-Zwillingsklinge des Ältesten", Tier: 8, Enchantment: 3, CategoryPath: "weapons/quarterstaff/quarterstaff_crystal", Recipe: recipe_7cd7ee6b039e},
+		{ID: "T8_2H_DOUBLEBLADEDSTAFF_CRYSTAL@4", Name: "Phantom-Zwillingsklinge des Ältesten", Tier: 8, Enchantment: 4, CategoryPath: "weapons/quarterstaff/quarterstaff_crystal", Recipe: recipe_7cd7ee6b039e},
+	}},
+	{Name: "Bärentatzen des Adepten", BaseID: "2H_DUALAXE_KEEPER", MinTier: 4, MaxTier: 8, MinEnchantment: 0, MaxEnchantment: 4, Variants: []ItemVariant{
+		{ID: "T4_2H_DUALAXE_KEEPER", Name: "Bärentatzen des Adepten", Tier: 4, Enchantment: 0, CategoryPath: "weapons/axe/axe_keeper", Recipe: recipe_ca6cf7f7f08e},
+		{ID: "T4_2H_DUALAXE_KEEPER@1", Name: "Bärentatzen des Adepten", Tier: 4, Enchantment: 1, CategoryPath: "weapons/axe/axe_keeper", Recipe: recipe_ca6cf7f7f08e},
+		{ID: "T4_2H_DUALAXE_KEEPER@2", Name: "Bärentatzen des Adepten", Tier: 4, Enchantment: 2, CategoryPath: "weapons/axe/axe_keeper", Recipe: recipe_ca6cf7f7f08e},
+		{ID: "T4_2H_DUALAXE_KEEPER@3", Name: "Bärentatzen des Adepten", Tier: 4, Enchantment: 3, CategoryPath: "weapons/axe/axe_keeper", Recipe: recipe_ca6cf7f7f08e},
+		{ID: "T4_2H_DUALAXE_KEEPER@4", Name: "Bärentatzen des Adepten", Tier: 4, Enchantment: 4, CategoryPath: "weapons/axe/axe_keeper", Recipe: recipe_ca6cf7f7f08e},
+		{ID: "T5_2H_DUALAXE_KEEPER", Name: "Bärentatzen des Experten", Tier: 5, Enchantment: 0, CategoryPath: "weapons/axe/axe_keeper", Recipe: recipe_9ce93702497e},
+		{ID: "T5_2H_DUALAXE_KEEPER@1", Name: "Bärentatzen des Experten", Tier: 5, Enchantment: 1, CategoryPath: "weapons/axe/axe_keeper", Recipe: recipe_9ce93702497e},
+		{ID: "T5_2H_DUALAXE_KEEPER@2", Name: "Bärentatzen des Experten", Tier: 5, Enchantment: 2, CategoryPath: "weapons/axe/axe_keeper", Recipe: recipe_9ce93702497e},
+		{ID: "T5_2H_DUALAXE_KEEPER@3", Name: "Bärentatzen des Experten", Tier: 5, Enchantment: 3, CategoryPath: "weapons/axe/axe_keeper", Recipe: recipe_9ce93702497e},
+		{ID: "T5_2H_DUALAXE_KEEPER@4", Name: "Bärentatzen des Experten", Tier: 5, Enchantment: 4, CategoryPath: "weapons/axe/axe_keeper", Recipe: recipe_9ce93702497e},
+		{ID: "T6_2H_DUALAXE_KEEPER", Name: "Bärentatzen des Meisters", Tier: 6, Enchantment: 0, CategoryPath: "weapons/axe/axe_keeper", Recipe: recipe_b993e5255b67},
+		{ID: "T6_2H_DUALAXE_KEEPER@1", Name: "Bärentatzen des Meisters", Tier: 6, Enchantment: 1, CategoryPath: "weapons/axe/axe_keeper", Recipe: recipe_b993e5255b67},
+		{ID: "T6_2H_DUALAXE_KEEPER@2", Name: "Bärentatzen des Meisters", Tier: 6, Enchantment: 2, CategoryPath: "weapons/axe/axe_keeper", Recipe: recipe_b993e5255b67},
+		{ID: "T6_2H_DUALAXE_KEEPER@3", Name: "Bärentatzen des Meisters", Tier: 6, Enchantment: 3, CategoryPath: "weapons/axe/axe_keeper", Recipe: recipe_b993e5255b67},
+		{ID: "T6_2H_DUALAXE_KEEPER@4", Name: "Bärentatzen des Meisters", Tier: 6, Enchantment: 4, CategoryPath: "weapons/axe/axe_keeper", Recipe: recipe_b993e5255b67},
+		{ID: "T7_2H_DUALAXE_KEEPER", Name: "Bärentatzen des Großmeisters", Tier: 7, Enchantment: 0, CategoryPath: "weapons/axe/axe_keeper", Recipe: recipe_c136fc515503},
+		{ID: "T7_2H_DUALAXE_KEEPER@1", Name: "Bärentatzen des Großmeisters", Tier: 7, Enchantment: 1, CategoryPath: "weapons/axe/axe_keeper", Recipe: recipe_c136fc515503},
+		{ID: "T7_2H_DUALAXE_KEEPER@2", Name: "Bärentatzen des Großmeisters", Tier: 7, Enchantment: 2, CategoryPath: "weapons/axe/axe_keeper", Recipe: recipe_c136fc515503},
+		{ID: "T7_2H_DUALAXE_KEEPER@3", Name: "Bärentatzen des Großmeisters", Tier: 7, Enchantment: 3, CategoryPath: "weapons/axe/axe_keeper", Recipe: recipe_c136fc515503},
+		{ID: "T7_2H_DUALAXE_KEEPER@4", Name: "Bärentatzen des Großmeisters", Tier: 7, Enchantment: 4, CategoryPath: "weapons/axe/axe_keeper", Recipe: recipe_c136fc515503},
+		{ID: "T8_2H_DUALAXE_KEEPER", Name: "Bärentatzen des Ältesten", Tier: 8, Enchantment: 0, CategoryPath: "weapons/axe/axe_keeper", Recipe: recipe_523016f48bd3},
+		{ID: "T8_2H_DUALAXE_KEEPER@1", Name: "Bärentatzen des Ältesten", Tier: 8, Enchantment: 1, CategoryPath: "weapons/axe/axe_keeper", Recipe: recipe_523016f48bd3},
+		{ID: "T8_2H_DUALAXE_KEEPER@2", Name: "Bärentatzen des Ältesten", Tier: 8, Enchantment: 2, CategoryPath: "weapons/axe/axe_keeper", Recipe: recipe_523016f48bd3},
+		{ID: "T8_2H_DUALAXE_KEEPER@3", Name: "Bärentatzen des Ältesten", Tier: 8, Enchantment: 3, CategoryPath: "weapons/axe/axe_keeper", Recipe: recipe_523016f48bd3},
+		{ID: "T8_2H_DUALAXE_KEEPER@4", Name: "Bärentatzen des Ältesten", Tier: 8, Enchantment: 4, CategoryPath: "weapons/axe/axe_keeper", Recipe: recipe_523016f48bd3},
+	}},
+	{Name: "Arkanlicht-Strahler des Adepten", BaseID: "2H_DUALCROSSBOW_CRYSTAL", MinTier: 4, MaxTier: 8, MinEnchantment: 0, MaxEnchantment: 4, Variants: []ItemVariant{
+		{ID: "T4_2H_DUALCROSSBOW_CRYSTAL", Name: "Arkanlicht-Strahler des Adepten", Tier: 4, Enchantment: 0, CategoryPath: "weapons/crossbow/crossbow_crystal", Recipe: recipe_90c2195b0188},
+		{ID: "T4_2H_DUALCROSSBOW_CRYSTAL@1", Name: "Arkanlicht-Strahler des Adepten", Tier: 4, Enchantment: 1, CategoryPath: "weapons/crossbow/crossbow_crystal", Recipe: recipe_90c2195b0188},
+		{ID: "T4_2H_DUALCROSSBOW_CRYSTAL@2", Name: "Arkanlicht-Strahler des Adepten", Tier: 4, Enchantment: 2, CategoryPath: "weapons/crossbow/crossbow_crystal", Recipe: recipe_90c2195b0188},
+		{ID: "T4_2H_DUALCROSSBOW_CRYSTAL@3", Name: "Arkanlicht-Strahler des Adepten", Tier: 4, Enchantment: 3, CategoryPath: "weapons/crossbow/crossbow_crystal", Recipe: recipe_90c2195b0188},
+		{ID: "T4_2H_DUALCROSSBOW_CRYSTAL@4", Name: "Arkanlicht-Strahler des Adepten", Tier: 4, Enchantment: 4, CategoryPath: "weapons/crossbow/crossbow_crystal", Recipe: recipe_90c2195b0188},
+		{ID: "T5_2H_DUALCROSSBOW_CRYSTAL", Name: "Arkanlicht-Strahler des Experten", Tier: 5, Enchantment: 0, CategoryPath: "weapons/crossbow/crossbow_crystal", Recipe: recipe_4e753cad2745},
+		{ID: "T5_2H_DUALCROSSBOW_CRYSTAL@1", Name: "Arkanlicht-Strahler des Experten", Tier: 5, Enchantment: 1, CategoryPath: "weapons/crossbow/crossbow_crystal", Recipe: recipe_4e753cad2745},
+		{ID: "T5_2H_DUALCROSSBOW_CRYSTAL@2", Name: "Arkanlicht-Strahler des Experten", Tier: 5, Enchantment: 2, CategoryPath: "weapons/crossbow/crossbow_crystal", Recipe: recipe_4e753cad2745},
+		{ID: "T5_2H_DUALCROSSBOW_CRYSTAL@3", Name: "Arkanlicht-Strahler des Experten", Tier: 5, Enchantment: 3, CategoryPath: "weapons/crossbow/crossbow_crystal", Recipe: recipe_4e753cad2745},
+		{ID: "T5_2H_DUALCROSSBOW_CRYSTAL@4", Name: "Arkanlicht-Strahler des Experten", Tier: 5, Enchantment: 4, CategoryPath: "weapons/crossbow/crossbow_crystal", Recipe: recipe_4e753cad2745},
+		{ID: "T6_2H_DUALCROSSBOW_CRYSTAL", Name: "Arkanlicht-Strahler des Meisters", Tier: 6, Enchantment: 0, CategoryPath: "weapons/crossbow/crossbow_crystal", Recipe: recipe_459c4f999e80},
+		{ID: "T6_2H_DUALCROSSBOW_CRYSTAL@1", Name: "Arkanlicht-Strahler des Meisters", Tier: 6, Enchantment: 1, CategoryPath: "weapons/crossbow/crossbow_crystal", Recipe: recipe_459c4f999e80},
+		{ID: "T6_2H_DUALCROSSBOW_CRYSTAL@2", Name: "Arkanlicht-Strahler des Meisters", Tier: 6, Enchantment: 2, CategoryPath: "weapons/crossbow/crossbow_crystal", Recipe: recipe_459c4f999e80},
+		{ID: "T6_2H_DUALCROSSBOW_CRYSTAL@3", Name: "Arkanlicht-Strahler des Meisters", Tier: 6, Enchantment: 3, CategoryPath: "weapons/crossbow/crossbow_crystal", Recipe: recipe_459c4f999e80},
+		{ID: "T6_2H_DUALCROSSBOW_CRYSTAL@4", Name: "Arkanlicht-Strahler des Meisters", Tier: 6, Enchantment: 4, CategoryPath: "weapons/crossbow/crossbow_crystal", Recipe: recipe_459c4f999e80},
+		{ID: "T7_2H_DUALCROSSBOW_CRYSTAL", Name: "Arkanlicht-Strahler des Großmeisters", Tier: 7, Enchantment: 0, CategoryPath: "weapons/crossbow/crossbow_crystal", Recipe: recipe_a453a98c2d12},
+		{ID: "T7_2H_DUALCROSSBOW_CRYSTAL@1", Name: "Arkanlicht-Strahler des Großmeisters", Tier: 7, Enchantment: 1, CategoryPath: "weapons/crossbow/crossbow_crystal", Recipe: recipe_a453a98c2d12},
+		{ID: "T7_2H_DUALCROSSBOW_CRYSTAL@2", Name: "Arkanlicht-Strahler des Großmeisters", Tier: 7, Enchantment: 2, CategoryPath: "weapons/crossbow/crossbow_crystal", Recipe: recipe_a453a98c2d12},
+		{ID: "T7_2H_DUALCROSSBOW_CRYSTAL@3", Name: "Arkanlicht-Strahler des Großmeisters", Tier: 7, Enchantment: 3, CategoryPath: "weapons/crossbow/crossbow_crystal", Recipe: recipe_a453a98c2d12},
+		{ID: "T7_2H_DUALCROSSBOW_CRYSTAL@4", Name: "Arkanlicht-Strahler des Großmeisters", Tier: 7, Enchantment: 4, CategoryPath: "weapons/crossbow/crossbow_crystal", Recipe: recipe_a453a98c2d12},
+		{ID: "T8_2H_DUALCROSSBOW_CRYSTAL", Name: "Arkanlicht-Strahler des Ältesten", Tier: 8, Enchantment: 0, CategoryPath: "weapons/crossbow/crossbow_crystal", Recipe: recipe_fe47332ae12b},
+		{ID: "T8_2H_DUALCROSSBOW_CRYSTAL@1", Name: "Arkanlicht-Strahler des Ältesten", Tier: 8, Enchantment: 1, CategoryPath: "weapons/crossbow/crossbow_crystal", Recipe: recipe_fe47332ae12b},
+		{ID: "T8_2H_DUALCROSSBOW_CRYSTAL@2", Name: "Arkanlicht-Strahler des Ältesten", Tier: 8, Enchantment: 2, CategoryPath: "weapons/crossbow/crossbow_crystal", Recipe: recipe_fe47332ae12b},
+		{ID: "T8_2H_DUALCROSSBOW_CRYSTAL@3", Name: "Arkanlicht-Strahler des Ältesten", Tier: 8, Enchantment: 3, CategoryPath: "weapons/crossbow/crossbow_crystal", Recipe: recipe_fe47332ae12b},
+		{ID: "T8_2H_DUALCROSSBOW_CRYSTAL@4", Name: "Arkanlicht-Strahler des Ältesten", Tier: 8, Enchantment: 4, CategoryPath: "weapons/crossbow/crossbow_crystal", Recipe: recipe_fe47332ae12b},
+	}},
+	{Name: "Bolzenschleudern des Adepten", BaseID: "2H_DUALCROSSBOW_HELL", MinTier: 4, MaxTier: 8, MinEnchantment: 0, MaxEnchantment: 4, Variants: []ItemVariant{
+		{ID: "T4_2H_DUALCROSSBOW_HELL", Name: "Bolzenschleudern des Adepten", Tier: 4, Enchantment: 0, CategoryPath: "weapons/crossbow/crossbow_hell", Recipe: recipe_4194372d63bc},
+		{ID: "T4_2H_DUALCROSSBOW_HELL@1", Name: "Bolzenschleudern des Adepten", Tier: 4, Enchantment: 1, CategoryPath: "weapons/crossbow/crossbow_hell", Recipe: recipe_4194372d63bc},
+		{ID: "T4_2H_DUALCROSSBOW_HELL@2", Name: "Bolzenschleudern des Adepten", Tier: 4, Enchantment: 2, CategoryPath: "weapons/crossbow/crossbow_hell", Recipe: recipe_4194372d63bc},
+		{ID: "T4_2H_DUALCROSSBOW_HELL@3", Name: "Bolzenschleudern des Adepten", Tier: 4, Enchantment: 3, CategoryPath: "weapons/crossbow/crossbow_hell", Recipe: recipe_4194372d63bc},
+		{ID: "T4_2H_DUALCROSSBOW_HELL@4", Name: "Bolzenschleudern des Adepten", Tier: 4, Enchantment: 4, CategoryPath: "weapons/crossbow/crossbow_hell", Recipe: recipe_4194372d63bc},
+		{ID: "T5_2H_DUALCROSSBOW_HELL", Name: "Bolzenschleudern des Experten", Tier: 5, Enchantment: 0, CategoryPath: "weapons/crossbow/crossbow_hell", Recipe: recipe_90fdb829e241},
+		{ID: "T5_2H_DUALCROSSBOW_HELL@1", Name: "Bolzenschleudern des Experten", Tier: 5, Enchantment: 1, CategoryPath: "weapons/crossbow/crossbow_hell", Recipe: recipe_90fdb829e241},
+		{ID: "T5_2H_DUALCROSSBOW_HELL@2", Name: "Bolzenschleudern des Experten", Tier: 5, Enchantment: 2, CategoryPath: "weapons/crossbow/crossbow_hell", Recipe: recipe_90fdb829e241},
+		{ID: "T5_2H_DUALCROSSBOW_HELL@3", Name: "Bolzenschleudern des Experten", Tier: 5, Enchantment: 3, CategoryPath: "weapons/crossbow/crossbow_hell", Recipe: recipe_90fdb829e241},
+		{ID: "T5_2H_DUALCROSSBOW_HELL@4", Name: "Bolzenschleudern des Experten", Tier: 5, Enchantment: 4, CategoryPath: "weapons/crossbow/crossbow_hell", Recipe: recipe_90fdb829e241},
+		{ID: "T6_2H_DUALCROSSBOW_HELL", Name: "Bolzenschleudern des Meisters", Tier: 6, Enchantment: 0, CategoryPath: "weapons/crossbow/crossbow_hell", Recipe: recipe_dfc987ed57e8},
+		{ID: "T6_2H_DUALCROSSBOW_HELL@1", Name: "Bolzenschleudern des Meisters", Tier: 6, Enchantment: 1, CategoryPath: "weapons/crossbow/crossbow_hell", Recipe: recipe_dfc987ed57e8},
+		{ID: "T6_2H_DUALCROSSBOW_HELL@2", Name: "Bolzenschleudern des Meisters", Tier: 6, Enchantment: 2, CategoryPath: "weapons/crossbow/crossbow_hell", Recipe: recipe_dfc987ed57e8},
+		{ID: "T6_2H_DUALCROSSBOW_HELL@3", Name: "Bolzenschleudern des Meisters", Tier: 6, Enchantment: 3, CategoryPath: "weapons/crossbow/crossbow_hell", Recipe: recipe_dfc987ed57e8},
+		{ID: "T6_2H_DUALCROSSBOW_HELL@4", Name: "Bolzenschleudern des Meisters", Tier: 6, Enchantment: 4, CategoryPath: "weapons/crossbow/crossbow_hell", Recipe: recipe_dfc987ed57e8},
+		{ID: "T7_2H_DUALCROSSBOW_HELL", Name: "Bolzenschleudern des Großmeisters", Tier: 7, Enchantment: 0, CategoryPath: "weapons/crossbow/crossbow_hell", Recipe: recipe_e799ba554612},
+		{ID: "T7_2H_DUALCROSSBOW_HELL@1", Name: "Bolzenschleudern des Großmeisters", Tier: 7, Enchantment: 1, CategoryPath: "weapons/crossbow/crossbow_hell", Recipe: recipe_e799ba554612},
+		{ID: "T7_2H_DUALCROSSBOW_HELL@2", Name: "Bolzenschleudern des Großmeisters", Tier: 7, Enchantment: 2, CategoryPath: "weapons/crossbow/crossbow_hell", Recipe: recipe_e799ba554612},
+		{ID: "T7_2H_DUALCROSSBOW_HELL@3", Name: "Bolzenschleudern des Großmeisters", Tier: 7, Enchantment: 3, CategoryPath: "weapons/crossbow/crossbow_hell", Recipe: recipe_e799ba554612},
+		{ID: "T7_2H_DUALCROSSBOW_HELL@4", Name: "Bolzenschleudern des Großmeisters", Tier: 7, Enchantment: 4, CategoryPath: "weapons/crossbow/crossbow_hell", Recipe: recipe_e799ba554612},
+		{ID: "T8_2H_DUALCROSSBOW_HELL", Name: "Bolzenschleudern des Ältesten", Tier: 8, Enchantment: 0, CategoryPath: "weapons/crossbow/crossbow_hell", Recipe: recipe_cf61c972870b},
+		{ID: "T8_2H_DUALCROSSBOW_HELL@1", Name: "Bolzenschleudern des Ältesten", Tier: 8, Enchantment: 1, CategoryPath: "weapons/crossbow/crossbow_hell", Recipe: recipe_cf61c972870b},
+		{ID: "T8_2H_DUALCROSSBOW_HELL@2", Name: "Bolzenschleudern des Ältesten", Tier: 8, Enchantment: 2, CategoryPath: "weapons/crossbow/crossbow_hell", Recipe: recipe_cf61c972870b},
+		{ID: "T8_2H_DUALCROSSBOW_HELL@3", Name: "Bolzenschleudern des Ältesten", Tier: 8, Enchantment: 3, CategoryPath: "weapons/crossbow/crossbow_hell", Recipe: recipe_cf61c972870b},
+		{ID: "T8_2H_DUALCROSSBOW_HELL@4", Name: "Bolzenschleudern des Ältesten", Tier: 8, Enchantment: 4, CategoryPath: "weapons/crossbow/crossbow_hell", Recipe: recipe_cf61c972870b},
+	}},
+	{Name: "Schmiedehämmer des Adepten", BaseID: "2H_DUALHAMMER_HELL", MinTier: 4, MaxTier: 8, MinEnchantment: 0, MaxEnchantment: 4, Variants: []ItemVariant{
+		{ID: "T4_2H_DUALHAMMER_HELL", Name: "Schmiedehämmer des Adepten", Tier: 4, Enchantment: 0, CategoryPath: "weapons/hammer/hammer_hell", Recipe: recipe_bae38b7b7113},
+		{ID: "T4_2H_DUALHAMMER_HELL@1", Name: "Schmiedehämmer des Adepten", Tier: 4, Enchantment: 1, CategoryPath: "weapons/hammer/hammer_hell", Recipe: recipe_bae38b7b7113},
+		{ID: "T4_2H_DUALHAMMER_HELL@2", Name: "Schmiedehämmer des Adepten", Tier: 4, Enchantment: 2, CategoryPath: "weapons/hammer/hammer_hell", Recipe: recipe_bae38b7b7113},
+		{ID: "T4_2H_DUALHAMMER_HELL@3", Name: "Schmiedehämmer des Adepten", Tier: 4, Enchantment: 3, CategoryPath: "weapons/hammer/hammer_hell", Recipe: recipe_bae38b7b7113},
+		{ID: "T4_2H_DUALHAMMER_HELL@4", Name: "Schmiedehämmer des Adepten", Tier: 4, Enchantment: 4, CategoryPath: "weapons/hammer/hammer_hell", Recipe: recipe_bae38b7b7113},
+		{ID: "T5_2H_DUALHAMMER_HELL", Name: "Schmiedehämmer des Experten", Tier: 5, Enchantment: 0, CategoryPath: "weapons/hammer/hammer_hell", Recipe: recipe_578c35aa2876},
+		{ID: "T5_2H_DUALHAMMER_HELL@1", Name: "Schmiedehämmer des Experten", Tier: 5, Enchantment: 1, CategoryPath: "weapons/hammer/hammer_hell", Recipe: recipe_578c35aa2876},
+		{ID: "T5_2H_DUALHAMMER_HELL@2", Name: "Schmiedehämmer des Experten", Tier: 5, Enchantment: 2, CategoryPath: "weapons/hammer/hammer_hell", Recipe: recipe_578c35aa2876},
+		{ID: "T5_2H_DUALHAMMER_HELL@3", Name: "Schmiedehämmer des Experten", Tier: 5, Enchantment: 3, CategoryPath: "weapons/hammer/hammer_hell", Recipe: recipe_578c35aa2876},
+		{ID: "T5_2H_DUALHAMMER_HELL@4", Name: "Schmiedehämmer des Experten", Tier: 5, Enchantment: 4, CategoryPath: "weapons/hammer/hammer_hell", Recipe: recipe_578c35aa2876},
+		{ID: "T6_2H_DUALHAMMER_HELL", Name: "Schmiedehämmer des Meisters", Tier: 6, Enchantment: 0, CategoryPath: "weapons/hammer/hammer_hell", Recipe: recipe_137ddb318737},
+		{ID: "T6_2H_DUALHAMMER_HELL@1", Name: "Schmiedehämmer des Meisters", Tier: 6, Enchantment: 1, CategoryPath: "weapons/hammer/hammer_hell", Recipe: recipe_137ddb318737},
+		{ID: "T6_2H_DUALHAMMER_HELL@2", Name: "Schmiedehämmer des Meisters", Tier: 6, Enchantment: 2, CategoryPath: "weapons/hammer/hammer_hell", Recipe: recipe_137ddb318737},
+		{ID: "T6_2H_DUALHAMMER_HELL@3", Name: "Schmiedehämmer des Meisters", Tier: 6, Enchantment: 3, CategoryPath: "weapons/hammer/hammer_hell", Recipe: recipe_137ddb318737},
+		{ID: "T6_2H_DUALHAMMER_HELL@4", Name: "Schmiedehämmer des Meisters", Tier: 6, Enchantment: 4, CategoryPath: "weapons/hammer/hammer_hell", Recipe: recipe_137ddb318737},
+		{ID: "T7_2H_DUALHAMMER_HELL", Name: "Schmiedehämmer des Großmeisters", Tier: 7, Enchantment: 0, CategoryPath: "weapons/hammer/hammer_hell", Recipe: recipe_b8481fc99d02},
+		{ID: "T7_2H_DUALHAMMER_HELL@1", Name: "Schmiedehämmer des Großmeisters", Tier: 7, Enchantment: 1, CategoryPath: "weapons/hammer/hammer_hell", Recipe: recipe_b8481fc99d02},
+		{ID: "T7_2H_DUALHAMMER_HELL@2", Name: "Schmiedehämmer des Großmeisters", Tier: 7, Enchantment: 2, CategoryPath: "weapons/hammer/hammer_hell", Recipe: recipe_b8481fc99d02},
+		{ID: "T7_2H_DUALHAMMER_HELL@3", Name: "Schmiedehämmer des Großmeisters", Tier: 7, Enchantment: 3, CategoryPath: "weapons/hammer/hammer_hell", Recipe: recipe_b8481fc99d02},
+		{ID: "T7_2H_DUALHAMMER_HELL@4", Name: "Schmiedehämmer des Großmeisters", Tier: 7, Enchantment: 4, CategoryPath: "weapons/hammer/hammer_hell", Recipe: recipe_b8481fc99d02},
+		{ID: "T8_2H_DUALHAMMER_HELL", Name: "Schmiedehämmer des Ältesten", Tier: 8, Enchantment: 0, CategoryPath: "weapons/hammer/hammer_hell", Recipe: recipe_3ccb5fe604e0},
+		{ID: "T8_2H_DUALHAMMER_HELL@1", Name: "Schmiedehämmer des Ältesten", Tier: 8, Enchantment: 1, CategoryPath: "weapons/hammer/hammer_hell", Recipe: recipe_3ccb5fe604e0},
+		{ID: "T8_2H_DUALHAMMER_HELL@2", Name: "Schmiedehämmer des Ältesten", Tier: 8, Enchantment: 2, CategoryPath: "weapons/hammer/hammer_hell", Recipe: recipe_3ccb5fe604e0},
+		{ID: "T8_2H_DUALHAMMER_HELL@3", Name: "Schmiedehämmer des Ältesten", Tier: 8, Enchantment: 3, CategoryPath: "weapons/hammer/hammer_hell", Recipe: recipe_3ccb5fe604e0},
+		{ID: "T8_2H_DUALHAMMER_HELL@4", Name: "Schmiedehämmer des Ältesten", Tier: 8, Enchantment: 4, CategoryPath: "weapons/hammer/hammer_hell", Recipe: recipe_3ccb5fe604e0},
+	}},
+	{Name: "Schwurhüter des Adepten", BaseID: "2H_DUALMACE_AVALON", MinTier: 4, MaxTier: 8, MinEnchantment: 0, MaxEnchantment: 4, Variants: []ItemVariant{
+		{ID: "T4_2H_DUALMACE_AVALON", Name: "Schwurhüter des Adepten", Tier: 4, Enchantment: 0, CategoryPath: "weapons/mace/mace_avalon", Recipe: recipe_02ed2e4ff339},
+		{ID: "T4_2H_DUALMACE_AVALON@1", Name: "Schwurhüter des Adepten", Tier: 4, Enchantment: 1, CategoryPath: "weapons/mace/mace_avalon", Recipe: recipe_02ed2e4ff339},
+		{ID: "T4_2H_DUALMACE_AVALON@2", Name: "Schwurhüter des Adepten", Tier: 4, Enchantment: 2, CategoryPath: "weapons/mace/mace_avalon", Recipe: recipe_02ed2e4ff339},
+		{ID: "T4_2H_DUALMACE_AVALON@3", Name: "Schwurhüter des Adepten", Tier: 4, Enchantment: 3, CategoryPath: "weapons/mace/mace_avalon", Recipe: recipe_02ed2e4ff339},
+		{ID: "T4_2H_DUALMACE_AVALON@4", Name: "Schwurhüter des Adepten", Tier: 4, Enchantment: 4, CategoryPath: "weapons/mace/mace_avalon", Recipe: recipe_02ed2e4ff339},
+		{ID: "T5_2H_DUALMACE_AVALON", Name: "Schwurhüter des Experten", Tier: 5, Enchantment: 0, CategoryPath: "weapons/mace/mace_avalon", Recipe: recipe_efe660956e75},
+		{ID: "T5_2H_DUALMACE_AVALON@1", Name: "Schwurhüter des Experten", Tier: 5, Enchantment: 1, CategoryPath: "weapons/mace/mace_avalon", Recipe: recipe_efe660956e75},
+		{ID: "T5_2H_DUALMACE_AVALON@2", Name: "Schwurhüter des Experten", Tier: 5, Enchantment: 2, CategoryPath: "weapons/mace/mace_avalon", Recipe: recipe_efe660956e75},
+		{ID: "T5_2H_DUALMACE_AVALON@3", Name: "Schwurhüter des Experten", Tier: 5, Enchantment: 3, CategoryPath: "weapons/mace/mace_avalon", Recipe: recipe_efe660956e75},
+		{ID: "T5_2H_DUALMACE_AVALON@4", Name: "Schwurhüter des Experten", Tier: 5, Enchantment: 4, CategoryPath: "weapons/mace/mace_avalon", Recipe: recipe_efe660956e75},
+		{ID: "T6_2H_DUALMACE_AVALON", Name: "Schwurhüter des Meisters", Tier: 6, Enchantment: 0, CategoryPath: "weapons/mace/mace_avalon", Recipe: recipe_1f22c7fc1cb5},
+		{ID: "T6_2H_DUALMACE_AVALON@1", Name: "Schwurhüter des Meisters", Tier: 6, Enchantment: 1, CategoryPath: "weapons/mace/mace_avalon", Recipe: recipe_1f22c7fc1cb5},
+		{ID: "T6_2H_DUALMACE_AVALON@2", Name: "Schwurhüter des Meisters", Tier: 6, Enchantment: 2, CategoryPath: "weapons/mace/mace_avalon", Recipe: recipe_1f22c7fc1cb5},
+		{ID: "T6_2H_DUALMACE_AVALON@3", Name: "Schwurhüter des Meisters", Tier: 6, Enchantment: 3, CategoryPath: "weapons/mace/mace_avalon", Recipe: recipe_1f22c7fc1cb5},
+		{ID: "T6_2H_DUALMACE_AVALON@4", Name: "Schwurhüter des Meisters", Tier: 6, Enchantment: 4, CategoryPath: "weapons/mace/mace_avalon", Recipe: recipe_1f22c7fc1cb5},
+		{ID: "T7_2H_DUALMACE_AVALON", Name: "Schwurhüter des Großmeisters", Tier: 7, Enchantment: 0, CategoryPath: "weapons/mace/mace_avalon", Recipe: recipe_0870d44bf909},
+		{ID: "T7_2H_DUALMACE_AVALON@1", Name: "Schwurhüter des Großmeisters", Tier: 7, Enchantment: 1, CategoryPath: "weapons/mace/mace_avalon", Recipe: recipe_0870d44bf909},
+		{ID: "T7_2H_DUALMACE_AVALON@2", Name: "Schwurhüter des Großmeisters", Tier: 7, Enchantment: 2, CategoryPath: "weapons/mace/mace_avalon", Recipe: recipe_0870d44bf909},
+		{ID: "T7_2H_DUALMACE_AVALON@3", Name: "Schwurhüter des Großmeisters", Tier: 7, Enchantment: 3, CategoryPath: "weapons/mace/mace_avalon", Recipe: recipe_0870d44bf909},
+		{ID: "T7_2H_DUALMACE_AVALON@4", Name: "Schwurhüter des Großmeisters", Tier: 7, Enchantment: 4, CategoryPath: "weapons/mace/mace_avalon", Recipe: recipe_0870d44bf909},
+		{ID: "T8_2H_DUALMACE_AVALON", Name: "Schwurhüter des Ältesten", Tier: 8, Enchantment: 0, CategoryPath: "weapons/mace/mace_avalon", Recipe: recipe_ed605e9fc958},
+		{ID: "T8_2H_DUALMACE_AVALON@1", Name: "Schwurhüter des Ältesten", Tier: 8, Enchantment: 1, CategoryPath: "weapons/mace/mace_avalon", Recipe: recipe_ed605e9fc958},
+		{ID: "T8_2H_DUALMACE_AVALON@2", Name: "Schwurhüter des Ältesten", Tier: 8, Enchantment: 2, CategoryPath: "weapons/mace/mace_avalon", Recipe: recipe_ed605e9fc958},
+		{ID: "T8_2H_DUALMACE_AVALON@3", Name: "Schwurhüter des Ältesten", Tier: 8, Enchantment: 3, CategoryPath: "weapons/mace/mace_avalon", Recipe: recipe_ed605e9fc958},
+		{ID: "T8_2H_DUALMACE_AVALON@4", Name: "Schwurhüter des Ältesten", Tier: 8, Enchantment: 4, CategoryPath: "weapons/mace/mace_avalon", Recipe: recipe_ed605e9fc958},
+	}},
+	{Name: "Galatinepaar des Adepten", BaseID: "2H_DUALSCIMITAR_UNDEAD", MinTier: 4, MaxTier: 8, MinEnchantment: 0, MaxEnchantment: 4, Variants: []ItemVariant{
+		{ID: "T4_2H_DUALSCIMITAR_UNDEAD", Name: "Galatinepaar des Adepten", Tier: 4, Enchantment: 0, CategoryPath: "weapons/sword/sword_undead", Recipe: recipe_9721edd736d0},
+		{ID: "T4_2H_DUALSCIMITAR_UNDEAD@1", Name: "Galatinepaar des Adepten", Tier: 4, Enchantment: 1, CategoryPath: "weapons/sword/sword_undead", Recipe: recipe_9721edd736d0},
+		{ID: "T4_2H_DUALSCIMITAR_UNDEAD@2", Name: "Galatinepaar des Adepten", Tier: 4, Enchantment: 2, CategoryPath: "weapons/sword/sword_undead", Recipe: recipe_9721edd736d0},
+		{ID: "T4_2H_DUALSCIMITAR_UNDEAD@3", Name: "Galatinepaar des Adepten", Tier: 4, Enchantment: 3, CategoryPath: "weapons/sword/sword_undead", Recipe: recipe_9721edd736d0},
+		{ID: "T4_2H_DUALSCIMITAR_UNDEAD@4", Name: "Galatinepaar des Adepten", Tier: 4, Enchantment: 4, CategoryPath: "weapons/sword/sword_undead", Recipe: recipe_9721edd736d0},
+		{ID: "T5_2H_DUALSCIMITAR_UNDEAD", Name: "Galatinepaar des Experten", Tier: 5, Enchantment: 0, CategoryPath: "weapons/sword/sword_undead", Recipe: recipe_59373abd0447},
+		{ID: "T5_2H_DUALSCIMITAR_UNDEAD@1", Name: "Galatinepaar des Experten", Tier: 5, Enchantment: 1, CategoryPath: "weapons/sword/sword_undead", Recipe: recipe_59373abd0447},
+		{ID: "T5_2H_DUALSCIMITAR_UNDEAD@2", Name: "Galatinepaar des Experten", Tier: 5, Enchantment: 2, CategoryPath: "weapons/sword/sword_undead", Recipe: recipe_59373abd0447},
+		{ID: "T5_2H_DUALSCIMITAR_UNDEAD@3", Name: "Galatinepaar des Experten", Tier: 5, Enchantment: 3, CategoryPath: "weapons/sword/sword_undead", Recipe: recipe_59373abd0447},
+		{ID: "T5_2H_DUALSCIMITAR_UNDEAD@4", Name: "Galatinepaar des Experten", Tier: 5, Enchantment: 4, CategoryPath: "weapons/sword/sword_undead", Recipe: recipe_59373abd0447},
+		{ID: "T6_2H_DUALSCIMITAR_UNDEAD", Name: "Galatinepaar des Meisters", Tier: 6, Enchantment: 0, CategoryPath: "weapons/sword/sword_undead", Recipe: recipe_16f78cb8e88c},
+		{ID: "T6_2H_DUALSCIMITAR_UNDEAD@1", Name: "Galatinepaar des Meisters", Tier: 6, Enchantment: 1, CategoryPath: "weapons/sword/sword_undead", Recipe: recipe_16f78cb8e88c},
+		{ID: "T6_2H_DUALSCIMITAR_UNDEAD@2", Name: "Galatinepaar des Meisters", Tier: 6, Enchantment: 2, CategoryPath: "weapons/sword/sword_undead", Recipe: recipe_16f78cb8e88c},
+		{ID: "T6_2H_DUALSCIMITAR_UNDEAD@3", Name: "Galatinepaar des Meisters", Tier: 6, Enchantment: 3, CategoryPath: "weapons/sword/sword_undead", Recipe: recipe_16f78cb8e88c},
+		{ID: "T6_2H_DUALSCIMITAR_UNDEAD@4", Name: "Galatinepaar des Meisters", Tier: 6, Enchantment: 4, CategoryPath: "weapons/sword/sword_undead", Recipe: recipe_16f78cb8e88c},
+		{ID: "T7_2H_DUALSCIMITAR_UNDEAD", Name: "Galatinepaar des Großmeisters", Tier: 7, Enchantment: 0, CategoryPath: "weapons/sword/sword_undead", Recipe: recipe_a61f4ad78793},
+		{ID: "T7_2H_DUALSCIMITAR_UNDEAD@1", Name: "Galatinepaar des Großmeisters", Tier: 7, Enchantment: 1, CategoryPath: "weapons/sword/sword_undead", Recipe: recipe_a61f4ad78793},
+		{ID: "T7_2H_DUALSCIMITAR_UNDEAD@2", Name: "Galatinepaar des Großmeisters", Tier: 7, Enchantment: 2, CategoryPath: "weapons/sword/sword_undead", Recipe: recipe_a61f4ad78793},
+		{ID: "T7_2H_DUALSCIMITAR_UNDEAD@3", Name: "Galatinepaar des Großmeisters", Tier: 7, Enchantment: 3, CategoryPath: "weapons/sword/sword_undead", Recipe: recipe_a61f4ad78793},
+		{ID: "T7_2H_DUALSCIMITAR_UNDEAD@4", Name: "Galatinepaar des Großmeisters", Tier: 7, Enchantment: 4, CategoryPath: "weapons/sword/sword_undead", Recipe: recipe_a61f4ad78793},
+		{ID: "T8_2H_DUALSCIMITAR_UNDEAD", Name: "Galatinepaar des Ältesten", Tier: 8, Enchantment: 0, CategoryPath: "weapons/sword/sword_undead", Recipe: recipe_77b052a58de2},
+		{ID: "T8_2H_DUALSCIMITAR_UNDEAD@1", Name: "Galatinepaar des Ältesten", Tier: 8, Enchantment: 1, CategoryPath: "weapons/sword/sword_undead", Recipe: recipe_77b052a58de2},
+		{ID: "T8_2H_DUALSCIMITAR_UNDEAD@2", Name: "Galatinepaar des Ältesten", Tier: 8, Enchantment: 2, CategoryPath: "weapons/sword/sword_undead", Recipe: recipe_77b052a58de2},
+		{ID: "T8_2H_DUALSCIMITAR_UNDEAD@3", Name: "Galatinepaar des Ältesten", Tier: 8, Enchantment: 3, CategoryPath: "weapons/sword/sword_undead", Recipe: recipe_77b052a58de2},
+		{ID: "T8_2H_DUALSCIMITAR_UNDEAD@4", Name: "Galatinepaar des Ältesten", Tier: 8, Enchantment: 4, CategoryPath: "weapons/sword/sword_undead", Recipe: recipe_77b052a58de2},
+	}},
+	{Name: "Todbringer des Adepten", BaseID: "2H_DUALSICKLE_UNDEAD", MinTier: 4, MaxTier: 8, MinEnchantment: 0, MaxEnchantment: 4, Variants: []ItemVariant{
+		{ID: "T4_2H_DUALSICKLE_UNDEAD", Name: "Todbringer des Adepten", Tier: 4, Enchantment: 0, CategoryPath: "weapons/dagger/dagger_undead", Recipe: recipe_4e0cee4947dc},
+		{ID: "T4_2H_DUALSICKLE_UNDEAD@1", Name: "Todbringer des Adepten", Tier: 4, Enchantment: 1, CategoryPath: "weapons/dagger/dagger_undead", Recipe: recipe_4e0cee4947dc},
+		{ID: "T4_2H_DUALSICKLE_UNDEAD@2", Name: "Todbringer des Adepten", Tier: 4, Enchantment: 2, CategoryPath: "weapons/dagger/dagger_undead", Recipe: recipe_4e0cee4947dc},
+		{ID: "T4_2H_DUALSICKLE_UNDEAD@3", Name: "Todbringer des Adepten", Tier: 4, Enchantment: 3, CategoryPath: "weapons/dagger/dagger_undead", Recipe: recipe_4e0cee4947dc},
+		{ID: "T4_2H_DUALSICKLE_UNDEAD@4", Name: "Todbringer des Adepten", Tier: 4, Enchantment: 4, CategoryPath: "weapons/dagger/dagger_undead", Recipe: recipe_4e0cee4947dc},
+		{ID: "T5_2H_DUALSICKLE_UNDEAD", Name: "Todbringer des Experten", Tier: 5, Enchantment: 0, CategoryPath: "weapons/dagger/dagger_undead", Recipe: recipe_c2653260fdb4},
+		{ID: "T5_2H_DUALSICKLE_UNDEAD@1", Name: "Todbringer des Experten", Tier: 5, Enchantment: 1, CategoryPath: "weapons/dagger/dagger_undead", Recipe: recipe_c2653260fdb4},
+		{ID: "T5_2H_DUALSICKLE_UNDEAD@2", Name: "Todbringer des Experten", Tier: 5, Enchantment: 2, CategoryPath: "weapons/dagger/dagger_undead", Recipe: recipe_c2653260fdb4},
+		{ID: "T5_2H_DUALSICKLE_UNDEAD@3", Name: "Todbringer des Experten", Tier: 5, Enchantment: 3, CategoryPath: "weapons/dagger/dagger_undead", Recipe: recipe_c2653260fdb4},
+		{ID: "T5_2H_DUALSICKLE_UNDEAD@4", Name: "Todbringer des Experten", Tier: 5, Enchantment: 4, CategoryPath: "weapons/dagger/dagger_undead", Recipe: recipe_c2653260fdb4},
+		{ID: "T6_2H_DUALSICKLE_UNDEAD", Name: "Todbringer des Meisters", Tier: 6, Enchantment: 0, CategoryPath: "weapons/dagger/dagger_undead", Recipe: recipe_3495cf61eeb0},
+		{ID: "T6_2H_DUALSICKLE_UNDEAD@1", Name: "Todbringer des Meisters", Tier: 6, Enchantment: 1, CategoryPath: "weapons/dagger/dagger_undead", Recipe: recipe_3495cf61eeb0},
+		{ID: "T6_2H_DUALSICKLE_UNDEAD@2", Name: "Todbringer des Meisters", Tier: 6, Enchantment: 2, CategoryPath: "weapons/dagger/dagger_undead", Recipe: recipe_3495cf61eeb0},
+		{ID: "T6_2H_DUALSICKLE_UNDEAD@3", Name: "Todbringer des Meisters", Tier: 6, Enchantment: 3, CategoryPath: "weapons/dagger/dagger_undead", Recipe: recipe_3495cf61eeb0},
+		{ID: "T6_2H_DUALSICKLE_UNDEAD@4", Name: "Todbringer des Meisters", Tier: 6, Enchantment: 4, CategoryPath: "weapons/dagger/dagger_undead", Recipe: recipe_3495cf61eeb0},
+		{ID: "T7_2H_DUALSICKLE_UNDEAD", Name: "Todbringer des Großmeisters", Tier: 7, Enchantment: 0, CategoryPath: "weapons/dagger/dagger_undead", Recipe: recipe_9a7c13e7403c},
+		{ID: "T7_2H_DUALSICKLE_UNDEAD@1", Name: "Todbringer des Großmeisters", Tier: 7, Enchantment: 1, CategoryPath: "weapons/dagger/dagger_undead", Recipe: recipe_9a7c13e7403c},
+		{ID: "T7_2H_DUALSICKLE_UNDEAD@2", Name: "Todbringer des Großmeisters", Tier: 7, Enchantment: 2, CategoryPath: "weapons/dagger/dagger_undead", Recipe: recipe_9a7c13e7403c},
+		{ID: "T7_2H_DUALSICKLE_UNDEAD@3", Name: "Todbringer des Großmeisters", Tier: 7, Enchantment: 3, CategoryPath: "weapons/dagger/dagger_undead", Recipe: recipe_9a7c13e7403c},
+		{ID: "T7_2H_DUALSICKLE_UNDEAD@4", Name: "Todbringer des Großmeisters", Tier: 7, Enchantment: 4, CategoryPath: "weapons/dagger/dagger_undead", Recipe: recipe_9a7c13e7403c},
+		{ID: "T8_2H_DUALSICKLE_UNDEAD", Name: "Todbringer des Ältesten", Tier: 8, Enchantment: 0, CategoryPath: "weapons/dagger/dagger_undead", Recipe: recipe_a5ef19f6f213},
+		{ID: "T8_2H_DUALSICKLE_UNDEAD@1", Name: "Todbringer des Ältesten", Tier: 8, Enchantment: 1, CategoryPath: "weapons/dagger/dagger_undead", Recipe: recipe_a5ef19f6f213},
+		{ID: "T8_2H_DUALSICKLE_UNDEAD@2", Name: "Todbringer des Ältesten", Tier: 8, Enchantment: 2, CategoryPath: "weapons/dagger/dagger_undead", Recipe: recipe_a5ef19f6f213},
+		{ID: "T8_2H_DUALSICKLE_UNDEAD@3", Name: "Todbringer des Ältesten", Tier: 8, Enchantment: 3, CategoryPath: "weapons/dagger/dagger_undead", Recipe: recipe_a5ef19f6f213},
+		{ID: "T8_2H_DUALSICKLE_UNDEAD@4", Name: "Todbringer des Ältesten", Tier: 8, Enchantment: 4, CategoryPath: "weapons/dagger/dagger_undead", Recipe: recipe_a5ef19f6f213},
+	}},
+	{Name: "Zweischwerter des Adepten", BaseID: "2H_DUALSWORD", MinTier: 4, MaxTier: 8, MinEnchantment: 0, MaxEnchantment: 4, Variants: []ItemVariant{
+		{ID: "T4_2H_DUALSWORD", Name: "Zweischwerter des Adepten", Tier: 4, Enchantment: 0, CategoryPath: "weapons/sword/sword_dualsword", Recipe: recipe_4501222262df},
+		{ID: "T4_2H_DUALSWORD@1", Name: "Zweischwerter des Adepten", Tier: 4, Enchantment: 1, CategoryPath: "weapons/sword/sword_dualsword", Recipe: recipe_4501222262df},
+		{ID: "T4_2H_DUALSWORD@2", Name: "Zweischwerter des Adepten", Tier: 4, Enchantment: 2, CategoryPath: "weapons/sword/sword_dualsword", Recipe: recipe_4501222262df},
+		{ID: "T4_2H_DUALSWORD@3", Name: "Zweischwerter des Adepten", Tier: 4, Enchantment: 3, CategoryPath: "weapons/sword/sword_dualsword", Recipe: recipe_4501222262df},
+		{ID: "T4_2H_DUALSWORD@4", Name: "Zweischwerter des Adepten", Tier: 4, Enchantment: 4, CategoryPath: "weapons/sword/sword_dualsword", Recipe: recipe_4501222262df},
+		{ID: "T5_2H_DUALSWORD", Name: "Zweischwerter des Experten", Tier: 5, Enchantment: 0, CategoryPath: "weapons/sword/sword_dualsword", Recipe: recipe_155aee8a028d},
+		{ID: "T5_2H_DUALSWORD@1", Name: "Zweischwerter des Experten", Tier: 5, Enchantment: 1, CategoryPath: "weapons/sword/sword_dualsword", Recipe: recipe_155aee8a028d},
+		{ID: "T5_2H_DUALSWORD@2", Name: "Zweischwerter des Experten", Tier: 5, Enchantment: 2, CategoryPath: "weapons/sword/sword_dualsword", Recipe: recipe_155aee8a028d},
+		{ID: "T5_2H_DUALSWORD@3", Name: "Zweischwerter des Experten", Tier: 5, Enchantment: 3, CategoryPath: "weapons/sword/sword_dualsword", Recipe: recipe_155aee8a028d},
+		{ID: "T5_2H_DUALSWORD@4", Name: "Zweischwerter des Experten", Tier: 5, Enchantment: 4, CategoryPath: "weapons/sword/sword_dualsword", Recipe: recipe_155aee8a028d},
+		{ID: "T6_2H_DUALSWORD", Name: "Zweischwerter des Meisters", Tier: 6, Enchantment: 0, CategoryPath: "weapons/sword/sword_dualsword", Recipe: recipe_8bbdd5d7ed88},
+		{ID: "T6_2H_DUALSWORD@1", Name: "Zweischwerter des Meisters", Tier: 6, Enchantment: 1, CategoryPath: "weapons/sword/sword_dualsword", Recipe: recipe_8bbdd5d7ed88},
+		{ID: "T6_2H_DUALSWORD@2", Name: "Zweischwerter des Meisters", Tier: 6, Enchantment: 2, CategoryPath: "weapons/sword/sword_dualsword", Recipe: recipe_8bbdd5d7ed88},
+		{ID: "T6_2H_DUALSWORD@3", Name: "Zweischwerter des Meisters", Tier: 6, Enchantment: 3, CategoryPath: "weapons/sword/sword_dualsword", Recipe: recipe_8bbdd5d7ed88},
+		{ID: "T6_2H_DUALSWORD@4", Name: "Zweischwerter des Meisters", Tier: 6, Enchantment: 4, CategoryPath: "weapons/sword/sword_dualsword", Recipe: recipe_8bbdd5d7ed88},
+		{ID: "T7_2H_DUALSWORD", Name: "Zweischwerter des Großmeisters", Tier: 7, Enchantment: 0, CategoryPath: "weapons/sword/sword_dualsword", Recipe: recipe_b88bb4a49231},
+		{ID: "T7_2H_DUALSWORD@1", Name: "Zweischwerter des Großmeisters", Tier: 7, Enchantment: 1, CategoryPath: "weapons/sword/sword_dualsword", Recipe: recipe_b88bb4a49231},
+		{ID: "T7_2H_DUALSWORD@2", Name: "Zweischwerter des Großmeisters", Tier: 7, Enchantment: 2, CategoryPath: "weapons/sword/sword_dualsword", Recipe: recipe_b88bb4a49231},
+		{ID: "T7_2H_DUALSWORD@3", Name: "Zweischwerter des Großmeisters", Tier: 7, Enchantment: 3, CategoryPath: "weapons/sword/sword_dualsword", Recipe: recipe_b88bb4a49231},
+		{ID: "T7_2H_DUALSWORD@4", Name: "Zweischwerter des Großmeisters", Tier: 7, Enchantment: 4, CategoryPath: "weapons/sword/sword_dualsword", Recipe: recipe_b88bb4a49231},
+		{ID: "T8_2H_DUALSWORD", Name: "Zweischwerter des Ältesten", Tier: 8, Enchantment: 0, CategoryPath: "weapons/sword/sword_dualsword", Recipe: recipe_71438e6d5955},
+		{ID: "T8_2H_DUALSWORD@1", Name: "Zweischwerter des Ältesten", Tier: 8, Enchantment: 1, CategoryPath: "weapons/sword/sword_dualsword", Recipe: recipe_71438e6d5955},
+		{ID: "T8_2H_DUALSWORD@2", Name: "Zweischwerter des Ältesten", Tier: 8, Enchantment: 2, CategoryPath: "weapons/sword/sword_dualsword", Recipe: recipe_71438e6d5955},
+		{ID: "T8_2H_DUALSWORD@3", Name: "Zweischwerter des Ältesten", Tier: 8, Enchantment: 3, CategoryPath: "weapons/sword/sword_dualsword", Recipe: recipe_71438e6d5955},
+		{ID: "T8_2H_DUALSWORD@4", Name: "Zweischwerter des Ältesten", Tier: 8, Enchantment: 4, CategoryPath: "weapons/sword/sword_dualsword", Recipe: recipe_71438e6d5955},
+	}},
+	{Name: "Geheimnisvolle Sphäre des Adepten", BaseID: "2H_ENIGMATICORB_MORGANA", MinTier: 4, MaxTier: 8, MinEnchantment: 0, MaxEnchantment: 4, Variants: []ItemVariant{
+		{ID: "T4_2H_ENIGMATICORB_MORGANA", Name: "Geheimnisvolle Sphäre des Adepten", Tier: 4, Enchantment: 0, CategoryPath: "weapons/arcanestaff/arcanestaff_morgana", Recipe: recipe_6b11adf0c5a5},
+		{ID: "T4_2H_ENIGMATICORB_MORGANA@1", Name: "Geheimnisvolle Sphäre des Adepten", Tier: 4, Enchantment: 1, CategoryPath: "weapons/arcanestaff/arcanestaff_morgana", Recipe: recipe_6b11adf0c5a5},
+		{ID: "T4_2H_ENIGMATICORB_MORGANA@2", Name: "Geheimnisvolle Sphäre des Adepten", Tier: 4, Enchantment: 2, CategoryPath: "weapons/arcanestaff/arcanestaff_morgana", Recipe: recipe_6b11adf0c5a5},
+		{ID: "T4_2H_ENIGMATICORB_MORGANA@3", Name: "Geheimnisvolle Sphäre des Adepten", Tier: 4, Enchantment: 3, CategoryPath: "weapons/arcanestaff/arcanestaff_morgana", Recipe: recipe_6b11adf0c5a5},
+		{ID: "T4_2H_ENIGMATICORB_MORGANA@4", Name: "Geheimnisvolle Sphäre des Adepten", Tier: 4, Enchantment: 4, CategoryPath: "weapons/arcanestaff/arcanestaff_morgana", Recipe: recipe_6b11adf0c5a5},
+		{ID: "T5_2H_ENIGMATICORB_MORGANA", Name: "Geheimnisvolle Sphäre des Experten", Tier: 5, Enchantment: 0, CategoryPath: "weapons/arcanestaff/arcanestaff_morgana", Recipe: recipe_07f3dd0762c2},
+		{ID: "T5_2H_ENIGMATICORB_MORGANA@1", Name: "Geheimnisvolle Sphäre des Experten", Tier: 5, Enchantment: 1, CategoryPath: "weapons/arcanestaff/arcanestaff_morgana", Recipe: recipe_07f3dd0762c2},
+		{ID: "T5_2H_ENIGMATICORB_MORGANA@2", Name: "Geheimnisvolle Sphäre des Experten", Tier: 5, Enchantment: 2, CategoryPath: "weapons/arcanestaff/arcanestaff_morgana", Recipe: recipe_07f3dd0762c2},
+		{ID: "T5_2H_ENIGMATICORB_MORGANA@3", Name: "Geheimnisvolle Sphäre des Experten", Tier: 5, Enchantment: 3, CategoryPath: "weapons/arcanestaff/arcanestaff_morgana", Recipe: recipe_07f3dd0762c2},
+		{ID: "T5_2H_ENIGMATICORB_MORGANA@4", Name: "Geheimnisvolle Sphäre des Experten", Tier: 5, Enchantment: 4, CategoryPath: "weapons/arcanestaff/arcanestaff_morgana", Recipe: recipe_07f3dd0762c2},
+		{ID: "T6_2H_ENIGMATICORB_MORGANA", Name: "Geheimnisvolle Sphäre des Meisters", Tier: 6, Enchantment: 0, CategoryPath: "weapons/arcanestaff/arcanestaff_morgana", Recipe: recipe_49620821479e},
+		{ID: "T6_2H_ENIGMATICORB_MORGANA@1", Name: "Geheimnisvolle Sphäre des Meisters", Tier: 6, Enchantment: 1, CategoryPath: "weapons/arcanestaff/arcanestaff_morgana", Recipe: recipe_49620821479e},
+		{ID: "T6_2H_ENIGMATICORB_MORGANA@2", Name: "Geheimnisvolle Sphäre des Meisters", Tier: 6, Enchantment: 2, CategoryPath: "weapons/arcanestaff/arcanestaff_morgana", Recipe: recipe_49620821479e},
+		{ID: "T6_2H_ENIGMATICORB_MORGANA@3", Name: "Geheimnisvolle Sphäre des Meisters", Tier: 6, Enchantment: 3, CategoryPath: "weapons/arcanestaff/arcanestaff_morgana", Recipe: recipe_49620821479e},
+		{ID: "T6_2H_ENIGMATICORB_MORGANA@4", Name: "Geheimnisvolle Sphäre des Meisters", Tier: 6, Enchantment: 4, CategoryPath: "weapons/arcanestaff/arcanestaff_morgana", Recipe: recipe_49620821479e},
+		{ID: "T7_2H_ENIGMATICORB_MORGANA", Name: "Geheimnisvolle Sphäre des Großmeisters", Tier: 7, Enchantment: 0, CategoryPath: "weapons/arcanestaff/arcanestaff_morgana", Recipe: recipe_478bb5f9dfb9},
+		{ID: "T7_2H_ENIGMATICORB_MORGANA@1", Name: "Geheimnisvolle Sphäre des Großmeisters", Tier: 7, Enchantment: 1, CategoryPath: "weapons/arcanestaff/arcanestaff_morgana", Recipe: recipe_478bb5f9dfb9},
+		{ID: "T7_2H_ENIGMATICORB_MORGANA@2", Name: "Geheimnisvolle Sphäre des Großmeisters", Tier: 7, Enchantment: 2, CategoryPath: "weapons/arcanestaff/arcanestaff_morgana", Recipe: recipe_478bb5f9dfb9},
+		{ID: "T7_2H_ENIGMATICORB_MORGANA@3", Name: "Geheimnisvolle Sphäre des Großmeisters", Tier: 7, Enchantment: 3, CategoryPath: "weapons/arcanestaff/arcanestaff_morgana", Recipe: recipe_478bb5f9dfb9},
+		{ID: "T7_2H_ENIGMATICORB_MORGANA@4", Name: "Geheimnisvolle Sphäre des Großmeisters", Tier: 7, Enchantment: 4, CategoryPath: "weapons/arcanestaff/arcanestaff_morgana", Recipe: recipe_478bb5f9dfb9},
+		{ID: "T8_2H_ENIGMATICORB_MORGANA", Name: "Geheimnisvolle Sphäre des Ältesten", Tier: 8, Enchantment: 0, CategoryPath: "weapons/arcanestaff/arcanestaff_morgana", Recipe: recipe_f4ce26d92069},
+		{ID: "T8_2H_ENIGMATICORB_MORGANA@1", Name: "Geheimnisvolle Sphäre des Ältesten", Tier: 8, Enchantment: 1, CategoryPath: "weapons/arcanestaff/arcanestaff_morgana", Recipe: recipe_f4ce26d92069},
+		{ID: "T8_2H_ENIGMATICORB_MORGANA@2", Name: "Geheimnisvolle Sphäre des Ältesten", Tier: 8, Enchantment: 2, CategoryPath: "weapons/arcanestaff/arcanestaff_morgana", Recipe: recipe_f4ce26d92069},
+		{ID: "T8_2H_ENIGMATICORB_MORGANA@3", Name: "Geheimnisvolle Sphäre des Ältesten", Tier: 8, Enchantment: 3, CategoryPath: "weapons/arcanestaff/arcanestaff_morgana", Recipe: recipe_f4ce26d92069},
+		{ID: "T8_2H_ENIGMATICORB_MORGANA@4", Name: "Geheimnisvolle Sphäre des Ältesten", Tier: 8, Enchantment: 4, CategoryPath: "weapons/arcanestaff/arcanestaff_morgana", Recipe: recipe_f4ce26d92069},
+	}},
+	{Name: "Mysteriöser Stab des Adepten", BaseID: "2H_ENIGMATICSTAFF", MinTier: 4, MaxTier: 8, MinEnchantment: 0, MaxEnchantment: 4, Variants: []ItemVariant{
+		{ID: "T4_2H_ENIGMATICSTAFF", Name: "Mysteriöser Stab des Adepten", Tier: 4, Enchantment: 0, CategoryPath: "weapons/arcanestaff/arcanestaff_enigmaticstaff", Recipe: recipe_fee957776753},
+		{ID: "T4_2H_ENIGMATICSTAFF@1", Name: "Mysteriöser Stab des Adepten", Tier: 4, Enchantment: 1, CategoryPath: "weapons/arcanestaff/arcanestaff_enigmaticstaff", Recipe: recipe_fee957776753},
+		{ID: "T4_2H_ENIGMATICSTAFF@2", Name: "Mysteriöser Stab des Adepten", Tier: 4, Enchantment: 2, CategoryPath: "weapons/arcanestaff/arcanestaff_enigmaticstaff", Recipe: recipe_fee957776753},
+		{ID: "T4_2H_ENIGMATICSTAFF@3", Name: "Mysteriöser Stab des Adepten", Tier: 4, Enchantment: 3, CategoryPath: "weapons/arcanestaff/arcanestaff_enigmaticstaff", Recipe: recipe_fee957776753},
+		{ID: "T4_2H_ENIGMATICSTAFF@4", Name: "Mysteriöser Stab des Adepten", Tier: 4, Enchantment: 4, CategoryPath: "weapons/arcanestaff/arcanestaff_enigmaticstaff", Recipe: recipe_fee957776753},
+		{ID: "T5_2H_ENIGMATICSTAFF", Name: "Mysteriöser Stab des Experten", Tier: 5, Enchantment: 0, CategoryPath: "weapons/arcanestaff/arcanestaff_enigmaticstaff", Recipe: recipe_7e2c207b8dfc},
+		{ID: "T5_2H_ENIGMATICSTAFF@1", Name: "Mysteriöser Stab des Experten", Tier: 5, Enchantment: 1, CategoryPath: "weapons/arcanestaff/arcanestaff_enigmaticstaff", Recipe: recipe_7e2c207b8dfc},
+		{ID: "T5_2H_ENIGMATICSTAFF@2", Name: "Mysteriöser Stab des Experten", Tier: 5, Enchantment: 2, CategoryPath: "weapons/arcanestaff/arcanestaff_enigmaticstaff", Recipe: recipe_7e2c207b8dfc},
+		{ID: "T5_2H_ENIGMATICSTAFF@3", Name: "Mysteriöser Stab des Experten", Tier: 5, Enchantment: 3, CategoryPath: "weapons/arcanestaff/arcanestaff_enigmaticstaff", Recipe: recipe_7e2c207b8dfc},
+		{ID: "T5_2H_ENIGMATICSTAFF@4", Name: "Mysteriöser Stab des Experten", Tier: 5, Enchantment: 4, CategoryPath: "weapons/arcanestaff/arcanestaff_enigmaticstaff", Recipe: recipe_7e2c207b8dfc},
+		{ID: "T6_2H_ENIGMATICSTAFF", Name: "Mysteriöser Stab des Meisters", Tier: 6, Enchantment: 0, CategoryPath: "weapons/arcanestaff/arcanestaff_enigmaticstaff", Recipe: recipe_c2d61ea45ad4},
+		{ID: "T6_2H_ENIGMATICSTAFF@1", Name: "Mysteriöser Stab des Meisters", Tier: 6, Enchantment: 1, CategoryPath: "weapons/arcanestaff/arcanestaff_enigmaticstaff", Recipe: recipe_c2d61ea45ad4},
+		{ID: "T6_2H_ENIGMATICSTAFF@2", Name: "Mysteriöser Stab des Meisters", Tier: 6, Enchantment: 2, CategoryPath: "weapons/arcanestaff/arcanestaff_enigmaticstaff", Recipe: recipe_c2d61ea45ad4},
+		{ID: "T6_2H_ENIGMATICSTAFF@3", Name: "Mysteriöser Stab des Meisters", Tier: 6, Enchantment: 3, CategoryPath: "weapons/arcanestaff/arcanestaff_enigmaticstaff", Recipe: recipe_c2d61ea45ad4},
+		{ID: "T6_2H_ENIGMATICSTAFF@4", Name: "Mysteriöser Stab des Meisters", Tier: 6, Enchantment: 4, CategoryPath: "weapons/arcanestaff/arcanestaff_enigmaticstaff", Recipe: recipe_c2d61ea45ad4},
+		{ID: "T7_2H_ENIGMATICSTAFF", Name: "Mysteriöser Stab des Großmeisters", Tier: 7, Enchantment: 0, CategoryPath: "weapons/arcanestaff/arcanestaff_enigmaticstaff", Recipe: recipe_a462b1274518},
+		{ID: "T7_2H_ENIGMATICSTAFF@1", Name: "Mysteriöser Stab des Großmeisters", Tier: 7, Enchantment: 1, CategoryPath: "weapons/arcanestaff/arcanestaff_enigmaticstaff", Recipe: recipe_a462b1274518},
+		{ID: "T7_2H_ENIGMATICSTAFF@2", Name: "Mysteriöser Stab des Großmeisters", Tier: 7, Enchantment: 2, CategoryPath: "weapons/arcanestaff/arcanestaff_enigmaticstaff", Recipe: recipe_a462b1274518},
+		{ID: "T7_2H_ENIGMATICSTAFF@3", Name: "Mysteriöser Stab des Großmeisters", Tier: 7, Enchantment: 3, CategoryPath: "weapons/arcanestaff/arcanestaff_enigmaticstaff", Recipe: recipe_a462b1274518},
+		{ID: "T7_2H_ENIGMATICSTAFF@4", Name: "Mysteriöser Stab des Großmeisters", Tier: 7, Enchantment: 4, CategoryPath: "weapons/arcanestaff/arcanestaff_enigmaticstaff", Recipe: recipe_a462b1274518},
+		{ID: "T8_2H_ENIGMATICSTAFF", Name: "Mysteriöser Stab des Ältesten", Tier: 8, Enchantment: 0, CategoryPath: "weapons/arcanestaff/arcanestaff_enigmaticstaff", Recipe: recipe_2b1e018a82cc},
+		{ID: "T8_2H_ENIGMATICSTAFF@1", Name: "Mysteriöser Stab des Ältesten", Tier: 8, Enchantment: 1, CategoryPath: "weapons/arcanestaff/arcanestaff_enigmaticstaff", Recipe: recipe_2b1e018a82cc},
+		{ID: "T8_2H_ENIGMATICSTAFF@2", Name: "Mysteriöser Stab des Ältesten", Tier: 8, Enchantment: 2, CategoryPath: "weapons/arcanestaff/arcanestaff_enigmaticstaff", Recipe: recipe_2b1e018a82cc},
+		{ID: "T8_2H_ENIGMATICSTAFF@3", Name: "Mysteriöser Stab des Ältesten", Tier: 8, Enchantment: 3, CategoryPath: "weapons/arcanestaff/arcanestaff_enigmaticstaff", Recipe: recipe_2b1e018a82cc},
+		{ID: "T8_2H_ENIGMATICSTAFF@4", Name: "Mysteriöser Stab des Ältesten", Tier: 8, Enchantment: 4, CategoryPath: "weapons/arcanestaff/arcanestaff_enigmaticstaff", Recipe: recipe_2b1e018a82cc},
+	}},
+	{Name: "Großer Feuerstab des Adepten", BaseID: "2H_FIRESTAFF", MinTier: 4, MaxTier: 8, MinEnchantment: 0, MaxEnchantment: 4, Variants: []ItemVariant{
+		{ID: "T4_2H_FIRESTAFF", Name: "Großer Feuerstab des Adepten", Tier: 4, Enchantment: 0, CategoryPath: "weapons/firestaff/firestaff_2h_firestaff", Recipe: recipe_ebd1b8bbd80e},
+		{ID: "T4_2H_FIRESTAFF@1", Name: "Großer Feuerstab des Adepten", Tier: 4, Enchantment: 1, CategoryPath: "weapons/firestaff/firestaff_2h_firestaff", Recipe: recipe_ebd1b8bbd80e},
+		{ID: "T4_2H_FIRESTAFF@2", Name: "Großer Feuerstab des Adepten", Tier: 4, Enchantment: 2, CategoryPath: "weapons/firestaff/firestaff_2h_firestaff", Recipe: recipe_ebd1b8bbd80e},
+		{ID: "T4_2H_FIRESTAFF@3", Name: "Großer Feuerstab des Adepten", Tier: 4, Enchantment: 3, CategoryPath: "weapons/firestaff/firestaff_2h_firestaff", Recipe: recipe_ebd1b8bbd80e},
+		{ID: "T4_2H_FIRESTAFF@4", Name: "Großer Feuerstab des Adepten", Tier: 4, Enchantment: 4, CategoryPath: "weapons/firestaff/firestaff_2h_firestaff", Recipe: recipe_ebd1b8bbd80e},
+		{ID: "T5_2H_FIRESTAFF", Name: "Großer Feuerstab des Experten", Tier: 5, Enchantment: 0, CategoryPath: "weapons/firestaff/firestaff_2h_firestaff", Recipe: recipe_14775347d1d2},
+		{ID: "T5_2H_FIRESTAFF@1", Name: "Großer Feuerstab des Experten", Tier: 5, Enchantment: 1, CategoryPath: "weapons/firestaff/firestaff_2h_firestaff", Recipe: recipe_14775347d1d2},
+		{ID: "T5_2H_FIRESTAFF@2", Name: "Großer Feuerstab des Experten", Tier: 5, Enchantment: 2, CategoryPath: "weapons/firestaff/firestaff_2h_firestaff", Recipe: recipe_14775347d1d2},
+		{ID: "T5_2H_FIRESTAFF@3", Name: "Großer Feuerstab des Experten", Tier: 5, Enchantment: 3, CategoryPath: "weapons/firestaff/firestaff_2h_firestaff", Recipe: recipe_14775347d1d2},
+		{ID: "T5_2H_FIRESTAFF@4", Name: "Großer Feuerstab des Experten", Tier: 5, Enchantment: 4, CategoryPath: "weapons/firestaff/firestaff_2h_firestaff", Recipe: recipe_14775347d1d2},
+		{ID: "T6_2H_FIRESTAFF", Name: "Großer Feuerstab des Meisters", Tier: 6, Enchantment: 0, CategoryPath: "weapons/firestaff/firestaff_2h_firestaff", Recipe: recipe_e1bdeb3955a4},
+		{ID: "T6_2H_FIRESTAFF@1", Name: "Großer Feuerstab des Meisters", Tier: 6, Enchantment: 1, CategoryPath: "weapons/firestaff/firestaff_2h_firestaff", Recipe: recipe_e1bdeb3955a4},
+		{ID: "T6_2H_FIRESTAFF@2", Name: "Großer Feuerstab des Meisters", Tier: 6, Enchantment: 2, CategoryPath: "weapons/firestaff/firestaff_2h_firestaff", Recipe: recipe_e1bdeb3955a4},
+		{ID: "T6_2H_FIRESTAFF@3", Name: "Großer Feuerstab des Meisters", Tier: 6, Enchantment: 3, CategoryPath: "weapons/firestaff/firestaff_2h_firestaff", Recipe: recipe_e1bdeb3955a4},
+		{ID: "T6_2H_FIRESTAFF@4", Name: "Großer Feuerstab des Meisters", Tier: 6, Enchantment: 4, CategoryPath: "weapons/firestaff/firestaff_2h_firestaff", Recipe: recipe_e1bdeb3955a4},
+		{ID: "T7_2H_FIRESTAFF", Name: "Großer Feuerstab des Großmeisters", Tier: 7, Enchantment: 0, CategoryPath: "weapons/firestaff/firestaff_2h_firestaff", Recipe: recipe_6f1d2c9b2788},
+		{ID: "T7_2H_FIRESTAFF@1", Name: "Großer Feuerstab des Großmeisters", Tier: 7, Enchantment: 1, CategoryPath: "weapons/firestaff/firestaff_2h_firestaff", Recipe: recipe_6f1d2c9b2788},
+		{ID: "T7_2H_FIRESTAFF@2", Name: "Großer Feuerstab des Großmeisters", Tier: 7, Enchantment: 2, CategoryPath: "weapons/firestaff/firestaff_2h_firestaff", Recipe: recipe_6f1d2c9b2788},
+		{ID: "T7_2H_FIRESTAFF@3", Name: "Großer Feuerstab des Großmeisters", Tier: 7, Enchantment: 3, CategoryPath: "weapons/firestaff/firestaff_2h_firestaff", Recipe: recipe_6f1d2c9b2788},
+		{ID: "T7_2H_FIRESTAFF@4", Name: "Großer Feuerstab des Großmeisters", Tier: 7, Enchantment: 4, CategoryPath: "weapons/firestaff/firestaff_2h_firestaff", Recipe: recipe_6f1d2c9b2788},
+		{ID: "T8_2H_FIRESTAFF", Name: "Der Zorn von Vendetta", Tier: 8, Enchantment: 0, CategoryPath: "weapons/firestaff/firestaff_2h_firestaff", Recipe: recipe_e1a7b7e38617},
+		{ID: "T8_2H_FIRESTAFF@1", Name: "Der Zorn von Vendetta", Tier: 8, Enchantment: 1, CategoryPath: "weapons/firestaff/firestaff_2h_firestaff", Recipe: recipe_e1a7b7e38617},
+		{ID: "T8_2H_FIRESTAFF@2", Name: "Der Zorn von Vendetta", Tier: 8, Enchantment: 2, CategoryPath: "weapons/firestaff/firestaff_2h_firestaff", Recipe: recipe_e1a7b7e38617},
+		{ID: "T8_2H_FIRESTAFF@3", Name: "Der Zorn von Vendetta", Tier: 8, Enchantment: 3, CategoryPath: "weapons/firestaff/firestaff_2h_firestaff", Recipe: recipe_e1a7b7e38617},
+		{ID: "T8_2H_FIRESTAFF@4", Name: "Der Zorn von Vendetta", Tier: 8, Enchantment: 4, CategoryPath: "weapons/firestaff/firestaff_2h_firestaff", Recipe: recipe_e1a7b7e38617},
+	}},
+	{Name: "Schwefelstab des Adepten", BaseID: "2H_FIRESTAFF_HELL", MinTier: 4, MaxTier: 8, MinEnchantment: 0, MaxEnchantment: 4, Variants: []ItemVariant{
+		{ID: "T4_2H_FIRESTAFF_HELL", Name: "Schwefelstab des Adepten", Tier: 4, Enchantment: 0, CategoryPath: "weapons/firestaff/firestaff_hell", Recipe: recipe_d9a8fcec8379},
+		{ID: "T4_2H_FIRESTAFF_HELL@1", Name: "Schwefelstab des Adepten", Tier: 4, Enchantment: 1, CategoryPath: "weapons/firestaff/firestaff_hell", Recipe: recipe_d9a8fcec8379},
+		{ID: "T4_2H_FIRESTAFF_HELL@2", Name: "Schwefelstab des Adepten", Tier: 4, Enchantment: 2, CategoryPath: "weapons/firestaff/firestaff_hell", Recipe: recipe_d9a8fcec8379},
+		{ID: "T4_2H_FIRESTAFF_HELL@3", Name: "Schwefelstab des Adepten", Tier: 4, Enchantment: 3, CategoryPath: "weapons/firestaff/firestaff_hell", Recipe: recipe_d9a8fcec8379},
+		{ID: "T4_2H_FIRESTAFF_HELL@4", Name: "Schwefelstab des Adepten", Tier: 4, Enchantment: 4, CategoryPath: "weapons/firestaff/firestaff_hell", Recipe: recipe_d9a8fcec8379},
+		{ID: "T5_2H_FIRESTAFF_HELL", Name: "Schwefelstab des Experten", Tier: 5, Enchantment: 0, CategoryPath: "weapons/firestaff/firestaff_hell", Recipe: recipe_6ede5476534b},
+		{ID: "T5_2H_FIRESTAFF_HELL@1", Name: "Schwefelstab des Experten", Tier: 5, Enchantment: 1, CategoryPath: "weapons/firestaff/firestaff_hell", Recipe: recipe_6ede5476534b},
+		{ID: "T5_2H_FIRESTAFF_HELL@2", Name: "Schwefelstab des Experten", Tier: 5, Enchantment: 2, CategoryPath: "weapons/firestaff/firestaff_hell", Recipe: recipe_6ede5476534b},
+		{ID: "T5_2H_FIRESTAFF_HELL@3", Name: "Schwefelstab des Experten", Tier: 5, Enchantment: 3, CategoryPath: "weapons/firestaff/firestaff_hell", Recipe: recipe_6ede5476534b},
+		{ID: "T5_2H_FIRESTAFF_HELL@4", Name: "Schwefelstab des Experten", Tier: 5, Enchantment: 4, CategoryPath: "weapons/firestaff/firestaff_hell", Recipe: recipe_6ede5476534b},
+		{ID: "T6_2H_FIRESTAFF_HELL", Name: "Schwefelstab des Meisters", Tier: 6, Enchantment: 0, CategoryPath: "weapons/firestaff/firestaff_hell", Recipe: recipe_5f33fb895dd7},
+		{ID: "T6_2H_FIRESTAFF_HELL@1", Name: "Schwefelstab des Meisters", Tier: 6, Enchantment: 1, CategoryPath: "weapons/firestaff/firestaff_hell", Recipe: recipe_5f33fb895dd7},
+		{ID: "T6_2H_FIRESTAFF_HELL@2", Name: "Schwefelstab des Meisters", Tier: 6, Enchantment: 2, CategoryPath: "weapons/firestaff/firestaff_hell", Recipe: recipe_5f33fb895dd7},
+		{ID: "T6_2H_FIRESTAFF_HELL@3", Name: "Schwefelstab des Meisters", Tier: 6, Enchantment: 3, CategoryPath: "weapons/firestaff/firestaff_hell", Recipe: recipe_5f33fb895dd7},
+		{ID: "T6_2H_FIRESTAFF_HELL@4", Name: "Schwefelstab des Meisters", Tier: 6, Enchantment: 4, CategoryPath: "weapons/firestaff/firestaff_hell", Recipe: recipe_5f33fb895dd7},
+		{ID: "T7_2H_FIRESTAFF_HELL", Name: "Schwefelstab des Großmeisters", Tier: 7, Enchantment: 0, CategoryPath: "weapons/firestaff/firestaff_hell", Recipe: recipe_957214059779},
+		{ID: "T7_2H_FIRESTAFF_HELL@1", Name: "Schwefelstab des Großmeisters", Tier: 7, Enchantment: 1, CategoryPath: "weapons/firestaff/firestaff_hell", Recipe: recipe_957214059779},
+		{ID: "T7_2H_FIRESTAFF_HELL@2", Name: "Schwefelstab des Großmeisters", Tier: 7, Enchantment: 2, CategoryPath: "weapons/firestaff/firestaff_hell", Recipe: recipe_957214059779},
+		{ID: "T7_2H_FIRESTAFF_HELL@3", Name: "Schwefelstab des Großmeisters", Tier: 7, Enchantment: 3, CategoryPath: "weapons/firestaff/firestaff_hell", Recipe: recipe_957214059779},
+		{ID: "T7_2H_FIRESTAFF_HELL@4", Name: "Schwefelstab des Großmeisters", Tier: 7, Enchantment: 4, CategoryPath: "weapons/firestaff/firestaff_hell", Recipe: recipe_957214059779},
+		{ID: "T8_2H_FIRESTAFF_HELL", Name: "Schwefelstab des Ältesten", Tier: 8, Enchantment: 0, CategoryPath: "weapons/firestaff/firestaff_hell", Recipe: recipe_cd03b47e6ead},
+		{ID: "T8_2H_FIRESTAFF_HELL@1", Name: "Schwefelstab des Ältesten", Tier: 8, Enchantment: 1, CategoryPath: "weapons/firestaff/firestaff_hell", Recipe: recipe_cd03b47e6ead},
+		{ID: "T8_2H_FIRESTAFF_HELL@2", Name: "Schwefelstab des Ältesten", Tier: 8, Enchantment: 2, CategoryPath: "weapons/firestaff/firestaff_hell", Recipe: recipe_cd03b47e6ead},
+		{ID: "T8_2H_FIRESTAFF_HELL@3", Name: "Schwefelstab des Ältesten", Tier: 8, Enchantment: 3, CategoryPath: "weapons/firestaff/firestaff_hell", Recipe: recipe_cd03b47e6ead},
+		{ID: "T8_2H_FIRESTAFF_HELL@4", Name: "Schwefelstab des Ältesten", Tier: 8, Enchantment: 4, CategoryPath: "weapons/firestaff/firestaff_hell", Recipe: recipe_cd03b47e6ead},
+	}},
+	{Name: "Morgenlied des Adepten", BaseID: "2H_FIRE_RINGPAIR_AVALON", MinTier: 4, MaxTier: 8, MinEnchantment: 0, MaxEnchantment: 4, Variants: []ItemVariant{
+		{ID: "T4_2H_FIRE_RINGPAIR_AVALON", Name: "Morgenlied des Adepten", Tier: 4, Enchantment: 0, CategoryPath: "weapons/firestaff/firestaff_avalon", Recipe: recipe_09ce291cba48},
+		{ID: "T4_2H_FIRE_RINGPAIR_AVALON@1", Name: "Morgenlied des Adepten", Tier: 4, Enchantment: 1, CategoryPath: "weapons/firestaff/firestaff_avalon", Recipe: recipe_09ce291cba48},
+		{ID: "T4_2H_FIRE_RINGPAIR_AVALON@2", Name: "Morgenlied des Adepten", Tier: 4, Enchantment: 2, CategoryPath: "weapons/firestaff/firestaff_avalon", Recipe: recipe_09ce291cba48},
+		{ID: "T4_2H_FIRE_RINGPAIR_AVALON@3", Name: "Morgenlied des Adepten", Tier: 4, Enchantment: 3, CategoryPath: "weapons/firestaff/firestaff_avalon", Recipe: recipe_09ce291cba48},
+		{ID: "T4_2H_FIRE_RINGPAIR_AVALON@4", Name: "Morgenlied des Adepten", Tier: 4, Enchantment: 4, CategoryPath: "weapons/firestaff/firestaff_avalon", Recipe: recipe_09ce291cba48},
+		{ID: "T5_2H_FIRE_RINGPAIR_AVALON", Name: "Morgenlied des Experten", Tier: 5, Enchantment: 0, CategoryPath: "weapons/firestaff/firestaff_avalon", Recipe: recipe_9198c1e8162e},
+		{ID: "T5_2H_FIRE_RINGPAIR_AVALON@1", Name: "Morgenlied des Experten", Tier: 5, Enchantment: 1, CategoryPath: "weapons/firestaff/firestaff_avalon", Recipe: recipe_9198c1e8162e},
+		{ID: "T5_2H_FIRE_RINGPAIR_AVALON@2", Name: "Morgenlied des Experten", Tier: 5, Enchantment: 2, CategoryPath: "weapons/firestaff/firestaff_avalon", Recipe: recipe_9198c1e8162e},
+		{ID: "T5_2H_FIRE_RINGPAIR_AVALON@3", Name: "Morgenlied des Experten", Tier: 5, Enchantment: 3, CategoryPath: "weapons/firestaff/firestaff_avalon", Recipe: recipe_9198c1e8162e},
+		{ID: "T5_2H_FIRE_RINGPAIR_AVALON@4", Name: "Morgenlied des Experten", Tier: 5, Enchantment: 4, CategoryPath: "weapons/firestaff/firestaff_avalon", Recipe: recipe_9198c1e8162e},
+		{ID: "T6_2H_FIRE_RINGPAIR_AVALON", Name: "Morgenlied des Meisters", Tier: 6, Enchantment: 0, CategoryPath: "weapons/firestaff/firestaff_avalon", Recipe: recipe_6a9a213e7b40},
+		{ID: "T6_2H_FIRE_RINGPAIR_AVALON@1", Name: "Morgenlied des Meisters", Tier: 6, Enchantment: 1, CategoryPath: "weapons/firestaff/firestaff_avalon", Recipe: recipe_6a9a213e7b40},
+		{ID: "T6_2H_FIRE_RINGPAIR_AVALON@2", Name: "Morgenlied des Meisters", Tier: 6, Enchantment: 2, CategoryPath: "weapons/firestaff/firestaff_avalon", Recipe: recipe_6a9a213e7b40},
+		{ID: "T6_2H_FIRE_RINGPAIR_AVALON@3", Name: "Morgenlied des Meisters", Tier: 6, Enchantment: 3, CategoryPath: "weapons/firestaff/firestaff_avalon", Recipe: recipe_6a9a213e7b40},
+		{ID: "T6_2H_FIRE_RINGPAIR_AVALON@4", Name: "Morgenlied des Meisters", Tier: 6, Enchantment: 4, CategoryPath: "weapons/firestaff/firestaff_avalon", Recipe: recipe_6a9a213e7b40},
+		{ID: "T7_2H_FIRE_RINGPAIR_AVALON", Name: "Morgenlied des Großmeisters", Tier: 7, Enchantment: 0, CategoryPath: "weapons/firestaff/firestaff_avalon", Recipe: recipe_e2589182fdb4},
+		{ID: "T7_2H_FIRE_RINGPAIR_AVALON@1", Name: "Morgenlied des Großmeisters", Tier: 7, Enchantment: 1, CategoryPath: "weapons/firestaff/firestaff_avalon", Recipe: recipe_e2589182fdb4},
+		{ID: "T7_2H_FIRE_RINGPAIR_AVALON@2", Name: "Morgenlied des Großmeisters", Tier: 7, Enchantment: 2, CategoryPath: "weapons/firestaff/firestaff_avalon", Recipe: recipe_e2589182fdb4},
+		{ID: "T7_2H_FIRE_RINGPAIR_AVALON@3", Name: "Morgenlied des Großmeisters", Tier: 7, Enchantment: 3, CategoryPath: "weapons/firestaff/firestaff_avalon", Recipe: recipe_e2589182fdb4},
+		{ID: "T7_2H_FIRE_RINGPAIR_AVALON@4", Name: "Morgenlied des Großmeisters", Tier: 7, Enchantment: 4, CategoryPath: "weapons/firestaff/firestaff_avalon", Recipe: recipe_e2589182fdb4},
+		{ID: "T8_2H_FIRE_RINGPAIR_AVALON", Name: "Morgenlied des Ältesten", Tier: 8, Enchantment: 0, CategoryPath: "weapons/firestaff/firestaff_avalon", Recipe: recipe_e2491755aed2},
+		{ID: "T8_2H_FIRE_RINGPAIR_AVALON@1", Name: "Morgenlied des Ältesten", Tier: 8, Enchantment: 1, CategoryPath: "weapons/firestaff/firestaff_avalon", Recipe: recipe_e2491755aed2},
+		{ID: "T8_2H_FIRE_RINGPAIR_AVALON@2", Name: "Morgenlied des Ältesten", Tier: 8, Enchantment: 2, CategoryPath: "weapons/firestaff/firestaff_avalon", Recipe: recipe_e2491755aed2},
+		{ID: "T8_2H_FIRE_RINGPAIR_AVALON@3", Name: "Morgenlied des Ältesten", Tier: 8, Enchantment: 3, CategoryPath: "weapons/firestaff/firestaff_avalon", Recipe: recipe_e2491755aed2},
+		{ID: "T8_2H_FIRE_RINGPAIR_AVALON@4", Name: "Morgenlied des Ältesten", Tier: 8, Enchantment: 4, CategoryPath: "weapons/firestaff/firestaff_avalon", Recipe: recipe_e2491755aed2},
+	}},
+	{Name: "Morgenstern des Adepten", BaseID: "2H_FLAIL", MinTier: 4, MaxTier: 8, MinEnchantment: 0, MaxEnchantment: 4, Variants: []ItemVariant{
+		{ID: "T4_2H_FLAIL", Name: "Morgenstern des Adepten", Tier: 4, Enchantment: 0, CategoryPath: "weapons/mace/mace_flail", Recipe: recipe_3bea0e7baefe},
+		{ID: "T4_2H_FLAIL@1", Name: "Morgenstern des Adepten", Tier: 4, Enchantment: 1, CategoryPath: "weapons/mace/mace_flail", Recipe: recipe_3bea0e7baefe},
+		{ID: "T4_2H_FLAIL@2", Name: "Morgenstern des Adepten", Tier: 4, Enchantment: 2, CategoryPath: "weapons/mace/mace_flail", Recipe: recipe_3bea0e7baefe},
+		{ID: "T4_2H_FLAIL@3", Name: "Morgenstern des Adepten", Tier: 4, Enchantment: 3, CategoryPath: "weapons/mace/mace_flail", Recipe: recipe_3bea0e7baefe},
+		{ID: "T4_2H_FLAIL@4", Name: "Morgenstern des Adepten", Tier: 4, Enchantment: 4, CategoryPath: "weapons/mace/mace_flail", Recipe: recipe_3bea0e7baefe},
+		{ID: "T5_2H_FLAIL", Name: "Morgenstern des Experten", Tier: 5, Enchantment: 0, CategoryPath: "weapons/mace/mace_flail", Recipe: recipe_74845d048421},
+		{ID: "T5_2H_FLAIL@1", Name: "Morgenstern des Experten", Tier: 5, Enchantment: 1, CategoryPath: "weapons/mace/mace_flail", Recipe: recipe_74845d048421},
+		{ID: "T5_2H_FLAIL@2", Name: "Morgenstern des Experten", Tier: 5, Enchantment: 2, CategoryPath: "weapons/mace/mace_flail", Recipe: recipe_74845d048421},
+		{ID: "T5_2H_FLAIL@3", Name: "Morgenstern des Experten", Tier: 5, Enchantment: 3, CategoryPath: "weapons/mace/mace_flail", Recipe: recipe_74845d048421},
+		{ID: "T5_2H_FLAIL@4", Name: "Morgenstern des Experten", Tier: 5, Enchantment: 4, CategoryPath: "weapons/mace/mace_flail", Recipe: recipe_74845d048421},
+		{ID: "T6_2H_FLAIL", Name: "Morgenstern des Meisters", Tier: 6, Enchantment: 0, CategoryPath: "weapons/mace/mace_flail", Recipe: recipe_d27f56c1cfa8},
+		{ID: "T6_2H_FLAIL@1", Name: "Morgenstern des Meisters", Tier: 6, Enchantment: 1, CategoryPath: "weapons/mace/mace_flail", Recipe: recipe_d27f56c1cfa8},
+		{ID: "T6_2H_FLAIL@2", Name: "Morgenstern des Meisters", Tier: 6, Enchantment: 2, CategoryPath: "weapons/mace/mace_flail", Recipe: recipe_d27f56c1cfa8},
+		{ID: "T6_2H_FLAIL@3", Name: "Morgenstern des Meisters", Tier: 6, Enchantment: 3, CategoryPath: "weapons/mace/mace_flail", Recipe: recipe_d27f56c1cfa8},
+		{ID: "T6_2H_FLAIL@4", Name: "Morgenstern des Meisters", Tier: 6, Enchantment: 4, CategoryPath: "weapons/mace/mace_flail", Recipe: recipe_d27f56c1cfa8},
+		{ID: "T7_2H_FLAIL", Name: "Morgenstern des Großmeisters", Tier: 7, Enchantment: 0, CategoryPath: "weapons/mace/mace_flail", Recipe: recipe_580d863ed7e0},
+		{ID: "T7_2H_FLAIL@1", Name: "Morgenstern des Großmeisters", Tier: 7, Enchantment: 1, CategoryPath: "weapons/mace/mace_flail", Recipe: recipe_580d863ed7e0},
+		{ID: "T7_2H_FLAIL@2", Name: "Morgenstern des Großmeisters", Tier: 7, Enchantment: 2, CategoryPath: "weapons/mace/mace_flail", Recipe: recipe_580d863ed7e0},
+		{ID: "T7_2H_FLAIL@3", Name: "Morgenstern des Großmeisters", Tier: 7, Enchantment: 3, CategoryPath: "weapons/mace/mace_flail", Recipe: recipe_580d863ed7e0},
+		{ID: "T7_2H_FLAIL@4", Name: "Morgenstern des Großmeisters", Tier: 7, Enchantment: 4, CategoryPath: "weapons/mace/mace_flail", Recipe: recipe_580d863ed7e0},
+		{ID: "T8_2H_FLAIL", Name: "Morgenstern des Ältesten", Tier: 8, Enchantment: 0, CategoryPath: "weapons/mace/mace_flail", Recipe: recipe_fe04bcc0e657},
+		{ID: "T8_2H_FLAIL@1", Name: "Morgenstern des Ältesten", Tier: 8, Enchantment: 1, CategoryPath: "weapons/mace/mace_flail", Recipe: recipe_fe04bcc0e657},
+		{ID: "T8_2H_FLAIL@2", Name: "Morgenstern des Ältesten", Tier: 8, Enchantment: 2, CategoryPath: "weapons/mace/mace_flail", Recipe: recipe_fe04bcc0e657},
+		{ID: "T8_2H_FLAIL@3", Name: "Morgenstern des Ältesten", Tier: 8, Enchantment: 3, CategoryPath: "weapons/mace/mace_flail", Recipe: recipe_fe04bcc0e657},
+		{ID: "T8_2H_FLAIL@4", Name: "Morgenstern des Ältesten", Tier: 8, Enchantment: 4, CategoryPath: "weapons/mace/mace_flail", Recipe: recipe_fe04bcc0e657},
+	}},
+	{Name: "Großer Froststab des Adepten", BaseID: "2H_FROSTSTAFF", MinTier: 4, MaxTier: 8, MinEnchantment: 0, MaxEnchantment: 4, Variants: []ItemVariant{
+		{ID: "T4_2H_FROSTSTAFF", Name: "Großer Froststab des Adepten", Tier: 4, Enchantment: 0, CategoryPath: "weapons/froststaff/froststaff_2h_froststaff", Recipe: recipe_7b86cf632490},
+		{ID: "T4_2H_FROSTSTAFF@1", Name: "Großer Froststab des Adepten", Tier: 4, Enchantment: 1, CategoryPath: "weapons/froststaff/froststaff_2h_froststaff", Recipe: recipe_7b86cf632490},
+		{ID: "T4_2H_FROSTSTAFF@2", Name: "Großer Froststab des Adepten", Tier: 4, Enchantment: 2, CategoryPath: "weapons/froststaff/froststaff_2h_froststaff", Recipe: recipe_7b86cf632490},
+		{ID: "T4_2H_FROSTSTAFF@3", Name: "Großer Froststab des Adepten", Tier: 4, Enchantment: 3, CategoryPath: "weapons/froststaff/froststaff_2h_froststaff", Recipe: recipe_7b86cf632490},
+		{ID: "T4_2H_FROSTSTAFF@4", Name: "Großer Froststab des Adepten", Tier: 4, Enchantment: 4, CategoryPath: "weapons/froststaff/froststaff_2h_froststaff", Recipe: recipe_7b86cf632490},
+		{ID: "T5_2H_FROSTSTAFF", Name: "Großer Froststab des Experten", Tier: 5, Enchantment: 0, CategoryPath: "weapons/froststaff/froststaff_2h_froststaff", Recipe: recipe_cd089c6787f5},
+		{ID: "T5_2H_FROSTSTAFF@1", Name: "Großer Froststab des Experten", Tier: 5, Enchantment: 1, CategoryPath: "weapons/froststaff/froststaff_2h_froststaff", Recipe: recipe_cd089c6787f5},
+		{ID: "T5_2H_FROSTSTAFF@2", Name: "Großer Froststab des Experten", Tier: 5, Enchantment: 2, CategoryPath: "weapons/froststaff/froststaff_2h_froststaff", Recipe: recipe_cd089c6787f5},
+		{ID: "T5_2H_FROSTSTAFF@3", Name: "Großer Froststab des Experten", Tier: 5, Enchantment: 3, CategoryPath: "weapons/froststaff/froststaff_2h_froststaff", Recipe: recipe_cd089c6787f5},
+		{ID: "T5_2H_FROSTSTAFF@4", Name: "Großer Froststab des Experten", Tier: 5, Enchantment: 4, CategoryPath: "weapons/froststaff/froststaff_2h_froststaff", Recipe: recipe_cd089c6787f5},
+		{ID: "T6_2H_FROSTSTAFF", Name: "Großer Froststab des Meisters", Tier: 6, Enchantment: 0, CategoryPath: "weapons/froststaff/froststaff_2h_froststaff", Recipe: recipe_5774eb307700},
+		{ID: "T6_2H_FROSTSTAFF@1", Name: "Großer Froststab des Meisters", Tier: 6, Enchantment: 1, CategoryPath: "weapons/froststaff/froststaff_2h_froststaff", Recipe: recipe_5774eb307700},
+		{ID: "T6_2H_FROSTSTAFF@2", Name: "Großer Froststab des Meisters", Tier: 6, Enchantment: 2, CategoryPath: "weapons/froststaff/froststaff_2h_froststaff", Recipe: recipe_5774eb307700},
+		{ID: "T6_2H_FROSTSTAFF@3", Name: "Großer Froststab des Meisters", Tier: 6, Enchantment: 3, CategoryPath: "weapons/froststaff/froststaff_2h_froststaff", Recipe: recipe_5774eb307700},
+		{ID: "T6_2H_FROSTSTAFF@4", Name: "Großer Froststab des Meisters", Tier: 6, Enchantment: 4, CategoryPath: "weapons/froststaff/froststaff_2h_froststaff", Recipe: recipe_5774eb307700},
+		{ID: "T7_2H_FROSTSTAFF", Name: "Großer Froststab des Großmeisters", Tier: 7, Enchantment: 0, CategoryPath: "weapons/froststaff/froststaff_2h_froststaff", Recipe: recipe_9bab7da2cac6},
+		{ID: "T7_2H_FROSTSTAFF@1", Name: "Großer Froststab des Großmeisters", Tier: 7, Enchantment: 1, CategoryPath: "weapons/froststaff/froststaff_2h_froststaff", Recipe: recipe_9bab7da2cac6},
+		{ID: "T7_2H_FROSTSTAFF@2", Name: "Großer Froststab des Großmeisters", Tier: 7, Enchantment: 2, CategoryPath: "weapons/froststaff/froststaff_2h_froststaff", Recipe: recipe_9bab7da2cac6},
+		{ID: "T7_2H_FROSTSTAFF@3", Name: "Großer Froststab des Großmeisters", Tier: 7, Enchantment: 3, CategoryPath: "weapons/froststaff/froststaff_2h_froststaff", Recipe: recipe_9bab7da2cac6},
+		{ID: "T7_2H_FROSTSTAFF@4", Name: "Großer Froststab des Großmeisters", Tier: 7, Enchantment: 4, CategoryPath: "weapons/froststaff/froststaff_2h_froststaff", Recipe: recipe_9bab7da2cac6},
+		{ID: "T8_2H_FROSTSTAFF", Name: "Großer Froststab des Ältesten", Tier: 8, Enchantment: 0, CategoryPath: "weapons/froststaff/froststaff_2h_froststaff", Recipe: recipe_457a7112466e},
+		{ID: "T8_2H_FROSTSTAFF@1", Name: "Großer Froststab des Ältesten", Tier: 8, Enchantment: 1, CategoryPath: "weapons/froststaff/froststaff_2h_froststaff", Recipe: recipe_457a7112466e},
+		{ID: "T8_2H_FROSTSTAFF@2", Name: "Großer Froststab des Ältesten", Tier: 8, Enchantment: 2, CategoryPath: "weapons/froststaff/froststaff_2h_froststaff", Recipe: recipe_457a7112466e},
+		{ID: "T8_2H_FROSTSTAFF@3", Name: "Großer Froststab des Ältesten", Tier: 8, Enchantment: 3, CategoryPath: "weapons/froststaff/froststaff_2h_froststaff", Recipe: recipe_457a7112466e},
+		{ID: "T8_2H_FROSTSTAFF@4", Name: "Großer Froststab des Ältesten", Tier: 8, Enchantment: 4, CategoryPath: "weapons/froststaff/froststaff_2h_froststaff", Recipe: recipe_457a7112466e},
+	}},
+	{Name: "Arktischer Stab des Adepten", BaseID: "2H_FROSTSTAFF_CRYSTAL", MinTier: 4, MaxTier: 8, MinEnchantment: 0, MaxEnchantment: 4, Variants: []ItemVariant{
+		{ID: "T4_2H_FROSTSTAFF_CRYSTAL", Name: "Arktischer Stab des Adepten", Tier: 4, Enchantment: 0, CategoryPath: "weapons/froststaff/froststaff_crystal", Recipe: recipe_effd00ce9dc6},
+		{ID: "T4_2H_FROSTSTAFF_CRYSTAL@1", Name: "Arktischer Stab des Adepten", Tier: 4, Enchantment: 1, CategoryPath: "weapons/froststaff/froststaff_crystal", Recipe: recipe_effd00ce9dc6},
+		{ID: "T4_2H_FROSTSTAFF_CRYSTAL@2", Name: "Arktischer Stab des Adepten", Tier: 4, Enchantment: 2, CategoryPath: "weapons/froststaff/froststaff_crystal", Recipe: recipe_effd00ce9dc6},
+		{ID: "T4_2H_FROSTSTAFF_CRYSTAL@3", Name: "Arktischer Stab des Adepten", Tier: 4, Enchantment: 3, CategoryPath: "weapons/froststaff/froststaff_crystal", Recipe: recipe_effd00ce9dc6},
+		{ID: "T4_2H_FROSTSTAFF_CRYSTAL@4", Name: "Arktischer Stab des Adepten", Tier: 4, Enchantment: 4, CategoryPath: "weapons/froststaff/froststaff_crystal", Recipe: recipe_effd00ce9dc6},
+		{ID: "T5_2H_FROSTSTAFF_CRYSTAL", Name: "Arktischer Stab des Experten", Tier: 5, Enchantment: 0, CategoryPath: "weapons/froststaff/froststaff_crystal", Recipe: recipe_d9fe473d6274},
+		{ID: "T5_2H_FROSTSTAFF_CRYSTAL@1", Name: "Arktischer Stab des Experten", Tier: 5, Enchantment: 1, CategoryPath: "weapons/froststaff/froststaff_crystal", Recipe: recipe_d9fe473d6274},
+		{ID: "T5_2H_FROSTSTAFF_CRYSTAL@2", Name: "Arktischer Stab des Experten", Tier: 5, Enchantment: 2, CategoryPath: "weapons/froststaff/froststaff_crystal", Recipe: recipe_d9fe473d6274},
+		{ID: "T5_2H_FROSTSTAFF_CRYSTAL@3", Name: "Arktischer Stab des Experten", Tier: 5, Enchantment: 3, CategoryPath: "weapons/froststaff/froststaff_crystal", Recipe: recipe_d9fe473d6274},
+		{ID: "T5_2H_FROSTSTAFF_CRYSTAL@4", Name: "Arktischer Stab des Experten", Tier: 5, Enchantment: 4, CategoryPath: "weapons/froststaff/froststaff_crystal", Recipe: recipe_d9fe473d6274},
+		{ID: "T6_2H_FROSTSTAFF_CRYSTAL", Name: "Arktischer Stab des Meisters", Tier: 6, Enchantment: 0, CategoryPath: "weapons/froststaff/froststaff_crystal", Recipe: recipe_0f1af3a94a41},
+		{ID: "T6_2H_FROSTSTAFF_CRYSTAL@1", Name: "Arktischer Stab des Meisters", Tier: 6, Enchantment: 1, CategoryPath: "weapons/froststaff/froststaff_crystal", Recipe: recipe_0f1af3a94a41},
+		{ID: "T6_2H_FROSTSTAFF_CRYSTAL@2", Name: "Arktischer Stab des Meisters", Tier: 6, Enchantment: 2, CategoryPath: "weapons/froststaff/froststaff_crystal", Recipe: recipe_0f1af3a94a41},
+		{ID: "T6_2H_FROSTSTAFF_CRYSTAL@3", Name: "Arktischer Stab des Meisters", Tier: 6, Enchantment: 3, CategoryPath: "weapons/froststaff/froststaff_crystal", Recipe: recipe_0f1af3a94a41},
+		{ID: "T6_2H_FROSTSTAFF_CRYSTAL@4", Name: "Arktischer Stab des Meisters", Tier: 6, Enchantment: 4, CategoryPath: "weapons/froststaff/froststaff_crystal", Recipe: recipe_0f1af3a94a41},
+		{ID: "T7_2H_FROSTSTAFF_CRYSTAL", Name: "Arktischer Stab des Großmeisters", Tier: 7, Enchantment: 0, CategoryPath: "weapons/froststaff/froststaff_crystal", Recipe: recipe_0912d576111b},
+		{ID: "T7_2H_FROSTSTAFF_CRYSTAL@1", Name: "Arktischer Stab des Großmeisters", Tier: 7, Enchantment: 1, CategoryPath: "weapons/froststaff/froststaff_crystal", Recipe: recipe_0912d576111b},
+		{ID: "T7_2H_FROSTSTAFF_CRYSTAL@2", Name: "Arktischer Stab des Großmeisters", Tier: 7, Enchantment: 2, CategoryPath: "weapons/froststaff/froststaff_crystal", Recipe: recipe_0912d576111b},
+		{ID: "T7_2H_FROSTSTAFF_CRYSTAL@3", Name: "Arktischer Stab des Großmeisters", Tier: 7, Enchantment: 3, CategoryPath: "weapons/froststaff/froststaff_crystal", Recipe: recipe_0912d576111b},
+		{ID: "T7_2H_FROSTSTAFF_CRYSTAL@4", Name: "Arktischer Stab des Großmeisters", Tier: 7, Enchantment: 4, CategoryPath: "weapons/froststaff/froststaff_crystal", Recipe: recipe_0912d576111b},
+		{ID: "T8_2H_FROSTSTAFF_CRYSTAL", Name: "Arktischer Stab des Ältesten", Tier: 8, Enchantment: 0, CategoryPath: "weapons/froststaff/froststaff_crystal", Recipe: recipe_9a0dcb8072ab},
+		{ID: "T8_2H_FROSTSTAFF_CRYSTAL@1", Name: "Arktischer Stab des Ältesten", Tier: 8, Enchantment: 1, CategoryPath: "weapons/froststaff/froststaff_crystal", Recipe: recipe_9a0dcb8072ab},
+		{ID: "T8_2H_FROSTSTAFF_CRYSTAL@2", Name: "Arktischer Stab des Ältesten", Tier: 8, Enchantment: 2, CategoryPath: "weapons/froststaff/froststaff_crystal", Recipe: recipe_9a0dcb8072ab},
+		{ID: "T8_2H_FROSTSTAFF_CRYSTAL@3", Name: "Arktischer Stab des Ältesten", Tier: 8, Enchantment: 3, CategoryPath: "weapons/froststaff/froststaff_crystal", Recipe: recipe_9a0dcb8072ab},
+		{ID: "T8_2H_FROSTSTAFF_CRYSTAL@4", Name: "Arktischer Stab des Ältesten", Tier: 8, Enchantment: 4, CategoryPath: "weapons/froststaff/froststaff_crystal", Recipe: recipe_9a0dcb8072ab},
+	}},
+	{Name: "Gletscherstab des Adepten", BaseID: "2H_GLACIALSTAFF", MinTier: 4, MaxTier: 8, MinEnchantment: 0, MaxEnchantment: 4, Variants: []ItemVariant{
+		{ID: "T4_2H_GLACIALSTAFF", Name: "Gletscherstab des Adepten", Tier: 4, Enchantment: 0, CategoryPath: "weapons/froststaff/froststaff_glacialstaff", Recipe: recipe_27569fcc6fb2},
+		{ID: "T4_2H_GLACIALSTAFF@1", Name: "Gletscherstab des Adepten", Tier: 4, Enchantment: 1, CategoryPath: "weapons/froststaff/froststaff_glacialstaff", Recipe: recipe_27569fcc6fb2},
+		{ID: "T4_2H_GLACIALSTAFF@2", Name: "Gletscherstab des Adepten", Tier: 4, Enchantment: 2, CategoryPath: "weapons/froststaff/froststaff_glacialstaff", Recipe: recipe_27569fcc6fb2},
+		{ID: "T4_2H_GLACIALSTAFF@3", Name: "Gletscherstab des Adepten", Tier: 4, Enchantment: 3, CategoryPath: "weapons/froststaff/froststaff_glacialstaff", Recipe: recipe_27569fcc6fb2},
+		{ID: "T4_2H_GLACIALSTAFF@4", Name: "Gletscherstab des Adepten", Tier: 4, Enchantment: 4, CategoryPath: "weapons/froststaff/froststaff_glacialstaff", Recipe: recipe_27569fcc6fb2},
+		{ID: "T5_2H_GLACIALSTAFF", Name: "Gletscherstab des Experten", Tier: 5, Enchantment: 0, CategoryPath: "weapons/froststaff/froststaff_glacialstaff", Recipe: recipe_df280910c3d3},
+		{ID: "T5_2H_GLACIALSTAFF@1", Name: "Gletscherstab des Experten", Tier: 5, Enchantment: 1, CategoryPath: "weapons/froststaff/froststaff_glacialstaff", Recipe: recipe_df280910c3d3},
+		{ID: "T5_2H_GLACIALSTAFF@2", Name: "Gletscherstab des Experten", Tier: 5, Enchantment: 2, CategoryPath: "weapons/froststaff/froststaff_glacialstaff", Recipe: recipe_df280910c3d3},
+		{ID: "T5_2H_GLACIALSTAFF@3", Name: "Gletscherstab des Experten", Tier: 5, Enchantment: 3, CategoryPath: "weapons/froststaff/froststaff_glacialstaff", Recipe: recipe_df280910c3d3},
+		{ID: "T5_2H_GLACIALSTAFF@4", Name: "Gletscherstab des Experten", Tier: 5, Enchantment: 4, CategoryPath: "weapons/froststaff/froststaff_glacialstaff", Recipe: recipe_df280910c3d3},
+		{ID: "T6_2H_GLACIALSTAFF", Name: "Gletscherstab des Meisters", Tier: 6, Enchantment: 0, CategoryPath: "weapons/froststaff/froststaff_glacialstaff", Recipe: recipe_be4eadc02627},
+		{ID: "T6_2H_GLACIALSTAFF@1", Name: "Gletscherstab des Meisters", Tier: 6, Enchantment: 1, CategoryPath: "weapons/froststaff/froststaff_glacialstaff", Recipe: recipe_be4eadc02627},
+		{ID: "T6_2H_GLACIALSTAFF@2", Name: "Gletscherstab des Meisters", Tier: 6, Enchantment: 2, CategoryPath: "weapons/froststaff/froststaff_glacialstaff", Recipe: recipe_be4eadc02627},
+		{ID: "T6_2H_GLACIALSTAFF@3", Name: "Gletscherstab des Meisters", Tier: 6, Enchantment: 3, CategoryPath: "weapons/froststaff/froststaff_glacialstaff", Recipe: recipe_be4eadc02627},
+		{ID: "T6_2H_GLACIALSTAFF@4", Name: "Gletscherstab des Meisters", Tier: 6, Enchantment: 4, CategoryPath: "weapons/froststaff/froststaff_glacialstaff", Recipe: recipe_be4eadc02627},
+		{ID: "T7_2H_GLACIALSTAFF", Name: "Gletscherstab des Großmeisters", Tier: 7, Enchantment: 0, CategoryPath: "weapons/froststaff/froststaff_glacialstaff", Recipe: recipe_f35ec69e8495},
+		{ID: "T7_2H_GLACIALSTAFF@1", Name: "Gletscherstab des Großmeisters", Tier: 7, Enchantment: 1, CategoryPath: "weapons/froststaff/froststaff_glacialstaff", Recipe: recipe_f35ec69e8495},
+		{ID: "T7_2H_GLACIALSTAFF@2", Name: "Gletscherstab des Großmeisters", Tier: 7, Enchantment: 2, CategoryPath: "weapons/froststaff/froststaff_glacialstaff", Recipe: recipe_f35ec69e8495},
+		{ID: "T7_2H_GLACIALSTAFF@3", Name: "Gletscherstab des Großmeisters", Tier: 7, Enchantment: 3, CategoryPath: "weapons/froststaff/froststaff_glacialstaff", Recipe: recipe_f35ec69e8495},
+		{ID: "T7_2H_GLACIALSTAFF@4", Name: "Gletscherstab des Großmeisters", Tier: 7, Enchantment: 4, CategoryPath: "weapons/froststaff/froststaff_glacialstaff", Recipe: recipe_f35ec69e8495},
+		{ID: "T8_2H_GLACIALSTAFF", Name: "Gletscherstab des Ältesten", Tier: 8, Enchantment: 0, CategoryPath: "weapons/froststaff/froststaff_glacialstaff", Recipe: recipe_bc526ecbefbf},
+		{ID: "T8_2H_GLACIALSTAFF@1", Name: "Gletscherstab des Ältesten", Tier: 8, Enchantment: 1, CategoryPath: "weapons/froststaff/froststaff_glacialstaff", Recipe: recipe_bc526ecbefbf},
+		{ID: "T8_2H_GLACIALSTAFF@2", Name: "Gletscherstab des Ältesten", Tier: 8, Enchantment: 2, CategoryPath: "weapons/froststaff/froststaff_glacialstaff", Recipe: recipe_bc526ecbefbf},
+		{ID: "T8_2H_GLACIALSTAFF@3", Name: "Gletscherstab des Ältesten", Tier: 8, Enchantment: 3, CategoryPath: "weapons/froststaff/froststaff_glacialstaff", Recipe: recipe_bc526ecbefbf},
+		{ID: "T8_2H_GLACIALSTAFF@4", Name: "Gletscherstab des Ältesten", Tier: 8, Enchantment: 4, CategoryPath: "weapons/froststaff/froststaff_glacialstaff", Recipe: recipe_bc526ecbefbf},
+	}},
+	{Name: "Glefe des Adepten", BaseID: "2H_GLAIVE", MinTier: 4, MaxTier: 8, MinEnchantment: 0, MaxEnchantment: 4, Variants: []ItemVariant{
+		{ID: "T4_2H_GLAIVE", Name: "Glefe des Adepten", Tier: 4, Enchantment: 0, CategoryPath: "weapons/spear/spear_glaive", Recipe: recipe_6ee6a9431ee1},
+		{ID: "T4_2H_GLAIVE@1", Name: "Glefe des Adepten", Tier: 4, Enchantment: 1, CategoryPath: "weapons/spear/spear_glaive", Recipe: recipe_6ee6a9431ee1},
+		{ID: "T4_2H_GLAIVE@2", Name: "Glefe des Adepten", Tier: 4, Enchantment: 2, CategoryPath: "weapons/spear/spear_glaive", Recipe: recipe_6ee6a9431ee1},
+		{ID: "T4_2H_GLAIVE@3", Name: "Glefe des Adepten", Tier: 4, Enchantment: 3, CategoryPath: "weapons/spear/spear_glaive", Recipe: recipe_6ee6a9431ee1},
+		{ID: "T4_2H_GLAIVE@4", Name: "Glefe des Adepten", Tier: 4, Enchantment: 4, CategoryPath: "weapons/spear/spear_glaive", Recipe: recipe_6ee6a9431ee1},
+		{ID: "T5_2H_GLAIVE", Name: "Glefe des Experten", Tier: 5, Enchantment: 0, CategoryPath: "weapons/spear/spear_glaive", Recipe: recipe_9bb048c41275},
+		{ID: "T5_2H_GLAIVE@1", Name: "Glefe des Experten", Tier: 5, Enchantment: 1, CategoryPath: "weapons/spear/spear_glaive", Recipe: recipe_9bb048c41275},
+		{ID: "T5_2H_GLAIVE@2", Name: "Glefe des Experten", Tier: 5, Enchantment: 2, CategoryPath: "weapons/spear/spear_glaive", Recipe: recipe_9bb048c41275},
+		{ID: "T5_2H_GLAIVE@3", Name: "Glefe des Experten", Tier: 5, Enchantment: 3, CategoryPath: "weapons/spear/spear_glaive", Recipe: recipe_9bb048c41275},
+		{ID: "T5_2H_GLAIVE@4", Name: "Glefe des Experten", Tier: 5, Enchantment: 4, CategoryPath: "weapons/spear/spear_glaive", Recipe: recipe_9bb048c41275},
+		{ID: "T6_2H_GLAIVE", Name: "Glefe des Meisters", Tier: 6, Enchantment: 0, CategoryPath: "weapons/spear/spear_glaive", Recipe: recipe_b39633211ff4},
+		{ID: "T6_2H_GLAIVE@1", Name: "Glefe des Meisters", Tier: 6, Enchantment: 1, CategoryPath: "weapons/spear/spear_glaive", Recipe: recipe_b39633211ff4},
+		{ID: "T6_2H_GLAIVE@2", Name: "Glefe des Meisters", Tier: 6, Enchantment: 2, CategoryPath: "weapons/spear/spear_glaive", Recipe: recipe_b39633211ff4},
+		{ID: "T6_2H_GLAIVE@3", Name: "Glefe des Meisters", Tier: 6, Enchantment: 3, CategoryPath: "weapons/spear/spear_glaive", Recipe: recipe_b39633211ff4},
+		{ID: "T6_2H_GLAIVE@4", Name: "Glefe des Meisters", Tier: 6, Enchantment: 4, CategoryPath: "weapons/spear/spear_glaive", Recipe: recipe_b39633211ff4},
+		{ID: "T7_2H_GLAIVE", Name: "Glefe des Großmeisters", Tier: 7, Enchantment: 0, CategoryPath: "weapons/spear/spear_glaive", Recipe: recipe_7037eb09f17d},
+		{ID: "T7_2H_GLAIVE@1", Name: "Glefe des Großmeisters", Tier: 7, Enchantment: 1, CategoryPath: "weapons/spear/spear_glaive", Recipe: recipe_7037eb09f17d},
+		{ID: "T7_2H_GLAIVE@2", Name: "Glefe des Großmeisters", Tier: 7, Enchantment: 2, CategoryPath: "weapons/spear/spear_glaive", Recipe: recipe_7037eb09f17d},
+		{ID: "T7_2H_GLAIVE@3", Name: "Glefe des Großmeisters", Tier: 7, Enchantment: 3, CategoryPath: "weapons/spear/spear_glaive", Recipe: recipe_7037eb09f17d},
+		{ID: "T7_2H_GLAIVE@4", Name: "Glefe des Großmeisters", Tier: 7, Enchantment: 4, CategoryPath: "weapons/spear/spear_glaive", Recipe: recipe_7037eb09f17d},
+		{ID: "T8_2H_GLAIVE", Name: "Glefe des Ältesten", Tier: 8, Enchantment: 0, CategoryPath: "weapons/spear/spear_glaive", Recipe: recipe_7fb7df4bd770},
+		{ID: "T8_2H_GLAIVE@1", Name: "Glefe des Ältesten", Tier: 8, Enchantment: 1, CategoryPath: "weapons/spear/spear_glaive", Recipe: recipe_7fb7df4bd770},
+		{ID: "T8_2H_GLAIVE@2", Name: "Glefe des Ältesten", Tier: 8, Enchantment: 2, CategoryPath: "weapons/spear/spear_glaive", Recipe: recipe_7fb7df4bd770},
+		{ID: "T8_2H_GLAIVE@3", Name: "Glefe des Ältesten", Tier: 8, Enchantment: 3, CategoryPath: "weapons/spear/spear_glaive", Recipe: recipe_7fb7df4bd770},
+		{ID: "T8_2H_GLAIVE@4", Name: "Glefe des Ältesten", Tier: 8, Enchantment: 4, CategoryPath: "weapons/spear/spear_glaive", Recipe: recipe_7fb7df4bd770},
+	}},
+	{Name: "Spaltenglefe des Adepten", BaseID: "2H_GLAIVE_CRYSTAL", MinTier: 4, MaxTier: 8, MinEnchantment: 0, MaxEnchantment: 4, Variants: []ItemVariant{
+		{ID: "T4_2H_GLAIVE_CRYSTAL", Name: "Spaltenglefe des Adepten", Tier: 4, Enchantment: 0, CategoryPath: "weapons/spear/spear_crystal", Recipe: recipe_04304e381798},
+		{ID: "T4_2H_GLAIVE_CRYSTAL@1", Name: "Spaltenglefe des Adepten", Tier: 4, Enchantment: 1, CategoryPath: "weapons/spear/spear_crystal", Recipe: recipe_04304e381798},
+		{ID: "T4_2H_GLAIVE_CRYSTAL@2", Name: "Spaltenglefe des Adepten", Tier: 4, Enchantment: 2, CategoryPath: "weapons/spear/spear_crystal", Recipe: recipe_04304e381798},
+		{ID: "T4_2H_GLAIVE_CRYSTAL@3", Name: "Spaltenglefe des Adepten", Tier: 4, Enchantment: 3, CategoryPath: "weapons/spear/spear_crystal", Recipe: recipe_04304e381798},
+		{ID: "T4_2H_GLAIVE_CRYSTAL@4", Name: "Spaltenglefe des Adepten", Tier: 4, Enchantment: 4, CategoryPath: "weapons/spear/spear_crystal", Recipe: recipe_04304e381798},
+		{ID: "T5_2H_GLAIVE_CRYSTAL", Name: "Spaltenglefe des Experten", Tier: 5, Enchantment: 0, CategoryPath: "weapons/spear/spear_crystal", Recipe: recipe_717ea8b3b4a2},
+		{ID: "T5_2H_GLAIVE_CRYSTAL@1", Name: "Spaltenglefe des Experten", Tier: 5, Enchantment: 1, CategoryPath: "weapons/spear/spear_crystal", Recipe: recipe_717ea8b3b4a2},
+		{ID: "T5_2H_GLAIVE_CRYSTAL@2", Name: "Spaltenglefe des Experten", Tier: 5, Enchantment: 2, CategoryPath: "weapons/spear/spear_crystal", Recipe: recipe_717ea8b3b4a2},
+		{ID: "T5_2H_GLAIVE_CRYSTAL@3", Name: "Spaltenglefe des Experten", Tier: 5, Enchantment: 3, CategoryPath: "weapons/spear/spear_crystal", Recipe: recipe_717ea8b3b4a2},
+		{ID: "T5_2H_GLAIVE_CRYSTAL@4", Name: "Spaltenglefe des Experten", Tier: 5, Enchantment: 4, CategoryPath: "weapons/spear/spear_crystal", Recipe: recipe_717ea8b3b4a2},
+		{ID: "T6_2H_GLAIVE_CRYSTAL", Name: "Spaltenglefe des Meisters", Tier: 6, Enchantment: 0, CategoryPath: "weapons/spear/spear_crystal", Recipe: recipe_474680cdb60d},
+		{ID: "T6_2H_GLAIVE_CRYSTAL@1", Name: "Spaltenglefe des Meisters", Tier: 6, Enchantment: 1, CategoryPath: "weapons/spear/spear_crystal", Recipe: recipe_474680cdb60d},
+		{ID: "T6_2H_GLAIVE_CRYSTAL@2", Name: "Spaltenglefe des Meisters", Tier: 6, Enchantment: 2, CategoryPath: "weapons/spear/spear_crystal", Recipe: recipe_474680cdb60d},
+		{ID: "T6_2H_GLAIVE_CRYSTAL@3", Name: "Spaltenglefe des Meisters", Tier: 6, Enchantment: 3, CategoryPath: "weapons/spear/spear_crystal", Recipe: recipe_474680cdb60d},
+		{ID: "T6_2H_GLAIVE_CRYSTAL@4", Name: "Spaltenglefe des Meisters", Tier: 6, Enchantment: 4, CategoryPath: "weapons/spear/spear_crystal", Recipe: recipe_474680cdb60d},
+		{ID: "T7_2H_GLAIVE_CRYSTAL", Name: "Spaltenglefe des Großmeisters", Tier: 7, Enchantment: 0, CategoryPath: "weapons/spear/spear_crystal", Recipe: recipe_a2d400658fb4},
+		{ID: "T7_2H_GLAIVE_CRYSTAL@1", Name: "Spaltenglefe des Großmeisters", Tier: 7, Enchantment: 1, CategoryPath: "weapons/spear/spear_crystal", Recipe: recipe_a2d400658fb4},
+		{ID: "T7_2H_GLAIVE_CRYSTAL@2", Name: "Spaltenglefe des Großmeisters", Tier: 7, Enchantment: 2, CategoryPath: "weapons/spear/spear_crystal", Recipe: recipe_a2d400658fb4},
+		{ID: "T7_2H_GLAIVE_CRYSTAL@3", Name: "Spaltenglefe des Großmeisters", Tier: 7, Enchantment: 3, CategoryPath: "weapons/spear/spear_crystal", Recipe: recipe_a2d400658fb4},
+		{ID: "T7_2H_GLAIVE_CRYSTAL@4", Name: "Spaltenglefe des Großmeisters", Tier: 7, Enchantment: 4, CategoryPath: "weapons/spear/spear_crystal", Recipe: recipe_a2d400658fb4},
+		{ID: "T8_2H_GLAIVE_CRYSTAL", Name: "Spaltenglefe des Ältesten", Tier: 8, Enchantment: 0, CategoryPath: "weapons/spear/spear_crystal", Recipe: recipe_8d2a9fbec5c3},
+		{ID: "T8_2H_GLAIVE_CRYSTAL@1", Name: "Spaltenglefe des Ältesten", Tier: 8, Enchantment: 1, CategoryPath: "weapons/spear/spear_crystal", Recipe: recipe_8d2a9fbec5c3},
+		{ID: "T8_2H_GLAIVE_CRYSTAL@2", Name: "Spaltenglefe des Ältesten", Tier: 8, Enchantment: 2, CategoryPath: "weapons/spear/spear_crystal", Recipe: recipe_8d2a9fbec5c3},
+		{ID: "T8_2H_GLAIVE_CRYSTAL@3", Name: "Spaltenglefe des Ältesten", Tier: 8, Enchantment: 3, CategoryPath: "weapons/spear/spear_crystal", Recipe: recipe_8d2a9fbec5c3},
+		{ID: "T8_2H_GLAIVE_CRYSTAL@4", Name: "Spaltenglefe des Ältesten", Tier: 8, Enchantment: 4, CategoryPath: "weapons/spear/spear_crystal", Recipe: recipe_8d2a9fbec5c3},
+	}},
+	{Name: "Hellebarde des Adepten", BaseID: "2H_HALBERD", MinTier: 4, MaxTier: 8, MinEnchantment: 0, MaxEnchantment: 4, Variants: []ItemVariant{
+		{ID: "T4_2H_HALBERD", Name: "Hellebarde des Adepten", Tier: 4, Enchantment: 0, CategoryPath: "weapons/axe/axe_halberd", Recipe: recipe_9eb36488172e},
+		{ID: "T4_2H_HALBERD@1", Name: "Hellebarde des Adepten", Tier: 4, Enchantment: 1, CategoryPath: "weapons/axe/axe_halberd", Recipe: recipe_9eb36488172e},
+		{ID: "T4_2H_HALBERD@2", Name: "Hellebarde des Adepten", Tier: 4, Enchantment: 2, CategoryPath: "weapons/axe/axe_halberd", Recipe: recipe_9eb36488172e},
+		{ID: "T4_2H_HALBERD@3", Name: "Hellebarde des Adepten", Tier: 4, Enchantment: 3, CategoryPath: "weapons/axe/axe_halberd", Recipe: recipe_9eb36488172e},
+		{ID: "T4_2H_HALBERD@4", Name: "Hellebarde des Adepten", Tier: 4, Enchantment: 4, CategoryPath: "weapons/axe/axe_halberd", Recipe: recipe_9eb36488172e},
+		{ID: "T5_2H_HALBERD", Name: "Hellebarde des Experten", Tier: 5, Enchantment: 0, CategoryPath: "weapons/axe/axe_halberd", Recipe: recipe_9c46cc456193},
+		{ID: "T5_2H_HALBERD@1", Name: "Hellebarde des Experten", Tier: 5, Enchantment: 1, CategoryPath: "weapons/axe/axe_halberd", Recipe: recipe_9c46cc456193},
+		{ID: "T5_2H_HALBERD@2", Name: "Hellebarde des Experten", Tier: 5, Enchantment: 2, CategoryPath: "weapons/axe/axe_halberd", Recipe: recipe_9c46cc456193},
+		{ID: "T5_2H_HALBERD@3", Name: "Hellebarde des Experten", Tier: 5, Enchantment: 3, CategoryPath: "weapons/axe/axe_halberd", Recipe: recipe_9c46cc456193},
+		{ID: "T5_2H_HALBERD@4", Name: "Hellebarde des Experten", Tier: 5, Enchantment: 4, CategoryPath: "weapons/axe/axe_halberd", Recipe: recipe_9c46cc456193},
+		{ID: "T6_2H_HALBERD", Name: "Hellebarde des Meisters", Tier: 6, Enchantment: 0, CategoryPath: "weapons/axe/axe_halberd", Recipe: recipe_958d5c688cb9},
+		{ID: "T6_2H_HALBERD@1", Name: "Hellebarde des Meisters", Tier: 6, Enchantment: 1, CategoryPath: "weapons/axe/axe_halberd", Recipe: recipe_958d5c688cb9},
+		{ID: "T6_2H_HALBERD@2", Name: "Hellebarde des Meisters", Tier: 6, Enchantment: 2, CategoryPath: "weapons/axe/axe_halberd", Recipe: recipe_958d5c688cb9},
+		{ID: "T6_2H_HALBERD@3", Name: "Hellebarde des Meisters", Tier: 6, Enchantment: 3, CategoryPath: "weapons/axe/axe_halberd", Recipe: recipe_958d5c688cb9},
+		{ID: "T6_2H_HALBERD@4", Name: "Hellebarde des Meisters", Tier: 6, Enchantment: 4, CategoryPath: "weapons/axe/axe_halberd", Recipe: recipe_958d5c688cb9},
+		{ID: "T7_2H_HALBERD", Name: "Hellebarde des Großmeisters", Tier: 7, Enchantment: 0, CategoryPath: "weapons/axe/axe_halberd", Recipe: recipe_aa01f817e500},
+		{ID: "T7_2H_HALBERD@1", Name: "Hellebarde des Großmeisters", Tier: 7, Enchantment: 1, CategoryPath: "weapons/axe/axe_halberd", Recipe: recipe_aa01f817e500},
+		{ID: "T7_2H_HALBERD@2", Name: "Hellebarde des Großmeisters", Tier: 7, Enchantment: 2, CategoryPath: "weapons/axe/axe_halberd", Recipe: recipe_aa01f817e500},
+		{ID: "T7_2H_HALBERD@3", Name: "Hellebarde des Großmeisters", Tier: 7, Enchantment: 3, CategoryPath: "weapons/axe/axe_halberd", Recipe: recipe_aa01f817e500},
+		{ID: "T7_2H_HALBERD@4", Name: "Hellebarde des Großmeisters", Tier: 7, Enchantment: 4, CategoryPath: "weapons/axe/axe_halberd", Recipe: recipe_aa01f817e500},
+		{ID: "T8_2H_HALBERD", Name: "Hellebarde des Ältesten", Tier: 8, Enchantment: 0, CategoryPath: "weapons/axe/axe_halberd", Recipe: recipe_650c2b5c0a24},
+		{ID: "T8_2H_HALBERD@1", Name: "Hellebarde des Ältesten", Tier: 8, Enchantment: 1, CategoryPath: "weapons/axe/axe_halberd", Recipe: recipe_650c2b5c0a24},
+		{ID: "T8_2H_HALBERD@2", Name: "Hellebarde des Ältesten", Tier: 8, Enchantment: 2, CategoryPath: "weapons/axe/axe_halberd", Recipe: recipe_650c2b5c0a24},
+		{ID: "T8_2H_HALBERD@3", Name: "Hellebarde des Ältesten", Tier: 8, Enchantment: 3, CategoryPath: "weapons/axe/axe_halberd", Recipe: recipe_650c2b5c0a24},
+		{ID: "T8_2H_HALBERD@4", Name: "Hellebarde des Ältesten", Tier: 8, Enchantment: 4, CategoryPath: "weapons/axe/axe_halberd", Recipe: recipe_650c2b5c0a24},
+	}},
+	{Name: "Aasrufer des Adepten", BaseID: "2H_HALBERD_MORGANA", MinTier: 4, MaxTier: 8, MinEnchantment: 0, MaxEnchantment: 4, Variants: []ItemVariant{
+		{ID: "T4_2H_HALBERD_MORGANA", Name: "Aasrufer des Adepten", Tier: 4, Enchantment: 0, CategoryPath: "weapons/axe/axe_morgana", Recipe: recipe_d08eb10da58e},
+		{ID: "T4_2H_HALBERD_MORGANA@1", Name: "Aasrufer des Adepten", Tier: 4, Enchantment: 1, CategoryPath: "weapons/axe/axe_morgana", Recipe: recipe_d08eb10da58e},
+		{ID: "T4_2H_HALBERD_MORGANA@2", Name: "Aasrufer des Adepten", Tier: 4, Enchantment: 2, CategoryPath: "weapons/axe/axe_morgana", Recipe: recipe_d08eb10da58e},
+		{ID: "T4_2H_HALBERD_MORGANA@3", Name: "Aasrufer des Adepten", Tier: 4, Enchantment: 3, CategoryPath: "weapons/axe/axe_morgana", Recipe: recipe_d08eb10da58e},
+		{ID: "T4_2H_HALBERD_MORGANA@4", Name: "Aasrufer des Adepten", Tier: 4, Enchantment: 4, CategoryPath: "weapons/axe/axe_morgana", Recipe: recipe_d08eb10da58e},
+		{ID: "T5_2H_HALBERD_MORGANA", Name: "Aasrufer des Experten", Tier: 5, Enchantment: 0, CategoryPath: "weapons/axe/axe_morgana", Recipe: recipe_d64b39f8d158},
+		{ID: "T5_2H_HALBERD_MORGANA@1", Name: "Aasrufer des Experten", Tier: 5, Enchantment: 1, CategoryPath: "weapons/axe/axe_morgana", Recipe: recipe_d64b39f8d158},
+		{ID: "T5_2H_HALBERD_MORGANA@2", Name: "Aasrufer des Experten", Tier: 5, Enchantment: 2, CategoryPath: "weapons/axe/axe_morgana", Recipe: recipe_d64b39f8d158},
+		{ID: "T5_2H_HALBERD_MORGANA@3", Name: "Aasrufer des Experten", Tier: 5, Enchantment: 3, CategoryPath: "weapons/axe/axe_morgana", Recipe: recipe_d64b39f8d158},
+		{ID: "T5_2H_HALBERD_MORGANA@4", Name: "Aasrufer des Experten", Tier: 5, Enchantment: 4, CategoryPath: "weapons/axe/axe_morgana", Recipe: recipe_d64b39f8d158},
+		{ID: "T6_2H_HALBERD_MORGANA", Name: "Aasrufer des Meisters", Tier: 6, Enchantment: 0, CategoryPath: "weapons/axe/axe_morgana", Recipe: recipe_6b907232484f},
+		{ID: "T6_2H_HALBERD_MORGANA@1", Name: "Aasrufer des Meisters", Tier: 6, Enchantment: 1, CategoryPath: "weapons/axe/axe_morgana", Recipe: recipe_6b907232484f},
+		{ID: "T6_2H_HALBERD_MORGANA@2", Name: "Aasrufer des Meisters", Tier: 6, Enchantment: 2, CategoryPath: "weapons/axe/axe_morgana", Recipe: recipe_6b907232484f},
+		{ID: "T6_2H_HALBERD_MORGANA@3", Name: "Aasrufer des Meisters", Tier: 6, Enchantment: 3, CategoryPath: "weapons/axe/axe_morgana", Recipe: recipe_6b907232484f},
+		{ID: "T6_2H_HALBERD_MORGANA@4", Name: "Aasrufer des Meisters", Tier: 6, Enchantment: 4, CategoryPath: "weapons/axe/axe_morgana", Recipe: recipe_6b907232484f},
+		{ID: "T7_2H_HALBERD_MORGANA", Name: "Aasrufer des Großmeisters", Tier: 7, Enchantment: 0, CategoryPath: "weapons/axe/axe_morgana", Recipe: recipe_60842e8e7ea5},
+		{ID: "T7_2H_HALBERD_MORGANA@1", Name: "Aasrufer des Großmeisters", Tier: 7, Enchantment: 1, CategoryPath: "weapons/axe/axe_morgana", Recipe: recipe_60842e8e7ea5},
+		{ID: "T7_2H_HALBERD_MORGANA@2", Name: "Aasrufer des Großmeisters", Tier: 7, Enchantment: 2, CategoryPath: "weapons/axe/axe_morgana", Recipe: recipe_60842e8e7ea5},
+		{ID: "T7_2H_HALBERD_MORGANA@3", Name: "Aasrufer des Großmeisters", Tier: 7, Enchantment: 3, CategoryPath: "weapons/axe/axe_morgana", Recipe: recipe_60842e8e7ea5},
+		{ID: "T7_2H_HALBERD_MORGANA@4", Name: "Aasrufer des Großmeisters", Tier: 7, Enchantment: 4, CategoryPath: "weapons/axe/axe_morgana", Recipe: recipe_60842e8e7ea5},
+		{ID: "T8_2H_HALBERD_MORGANA", Name: "Aasrufer des Ältesten", Tier: 8, Enchantment: 0, CategoryPath: "weapons/axe/axe_morgana", Recipe: recipe_cd5e109d5fd3},
+		{ID: "T8_2H_HALBERD_MORGANA@1", Name: "Aasrufer des Ältesten", Tier: 8, Enchantment: 1, CategoryPath: "weapons/axe/axe_morgana", Recipe: recipe_cd5e109d5fd3},
+		{ID: "T8_2H_HALBERD_MORGANA@2", Name: "Aasrufer des Ältesten", Tier: 8, Enchantment: 2, CategoryPath: "weapons/axe/axe_morgana", Recipe: recipe_cd5e109d5fd3},
+		{ID: "T8_2H_HALBERD_MORGANA@3", Name: "Aasrufer des Ältesten", Tier: 8, Enchantment: 3, CategoryPath: "weapons/axe/axe_morgana", Recipe: recipe_cd5e109d5fd3},
+		{ID: "T8_2H_HALBERD_MORGANA@4", Name: "Aasrufer des Ältesten", Tier: 8, Enchantment: 4, CategoryPath: "weapons/axe/axe_morgana", Recipe: recipe_cd5e109d5fd3},
+	}},
+	{Name: "Großhammer des Adepten", BaseID: "2H_HAMMER", MinTier: 4, MaxTier: 8, MinEnchantment: 0, MaxEnchantment: 4, Variants: []ItemVariant{
+		{ID: "T4_2H_HAMMER", Name: "Großhammer des Adepten", Tier: 4, Enchantment: 0, CategoryPath: "weapons/hammer/hammer_2h_hammer", Recipe: recipe_9a0b645bced0},
+		{ID: "T4_2H_HAMMER@1", Name: "Großhammer des Adepten", Tier: 4, Enchantment: 1, CategoryPath: "weapons/hammer/hammer_2h_hammer", Recipe: recipe_9a0b645bced0},
+		{ID: "T4_2H_HAMMER@2", Name: "Großhammer des Adepten", Tier: 4, Enchantment: 2, CategoryPath: "weapons/hammer/hammer_2h_hammer", Recipe: recipe_9a0b645bced0},
+		{ID: "T4_2H_HAMMER@3", Name: "Großhammer des Adepten", Tier: 4, Enchantment: 3, CategoryPath: "weapons/hammer/hammer_2h_hammer", Recipe: recipe_9a0b645bced0},
+		{ID: "T4_2H_HAMMER@4", Name: "Großhammer des Adepten", Tier: 4, Enchantment: 4, CategoryPath: "weapons/hammer/hammer_2h_hammer", Recipe: recipe_9a0b645bced0},
+		{ID: "T5_2H_HAMMER", Name: "Großhammer des Experten", Tier: 5, Enchantment: 0, CategoryPath: "weapons/hammer/hammer_2h_hammer", Recipe: recipe_58a45ff13d20},
+		{ID: "T5_2H_HAMMER@1", Name: "Großhammer des Experten", Tier: 5, Enchantment: 1, CategoryPath: "weapons/hammer/hammer_2h_hammer", Recipe: recipe_58a45ff13d20},
+		{ID: "T5_2H_HAMMER@2", Name: "Großhammer des Experten", Tier: 5, Enchantment: 2, CategoryPath: "weapons/hammer/hammer_2h_hammer", Recipe: recipe_58a45ff13d20},
+		{ID: "T5_2H_HAMMER@3", Name: "Großhammer des Experten", Tier: 5, Enchantment: 3, CategoryPath: "weapons/hammer/hammer_2h_hammer", Recipe: recipe_58a45ff13d20},
+		{ID: "T5_2H_HAMMER@4", Name: "Großhammer des Experten", Tier: 5, Enchantment: 4, CategoryPath: "weapons/hammer/hammer_2h_hammer", Recipe: recipe_58a45ff13d20},
+		{ID: "T6_2H_HAMMER", Name: "Großhammer des Meisters", Tier: 6, Enchantment: 0, CategoryPath: "weapons/hammer/hammer_2h_hammer", Recipe: recipe_658a8683c1c3},
+		{ID: "T6_2H_HAMMER@1", Name: "Großhammer des Meisters", Tier: 6, Enchantment: 1, CategoryPath: "weapons/hammer/hammer_2h_hammer", Recipe: recipe_658a8683c1c3},
+		{ID: "T6_2H_HAMMER@2", Name: "Großhammer des Meisters", Tier: 6, Enchantment: 2, CategoryPath: "weapons/hammer/hammer_2h_hammer", Recipe: recipe_658a8683c1c3},
+		{ID: "T6_2H_HAMMER@3", Name: "Großhammer des Meisters", Tier: 6, Enchantment: 3, CategoryPath: "weapons/hammer/hammer_2h_hammer", Recipe: recipe_658a8683c1c3},
+		{ID: "T6_2H_HAMMER@4", Name: "Großhammer des Meisters", Tier: 6, Enchantment: 4, CategoryPath: "weapons/hammer/hammer_2h_hammer", Recipe: recipe_658a8683c1c3},
+		{ID: "T7_2H_HAMMER", Name: "Großhammer des Großmeisters", Tier: 7, Enchantment: 0, CategoryPath: "weapons/hammer/hammer_2h_hammer", Recipe: recipe_6b07bcd51b9c},
+		{ID: "T7_2H_HAMMER@1", Name: "Großhammer des Großmeisters", Tier: 7, Enchantment: 1, CategoryPath: "weapons/hammer/hammer_2h_hammer", Recipe: recipe_6b07bcd51b9c},
+		{ID: "T7_2H_HAMMER@2", Name: "Großhammer des Großmeisters", Tier: 7, Enchantment: 2, CategoryPath: "weapons/hammer/hammer_2h_hammer", Recipe: recipe_6b07bcd51b9c},
+		{ID: "T7_2H_HAMMER@3", Name: "Großhammer des Großmeisters", Tier: 7, Enchantment: 3, CategoryPath: "weapons/hammer/hammer_2h_hammer", Recipe: recipe_6b07bcd51b9c},
+		{ID: "T7_2H_HAMMER@4", Name: "Großhammer des Großmeisters", Tier: 7, Enchantment: 4, CategoryPath: "weapons/hammer/hammer_2h_hammer", Recipe: recipe_6b07bcd51b9c},
+		{ID: "T8_2H_HAMMER", Name: "Großhammer des Ältesten", Tier: 8, Enchantment: 0, CategoryPath: "weapons/hammer/hammer_2h_hammer", Recipe: recipe_1c17476841bf},
+		{ID: "T8_2H_HAMMER@1", Name: "Großhammer des Ältesten", Tier: 8, Enchantment: 1, CategoryPath: "weapons/hammer/hammer_2h_hammer", Recipe: recipe_1c17476841bf},
+		{ID: "T8_2H_HAMMER@2", Name: "Großhammer des Ältesten", Tier: 8, Enchantment: 2, CategoryPath: "weapons/hammer/hammer_2h_hammer", Recipe: recipe_1c17476841bf},
+		{ID: "T8_2H_HAMMER@3", Name: "Großhammer des Ältesten", Tier: 8, Enchantment: 3, CategoryPath: "weapons/hammer/hammer_2h_hammer", Recipe: recipe_1c17476841bf},
+		{ID: "T8_2H_HAMMER@4", Name: "Großhammer des Ältesten", Tier: 8, Enchantment: 4, CategoryPath: "weapons/hammer/hammer_2h_hammer", Recipe: recipe_1c17476841bf},
+	}},
+	{Name: "Hand der Gerechtigkeit des Adepten", BaseID: "2H_HAMMER_AVALON", MinTier: 4, MaxTier: 8, MinEnchantment: 0, MaxEnchantment: 4, Variants: []ItemVariant{
+		{ID: "T4_2H_HAMMER_AVALON", Name: "Hand der Gerechtigkeit des Adepten", Tier: 4, Enchantment: 0, CategoryPath: "weapons/hammer/hammer_avalon", Recipe: recipe_bd45ca03d82b},
+		{ID: "T4_2H_HAMMER_AVALON@1", Name: "Hand der Gerechtigkeit des Adepten", Tier: 4, Enchantment: 1, CategoryPath: "weapons/hammer/hammer_avalon", Recipe: recipe_bd45ca03d82b},
+		{ID: "T4_2H_HAMMER_AVALON@2", Name: "Hand der Gerechtigkeit des Adepten", Tier: 4, Enchantment: 2, CategoryPath: "weapons/hammer/hammer_avalon", Recipe: recipe_bd45ca03d82b},
+		{ID: "T4_2H_HAMMER_AVALON@3", Name: "Hand der Gerechtigkeit des Adepten", Tier: 4, Enchantment: 3, CategoryPath: "weapons/hammer/hammer_avalon", Recipe: recipe_bd45ca03d82b},
+		{ID: "T4_2H_HAMMER_AVALON@4", Name: "Hand der Gerechtigkeit des Adepten", Tier: 4, Enchantment: 4, CategoryPath: "weapons/hammer/hammer_avalon", Recipe: recipe_bd45ca03d82b},
+		{ID: "T5_2H_HAMMER_AVALON", Name: "Hand der Gerechtigkeit des Experten", Tier: 5, Enchantment: 0, CategoryPath: "weapons/hammer/hammer_avalon", Recipe: recipe_b1f60197586b},
+		{ID: "T5_2H_HAMMER_AVALON@1", Name: "Hand der Gerechtigkeit des Experten", Tier: 5, Enchantment: 1, CategoryPath: "weapons/hammer/hammer_avalon", Recipe: recipe_b1f60197586b},
+		{ID: "T5_2H_HAMMER_AVALON@2", Name: "Hand der Gerechtigkeit des Experten", Tier: 5, Enchantment: 2, CategoryPath: "weapons/hammer/hammer_avalon", Recipe: recipe_b1f60197586b},
+		{ID: "T5_2H_HAMMER_AVALON@3", Name: "Hand der Gerechtigkeit des Experten", Tier: 5, Enchantment: 3, CategoryPath: "weapons/hammer/hammer_avalon", Recipe: recipe_b1f60197586b},
+		{ID: "T5_2H_HAMMER_AVALON@4", Name: "Hand der Gerechtigkeit des Experten", Tier: 5, Enchantment: 4, CategoryPath: "weapons/hammer/hammer_avalon", Recipe: recipe_b1f60197586b},
+		{ID: "T6_2H_HAMMER_AVALON", Name: "Hand der Gerechtigkeit des Meisters", Tier: 6, Enchantment: 0, CategoryPath: "weapons/hammer/hammer_avalon", Recipe: recipe_5fcea6a7abc0},
+		{ID: "T6_2H_HAMMER_AVALON@1", Name: "Hand der Gerechtigkeit des Meisters", Tier: 6, Enchantment: 1, CategoryPath: "weapons/hammer/hammer_avalon", Recipe: recipe_5fcea6a7abc0},
+		{ID: "T6_2H_HAMMER_AVALON@2", Name: "Hand der Gerechtigkeit des Meisters", Tier: 6, Enchantment: 2, CategoryPath: "weapons/hammer/hammer_avalon", Recipe: recipe_5fcea6a7abc0},
+		{ID: "T6_2H_HAMMER_AVALON@3", Name: "Hand der Gerechtigkeit des Meisters", Tier: 6, Enchantment: 3, CategoryPath: "weapons/hammer/hammer_avalon", Recipe: recipe_5fcea6a7abc0},
+		{ID: "T6_2H_HAMMER_AVALON@4", Name: "Hand der Gerechtigkeit des Meisters", Tier: 6, Enchantment: 4, CategoryPath: "weapons/hammer/hammer_avalon", Recipe: recipe_5fcea6a7abc0},
+		{ID: "T7_2H_HAMMER_AVALON", Name: "Hand der Gerechtigkeit des Großmeisters", Tier: 7, Enchantment: 0, CategoryPath: "weapons/hammer/hammer_avalon", Recipe: recipe_d8ce824aad06},
+		{ID: "T7_2H_HAMMER_AVALON@1", Name: "Hand der Gerechtigkeit des Großmeisters", Tier: 7, Enchantment: 1, CategoryPath: "weapons/hammer/hammer_avalon", Recipe: recipe_d8ce824aad06},
+		{ID: "T7_2H_HAMMER_AVALON@2", Name: "Hand der Gerechtigkeit des Großmeisters", Tier: 7, Enchantment: 2, CategoryPath: "weapons/hammer/hammer_avalon", Recipe: recipe_d8ce824aad06},
+		{ID: "T7_2H_HAMMER_AVALON@3", Name: "Hand der Gerechtigkeit des Großmeisters", Tier: 7, Enchantment: 3, CategoryPath: "weapons/hammer/hammer_avalon", Recipe: recipe_d8ce824aad06},
+		{ID: "T7_2H_HAMMER_AVALON@4", Name: "Hand der Gerechtigkeit des Großmeisters", Tier: 7, Enchantment: 4, CategoryPath: "weapons/hammer/hammer_avalon", Recipe: recipe_d8ce824aad06},
+		{ID: "T8_2H_HAMMER_AVALON", Name: "Hand der Gerechtigkeit des Ältesten", Tier: 8, Enchantment: 0, CategoryPath: "weapons/hammer/hammer_avalon", Recipe: recipe_ebb205a3894f},
+		{ID: "T8_2H_HAMMER_AVALON@1", Name: "Hand der Gerechtigkeit des Ältesten", Tier: 8, Enchantment: 1, CategoryPath: "weapons/hammer/hammer_avalon", Recipe: recipe_ebb205a3894f},
+		{ID: "T8_2H_HAMMER_AVALON@2", Name: "Hand der Gerechtigkeit des Ältesten", Tier: 8, Enchantment: 2, CategoryPath: "weapons/hammer/hammer_avalon", Recipe: recipe_ebb205a3894f},
+		{ID: "T8_2H_HAMMER_AVALON@3", Name: "Hand der Gerechtigkeit des Ältesten", Tier: 8, Enchantment: 3, CategoryPath: "weapons/hammer/hammer_avalon", Recipe: recipe_ebb205a3894f},
+		{ID: "T8_2H_HAMMER_AVALON@4", Name: "Hand der Gerechtigkeit des Ältesten", Tier: 8, Enchantment: 4, CategoryPath: "weapons/hammer/hammer_avalon", Recipe: recipe_ebb205a3894f},
+	}},
+	{Name: "Echtblitz-Hammer des Adepten", BaseID: "2H_HAMMER_CRYSTAL", MinTier: 4, MaxTier: 8, MinEnchantment: 0, MaxEnchantment: 4, Variants: []ItemVariant{
+		{ID: "T4_2H_HAMMER_CRYSTAL", Name: "Echtblitz-Hammer des Adepten", Tier: 4, Enchantment: 0, CategoryPath: "weapons/hammer/hammer_crystal", Recipe: recipe_01f64305dd24},
+		{ID: "T4_2H_HAMMER_CRYSTAL@1", Name: "Echtblitz-Hammer des Adepten", Tier: 4, Enchantment: 1, CategoryPath: "weapons/hammer/hammer_crystal", Recipe: recipe_01f64305dd24},
+		{ID: "T4_2H_HAMMER_CRYSTAL@2", Name: "Echtblitz-Hammer des Adepten", Tier: 4, Enchantment: 2, CategoryPath: "weapons/hammer/hammer_crystal", Recipe: recipe_01f64305dd24},
+		{ID: "T4_2H_HAMMER_CRYSTAL@3", Name: "Echtblitz-Hammer des Adepten", Tier: 4, Enchantment: 3, CategoryPath: "weapons/hammer/hammer_crystal", Recipe: recipe_01f64305dd24},
+		{ID: "T4_2H_HAMMER_CRYSTAL@4", Name: "Echtblitz-Hammer des Adepten", Tier: 4, Enchantment: 4, CategoryPath: "weapons/hammer/hammer_crystal", Recipe: recipe_01f64305dd24},
+		{ID: "T5_2H_HAMMER_CRYSTAL", Name: "Echtblitz-Hammer des Experten", Tier: 5, Enchantment: 0, CategoryPath: "weapons/hammer/hammer_crystal", Recipe: recipe_ffc0ba2f3cd1},
+		{ID: "T5_2H_HAMMER_CRYSTAL@1", Name: "Echtblitz-Hammer des Experten", Tier: 5, Enchantment: 1, CategoryPath: "weapons/hammer/hammer_crystal", Recipe: recipe_ffc0ba2f3cd1},
+		{ID: "T5_2H_HAMMER_CRYSTAL@2", Name: "Echtblitz-Hammer des Experten", Tier: 5, Enchantment: 2, CategoryPath: "weapons/hammer/hammer_crystal", Recipe: recipe_ffc0ba2f3cd1},
+		{ID: "T5_2H_HAMMER_CRYSTAL@3", Name: "Echtblitz-Hammer des Experten", Tier: 5, Enchantment: 3, CategoryPath: "weapons/hammer/hammer_crystal", Recipe: recipe_ffc0ba2f3cd1},
+		{ID: "T5_2H_HAMMER_CRYSTAL@4", Name: "Echtblitz-Hammer des Experten", Tier: 5, Enchantment: 4, CategoryPath: "weapons/hammer/hammer_crystal", Recipe: recipe_ffc0ba2f3cd1},
+		{ID: "T6_2H_HAMMER_CRYSTAL", Name: "Echtblitz-Hammer des Meisters", Tier: 6, Enchantment: 0, CategoryPath: "weapons/hammer/hammer_crystal", Recipe: recipe_33c9b5be35a0},
+		{ID: "T6_2H_HAMMER_CRYSTAL@1", Name: "Echtblitz-Hammer des Meisters", Tier: 6, Enchantment: 1, CategoryPath: "weapons/hammer/hammer_crystal", Recipe: recipe_33c9b5be35a0},
+		{ID: "T6_2H_HAMMER_CRYSTAL@2", Name: "Echtblitz-Hammer des Meisters", Tier: 6, Enchantment: 2, CategoryPath: "weapons/hammer/hammer_crystal", Recipe: recipe_33c9b5be35a0},
+		{ID: "T6_2H_HAMMER_CRYSTAL@3", Name: "Echtblitz-Hammer des Meisters", Tier: 6, Enchantment: 3, CategoryPath: "weapons/hammer/hammer_crystal", Recipe: recipe_33c9b5be35a0},
+		{ID: "T6_2H_HAMMER_CRYSTAL@4", Name: "Echtblitz-Hammer des Meisters", Tier: 6, Enchantment: 4, CategoryPath: "weapons/hammer/hammer_crystal", Recipe: recipe_33c9b5be35a0},
+		{ID: "T7_2H_HAMMER_CRYSTAL", Name: "Echtblitz-Hammer des Großmeisters", Tier: 7, Enchantment: 0, CategoryPath: "weapons/hammer/hammer_crystal", Recipe: recipe_9706965d119d},
+		{ID: "T7_2H_HAMMER_CRYSTAL@1", Name: "Echtblitz-Hammer des Großmeisters", Tier: 7, Enchantment: 1, CategoryPath: "weapons/hammer/hammer_crystal", Recipe: recipe_9706965d119d},
+		{ID: "T7_2H_HAMMER_CRYSTAL@2", Name: "Echtblitz-Hammer des Großmeisters", Tier: 7, Enchantment: 2, CategoryPath: "weapons/hammer/hammer_crystal", Recipe: recipe_9706965d119d},
+		{ID: "T7_2H_HAMMER_CRYSTAL@3", Name: "Echtblitz-Hammer des Großmeisters", Tier: 7, Enchantment: 3, CategoryPath: "weapons/hammer/hammer_crystal", Recipe: recipe_9706965d119d},
+		{ID: "T7_2H_HAMMER_CRYSTAL@4", Name: "Echtblitz-Hammer des Großmeisters", Tier: 7, Enchantment: 4, CategoryPath: "weapons/hammer/hammer_crystal", Recipe: recipe_9706965d119d},
+		{ID: "T8_2H_HAMMER_CRYSTAL", Name: "Echtblitz-Hammer des Ältesten", Tier: 8, Enchantment: 0, CategoryPath: "weapons/hammer/hammer_crystal", Recipe: recipe_1a9be88a60f8},
+		{ID: "T8_2H_HAMMER_CRYSTAL@1", Name: "Echtblitz-Hammer des Ältesten", Tier: 8, Enchantment: 1, CategoryPath: "weapons/hammer/hammer_crystal", Recipe: recipe_1a9be88a60f8},
+		{ID: "T8_2H_HAMMER_CRYSTAL@2", Name: "Echtblitz-Hammer des Ältesten", Tier: 8, Enchantment: 2, CategoryPath: "weapons/hammer/hammer_crystal", Recipe: recipe_1a9be88a60f8},
+		{ID: "T8_2H_HAMMER_CRYSTAL@3", Name: "Echtblitz-Hammer des Ältesten", Tier: 8, Enchantment: 3, CategoryPath: "weapons/hammer/hammer_crystal", Recipe: recipe_1a9be88a60f8},
+		{ID: "T8_2H_HAMMER_CRYSTAL@4", Name: "Echtblitz-Hammer des Ältesten", Tier: 8, Enchantment: 4, CategoryPath: "weapons/hammer/hammer_crystal", Recipe: recipe_1a9be88a60f8},
+	}},
+	{Name: "Grabhammer des Adepten", BaseID: "2H_HAMMER_UNDEAD", MinTier: 4, MaxTier: 8, MinEnchantment: 0, MaxEnchantment: 4, Variants: []ItemVariant{
+		{ID: "T4_2H_HAMMER_UNDEAD", Name: "Grabhammer des Adepten", Tier: 4, Enchantment: 0, CategoryPath: "weapons/hammer/hammer_undead", Recipe: recipe_fe41536169a0},
+		{ID: "T4_2H_HAMMER_UNDEAD@1", Name: "Grabhammer des Adepten", Tier: 4, Enchantment: 1, CategoryPath: "weapons/hammer/hammer_undead", Recipe: recipe_fe41536169a0},
+		{ID: "T4_2H_HAMMER_UNDEAD@2", Name: "Grabhammer des Adepten", Tier: 4, Enchantment: 2, CategoryPath: "weapons/hammer/hammer_undead", Recipe: recipe_fe41536169a0},
+		{ID: "T4_2H_HAMMER_UNDEAD@3", Name: "Grabhammer des Adepten", Tier: 4, Enchantment: 3, CategoryPath: "weapons/hammer/hammer_undead", Recipe: recipe_fe41536169a0},
+		{ID: "T4_2H_HAMMER_UNDEAD@4", Name: "Grabhammer des Adepten", Tier: 4, Enchantment: 4, CategoryPath: "weapons/hammer/hammer_undead", Recipe: recipe_fe41536169a0},
+		{ID: "T5_2H_HAMMER_UNDEAD", Name: "Grabhammer des Experten", Tier: 5, Enchantment: 0, CategoryPath: "weapons/hammer/hammer_undead", Recipe: recipe_b066483e6f56},
+		{ID: "T5_2H_HAMMER_UNDEAD@1", Name: "Grabhammer des Experten", Tier: 5, Enchantment: 1, CategoryPath: "weapons/hammer/hammer_undead", Recipe: recipe_b066483e6f56},
+		{ID: "T5_2H_HAMMER_UNDEAD@2", Name: "Grabhammer des Experten", Tier: 5, Enchantment: 2, CategoryPath: "weapons/hammer/hammer_undead", Recipe: recipe_b066483e6f56},
+		{ID: "T5_2H_HAMMER_UNDEAD@3", Name: "Grabhammer des Experten", Tier: 5, Enchantment: 3, CategoryPath: "weapons/hammer/hammer_undead", Recipe: recipe_b066483e6f56},
+		{ID: "T5_2H_HAMMER_UNDEAD@4", Name: "Grabhammer des Experten", Tier: 5, Enchantment: 4, CategoryPath: "weapons/hammer/hammer_undead", Recipe: recipe_b066483e6f56},
+		{ID: "T6_2H_HAMMER_UNDEAD", Name: "Grabhammer des Meisters", Tier: 6, Enchantment: 0, CategoryPath: "weapons/hammer/hammer_undead", Recipe: recipe_24f3daa63bf0},
+		{ID: "T6_2H_HAMMER_UNDEAD@1", Name: "Grabhammer des Meisters", Tier: 6, Enchantment: 1, CategoryPath: "weapons/hammer/hammer_undead", Recipe: recipe_24f3daa63bf0},
+		{ID: "T6_2H_HAMMER_UNDEAD@2", Name: "Grabhammer des Meisters", Tier: 6, Enchantment: 2, CategoryPath: "weapons/hammer/hammer_undead", Recipe: recipe_24f3daa63bf0},
+		{ID: "T6_2H_HAMMER_UNDEAD@3", Name: "Grabhammer des Meisters", Tier: 6, Enchantment: 3, CategoryPath: "weapons/hammer/hammer_undead", Recipe: recipe_24f3daa63bf0},
+		{ID: "T6_2H_HAMMER_UNDEAD@4", Name: "Grabhammer des Meisters", Tier: 6, Enchantment: 4, CategoryPath: "weapons/hammer/hammer_undead", Recipe: recipe_24f3daa63bf0},
+		{ID: "T7_2H_HAMMER_UNDEAD", Name: "Grabhammer des Großmeisters", Tier: 7, Enchantment: 0, CategoryPath: "weapons/hammer/hammer_undead", Recipe: recipe_2e6ff78367f3},
+		{ID: "T7_2H_HAMMER_UNDEAD@1", Name: "Grabhammer des Großmeisters", Tier: 7, Enchantment: 1, CategoryPath: "weapons/hammer/hammer_undead", Recipe: recipe_2e6ff78367f3},
+		{ID: "T7_2H_HAMMER_UNDEAD@2", Name: "Grabhammer des Großmeisters", Tier: 7, Enchantment: 2, CategoryPath: "weapons/hammer/hammer_undead", Recipe: recipe_2e6ff78367f3},
+		{ID: "T7_2H_HAMMER_UNDEAD@3", Name: "Grabhammer des Großmeisters", Tier: 7, Enchantment: 3, CategoryPath: "weapons/hammer/hammer_undead", Recipe: recipe_2e6ff78367f3},
+		{ID: "T7_2H_HAMMER_UNDEAD@4", Name: "Grabhammer des Großmeisters", Tier: 7, Enchantment: 4, CategoryPath: "weapons/hammer/hammer_undead", Recipe: recipe_2e6ff78367f3},
+		{ID: "T8_2H_HAMMER_UNDEAD", Name: "Grabhammer des Ältesten", Tier: 8, Enchantment: 0, CategoryPath: "weapons/hammer/hammer_undead", Recipe: recipe_711ff6663d4b},
+		{ID: "T8_2H_HAMMER_UNDEAD@1", Name: "Grabhammer des Ältesten", Tier: 8, Enchantment: 1, CategoryPath: "weapons/hammer/hammer_undead", Recipe: recipe_711ff6663d4b},
+		{ID: "T8_2H_HAMMER_UNDEAD@2", Name: "Grabhammer des Ältesten", Tier: 8, Enchantment: 2, CategoryPath: "weapons/hammer/hammer_undead", Recipe: recipe_711ff6663d4b},
+		{ID: "T8_2H_HAMMER_UNDEAD@3", Name: "Grabhammer des Ältesten", Tier: 8, Enchantment: 3, CategoryPath: "weapons/hammer/hammer_undead", Recipe: recipe_711ff6663d4b},
+		{ID: "T8_2H_HAMMER_UNDEAD@4", Name: "Grabhammer des Ältesten", Tier: 8, Enchantment: 4, CategoryPath: "weapons/hammer/hammer_undead", Recipe: recipe_711ff6663d4b},
+	}},
+	{Name: "Geisterjäger des Adepten", BaseID: "2H_HARPOON_HELL", MinTier: 4, MaxTier: 8, MinEnchantment: 0, MaxEnchantment: 4, Variants: []ItemVariant{
+		{ID: "T4_2H_HARPOON_HELL", Name: "Geisterjäger des Adepten", Tier: 4, Enchantment: 0, CategoryPath: "weapons/spear/spear_hell", Recipe: recipe_acd9f636162a},
+		{ID: "T4_2H_HARPOON_HELL@1", Name: "Geisterjäger des Adepten", Tier: 4, Enchantment: 1, CategoryPath: "weapons/spear/spear_hell", Recipe: recipe_acd9f636162a},
+		{ID: "T4_2H_HARPOON_HELL@2", Name: "Geisterjäger des Adepten", Tier: 4, Enchantment: 2, CategoryPath: "weapons/spear/spear_hell", Recipe: recipe_acd9f636162a},
+		{ID: "T4_2H_HARPOON_HELL@3", Name: "Geisterjäger des Adepten", Tier: 4, Enchantment: 3, CategoryPath: "weapons/spear/spear_hell", Recipe: recipe_acd9f636162a},
+		{ID: "T4_2H_HARPOON_HELL@4", Name: "Geisterjäger des Adepten", Tier: 4, Enchantment: 4, CategoryPath: "weapons/spear/spear_hell", Recipe: recipe_acd9f636162a},
+		{ID: "T5_2H_HARPOON_HELL", Name: "Geisterjäger des Experten", Tier: 5, Enchantment: 0, CategoryPath: "weapons/spear/spear_hell", Recipe: recipe_b17a9c841278},
+		{ID: "T5_2H_HARPOON_HELL@1", Name: "Geisterjäger des Experten", Tier: 5, Enchantment: 1, CategoryPath: "weapons/spear/spear_hell", Recipe: recipe_b17a9c841278},
+		{ID: "T5_2H_HARPOON_HELL@2", Name: "Geisterjäger des Experten", Tier: 5, Enchantment: 2, CategoryPath: "weapons/spear/spear_hell", Recipe: recipe_b17a9c841278},
+		{ID: "T5_2H_HARPOON_HELL@3", Name: "Geisterjäger des Experten", Tier: 5, Enchantment: 3, CategoryPath: "weapons/spear/spear_hell", Recipe: recipe_b17a9c841278},
+		{ID: "T5_2H_HARPOON_HELL@4", Name: "Geisterjäger des Experten", Tier: 5, Enchantment: 4, CategoryPath: "weapons/spear/spear_hell", Recipe: recipe_b17a9c841278},
+		{ID: "T6_2H_HARPOON_HELL", Name: "Geisterjäger des Meisters", Tier: 6, Enchantment: 0, CategoryPath: "weapons/spear/spear_hell", Recipe: recipe_b806e3253fbc},
+		{ID: "T6_2H_HARPOON_HELL@1", Name: "Geisterjäger des Meisters", Tier: 6, Enchantment: 1, CategoryPath: "weapons/spear/spear_hell", Recipe: recipe_b806e3253fbc},
+		{ID: "T6_2H_HARPOON_HELL@2", Name: "Geisterjäger des Meisters", Tier: 6, Enchantment: 2, CategoryPath: "weapons/spear/spear_hell", Recipe: recipe_b806e3253fbc},
+		{ID: "T6_2H_HARPOON_HELL@3", Name: "Geisterjäger des Meisters", Tier: 6, Enchantment: 3, CategoryPath: "weapons/spear/spear_hell", Recipe: recipe_b806e3253fbc},
+		{ID: "T6_2H_HARPOON_HELL@4", Name: "Geisterjäger des Meisters", Tier: 6, Enchantment: 4, CategoryPath: "weapons/spear/spear_hell", Recipe: recipe_b806e3253fbc},
+		{ID: "T7_2H_HARPOON_HELL", Name: "Geisterjäger des Großmeisters", Tier: 7, Enchantment: 0, CategoryPath: "weapons/spear/spear_hell", Recipe: recipe_fc9fa96d3c14},
+		{ID: "T7_2H_HARPOON_HELL@1", Name: "Geisterjäger des Großmeisters", Tier: 7, Enchantment: 1, CategoryPath: "weapons/spear/spear_hell", Recipe: recipe_fc9fa96d3c14},
+		{ID: "T7_2H_HARPOON_HELL@2", Name: "Geisterjäger des Großmeisters", Tier: 7, Enchantment: 2, CategoryPath: "weapons/spear/spear_hell", Recipe: recipe_fc9fa96d3c14},
+		{ID: "T7_2H_HARPOON_HELL@3", Name: "Geisterjäger des Großmeisters", Tier: 7, Enchantment: 3, CategoryPath: "weapons/spear/spear_hell", Recipe: recipe_fc9fa96d3c14},
+		{ID: "T7_2H_HARPOON_HELL@4", Name: "Geisterjäger des Großmeisters", Tier: 7, Enchantment: 4, CategoryPath: "weapons/spear/spear_hell", Recipe: recipe_fc9fa96d3c14},
+		{ID: "T8_2H_HARPOON_HELL", Name: "Geisterjäger des Ältesten", Tier: 8, Enchantment: 0, CategoryPath: "weapons/spear/spear_hell", Recipe: recipe_ee9b4bb5e87c},
+		{ID: "T8_2H_HARPOON_HELL@1", Name: "Geisterjäger des Ältesten", Tier: 8, Enchantment: 1, CategoryPath: "weapons/spear/spear_hell", Recipe: recipe_ee9b4bb5e87c},
+		{ID: "T8_2H_HARPOON_HELL@2", Name: "Geisterjäger des Ältesten", Tier: 8, Enchantment: 2, CategoryPath: "weapons/spear/spear_hell", Recipe: recipe_ee9b4bb5e87c},
+		{ID: "T8_2H_HARPOON_HELL@3", Name: "Geisterjäger des Ältesten", Tier: 8, Enchantment: 3, CategoryPath: "weapons/spear/spear_hell", Recipe: recipe_ee9b4bb5e87c},
+		{ID: "T8_2H_HARPOON_HELL@4", Name: "Geisterjäger des Ältesten", Tier: 8, Enchantment: 4, CategoryPath: "weapons/spear/spear_hell", Recipe: recipe_ee9b4bb5e87c},
+	}},
+	{Name: "Großer Heiligenstab des Adepten", BaseID: "2H_HOLYSTAFF", MinTier: 4, MaxTier: 8, MinEnchantment: 0, MaxEnchantment: 4, Variants: []ItemVariant{
+		{ID: "T4_2H_HOLYSTAFF", Name: "Großer Heiligenstab des Adepten", Tier: 4, Enchantment: 0, CategoryPath: "weapons/holystaff/holystaff_2h_holystaff", Recipe: recipe_881551b500da},
+		{ID: "T4_2H_HOLYSTAFF@1", Name: "Großer Heiligenstab des Adepten", Tier: 4, Enchantment: 1, CategoryPath: "weapons/holystaff/holystaff_2h_holystaff", Recipe: recipe_881551b500da},
+		{ID: "T4_2H_HOLYSTAFF@2", Name: "Großer Heiligenstab des Adepten", Tier: 4, Enchantment: 2, CategoryPath: "weapons/holystaff/holystaff_2h_holystaff", Recipe: recipe_881551b500da},
+		{ID: "T4_2H_HOLYSTAFF@3", Name: "Großer Heiligenstab des Adepten", Tier: 4, Enchantment: 3, CategoryPath: "weapons/holystaff/holystaff_2h_holystaff", Recipe: recipe_881551b500da},
+		{ID: "T4_2H_HOLYSTAFF@4", Name: "Großer Heiligenstab des Adepten", Tier: 4, Enchantment: 4, CategoryPath: "weapons/holystaff/holystaff_2h_holystaff", Recipe: recipe_881551b500da},
+		{ID: "T5_2H_HOLYSTAFF", Name: "Großer Heiligenstab des Experten", Tier: 5, Enchantment: 0, CategoryPath: "weapons/holystaff/holystaff_2h_holystaff", Recipe: recipe_412b143e6eef},
+		{ID: "T5_2H_HOLYSTAFF@1", Name: "Großer Heiligenstab des Experten", Tier: 5, Enchantment: 1, CategoryPath: "weapons/holystaff/holystaff_2h_holystaff", Recipe: recipe_412b143e6eef},
+		{ID: "T5_2H_HOLYSTAFF@2", Name: "Großer Heiligenstab des Experten", Tier: 5, Enchantment: 2, CategoryPath: "weapons/holystaff/holystaff_2h_holystaff", Recipe: recipe_412b143e6eef},
+		{ID: "T5_2H_HOLYSTAFF@3", Name: "Großer Heiligenstab des Experten", Tier: 5, Enchantment: 3, CategoryPath: "weapons/holystaff/holystaff_2h_holystaff", Recipe: recipe_412b143e6eef},
+		{ID: "T5_2H_HOLYSTAFF@4", Name: "Großer Heiligenstab des Experten", Tier: 5, Enchantment: 4, CategoryPath: "weapons/holystaff/holystaff_2h_holystaff", Recipe: recipe_412b143e6eef},
+		{ID: "T6_2H_HOLYSTAFF", Name: "Großer Heiligenstab des Meisters", Tier: 6, Enchantment: 0, CategoryPath: "weapons/holystaff/holystaff_2h_holystaff", Recipe: recipe_c85417aad83d},
+		{ID: "T6_2H_HOLYSTAFF@1", Name: "Großer Heiligenstab des Meisters", Tier: 6, Enchantment: 1, CategoryPath: "weapons/holystaff/holystaff_2h_holystaff", Recipe: recipe_c85417aad83d},
+		{ID: "T6_2H_HOLYSTAFF@2", Name: "Großer Heiligenstab des Meisters", Tier: 6, Enchantment: 2, CategoryPath: "weapons/holystaff/holystaff_2h_holystaff", Recipe: recipe_c85417aad83d},
+		{ID: "T6_2H_HOLYSTAFF@3", Name: "Großer Heiligenstab des Meisters", Tier: 6, Enchantment: 3, CategoryPath: "weapons/holystaff/holystaff_2h_holystaff", Recipe: recipe_c85417aad83d},
+		{ID: "T6_2H_HOLYSTAFF@4", Name: "Großer Heiligenstab des Meisters", Tier: 6, Enchantment: 4, CategoryPath: "weapons/holystaff/holystaff_2h_holystaff", Recipe: recipe_c85417aad83d},
+		{ID: "T7_2H_HOLYSTAFF", Name: "Großer Heiligenstab des Großmeisters", Tier: 7, Enchantment: 0, CategoryPath: "weapons/holystaff/holystaff_2h_holystaff", Recipe: recipe_f4f641159de3},
+		{ID: "T7_2H_HOLYSTAFF@1", Name: "Großer Heiligenstab des Großmeisters", Tier: 7, Enchantment: 1, CategoryPath: "weapons/holystaff/holystaff_2h_holystaff", Recipe: recipe_f4f641159de3},
+		{ID: "T7_2H_HOLYSTAFF@2", Name: "Großer Heiligenstab des Großmeisters", Tier: 7, Enchantment: 2, CategoryPath: "weapons/holystaff/holystaff_2h_holystaff", Recipe: recipe_f4f641159de3},
+		{ID: "T7_2H_HOLYSTAFF@3", Name: "Großer Heiligenstab des Großmeisters", Tier: 7, Enchantment: 3, CategoryPath: "weapons/holystaff/holystaff_2h_holystaff", Recipe: recipe_f4f641159de3},
+		{ID: "T7_2H_HOLYSTAFF@4", Name: "Großer Heiligenstab des Großmeisters", Tier: 7, Enchantment: 4, CategoryPath: "weapons/holystaff/holystaff_2h_holystaff", Recipe: recipe_f4f641159de3},
+		{ID: "T8_2H_HOLYSTAFF", Name: "Großer Heiligenstab des Ältesten", Tier: 8, Enchantment: 0, CategoryPath: "weapons/holystaff/holystaff_2h_holystaff", Recipe: recipe_fb8976dbac79},
+		{ID: "T8_2H_HOLYSTAFF@1", Name: "Großer Heiligenstab des Ältesten", Tier: 8, Enchantment: 1, CategoryPath: "weapons/holystaff/holystaff_2h_holystaff", Recipe: recipe_fb8976dbac79},
+		{ID: "T8_2H_HOLYSTAFF@2", Name: "Großer Heiligenstab des Ältesten", Tier: 8, Enchantment: 2, CategoryPath: "weapons/holystaff/holystaff_2h_holystaff", Recipe: recipe_fb8976dbac79},
+		{ID: "T8_2H_HOLYSTAFF@3", Name: "Großer Heiligenstab des Ältesten", Tier: 8, Enchantment: 3, CategoryPath: "weapons/holystaff/holystaff_2h_holystaff", Recipe: recipe_fb8976dbac79},
+		{ID: "T8_2H_HOLYSTAFF@4", Name: "Großer Heiligenstab des Ältesten", Tier: 8, Enchantment: 4, CategoryPath: "weapons/holystaff/holystaff_2h_holystaff", Recipe: recipe_fb8976dbac79},
+	}},
+	{Name: "Erhabener Stab des Adepten", BaseID: "2H_HOLYSTAFF_CRYSTAL", MinTier: 4, MaxTier: 8, MinEnchantment: 0, MaxEnchantment: 4, Variants: []ItemVariant{
+		{ID: "T4_2H_HOLYSTAFF_CRYSTAL", Name: "Erhabener Stab des Adepten", Tier: 4, Enchantment: 0, CategoryPath: "weapons/holystaff/holystaff_crystal", Recipe: recipe_2e22a7b2583f},
+		{ID: "T4_2H_HOLYSTAFF_CRYSTAL@1", Name: "Erhabener Stab des Adepten", Tier: 4, Enchantment: 1, CategoryPath: "weapons/holystaff/holystaff_crystal", Recipe: recipe_2e22a7b2583f},
+		{ID: "T4_2H_HOLYSTAFF_CRYSTAL@2", Name: "Erhabener Stab des Adepten", Tier: 4, Enchantment: 2, CategoryPath: "weapons/holystaff/holystaff_crystal", Recipe: recipe_2e22a7b2583f},
+		{ID: "T4_2H_HOLYSTAFF_CRYSTAL@3", Name: "Erhabener Stab des Adepten", Tier: 4, Enchantment: 3, CategoryPath: "weapons/holystaff/holystaff_crystal", Recipe: recipe_2e22a7b2583f},
+		{ID: "T4_2H_HOLYSTAFF_CRYSTAL@4", Name: "Erhabener Stab des Adepten", Tier: 4, Enchantment: 4, CategoryPath: "weapons/holystaff/holystaff_crystal", Recipe: recipe_2e22a7b2583f},
+		{ID: "T5_2H_HOLYSTAFF_CRYSTAL", Name: "Erhabener Stab des Experten", Tier: 5, Enchantment: 0, CategoryPath: "weapons/holystaff/holystaff_crystal", Recipe: recipe_9cb12005c96d},
+		{ID: "T5_2H_HOLYSTAFF_CRYSTAL@1", Name: "Erhabener Stab des Experten", Tier: 5, Enchantment: 1, CategoryPath: "weapons/holystaff/holystaff_crystal", Recipe: recipe_9cb12005c96d},
+		{ID: "T5_2H_HOLYSTAFF_CRYSTAL@2", Name: "Erhabener Stab des Experten", Tier: 5, Enchantment: 2, CategoryPath: "weapons/holystaff/holystaff_crystal", Recipe: recipe_9cb12005c96d},
+		{ID: "T5_2H_HOLYSTAFF_CRYSTAL@3", Name: "Erhabener Stab des Experten", Tier: 5, Enchantment: 3, CategoryPath: "weapons/holystaff/holystaff_crystal", Recipe: recipe_9cb12005c96d},
+		{ID: "T5_2H_HOLYSTAFF_CRYSTAL@4", Name: "Erhabener Stab des Experten", Tier: 5, Enchantment: 4, CategoryPath: "weapons/holystaff/holystaff_crystal", Recipe: recipe_9cb12005c96d},
+		{ID: "T6_2H_HOLYSTAFF_CRYSTAL", Name: "Erhabener Stab des Meisters", Tier: 6, Enchantment: 0, CategoryPath: "weapons/holystaff/holystaff_crystal", Recipe: recipe_7663369adf0e},
+		{ID: "T6_2H_HOLYSTAFF_CRYSTAL@1", Name: "Erhabener Stab des Meisters", Tier: 6, Enchantment: 1, CategoryPath: "weapons/holystaff/holystaff_crystal", Recipe: recipe_7663369adf0e},
+		{ID: "T6_2H_HOLYSTAFF_CRYSTAL@2", Name: "Erhabener Stab des Meisters", Tier: 6, Enchantment: 2, CategoryPath: "weapons/holystaff/holystaff_crystal", Recipe: recipe_7663369adf0e},
+		{ID: "T6_2H_HOLYSTAFF_CRYSTAL@3", Name: "Erhabener Stab des Meisters", Tier: 6, Enchantment: 3, CategoryPath: "weapons/holystaff/holystaff_crystal", Recipe: recipe_7663369adf0e},
+		{ID: "T6_2H_HOLYSTAFF_CRYSTAL@4", Name: "Erhabener Stab des Meisters", Tier: 6, Enchantment: 4, CategoryPath: "weapons/holystaff/holystaff_crystal", Recipe: recipe_7663369adf0e},
+		{ID: "T7_2H_HOLYSTAFF_CRYSTAL", Name: "Erhabener Stab des Großmeisters", Tier: 7, Enchantment: 0, CategoryPath: "weapons/holystaff/holystaff_crystal", Recipe: recipe_1f334073f127},
+		{ID: "T7_2H_HOLYSTAFF_CRYSTAL@1", Name: "Erhabener Stab des Großmeisters", Tier: 7, Enchantment: 1, CategoryPath: "weapons/holystaff/holystaff_crystal", Recipe: recipe_1f334073f127},
+		{ID: "T7_2H_HOLYSTAFF_CRYSTAL@2", Name: "Erhabener Stab des Großmeisters", Tier: 7, Enchantment: 2, CategoryPath: "weapons/holystaff/holystaff_crystal", Recipe: recipe_1f334073f127},
+		{ID: "T7_2H_HOLYSTAFF_CRYSTAL@3", Name: "Erhabener Stab des Großmeisters", Tier: 7, Enchantment: 3, CategoryPath: "weapons/holystaff/holystaff_crystal", Recipe: recipe_1f334073f127},
+		{ID: "T7_2H_HOLYSTAFF_CRYSTAL@4", Name: "Erhabener Stab des Großmeisters", Tier: 7, Enchantment: 4, CategoryPath: "weapons/holystaff/holystaff_crystal", Recipe: recipe_1f334073f127},
+		{ID: "T8_2H_HOLYSTAFF_CRYSTAL", Name: "Erhabener Stab des Ältesten", Tier: 8, Enchantment: 0, CategoryPath: "weapons/holystaff/holystaff_crystal", Recipe: recipe_2c98f54fd5a9},
+		{ID: "T8_2H_HOLYSTAFF_CRYSTAL@1", Name: "Erhabener Stab des Ältesten", Tier: 8, Enchantment: 1, CategoryPath: "weapons/holystaff/holystaff_crystal", Recipe: recipe_2c98f54fd5a9},
+		{ID: "T8_2H_HOLYSTAFF_CRYSTAL@2", Name: "Erhabener Stab des Ältesten", Tier: 8, Enchantment: 2, CategoryPath: "weapons/holystaff/holystaff_crystal", Recipe: recipe_2c98f54fd5a9},
+		{ID: "T8_2H_HOLYSTAFF_CRYSTAL@3", Name: "Erhabener Stab des Ältesten", Tier: 8, Enchantment: 3, CategoryPath: "weapons/holystaff/holystaff_crystal", Recipe: recipe_2c98f54fd5a9},
+		{ID: "T8_2H_HOLYSTAFF_CRYSTAL@4", Name: "Erhabener Stab des Ältesten", Tier: 8, Enchantment: 4, CategoryPath: "weapons/holystaff/holystaff_crystal", Recipe: recipe_2c98f54fd5a9},
+	}},
+	{Name: "Gefallenenstab des Adepten", BaseID: "2H_HOLYSTAFF_HELL", MinTier: 4, MaxTier: 8, MinEnchantment: 0, MaxEnchantment: 4, Variants: []ItemVariant{
+		{ID: "T4_2H_HOLYSTAFF_HELL", Name: "Gefallenenstab des Adepten", Tier: 4, Enchantment: 0, CategoryPath: "weapons/holystaff/holystaff_hell", Recipe: recipe_33e04ff70ca3},
+		{ID: "T4_2H_HOLYSTAFF_HELL@1", Name: "Gefallenenstab des Adepten", Tier: 4, Enchantment: 1, CategoryPath: "weapons/holystaff/holystaff_hell", Recipe: recipe_33e04ff70ca3},
+		{ID: "T4_2H_HOLYSTAFF_HELL@2", Name: "Gefallenenstab des Adepten", Tier: 4, Enchantment: 2, CategoryPath: "weapons/holystaff/holystaff_hell", Recipe: recipe_33e04ff70ca3},
+		{ID: "T4_2H_HOLYSTAFF_HELL@3", Name: "Gefallenenstab des Adepten", Tier: 4, Enchantment: 3, CategoryPath: "weapons/holystaff/holystaff_hell", Recipe: recipe_33e04ff70ca3},
+		{ID: "T4_2H_HOLYSTAFF_HELL@4", Name: "Gefallenenstab des Adepten", Tier: 4, Enchantment: 4, CategoryPath: "weapons/holystaff/holystaff_hell", Recipe: recipe_33e04ff70ca3},
+		{ID: "T5_2H_HOLYSTAFF_HELL", Name: "Gefallenenstab des Experten", Tier: 5, Enchantment: 0, CategoryPath: "weapons/holystaff/holystaff_hell", Recipe: recipe_635108bf252d},
+		{ID: "T5_2H_HOLYSTAFF_HELL@1", Name: "Gefallenenstab des Experten", Tier: 5, Enchantment: 1, CategoryPath: "weapons/holystaff/holystaff_hell", Recipe: recipe_635108bf252d},
+		{ID: "T5_2H_HOLYSTAFF_HELL@2", Name: "Gefallenenstab des Experten", Tier: 5, Enchantment: 2, CategoryPath: "weapons/holystaff/holystaff_hell", Recipe: recipe_635108bf252d},
+		{ID: "T5_2H_HOLYSTAFF_HELL@3", Name: "Gefallenenstab des Experten", Tier: 5, Enchantment: 3, CategoryPath: "weapons/holystaff/holystaff_hell", Recipe: recipe_635108bf252d},
+		{ID: "T5_2H_HOLYSTAFF_HELL@4", Name: "Gefallenenstab des Experten", Tier: 5, Enchantment: 4, CategoryPath: "weapons/holystaff/holystaff_hell", Recipe: recipe_635108bf252d},
+		{ID: "T6_2H_HOLYSTAFF_HELL", Name: "Gefallenenstab des Meisters", Tier: 6, Enchantment: 0, CategoryPath: "weapons/holystaff/holystaff_hell", Recipe: recipe_b8e97df8631f},
+		{ID: "T6_2H_HOLYSTAFF_HELL@1", Name: "Gefallenenstab des Meisters", Tier: 6, Enchantment: 1, CategoryPath: "weapons/holystaff/holystaff_hell", Recipe: recipe_b8e97df8631f},
+		{ID: "T6_2H_HOLYSTAFF_HELL@2", Name: "Gefallenenstab des Meisters", Tier: 6, Enchantment: 2, CategoryPath: "weapons/holystaff/holystaff_hell", Recipe: recipe_b8e97df8631f},
+		{ID: "T6_2H_HOLYSTAFF_HELL@3", Name: "Gefallenenstab des Meisters", Tier: 6, Enchantment: 3, CategoryPath: "weapons/holystaff/holystaff_hell", Recipe: recipe_b8e97df8631f},
+		{ID: "T6_2H_HOLYSTAFF_HELL@4", Name: "Gefallenenstab des Meisters", Tier: 6, Enchantment: 4, CategoryPath: "weapons/holystaff/holystaff_hell", Recipe: recipe_b8e97df8631f},
+		{ID: "T7_2H_HOLYSTAFF_HELL", Name: "Gefallenenstab des Großmeisters", Tier: 7, Enchantment: 0, CategoryPath: "weapons/holystaff/holystaff_hell", Recipe: recipe_76e695c7f018},
+		{ID: "T7_2H_HOLYSTAFF_HELL@1", Name: "Gefallenenstab des Großmeisters", Tier: 7, Enchantment: 1, CategoryPath: "weapons/holystaff/holystaff_hell", Recipe: recipe_76e695c7f018},
+		{ID: "T7_2H_HOLYSTAFF_HELL@2", Name: "Gefallenenstab des Großmeisters", Tier: 7, Enchantment: 2, CategoryPath: "weapons/holystaff/holystaff_hell", Recipe: recipe_76e695c7f018},
+		{ID: "T7_2H_HOLYSTAFF_HELL@3", Name: "Gefallenenstab des Großmeisters", Tier: 7, Enchantment: 3, CategoryPath: "weapons/holystaff/holystaff_hell", Recipe: recipe_76e695c7f018},
+		{ID: "T7_2H_HOLYSTAFF_HELL@4", Name: "Gefallenenstab des Großmeisters", Tier: 7, Enchantment: 4, CategoryPath: "weapons/holystaff/holystaff_hell", Recipe: recipe_76e695c7f018},
+		{ID: "T8_2H_HOLYSTAFF_HELL", Name: "Gefallenenstab des Ältesten", Tier: 8, Enchantment: 0, CategoryPath: "weapons/holystaff/holystaff_hell", Recipe: recipe_75f11a13f5cd},
+		{ID: "T8_2H_HOLYSTAFF_HELL@1", Name: "Gefallenenstab des Ältesten", Tier: 8, Enchantment: 1, CategoryPath: "weapons/holystaff/holystaff_hell", Recipe: recipe_75f11a13f5cd},
+		{ID: "T8_2H_HOLYSTAFF_HELL@2", Name: "Gefallenenstab des Ältesten", Tier: 8, Enchantment: 2, CategoryPath: "weapons/holystaff/holystaff_hell", Recipe: recipe_75f11a13f5cd},
+		{ID: "T8_2H_HOLYSTAFF_HELL@3", Name: "Gefallenenstab des Ältesten", Tier: 8, Enchantment: 3, CategoryPath: "weapons/holystaff/holystaff_hell", Recipe: recipe_75f11a13f5cd},
+		{ID: "T8_2H_HOLYSTAFF_HELL@4", Name: "Gefallenenstab des Ältesten", Tier: 8, Enchantment: 4, CategoryPath: "weapons/holystaff/holystaff_hell", Recipe: recipe_75f11a13f5cd},
+	}},
+	{Name: "Erlösungsstab des Adepten", BaseID: "2H_HOLYSTAFF_UNDEAD", MinTier: 4, MaxTier: 8, MinEnchantment: 0, MaxEnchantment: 4, Variants: []ItemVariant{
+		{ID: "T4_2H_HOLYSTAFF_UNDEAD", Name: "Erlösungsstab des Adepten", Tier: 4, Enchantment: 0, CategoryPath: "weapons/holystaff/holystaff_undead", Recipe: recipe_9d7f18fa8989},
+		{ID: "T4_2H_HOLYSTAFF_UNDEAD@1", Name: "Erlösungsstab des Adepten", Tier: 4, Enchantment: 1, CategoryPath: "weapons/holystaff/holystaff_undead", Recipe: recipe_9d7f18fa8989},
+		{ID: "T4_2H_HOLYSTAFF_UNDEAD@2", Name: "Erlösungsstab des Adepten", Tier: 4, Enchantment: 2, CategoryPath: "weapons/holystaff/holystaff_undead", Recipe: recipe_9d7f18fa8989},
+		{ID: "T4_2H_HOLYSTAFF_UNDEAD@3", Name: "Erlösungsstab des Adepten", Tier: 4, Enchantment: 3, CategoryPath: "weapons/holystaff/holystaff_undead", Recipe: recipe_9d7f18fa8989},
+		{ID: "T4_2H_HOLYSTAFF_UNDEAD@4", Name: "Erlösungsstab des Adepten", Tier: 4, Enchantment: 4, CategoryPath: "weapons/holystaff/holystaff_undead", Recipe: recipe_9d7f18fa8989},
+		{ID: "T5_2H_HOLYSTAFF_UNDEAD", Name: "Erlösungsstab des Experten", Tier: 5, Enchantment: 0, CategoryPath: "weapons/holystaff/holystaff_undead", Recipe: recipe_032ba5d485e5},
+		{ID: "T5_2H_HOLYSTAFF_UNDEAD@1", Name: "Erlösungsstab des Experten", Tier: 5, Enchantment: 1, CategoryPath: "weapons/holystaff/holystaff_undead", Recipe: recipe_032ba5d485e5},
+		{ID: "T5_2H_HOLYSTAFF_UNDEAD@2", Name: "Erlösungsstab des Experten", Tier: 5, Enchantment: 2, CategoryPath: "weapons/holystaff/holystaff_undead", Recipe: recipe_032ba5d485e5},
+		{ID: "T5_2H_HOLYSTAFF_UNDEAD@3", Name: "Erlösungsstab des Experten", Tier: 5, Enchantment: 3, CategoryPath: "weapons/holystaff/holystaff_undead", Recipe: recipe_032ba5d485e5},
+		{ID: "T5_2H_HOLYSTAFF_UNDEAD@4", Name: "Erlösungsstab des Experten", Tier: 5, Enchantment: 4, CategoryPath: "weapons/holystaff/holystaff_undead", Recipe: recipe_032ba5d485e5},
+		{ID: "T6_2H_HOLYSTAFF_UNDEAD", Name: "Erlösungsstab des Meisters", Tier: 6, Enchantment: 0, CategoryPath: "weapons/holystaff/holystaff_undead", Recipe: recipe_d88c4bab708e},
+		{ID: "T6_2H_HOLYSTAFF_UNDEAD@1", Name: "Erlösungsstab des Meisters", Tier: 6, Enchantment: 1, CategoryPath: "weapons/holystaff/holystaff_undead", Recipe: recipe_d88c4bab708e},
+		{ID: "T6_2H_HOLYSTAFF_UNDEAD@2", Name: "Erlösungsstab des Meisters", Tier: 6, Enchantment: 2, CategoryPath: "weapons/holystaff/holystaff_undead", Recipe: recipe_d88c4bab708e},
+		{ID: "T6_2H_HOLYSTAFF_UNDEAD@3", Name: "Erlösungsstab des Meisters", Tier: 6, Enchantment: 3, CategoryPath: "weapons/holystaff/holystaff_undead", Recipe: recipe_d88c4bab708e},
+		{ID: "T6_2H_HOLYSTAFF_UNDEAD@4", Name: "Erlösungsstab des Meisters", Tier: 6, Enchantment: 4, CategoryPath: "weapons/holystaff/holystaff_undead", Recipe: recipe_d88c4bab708e},
+		{ID: "T7_2H_HOLYSTAFF_UNDEAD", Name: "Erlösungsstab des Großmeisters", Tier: 7, Enchantment: 0, CategoryPath: "weapons/holystaff/holystaff_undead", Recipe: recipe_85f928bc5c3a},
+		{ID: "T7_2H_HOLYSTAFF_UNDEAD@1", Name: "Erlösungsstab des Großmeisters", Tier: 7, Enchantment: 1, CategoryPath: "weapons/holystaff/holystaff_undead", Recipe: recipe_85f928bc5c3a},
+		{ID: "T7_2H_HOLYSTAFF_UNDEAD@2", Name: "Erlösungsstab des Großmeisters", Tier: 7, Enchantment: 2, CategoryPath: "weapons/holystaff/holystaff_undead", Recipe: recipe_85f928bc5c3a},
+		{ID: "T7_2H_HOLYSTAFF_UNDEAD@3", Name: "Erlösungsstab des Großmeisters", Tier: 7, Enchantment: 3, CategoryPath: "weapons/holystaff/holystaff_undead", Recipe: recipe_85f928bc5c3a},
+		{ID: "T7_2H_HOLYSTAFF_UNDEAD@4", Name: "Erlösungsstab des Großmeisters", Tier: 7, Enchantment: 4, CategoryPath: "weapons/holystaff/holystaff_undead", Recipe: recipe_85f928bc5c3a},
+		{ID: "T8_2H_HOLYSTAFF_UNDEAD", Name: "Erlösungsstab des Ältesten", Tier: 8, Enchantment: 0, CategoryPath: "weapons/holystaff/holystaff_undead", Recipe: recipe_11b007e144df},
+		{ID: "T8_2H_HOLYSTAFF_UNDEAD@1", Name: "Erlösungsstab des Ältesten", Tier: 8, Enchantment: 1, CategoryPath: "weapons/holystaff/holystaff_undead", Recipe: recipe_11b007e144df},
+		{ID: "T8_2H_HOLYSTAFF_UNDEAD@2", Name: "Erlösungsstab des Ältesten", Tier: 8, Enchantment: 2, CategoryPath: "weapons/holystaff/holystaff_undead", Recipe: recipe_11b007e144df},
+		{ID: "T8_2H_HOLYSTAFF_UNDEAD@3", Name: "Erlösungsstab des Ältesten", Tier: 8, Enchantment: 3, CategoryPath: "weapons/holystaff/holystaff_undead", Recipe: recipe_11b007e144df},
+		{ID: "T8_2H_HOLYSTAFF_UNDEAD@4", Name: "Erlösungsstab des Ältesten", Tier: 8, Enchantment: 4, CategoryPath: "weapons/holystaff/holystaff_undead", Recipe: recipe_11b007e144df},
+	}},
+	{Name: "Permafrostprisma des Adepten", BaseID: "2H_ICECRYSTAL_UNDEAD", MinTier: 4, MaxTier: 8, MinEnchantment: 0, MaxEnchantment: 4, Variants: []ItemVariant{
+		{ID: "T4_2H_ICECRYSTAL_UNDEAD", Name: "Permafrostprisma des Adepten", Tier: 4, Enchantment: 0, CategoryPath: "weapons/froststaff/froststaff_undead", Recipe: recipe_cd4b347619d0},
+		{ID: "T4_2H_ICECRYSTAL_UNDEAD@1", Name: "Permafrostprisma des Adepten", Tier: 4, Enchantment: 1, CategoryPath: "weapons/froststaff/froststaff_undead", Recipe: recipe_cd4b347619d0},
+		{ID: "T4_2H_ICECRYSTAL_UNDEAD@2", Name: "Permafrostprisma des Adepten", Tier: 4, Enchantment: 2, CategoryPath: "weapons/froststaff/froststaff_undead", Recipe: recipe_cd4b347619d0},
+		{ID: "T4_2H_ICECRYSTAL_UNDEAD@3", Name: "Permafrostprisma des Adepten", Tier: 4, Enchantment: 3, CategoryPath: "weapons/froststaff/froststaff_undead", Recipe: recipe_cd4b347619d0},
+		{ID: "T4_2H_ICECRYSTAL_UNDEAD@4", Name: "Permafrostprisma des Adepten", Tier: 4, Enchantment: 4, CategoryPath: "weapons/froststaff/froststaff_undead", Recipe: recipe_cd4b347619d0},
+		{ID: "T5_2H_ICECRYSTAL_UNDEAD", Name: "Permafrostprisma des Experten", Tier: 5, Enchantment: 0, CategoryPath: "weapons/froststaff/froststaff_undead", Recipe: recipe_e84a50e12636},
+		{ID: "T5_2H_ICECRYSTAL_UNDEAD@1", Name: "Permafrostprisma des Experten", Tier: 5, Enchantment: 1, CategoryPath: "weapons/froststaff/froststaff_undead", Recipe: recipe_e84a50e12636},
+		{ID: "T5_2H_ICECRYSTAL_UNDEAD@2", Name: "Permafrostprisma des Experten", Tier: 5, Enchantment: 2, CategoryPath: "weapons/froststaff/froststaff_undead", Recipe: recipe_e84a50e12636},
+		{ID: "T5_2H_ICECRYSTAL_UNDEAD@3", Name: "Permafrostprisma des Experten", Tier: 5, Enchantment: 3, CategoryPath: "weapons/froststaff/froststaff_undead", Recipe: recipe_e84a50e12636},
+		{ID: "T5_2H_ICECRYSTAL_UNDEAD@4", Name: "Permafrostprisma des Experten", Tier: 5, Enchantment: 4, CategoryPath: "weapons/froststaff/froststaff_undead", Recipe: recipe_e84a50e12636},
+		{ID: "T6_2H_ICECRYSTAL_UNDEAD", Name: "Permafrostprisma des Meisters", Tier: 6, Enchantment: 0, CategoryPath: "weapons/froststaff/froststaff_undead", Recipe: recipe_176c2bb4bc3a},
+		{ID: "T6_2H_ICECRYSTAL_UNDEAD@1", Name: "Permafrostprisma des Meisters", Tier: 6, Enchantment: 1, CategoryPath: "weapons/froststaff/froststaff_undead", Recipe: recipe_176c2bb4bc3a},
+		{ID: "T6_2H_ICECRYSTAL_UNDEAD@2", Name: "Permafrostprisma des Meisters", Tier: 6, Enchantment: 2, CategoryPath: "weapons/froststaff/froststaff_undead", Recipe: recipe_176c2bb4bc3a},
+		{ID: "T6_2H_ICECRYSTAL_UNDEAD@3", Name: "Permafrostprisma des Meisters", Tier: 6, Enchantment: 3, CategoryPath: "weapons/froststaff/froststaff_undead", Recipe: recipe_176c2bb4bc3a},
+		{ID: "T6_2H_ICECRYSTAL_UNDEAD@4", Name: "Permafrostprisma des Meisters", Tier: 6, Enchantment: 4, CategoryPath: "weapons/froststaff/froststaff_undead", Recipe: recipe_176c2bb4bc3a},
+		{ID: "T7_2H_ICECRYSTAL_UNDEAD", Name: "Permafrostprisma des Großmeisters", Tier: 7, Enchantment: 0, CategoryPath: "weapons/froststaff/froststaff_undead", Recipe: recipe_ab96819052d8},
+		{ID: "T7_2H_ICECRYSTAL_UNDEAD@1", Name: "Permafrostprisma des Großmeisters", Tier: 7, Enchantment: 1, CategoryPath: "weapons/froststaff/froststaff_undead", Recipe: recipe_ab96819052d8},
+		{ID: "T7_2H_ICECRYSTAL_UNDEAD@2", Name: "Permafrostprisma des Großmeisters", Tier: 7, Enchantment: 2, CategoryPath: "weapons/froststaff/froststaff_undead", Recipe: recipe_ab96819052d8},
+		{ID: "T7_2H_ICECRYSTAL_UNDEAD@3", Name: "Permafrostprisma des Großmeisters", Tier: 7, Enchantment: 3, CategoryPath: "weapons/froststaff/froststaff_undead", Recipe: recipe_ab96819052d8},
+		{ID: "T7_2H_ICECRYSTAL_UNDEAD@4", Name: "Permafrostprisma des Großmeisters", Tier: 7, Enchantment: 4, CategoryPath: "weapons/froststaff/froststaff_undead", Recipe: recipe_ab96819052d8},
+		{ID: "T8_2H_ICECRYSTAL_UNDEAD", Name: "Permafrostprisma des Ältesten", Tier: 8, Enchantment: 0, CategoryPath: "weapons/froststaff/froststaff_undead", Recipe: recipe_3b5e36aad10e},
+		{ID: "T8_2H_ICECRYSTAL_UNDEAD@1", Name: "Permafrostprisma des Ältesten", Tier: 8, Enchantment: 1, CategoryPath: "weapons/froststaff/froststaff_undead", Recipe: recipe_3b5e36aad10e},
+		{ID: "T8_2H_ICECRYSTAL_UNDEAD@2", Name: "Permafrostprisma des Ältesten", Tier: 8, Enchantment: 2, CategoryPath: "weapons/froststaff/froststaff_undead", Recipe: recipe_3b5e36aad10e},
+		{ID: "T8_2H_ICECRYSTAL_UNDEAD@3", Name: "Permafrostprisma des Ältesten", Tier: 8, Enchantment: 3, CategoryPath: "weapons/froststaff/froststaff_undead", Recipe: recipe_3b5e36aad10e},
+		{ID: "T8_2H_ICECRYSTAL_UNDEAD@4", Name: "Permafrostprisma des Ältesten", Tier: 8, Enchantment: 4, CategoryPath: "weapons/froststaff/froststaff_undead", Recipe: recipe_3b5e36aad10e},
+	}},
+	{Name: "Eiszapfenstab des Adepten", BaseID: "2H_ICEGAUNTLETS_HELL", MinTier: 4, MaxTier: 8, MinEnchantment: 0, MaxEnchantment: 4, Variants: []ItemVariant{
+		{ID: "T4_2H_ICEGAUNTLETS_HELL", Name: "Eiszapfenstab des Adepten", Tier: 4, Enchantment: 0, CategoryPath: "weapons/froststaff/froststaff_hell", Recipe: recipe_f85e12160f04},
+		{ID: "T4_2H_ICEGAUNTLETS_HELL@1", Name: "Eiszapfenstab des Adepten", Tier: 4, Enchantment: 1, CategoryPath: "weapons/froststaff/froststaff_hell", Recipe: recipe_f85e12160f04},
+		{ID: "T4_2H_ICEGAUNTLETS_HELL@2", Name: "Eiszapfenstab des Adepten", Tier: 4, Enchantment: 2, CategoryPath: "weapons/froststaff/froststaff_hell", Recipe: recipe_f85e12160f04},
+		{ID: "T4_2H_ICEGAUNTLETS_HELL@3", Name: "Eiszapfenstab des Adepten", Tier: 4, Enchantment: 3, CategoryPath: "weapons/froststaff/froststaff_hell", Recipe: recipe_f85e12160f04},
+		{ID: "T4_2H_ICEGAUNTLETS_HELL@4", Name: "Eiszapfenstab des Adepten", Tier: 4, Enchantment: 4, CategoryPath: "weapons/froststaff/froststaff_hell", Recipe: recipe_f85e12160f04},
+		{ID: "T5_2H_ICEGAUNTLETS_HELL", Name: "Eiszapfenstab des Experten", Tier: 5, Enchantment: 0, CategoryPath: "weapons/froststaff/froststaff_hell", Recipe: recipe_108ab013837d},
+		{ID: "T5_2H_ICEGAUNTLETS_HELL@1", Name: "Eiszapfenstab des Experten", Tier: 5, Enchantment: 1, CategoryPath: "weapons/froststaff/froststaff_hell", Recipe: recipe_108ab013837d},
+		{ID: "T5_2H_ICEGAUNTLETS_HELL@2", Name: "Eiszapfenstab des Experten", Tier: 5, Enchantment: 2, CategoryPath: "weapons/froststaff/froststaff_hell", Recipe: recipe_108ab013837d},
+		{ID: "T5_2H_ICEGAUNTLETS_HELL@3", Name: "Eiszapfenstab des Experten", Tier: 5, Enchantment: 3, CategoryPath: "weapons/froststaff/froststaff_hell", Recipe: recipe_108ab013837d},
+		{ID: "T5_2H_ICEGAUNTLETS_HELL@4", Name: "Eiszapfenstab des Experten", Tier: 5, Enchantment: 4, CategoryPath: "weapons/froststaff/froststaff_hell", Recipe: recipe_108ab013837d},
+		{ID: "T6_2H_ICEGAUNTLETS_HELL", Name: "Eiszapfenstab des Meisters", Tier: 6, Enchantment: 0, CategoryPath: "weapons/froststaff/froststaff_hell", Recipe: recipe_a0fe4bde172c},
+		{ID: "T6_2H_ICEGAUNTLETS_HELL@1", Name: "Eiszapfenstab des Meisters", Tier: 6, Enchantment: 1, CategoryPath: "weapons/froststaff/froststaff_hell", Recipe: recipe_a0fe4bde172c},
+		{ID: "T6_2H_ICEGAUNTLETS_HELL@2", Name: "Eiszapfenstab des Meisters", Tier: 6, Enchantment: 2, CategoryPath: "weapons/froststaff/froststaff_hell", Recipe: recipe_a0fe4bde172c},
+		{ID: "T6_2H_ICEGAUNTLETS_HELL@3", Name: "Eiszapfenstab des Meisters", Tier: 6, Enchantment: 3, CategoryPath: "weapons/froststaff/froststaff_hell", Recipe: recipe_a0fe4bde172c},
+		{ID: "T6_2H_ICEGAUNTLETS_HELL@4", Name: "Eiszapfenstab des Meisters", Tier: 6, Enchantment: 4, CategoryPath: "weapons/froststaff/froststaff_hell", Recipe: recipe_a0fe4bde172c},
+		{ID: "T7_2H_ICEGAUNTLETS_HELL", Name: "Eiszapfenstab des Großmeisters", Tier: 7, Enchantment: 0, CategoryPath: "weapons/froststaff/froststaff_hell", Recipe: recipe_06ec4a9ce5c7},
+		{ID: "T7_2H_ICEGAUNTLETS_HELL@1", Name: "Eiszapfenstab des Großmeisters", Tier: 7, Enchantment: 1, CategoryPath: "weapons/froststaff/froststaff_hell", Recipe: recipe_06ec4a9ce5c7},
+		{ID: "T7_2H_ICEGAUNTLETS_HELL@2", Name: "Eiszapfenstab des Großmeisters", Tier: 7, Enchantment: 2, CategoryPath: "weapons/froststaff/froststaff_hell", Recipe: recipe_06ec4a9ce5c7},
+		{ID: "T7_2H_ICEGAUNTLETS_HELL@3", Name: "Eiszapfenstab des Großmeisters", Tier: 7, Enchantment: 3, CategoryPath: "weapons/froststaff/froststaff_hell", Recipe: recipe_06ec4a9ce5c7},
+		{ID: "T7_2H_ICEGAUNTLETS_HELL@4", Name: "Eiszapfenstab des Großmeisters", Tier: 7, Enchantment: 4, CategoryPath: "weapons/froststaff/froststaff_hell", Recipe: recipe_06ec4a9ce5c7},
+		{ID: "T8_2H_ICEGAUNTLETS_HELL", Name: "Eiszapfenstab des Ältesten", Tier: 8, Enchantment: 0, CategoryPath: "weapons/froststaff/froststaff_hell", Recipe: recipe_b2278020425d},
+		{ID: "T8_2H_ICEGAUNTLETS_HELL@1", Name: "Eiszapfenstab des Ältesten", Tier: 8, Enchantment: 1, CategoryPath: "weapons/froststaff/froststaff_hell", Recipe: recipe_b2278020425d},
+		{ID: "T8_2H_ICEGAUNTLETS_HELL@2", Name: "Eiszapfenstab des Ältesten", Tier: 8, Enchantment: 2, CategoryPath: "weapons/froststaff/froststaff_hell", Recipe: recipe_b2278020425d},
+		{ID: "T8_2H_ICEGAUNTLETS_HELL@3", Name: "Eiszapfenstab des Ältesten", Tier: 8, Enchantment: 3, CategoryPath: "weapons/froststaff/froststaff_hell", Recipe: recipe_b2278020425d},
+		{ID: "T8_2H_ICEGAUNTLETS_HELL@4", Name: "Eiszapfenstab des Ältesten", Tier: 8, Enchantment: 4, CategoryPath: "weapons/froststaff/froststaff_hell", Recipe: recipe_b2278020425d},
+	}},
+	{Name: "Höllenstab des Adepten", BaseID: "2H_INFERNOSTAFF", MinTier: 4, MaxTier: 8, MinEnchantment: 0, MaxEnchantment: 4, Variants: []ItemVariant{
+		{ID: "T4_2H_INFERNOSTAFF", Name: "Höllenstab des Adepten", Tier: 4, Enchantment: 0, CategoryPath: "weapons/firestaff/firestaff_infernostaff", Recipe: recipe_53be827d59db},
+		{ID: "T4_2H_INFERNOSTAFF@1", Name: "Höllenstab des Adepten", Tier: 4, Enchantment: 1, CategoryPath: "weapons/firestaff/firestaff_infernostaff", Recipe: recipe_53be827d59db},
+		{ID: "T4_2H_INFERNOSTAFF@2", Name: "Höllenstab des Adepten", Tier: 4, Enchantment: 2, CategoryPath: "weapons/firestaff/firestaff_infernostaff", Recipe: recipe_53be827d59db},
+		{ID: "T4_2H_INFERNOSTAFF@3", Name: "Höllenstab des Adepten", Tier: 4, Enchantment: 3, CategoryPath: "weapons/firestaff/firestaff_infernostaff", Recipe: recipe_53be827d59db},
+		{ID: "T4_2H_INFERNOSTAFF@4", Name: "Höllenstab des Adepten", Tier: 4, Enchantment: 4, CategoryPath: "weapons/firestaff/firestaff_infernostaff", Recipe: recipe_53be827d59db},
+		{ID: "T5_2H_INFERNOSTAFF", Name: "Höllenstab des Experten", Tier: 5, Enchantment: 0, CategoryPath: "weapons/firestaff/firestaff_infernostaff", Recipe: recipe_b13d80a09897},
+		{ID: "T5_2H_INFERNOSTAFF@1", Name: "Höllenstab des Experten", Tier: 5, Enchantment: 1, CategoryPath: "weapons/firestaff/firestaff_infernostaff", Recipe: recipe_b13d80a09897},
+		{ID: "T5_2H_INFERNOSTAFF@2", Name: "Höllenstab des Experten", Tier: 5, Enchantment: 2, CategoryPath: "weapons/firestaff/firestaff_infernostaff", Recipe: recipe_b13d80a09897},
+		{ID: "T5_2H_INFERNOSTAFF@3", Name: "Höllenstab des Experten", Tier: 5, Enchantment: 3, CategoryPath: "weapons/firestaff/firestaff_infernostaff", Recipe: recipe_b13d80a09897},
+		{ID: "T5_2H_INFERNOSTAFF@4", Name: "Höllenstab des Experten", Tier: 5, Enchantment: 4, CategoryPath: "weapons/firestaff/firestaff_infernostaff", Recipe: recipe_b13d80a09897},
+		{ID: "T6_2H_INFERNOSTAFF", Name: "Höllenstab des Meisters", Tier: 6, Enchantment: 0, CategoryPath: "weapons/firestaff/firestaff_infernostaff", Recipe: recipe_fc6c6ec70b70},
+		{ID: "T6_2H_INFERNOSTAFF@1", Name: "Höllenstab des Meisters", Tier: 6, Enchantment: 1, CategoryPath: "weapons/firestaff/firestaff_infernostaff", Recipe: recipe_fc6c6ec70b70},
+		{ID: "T6_2H_INFERNOSTAFF@2", Name: "Höllenstab des Meisters", Tier: 6, Enchantment: 2, CategoryPath: "weapons/firestaff/firestaff_infernostaff", Recipe: recipe_fc6c6ec70b70},
+		{ID: "T6_2H_INFERNOSTAFF@3", Name: "Höllenstab des Meisters", Tier: 6, Enchantment: 3, CategoryPath: "weapons/firestaff/firestaff_infernostaff", Recipe: recipe_fc6c6ec70b70},
+		{ID: "T6_2H_INFERNOSTAFF@4", Name: "Höllenstab des Meisters", Tier: 6, Enchantment: 4, CategoryPath: "weapons/firestaff/firestaff_infernostaff", Recipe: recipe_fc6c6ec70b70},
+		{ID: "T7_2H_INFERNOSTAFF", Name: "Höllenstab des Großmeisters", Tier: 7, Enchantment: 0, CategoryPath: "weapons/firestaff/firestaff_infernostaff", Recipe: recipe_e16a30c0258f},
+		{ID: "T7_2H_INFERNOSTAFF@1", Name: "Höllenstab des Großmeisters", Tier: 7, Enchantment: 1, CategoryPath: "weapons/firestaff/firestaff_infernostaff", Recipe: recipe_e16a30c0258f},
+		{ID: "T7_2H_INFERNOSTAFF@2", Name: "Höllenstab des Großmeisters", Tier: 7, Enchantment: 2, CategoryPath: "weapons/firestaff/firestaff_infernostaff", Recipe: recipe_e16a30c0258f},
+		{ID: "T7_2H_INFERNOSTAFF@3", Name: "Höllenstab des Großmeisters", Tier: 7, Enchantment: 3, CategoryPath: "weapons/firestaff/firestaff_infernostaff", Recipe: recipe_e16a30c0258f},
+		{ID: "T7_2H_INFERNOSTAFF@4", Name: "Höllenstab des Großmeisters", Tier: 7, Enchantment: 4, CategoryPath: "weapons/firestaff/firestaff_infernostaff", Recipe: recipe_e16a30c0258f},
+		{ID: "T8_2H_INFERNOSTAFF", Name: "Höllenstab des Ältesten", Tier: 8, Enchantment: 0, CategoryPath: "weapons/firestaff/firestaff_infernostaff", Recipe: recipe_5f2475d40664},
+		{ID: "T8_2H_INFERNOSTAFF@1", Name: "Höllenstab des Ältesten", Tier: 8, Enchantment: 1, CategoryPath: "weapons/firestaff/firestaff_infernostaff", Recipe: recipe_5f2475d40664},
+		{ID: "T8_2H_INFERNOSTAFF@2", Name: "Höllenstab des Ältesten", Tier: 8, Enchantment: 2, CategoryPath: "weapons/firestaff/firestaff_infernostaff", Recipe: recipe_5f2475d40664},
+		{ID: "T8_2H_INFERNOSTAFF@3", Name: "Höllenstab des Ältesten", Tier: 8, Enchantment: 3, CategoryPath: "weapons/firestaff/firestaff_infernostaff", Recipe: recipe_5f2475d40664},
+		{ID: "T8_2H_INFERNOSTAFF@4", Name: "Höllenstab des Ältesten", Tier: 8, Enchantment: 4, CategoryPath: "weapons/firestaff/firestaff_infernostaff", Recipe: recipe_5f2475d40664},
+	}},
+	{Name: "Gleißender Stab des Adepten", BaseID: "2H_INFERNOSTAFF_MORGANA", MinTier: 4, MaxTier: 8, MinEnchantment: 0, MaxEnchantment: 4, Variants: []ItemVariant{
+		{ID: "T4_2H_INFERNOSTAFF_MORGANA", Name: "Gleißender Stab des Adepten", Tier: 4, Enchantment: 0, CategoryPath: "weapons/firestaff/firestaff_morgana", Recipe: recipe_0fb2759b0b1a},
+		{ID: "T4_2H_INFERNOSTAFF_MORGANA@1", Name: "Gleißender Stab des Adepten", Tier: 4, Enchantment: 1, CategoryPath: "weapons/firestaff/firestaff_morgana", Recipe: recipe_0fb2759b0b1a},
+		{ID: "T4_2H_INFERNOSTAFF_MORGANA@2", Name: "Gleißender Stab des Adepten", Tier: 4, Enchantment: 2, CategoryPath: "weapons/firestaff/firestaff_morgana", Recipe: recipe_0fb2759b0b1a},
+		{ID: "T4_2H_INFERNOSTAFF_MORGANA@3", Name: "Gleißender Stab des Adepten", Tier: 4, Enchantment: 3, CategoryPath: "weapons/firestaff/firestaff_morgana", Recipe: recipe_0fb2759b0b1a},
+		{ID: "T4_2H_INFERNOSTAFF_MORGANA@4", Name: "Gleißender Stab des Adepten", Tier: 4, Enchantment: 4, CategoryPath: "weapons/firestaff/firestaff_morgana", Recipe: recipe_0fb2759b0b1a},
+		{ID: "T5_2H_INFERNOSTAFF_MORGANA", Name: "Gleißender Stab des Experten", Tier: 5, Enchantment: 0, CategoryPath: "weapons/firestaff/firestaff_morgana", Recipe: recipe_b89e9cd01f35},
+		{ID: "T5_2H_INFERNOSTAFF_MORGANA@1", Name: "Gleißender Stab des Experten", Tier: 5, Enchantment: 1, CategoryPath: "weapons/firestaff/firestaff_morgana", Recipe: recipe_b89e9cd01f35},
+		{ID: "T5_2H_INFERNOSTAFF_MORGANA@2", Name: "Gleißender Stab des Experten", Tier: 5, Enchantment: 2, CategoryPath: "weapons/firestaff/firestaff_morgana", Recipe: recipe_b89e9cd01f35},
+		{ID: "T5_2H_INFERNOSTAFF_MORGANA@3", Name: "Gleißender Stab des Experten", Tier: 5, Enchantment: 3, CategoryPath: "weapons/firestaff/firestaff_morgana", Recipe: recipe_b89e9cd01f35},
+		{ID: "T5_2H_INFERNOSTAFF_MORGANA@4", Name: "Gleißender Stab des Experten", Tier: 5, Enchantment: 4, CategoryPath: "weapons/firestaff/firestaff_morgana", Recipe: recipe_b89e9cd01f35},
+		{ID: "T6_2H_INFERNOSTAFF_MORGANA", Name: "Gleißender Stab des Meisters", Tier: 6, Enchantment: 0, CategoryPath: "weapons/firestaff/firestaff_morgana", Recipe: recipe_136b44fc67b3},
+		{ID: "T6_2H_INFERNOSTAFF_MORGANA@1", Name: "Gleißender Stab des Meisters", Tier: 6, Enchantment: 1, CategoryPath: "weapons/firestaff/firestaff_morgana", Recipe: recipe_136b44fc67b3},
+		{ID: "T6_2H_INFERNOSTAFF_MORGANA@2", Name: "Gleißender Stab des Meisters", Tier: 6, Enchantment: 2, CategoryPath: "weapons/firestaff/firestaff_morgana", Recipe: recipe_136b44fc67b3},
+		{ID: "T6_2H_INFERNOSTAFF_MORGANA@3", Name: "Gleißender Stab des Meisters", Tier: 6, Enchantment: 3, CategoryPath: "weapons/firestaff/firestaff_morgana", Recipe: recipe_136b44fc67b3},
+		{ID: "T6_2H_INFERNOSTAFF_MORGANA@4", Name: "Gleißender Stab des Meisters", Tier: 6, Enchantment: 4, CategoryPath: "weapons/firestaff/firestaff_morgana", Recipe: recipe_136b44fc67b3},
+		{ID: "T7_2H_INFERNOSTAFF_MORGANA", Name: "Gleißender Stab des Großmeisters", Tier: 7, Enchantment: 0, CategoryPath: "weapons/firestaff/firestaff_morgana", Recipe: recipe_15704c37e73e},
+		{ID: "T7_2H_INFERNOSTAFF_MORGANA@1", Name: "Gleißender Stab des Großmeisters", Tier: 7, Enchantment: 1, CategoryPath: "weapons/firestaff/firestaff_morgana", Recipe: recipe_15704c37e73e},
+		{ID: "T7_2H_INFERNOSTAFF_MORGANA@2", Name: "Gleißender Stab des Großmeisters", Tier: 7, Enchantment: 2, CategoryPath: "weapons/firestaff/firestaff_morgana", Recipe: recipe_15704c37e73e},
+		{ID: "T7_2H_INFERNOSTAFF_MORGANA@3", Name: "Gleißender Stab des Großmeisters", Tier: 7, Enchantment: 3, CategoryPath: "weapons/firestaff/firestaff_morgana", Recipe: recipe_15704c37e73e},
+		{ID: "T7_2H_INFERNOSTAFF_MORGANA@4", Name: "Gleißender Stab des Großmeisters", Tier: 7, Enchantment: 4, CategoryPath: "weapons/firestaff/firestaff_morgana", Recipe: recipe_15704c37e73e},
+		{ID: "T8_2H_INFERNOSTAFF_MORGANA", Name: "Gleißender Stab des Ältesten", Tier: 8, Enchantment: 0, CategoryPath: "weapons/firestaff/firestaff_morgana", Recipe: recipe_95bb7ea8b58e},
+		{ID: "T8_2H_INFERNOSTAFF_MORGANA@1", Name: "Gleißender Stab des Ältesten", Tier: 8, Enchantment: 1, CategoryPath: "weapons/firestaff/firestaff_morgana", Recipe: recipe_95bb7ea8b58e},
+		{ID: "T8_2H_INFERNOSTAFF_MORGANA@2", Name: "Gleißender Stab des Ältesten", Tier: 8, Enchantment: 2, CategoryPath: "weapons/firestaff/firestaff_morgana", Recipe: recipe_95bb7ea8b58e},
+		{ID: "T8_2H_INFERNOSTAFF_MORGANA@3", Name: "Gleißender Stab des Ältesten", Tier: 8, Enchantment: 3, CategoryPath: "weapons/firestaff/firestaff_morgana", Recipe: recipe_95bb7ea8b58e},
+		{ID: "T8_2H_INFERNOSTAFF_MORGANA@4", Name: "Gleißender Stab des Ältesten", Tier: 8, Enchantment: 4, CategoryPath: "weapons/firestaff/firestaff_morgana", Recipe: recipe_95bb7ea8b58e},
+	}},
+	{Name: "Eisenpanzerstab des Adepten", BaseID: "2H_IRONCLADEDSTAFF", MinTier: 4, MaxTier: 8, MinEnchantment: 0, MaxEnchantment: 4, Variants: []ItemVariant{
+		{ID: "T4_2H_IRONCLADEDSTAFF", Name: "Eisenpanzerstab des Adepten", Tier: 4, Enchantment: 0, CategoryPath: "weapons/quarterstaff/quarterstaff_ironcladedstaff", Recipe: recipe_ef74b59fa564},
+		{ID: "T4_2H_IRONCLADEDSTAFF@1", Name: "Eisenpanzerstab des Adepten", Tier: 4, Enchantment: 1, CategoryPath: "weapons/quarterstaff/quarterstaff_ironcladedstaff", Recipe: recipe_ef74b59fa564},
+		{ID: "T4_2H_IRONCLADEDSTAFF@2", Name: "Eisenpanzerstab des Adepten", Tier: 4, Enchantment: 2, CategoryPath: "weapons/quarterstaff/quarterstaff_ironcladedstaff", Recipe: recipe_ef74b59fa564},
+		{ID: "T4_2H_IRONCLADEDSTAFF@3", Name: "Eisenpanzerstab des Adepten", Tier: 4, Enchantment: 3, CategoryPath: "weapons/quarterstaff/quarterstaff_ironcladedstaff", Recipe: recipe_ef74b59fa564},
+		{ID: "T4_2H_IRONCLADEDSTAFF@4", Name: "Eisenpanzerstab des Adepten", Tier: 4, Enchantment: 4, CategoryPath: "weapons/quarterstaff/quarterstaff_ironcladedstaff", Recipe: recipe_ef74b59fa564},
+		{ID: "T5_2H_IRONCLADEDSTAFF", Name: "Eisenpanzerstab des Experten", Tier: 5, Enchantment: 0, CategoryPath: "weapons/quarterstaff/quarterstaff_ironcladedstaff", Recipe: recipe_b3ff15f0ec8d},
+		{ID: "T5_2H_IRONCLADEDSTAFF@1", Name: "Eisenpanzerstab des Experten", Tier: 5, Enchantment: 1, CategoryPath: "weapons/quarterstaff/quarterstaff_ironcladedstaff", Recipe: recipe_b3ff15f0ec8d},
+		{ID: "T5_2H_IRONCLADEDSTAFF@2", Name: "Eisenpanzerstab des Experten", Tier: 5, Enchantment: 2, CategoryPath: "weapons/quarterstaff/quarterstaff_ironcladedstaff", Recipe: recipe_b3ff15f0ec8d},
+		{ID: "T5_2H_IRONCLADEDSTAFF@3", Name: "Eisenpanzerstab des Experten", Tier: 5, Enchantment: 3, CategoryPath: "weapons/quarterstaff/quarterstaff_ironcladedstaff", Recipe: recipe_b3ff15f0ec8d},
+		{ID: "T5_2H_IRONCLADEDSTAFF@4", Name: "Eisenpanzerstab des Experten", Tier: 5, Enchantment: 4, CategoryPath: "weapons/quarterstaff/quarterstaff_ironcladedstaff", Recipe: recipe_b3ff15f0ec8d},
+		{ID: "T6_2H_IRONCLADEDSTAFF", Name: "Eisenpanzerstab des Meisters", Tier: 6, Enchantment: 0, CategoryPath: "weapons/quarterstaff/quarterstaff_ironcladedstaff", Recipe: recipe_08d29e13975f},
+		{ID: "T6_2H_IRONCLADEDSTAFF@1", Name: "Eisenpanzerstab des Meisters", Tier: 6, Enchantment: 1, CategoryPath: "weapons/quarterstaff/quarterstaff_ironcladedstaff", Recipe: recipe_08d29e13975f},
+		{ID: "T6_2H_IRONCLADEDSTAFF@2", Name: "Eisenpanzerstab des Meisters", Tier: 6, Enchantment: 2, CategoryPath: "weapons/quarterstaff/quarterstaff_ironcladedstaff", Recipe: recipe_08d29e13975f},
+		{ID: "T6_2H_IRONCLADEDSTAFF@3", Name: "Eisenpanzerstab des Meisters", Tier: 6, Enchantment: 3, CategoryPath: "weapons/quarterstaff/quarterstaff_ironcladedstaff", Recipe: recipe_08d29e13975f},
+		{ID: "T6_2H_IRONCLADEDSTAFF@4", Name: "Eisenpanzerstab des Meisters", Tier: 6, Enchantment: 4, CategoryPath: "weapons/quarterstaff/quarterstaff_ironcladedstaff", Recipe: recipe_08d29e13975f},
+		{ID: "T7_2H_IRONCLADEDSTAFF", Name: "Eisenpanzerstab des Großmeisters", Tier: 7, Enchantment: 0, CategoryPath: "weapons/quarterstaff/quarterstaff_ironcladedstaff", Recipe: recipe_432d90d14e02},
+		{ID: "T7_2H_IRONCLADEDSTAFF@1", Name: "Eisenpanzerstab des Großmeisters", Tier: 7, Enchantment: 1, CategoryPath: "weapons/quarterstaff/quarterstaff_ironcladedstaff", Recipe: recipe_432d90d14e02},
+		{ID: "T7_2H_IRONCLADEDSTAFF@2", Name: "Eisenpanzerstab des Großmeisters", Tier: 7, Enchantment: 2, CategoryPath: "weapons/quarterstaff/quarterstaff_ironcladedstaff", Recipe: recipe_432d90d14e02},
+		{ID: "T7_2H_IRONCLADEDSTAFF@3", Name: "Eisenpanzerstab des Großmeisters", Tier: 7, Enchantment: 3, CategoryPath: "weapons/quarterstaff/quarterstaff_ironcladedstaff", Recipe: recipe_432d90d14e02},
+		{ID: "T7_2H_IRONCLADEDSTAFF@4", Name: "Eisenpanzerstab des Großmeisters", Tier: 7, Enchantment: 4, CategoryPath: "weapons/quarterstaff/quarterstaff_ironcladedstaff", Recipe: recipe_432d90d14e02},
+		{ID: "T8_2H_IRONCLADEDSTAFF", Name: "Eisenpanzerstab des Ältesten", Tier: 8, Enchantment: 0, CategoryPath: "weapons/quarterstaff/quarterstaff_ironcladedstaff", Recipe: recipe_29addfee9b42},
+		{ID: "T8_2H_IRONCLADEDSTAFF@1", Name: "Eisenpanzerstab des Ältesten", Tier: 8, Enchantment: 1, CategoryPath: "weapons/quarterstaff/quarterstaff_ironcladedstaff", Recipe: recipe_29addfee9b42},
+		{ID: "T8_2H_IRONCLADEDSTAFF@2", Name: "Eisenpanzerstab des Ältesten", Tier: 8, Enchantment: 2, CategoryPath: "weapons/quarterstaff/quarterstaff_ironcladedstaff", Recipe: recipe_29addfee9b42},
+		{ID: "T8_2H_IRONCLADEDSTAFF@3", Name: "Eisenpanzerstab des Ältesten", Tier: 8, Enchantment: 3, CategoryPath: "weapons/quarterstaff/quarterstaff_ironcladedstaff", Recipe: recipe_29addfee9b42},
+		{ID: "T8_2H_IRONCLADEDSTAFF@4", Name: "Eisenpanzerstab des Ältesten", Tier: 8, Enchantment: 4, CategoryPath: "weapons/quarterstaff/quarterstaff_ironcladedstaff", Recipe: recipe_29addfee9b42},
+	}},
+	{Name: "Schwarze Hände des Adepten", BaseID: "2H_IRONGAUNTLETS_HELL", MinTier: 4, MaxTier: 8, MinEnchantment: 0, MaxEnchantment: 3, Variants: []ItemVariant{
+		{ID: "T4_2H_IRONGAUNTLETS_HELL", Name: "Schwarze Hände des Adepten", Tier: 4, Enchantment: 0, CategoryPath: "weapons/knuckles/knuckles_gauntlets", Recipe: recipe_f7bee2e9d1c9},
+		{ID: "T4_2H_IRONGAUNTLETS_HELL@1", Name: "Schwarze Hände des Adepten", Tier: 4, Enchantment: 1, CategoryPath: "weapons/knuckles/knuckles_gauntlets", Recipe: recipe_f7bee2e9d1c9},
+		{ID: "T4_2H_IRONGAUNTLETS_HELL@2", Name: "Schwarze Hände des Adepten", Tier: 4, Enchantment: 2, CategoryPath: "weapons/knuckles/knuckles_gauntlets", Recipe: recipe_f7bee2e9d1c9},
+		{ID: "T4_2H_IRONGAUNTLETS_HELL@3", Name: "Schwarze Hände des Adepten", Tier: 4, Enchantment: 3, CategoryPath: "weapons/knuckles/knuckles_gauntlets", Recipe: recipe_f7bee2e9d1c9},
+		{ID: "T5_2H_IRONGAUNTLETS_HELL", Name: "Schwarze Hände des Experten", Tier: 5, Enchantment: 0, CategoryPath: "weapons/knuckles/knuckles_gauntlets", Recipe: recipe_61fdf020c67e},
+		{ID: "T5_2H_IRONGAUNTLETS_HELL@1", Name: "Schwarze Hände des Experten", Tier: 5, Enchantment: 1, CategoryPath: "weapons/knuckles/knuckles_gauntlets", Recipe: recipe_61fdf020c67e},
+		{ID: "T5_2H_IRONGAUNTLETS_HELL@2", Name: "Schwarze Hände des Experten", Tier: 5, Enchantment: 2, CategoryPath: "weapons/knuckles/knuckles_gauntlets", Recipe: recipe_61fdf020c67e},
+		{ID: "T5_2H_IRONGAUNTLETS_HELL@3", Name: "Schwarze Hände des Experten", Tier: 5, Enchantment: 3, CategoryPath: "weapons/knuckles/knuckles_gauntlets", Recipe: recipe_61fdf020c67e},
+		{ID: "T6_2H_IRONGAUNTLETS_HELL", Name: "Schwarze Hände des Meisters", Tier: 6, Enchantment: 0, CategoryPath: "weapons/knuckles/knuckles_gauntlets", Recipe: recipe_94cf2487a6a4},
+		{ID: "T6_2H_IRONGAUNTLETS_HELL@1", Name: "Schwarze Hände des Meisters", Tier: 6, Enchantment: 1, CategoryPath: "weapons/knuckles/knuckles_gauntlets", Recipe: recipe_94cf2487a6a4},
+		{ID: "T6_2H_IRONGAUNTLETS_HELL@2", Name: "Schwarze Hände des Meisters", Tier: 6, Enchantment: 2, CategoryPath: "weapons/knuckles/knuckles_gauntlets", Recipe: recipe_94cf2487a6a4},
+		{ID: "T6_2H_IRONGAUNTLETS_HELL@3", Name: "Schwarze Hände des Meisters", Tier: 6, Enchantment: 3, CategoryPath: "weapons/knuckles/knuckles_gauntlets", Recipe: recipe_94cf2487a6a4},
+		{ID: "T7_2H_IRONGAUNTLETS_HELL", Name: "Schwarze Hände des Großmeisters", Tier: 7, Enchantment: 0, CategoryPath: "weapons/knuckles/knuckles_gauntlets", Recipe: recipe_207bec2276ca},
+		{ID: "T7_2H_IRONGAUNTLETS_HELL@1", Name: "Schwarze Hände des Großmeisters", Tier: 7, Enchantment: 1, CategoryPath: "weapons/knuckles/knuckles_gauntlets", Recipe: recipe_207bec2276ca},
+		{ID: "T7_2H_IRONGAUNTLETS_HELL@2", Name: "Schwarze Hände des Großmeisters", Tier: 7, Enchantment: 2, CategoryPath: "weapons/knuckles/knuckles_gauntlets", Recipe: recipe_207bec2276ca},
+		{ID: "T7_2H_IRONGAUNTLETS_HELL@3", Name: "Schwarze Hände des Großmeisters", Tier: 7, Enchantment: 3, CategoryPath: "weapons/knuckles/knuckles_gauntlets", Recipe: recipe_207bec2276ca},
+		{ID: "T8_2H_IRONGAUNTLETS_HELL", Name: "Schwarze Hände des Ältesten", Tier: 8, Enchantment: 0, CategoryPath: "weapons/knuckles/knuckles_gauntlets", Recipe: recipe_72df82a686c0},
+		{ID: "T8_2H_IRONGAUNTLETS_HELL@1", Name: "Schwarze Hände des Ältesten", Tier: 8, Enchantment: 1, CategoryPath: "weapons/knuckles/knuckles_gauntlets", Recipe: recipe_72df82a686c0},
+		{ID: "T8_2H_IRONGAUNTLETS_HELL@2", Name: "Schwarze Hände des Ältesten", Tier: 8, Enchantment: 2, CategoryPath: "weapons/knuckles/knuckles_gauntlets", Recipe: recipe_72df82a686c0},
+		{ID: "T8_2H_IRONGAUNTLETS_HELL@3", Name: "Schwarze Hände des Ältesten", Tier: 8, Enchantment: 3, CategoryPath: "weapons/knuckles/knuckles_gauntlets", Recipe: recipe_72df82a686c0},
+	}},
+	{Name: "Fäuste von Avalon des Adepten", BaseID: "2H_KNUCKLES_AVALON", MinTier: 4, MaxTier: 8, MinEnchantment: 0, MaxEnchantment: 4, Variants: []ItemVariant{
+		{ID: "T4_2H_KNUCKLES_AVALON", Name: "Fäuste von Avalon des Adepten", Tier: 4, Enchantment: 0, CategoryPath: "weapons/knuckles/knuckles_avalon", Recipe: recipe_073e95447293},
+		{ID: "T4_2H_KNUCKLES_AVALON@1", Name: "Fäuste von Avalon des Adepten", Tier: 4, Enchantment: 1, CategoryPath: "weapons/knuckles/knuckles_avalon", Recipe: recipe_073e95447293},
+		{ID: "T4_2H_KNUCKLES_AVALON@2", Name: "Fäuste von Avalon des Adepten", Tier: 4, Enchantment: 2, CategoryPath: "weapons/knuckles/knuckles_avalon", Recipe: recipe_073e95447293},
+		{ID: "T4_2H_KNUCKLES_AVALON@3", Name: "Fäuste von Avalon des Adepten", Tier: 4, Enchantment: 3, CategoryPath: "weapons/knuckles/knuckles_avalon", Recipe: recipe_073e95447293},
+		{ID: "T4_2H_KNUCKLES_AVALON@4", Name: "Fäuste von Avalon des Adepten", Tier: 4, Enchantment: 4, CategoryPath: "weapons/knuckles/knuckles_avalon", Recipe: recipe_073e95447293},
+		{ID: "T5_2H_KNUCKLES_AVALON", Name: "Fäuste von Avalon des Experten", Tier: 5, Enchantment: 0, CategoryPath: "weapons/knuckles/knuckles_avalon", Recipe: recipe_42ee4e9f0440},
+		{ID: "T5_2H_KNUCKLES_AVALON@1", Name: "Fäuste von Avalon des Experten", Tier: 5, Enchantment: 1, CategoryPath: "weapons/knuckles/knuckles_avalon", Recipe: recipe_42ee4e9f0440},
+		{ID: "T5_2H_KNUCKLES_AVALON@2", Name: "Fäuste von Avalon des Experten", Tier: 5, Enchantment: 2, CategoryPath: "weapons/knuckles/knuckles_avalon", Recipe: recipe_42ee4e9f0440},
+		{ID: "T5_2H_KNUCKLES_AVALON@3", Name: "Fäuste von Avalon des Experten", Tier: 5, Enchantment: 3, CategoryPath: "weapons/knuckles/knuckles_avalon", Recipe: recipe_42ee4e9f0440},
+		{ID: "T5_2H_KNUCKLES_AVALON@4", Name: "Fäuste von Avalon des Experten", Tier: 5, Enchantment: 4, CategoryPath: "weapons/knuckles/knuckles_avalon", Recipe: recipe_42ee4e9f0440},
+		{ID: "T6_2H_KNUCKLES_AVALON", Name: "Fäuste von Avalon des Meisters", Tier: 6, Enchantment: 0, CategoryPath: "weapons/knuckles/knuckles_avalon", Recipe: recipe_90c0236e18fc},
+		{ID: "T6_2H_KNUCKLES_AVALON@1", Name: "Fäuste von Avalon des Meisters", Tier: 6, Enchantment: 1, CategoryPath: "weapons/knuckles/knuckles_avalon", Recipe: recipe_90c0236e18fc},
+		{ID: "T6_2H_KNUCKLES_AVALON@2", Name: "Fäuste von Avalon des Meisters", Tier: 6, Enchantment: 2, CategoryPath: "weapons/knuckles/knuckles_avalon", Recipe: recipe_90c0236e18fc},
+		{ID: "T6_2H_KNUCKLES_AVALON@3", Name: "Fäuste von Avalon des Meisters", Tier: 6, Enchantment: 3, CategoryPath: "weapons/knuckles/knuckles_avalon", Recipe: recipe_90c0236e18fc},
+		{ID: "T6_2H_KNUCKLES_AVALON@4", Name: "Fäuste von Avalon des Meisters", Tier: 6, Enchantment: 4, CategoryPath: "weapons/knuckles/knuckles_avalon", Recipe: recipe_90c0236e18fc},
+		{ID: "T7_2H_KNUCKLES_AVALON", Name: "Fäuste von Avalon des Großmeisters", Tier: 7, Enchantment: 0, CategoryPath: "weapons/knuckles/knuckles_avalon", Recipe: recipe_a268070ae135},
+		{ID: "T7_2H_KNUCKLES_AVALON@1", Name: "Fäuste von Avalon des Großmeisters", Tier: 7, Enchantment: 1, CategoryPath: "weapons/knuckles/knuckles_avalon", Recipe: recipe_a268070ae135},
+		{ID: "T7_2H_KNUCKLES_AVALON@2", Name: "Fäuste von Avalon des Großmeisters", Tier: 7, Enchantment: 2, CategoryPath: "weapons/knuckles/knuckles_avalon", Recipe: recipe_a268070ae135},
+		{ID: "T7_2H_KNUCKLES_AVALON@3", Name: "Fäuste von Avalon des Großmeisters", Tier: 7, Enchantment: 3, CategoryPath: "weapons/knuckles/knuckles_avalon", Recipe: recipe_a268070ae135},
+		{ID: "T7_2H_KNUCKLES_AVALON@4", Name: "Fäuste von Avalon des Großmeisters", Tier: 7, Enchantment: 4, CategoryPath: "weapons/knuckles/knuckles_avalon", Recipe: recipe_a268070ae135},
+		{ID: "T8_2H_KNUCKLES_AVALON", Name: "Fäuste von Avalon des Ältesten", Tier: 8, Enchantment: 0, CategoryPath: "weapons/knuckles/knuckles_avalon", Recipe: recipe_20ba59b2906f},
+		{ID: "T8_2H_KNUCKLES_AVALON@1", Name: "Fäuste von Avalon des Ältesten", Tier: 8, Enchantment: 1, CategoryPath: "weapons/knuckles/knuckles_avalon", Recipe: recipe_20ba59b2906f},
+		{ID: "T8_2H_KNUCKLES_AVALON@2", Name: "Fäuste von Avalon des Ältesten", Tier: 8, Enchantment: 2, CategoryPath: "weapons/knuckles/knuckles_avalon", Recipe: recipe_20ba59b2906f},
+		{ID: "T8_2H_KNUCKLES_AVALON@3", Name: "Fäuste von Avalon des Ältesten", Tier: 8, Enchantment: 3, CategoryPath: "weapons/knuckles/knuckles_avalon", Recipe: recipe_20ba59b2906f},
+		{ID: "T8_2H_KNUCKLES_AVALON@4", Name: "Fäuste von Avalon des Ältesten", Tier: 8, Enchantment: 4, CategoryPath: "weapons/knuckles/knuckles_avalon", Recipe: recipe_20ba59b2906f},
+	}},
+	{Name: "Machtpuls-Armschienen des Adepten", BaseID: "2H_KNUCKLES_CRYSTAL", MinTier: 4, MaxTier: 8, MinEnchantment: 0, MaxEnchantment: 4, Variants: []ItemVariant{
+		{ID: "T4_2H_KNUCKLES_CRYSTAL", Name: "Machtpuls-Armschienen des Adepten", Tier: 4, Enchantment: 0, CategoryPath: "weapons/knuckles/knuckles_crystal", Recipe: recipe_31955fbd9428},
+		{ID: "T4_2H_KNUCKLES_CRYSTAL@1", Name: "Machtpuls-Armschienen des Adepten", Tier: 4, Enchantment: 1, CategoryPath: "weapons/knuckles/knuckles_crystal", Recipe: recipe_31955fbd9428},
+		{ID: "T4_2H_KNUCKLES_CRYSTAL@2", Name: "Machtpuls-Armschienen des Adepten", Tier: 4, Enchantment: 2, CategoryPath: "weapons/knuckles/knuckles_crystal", Recipe: recipe_31955fbd9428},
+		{ID: "T4_2H_KNUCKLES_CRYSTAL@3", Name: "Machtpuls-Armschienen des Adepten", Tier: 4, Enchantment: 3, CategoryPath: "weapons/knuckles/knuckles_crystal", Recipe: recipe_31955fbd9428},
+		{ID: "T4_2H_KNUCKLES_CRYSTAL@4", Name: "Machtpuls-Armschienen des Adepten", Tier: 4, Enchantment: 4, CategoryPath: "weapons/knuckles/knuckles_crystal", Recipe: recipe_31955fbd9428},
+		{ID: "T5_2H_KNUCKLES_CRYSTAL", Name: "Machtpuls-Armschienen des Experten", Tier: 5, Enchantment: 0, CategoryPath: "weapons/knuckles/knuckles_crystal", Recipe: recipe_c53508a8c110},
+		{ID: "T5_2H_KNUCKLES_CRYSTAL@1", Name: "Machtpuls-Armschienen des Experten", Tier: 5, Enchantment: 1, CategoryPath: "weapons/knuckles/knuckles_crystal", Recipe: recipe_c53508a8c110},
+		{ID: "T5_2H_KNUCKLES_CRYSTAL@2", Name: "Machtpuls-Armschienen des Experten", Tier: 5, Enchantment: 2, CategoryPath: "weapons/knuckles/knuckles_crystal", Recipe: recipe_c53508a8c110},
+		{ID: "T5_2H_KNUCKLES_CRYSTAL@3", Name: "Machtpuls-Armschienen des Experten", Tier: 5, Enchantment: 3, CategoryPath: "weapons/knuckles/knuckles_crystal", Recipe: recipe_c53508a8c110},
+		{ID: "T5_2H_KNUCKLES_CRYSTAL@4", Name: "Machtpuls-Armschienen des Experten", Tier: 5, Enchantment: 4, CategoryPath: "weapons/knuckles/knuckles_crystal", Recipe: recipe_c53508a8c110},
+		{ID: "T6_2H_KNUCKLES_CRYSTAL", Name: "Machtpuls-Armschienen des Meisters", Tier: 6, Enchantment: 0, CategoryPath: "weapons/knuckles/knuckles_crystal", Recipe: recipe_1e6330010a6e},
+		{ID: "T6_2H_KNUCKLES_CRYSTAL@1", Name: "Machtpuls-Armschienen des Meisters", Tier: 6, Enchantment: 1, CategoryPath: "weapons/knuckles/knuckles_crystal", Recipe: recipe_1e6330010a6e},
+		{ID: "T6_2H_KNUCKLES_CRYSTAL@2", Name: "Machtpuls-Armschienen des Meisters", Tier: 6, Enchantment: 2, CategoryPath: "weapons/knuckles/knuckles_crystal", Recipe: recipe_1e6330010a6e},
+		{ID: "T6_2H_KNUCKLES_CRYSTAL@3", Name: "Machtpuls-Armschienen des Meisters", Tier: 6, Enchantment: 3, CategoryPath: "weapons/knuckles/knuckles_crystal", Recipe: recipe_1e6330010a6e},
+		{ID: "T6_2H_KNUCKLES_CRYSTAL@4", Name: "Machtpuls-Armschienen des Meisters", Tier: 6, Enchantment: 4, CategoryPath: "weapons/knuckles/knuckles_crystal", Recipe: recipe_1e6330010a6e},
+		{ID: "T7_2H_KNUCKLES_CRYSTAL", Name: "Machtpuls-Armschienen des Großmeisters", Tier: 7, Enchantment: 0, CategoryPath: "weapons/knuckles/knuckles_crystal", Recipe: recipe_6bf661d3ccef},
+		{ID: "T7_2H_KNUCKLES_CRYSTAL@1", Name: "Machtpuls-Armschienen des Großmeisters", Tier: 7, Enchantment: 1, CategoryPath: "weapons/knuckles/knuckles_crystal", Recipe: recipe_6bf661d3ccef},
+		{ID: "T7_2H_KNUCKLES_CRYSTAL@2", Name: "Machtpuls-Armschienen des Großmeisters", Tier: 7, Enchantment: 2, CategoryPath: "weapons/knuckles/knuckles_crystal", Recipe: recipe_6bf661d3ccef},
+		{ID: "T7_2H_KNUCKLES_CRYSTAL@3", Name: "Machtpuls-Armschienen des Großmeisters", Tier: 7, Enchantment: 3, CategoryPath: "weapons/knuckles/knuckles_crystal", Recipe: recipe_6bf661d3ccef},
+		{ID: "T7_2H_KNUCKLES_CRYSTAL@4", Name: "Machtpuls-Armschienen des Großmeisters", Tier: 7, Enchantment: 4, CategoryPath: "weapons/knuckles/knuckles_crystal", Recipe: recipe_6bf661d3ccef},
+		{ID: "T8_2H_KNUCKLES_CRYSTAL", Name: "Machtpuls-Armschienen des Ältesten", Tier: 8, Enchantment: 0, CategoryPath: "weapons/knuckles/knuckles_crystal", Recipe: recipe_3d4c9818afa4},
+		{ID: "T8_2H_KNUCKLES_CRYSTAL@1", Name: "Machtpuls-Armschienen des Ältesten", Tier: 8, Enchantment: 1, CategoryPath: "weapons/knuckles/knuckles_crystal", Recipe: recipe_3d4c9818afa4},
+		{ID: "T8_2H_KNUCKLES_CRYSTAL@2", Name: "Machtpuls-Armschienen des Ältesten", Tier: 8, Enchantment: 2, CategoryPath: "weapons/knuckles/knuckles_crystal", Recipe: recipe_3d4c9818afa4},
+		{ID: "T8_2H_KNUCKLES_CRYSTAL@3", Name: "Machtpuls-Armschienen des Ältesten", Tier: 8, Enchantment: 3, CategoryPath: "weapons/knuckles/knuckles_crystal", Recipe: recipe_3d4c9818afa4},
+		{ID: "T8_2H_KNUCKLES_CRYSTAL@4", Name: "Machtpuls-Armschienen des Ältesten", Tier: 8, Enchantment: 4, CategoryPath: "weapons/knuckles/knuckles_crystal", Recipe: recipe_3d4c9818afa4},
+	}},
+	{Name: "Höllenfeuerhände des Adepten", BaseID: "2H_KNUCKLES_HELL", MinTier: 4, MaxTier: 8, MinEnchantment: 0, MaxEnchantment: 4, Variants: []ItemVariant{
+		{ID: "T4_2H_KNUCKLES_HELL", Name: "Höllenfeuerhände des Adepten", Tier: 4, Enchantment: 0, CategoryPath: "weapons/knuckles/knuckles_hell", Recipe: recipe_a62dbb9e628a},
+		{ID: "T4_2H_KNUCKLES_HELL@1", Name: "Höllenfeuerhände des Adepten", Tier: 4, Enchantment: 1, CategoryPath: "weapons/knuckles/knuckles_hell", Recipe: recipe_a62dbb9e628a},
+		{ID: "T4_2H_KNUCKLES_HELL@2", Name: "Höllenfeuerhände des Adepten", Tier: 4, Enchantment: 2, CategoryPath: "weapons/knuckles/knuckles_hell", Recipe: recipe_a62dbb9e628a},
+		{ID: "T4_2H_KNUCKLES_HELL@3", Name: "Höllenfeuerhände des Adepten", Tier: 4, Enchantment: 3, CategoryPath: "weapons/knuckles/knuckles_hell", Recipe: recipe_a62dbb9e628a},
+		{ID: "T4_2H_KNUCKLES_HELL@4", Name: "Höllenfeuerhände des Adepten", Tier: 4, Enchantment: 4, CategoryPath: "weapons/knuckles/knuckles_hell", Recipe: recipe_a62dbb9e628a},
+		{ID: "T5_2H_KNUCKLES_HELL", Name: "Höllenfeuerhände des Experten", Tier: 5, Enchantment: 0, CategoryPath: "weapons/knuckles/knuckles_hell", Recipe: recipe_05fc46e1d714},
+		{ID: "T5_2H_KNUCKLES_HELL@1", Name: "Höllenfeuerhände des Experten", Tier: 5, Enchantment: 1, CategoryPath: "weapons/knuckles/knuckles_hell", Recipe: recipe_05fc46e1d714},
+		{ID: "T5_2H_KNUCKLES_HELL@2", Name: "Höllenfeuerhände des Experten", Tier: 5, Enchantment: 2, CategoryPath: "weapons/knuckles/knuckles_hell", Recipe: recipe_05fc46e1d714},
+		{ID: "T5_2H_KNUCKLES_HELL@3", Name: "Höllenfeuerhände des Experten", Tier: 5, Enchantment: 3, CategoryPath: "weapons/knuckles/knuckles_hell", Recipe: recipe_05fc46e1d714},
+		{ID: "T5_2H_KNUCKLES_HELL@4", Name: "Höllenfeuerhände des Experten", Tier: 5, Enchantment: 4, CategoryPath: "weapons/knuckles/knuckles_hell", Recipe: recipe_05fc46e1d714},
+		{ID: "T6_2H_KNUCKLES_HELL", Name: "Höllenfeuerhände des Meisters", Tier: 6, Enchantment: 0, CategoryPath: "weapons/knuckles/knuckles_hell", Recipe: recipe_e059d7e61666},
+		{ID: "T6_2H_KNUCKLES_HELL@1", Name: "Höllenfeuerhände des Meisters", Tier: 6, Enchantment: 1, CategoryPath: "weapons/knuckles/knuckles_hell", Recipe: recipe_e059d7e61666},
+		{ID: "T6_2H_KNUCKLES_HELL@2", Name: "Höllenfeuerhände des Meisters", Tier: 6, Enchantment: 2, CategoryPath: "weapons/knuckles/knuckles_hell", Recipe: recipe_e059d7e61666},
+		{ID: "T6_2H_KNUCKLES_HELL@3", Name: "Höllenfeuerhände des Meisters", Tier: 6, Enchantment: 3, CategoryPath: "weapons/knuckles/knuckles_hell", Recipe: recipe_e059d7e61666},
+		{ID: "T6_2H_KNUCKLES_HELL@4", Name: "Höllenfeuerhände des Meisters", Tier: 6, Enchantment: 4, CategoryPath: "weapons/knuckles/knuckles_hell", Recipe: recipe_e059d7e61666},
+		{ID: "T7_2H_KNUCKLES_HELL", Name: "Höllenfeuerhände des Großmeisters", Tier: 7, Enchantment: 0, CategoryPath: "weapons/knuckles/knuckles_hell", Recipe: recipe_7531084a72cc},
+		{ID: "T7_2H_KNUCKLES_HELL@1", Name: "Höllenfeuerhände des Großmeisters", Tier: 7, Enchantment: 1, CategoryPath: "weapons/knuckles/knuckles_hell", Recipe: recipe_7531084a72cc},
+		{ID: "T7_2H_KNUCKLES_HELL@2", Name: "Höllenfeuerhände des Großmeisters", Tier: 7, Enchantment: 2, CategoryPath: "weapons/knuckles/knuckles_hell", Recipe: recipe_7531084a72cc},
+		{ID: "T7_2H_KNUCKLES_HELL@3", Name: "Höllenfeuerhände des Großmeisters", Tier: 7, Enchantment: 3, CategoryPath: "weapons/knuckles/knuckles_hell", Recipe: recipe_7531084a72cc},
+		{ID: "T7_2H_KNUCKLES_HELL@4", Name: "Höllenfeuerhände des Großmeisters", Tier: 7, Enchantment: 4, CategoryPath: "weapons/knuckles/knuckles_hell", Recipe: recipe_7531084a72cc},
+		{ID: "T8_2H_KNUCKLES_HELL", Name: "Höllenfeuerhände des Ältesten", Tier: 8, Enchantment: 0, CategoryPath: "weapons/knuckles/knuckles_hell", Recipe: recipe_9db94855eab6},
+		{ID: "T8_2H_KNUCKLES_HELL@1", Name: "Höllenfeuerhände des Ältesten", Tier: 8, Enchantment: 1, CategoryPath: "weapons/knuckles/knuckles_hell", Recipe: recipe_9db94855eab6},
+		{ID: "T8_2H_KNUCKLES_HELL@2", Name: "Höllenfeuerhände des Ältesten", Tier: 8, Enchantment: 2, CategoryPath: "weapons/knuckles/knuckles_hell", Recipe: recipe_9db94855eab6},
+		{ID: "T8_2H_KNUCKLES_HELL@3", Name: "Höllenfeuerhände des Ältesten", Tier: 8, Enchantment: 3, CategoryPath: "weapons/knuckles/knuckles_hell", Recipe: recipe_9db94855eab6},
+		{ID: "T8_2H_KNUCKLES_HELL@4", Name: "Höllenfeuerhände des Ältesten", Tier: 8, Enchantment: 4, CategoryPath: "weapons/knuckles/knuckles_hell", Recipe: recipe_9db94855eab6},
+	}},
+	{Name: "Bärenzerfleischer des Adepten", BaseID: "2H_KNUCKLES_KEEPER", MinTier: 4, MaxTier: 8, MinEnchantment: 0, MaxEnchantment: 4, Variants: []ItemVariant{
+		{ID: "T4_2H_KNUCKLES_KEEPER", Name: "Bärenzerfleischer des Adepten", Tier: 4, Enchantment: 0, CategoryPath: "weapons/knuckles/knuckles_keeper", Recipe: recipe_13781a86efa0},
+		{ID: "T4_2H_KNUCKLES_KEEPER@1", Name: "Bärenzerfleischer des Adepten", Tier: 4, Enchantment: 1, CategoryPath: "weapons/knuckles/knuckles_keeper", Recipe: recipe_13781a86efa0},
+		{ID: "T4_2H_KNUCKLES_KEEPER@2", Name: "Bärenzerfleischer des Adepten", Tier: 4, Enchantment: 2, CategoryPath: "weapons/knuckles/knuckles_keeper", Recipe: recipe_13781a86efa0},
+		{ID: "T4_2H_KNUCKLES_KEEPER@3", Name: "Bärenzerfleischer des Adepten", Tier: 4, Enchantment: 3, CategoryPath: "weapons/knuckles/knuckles_keeper", Recipe: recipe_13781a86efa0},
+		{ID: "T4_2H_KNUCKLES_KEEPER@4", Name: "Bärenzerfleischer des Adepten", Tier: 4, Enchantment: 4, CategoryPath: "weapons/knuckles/knuckles_keeper", Recipe: recipe_13781a86efa0},
+		{ID: "T5_2H_KNUCKLES_KEEPER", Name: "Bärenzerfleischer des Experten", Tier: 5, Enchantment: 0, CategoryPath: "weapons/knuckles/knuckles_keeper", Recipe: recipe_ca730591a51e},
+		{ID: "T5_2H_KNUCKLES_KEEPER@1", Name: "Bärenzerfleischer des Experten", Tier: 5, Enchantment: 1, CategoryPath: "weapons/knuckles/knuckles_keeper", Recipe: recipe_ca730591a51e},
+		{ID: "T5_2H_KNUCKLES_KEEPER@2", Name: "Bärenzerfleischer des Experten", Tier: 5, Enchantment: 2, CategoryPath: "weapons/knuckles/knuckles_keeper", Recipe: recipe_ca730591a51e},
+		{ID: "T5_2H_KNUCKLES_KEEPER@3", Name: "Bärenzerfleischer des Experten", Tier: 5, Enchantment: 3, CategoryPath: "weapons/knuckles/knuckles_keeper", Recipe: recipe_ca730591a51e},
+		{ID: "T5_2H_KNUCKLES_KEEPER@4", Name: "Bärenzerfleischer des Experten", Tier: 5, Enchantment: 4, CategoryPath: "weapons/knuckles/knuckles_keeper", Recipe: recipe_ca730591a51e},
+		{ID: "T6_2H_KNUCKLES_KEEPER", Name: "Bärenzerfleischer des Meisters", Tier: 6, Enchantment: 0, CategoryPath: "weapons/knuckles/knuckles_keeper", Recipe: recipe_776baf7b13fc},
+		{ID: "T6_2H_KNUCKLES_KEEPER@1", Name: "Bärenzerfleischer des Meisters", Tier: 6, Enchantment: 1, CategoryPath: "weapons/knuckles/knuckles_keeper", Recipe: recipe_776baf7b13fc},
+		{ID: "T6_2H_KNUCKLES_KEEPER@2", Name: "Bärenzerfleischer des Meisters", Tier: 6, Enchantment: 2, CategoryPath: "weapons/knuckles/knuckles_keeper", Recipe: recipe_776baf7b13fc},
+		{ID: "T6_2H_KNUCKLES_KEEPER@3", Name: "Bärenzerfleischer des Meisters", Tier: 6, Enchantment: 3, CategoryPath: "weapons/knuckles/knuckles_keeper", Recipe: recipe_776baf7b13fc},
+		{ID: "T6_2H_KNUCKLES_KEEPER@4", Name: "Bärenzerfleischer des Meisters", Tier: 6, Enchantment: 4, CategoryPath: "weapons/knuckles/knuckles_keeper", Recipe: recipe_776baf7b13fc},
+		{ID: "T7_2H_KNUCKLES_KEEPER", Name: "Bärenzerfleischer des Großmeisters", Tier: 7, Enchantment: 0, CategoryPath: "weapons/knuckles/knuckles_keeper", Recipe: recipe_e62d1890597a},
+		{ID: "T7_2H_KNUCKLES_KEEPER@1", Name: "Bärenzerfleischer des Großmeisters", Tier: 7, Enchantment: 1, CategoryPath: "weapons/knuckles/knuckles_keeper", Recipe: recipe_e62d1890597a},
+		{ID: "T7_2H_KNUCKLES_KEEPER@2", Name: "Bärenzerfleischer des Großmeisters", Tier: 7, Enchantment: 2, CategoryPath: "weapons/knuckles/knuckles_keeper", Recipe: recipe_e62d1890597a},
+		{ID: "T7_2H_KNUCKLES_KEEPER@3", Name: "Bärenzerfleischer des Großmeisters", Tier: 7, Enchantment: 3, CategoryPath: "weapons/knuckles/knuckles_keeper", Recipe: recipe_e62d1890597a},
+		{ID: "T7_2H_KNUCKLES_KEEPER@4", Name: "Bärenzerfleischer des Großmeisters", Tier: 7, Enchantment: 4, CategoryPath: "weapons/knuckles/knuckles_keeper", Recipe: recipe_e62d1890597a},
+		{ID: "T8_2H_KNUCKLES_KEEPER", Name: "Bärenzerfleischer des Ältesten", Tier: 8, Enchantment: 0, CategoryPath: "weapons/knuckles/knuckles_keeper", Recipe: recipe_992bae659079},
+		{ID: "T8_2H_KNUCKLES_KEEPER@1", Name: "Bärenzerfleischer des Ältesten", Tier: 8, Enchantment: 1, CategoryPath: "weapons/knuckles/knuckles_keeper", Recipe: recipe_992bae659079},
+		{ID: "T8_2H_KNUCKLES_KEEPER@2", Name: "Bärenzerfleischer des Ältesten", Tier: 8, Enchantment: 2, CategoryPath: "weapons/knuckles/knuckles_keeper", Recipe: recipe_992bae659079},
+		{ID: "T8_2H_KNUCKLES_KEEPER@3", Name: "Bärenzerfleischer des Ältesten", Tier: 8, Enchantment: 3, CategoryPath: "weapons/knuckles/knuckles_keeper", Recipe: recipe_992bae659079},
+		{ID: "T8_2H_KNUCKLES_KEEPER@4", Name: "Bärenzerfleischer des Ältesten", Tier: 8, Enchantment: 4, CategoryPath: "weapons/knuckles/knuckles_keeper", Recipe: recipe_992bae659079},
+	}},
+	{Name: "Rabenschlag-Caestus des Adepten", BaseID: "2H_KNUCKLES_MORGANA", MinTier: 4, MaxTier: 8, MinEnchantment: 0, MaxEnchantment: 4, Variants: []ItemVariant{
+		{ID: "T4_2H_KNUCKLES_MORGANA", Name: "Rabenschlag-Caestus des Adepten", Tier: 4, Enchantment: 0, CategoryPath: "weapons/knuckles/knuckles_morgana", Recipe: recipe_80bfbc52b96e},
+		{ID: "T4_2H_KNUCKLES_MORGANA@1", Name: "Rabenschlag-Caestus des Adepten", Tier: 4, Enchantment: 1, CategoryPath: "weapons/knuckles/knuckles_morgana", Recipe: recipe_80bfbc52b96e},
+		{ID: "T4_2H_KNUCKLES_MORGANA@2", Name: "Rabenschlag-Caestus des Adepten", Tier: 4, Enchantment: 2, CategoryPath: "weapons/knuckles/knuckles_morgana", Recipe: recipe_80bfbc52b96e},
+		{ID: "T4_2H_KNUCKLES_MORGANA@3", Name: "Rabenschlag-Caestus des Adepten", Tier: 4, Enchantment: 3, CategoryPath: "weapons/knuckles/knuckles_morgana", Recipe: recipe_80bfbc52b96e},
+		{ID: "T4_2H_KNUCKLES_MORGANA@4", Name: "Rabenschlag-Caestus des Adepten", Tier: 4, Enchantment: 4, CategoryPath: "weapons/knuckles/knuckles_morgana", Recipe: recipe_80bfbc52b96e},
+		{ID: "T5_2H_KNUCKLES_MORGANA", Name: "Rabenschlag-Caestus des Experten", Tier: 5, Enchantment: 0, CategoryPath: "weapons/knuckles/knuckles_morgana", Recipe: recipe_4f8941b731b8},
+		{ID: "T5_2H_KNUCKLES_MORGANA@1", Name: "Rabenschlag-Caestus des Experten", Tier: 5, Enchantment: 1, CategoryPath: "weapons/knuckles/knuckles_morgana", Recipe: recipe_4f8941b731b8},
+		{ID: "T5_2H_KNUCKLES_MORGANA@2", Name: "Rabenschlag-Caestus des Experten", Tier: 5, Enchantment: 2, CategoryPath: "weapons/knuckles/knuckles_morgana", Recipe: recipe_4f8941b731b8},
+		{ID: "T5_2H_KNUCKLES_MORGANA@3", Name: "Rabenschlag-Caestus des Experten", Tier: 5, Enchantment: 3, CategoryPath: "weapons/knuckles/knuckles_morgana", Recipe: recipe_4f8941b731b8},
+		{ID: "T5_2H_KNUCKLES_MORGANA@4", Name: "Rabenschlag-Caestus des Experten", Tier: 5, Enchantment: 4, CategoryPath: "weapons/knuckles/knuckles_morgana", Recipe: recipe_4f8941b731b8},
+		{ID: "T6_2H_KNUCKLES_MORGANA", Name: "Rabenschlag-Caestus des Meisters", Tier: 6, Enchantment: 0, CategoryPath: "weapons/knuckles/knuckles_morgana", Recipe: recipe_393d6fba5fbd},
+		{ID: "T6_2H_KNUCKLES_MORGANA@1", Name: "Rabenschlag-Caestus des Meisters", Tier: 6, Enchantment: 1, CategoryPath: "weapons/knuckles/knuckles_morgana", Recipe: recipe_393d6fba5fbd},
+		{ID: "T6_2H_KNUCKLES_MORGANA@2", Name: "Rabenschlag-Caestus des Meisters", Tier: 6, Enchantment: 2, CategoryPath: "weapons/knuckles/knuckles_morgana", Recipe: recipe_393d6fba5fbd},
+		{ID: "T6_2H_KNUCKLES_MORGANA@3", Name: "Rabenschlag-Caestus des Meisters", Tier: 6, Enchantment: 3, CategoryPath: "weapons/knuckles/knuckles_morgana", Recipe: recipe_393d6fba5fbd},
+		{ID: "T6_2H_KNUCKLES_MORGANA@4", Name: "Rabenschlag-Caestus des Meisters", Tier: 6, Enchantment: 4, CategoryPath: "weapons/knuckles/knuckles_morgana", Recipe: recipe_393d6fba5fbd},
+		{ID: "T7_2H_KNUCKLES_MORGANA", Name: "Rabenschlag-Caestus des Großmeisters", Tier: 7, Enchantment: 0, CategoryPath: "weapons/knuckles/knuckles_morgana", Recipe: recipe_116b42d73169},
+		{ID: "T7_2H_KNUCKLES_MORGANA@1", Name: "Rabenschlag-Caestus des Großmeisters", Tier: 7, Enchantment: 1, CategoryPath: "weapons/knuckles/knuckles_morgana", Recipe: recipe_116b42d73169},
+		{ID: "T7_2H_KNUCKLES_MORGANA@2", Name: "Rabenschlag-Caestus des Großmeisters", Tier: 7, Enchantment: 2, CategoryPath: "weapons/knuckles/knuckles_morgana", Recipe: recipe_116b42d73169},
+		{ID: "T7_2H_KNUCKLES_MORGANA@3", Name: "Rabenschlag-Caestus des Großmeisters", Tier: 7, Enchantment: 3, CategoryPath: "weapons/knuckles/knuckles_morgana", Recipe: recipe_116b42d73169},
+		{ID: "T7_2H_KNUCKLES_MORGANA@4", Name: "Rabenschlag-Caestus des Großmeisters", Tier: 7, Enchantment: 4, CategoryPath: "weapons/knuckles/knuckles_morgana", Recipe: recipe_116b42d73169},
+		{ID: "T8_2H_KNUCKLES_MORGANA", Name: "Rabenschlag-Caestus des Ältesten", Tier: 8, Enchantment: 0, CategoryPath: "weapons/knuckles/knuckles_morgana", Recipe: recipe_cc6ed7600137},
+		{ID: "T8_2H_KNUCKLES_MORGANA@1", Name: "Rabenschlag-Caestus des Ältesten", Tier: 8, Enchantment: 1, CategoryPath: "weapons/knuckles/knuckles_morgana", Recipe: recipe_cc6ed7600137},
+		{ID: "T8_2H_KNUCKLES_MORGANA@2", Name: "Rabenschlag-Caestus des Ältesten", Tier: 8, Enchantment: 2, CategoryPath: "weapons/knuckles/knuckles_morgana", Recipe: recipe_cc6ed7600137},
+		{ID: "T8_2H_KNUCKLES_MORGANA@3", Name: "Rabenschlag-Caestus des Ältesten", Tier: 8, Enchantment: 3, CategoryPath: "weapons/knuckles/knuckles_morgana", Recipe: recipe_cc6ed7600137},
+		{ID: "T8_2H_KNUCKLES_MORGANA@4", Name: "Rabenschlag-Caestus des Ältesten", Tier: 8, Enchantment: 4, CategoryPath: "weapons/knuckles/knuckles_morgana", Recipe: recipe_cc6ed7600137},
+	}},
+	{Name: "Schlägerhandschuhe des Gesellen", BaseID: "2H_KNUCKLES_SET1", MinTier: 3, MaxTier: 8, MinEnchantment: 0, MaxEnchantment: 4, Variants: []ItemVariant{
+		{ID: "T3_2H_KNUCKLES_SET1", Name: "Schlägerhandschuhe des Gesellen", Tier: 3, Enchantment: 0, CategoryPath: "weapons/knuckles/knuckles_set1", Recipe: recipe_d44c05e09b92},
+		{ID: "T4_2H_KNUCKLES_SET1", Name: "Schlägerhandschuhe des Adepten", Tier: 4, Enchantment: 0, CategoryPath: "weapons/knuckles/knuckles_set1", Recipe: recipe_37d67d1375ef},
+		{ID: "T4_2H_KNUCKLES_SET1@1", Name: "Schlägerhandschuhe des Adepten", Tier: 4, Enchantment: 1, CategoryPath: "weapons/knuckles/knuckles_set1", Recipe: recipe_37d67d1375ef},
+		{ID: "T4_2H_KNUCKLES_SET1@2", Name: "Schlägerhandschuhe des Adepten", Tier: 4, Enchantment: 2, CategoryPath: "weapons/knuckles/knuckles_set1", Recipe: recipe_37d67d1375ef},
+		{ID: "T4_2H_KNUCKLES_SET1@3", Name: "Schlägerhandschuhe des Adepten", Tier: 4, Enchantment: 3, CategoryPath: "weapons/knuckles/knuckles_set1", Recipe: recipe_37d67d1375ef},
+		{ID: "T4_2H_KNUCKLES_SET1@4", Name: "Schlägerhandschuhe des Adepten", Tier: 4, Enchantment: 4, CategoryPath: "weapons/knuckles/knuckles_set1", Recipe: recipe_37d67d1375ef},
+		{ID: "T5_2H_KNUCKLES_SET1", Name: "Schlägerhandschuhe des Experten", Tier: 5, Enchantment: 0, CategoryPath: "weapons/knuckles/knuckles_set1", Recipe: recipe_a3056082d6a9},
+		{ID: "T5_2H_KNUCKLES_SET1@1", Name: "Schlägerhandschuhe des Experten", Tier: 5, Enchantment: 1, CategoryPath: "weapons/knuckles/knuckles_set1", Recipe: recipe_a3056082d6a9},
+		{ID: "T5_2H_KNUCKLES_SET1@2", Name: "Schlägerhandschuhe des Experten", Tier: 5, Enchantment: 2, CategoryPath: "weapons/knuckles/knuckles_set1", Recipe: recipe_a3056082d6a9},
+		{ID: "T5_2H_KNUCKLES_SET1@3", Name: "Schlägerhandschuhe des Experten", Tier: 5, Enchantment: 3, CategoryPath: "weapons/knuckles/knuckles_set1", Recipe: recipe_a3056082d6a9},
+		{ID: "T5_2H_KNUCKLES_SET1@4", Name: "Schlägerhandschuhe des Experten", Tier: 5, Enchantment: 4, CategoryPath: "weapons/knuckles/knuckles_set1", Recipe: recipe_a3056082d6a9},
+		{ID: "T6_2H_KNUCKLES_SET1", Name: "Schlägerhandschuhe des Meisters", Tier: 6, Enchantment: 0, CategoryPath: "weapons/knuckles/knuckles_set1", Recipe: recipe_2733e787633d},
+		{ID: "T6_2H_KNUCKLES_SET1@1", Name: "Schlägerhandschuhe des Meisters", Tier: 6, Enchantment: 1, CategoryPath: "weapons/knuckles/knuckles_set1", Recipe: recipe_2733e787633d},
+		{ID: "T6_2H_KNUCKLES_SET1@2", Name: "Schlägerhandschuhe des Meisters", Tier: 6, Enchantment: 2, CategoryPath: "weapons/knuckles/knuckles_set1", Recipe: recipe_2733e787633d},
+		{ID: "T6_2H_KNUCKLES_SET1@3", Name: "Schlägerhandschuhe des Meisters", Tier: 6, Enchantment: 3, CategoryPath: "weapons/knuckles/knuckles_set1", Recipe: recipe_2733e787633d},
+		{ID: "T6_2H_KNUCKLES_SET1@4", Name: "Schlägerhandschuhe des Meisters", Tier: 6, Enchantment: 4, CategoryPath: "weapons/knuckles/knuckles_set1", Recipe: recipe_2733e787633d},
+		{ID: "T7_2H_KNUCKLES_SET1", Name: "Schlägerhandschuhe des Großmeisters", Tier: 7, Enchantment: 0, CategoryPath: "weapons/knuckles/knuckles_set1", Recipe: recipe_0677d0939a65},
+		{ID: "T7_2H_KNUCKLES_SET1@1", Name: "Schlägerhandschuhe des Großmeisters", Tier: 7, Enchantment: 1, CategoryPath: "weapons/knuckles/knuckles_set1", Recipe: recipe_0677d0939a65},
+		{ID: "T7_2H_KNUCKLES_SET1@2", Name: "Schlägerhandschuhe des Großmeisters", Tier: 7, Enchantment: 2, CategoryPath: "weapons/knuckles/knuckles_set1", Recipe: recipe_0677d0939a65},
+		{ID: "T7_2H_KNUCKLES_SET1@3", Name: "Schlägerhandschuhe des Großmeisters", Tier: 7, Enchantment: 3, CategoryPath: "weapons/knuckles/knuckles_set1", Recipe: recipe_0677d0939a65},
+		{ID: "T7_2H_KNUCKLES_SET1@4", Name: "Schlägerhandschuhe des Großmeisters", Tier: 7, Enchantment: 4, CategoryPath: "weapons/knuckles/knuckles_set1", Recipe: recipe_0677d0939a65},
+		{ID: "T8_2H_KNUCKLES_SET1", Name: "Schlägerhandschuhe des Ältesten", Tier: 8, Enchantment: 0, CategoryPath: "weapons/knuckles/knuckles_set1", Recipe: recipe_386ca0cab8d7},
+		{ID: "T8_2H_KNUCKLES_SET1@1", Name: "Schlägerhandschuhe des Ältesten", Tier: 8, Enchantment: 1, CategoryPath: "weapons/knuckles/knuckles_set1", Recipe: recipe_386ca0cab8d7},
+		{ID: "T8_2H_KNUCKLES_SET1@2", Name: "Schlägerhandschuhe des Ältesten", Tier: 8, Enchantment: 2, CategoryPath: "weapons/knuckles/knuckles_set1", Recipe: recipe_386ca0cab8d7},
+		{ID: "T8_2H_KNUCKLES_SET1@3", Name: "Schlägerhandschuhe des Ältesten", Tier: 8, Enchantment: 3, CategoryPath: "weapons/knuckles/knuckles_set1", Recipe: recipe_386ca0cab8d7},
+		{ID: "T8_2H_KNUCKLES_SET1@4", Name: "Schlägerhandschuhe des Ältesten", Tier: 8, Enchantment: 4, CategoryPath: "weapons/knuckles/knuckles_set1", Recipe: recipe_386ca0cab8d7},
+	}},
+	{Name: "Kampfarmschützer des Adepten", BaseID: "2H_KNUCKLES_SET2", MinTier: 4, MaxTier: 8, MinEnchantment: 0, MaxEnchantment: 4, Variants: []ItemVariant{
+		{ID: "T4_2H_KNUCKLES_SET2", Name: "Kampfarmschützer des Adepten", Tier: 4, Enchantment: 0, CategoryPath: "weapons/knuckles/knuckles_set2", Recipe: recipe_afb8b1fb075b},
+		{ID: "T4_2H_KNUCKLES_SET2@1", Name: "Kampfarmschützer des Adepten", Tier: 4, Enchantment: 1, CategoryPath: "weapons/knuckles/knuckles_set2", Recipe: recipe_afb8b1fb075b},
+		{ID: "T4_2H_KNUCKLES_SET2@2", Name: "Kampfarmschützer des Adepten", Tier: 4, Enchantment: 2, CategoryPath: "weapons/knuckles/knuckles_set2", Recipe: recipe_afb8b1fb075b},
+		{ID: "T4_2H_KNUCKLES_SET2@3", Name: "Kampfarmschützer des Adepten", Tier: 4, Enchantment: 3, CategoryPath: "weapons/knuckles/knuckles_set2", Recipe: recipe_afb8b1fb075b},
+		{ID: "T4_2H_KNUCKLES_SET2@4", Name: "Kampfarmschützer des Adepten", Tier: 4, Enchantment: 4, CategoryPath: "weapons/knuckles/knuckles_set2", Recipe: recipe_afb8b1fb075b},
+		{ID: "T5_2H_KNUCKLES_SET2", Name: "Kampfarmschützer des Experten", Tier: 5, Enchantment: 0, CategoryPath: "weapons/knuckles/knuckles_set2", Recipe: recipe_5e035e8aeb44},
+		{ID: "T5_2H_KNUCKLES_SET2@1", Name: "Kampfarmschützer des Experten", Tier: 5, Enchantment: 1, CategoryPath: "weapons/knuckles/knuckles_set2", Recipe: recipe_5e035e8aeb44},
+		{ID: "T5_2H_KNUCKLES_SET2@2", Name: "Kampfarmschützer des Experten", Tier: 5, Enchantment: 2, CategoryPath: "weapons/knuckles/knuckles_set2", Recipe: recipe_5e035e8aeb44},
+		{ID: "T5_2H_KNUCKLES_SET2@3", Name: "Kampfarmschützer des Experten", Tier: 5, Enchantment: 3, CategoryPath: "weapons/knuckles/knuckles_set2", Recipe: recipe_5e035e8aeb44},
+		{ID: "T5_2H_KNUCKLES_SET2@4", Name: "Kampfarmschützer des Experten", Tier: 5, Enchantment: 4, CategoryPath: "weapons/knuckles/knuckles_set2", Recipe: recipe_5e035e8aeb44},
+		{ID: "T6_2H_KNUCKLES_SET2", Name: "Kampfarmschützer des Meisters", Tier: 6, Enchantment: 0, CategoryPath: "weapons/knuckles/knuckles_set2", Recipe: recipe_c6b4ae5b5ec9},
+		{ID: "T6_2H_KNUCKLES_SET2@1", Name: "Kampfarmschützer des Meisters", Tier: 6, Enchantment: 1, CategoryPath: "weapons/knuckles/knuckles_set2", Recipe: recipe_c6b4ae5b5ec9},
+		{ID: "T6_2H_KNUCKLES_SET2@2", Name: "Kampfarmschützer des Meisters", Tier: 6, Enchantment: 2, CategoryPath: "weapons/knuckles/knuckles_set2", Recipe: recipe_c6b4ae5b5ec9},
+		{ID: "T6_2H_KNUCKLES_SET2@3", Name: "Kampfarmschützer des Meisters", Tier: 6, Enchantment: 3, CategoryPath: "weapons/knuckles/knuckles_set2", Recipe: recipe_c6b4ae5b5ec9},
+		{ID: "T6_2H_KNUCKLES_SET2@4", Name: "Kampfarmschützer des Meisters", Tier: 6, Enchantment: 4, CategoryPath: "weapons/knuckles/knuckles_set2", Recipe: recipe_c6b4ae5b5ec9},
+		{ID: "T7_2H_KNUCKLES_SET2", Name: "Kampfarmschützer des Großmeisters", Tier: 7, Enchantment: 0, CategoryPath: "weapons/knuckles/knuckles_set2", Recipe: recipe_312e80cb6ce8},
+		{ID: "T7_2H_KNUCKLES_SET2@1", Name: "Kampfarmschützer des Großmeisters", Tier: 7, Enchantment: 1, CategoryPath: "weapons/knuckles/knuckles_set2", Recipe: recipe_312e80cb6ce8},
+		{ID: "T7_2H_KNUCKLES_SET2@2", Name: "Kampfarmschützer des Großmeisters", Tier: 7, Enchantment: 2, CategoryPath: "weapons/knuckles/knuckles_set2", Recipe: recipe_312e80cb6ce8},
+		{ID: "T7_2H_KNUCKLES_SET2@3", Name: "Kampfarmschützer des Großmeisters", Tier: 7, Enchantment: 3, CategoryPath: "weapons/knuckles/knuckles_set2", Recipe: recipe_312e80cb6ce8},
+		{ID: "T7_2H_KNUCKLES_SET2@4", Name: "Kampfarmschützer des Großmeisters", Tier: 7, Enchantment: 4, CategoryPath: "weapons/knuckles/knuckles_set2", Recipe: recipe_312e80cb6ce8},
+		{ID: "T8_2H_KNUCKLES_SET2", Name: "Kampfarmschützer des Ältesten", Tier: 8, Enchantment: 0, CategoryPath: "weapons/knuckles/knuckles_set2", Recipe: recipe_a4513d2455d9},
+		{ID: "T8_2H_KNUCKLES_SET2@1", Name: "Kampfarmschützer des Ältesten", Tier: 8, Enchantment: 1, CategoryPath: "weapons/knuckles/knuckles_set2", Recipe: recipe_a4513d2455d9},
+		{ID: "T8_2H_KNUCKLES_SET2@2", Name: "Kampfarmschützer des Ältesten", Tier: 8, Enchantment: 2, CategoryPath: "weapons/knuckles/knuckles_set2", Recipe: recipe_a4513d2455d9},
+		{ID: "T8_2H_KNUCKLES_SET2@3", Name: "Kampfarmschützer des Ältesten", Tier: 8, Enchantment: 3, CategoryPath: "weapons/knuckles/knuckles_set2", Recipe: recipe_a4513d2455d9},
+		{ID: "T8_2H_KNUCKLES_SET2@4", Name: "Kampfarmschützer des Ältesten", Tier: 8, Enchantment: 4, CategoryPath: "weapons/knuckles/knuckles_set2", Recipe: recipe_a4513d2455d9},
+	}},
+	{Name: "Nagelhandschuhe des Adepten", BaseID: "2H_KNUCKLES_SET3", MinTier: 4, MaxTier: 8, MinEnchantment: 0, MaxEnchantment: 4, Variants: []ItemVariant{
+		{ID: "T4_2H_KNUCKLES_SET3", Name: "Nagelhandschuhe des Adepten", Tier: 4, Enchantment: 0, CategoryPath: "weapons/knuckles/knuckles_set3", Recipe: recipe_9716c712e889},
+		{ID: "T4_2H_KNUCKLES_SET3@1", Name: "Nagelhandschuhe des Adepten", Tier: 4, Enchantment: 1, CategoryPath: "weapons/knuckles/knuckles_set3", Recipe: recipe_9716c712e889},
+		{ID: "T4_2H_KNUCKLES_SET3@2", Name: "Nagelhandschuhe des Adepten", Tier: 4, Enchantment: 2, CategoryPath: "weapons/knuckles/knuckles_set3", Recipe: recipe_9716c712e889},
+		{ID: "T4_2H_KNUCKLES_SET3@3", Name: "Nagelhandschuhe des Adepten", Tier: 4, Enchantment: 3, CategoryPath: "weapons/knuckles/knuckles_set3", Recipe: recipe_9716c712e889},
+		{ID: "T4_2H_KNUCKLES_SET3@4", Name: "Nagelhandschuhe des Adepten", Tier: 4, Enchantment: 4, CategoryPath: "weapons/knuckles/knuckles_set3", Recipe: recipe_9716c712e889},
+		{ID: "T5_2H_KNUCKLES_SET3", Name: "Nagelhandschuhe des Experten", Tier: 5, Enchantment: 0, CategoryPath: "weapons/knuckles/knuckles_set3", Recipe: recipe_a565a8418f02},
+		{ID: "T5_2H_KNUCKLES_SET3@1", Name: "Nagelhandschuhe des Experten", Tier: 5, Enchantment: 1, CategoryPath: "weapons/knuckles/knuckles_set3", Recipe: recipe_a565a8418f02},
+		{ID: "T5_2H_KNUCKLES_SET3@2", Name: "Nagelhandschuhe des Experten", Tier: 5, Enchantment: 2, CategoryPath: "weapons/knuckles/knuckles_set3", Recipe: recipe_a565a8418f02},
+		{ID: "T5_2H_KNUCKLES_SET3@3", Name: "Nagelhandschuhe des Experten", Tier: 5, Enchantment: 3, CategoryPath: "weapons/knuckles/knuckles_set3", Recipe: recipe_a565a8418f02},
+		{ID: "T5_2H_KNUCKLES_SET3@4", Name: "Nagelhandschuhe des Experten", Tier: 5, Enchantment: 4, CategoryPath: "weapons/knuckles/knuckles_set3", Recipe: recipe_a565a8418f02},
+		{ID: "T6_2H_KNUCKLES_SET3", Name: "Nagelhandschuhe des Meisters", Tier: 6, Enchantment: 0, CategoryPath: "weapons/knuckles/knuckles_set3", Recipe: recipe_77981e06de0f},
+		{ID: "T6_2H_KNUCKLES_SET3@1", Name: "Nagelhandschuhe des Meisters", Tier: 6, Enchantment: 1, CategoryPath: "weapons/knuckles/knuckles_set3", Recipe: recipe_77981e06de0f},
+		{ID: "T6_2H_KNUCKLES_SET3@2", Name: "Nagelhandschuhe des Meisters", Tier: 6, Enchantment: 2, CategoryPath: "weapons/knuckles/knuckles_set3", Recipe: recipe_77981e06de0f},
+		{ID: "T6_2H_KNUCKLES_SET3@3", Name: "Nagelhandschuhe des Meisters", Tier: 6, Enchantment: 3, CategoryPath: "weapons/knuckles/knuckles_set3", Recipe: recipe_77981e06de0f},
+		{ID: "T6_2H_KNUCKLES_SET3@4", Name: "Nagelhandschuhe des Meisters", Tier: 6, Enchantment: 4, CategoryPath: "weapons/knuckles/knuckles_set3", Recipe: recipe_77981e06de0f},
+		{ID: "T7_2H_KNUCKLES_SET3", Name: "Nagelhandschuhe des Großmeisters", Tier: 7, Enchantment: 0, CategoryPath: "weapons/knuckles/knuckles_set3", Recipe: recipe_683574c99182},
+		{ID: "T7_2H_KNUCKLES_SET3@1", Name: "Nagelhandschuhe des Großmeisters", Tier: 7, Enchantment: 1, CategoryPath: "weapons/knuckles/knuckles_set3", Recipe: recipe_683574c99182},
+		{ID: "T7_2H_KNUCKLES_SET3@2", Name: "Nagelhandschuhe des Großmeisters", Tier: 7, Enchantment: 2, CategoryPath: "weapons/knuckles/knuckles_set3", Recipe: recipe_683574c99182},
+		{ID: "T7_2H_KNUCKLES_SET3@3", Name: "Nagelhandschuhe des Großmeisters", Tier: 7, Enchantment: 3, CategoryPath: "weapons/knuckles/knuckles_set3", Recipe: recipe_683574c99182},
+		{ID: "T7_2H_KNUCKLES_SET3@4", Name: "Nagelhandschuhe des Großmeisters", Tier: 7, Enchantment: 4, CategoryPath: "weapons/knuckles/knuckles_set3", Recipe: recipe_683574c99182},
+		{ID: "T8_2H_KNUCKLES_SET3", Name: "Nagelhandschuhe des Ältesten", Tier: 8, Enchantment: 0, CategoryPath: "weapons/knuckles/knuckles_set3", Recipe: recipe_98eb2533b82f},
+		{ID: "T8_2H_KNUCKLES_SET3@1", Name: "Nagelhandschuhe des Ältesten", Tier: 8, Enchantment: 1, CategoryPath: "weapons/knuckles/knuckles_set3", Recipe: recipe_98eb2533b82f},
+		{ID: "T8_2H_KNUCKLES_SET3@2", Name: "Nagelhandschuhe des Ältesten", Tier: 8, Enchantment: 2, CategoryPath: "weapons/knuckles/knuckles_set3", Recipe: recipe_98eb2533b82f},
+		{ID: "T8_2H_KNUCKLES_SET3@3", Name: "Nagelhandschuhe des Ältesten", Tier: 8, Enchantment: 3, CategoryPath: "weapons/knuckles/knuckles_set3", Recipe: recipe_98eb2533b82f},
+		{ID: "T8_2H_KNUCKLES_SET3@4", Name: "Nagelhandschuhe des Ältesten", Tier: 8, Enchantment: 4, CategoryPath: "weapons/knuckles/knuckles_set3", Recipe: recipe_98eb2533b82f},
+	}},
+	{Name: "Langbogen des Adepten", BaseID: "2H_LONGBOW", MinTier: 4, MaxTier: 8, MinEnchantment: 0, MaxEnchantment: 4, Variants: []ItemVariant{
+		{ID: "T4_2H_LONGBOW", Name: "Langbogen des Adepten", Tier: 4, Enchantment: 0, CategoryPath: "weapons/bow/bow_longbow", Recipe: recipe_bcc735a83feb},
+		{ID: "T4_2H_LONGBOW@1", Name: "Langbogen des Adepten", Tier: 4, Enchantment: 1, CategoryPath: "weapons/bow/bow_longbow", Recipe: recipe_bcc735a83feb},
+		{ID: "T4_2H_LONGBOW@2", Name: "Langbogen des Adepten", Tier: 4, Enchantment: 2, CategoryPath: "weapons/bow/bow_longbow", Recipe: recipe_bcc735a83feb},
+		{ID: "T4_2H_LONGBOW@3", Name: "Langbogen des Adepten", Tier: 4, Enchantment: 3, CategoryPath: "weapons/bow/bow_longbow", Recipe: recipe_bcc735a83feb},
+		{ID: "T4_2H_LONGBOW@4", Name: "Langbogen des Adepten", Tier: 4, Enchantment: 4, CategoryPath: "weapons/bow/bow_longbow", Recipe: recipe_bcc735a83feb},
+		{ID: "T5_2H_LONGBOW", Name: "Langbogen des Experten", Tier: 5, Enchantment: 0, CategoryPath: "weapons/bow/bow_longbow", Recipe: recipe_c9b8b4f141b3},
+		{ID: "T5_2H_LONGBOW@1", Name: "Langbogen des Experten", Tier: 5, Enchantment: 1, CategoryPath: "weapons/bow/bow_longbow", Recipe: recipe_c9b8b4f141b3},
+		{ID: "T5_2H_LONGBOW@2", Name: "Langbogen des Experten", Tier: 5, Enchantment: 2, CategoryPath: "weapons/bow/bow_longbow", Recipe: recipe_c9b8b4f141b3},
+		{ID: "T5_2H_LONGBOW@3", Name: "Langbogen des Experten", Tier: 5, Enchantment: 3, CategoryPath: "weapons/bow/bow_longbow", Recipe: recipe_c9b8b4f141b3},
+		{ID: "T5_2H_LONGBOW@4", Name: "Langbogen des Experten", Tier: 5, Enchantment: 4, CategoryPath: "weapons/bow/bow_longbow", Recipe: recipe_c9b8b4f141b3},
+		{ID: "T6_2H_LONGBOW", Name: "Langbogen des Meisters", Tier: 6, Enchantment: 0, CategoryPath: "weapons/bow/bow_longbow", Recipe: recipe_b4419f3617b0},
+		{ID: "T6_2H_LONGBOW@1", Name: "Langbogen des Meisters", Tier: 6, Enchantment: 1, CategoryPath: "weapons/bow/bow_longbow", Recipe: recipe_b4419f3617b0},
+		{ID: "T6_2H_LONGBOW@2", Name: "Langbogen des Meisters", Tier: 6, Enchantment: 2, CategoryPath: "weapons/bow/bow_longbow", Recipe: recipe_b4419f3617b0},
+		{ID: "T6_2H_LONGBOW@3", Name: "Langbogen des Meisters", Tier: 6, Enchantment: 3, CategoryPath: "weapons/bow/bow_longbow", Recipe: recipe_b4419f3617b0},
+		{ID: "T6_2H_LONGBOW@4", Name: "Langbogen des Meisters", Tier: 6, Enchantment: 4, CategoryPath: "weapons/bow/bow_longbow", Recipe: recipe_b4419f3617b0},
+		{ID: "T7_2H_LONGBOW", Name: "Langbogen des Großmeisters", Tier: 7, Enchantment: 0, CategoryPath: "weapons/bow/bow_longbow", Recipe: recipe_3a46433218d2},
+		{ID: "T7_2H_LONGBOW@1", Name: "Langbogen des Großmeisters", Tier: 7, Enchantment: 1, CategoryPath: "weapons/bow/bow_longbow", Recipe: recipe_3a46433218d2},
+		{ID: "T7_2H_LONGBOW@2", Name: "Langbogen des Großmeisters", Tier: 7, Enchantment: 2, CategoryPath: "weapons/bow/bow_longbow", Recipe: recipe_3a46433218d2},
+		{ID: "T7_2H_LONGBOW@3", Name: "Langbogen des Großmeisters", Tier: 7, Enchantment: 3, CategoryPath: "weapons/bow/bow_longbow", Recipe: recipe_3a46433218d2},
+		{ID: "T7_2H_LONGBOW@4", Name: "Langbogen des Großmeisters", Tier: 7, Enchantment: 4, CategoryPath: "weapons/bow/bow_longbow", Recipe: recipe_3a46433218d2},
+		{ID: "T8_2H_LONGBOW", Name: "Langbogen des Ältesten", Tier: 8, Enchantment: 0, CategoryPath: "weapons/bow/bow_longbow", Recipe: recipe_e3794770cfa8},
+		{ID: "T8_2H_LONGBOW@1", Name: "Langbogen des Ältesten", Tier: 8, Enchantment: 1, CategoryPath: "weapons/bow/bow_longbow", Recipe: recipe_e3794770cfa8},
+		{ID: "T8_2H_LONGBOW@2", Name: "Langbogen des Ältesten", Tier: 8, Enchantment: 2, CategoryPath: "weapons/bow/bow_longbow", Recipe: recipe_e3794770cfa8},
+		{ID: "T8_2H_LONGBOW@3", Name: "Langbogen des Ältesten", Tier: 8, Enchantment: 3, CategoryPath: "weapons/bow/bow_longbow", Recipe: recipe_e3794770cfa8},
+		{ID: "T8_2H_LONGBOW@4", Name: "Langbogen des Ältesten", Tier: 8, Enchantment: 4, CategoryPath: "weapons/bow/bow_longbow", Recipe: recipe_e3794770cfa8},
+	}},
+	{Name: "Flüsternder Bogen des Adepten", BaseID: "2H_LONGBOW_UNDEAD", MinTier: 4, MaxTier: 8, MinEnchantment: 0, MaxEnchantment: 4, Variants: []ItemVariant{
+		{ID: "T4_2H_LONGBOW_UNDEAD", Name: "Flüsternder Bogen des Adepten", Tier: 4, Enchantment: 0, CategoryPath: "weapons/bow/bow_undead", Recipe: recipe_0b45555a4c9a},
+		{ID: "T4_2H_LONGBOW_UNDEAD@1", Name: "Flüsternder Bogen des Adepten", Tier: 4, Enchantment: 1, CategoryPath: "weapons/bow/bow_undead", Recipe: recipe_0b45555a4c9a},
+		{ID: "T4_2H_LONGBOW_UNDEAD@2", Name: "Flüsternder Bogen des Adepten", Tier: 4, Enchantment: 2, CategoryPath: "weapons/bow/bow_undead", Recipe: recipe_0b45555a4c9a},
+		{ID: "T4_2H_LONGBOW_UNDEAD@3", Name: "Flüsternder Bogen des Adepten", Tier: 4, Enchantment: 3, CategoryPath: "weapons/bow/bow_undead", Recipe: recipe_0b45555a4c9a},
+		{ID: "T4_2H_LONGBOW_UNDEAD@4", Name: "Flüsternder Bogen des Adepten", Tier: 4, Enchantment: 4, CategoryPath: "weapons/bow/bow_undead", Recipe: recipe_0b45555a4c9a},
+		{ID: "T5_2H_LONGBOW_UNDEAD", Name: "Flüsternder Bogen des Experten", Tier: 5, Enchantment: 0, CategoryPath: "weapons/bow/bow_undead", Recipe: recipe_24d98eee94c6},
+		{ID: "T5_2H_LONGBOW_UNDEAD@1", Name: "Flüsternder Bogen des Experten", Tier: 5, Enchantment: 1, CategoryPath: "weapons/bow/bow_undead", Recipe: recipe_24d98eee94c6},
+		{ID: "T5_2H_LONGBOW_UNDEAD@2", Name: "Flüsternder Bogen des Experten", Tier: 5, Enchantment: 2, CategoryPath: "weapons/bow/bow_undead", Recipe: recipe_24d98eee94c6},
+		{ID: "T5_2H_LONGBOW_UNDEAD@3", Name: "Flüsternder Bogen des Experten", Tier: 5, Enchantment: 3, CategoryPath: "weapons/bow/bow_undead", Recipe: recipe_24d98eee94c6},
+		{ID: "T5_2H_LONGBOW_UNDEAD@4", Name: "Flüsternder Bogen des Experten", Tier: 5, Enchantment: 4, CategoryPath: "weapons/bow/bow_undead", Recipe: recipe_24d98eee94c6},
+		{ID: "T6_2H_LONGBOW_UNDEAD", Name: "Flüsternder Bogen des Meisters", Tier: 6, Enchantment: 0, CategoryPath: "weapons/bow/bow_undead", Recipe: recipe_ce6c60c787a1},
+		{ID: "T6_2H_LONGBOW_UNDEAD@1", Name: "Flüsternder Bogen des Meisters", Tier: 6, Enchantment: 1, CategoryPath: "weapons/bow/bow_undead", Recipe: recipe_ce6c60c787a1},
+		{ID: "T6_2H_LONGBOW_UNDEAD@2", Name: "Flüsternder Bogen des Meisters", Tier: 6, Enchantment: 2, CategoryPath: "weapons/bow/bow_undead", Recipe: recipe_ce6c60c787a1},
+		{ID: "T6_2H_LONGBOW_UNDEAD@3", Name: "Flüsternder Bogen des Meisters", Tier: 6, Enchantment: 3, CategoryPath: "weapons/bow/bow_undead", Recipe: recipe_ce6c60c787a1},
+		{ID: "T6_2H_LONGBOW_UNDEAD@4", Name: "Flüsternder Bogen des Meisters", Tier: 6, Enchantment: 4, CategoryPath: "weapons/bow/bow_undead", Recipe: recipe_ce6c60c787a1},
+		{ID: "T7_2H_LONGBOW_UNDEAD", Name: "Flüsternder Bogen des Großmeisters", Tier: 7, Enchantment: 0, CategoryPath: "weapons/bow/bow_undead", Recipe: recipe_5cca8f6345ea},
+		{ID: "T7_2H_LONGBOW_UNDEAD@1", Name: "Flüsternder Bogen des Großmeisters", Tier: 7, Enchantment: 1, CategoryPath: "weapons/bow/bow_undead", Recipe: recipe_5cca8f6345ea},
+		{ID: "T7_2H_LONGBOW_UNDEAD@2", Name: "Flüsternder Bogen des Großmeisters", Tier: 7, Enchantment: 2, CategoryPath: "weapons/bow/bow_undead", Recipe: recipe_5cca8f6345ea},
+		{ID: "T7_2H_LONGBOW_UNDEAD@3", Name: "Flüsternder Bogen des Großmeisters", Tier: 7, Enchantment: 3, CategoryPath: "weapons/bow/bow_undead", Recipe: recipe_5cca8f6345ea},
+		{ID: "T7_2H_LONGBOW_UNDEAD@4", Name: "Flüsternder Bogen des Großmeisters", Tier: 7, Enchantment: 4, CategoryPath: "weapons/bow/bow_undead", Recipe: recipe_5cca8f6345ea},
+		{ID: "T8_2H_LONGBOW_UNDEAD", Name: "Flüsternder Bogen des Ältesten", Tier: 8, Enchantment: 0, CategoryPath: "weapons/bow/bow_undead", Recipe: recipe_508396f25eb5},
+		{ID: "T8_2H_LONGBOW_UNDEAD@1", Name: "Flüsternder Bogen des Ältesten", Tier: 8, Enchantment: 1, CategoryPath: "weapons/bow/bow_undead", Recipe: recipe_508396f25eb5},
+		{ID: "T8_2H_LONGBOW_UNDEAD@2", Name: "Flüsternder Bogen des Ältesten", Tier: 8, Enchantment: 2, CategoryPath: "weapons/bow/bow_undead", Recipe: recipe_508396f25eb5},
+		{ID: "T8_2H_LONGBOW_UNDEAD@3", Name: "Flüsternder Bogen des Ältesten", Tier: 8, Enchantment: 3, CategoryPath: "weapons/bow/bow_undead", Recipe: recipe_508396f25eb5},
+		{ID: "T8_2H_LONGBOW_UNDEAD@4", Name: "Flüsternder Bogen des Ältesten", Tier: 8, Enchantment: 4, CategoryPath: "weapons/bow/bow_undead", Recipe: recipe_508396f25eb5},
+	}},
+	{Name: "Schwere Keule des Adepten", BaseID: "2H_MACE", MinTier: 4, MaxTier: 8, MinEnchantment: 0, MaxEnchantment: 4, Variants: []ItemVariant{
+		{ID: "T4_2H_MACE", Name: "Schwere Keule des Adepten", Tier: 4, Enchantment: 0, CategoryPath: "weapons/mace/mace_2h_mace", Recipe: recipe_260202433d08},
+		{ID: "T4_2H_MACE@1", Name: "Schwere Keule des Adepten", Tier: 4, Enchantment: 1, CategoryPath: "weapons/mace/mace_2h_mace", Recipe: recipe_260202433d08},
+		{ID: "T4_2H_MACE@2", Name: "Schwere Keule des Adepten", Tier: 4, Enchantment: 2, CategoryPath: "weapons/mace/mace_2h_mace", Recipe: recipe_260202433d08},
+		{ID: "T4_2H_MACE@3", Name: "Schwere Keule des Adepten", Tier: 4, Enchantment: 3, CategoryPath: "weapons/mace/mace_2h_mace", Recipe: recipe_260202433d08},
+		{ID: "T4_2H_MACE@4", Name: "Schwere Keule des Adepten", Tier: 4, Enchantment: 4, CategoryPath: "weapons/mace/mace_2h_mace", Recipe: recipe_260202433d08},
+		{ID: "T5_2H_MACE", Name: "Schwere Keule des Experten", Tier: 5, Enchantment: 0, CategoryPath: "weapons/mace/mace_2h_mace", Recipe: recipe_923ddda7f731},
+		{ID: "T5_2H_MACE@1", Name: "Schwere Keule des Experten", Tier: 5, Enchantment: 1, CategoryPath: "weapons/mace/mace_2h_mace", Recipe: recipe_923ddda7f731},
+		{ID: "T5_2H_MACE@2", Name: "Schwere Keule des Experten", Tier: 5, Enchantment: 2, CategoryPath: "weapons/mace/mace_2h_mace", Recipe: recipe_923ddda7f731},
+		{ID: "T5_2H_MACE@3", Name: "Schwere Keule des Experten", Tier: 5, Enchantment: 3, CategoryPath: "weapons/mace/mace_2h_mace", Recipe: recipe_923ddda7f731},
+		{ID: "T5_2H_MACE@4", Name: "Schwere Keule des Experten", Tier: 5, Enchantment: 4, CategoryPath: "weapons/mace/mace_2h_mace", Recipe: recipe_923ddda7f731},
+		{ID: "T6_2H_MACE", Name: "Schwere Keule des Meisters", Tier: 6, Enchantment: 0, CategoryPath: "weapons/mace/mace_2h_mace", Recipe: recipe_8425b8a7c97f},
+		{ID: "T6_2H_MACE@1", Name: "Schwere Keule des Meisters", Tier: 6, Enchantment: 1, CategoryPath: "weapons/mace/mace_2h_mace", Recipe: recipe_8425b8a7c97f},
+		{ID: "T6_2H_MACE@2", Name: "Schwere Keule des Meisters", Tier: 6, Enchantment: 2, CategoryPath: "weapons/mace/mace_2h_mace", Recipe: recipe_8425b8a7c97f},
+		{ID: "T6_2H_MACE@3", Name: "Schwere Keule des Meisters", Tier: 6, Enchantment: 3, CategoryPath: "weapons/mace/mace_2h_mace", Recipe: recipe_8425b8a7c97f},
+		{ID: "T6_2H_MACE@4", Name: "Schwere Keule des Meisters", Tier: 6, Enchantment: 4, CategoryPath: "weapons/mace/mace_2h_mace", Recipe: recipe_8425b8a7c97f},
+		{ID: "T7_2H_MACE", Name: "Schwere Keule des Großmeisters", Tier: 7, Enchantment: 0, CategoryPath: "weapons/mace/mace_2h_mace", Recipe: recipe_11fecfd19ba4},
+		{ID: "T7_2H_MACE@1", Name: "Schwere Keule des Großmeisters", Tier: 7, Enchantment: 1, CategoryPath: "weapons/mace/mace_2h_mace", Recipe: recipe_11fecfd19ba4},
+		{ID: "T7_2H_MACE@2", Name: "Schwere Keule des Großmeisters", Tier: 7, Enchantment: 2, CategoryPath: "weapons/mace/mace_2h_mace", Recipe: recipe_11fecfd19ba4},
+		{ID: "T7_2H_MACE@3", Name: "Schwere Keule des Großmeisters", Tier: 7, Enchantment: 3, CategoryPath: "weapons/mace/mace_2h_mace", Recipe: recipe_11fecfd19ba4},
+		{ID: "T7_2H_MACE@4", Name: "Schwere Keule des Großmeisters", Tier: 7, Enchantment: 4, CategoryPath: "weapons/mace/mace_2h_mace", Recipe: recipe_11fecfd19ba4},
+		{ID: "T8_2H_MACE", Name: "Schwere Keule des Ältesten", Tier: 8, Enchantment: 0, CategoryPath: "weapons/mace/mace_2h_mace", Recipe: recipe_79d8744dd70c},
+		{ID: "T8_2H_MACE@1", Name: "Schwere Keule des Ältesten", Tier: 8, Enchantment: 1, CategoryPath: "weapons/mace/mace_2h_mace", Recipe: recipe_79d8744dd70c},
+		{ID: "T8_2H_MACE@2", Name: "Schwere Keule des Ältesten", Tier: 8, Enchantment: 2, CategoryPath: "weapons/mace/mace_2h_mace", Recipe: recipe_79d8744dd70c},
+		{ID: "T8_2H_MACE@3", Name: "Schwere Keule des Ältesten", Tier: 8, Enchantment: 3, CategoryPath: "weapons/mace/mace_2h_mace", Recipe: recipe_79d8744dd70c},
+		{ID: "T8_2H_MACE@4", Name: "Schwere Keule des Ältesten", Tier: 8, Enchantment: 4, CategoryPath: "weapons/mace/mace_2h_mace", Recipe: recipe_79d8744dd70c},
+	}},
+	{Name: "Camlann-Keule des Adepten", BaseID: "2H_MACE_MORGANA", MinTier: 4, MaxTier: 8, MinEnchantment: 0, MaxEnchantment: 4, Variants: []ItemVariant{
+		{ID: "T4_2H_MACE_MORGANA", Name: "Camlann-Keule des Adepten", Tier: 4, Enchantment: 0, CategoryPath: "weapons/mace/mace_morgana", Recipe: recipe_b2b3648e5c52},
+		{ID: "T4_2H_MACE_MORGANA@1", Name: "Camlann-Keule des Adepten", Tier: 4, Enchantment: 1, CategoryPath: "weapons/mace/mace_morgana", Recipe: recipe_b2b3648e5c52},
+		{ID: "T4_2H_MACE_MORGANA@2", Name: "Camlann-Keule des Adepten", Tier: 4, Enchantment: 2, CategoryPath: "weapons/mace/mace_morgana", Recipe: recipe_b2b3648e5c52},
+		{ID: "T4_2H_MACE_MORGANA@3", Name: "Camlann-Keule des Adepten", Tier: 4, Enchantment: 3, CategoryPath: "weapons/mace/mace_morgana", Recipe: recipe_b2b3648e5c52},
+		{ID: "T4_2H_MACE_MORGANA@4", Name: "Camlann-Keule des Adepten", Tier: 4, Enchantment: 4, CategoryPath: "weapons/mace/mace_morgana", Recipe: recipe_b2b3648e5c52},
+		{ID: "T5_2H_MACE_MORGANA", Name: "Camlann-Keule des Experten", Tier: 5, Enchantment: 0, CategoryPath: "weapons/mace/mace_morgana", Recipe: recipe_3f1f4bd00d22},
+		{ID: "T5_2H_MACE_MORGANA@1", Name: "Camlann-Keule des Experten", Tier: 5, Enchantment: 1, CategoryPath: "weapons/mace/mace_morgana", Recipe: recipe_3f1f4bd00d22},
+		{ID: "T5_2H_MACE_MORGANA@2", Name: "Camlann-Keule des Experten", Tier: 5, Enchantment: 2, CategoryPath: "weapons/mace/mace_morgana", Recipe: recipe_3f1f4bd00d22},
+		{ID: "T5_2H_MACE_MORGANA@3", Name: "Camlann-Keule des Experten", Tier: 5, Enchantment: 3, CategoryPath: "weapons/mace/mace_morgana", Recipe: recipe_3f1f4bd00d22},
+		{ID: "T5_2H_MACE_MORGANA@4", Name: "Camlann-Keule des Experten", Tier: 5, Enchantment: 4, CategoryPath: "weapons/mace/mace_morgana", Recipe: recipe_3f1f4bd00d22},
+		{ID: "T6_2H_MACE_MORGANA", Name: "Camlann-Keule des Meisters", Tier: 6, Enchantment: 0, CategoryPath: "weapons/mace/mace_morgana", Recipe: recipe_f8956a2efa3b},
+		{ID: "T6_2H_MACE_MORGANA@1", Name: "Camlann-Keule des Meisters", Tier: 6, Enchantment: 1, CategoryPath: "weapons/mace/mace_morgana", Recipe: recipe_f8956a2efa3b},
+		{ID: "T6_2H_MACE_MORGANA@2", Name: "Camlann-Keule des Meisters", Tier: 6, Enchantment: 2, CategoryPath: "weapons/mace/mace_morgana", Recipe: recipe_f8956a2efa3b},
+		{ID: "T6_2H_MACE_MORGANA@3", Name: "Camlann-Keule des Meisters", Tier: 6, Enchantment: 3, CategoryPath: "weapons/mace/mace_morgana", Recipe: recipe_f8956a2efa3b},
+		{ID: "T6_2H_MACE_MORGANA@4", Name: "Camlann-Keule des Meisters", Tier: 6, Enchantment: 4, CategoryPath: "weapons/mace/mace_morgana", Recipe: recipe_f8956a2efa3b},
+		{ID: "T7_2H_MACE_MORGANA", Name: "Camlann-Keule des Großmeisters", Tier: 7, Enchantment: 0, CategoryPath: "weapons/mace/mace_morgana", Recipe: recipe_1aa00424e3dc},
+		{ID: "T7_2H_MACE_MORGANA@1", Name: "Camlann-Keule des Großmeisters", Tier: 7, Enchantment: 1, CategoryPath: "weapons/mace/mace_morgana", Recipe: recipe_1aa00424e3dc},
+		{ID: "T7_2H_MACE_MORGANA@2", Name: "Camlann-Keule des Großmeisters", Tier: 7, Enchantment: 2, CategoryPath: "weapons/mace/mace_morgana", Recipe: recipe_1aa00424e3dc},
+		{ID: "T7_2H_MACE_MORGANA@3", Name: "Camlann-Keule des Großmeisters", Tier: 7, Enchantment: 3, CategoryPath: "weapons/mace/mace_morgana", Recipe: recipe_1aa00424e3dc},
+		{ID: "T7_2H_MACE_MORGANA@4", Name: "Camlann-Keule des Großmeisters", Tier: 7, Enchantment: 4, CategoryPath: "weapons/mace/mace_morgana", Recipe: recipe_1aa00424e3dc},
+		{ID: "T8_2H_MACE_MORGANA", Name: "Camlann-Keule des Ältesten", Tier: 8, Enchantment: 0, CategoryPath: "weapons/mace/mace_morgana", Recipe: recipe_4594d6ce06b3},
+		{ID: "T8_2H_MACE_MORGANA@1", Name: "Camlann-Keule des Ältesten", Tier: 8, Enchantment: 1, CategoryPath: "weapons/mace/mace_morgana", Recipe: recipe_4594d6ce06b3},
+		{ID: "T8_2H_MACE_MORGANA@2", Name: "Camlann-Keule des Ältesten", Tier: 8, Enchantment: 2, CategoryPath: "weapons/mace/mace_morgana", Recipe: recipe_4594d6ce06b3},
+		{ID: "T8_2H_MACE_MORGANA@3", Name: "Camlann-Keule des Ältesten", Tier: 8, Enchantment: 3, CategoryPath: "weapons/mace/mace_morgana", Recipe: recipe_4594d6ce06b3},
+		{ID: "T8_2H_MACE_MORGANA@4", Name: "Camlann-Keule des Ältesten", Tier: 8, Enchantment: 4, CategoryPath: "weapons/mace/mace_morgana", Recipe: recipe_4594d6ce06b3},
+	}},
+	{Name: "Großer Naturstab des Adepten", BaseID: "2H_NATURESTAFF", MinTier: 4, MaxTier: 8, MinEnchantment: 0, MaxEnchantment: 4, Variants: []ItemVariant{
+		{ID: "T4_2H_NATURESTAFF", Name: "Großer Naturstab des Adepten", Tier: 4, Enchantment: 0, CategoryPath: "weapons/naturestaff/naturestaff_2h_naturestaff", Recipe: recipe_b9c2483a0809},
+		{ID: "T4_2H_NATURESTAFF@1", Name: "Großer Naturstab des Adepten", Tier: 4, Enchantment: 1, CategoryPath: "weapons/naturestaff/naturestaff_2h_naturestaff", Recipe: recipe_b9c2483a0809},
+		{ID: "T4_2H_NATURESTAFF@2", Name: "Großer Naturstab des Adepten", Tier: 4, Enchantment: 2, CategoryPath: "weapons/naturestaff/naturestaff_2h_naturestaff", Recipe: recipe_b9c2483a0809},
+		{ID: "T4_2H_NATURESTAFF@3", Name: "Großer Naturstab des Adepten", Tier: 4, Enchantment: 3, CategoryPath: "weapons/naturestaff/naturestaff_2h_naturestaff", Recipe: recipe_b9c2483a0809},
+		{ID: "T4_2H_NATURESTAFF@4", Name: "Großer Naturstab des Adepten", Tier: 4, Enchantment: 4, CategoryPath: "weapons/naturestaff/naturestaff_2h_naturestaff", Recipe: recipe_b9c2483a0809},
+		{ID: "T5_2H_NATURESTAFF", Name: "Großer Naturstab des Experten", Tier: 5, Enchantment: 0, CategoryPath: "weapons/naturestaff/naturestaff_2h_naturestaff", Recipe: recipe_7606918a13f1},
+		{ID: "T5_2H_NATURESTAFF@1", Name: "Großer Naturstab des Experten", Tier: 5, Enchantment: 1, CategoryPath: "weapons/naturestaff/naturestaff_2h_naturestaff", Recipe: recipe_7606918a13f1},
+		{ID: "T5_2H_NATURESTAFF@2", Name: "Großer Naturstab des Experten", Tier: 5, Enchantment: 2, CategoryPath: "weapons/naturestaff/naturestaff_2h_naturestaff", Recipe: recipe_7606918a13f1},
+		{ID: "T5_2H_NATURESTAFF@3", Name: "Großer Naturstab des Experten", Tier: 5, Enchantment: 3, CategoryPath: "weapons/naturestaff/naturestaff_2h_naturestaff", Recipe: recipe_7606918a13f1},
+		{ID: "T5_2H_NATURESTAFF@4", Name: "Großer Naturstab des Experten", Tier: 5, Enchantment: 4, CategoryPath: "weapons/naturestaff/naturestaff_2h_naturestaff", Recipe: recipe_7606918a13f1},
+		{ID: "T6_2H_NATURESTAFF", Name: "Großer Naturstab des Meisters", Tier: 6, Enchantment: 0, CategoryPath: "weapons/naturestaff/naturestaff_2h_naturestaff", Recipe: recipe_c5314e6a8857},
+		{ID: "T6_2H_NATURESTAFF@1", Name: "Großer Naturstab des Meisters", Tier: 6, Enchantment: 1, CategoryPath: "weapons/naturestaff/naturestaff_2h_naturestaff", Recipe: recipe_c5314e6a8857},
+		{ID: "T6_2H_NATURESTAFF@2", Name: "Großer Naturstab des Meisters", Tier: 6, Enchantment: 2, CategoryPath: "weapons/naturestaff/naturestaff_2h_naturestaff", Recipe: recipe_c5314e6a8857},
+		{ID: "T6_2H_NATURESTAFF@3", Name: "Großer Naturstab des Meisters", Tier: 6, Enchantment: 3, CategoryPath: "weapons/naturestaff/naturestaff_2h_naturestaff", Recipe: recipe_c5314e6a8857},
+		{ID: "T6_2H_NATURESTAFF@4", Name: "Großer Naturstab des Meisters", Tier: 6, Enchantment: 4, CategoryPath: "weapons/naturestaff/naturestaff_2h_naturestaff", Recipe: recipe_c5314e6a8857},
+		{ID: "T7_2H_NATURESTAFF", Name: "Großer Naturstab des Großmeisters", Tier: 7, Enchantment: 0, CategoryPath: "weapons/naturestaff/naturestaff_2h_naturestaff", Recipe: recipe_f0852f7a2eb8},
+		{ID: "T7_2H_NATURESTAFF@1", Name: "Großer Naturstab des Großmeisters", Tier: 7, Enchantment: 1, CategoryPath: "weapons/naturestaff/naturestaff_2h_naturestaff", Recipe: recipe_f0852f7a2eb8},
+		{ID: "T7_2H_NATURESTAFF@2", Name: "Großer Naturstab des Großmeisters", Tier: 7, Enchantment: 2, CategoryPath: "weapons/naturestaff/naturestaff_2h_naturestaff", Recipe: recipe_f0852f7a2eb8},
+		{ID: "T7_2H_NATURESTAFF@3", Name: "Großer Naturstab des Großmeisters", Tier: 7, Enchantment: 3, CategoryPath: "weapons/naturestaff/naturestaff_2h_naturestaff", Recipe: recipe_f0852f7a2eb8},
+		{ID: "T7_2H_NATURESTAFF@4", Name: "Großer Naturstab des Großmeisters", Tier: 7, Enchantment: 4, CategoryPath: "weapons/naturestaff/naturestaff_2h_naturestaff", Recipe: recipe_f0852f7a2eb8},
+		{ID: "T8_2H_NATURESTAFF", Name: "Großer Naturstab des Ältesten", Tier: 8, Enchantment: 0, CategoryPath: "weapons/naturestaff/naturestaff_2h_naturestaff", Recipe: recipe_9c3eb8526ab1},
+		{ID: "T8_2H_NATURESTAFF@1", Name: "Großer Naturstab des Ältesten", Tier: 8, Enchantment: 1, CategoryPath: "weapons/naturestaff/naturestaff_2h_naturestaff", Recipe: recipe_9c3eb8526ab1},
+		{ID: "T8_2H_NATURESTAFF@2", Name: "Großer Naturstab des Ältesten", Tier: 8, Enchantment: 2, CategoryPath: "weapons/naturestaff/naturestaff_2h_naturestaff", Recipe: recipe_9c3eb8526ab1},
+		{ID: "T8_2H_NATURESTAFF@3", Name: "Großer Naturstab des Ältesten", Tier: 8, Enchantment: 3, CategoryPath: "weapons/naturestaff/naturestaff_2h_naturestaff", Recipe: recipe_9c3eb8526ab1},
+		{ID: "T8_2H_NATURESTAFF@4", Name: "Großer Naturstab des Ältesten", Tier: 8, Enchantment: 4, CategoryPath: "weapons/naturestaff/naturestaff_2h_naturestaff", Recipe: recipe_9c3eb8526ab1},
+	}},
+	{Name: "Verderbnisstab des Adepten", BaseID: "2H_NATURESTAFF_HELL", MinTier: 4, MaxTier: 8, MinEnchantment: 0, MaxEnchantment: 4, Variants: []ItemVariant{
+		{ID: "T4_2H_NATURESTAFF_HELL", Name: "Verderbnisstab des Adepten", Tier: 4, Enchantment: 0, CategoryPath: "weapons/naturestaff/naturestaff_hell", Recipe: recipe_bd38d4e9ab1f},
+		{ID: "T4_2H_NATURESTAFF_HELL@1", Name: "Verderbnisstab des Adepten", Tier: 4, Enchantment: 1, CategoryPath: "weapons/naturestaff/naturestaff_hell", Recipe: recipe_bd38d4e9ab1f},
+		{ID: "T4_2H_NATURESTAFF_HELL@2", Name: "Verderbnisstab des Adepten", Tier: 4, Enchantment: 2, CategoryPath: "weapons/naturestaff/naturestaff_hell", Recipe: recipe_bd38d4e9ab1f},
+		{ID: "T4_2H_NATURESTAFF_HELL@3", Name: "Verderbnisstab des Adepten", Tier: 4, Enchantment: 3, CategoryPath: "weapons/naturestaff/naturestaff_hell", Recipe: recipe_bd38d4e9ab1f},
+		{ID: "T4_2H_NATURESTAFF_HELL@4", Name: "Verderbnisstab des Adepten", Tier: 4, Enchantment: 4, CategoryPath: "weapons/naturestaff/naturestaff_hell", Recipe: recipe_bd38d4e9ab1f},
+		{ID: "T5_2H_NATURESTAFF_HELL", Name: "Verderbnisstab des Experten", Tier: 5, Enchantment: 0, CategoryPath: "weapons/naturestaff/naturestaff_hell", Recipe: recipe_d456d52e6e84},
+		{ID: "T5_2H_NATURESTAFF_HELL@1", Name: "Verderbnisstab des Experten", Tier: 5, Enchantment: 1, CategoryPath: "weapons/naturestaff/naturestaff_hell", Recipe: recipe_d456d52e6e84},
+		{ID: "T5_2H_NATURESTAFF_HELL@2", Name: "Verderbnisstab des Experten", Tier: 5, Enchantment: 2, CategoryPath: "weapons/naturestaff/naturestaff_hell", Recipe: recipe_d456d52e6e84},
+		{ID: "T5_2H_NATURESTAFF_HELL@3", Name: "Verderbnisstab des Experten", Tier: 5, Enchantment: 3, CategoryPath: "weapons/naturestaff/naturestaff_hell", Recipe: recipe_d456d52e6e84},
+		{ID: "T5_2H_NATURESTAFF_HELL@4", Name: "Verderbnisstab des Experten", Tier: 5, Enchantment: 4, CategoryPath: "weapons/naturestaff/naturestaff_hell", Recipe: recipe_d456d52e6e84},
+		{ID: "T6_2H_NATURESTAFF_HELL", Name: "Verderbnisstab des Meisters", Tier: 6, Enchantment: 0, CategoryPath: "weapons/naturestaff/naturestaff_hell", Recipe: recipe_9fa719fabac3},
+		{ID: "T6_2H_NATURESTAFF_HELL@1", Name: "Verderbnisstab des Meisters", Tier: 6, Enchantment: 1, CategoryPath: "weapons/naturestaff/naturestaff_hell", Recipe: recipe_9fa719fabac3},
+		{ID: "T6_2H_NATURESTAFF_HELL@2", Name: "Verderbnisstab des Meisters", Tier: 6, Enchantment: 2, CategoryPath: "weapons/naturestaff/naturestaff_hell", Recipe: recipe_9fa719fabac3},
+		{ID: "T6_2H_NATURESTAFF_HELL@3", Name: "Verderbnisstab des Meisters", Tier: 6, Enchantment: 3, CategoryPath: "weapons/naturestaff/naturestaff_hell", Recipe: recipe_9fa719fabac3},
+		{ID: "T6_2H_NATURESTAFF_HELL@4", Name: "Verderbnisstab des Meisters", Tier: 6, Enchantment: 4, CategoryPath: "weapons/naturestaff/naturestaff_hell", Recipe: recipe_9fa719fabac3},
+		{ID: "T7_2H_NATURESTAFF_HELL", Name: "Verderbnisstab des Großmeisters", Tier: 7, Enchantment: 0, CategoryPath: "weapons/naturestaff/naturestaff_hell", Recipe: recipe_50b0ba8bfcb9},
+		{ID: "T7_2H_NATURESTAFF_HELL@1", Name: "Verderbnisstab des Großmeisters", Tier: 7, Enchantment: 1, CategoryPath: "weapons/naturestaff/naturestaff_hell", Recipe: recipe_50b0ba8bfcb9},
+		{ID: "T7_2H_NATURESTAFF_HELL@2", Name: "Verderbnisstab des Großmeisters", Tier: 7, Enchantment: 2, CategoryPath: "weapons/naturestaff/naturestaff_hell", Recipe: recipe_50b0ba8bfcb9},
+		{ID: "T7_2H_NATURESTAFF_HELL@3", Name: "Verderbnisstab des Großmeisters", Tier: 7, Enchantment: 3, CategoryPath: "weapons/naturestaff/naturestaff_hell", Recipe: recipe_50b0ba8bfcb9},
+		{ID: "T7_2H_NATURESTAFF_HELL@4", Name: "Verderbnisstab des Großmeisters", Tier: 7, Enchantment: 4, CategoryPath: "weapons/naturestaff/naturestaff_hell", Recipe: recipe_50b0ba8bfcb9},
+		{ID: "T8_2H_NATURESTAFF_HELL", Name: "Verderbnisstab des Ältesten", Tier: 8, Enchantment: 0, CategoryPath: "weapons/naturestaff/naturestaff_hell", Recipe: recipe_de360b5e9eea},
+		{ID: "T8_2H_NATURESTAFF_HELL@1", Name: "Verderbnisstab des Ältesten", Tier: 8, Enchantment: 1, CategoryPath: "weapons/naturestaff/naturestaff_hell", Recipe: recipe_de360b5e9eea},
+		{ID: "T8_2H_NATURESTAFF_HELL@2", Name: "Verderbnisstab des Ältesten", Tier: 8, Enchantment: 2, CategoryPath: "weapons/naturestaff/naturestaff_hell", Recipe: recipe_de360b5e9eea},
+		{ID: "T8_2H_NATURESTAFF_HELL@3", Name: "Verderbnisstab des Ältesten", Tier: 8, Enchantment: 3, CategoryPath: "weapons/naturestaff/naturestaff_hell", Recipe: recipe_de360b5e9eea},
+		{ID: "T8_2H_NATURESTAFF_HELL@4", Name: "Verderbnisstab des Ältesten", Tier: 8, Enchantment: 4, CategoryPath: "weapons/naturestaff/naturestaff_hell", Recipe: recipe_de360b5e9eea},
+	}},
+	{Name: "Randalierender Stab des Adepten", BaseID: "2H_NATURESTAFF_KEEPER", MinTier: 4, MaxTier: 8, MinEnchantment: 0, MaxEnchantment: 4, Variants: []ItemVariant{
+		{ID: "T4_2H_NATURESTAFF_KEEPER", Name: "Randalierender Stab des Adepten", Tier: 4, Enchantment: 0, CategoryPath: "weapons/naturestaff/naturestaff_2h_keeper", Recipe: recipe_f6c7d8a519e6},
+		{ID: "T4_2H_NATURESTAFF_KEEPER@1", Name: "Randalierender Stab des Adepten", Tier: 4, Enchantment: 1, CategoryPath: "weapons/naturestaff/naturestaff_2h_keeper", Recipe: recipe_f6c7d8a519e6},
+		{ID: "T4_2H_NATURESTAFF_KEEPER@2", Name: "Randalierender Stab des Adepten", Tier: 4, Enchantment: 2, CategoryPath: "weapons/naturestaff/naturestaff_2h_keeper", Recipe: recipe_f6c7d8a519e6},
+		{ID: "T4_2H_NATURESTAFF_KEEPER@3", Name: "Randalierender Stab des Adepten", Tier: 4, Enchantment: 3, CategoryPath: "weapons/naturestaff/naturestaff_2h_keeper", Recipe: recipe_f6c7d8a519e6},
+		{ID: "T4_2H_NATURESTAFF_KEEPER@4", Name: "Randalierender Stab des Adepten", Tier: 4, Enchantment: 4, CategoryPath: "weapons/naturestaff/naturestaff_2h_keeper", Recipe: recipe_f6c7d8a519e6},
+		{ID: "T5_2H_NATURESTAFF_KEEPER", Name: "Randalierender Stab des Experten", Tier: 5, Enchantment: 0, CategoryPath: "weapons/naturestaff/naturestaff_2h_keeper", Recipe: recipe_7a63f53f01ce},
+		{ID: "T5_2H_NATURESTAFF_KEEPER@1", Name: "Randalierender Stab des Experten", Tier: 5, Enchantment: 1, CategoryPath: "weapons/naturestaff/naturestaff_2h_keeper", Recipe: recipe_7a63f53f01ce},
+		{ID: "T5_2H_NATURESTAFF_KEEPER@2", Name: "Randalierender Stab des Experten", Tier: 5, Enchantment: 2, CategoryPath: "weapons/naturestaff/naturestaff_2h_keeper", Recipe: recipe_7a63f53f01ce},
+		{ID: "T5_2H_NATURESTAFF_KEEPER@3", Name: "Randalierender Stab des Experten", Tier: 5, Enchantment: 3, CategoryPath: "weapons/naturestaff/naturestaff_2h_keeper", Recipe: recipe_7a63f53f01ce},
+		{ID: "T5_2H_NATURESTAFF_KEEPER@4", Name: "Randalierender Stab des Experten", Tier: 5, Enchantment: 4, CategoryPath: "weapons/naturestaff/naturestaff_2h_keeper", Recipe: recipe_7a63f53f01ce},
+		{ID: "T6_2H_NATURESTAFF_KEEPER", Name: "Randalierender Stab des Meisters", Tier: 6, Enchantment: 0, CategoryPath: "weapons/naturestaff/naturestaff_2h_keeper", Recipe: recipe_3dca209ff577},
+		{ID: "T6_2H_NATURESTAFF_KEEPER@1", Name: "Randalierender Stab des Meisters", Tier: 6, Enchantment: 1, CategoryPath: "weapons/naturestaff/naturestaff_2h_keeper", Recipe: recipe_3dca209ff577},
+		{ID: "T6_2H_NATURESTAFF_KEEPER@2", Name: "Randalierender Stab des Meisters", Tier: 6, Enchantment: 2, CategoryPath: "weapons/naturestaff/naturestaff_2h_keeper", Recipe: recipe_3dca209ff577},
+		{ID: "T6_2H_NATURESTAFF_KEEPER@3", Name: "Randalierender Stab des Meisters", Tier: 6, Enchantment: 3, CategoryPath: "weapons/naturestaff/naturestaff_2h_keeper", Recipe: recipe_3dca209ff577},
+		{ID: "T6_2H_NATURESTAFF_KEEPER@4", Name: "Randalierender Stab des Meisters", Tier: 6, Enchantment: 4, CategoryPath: "weapons/naturestaff/naturestaff_2h_keeper", Recipe: recipe_3dca209ff577},
+		{ID: "T7_2H_NATURESTAFF_KEEPER", Name: "Randalierender Stab des Großmeisters", Tier: 7, Enchantment: 0, CategoryPath: "weapons/naturestaff/naturestaff_2h_keeper", Recipe: recipe_512fec7b8799},
+		{ID: "T7_2H_NATURESTAFF_KEEPER@1", Name: "Randalierender Stab des Großmeisters", Tier: 7, Enchantment: 1, CategoryPath: "weapons/naturestaff/naturestaff_2h_keeper", Recipe: recipe_512fec7b8799},
+		{ID: "T7_2H_NATURESTAFF_KEEPER@2", Name: "Randalierender Stab des Großmeisters", Tier: 7, Enchantment: 2, CategoryPath: "weapons/naturestaff/naturestaff_2h_keeper", Recipe: recipe_512fec7b8799},
+		{ID: "T7_2H_NATURESTAFF_KEEPER@3", Name: "Randalierender Stab des Großmeisters", Tier: 7, Enchantment: 3, CategoryPath: "weapons/naturestaff/naturestaff_2h_keeper", Recipe: recipe_512fec7b8799},
+		{ID: "T7_2H_NATURESTAFF_KEEPER@4", Name: "Randalierender Stab des Großmeisters", Tier: 7, Enchantment: 4, CategoryPath: "weapons/naturestaff/naturestaff_2h_keeper", Recipe: recipe_512fec7b8799},
+		{ID: "T8_2H_NATURESTAFF_KEEPER", Name: "Randalierender Stab des Ältesten", Tier: 8, Enchantment: 0, CategoryPath: "weapons/naturestaff/naturestaff_2h_keeper", Recipe: recipe_0aa2a3b4dcd6},
+		{ID: "T8_2H_NATURESTAFF_KEEPER@1", Name: "Randalierender Stab des Ältesten", Tier: 8, Enchantment: 1, CategoryPath: "weapons/naturestaff/naturestaff_2h_keeper", Recipe: recipe_0aa2a3b4dcd6},
+		{ID: "T8_2H_NATURESTAFF_KEEPER@2", Name: "Randalierender Stab des Ältesten", Tier: 8, Enchantment: 2, CategoryPath: "weapons/naturestaff/naturestaff_2h_keeper", Recipe: recipe_0aa2a3b4dcd6},
+		{ID: "T8_2H_NATURESTAFF_KEEPER@3", Name: "Randalierender Stab des Ältesten", Tier: 8, Enchantment: 3, CategoryPath: "weapons/naturestaff/naturestaff_2h_keeper", Recipe: recipe_0aa2a3b4dcd6},
+		{ID: "T8_2H_NATURESTAFF_KEEPER@4", Name: "Randalierender Stab des Ältesten", Tier: 8, Enchantment: 4, CategoryPath: "weapons/naturestaff/naturestaff_2h_keeper", Recipe: recipe_0aa2a3b4dcd6},
+	}},
+	{Name: "Rabenschnabel des Adepten", BaseID: "2H_POLEHAMMER", MinTier: 4, MaxTier: 8, MinEnchantment: 0, MaxEnchantment: 4, Variants: []ItemVariant{
+		{ID: "T4_2H_POLEHAMMER", Name: "Rabenschnabel des Adepten", Tier: 4, Enchantment: 0, CategoryPath: "weapons/hammer/hammer_polehammer", Recipe: recipe_361c544ad4b3},
+		{ID: "T4_2H_POLEHAMMER@1", Name: "Rabenschnabel des Adepten", Tier: 4, Enchantment: 1, CategoryPath: "weapons/hammer/hammer_polehammer", Recipe: recipe_361c544ad4b3},
+		{ID: "T4_2H_POLEHAMMER@2", Name: "Rabenschnabel des Adepten", Tier: 4, Enchantment: 2, CategoryPath: "weapons/hammer/hammer_polehammer", Recipe: recipe_361c544ad4b3},
+		{ID: "T4_2H_POLEHAMMER@3", Name: "Rabenschnabel des Adepten", Tier: 4, Enchantment: 3, CategoryPath: "weapons/hammer/hammer_polehammer", Recipe: recipe_361c544ad4b3},
+		{ID: "T4_2H_POLEHAMMER@4", Name: "Rabenschnabel des Adepten", Tier: 4, Enchantment: 4, CategoryPath: "weapons/hammer/hammer_polehammer", Recipe: recipe_361c544ad4b3},
+		{ID: "T5_2H_POLEHAMMER", Name: "Rabenschnabel des Experten", Tier: 5, Enchantment: 0, CategoryPath: "weapons/hammer/hammer_polehammer", Recipe: recipe_83addbea03b6},
+		{ID: "T5_2H_POLEHAMMER@1", Name: "Rabenschnabel des Experten", Tier: 5, Enchantment: 1, CategoryPath: "weapons/hammer/hammer_polehammer", Recipe: recipe_83addbea03b6},
+		{ID: "T5_2H_POLEHAMMER@2", Name: "Rabenschnabel des Experten", Tier: 5, Enchantment: 2, CategoryPath: "weapons/hammer/hammer_polehammer", Recipe: recipe_83addbea03b6},
+		{ID: "T5_2H_POLEHAMMER@3", Name: "Rabenschnabel des Experten", Tier: 5, Enchantment: 3, CategoryPath: "weapons/hammer/hammer_polehammer", Recipe: recipe_83addbea03b6},
+		{ID: "T5_2H_POLEHAMMER@4", Name: "Rabenschnabel des Experten", Tier: 5, Enchantment: 4, CategoryPath: "weapons/hammer/hammer_polehammer", Recipe: recipe_83addbea03b6},
+		{ID: "T6_2H_POLEHAMMER", Name: "Rabenschnabel des Meisters", Tier: 6, Enchantment: 0, CategoryPath: "weapons/hammer/hammer_polehammer", Recipe: recipe_9c376670c69c},
+		{ID: "T6_2H_POLEHAMMER@1", Name: "Rabenschnabel des Meisters", Tier: 6, Enchantment: 1, CategoryPath: "weapons/hammer/hammer_polehammer", Recipe: recipe_9c376670c69c},
+		{ID: "T6_2H_POLEHAMMER@2", Name: "Rabenschnabel des Meisters", Tier: 6, Enchantment: 2, CategoryPath: "weapons/hammer/hammer_polehammer", Recipe: recipe_9c376670c69c},
+		{ID: "T6_2H_POLEHAMMER@3", Name: "Rabenschnabel des Meisters", Tier: 6, Enchantment: 3, CategoryPath: "weapons/hammer/hammer_polehammer", Recipe: recipe_9c376670c69c},
+		{ID: "T6_2H_POLEHAMMER@4", Name: "Rabenschnabel des Meisters", Tier: 6, Enchantment: 4, CategoryPath: "weapons/hammer/hammer_polehammer", Recipe: recipe_9c376670c69c},
+		{ID: "T7_2H_POLEHAMMER", Name: "Rabenschnabel des Großmeisters", Tier: 7, Enchantment: 0, CategoryPath: "weapons/hammer/hammer_polehammer", Recipe: recipe_918e455b9b32},
+		{ID: "T7_2H_POLEHAMMER@1", Name: "Rabenschnabel des Großmeisters", Tier: 7, Enchantment: 1, CategoryPath: "weapons/hammer/hammer_polehammer", Recipe: recipe_918e455b9b32},
+		{ID: "T7_2H_POLEHAMMER@2", Name: "Rabenschnabel des Großmeisters", Tier: 7, Enchantment: 2, CategoryPath: "weapons/hammer/hammer_polehammer", Recipe: recipe_918e455b9b32},
+		{ID: "T7_2H_POLEHAMMER@3", Name: "Rabenschnabel des Großmeisters", Tier: 7, Enchantment: 3, CategoryPath: "weapons/hammer/hammer_polehammer", Recipe: recipe_918e455b9b32},
+		{ID: "T7_2H_POLEHAMMER@4", Name: "Rabenschnabel des Großmeisters", Tier: 7, Enchantment: 4, CategoryPath: "weapons/hammer/hammer_polehammer", Recipe: recipe_918e455b9b32},
+		{ID: "T8_2H_POLEHAMMER", Name: "Rabenschnabel des Ältesten", Tier: 8, Enchantment: 0, CategoryPath: "weapons/hammer/hammer_polehammer", Recipe: recipe_c7cbb08ef383},
+		{ID: "T8_2H_POLEHAMMER@1", Name: "Rabenschnabel des Ältesten", Tier: 8, Enchantment: 1, CategoryPath: "weapons/hammer/hammer_polehammer", Recipe: recipe_c7cbb08ef383},
+		{ID: "T8_2H_POLEHAMMER@2", Name: "Rabenschnabel des Ältesten", Tier: 8, Enchantment: 2, CategoryPath: "weapons/hammer/hammer_polehammer", Recipe: recipe_c7cbb08ef383},
+		{ID: "T8_2H_POLEHAMMER@3", Name: "Rabenschnabel des Ältesten", Tier: 8, Enchantment: 3, CategoryPath: "weapons/hammer/hammer_polehammer", Recipe: recipe_c7cbb08ef383},
+		{ID: "T8_2H_POLEHAMMER@4", Name: "Rabenschnabel des Ältesten", Tier: 8, Enchantment: 4, CategoryPath: "weapons/hammer/hammer_polehammer", Recipe: recipe_c7cbb08ef383},
+	}},
+	{Name: "Kampfstab des Gesellen", BaseID: "2H_QUARTERSTAFF", MinTier: 3, MaxTier: 8, MinEnchantment: 0, MaxEnchantment: 4, Variants: []ItemVariant{
+		{ID: "T3_2H_QUARTERSTAFF", Name: "Kampfstab des Gesellen", Tier: 3, Enchantment: 0, CategoryPath: "weapons/quarterstaff/quarterstaff_quarterstaff", Recipe: recipe_cbc7b64ae686},
+		{ID: "T4_2H_QUARTERSTAFF", Name: "Kampfstab des Adepten", Tier: 4, Enchantment: 0, CategoryPath: "weapons/quarterstaff/quarterstaff_quarterstaff", Recipe: recipe_6fa8534ec7b1},
+		{ID: "T4_2H_QUARTERSTAFF@1", Name: "Kampfstab des Adepten", Tier: 4, Enchantment: 1, CategoryPath: "weapons/quarterstaff/quarterstaff_quarterstaff", Recipe: recipe_6fa8534ec7b1},
+		{ID: "T4_2H_QUARTERSTAFF@2", Name: "Kampfstab des Adepten", Tier: 4, Enchantment: 2, CategoryPath: "weapons/quarterstaff/quarterstaff_quarterstaff", Recipe: recipe_6fa8534ec7b1},
+		{ID: "T4_2H_QUARTERSTAFF@3", Name: "Kampfstab des Adepten", Tier: 4, Enchantment: 3, CategoryPath: "weapons/quarterstaff/quarterstaff_quarterstaff", Recipe: recipe_6fa8534ec7b1},
+		{ID: "T4_2H_QUARTERSTAFF@4", Name: "Kampfstab des Adepten", Tier: 4, Enchantment: 4, CategoryPath: "weapons/quarterstaff/quarterstaff_quarterstaff", Recipe: recipe_6fa8534ec7b1},
+		{ID: "T5_2H_QUARTERSTAFF", Name: "Kampfstab des Experten", Tier: 5, Enchantment: 0, CategoryPath: "weapons/quarterstaff/quarterstaff_quarterstaff", Recipe: recipe_24f9356591e2},
+		{ID: "T5_2H_QUARTERSTAFF@1", Name: "Kampfstab des Experten", Tier: 5, Enchantment: 1, CategoryPath: "weapons/quarterstaff/quarterstaff_quarterstaff", Recipe: recipe_24f9356591e2},
+		{ID: "T5_2H_QUARTERSTAFF@2", Name: "Kampfstab des Experten", Tier: 5, Enchantment: 2, CategoryPath: "weapons/quarterstaff/quarterstaff_quarterstaff", Recipe: recipe_24f9356591e2},
+		{ID: "T5_2H_QUARTERSTAFF@3", Name: "Kampfstab des Experten", Tier: 5, Enchantment: 3, CategoryPath: "weapons/quarterstaff/quarterstaff_quarterstaff", Recipe: recipe_24f9356591e2},
+		{ID: "T5_2H_QUARTERSTAFF@4", Name: "Kampfstab des Experten", Tier: 5, Enchantment: 4, CategoryPath: "weapons/quarterstaff/quarterstaff_quarterstaff", Recipe: recipe_24f9356591e2},
+		{ID: "T6_2H_QUARTERSTAFF", Name: "Kampfstab des Meisters", Tier: 6, Enchantment: 0, CategoryPath: "weapons/quarterstaff/quarterstaff_quarterstaff", Recipe: recipe_4b9883af90ed},
+		{ID: "T6_2H_QUARTERSTAFF@1", Name: "Kampfstab des Meisters", Tier: 6, Enchantment: 1, CategoryPath: "weapons/quarterstaff/quarterstaff_quarterstaff", Recipe: recipe_4b9883af90ed},
+		{ID: "T6_2H_QUARTERSTAFF@2", Name: "Kampfstab des Meisters", Tier: 6, Enchantment: 2, CategoryPath: "weapons/quarterstaff/quarterstaff_quarterstaff", Recipe: recipe_4b9883af90ed},
+		{ID: "T6_2H_QUARTERSTAFF@3", Name: "Kampfstab des Meisters", Tier: 6, Enchantment: 3, CategoryPath: "weapons/quarterstaff/quarterstaff_quarterstaff", Recipe: recipe_4b9883af90ed},
+		{ID: "T6_2H_QUARTERSTAFF@4", Name: "Kampfstab des Meisters", Tier: 6, Enchantment: 4, CategoryPath: "weapons/quarterstaff/quarterstaff_quarterstaff", Recipe: recipe_4b9883af90ed},
+		{ID: "T7_2H_QUARTERSTAFF", Name: "Kampfstab des Großmeisters", Tier: 7, Enchantment: 0, CategoryPath: "weapons/quarterstaff/quarterstaff_quarterstaff", Recipe: recipe_cedf1302a826},
+		{ID: "T7_2H_QUARTERSTAFF@1", Name: "Kampfstab des Großmeisters", Tier: 7, Enchantment: 1, CategoryPath: "weapons/quarterstaff/quarterstaff_quarterstaff", Recipe: recipe_cedf1302a826},
+		{ID: "T7_2H_QUARTERSTAFF@2", Name: "Kampfstab des Großmeisters", Tier: 7, Enchantment: 2, CategoryPath: "weapons/quarterstaff/quarterstaff_quarterstaff", Recipe: recipe_cedf1302a826},
+		{ID: "T7_2H_QUARTERSTAFF@3", Name: "Kampfstab des Großmeisters", Tier: 7, Enchantment: 3, CategoryPath: "weapons/quarterstaff/quarterstaff_quarterstaff", Recipe: recipe_cedf1302a826},
+		{ID: "T7_2H_QUARTERSTAFF@4", Name: "Kampfstab des Großmeisters", Tier: 7, Enchantment: 4, CategoryPath: "weapons/quarterstaff/quarterstaff_quarterstaff", Recipe: recipe_cedf1302a826},
+		{ID: "T8_2H_QUARTERSTAFF", Name: "Kampfstab des Ältesten", Tier: 8, Enchantment: 0, CategoryPath: "weapons/quarterstaff/quarterstaff_quarterstaff", Recipe: recipe_c46addf733b6},
+		{ID: "T8_2H_QUARTERSTAFF@1", Name: "Kampfstab des Ältesten", Tier: 8, Enchantment: 1, CategoryPath: "weapons/quarterstaff/quarterstaff_quarterstaff", Recipe: recipe_c46addf733b6},
+		{ID: "T8_2H_QUARTERSTAFF@2", Name: "Kampfstab des Ältesten", Tier: 8, Enchantment: 2, CategoryPath: "weapons/quarterstaff/quarterstaff_quarterstaff", Recipe: recipe_c46addf733b6},
+		{ID: "T8_2H_QUARTERSTAFF@3", Name: "Kampfstab des Ältesten", Tier: 8, Enchantment: 3, CategoryPath: "weapons/quarterstaff/quarterstaff_quarterstaff", Recipe: recipe_c46addf733b6},
+		{ID: "T8_2H_QUARTERSTAFF@4", Name: "Kampfstab des Ältesten", Tier: 8, Enchantment: 4, CategoryPath: "weapons/quarterstaff/quarterstaff_quarterstaff", Recipe: recipe_c46addf733b6},
+	}},
+	{Name: "Gralsucher des Adepten", BaseID: "2H_QUARTERSTAFF_AVALON", MinTier: 4, MaxTier: 8, MinEnchantment: 0, MaxEnchantment: 4, Variants: []ItemVariant{
+		{ID: "T4_2H_QUARTERSTAFF_AVALON", Name: "Gralsucher des Adepten", Tier: 4, Enchantment: 0, CategoryPath: "weapons/quarterstaff/quarterstaff_avalon", Recipe: recipe_e2fc52f15a72},
+		{ID: "T4_2H_QUARTERSTAFF_AVALON@1", Name: "Gralsucher des Adepten", Tier: 4, Enchantment: 1, CategoryPath: "weapons/quarterstaff/quarterstaff_avalon", Recipe: recipe_e2fc52f15a72},
+		{ID: "T4_2H_QUARTERSTAFF_AVALON@2", Name: "Gralsucher des Adepten", Tier: 4, Enchantment: 2, CategoryPath: "weapons/quarterstaff/quarterstaff_avalon", Recipe: recipe_e2fc52f15a72},
+		{ID: "T4_2H_QUARTERSTAFF_AVALON@3", Name: "Gralsucher des Adepten", Tier: 4, Enchantment: 3, CategoryPath: "weapons/quarterstaff/quarterstaff_avalon", Recipe: recipe_e2fc52f15a72},
+		{ID: "T4_2H_QUARTERSTAFF_AVALON@4", Name: "Gralsucher des Adepten", Tier: 4, Enchantment: 4, CategoryPath: "weapons/quarterstaff/quarterstaff_avalon", Recipe: recipe_e2fc52f15a72},
+		{ID: "T5_2H_QUARTERSTAFF_AVALON", Name: "Gralsucher des Experten", Tier: 5, Enchantment: 0, CategoryPath: "weapons/quarterstaff/quarterstaff_avalon", Recipe: recipe_58a1e4d77ee0},
+		{ID: "T5_2H_QUARTERSTAFF_AVALON@1", Name: "Gralsucher des Experten", Tier: 5, Enchantment: 1, CategoryPath: "weapons/quarterstaff/quarterstaff_avalon", Recipe: recipe_58a1e4d77ee0},
+		{ID: "T5_2H_QUARTERSTAFF_AVALON@2", Name: "Gralsucher des Experten", Tier: 5, Enchantment: 2, CategoryPath: "weapons/quarterstaff/quarterstaff_avalon", Recipe: recipe_58a1e4d77ee0},
+		{ID: "T5_2H_QUARTERSTAFF_AVALON@3", Name: "Gralsucher des Experten", Tier: 5, Enchantment: 3, CategoryPath: "weapons/quarterstaff/quarterstaff_avalon", Recipe: recipe_58a1e4d77ee0},
+		{ID: "T5_2H_QUARTERSTAFF_AVALON@4", Name: "Gralsucher des Experten", Tier: 5, Enchantment: 4, CategoryPath: "weapons/quarterstaff/quarterstaff_avalon", Recipe: recipe_58a1e4d77ee0},
+		{ID: "T6_2H_QUARTERSTAFF_AVALON", Name: "Gralsucher des Meisters", Tier: 6, Enchantment: 0, CategoryPath: "weapons/quarterstaff/quarterstaff_avalon", Recipe: recipe_f2a9157fdd09},
+		{ID: "T6_2H_QUARTERSTAFF_AVALON@1", Name: "Gralsucher des Meisters", Tier: 6, Enchantment: 1, CategoryPath: "weapons/quarterstaff/quarterstaff_avalon", Recipe: recipe_f2a9157fdd09},
+		{ID: "T6_2H_QUARTERSTAFF_AVALON@2", Name: "Gralsucher des Meisters", Tier: 6, Enchantment: 2, CategoryPath: "weapons/quarterstaff/quarterstaff_avalon", Recipe: recipe_f2a9157fdd09},
+		{ID: "T6_2H_QUARTERSTAFF_AVALON@3", Name: "Gralsucher des Meisters", Tier: 6, Enchantment: 3, CategoryPath: "weapons/quarterstaff/quarterstaff_avalon", Recipe: recipe_f2a9157fdd09},
+		{ID: "T6_2H_QUARTERSTAFF_AVALON@4", Name: "Gralsucher des Meisters", Tier: 6, Enchantment: 4, CategoryPath: "weapons/quarterstaff/quarterstaff_avalon", Recipe: recipe_f2a9157fdd09},
+		{ID: "T7_2H_QUARTERSTAFF_AVALON", Name: "Gralsucher des Großmeisters", Tier: 7, Enchantment: 0, CategoryPath: "weapons/quarterstaff/quarterstaff_avalon", Recipe: recipe_5c61e4dffec3},
+		{ID: "T7_2H_QUARTERSTAFF_AVALON@1", Name: "Gralsucher des Großmeisters", Tier: 7, Enchantment: 1, CategoryPath: "weapons/quarterstaff/quarterstaff_avalon", Recipe: recipe_5c61e4dffec3},
+		{ID: "T7_2H_QUARTERSTAFF_AVALON@2", Name: "Gralsucher des Großmeisters", Tier: 7, Enchantment: 2, CategoryPath: "weapons/quarterstaff/quarterstaff_avalon", Recipe: recipe_5c61e4dffec3},
+		{ID: "T7_2H_QUARTERSTAFF_AVALON@3", Name: "Gralsucher des Großmeisters", Tier: 7, Enchantment: 3, CategoryPath: "weapons/quarterstaff/quarterstaff_avalon", Recipe: recipe_5c61e4dffec3},
+		{ID: "T7_2H_QUARTERSTAFF_AVALON@4", Name: "Gralsucher des Großmeisters", Tier: 7, Enchantment: 4, CategoryPath: "weapons/quarterstaff/quarterstaff_avalon", Recipe: recipe_5c61e4dffec3},
+		{ID: "T8_2H_QUARTERSTAFF_AVALON", Name: "Gralsucher des Ältesten", Tier: 8, Enchantment: 0, CategoryPath: "weapons/quarterstaff/quarterstaff_avalon", Recipe: recipe_859b9caf6d18},
+		{ID: "T8_2H_QUARTERSTAFF_AVALON@1", Name: "Gralsucher des Ältesten", Tier: 8, Enchantment: 1, CategoryPath: "weapons/quarterstaff/quarterstaff_avalon", Recipe: recipe_859b9caf6d18},
+		{ID: "T8_2H_QUARTERSTAFF_AVALON@2", Name: "Gralsucher des Ältesten", Tier: 8, Enchantment: 2, CategoryPath: "weapons/quarterstaff/quarterstaff_avalon", Recipe: recipe_859b9caf6d18},
+		{ID: "T8_2H_QUARTERSTAFF_AVALON@3", Name: "Gralsucher des Ältesten", Tier: 8, Enchantment: 3, CategoryPath: "weapons/quarterstaff/quarterstaff_avalon", Recipe: recipe_859b9caf6d18},
+		{ID: "T8_2H_QUARTERSTAFF_AVALON@4", Name: "Gralsucher des Ältesten", Tier: 8, Enchantment: 4, CategoryPath: "weapons/quarterstaff/quarterstaff_avalon", Recipe: recipe_859b9caf6d18},
+	}},
+	{Name: "Hainhüter des Adepten", BaseID: "2H_RAM_KEEPER", MinTier: 4, MaxTier: 8, MinEnchantment: 0, MaxEnchantment: 4, Variants: []ItemVariant{
+		{ID: "T4_2H_RAM_KEEPER", Name: "Hainhüter des Adepten", Tier: 4, Enchantment: 0, CategoryPath: "weapons/hammer/hammer_keeper", Recipe: recipe_3d887cf0b25c},
+		{ID: "T4_2H_RAM_KEEPER@1", Name: "Hainhüter des Adepten", Tier: 4, Enchantment: 1, CategoryPath: "weapons/hammer/hammer_keeper", Recipe: recipe_3d887cf0b25c},
+		{ID: "T4_2H_RAM_KEEPER@2", Name: "Hainhüter des Adepten", Tier: 4, Enchantment: 2, CategoryPath: "weapons/hammer/hammer_keeper", Recipe: recipe_3d887cf0b25c},
+		{ID: "T4_2H_RAM_KEEPER@3", Name: "Hainhüter des Adepten", Tier: 4, Enchantment: 3, CategoryPath: "weapons/hammer/hammer_keeper", Recipe: recipe_3d887cf0b25c},
+		{ID: "T4_2H_RAM_KEEPER@4", Name: "Hainhüter des Adepten", Tier: 4, Enchantment: 4, CategoryPath: "weapons/hammer/hammer_keeper", Recipe: recipe_3d887cf0b25c},
+		{ID: "T5_2H_RAM_KEEPER", Name: "Hainhüter des Experten", Tier: 5, Enchantment: 0, CategoryPath: "weapons/hammer/hammer_keeper", Recipe: recipe_3f5d45ad646a},
+		{ID: "T5_2H_RAM_KEEPER@1", Name: "Hainhüter des Experten", Tier: 5, Enchantment: 1, CategoryPath: "weapons/hammer/hammer_keeper", Recipe: recipe_3f5d45ad646a},
+		{ID: "T5_2H_RAM_KEEPER@2", Name: "Hainhüter des Experten", Tier: 5, Enchantment: 2, CategoryPath: "weapons/hammer/hammer_keeper", Recipe: recipe_3f5d45ad646a},
+		{ID: "T5_2H_RAM_KEEPER@3", Name: "Hainhüter des Experten", Tier: 5, Enchantment: 3, CategoryPath: "weapons/hammer/hammer_keeper", Recipe: recipe_3f5d45ad646a},
+		{ID: "T5_2H_RAM_KEEPER@4", Name: "Hainhüter des Experten", Tier: 5, Enchantment: 4, CategoryPath: "weapons/hammer/hammer_keeper", Recipe: recipe_3f5d45ad646a},
+		{ID: "T6_2H_RAM_KEEPER", Name: "Hainhüter des Meisters", Tier: 6, Enchantment: 0, CategoryPath: "weapons/hammer/hammer_keeper", Recipe: recipe_dc82a3d9d4e6},
+		{ID: "T6_2H_RAM_KEEPER@1", Name: "Hainhüter des Meisters", Tier: 6, Enchantment: 1, CategoryPath: "weapons/hammer/hammer_keeper", Recipe: recipe_dc82a3d9d4e6},
+		{ID: "T6_2H_RAM_KEEPER@2", Name: "Hainhüter des Meisters", Tier: 6, Enchantment: 2, CategoryPath: "weapons/hammer/hammer_keeper", Recipe: recipe_dc82a3d9d4e6},
+		{ID: "T6_2H_RAM_KEEPER@3", Name: "Hainhüter des Meisters", Tier: 6, Enchantment: 3, CategoryPath: "weapons/hammer/hammer_keeper", Recipe: recipe_dc82a3d9d4e6},
+		{ID: "T6_2H_RAM_KEEPER@4", Name: "Hainhüter des Meisters", Tier: 6, Enchantment: 4, CategoryPath: "weapons/hammer/hammer_keeper", Recipe: recipe_dc82a3d9d4e6},
+		{ID: "T7_2H_RAM_KEEPER", Name: "Hainhüter des Großmeisters", Tier: 7, Enchantment: 0, CategoryPath: "weapons/hammer/hammer_keeper", Recipe: recipe_504c6c6a387d},
+		{ID: "T7_2H_RAM_KEEPER@1", Name: "Hainhüter des Großmeisters", Tier: 7, Enchantment: 1, CategoryPath: "weapons/hammer/hammer_keeper", Recipe: recipe_504c6c6a387d},
+		{ID: "T7_2H_RAM_KEEPER@2", Name: "Hainhüter des Großmeisters", Tier: 7, Enchantment: 2, CategoryPath: "weapons/hammer/hammer_keeper", Recipe: recipe_504c6c6a387d},
+		{ID: "T7_2H_RAM_KEEPER@3", Name: "Hainhüter des Großmeisters", Tier: 7, Enchantment: 3, CategoryPath: "weapons/hammer/hammer_keeper", Recipe: recipe_504c6c6a387d},
+		{ID: "T7_2H_RAM_KEEPER@4", Name: "Hainhüter des Großmeisters", Tier: 7, Enchantment: 4, CategoryPath: "weapons/hammer/hammer_keeper", Recipe: recipe_504c6c6a387d},
+		{ID: "T8_2H_RAM_KEEPER", Name: "Hainhüter des Ältesten", Tier: 8, Enchantment: 0, CategoryPath: "weapons/hammer/hammer_keeper", Recipe: recipe_47f23f1544ac},
+		{ID: "T8_2H_RAM_KEEPER@1", Name: "Hainhüter des Ältesten", Tier: 8, Enchantment: 1, CategoryPath: "weapons/hammer/hammer_keeper", Recipe: recipe_47f23f1544ac},
+		{ID: "T8_2H_RAM_KEEPER@2", Name: "Hainhüter des Ältesten", Tier: 8, Enchantment: 2, CategoryPath: "weapons/hammer/hammer_keeper", Recipe: recipe_47f23f1544ac},
+		{ID: "T8_2H_RAM_KEEPER@3", Name: "Hainhüter des Ältesten", Tier: 8, Enchantment: 3, CategoryPath: "weapons/hammer/hammer_keeper", Recipe: recipe_47f23f1544ac},
+		{ID: "T8_2H_RAM_KEEPER@4", Name: "Hainhüter des Ältesten", Tier: 8, Enchantment: 4, CategoryPath: "weapons/hammer/hammer_keeper", Recipe: recipe_47f23f1544ac},
+	}},
+	{Name: "Klagender Repetierer des Adepten", BaseID: "2H_REPEATINGCROSSBOW_UNDEAD", MinTier: 4, MaxTier: 8, MinEnchantment: 0, MaxEnchantment: 4, Variants: []ItemVariant{
+		{ID: "T4_2H_REPEATINGCROSSBOW_UNDEAD", Name: "Klagender Repetierer des Adepten", Tier: 4, Enchantment: 0, CategoryPath: "weapons/crossbow/crossbow_undead", Recipe: recipe_18a54b39f34a},
+		{ID: "T4_2H_REPEATINGCROSSBOW_UNDEAD@1", Name: "Klagender Repetierer des Adepten", Tier: 4, Enchantment: 1, CategoryPath: "weapons/crossbow/crossbow_undead", Recipe: recipe_18a54b39f34a},
+		{ID: "T4_2H_REPEATINGCROSSBOW_UNDEAD@2", Name: "Klagender Repetierer des Adepten", Tier: 4, Enchantment: 2, CategoryPath: "weapons/crossbow/crossbow_undead", Recipe: recipe_18a54b39f34a},
+		{ID: "T4_2H_REPEATINGCROSSBOW_UNDEAD@3", Name: "Klagender Repetierer des Adepten", Tier: 4, Enchantment: 3, CategoryPath: "weapons/crossbow/crossbow_undead", Recipe: recipe_18a54b39f34a},
+		{ID: "T4_2H_REPEATINGCROSSBOW_UNDEAD@4", Name: "Klagender Repetierer des Adepten", Tier: 4, Enchantment: 4, CategoryPath: "weapons/crossbow/crossbow_undead", Recipe: recipe_18a54b39f34a},
+		{ID: "T5_2H_REPEATINGCROSSBOW_UNDEAD", Name: "Klagender Repetierer des Experten", Tier: 5, Enchantment: 0, CategoryPath: "weapons/crossbow/crossbow_undead", Recipe: recipe_5e9169ad805a},
+		{ID: "T5_2H_REPEATINGCROSSBOW_UNDEAD@1", Name: "Klagender Repetierer des Experten", Tier: 5, Enchantment: 1, CategoryPath: "weapons/crossbow/crossbow_undead", Recipe: recipe_5e9169ad805a},
+		{ID: "T5_2H_REPEATINGCROSSBOW_UNDEAD@2", Name: "Klagender Repetierer des Experten", Tier: 5, Enchantment: 2, CategoryPath: "weapons/crossbow/crossbow_undead", Recipe: recipe_5e9169ad805a},
+		{ID: "T5_2H_REPEATINGCROSSBOW_UNDEAD@3", Name: "Klagender Repetierer des Experten", Tier: 5, Enchantment: 3, CategoryPath: "weapons/crossbow/crossbow_undead", Recipe: recipe_5e9169ad805a},
+		{ID: "T5_2H_REPEATINGCROSSBOW_UNDEAD@4", Name: "Klagender Repetierer des Experten", Tier: 5, Enchantment: 4, CategoryPath: "weapons/crossbow/crossbow_undead", Recipe: recipe_5e9169ad805a},
+		{ID: "T6_2H_REPEATINGCROSSBOW_UNDEAD", Name: "Klagender Repetierer des Meisters", Tier: 6, Enchantment: 0, CategoryPath: "weapons/crossbow/crossbow_undead", Recipe: recipe_0b337104166e},
+		{ID: "T6_2H_REPEATINGCROSSBOW_UNDEAD@1", Name: "Klagender Repetierer des Meisters", Tier: 6, Enchantment: 1, CategoryPath: "weapons/crossbow/crossbow_undead", Recipe: recipe_0b337104166e},
+		{ID: "T6_2H_REPEATINGCROSSBOW_UNDEAD@2", Name: "Klagender Repetierer des Meisters", Tier: 6, Enchantment: 2, CategoryPath: "weapons/crossbow/crossbow_undead", Recipe: recipe_0b337104166e},
+		{ID: "T6_2H_REPEATINGCROSSBOW_UNDEAD@3", Name: "Klagender Repetierer des Meisters", Tier: 6, Enchantment: 3, CategoryPath: "weapons/crossbow/crossbow_undead", Recipe: recipe_0b337104166e},
+		{ID: "T6_2H_REPEATINGCROSSBOW_UNDEAD@4", Name: "Klagender Repetierer des Meisters", Tier: 6, Enchantment: 4, CategoryPath: "weapons/crossbow/crossbow_undead", Recipe: recipe_0b337104166e},
+		{ID: "T7_2H_REPEATINGCROSSBOW_UNDEAD", Name: "Klagender Repetierer des Großmeisters", Tier: 7, Enchantment: 0, CategoryPath: "weapons/crossbow/crossbow_undead", Recipe: recipe_6269c693d3ca},
+		{ID: "T7_2H_REPEATINGCROSSBOW_UNDEAD@1", Name: "Klagender Repetierer des Großmeisters", Tier: 7, Enchantment: 1, CategoryPath: "weapons/crossbow/crossbow_undead", Recipe: recipe_6269c693d3ca},
+		{ID: "T7_2H_REPEATINGCROSSBOW_UNDEAD@2", Name: "Klagender Repetierer des Großmeisters", Tier: 7, Enchantment: 2, CategoryPath: "weapons/crossbow/crossbow_undead", Recipe: recipe_6269c693d3ca},
+		{ID: "T7_2H_REPEATINGCROSSBOW_UNDEAD@3", Name: "Klagender Repetierer des Großmeisters", Tier: 7, Enchantment: 3, CategoryPath: "weapons/crossbow/crossbow_undead", Recipe: recipe_6269c693d3ca},
+		{ID: "T7_2H_REPEATINGCROSSBOW_UNDEAD@4", Name: "Klagender Repetierer des Großmeisters", Tier: 7, Enchantment: 4, CategoryPath: "weapons/crossbow/crossbow_undead", Recipe: recipe_6269c693d3ca},
+		{ID: "T8_2H_REPEATINGCROSSBOW_UNDEAD", Name: "Klagender Repetierer des Ältesten", Tier: 8, Enchantment: 0, CategoryPath: "weapons/crossbow/crossbow_undead", Recipe: recipe_e5fc7350b271},
+		{ID: "T8_2H_REPEATINGCROSSBOW_UNDEAD@1", Name: "Klagender Repetierer des Ältesten", Tier: 8, Enchantment: 1, CategoryPath: "weapons/crossbow/crossbow_undead", Recipe: recipe_e5fc7350b271},
+		{ID: "T8_2H_REPEATINGCROSSBOW_UNDEAD@2", Name: "Klagender Repetierer des Ältesten", Tier: 8, Enchantment: 2, CategoryPath: "weapons/crossbow/crossbow_undead", Recipe: recipe_e5fc7350b271},
+		{ID: "T8_2H_REPEATINGCROSSBOW_UNDEAD@3", Name: "Klagender Repetierer des Ältesten", Tier: 8, Enchantment: 3, CategoryPath: "weapons/crossbow/crossbow_undead", Recipe: recipe_e5fc7350b271},
+		{ID: "T8_2H_REPEATINGCROSSBOW_UNDEAD@4", Name: "Klagender Repetierer des Ältesten", Tier: 8, Enchantment: 4, CategoryPath: "weapons/crossbow/crossbow_undead", Recipe: recipe_e5fc7350b271},
+	}},
+	{Name: "Gleichgewichtsstab des Adepten", BaseID: "2H_ROCKSTAFF_KEEPER", MinTier: 4, MaxTier: 8, MinEnchantment: 0, MaxEnchantment: 4, Variants: []ItemVariant{
+		{ID: "T4_2H_ROCKSTAFF_KEEPER", Name: "Gleichgewichtsstab des Adepten", Tier: 4, Enchantment: 0, CategoryPath: "weapons/quarterstaff/quarterstaff_keeper", Recipe: recipe_ce65c81319b4},
+		{ID: "T4_2H_ROCKSTAFF_KEEPER@1", Name: "Gleichgewichtsstab des Adepten", Tier: 4, Enchantment: 1, CategoryPath: "weapons/quarterstaff/quarterstaff_keeper", Recipe: recipe_ce65c81319b4},
+		{ID: "T4_2H_ROCKSTAFF_KEEPER@2", Name: "Gleichgewichtsstab des Adepten", Tier: 4, Enchantment: 2, CategoryPath: "weapons/quarterstaff/quarterstaff_keeper", Recipe: recipe_ce65c81319b4},
+		{ID: "T4_2H_ROCKSTAFF_KEEPER@3", Name: "Gleichgewichtsstab des Adepten", Tier: 4, Enchantment: 3, CategoryPath: "weapons/quarterstaff/quarterstaff_keeper", Recipe: recipe_ce65c81319b4},
+		{ID: "T4_2H_ROCKSTAFF_KEEPER@4", Name: "Gleichgewichtsstab des Adepten", Tier: 4, Enchantment: 4, CategoryPath: "weapons/quarterstaff/quarterstaff_keeper", Recipe: recipe_ce65c81319b4},
+		{ID: "T5_2H_ROCKSTAFF_KEEPER", Name: "Gleichgewichtsstab des Experten", Tier: 5, Enchantment: 0, CategoryPath: "weapons/quarterstaff/quarterstaff_keeper", Recipe: recipe_6fd31341264d},
+		{ID: "T5_2H_ROCKSTAFF_KEEPER@1", Name: "Gleichgewichtsstab des Experten", Tier: 5, Enchantment: 1, CategoryPath: "weapons/quarterstaff/quarterstaff_keeper", Recipe: recipe_6fd31341264d},
+		{ID: "T5_2H_ROCKSTAFF_KEEPER@2", Name: "Gleichgewichtsstab des Experten", Tier: 5, Enchantment: 2, CategoryPath: "weapons/quarterstaff/quarterstaff_keeper", Recipe: recipe_6fd31341264d},
+		{ID: "T5_2H_ROCKSTAFF_KEEPER@3", Name: "Gleichgewichtsstab des Experten", Tier: 5, Enchantment: 3, CategoryPath: "weapons/quarterstaff/quarterstaff_keeper", Recipe: recipe_6fd31341264d},
+		{ID: "T5_2H_ROCKSTAFF_KEEPER@4", Name: "Gleichgewichtsstab des Experten", Tier: 5, Enchantment: 4, CategoryPath: "weapons/quarterstaff/quarterstaff_keeper", Recipe: recipe_6fd31341264d},
+		{ID: "T6_2H_ROCKSTAFF_KEEPER", Name: "Gleichgewichtsstab des Meisters", Tier: 6, Enchantment: 0, CategoryPath: "weapons/quarterstaff/quarterstaff_keeper", Recipe: recipe_68765021e1dc},
+		{ID: "T6_2H_ROCKSTAFF_KEEPER@1", Name: "Gleichgewichtsstab des Meisters", Tier: 6, Enchantment: 1, CategoryPath: "weapons/quarterstaff/quarterstaff_keeper", Recipe: recipe_68765021e1dc},
+		{ID: "T6_2H_ROCKSTAFF_KEEPER@2", Name: "Gleichgewichtsstab des Meisters", Tier: 6, Enchantment: 2, CategoryPath: "weapons/quarterstaff/quarterstaff_keeper", Recipe: recipe_68765021e1dc},
+		{ID: "T6_2H_ROCKSTAFF_KEEPER@3", Name: "Gleichgewichtsstab des Meisters", Tier: 6, Enchantment: 3, CategoryPath: "weapons/quarterstaff/quarterstaff_keeper", Recipe: recipe_68765021e1dc},
+		{ID: "T6_2H_ROCKSTAFF_KEEPER@4", Name: "Gleichgewichtsstab des Meisters", Tier: 6, Enchantment: 4, CategoryPath: "weapons/quarterstaff/quarterstaff_keeper", Recipe: recipe_68765021e1dc},
+		{ID: "T7_2H_ROCKSTAFF_KEEPER", Name: "Gleichgewichtsstab des Großmeisters", Tier: 7, Enchantment: 0, CategoryPath: "weapons/quarterstaff/quarterstaff_keeper", Recipe: recipe_7baa3e4c8e51},
+		{ID: "T7_2H_ROCKSTAFF_KEEPER@1", Name: "Gleichgewichtsstab des Großmeisters", Tier: 7, Enchantment: 1, CategoryPath: "weapons/quarterstaff/quarterstaff_keeper", Recipe: recipe_7baa3e4c8e51},
+		{ID: "T7_2H_ROCKSTAFF_KEEPER@2", Name: "Gleichgewichtsstab des Großmeisters", Tier: 7, Enchantment: 2, CategoryPath: "weapons/quarterstaff/quarterstaff_keeper", Recipe: recipe_7baa3e4c8e51},
+		{ID: "T7_2H_ROCKSTAFF_KEEPER@3", Name: "Gleichgewichtsstab des Großmeisters", Tier: 7, Enchantment: 3, CategoryPath: "weapons/quarterstaff/quarterstaff_keeper", Recipe: recipe_7baa3e4c8e51},
+		{ID: "T7_2H_ROCKSTAFF_KEEPER@4", Name: "Gleichgewichtsstab des Großmeisters", Tier: 7, Enchantment: 4, CategoryPath: "weapons/quarterstaff/quarterstaff_keeper", Recipe: recipe_7baa3e4c8e51},
+		{ID: "T8_2H_ROCKSTAFF_KEEPER", Name: "Gleichgewichtsstab des Ältesten", Tier: 8, Enchantment: 0, CategoryPath: "weapons/quarterstaff/quarterstaff_keeper", Recipe: recipe_c4e3ba035d5c},
+		{ID: "T8_2H_ROCKSTAFF_KEEPER@1", Name: "Gleichgewichtsstab des Ältesten", Tier: 8, Enchantment: 1, CategoryPath: "weapons/quarterstaff/quarterstaff_keeper", Recipe: recipe_c4e3ba035d5c},
+		{ID: "T8_2H_ROCKSTAFF_KEEPER@2", Name: "Gleichgewichtsstab des Ältesten", Tier: 8, Enchantment: 2, CategoryPath: "weapons/quarterstaff/quarterstaff_keeper", Recipe: recipe_c4e3ba035d5c},
+		{ID: "T8_2H_ROCKSTAFF_KEEPER@3", Name: "Gleichgewichtsstab des Ältesten", Tier: 8, Enchantment: 3, CategoryPath: "weapons/quarterstaff/quarterstaff_keeper", Recipe: recipe_c4e3ba035d5c},
+		{ID: "T8_2H_ROCKSTAFF_KEEPER@4", Name: "Gleichgewichtsstab des Ältesten", Tier: 8, Enchantment: 4, CategoryPath: "weapons/quarterstaff/quarterstaff_keeper", Recipe: recipe_c4e3ba035d5c},
+	}},
+	{Name: "Kristall-Schnitter des Adepten", BaseID: "2H_SCYTHE_CRYSTAL", MinTier: 4, MaxTier: 8, MinEnchantment: 0, MaxEnchantment: 4, Variants: []ItemVariant{
+		{ID: "T4_2H_SCYTHE_CRYSTAL", Name: "Kristall-Schnitter des Adepten", Tier: 4, Enchantment: 0, CategoryPath: "weapons/axe/axe_crystal", Recipe: recipe_1042352b5155},
+		{ID: "T4_2H_SCYTHE_CRYSTAL@1", Name: "Kristall-Schnitter des Adepten", Tier: 4, Enchantment: 1, CategoryPath: "weapons/axe/axe_crystal", Recipe: recipe_1042352b5155},
+		{ID: "T4_2H_SCYTHE_CRYSTAL@2", Name: "Kristall-Schnitter des Adepten", Tier: 4, Enchantment: 2, CategoryPath: "weapons/axe/axe_crystal", Recipe: recipe_1042352b5155},
+		{ID: "T4_2H_SCYTHE_CRYSTAL@3", Name: "Kristall-Schnitter des Adepten", Tier: 4, Enchantment: 3, CategoryPath: "weapons/axe/axe_crystal", Recipe: recipe_1042352b5155},
+		{ID: "T4_2H_SCYTHE_CRYSTAL@4", Name: "Kristall-Schnitter des Adepten", Tier: 4, Enchantment: 4, CategoryPath: "weapons/axe/axe_crystal", Recipe: recipe_1042352b5155},
+		{ID: "T5_2H_SCYTHE_CRYSTAL", Name: "Kristall-Schnitter des Experten", Tier: 5, Enchantment: 0, CategoryPath: "weapons/axe/axe_crystal", Recipe: recipe_6fe9f3df2677},
+		{ID: "T5_2H_SCYTHE_CRYSTAL@1", Name: "Kristall-Schnitter des Experten", Tier: 5, Enchantment: 1, CategoryPath: "weapons/axe/axe_crystal", Recipe: recipe_6fe9f3df2677},
+		{ID: "T5_2H_SCYTHE_CRYSTAL@2", Name: "Kristall-Schnitter des Experten", Tier: 5, Enchantment: 2, CategoryPath: "weapons/axe/axe_crystal", Recipe: recipe_6fe9f3df2677},
+		{ID: "T5_2H_SCYTHE_CRYSTAL@3", Name: "Kristall-Schnitter des Experten", Tier: 5, Enchantment: 3, CategoryPath: "weapons/axe/axe_crystal", Recipe: recipe_6fe9f3df2677},
+		{ID: "T5_2H_SCYTHE_CRYSTAL@4", Name: "Kristall-Schnitter des Experten", Tier: 5, Enchantment: 4, CategoryPath: "weapons/axe/axe_crystal", Recipe: recipe_6fe9f3df2677},
+		{ID: "T6_2H_SCYTHE_CRYSTAL", Name: "Kristall-Schnitter des Meisters", Tier: 6, Enchantment: 0, CategoryPath: "weapons/axe/axe_crystal", Recipe: recipe_90abcc18e56f},
+		{ID: "T6_2H_SCYTHE_CRYSTAL@1", Name: "Kristall-Schnitter des Meisters", Tier: 6, Enchantment: 1, CategoryPath: "weapons/axe/axe_crystal", Recipe: recipe_90abcc18e56f},
+		{ID: "T6_2H_SCYTHE_CRYSTAL@2", Name: "Kristall-Schnitter des Meisters", Tier: 6, Enchantment: 2, CategoryPath: "weapons/axe/axe_crystal", Recipe: recipe_90abcc18e56f},
+		{ID: "T6_2H_SCYTHE_CRYSTAL@3", Name: "Kristall-Schnitter des Meisters", Tier: 6, Enchantment: 3, CategoryPath: "weapons/axe/axe_crystal", Recipe: recipe_90abcc18e56f},
+		{ID: "T6_2H_SCYTHE_CRYSTAL@4", Name: "Kristall-Schnitter des Meisters", Tier: 6, Enchantment: 4, CategoryPath: "weapons/axe/axe_crystal", Recipe: recipe_90abcc18e56f},
+		{ID: "T7_2H_SCYTHE_CRYSTAL", Name: "Kristall-Schnitter des Großmeisters", Tier: 7, Enchantment: 0, CategoryPath: "weapons/axe/axe_crystal", Recipe: recipe_7afd61886a4e},
+		{ID: "T7_2H_SCYTHE_CRYSTAL@1", Name: "Kristall-Schnitter des Großmeisters", Tier: 7, Enchantment: 1, CategoryPath: "weapons/axe/axe_crystal", Recipe: recipe_7afd61886a4e},
+		{ID: "T7_2H_SCYTHE_CRYSTAL@2", Name: "Kristall-Schnitter des Großmeisters", Tier: 7, Enchantment: 2, CategoryPath: "weapons/axe/axe_crystal", Recipe: recipe_7afd61886a4e},
+		{ID: "T7_2H_SCYTHE_CRYSTAL@3", Name: "Kristall-Schnitter des Großmeisters", Tier: 7, Enchantment: 3, CategoryPath: "weapons/axe/axe_crystal", Recipe: recipe_7afd61886a4e},
+		{ID: "T7_2H_SCYTHE_CRYSTAL@4", Name: "Kristall-Schnitter des Großmeisters", Tier: 7, Enchantment: 4, CategoryPath: "weapons/axe/axe_crystal", Recipe: recipe_7afd61886a4e},
+		{ID: "T8_2H_SCYTHE_CRYSTAL", Name: "Kristall-Schnitter des Ältesten", Tier: 8, Enchantment: 0, CategoryPath: "weapons/axe/axe_crystal", Recipe: recipe_55b622417950},
+		{ID: "T8_2H_SCYTHE_CRYSTAL@1", Name: "Kristall-Schnitter des Ältesten", Tier: 8, Enchantment: 1, CategoryPath: "weapons/axe/axe_crystal", Recipe: recipe_55b622417950},
+		{ID: "T8_2H_SCYTHE_CRYSTAL@2", Name: "Kristall-Schnitter des Ältesten", Tier: 8, Enchantment: 2, CategoryPath: "weapons/axe/axe_crystal", Recipe: recipe_55b622417950},
+		{ID: "T8_2H_SCYTHE_CRYSTAL@3", Name: "Kristall-Schnitter des Ältesten", Tier: 8, Enchantment: 3, CategoryPath: "weapons/axe/axe_crystal", Recipe: recipe_55b622417950},
+		{ID: "T8_2H_SCYTHE_CRYSTAL@4", Name: "Kristall-Schnitter des Ältesten", Tier: 8, Enchantment: 4, CategoryPath: "weapons/axe/axe_crystal", Recipe: recipe_55b622417950},
+	}},
+	{Name: "Höllensense des Adepten", BaseID: "2H_SCYTHE_HELL", MinTier: 4, MaxTier: 8, MinEnchantment: 0, MaxEnchantment: 4, Variants: []ItemVariant{
+		{ID: "T4_2H_SCYTHE_HELL", Name: "Höllensense des Adepten", Tier: 4, Enchantment: 0, CategoryPath: "weapons/axe/axe_hell", Recipe: recipe_1ed156e0251d},
+		{ID: "T4_2H_SCYTHE_HELL@1", Name: "Höllensense des Adepten", Tier: 4, Enchantment: 1, CategoryPath: "weapons/axe/axe_hell", Recipe: recipe_1ed156e0251d},
+		{ID: "T4_2H_SCYTHE_HELL@2", Name: "Höllensense des Adepten", Tier: 4, Enchantment: 2, CategoryPath: "weapons/axe/axe_hell", Recipe: recipe_1ed156e0251d},
+		{ID: "T4_2H_SCYTHE_HELL@3", Name: "Höllensense des Adepten", Tier: 4, Enchantment: 3, CategoryPath: "weapons/axe/axe_hell", Recipe: recipe_1ed156e0251d},
+		{ID: "T4_2H_SCYTHE_HELL@4", Name: "Höllensense des Adepten", Tier: 4, Enchantment: 4, CategoryPath: "weapons/axe/axe_hell", Recipe: recipe_1ed156e0251d},
+		{ID: "T5_2H_SCYTHE_HELL", Name: "Höllensense des Experten", Tier: 5, Enchantment: 0, CategoryPath: "weapons/axe/axe_hell", Recipe: recipe_ca696d12beeb},
+		{ID: "T5_2H_SCYTHE_HELL@1", Name: "Höllensense des Experten", Tier: 5, Enchantment: 1, CategoryPath: "weapons/axe/axe_hell", Recipe: recipe_ca696d12beeb},
+		{ID: "T5_2H_SCYTHE_HELL@2", Name: "Höllensense des Experten", Tier: 5, Enchantment: 2, CategoryPath: "weapons/axe/axe_hell", Recipe: recipe_ca696d12beeb},
+		{ID: "T5_2H_SCYTHE_HELL@3", Name: "Höllensense des Experten", Tier: 5, Enchantment: 3, CategoryPath: "weapons/axe/axe_hell", Recipe: recipe_ca696d12beeb},
+		{ID: "T5_2H_SCYTHE_HELL@4", Name: "Höllensense des Experten", Tier: 5, Enchantment: 4, CategoryPath: "weapons/axe/axe_hell", Recipe: recipe_ca696d12beeb},
+		{ID: "T6_2H_SCYTHE_HELL", Name: "Höllensense des Meisters", Tier: 6, Enchantment: 0, CategoryPath: "weapons/axe/axe_hell", Recipe: recipe_9265d186ef79},
+		{ID: "T6_2H_SCYTHE_HELL@1", Name: "Höllensense des Meisters", Tier: 6, Enchantment: 1, CategoryPath: "weapons/axe/axe_hell", Recipe: recipe_9265d186ef79},
+		{ID: "T6_2H_SCYTHE_HELL@2", Name: "Höllensense des Meisters", Tier: 6, Enchantment: 2, CategoryPath: "weapons/axe/axe_hell", Recipe: recipe_9265d186ef79},
+		{ID: "T6_2H_SCYTHE_HELL@3", Name: "Höllensense des Meisters", Tier: 6, Enchantment: 3, CategoryPath: "weapons/axe/axe_hell", Recipe: recipe_9265d186ef79},
+		{ID: "T6_2H_SCYTHE_HELL@4", Name: "Höllensense des Meisters", Tier: 6, Enchantment: 4, CategoryPath: "weapons/axe/axe_hell", Recipe: recipe_9265d186ef79},
+		{ID: "T7_2H_SCYTHE_HELL", Name: "Höllensense des Großmeisters", Tier: 7, Enchantment: 0, CategoryPath: "weapons/axe/axe_hell", Recipe: recipe_c6d233d16824},
+		{ID: "T7_2H_SCYTHE_HELL@1", Name: "Höllensense des Großmeisters", Tier: 7, Enchantment: 1, CategoryPath: "weapons/axe/axe_hell", Recipe: recipe_c6d233d16824},
+		{ID: "T7_2H_SCYTHE_HELL@2", Name: "Höllensense des Großmeisters", Tier: 7, Enchantment: 2, CategoryPath: "weapons/axe/axe_hell", Recipe: recipe_c6d233d16824},
+		{ID: "T7_2H_SCYTHE_HELL@3", Name: "Höllensense des Großmeisters", Tier: 7, Enchantment: 3, CategoryPath: "weapons/axe/axe_hell", Recipe: recipe_c6d233d16824},
+		{ID: "T7_2H_SCYTHE_HELL@4", Name: "Höllensense des Großmeisters", Tier: 7, Enchantment: 4, CategoryPath: "weapons/axe/axe_hell", Recipe: recipe_c6d233d16824},
+		{ID: "T8_2H_SCYTHE_HELL", Name: "Höllensense des Ältesten", Tier: 8, Enchantment: 0, CategoryPath: "weapons/axe/axe_hell", Recipe: recipe_f54a1d56d500},
+		{ID: "T8_2H_SCYTHE_HELL@1", Name: "Höllensense des Ältesten", Tier: 8, Enchantment: 1, CategoryPath: "weapons/axe/axe_hell", Recipe: recipe_f54a1d56d500},
+		{ID: "T8_2H_SCYTHE_HELL@2", Name: "Höllensense des Ältesten", Tier: 8, Enchantment: 2, CategoryPath: "weapons/axe/axe_hell", Recipe: recipe_f54a1d56d500},
+		{ID: "T8_2H_SCYTHE_HELL@3", Name: "Höllensense des Ältesten", Tier: 8, Enchantment: 3, CategoryPath: "weapons/axe/axe_hell", Recipe: recipe_f54a1d56d500},
+		{ID: "T8_2H_SCYTHE_HELL@4", Name: "Höllensense des Ältesten", Tier: 8, Enchantment: 4, CategoryPath: "weapons/axe/axe_hell", Recipe: recipe_f54a1d56d500},
+	}},
+	{Name: "Lichtrufer des Adepten", BaseID: "2H_SHAPESHIFTER_AVALON", MinTier: 4, MaxTier: 8, MinEnchantment: 0, MaxEnchantment: 4, Variants: []ItemVariant{
+		{ID: "T4_2H_SHAPESHIFTER_AVALON", Name: "Lichtrufer des Adepten", Tier: 4, Enchantment: 0, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_avalon", Recipe: recipe_40a7bd33243a},
+		{ID: "T4_2H_SHAPESHIFTER_AVALON@1", Name: "Lichtrufer des Adepten", Tier: 4, Enchantment: 1, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_avalon", Recipe: recipe_40a7bd33243a},
+		{ID: "T4_2H_SHAPESHIFTER_AVALON@2", Name: "Lichtrufer des Adepten", Tier: 4, Enchantment: 2, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_avalon", Recipe: recipe_40a7bd33243a},
+		{ID: "T4_2H_SHAPESHIFTER_AVALON@3", Name: "Lichtrufer des Adepten", Tier: 4, Enchantment: 3, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_avalon", Recipe: recipe_40a7bd33243a},
+		{ID: "T4_2H_SHAPESHIFTER_AVALON@4", Name: "Lichtrufer des Adepten", Tier: 4, Enchantment: 4, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_avalon", Recipe: recipe_40a7bd33243a},
+		{ID: "T5_2H_SHAPESHIFTER_AVALON", Name: "Lichtrufer des Experten", Tier: 5, Enchantment: 0, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_avalon", Recipe: recipe_d0e60d6a524b},
+		{ID: "T5_2H_SHAPESHIFTER_AVALON@1", Name: "Lichtrufer des Experten", Tier: 5, Enchantment: 1, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_avalon", Recipe: recipe_d0e60d6a524b},
+		{ID: "T5_2H_SHAPESHIFTER_AVALON@2", Name: "Lichtrufer des Experten", Tier: 5, Enchantment: 2, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_avalon", Recipe: recipe_d0e60d6a524b},
+		{ID: "T5_2H_SHAPESHIFTER_AVALON@3", Name: "Lichtrufer des Experten", Tier: 5, Enchantment: 3, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_avalon", Recipe: recipe_d0e60d6a524b},
+		{ID: "T5_2H_SHAPESHIFTER_AVALON@4", Name: "Lichtrufer des Experten", Tier: 5, Enchantment: 4, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_avalon", Recipe: recipe_d0e60d6a524b},
+		{ID: "T6_2H_SHAPESHIFTER_AVALON", Name: "Lichtrufer des Meisters", Tier: 6, Enchantment: 0, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_avalon", Recipe: recipe_4d76ccc854c3},
+		{ID: "T6_2H_SHAPESHIFTER_AVALON@1", Name: "Lichtrufer des Meisters", Tier: 6, Enchantment: 1, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_avalon", Recipe: recipe_4d76ccc854c3},
+		{ID: "T6_2H_SHAPESHIFTER_AVALON@2", Name: "Lichtrufer des Meisters", Tier: 6, Enchantment: 2, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_avalon", Recipe: recipe_4d76ccc854c3},
+		{ID: "T6_2H_SHAPESHIFTER_AVALON@3", Name: "Lichtrufer des Meisters", Tier: 6, Enchantment: 3, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_avalon", Recipe: recipe_4d76ccc854c3},
+		{ID: "T6_2H_SHAPESHIFTER_AVALON@4", Name: "Lichtrufer des Meisters", Tier: 6, Enchantment: 4, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_avalon", Recipe: recipe_4d76ccc854c3},
+		{ID: "T7_2H_SHAPESHIFTER_AVALON", Name: "Lichtrufer des Großmeisters", Tier: 7, Enchantment: 0, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_avalon", Recipe: recipe_04427c649974},
+		{ID: "T7_2H_SHAPESHIFTER_AVALON@1", Name: "Lichtrufer des Großmeisters", Tier: 7, Enchantment: 1, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_avalon", Recipe: recipe_04427c649974},
+		{ID: "T7_2H_SHAPESHIFTER_AVALON@2", Name: "Lichtrufer des Großmeisters", Tier: 7, Enchantment: 2, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_avalon", Recipe: recipe_04427c649974},
+		{ID: "T7_2H_SHAPESHIFTER_AVALON@3", Name: "Lichtrufer des Großmeisters", Tier: 7, Enchantment: 3, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_avalon", Recipe: recipe_04427c649974},
+		{ID: "T7_2H_SHAPESHIFTER_AVALON@4", Name: "Lichtrufer des Großmeisters", Tier: 7, Enchantment: 4, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_avalon", Recipe: recipe_04427c649974},
+		{ID: "T8_2H_SHAPESHIFTER_AVALON", Name: "Lichtrufer des Ältesten", Tier: 8, Enchantment: 0, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_avalon", Recipe: recipe_9d5ee484bd77},
+		{ID: "T8_2H_SHAPESHIFTER_AVALON@1", Name: "Lichtrufer des Ältesten", Tier: 8, Enchantment: 1, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_avalon", Recipe: recipe_9d5ee484bd77},
+		{ID: "T8_2H_SHAPESHIFTER_AVALON@2", Name: "Lichtrufer des Ältesten", Tier: 8, Enchantment: 2, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_avalon", Recipe: recipe_9d5ee484bd77},
+		{ID: "T8_2H_SHAPESHIFTER_AVALON@3", Name: "Lichtrufer des Ältesten", Tier: 8, Enchantment: 3, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_avalon", Recipe: recipe_9d5ee484bd77},
+		{ID: "T8_2H_SHAPESHIFTER_AVALON@4", Name: "Lichtrufer des Ältesten", Tier: 8, Enchantment: 4, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_avalon", Recipe: recipe_9d5ee484bd77},
+	}},
+	{Name: "Starreblickstab des Adepten", BaseID: "2H_SHAPESHIFTER_CRYSTAL", MinTier: 4, MaxTier: 8, MinEnchantment: 0, MaxEnchantment: 4, Variants: []ItemVariant{
+		{ID: "T4_2H_SHAPESHIFTER_CRYSTAL", Name: "Starreblickstab des Adepten", Tier: 4, Enchantment: 0, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_crystal", Recipe: recipe_3bd2eb50107f},
+		{ID: "T4_2H_SHAPESHIFTER_CRYSTAL@1", Name: "Starreblickstab des Adepten", Tier: 4, Enchantment: 1, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_crystal", Recipe: recipe_3bd2eb50107f},
+		{ID: "T4_2H_SHAPESHIFTER_CRYSTAL@2", Name: "Starreblickstab des Adepten", Tier: 4, Enchantment: 2, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_crystal", Recipe: recipe_3bd2eb50107f},
+		{ID: "T4_2H_SHAPESHIFTER_CRYSTAL@3", Name: "Starreblickstab des Adepten", Tier: 4, Enchantment: 3, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_crystal", Recipe: recipe_3bd2eb50107f},
+		{ID: "T4_2H_SHAPESHIFTER_CRYSTAL@4", Name: "Starreblickstab des Adepten", Tier: 4, Enchantment: 4, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_crystal", Recipe: recipe_3bd2eb50107f},
+		{ID: "T5_2H_SHAPESHIFTER_CRYSTAL", Name: "Starreblickstab des Experten", Tier: 5, Enchantment: 0, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_crystal", Recipe: recipe_aaf0eee02a28},
+		{ID: "T5_2H_SHAPESHIFTER_CRYSTAL@1", Name: "Starreblickstab des Experten", Tier: 5, Enchantment: 1, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_crystal", Recipe: recipe_aaf0eee02a28},
+		{ID: "T5_2H_SHAPESHIFTER_CRYSTAL@2", Name: "Starreblickstab des Experten", Tier: 5, Enchantment: 2, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_crystal", Recipe: recipe_aaf0eee02a28},
+		{ID: "T5_2H_SHAPESHIFTER_CRYSTAL@3", Name: "Starreblickstab des Experten", Tier: 5, Enchantment: 3, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_crystal", Recipe: recipe_aaf0eee02a28},
+		{ID: "T5_2H_SHAPESHIFTER_CRYSTAL@4", Name: "Starreblickstab des Experten", Tier: 5, Enchantment: 4, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_crystal", Recipe: recipe_aaf0eee02a28},
+		{ID: "T6_2H_SHAPESHIFTER_CRYSTAL", Name: "Starreblickstab des Meisters", Tier: 6, Enchantment: 0, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_crystal", Recipe: recipe_9c5200780ea8},
+		{ID: "T6_2H_SHAPESHIFTER_CRYSTAL@1", Name: "Starreblickstab des Meisters", Tier: 6, Enchantment: 1, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_crystal", Recipe: recipe_9c5200780ea8},
+		{ID: "T6_2H_SHAPESHIFTER_CRYSTAL@2", Name: "Starreblickstab des Meisters", Tier: 6, Enchantment: 2, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_crystal", Recipe: recipe_9c5200780ea8},
+		{ID: "T6_2H_SHAPESHIFTER_CRYSTAL@3", Name: "Starreblickstab des Meisters", Tier: 6, Enchantment: 3, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_crystal", Recipe: recipe_9c5200780ea8},
+		{ID: "T6_2H_SHAPESHIFTER_CRYSTAL@4", Name: "Starreblickstab des Meisters", Tier: 6, Enchantment: 4, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_crystal", Recipe: recipe_9c5200780ea8},
+		{ID: "T7_2H_SHAPESHIFTER_CRYSTAL", Name: "Starreblickstab des Großmeisters", Tier: 7, Enchantment: 0, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_crystal", Recipe: recipe_db32fce14e90},
+		{ID: "T7_2H_SHAPESHIFTER_CRYSTAL@1", Name: "Starreblickstab des Großmeisters", Tier: 7, Enchantment: 1, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_crystal", Recipe: recipe_db32fce14e90},
+		{ID: "T7_2H_SHAPESHIFTER_CRYSTAL@2", Name: "Starreblickstab des Großmeisters", Tier: 7, Enchantment: 2, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_crystal", Recipe: recipe_db32fce14e90},
+		{ID: "T7_2H_SHAPESHIFTER_CRYSTAL@3", Name: "Starreblickstab des Großmeisters", Tier: 7, Enchantment: 3, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_crystal", Recipe: recipe_db32fce14e90},
+		{ID: "T7_2H_SHAPESHIFTER_CRYSTAL@4", Name: "Starreblickstab des Großmeisters", Tier: 7, Enchantment: 4, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_crystal", Recipe: recipe_db32fce14e90},
+		{ID: "T8_2H_SHAPESHIFTER_CRYSTAL", Name: "Starreblickstab des Ältesten", Tier: 8, Enchantment: 0, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_crystal", Recipe: recipe_dd788bced923},
+		{ID: "T8_2H_SHAPESHIFTER_CRYSTAL@1", Name: "Starreblickstab des Ältesten", Tier: 8, Enchantment: 1, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_crystal", Recipe: recipe_dd788bced923},
+		{ID: "T8_2H_SHAPESHIFTER_CRYSTAL@2", Name: "Starreblickstab des Ältesten", Tier: 8, Enchantment: 2, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_crystal", Recipe: recipe_dd788bced923},
+		{ID: "T8_2H_SHAPESHIFTER_CRYSTAL@3", Name: "Starreblickstab des Ältesten", Tier: 8, Enchantment: 3, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_crystal", Recipe: recipe_dd788bced923},
+		{ID: "T8_2H_SHAPESHIFTER_CRYSTAL@4", Name: "Starreblickstab des Ältesten", Tier: 8, Enchantment: 4, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_crystal", Recipe: recipe_dd788bced923},
+	}},
+	{Name: "Höllischer Stab des Adepten", BaseID: "2H_SHAPESHIFTER_HELL", MinTier: 4, MaxTier: 8, MinEnchantment: 0, MaxEnchantment: 4, Variants: []ItemVariant{
+		{ID: "T4_2H_SHAPESHIFTER_HELL", Name: "Höllischer Stab des Adepten", Tier: 4, Enchantment: 0, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_hell", Recipe: recipe_b185f2a4f102},
+		{ID: "T4_2H_SHAPESHIFTER_HELL@1", Name: "Höllischer Stab des Adepten", Tier: 4, Enchantment: 1, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_hell", Recipe: recipe_b185f2a4f102},
+		{ID: "T4_2H_SHAPESHIFTER_HELL@2", Name: "Höllischer Stab des Adepten", Tier: 4, Enchantment: 2, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_hell", Recipe: recipe_b185f2a4f102},
+		{ID: "T4_2H_SHAPESHIFTER_HELL@3", Name: "Höllischer Stab des Adepten", Tier: 4, Enchantment: 3, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_hell", Recipe: recipe_b185f2a4f102},
+		{ID: "T4_2H_SHAPESHIFTER_HELL@4", Name: "Höllischer Stab des Adepten", Tier: 4, Enchantment: 4, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_hell", Recipe: recipe_b185f2a4f102},
+		{ID: "T5_2H_SHAPESHIFTER_HELL", Name: "Höllischer Stab des Experten", Tier: 5, Enchantment: 0, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_hell", Recipe: recipe_f81e778de0f6},
+		{ID: "T5_2H_SHAPESHIFTER_HELL@1", Name: "Höllischer Stab des Experten", Tier: 5, Enchantment: 1, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_hell", Recipe: recipe_f81e778de0f6},
+		{ID: "T5_2H_SHAPESHIFTER_HELL@2", Name: "Höllischer Stab des Experten", Tier: 5, Enchantment: 2, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_hell", Recipe: recipe_f81e778de0f6},
+		{ID: "T5_2H_SHAPESHIFTER_HELL@3", Name: "Höllischer Stab des Experten", Tier: 5, Enchantment: 3, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_hell", Recipe: recipe_f81e778de0f6},
+		{ID: "T5_2H_SHAPESHIFTER_HELL@4", Name: "Höllischer Stab des Experten", Tier: 5, Enchantment: 4, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_hell", Recipe: recipe_f81e778de0f6},
+		{ID: "T6_2H_SHAPESHIFTER_HELL", Name: "Höllischer Stab des Meisters", Tier: 6, Enchantment: 0, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_hell", Recipe: recipe_f9d6d360396a},
+		{ID: "T6_2H_SHAPESHIFTER_HELL@1", Name: "Höllischer Stab des Meisters", Tier: 6, Enchantment: 1, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_hell", Recipe: recipe_f9d6d360396a},
+		{ID: "T6_2H_SHAPESHIFTER_HELL@2", Name: "Höllischer Stab des Meisters", Tier: 6, Enchantment: 2, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_hell", Recipe: recipe_f9d6d360396a},
+		{ID: "T6_2H_SHAPESHIFTER_HELL@3", Name: "Höllischer Stab des Meisters", Tier: 6, Enchantment: 3, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_hell", Recipe: recipe_f9d6d360396a},
+		{ID: "T6_2H_SHAPESHIFTER_HELL@4", Name: "Höllischer Stab des Meisters", Tier: 6, Enchantment: 4, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_hell", Recipe: recipe_f9d6d360396a},
+		{ID: "T7_2H_SHAPESHIFTER_HELL", Name: "Höllischer Stab des Großmeisters", Tier: 7, Enchantment: 0, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_hell", Recipe: recipe_832e14972899},
+		{ID: "T7_2H_SHAPESHIFTER_HELL@1", Name: "Höllischer Stab des Großmeisters", Tier: 7, Enchantment: 1, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_hell", Recipe: recipe_832e14972899},
+		{ID: "T7_2H_SHAPESHIFTER_HELL@2", Name: "Höllischer Stab des Großmeisters", Tier: 7, Enchantment: 2, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_hell", Recipe: recipe_832e14972899},
+		{ID: "T7_2H_SHAPESHIFTER_HELL@3", Name: "Höllischer Stab des Großmeisters", Tier: 7, Enchantment: 3, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_hell", Recipe: recipe_832e14972899},
+		{ID: "T7_2H_SHAPESHIFTER_HELL@4", Name: "Höllischer Stab des Großmeisters", Tier: 7, Enchantment: 4, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_hell", Recipe: recipe_832e14972899},
+		{ID: "T8_2H_SHAPESHIFTER_HELL", Name: "Höllischer Stab des Ältesten", Tier: 8, Enchantment: 0, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_hell", Recipe: recipe_97d5f9372255},
+		{ID: "T8_2H_SHAPESHIFTER_HELL@1", Name: "Höllischer Stab des Ältesten", Tier: 8, Enchantment: 1, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_hell", Recipe: recipe_97d5f9372255},
+		{ID: "T8_2H_SHAPESHIFTER_HELL@2", Name: "Höllischer Stab des Ältesten", Tier: 8, Enchantment: 2, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_hell", Recipe: recipe_97d5f9372255},
+		{ID: "T8_2H_SHAPESHIFTER_HELL@3", Name: "Höllischer Stab des Ältesten", Tier: 8, Enchantment: 3, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_hell", Recipe: recipe_97d5f9372255},
+		{ID: "T8_2H_SHAPESHIFTER_HELL@4", Name: "Höllischer Stab des Ältesten", Tier: 8, Enchantment: 4, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_hell", Recipe: recipe_97d5f9372255},
+	}},
+	{Name: "Erdrunenstab des Adepten", BaseID: "2H_SHAPESHIFTER_KEEPER", MinTier: 4, MaxTier: 8, MinEnchantment: 0, MaxEnchantment: 4, Variants: []ItemVariant{
+		{ID: "T4_2H_SHAPESHIFTER_KEEPER", Name: "Erdrunenstab des Adepten", Tier: 4, Enchantment: 0, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_keeper", Recipe: recipe_33eef0390888},
+		{ID: "T4_2H_SHAPESHIFTER_KEEPER@1", Name: "Erdrunenstab des Adepten", Tier: 4, Enchantment: 1, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_keeper", Recipe: recipe_33eef0390888},
+		{ID: "T4_2H_SHAPESHIFTER_KEEPER@2", Name: "Erdrunenstab des Adepten", Tier: 4, Enchantment: 2, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_keeper", Recipe: recipe_33eef0390888},
+		{ID: "T4_2H_SHAPESHIFTER_KEEPER@3", Name: "Erdrunenstab des Adepten", Tier: 4, Enchantment: 3, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_keeper", Recipe: recipe_33eef0390888},
+		{ID: "T4_2H_SHAPESHIFTER_KEEPER@4", Name: "Erdrunenstab des Adepten", Tier: 4, Enchantment: 4, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_keeper", Recipe: recipe_33eef0390888},
+		{ID: "T5_2H_SHAPESHIFTER_KEEPER", Name: "Erdrunenstab des Experten", Tier: 5, Enchantment: 0, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_keeper", Recipe: recipe_7ce8e24c3bb8},
+		{ID: "T5_2H_SHAPESHIFTER_KEEPER@1", Name: "Erdrunenstab des Experten", Tier: 5, Enchantment: 1, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_keeper", Recipe: recipe_7ce8e24c3bb8},
+		{ID: "T5_2H_SHAPESHIFTER_KEEPER@2", Name: "Erdrunenstab des Experten", Tier: 5, Enchantment: 2, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_keeper", Recipe: recipe_7ce8e24c3bb8},
+		{ID: "T5_2H_SHAPESHIFTER_KEEPER@3", Name: "Erdrunenstab des Experten", Tier: 5, Enchantment: 3, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_keeper", Recipe: recipe_7ce8e24c3bb8},
+		{ID: "T5_2H_SHAPESHIFTER_KEEPER@4", Name: "Erdrunenstab des Experten", Tier: 5, Enchantment: 4, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_keeper", Recipe: recipe_7ce8e24c3bb8},
+		{ID: "T6_2H_SHAPESHIFTER_KEEPER", Name: "Erdrunenstab des Meisters", Tier: 6, Enchantment: 0, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_keeper", Recipe: recipe_177542447b84},
+		{ID: "T6_2H_SHAPESHIFTER_KEEPER@1", Name: "Erdrunenstab des Meisters", Tier: 6, Enchantment: 1, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_keeper", Recipe: recipe_177542447b84},
+		{ID: "T6_2H_SHAPESHIFTER_KEEPER@2", Name: "Erdrunenstab des Meisters", Tier: 6, Enchantment: 2, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_keeper", Recipe: recipe_177542447b84},
+		{ID: "T6_2H_SHAPESHIFTER_KEEPER@3", Name: "Erdrunenstab des Meisters", Tier: 6, Enchantment: 3, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_keeper", Recipe: recipe_177542447b84},
+		{ID: "T6_2H_SHAPESHIFTER_KEEPER@4", Name: "Erdrunenstab des Meisters", Tier: 6, Enchantment: 4, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_keeper", Recipe: recipe_177542447b84},
+		{ID: "T7_2H_SHAPESHIFTER_KEEPER", Name: "Erdrunenstab des Großmeisters", Tier: 7, Enchantment: 0, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_keeper", Recipe: recipe_73f4009c1b73},
+		{ID: "T7_2H_SHAPESHIFTER_KEEPER@1", Name: "Erdrunenstab des Großmeisters", Tier: 7, Enchantment: 1, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_keeper", Recipe: recipe_73f4009c1b73},
+		{ID: "T7_2H_SHAPESHIFTER_KEEPER@2", Name: "Erdrunenstab des Großmeisters", Tier: 7, Enchantment: 2, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_keeper", Recipe: recipe_73f4009c1b73},
+		{ID: "T7_2H_SHAPESHIFTER_KEEPER@3", Name: "Erdrunenstab des Großmeisters", Tier: 7, Enchantment: 3, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_keeper", Recipe: recipe_73f4009c1b73},
+		{ID: "T7_2H_SHAPESHIFTER_KEEPER@4", Name: "Erdrunenstab des Großmeisters", Tier: 7, Enchantment: 4, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_keeper", Recipe: recipe_73f4009c1b73},
+		{ID: "T8_2H_SHAPESHIFTER_KEEPER", Name: "Erdrunenstab des Ältesten", Tier: 8, Enchantment: 0, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_keeper", Recipe: recipe_3ff18754403e},
+		{ID: "T8_2H_SHAPESHIFTER_KEEPER@1", Name: "Erdrunenstab des Ältesten", Tier: 8, Enchantment: 1, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_keeper", Recipe: recipe_3ff18754403e},
+		{ID: "T8_2H_SHAPESHIFTER_KEEPER@2", Name: "Erdrunenstab des Ältesten", Tier: 8, Enchantment: 2, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_keeper", Recipe: recipe_3ff18754403e},
+		{ID: "T8_2H_SHAPESHIFTER_KEEPER@3", Name: "Erdrunenstab des Ältesten", Tier: 8, Enchantment: 3, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_keeper", Recipe: recipe_3ff18754403e},
+		{ID: "T8_2H_SHAPESHIFTER_KEEPER@4", Name: "Erdrunenstab des Ältesten", Tier: 8, Enchantment: 4, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_keeper", Recipe: recipe_3ff18754403e},
+	}},
+	{Name: "Blutmondstab des Adepten", BaseID: "2H_SHAPESHIFTER_MORGANA", MinTier: 4, MaxTier: 8, MinEnchantment: 0, MaxEnchantment: 4, Variants: []ItemVariant{
+		{ID: "T4_2H_SHAPESHIFTER_MORGANA", Name: "Blutmondstab des Adepten", Tier: 4, Enchantment: 0, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_morgana", Recipe: recipe_1e6dc9505002},
+		{ID: "T4_2H_SHAPESHIFTER_MORGANA@1", Name: "Blutmondstab des Adepten", Tier: 4, Enchantment: 1, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_morgana", Recipe: recipe_1e6dc9505002},
+		{ID: "T4_2H_SHAPESHIFTER_MORGANA@2", Name: "Blutmondstab des Adepten", Tier: 4, Enchantment: 2, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_morgana", Recipe: recipe_1e6dc9505002},
+		{ID: "T4_2H_SHAPESHIFTER_MORGANA@3", Name: "Blutmondstab des Adepten", Tier: 4, Enchantment: 3, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_morgana", Recipe: recipe_1e6dc9505002},
+		{ID: "T4_2H_SHAPESHIFTER_MORGANA@4", Name: "Blutmondstab des Adepten", Tier: 4, Enchantment: 4, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_morgana", Recipe: recipe_1e6dc9505002},
+		{ID: "T5_2H_SHAPESHIFTER_MORGANA", Name: "Blutmondstab des Experten", Tier: 5, Enchantment: 0, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_morgana", Recipe: recipe_86d4d8e32f28},
+		{ID: "T5_2H_SHAPESHIFTER_MORGANA@1", Name: "Blutmondstab des Experten", Tier: 5, Enchantment: 1, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_morgana", Recipe: recipe_86d4d8e32f28},
+		{ID: "T5_2H_SHAPESHIFTER_MORGANA@2", Name: "Blutmondstab des Experten", Tier: 5, Enchantment: 2, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_morgana", Recipe: recipe_86d4d8e32f28},
+		{ID: "T5_2H_SHAPESHIFTER_MORGANA@3", Name: "Blutmondstab des Experten", Tier: 5, Enchantment: 3, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_morgana", Recipe: recipe_86d4d8e32f28},
+		{ID: "T5_2H_SHAPESHIFTER_MORGANA@4", Name: "Blutmondstab des Experten", Tier: 5, Enchantment: 4, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_morgana", Recipe: recipe_86d4d8e32f28},
+		{ID: "T6_2H_SHAPESHIFTER_MORGANA", Name: "Blutmondstab des Meisters", Tier: 6, Enchantment: 0, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_morgana", Recipe: recipe_ab52449a30c8},
+		{ID: "T6_2H_SHAPESHIFTER_MORGANA@1", Name: "Blutmondstab des Meisters", Tier: 6, Enchantment: 1, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_morgana", Recipe: recipe_ab52449a30c8},
+		{ID: "T6_2H_SHAPESHIFTER_MORGANA@2", Name: "Blutmondstab des Meisters", Tier: 6, Enchantment: 2, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_morgana", Recipe: recipe_ab52449a30c8},
+		{ID: "T6_2H_SHAPESHIFTER_MORGANA@3", Name: "Blutmondstab des Meisters", Tier: 6, Enchantment: 3, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_morgana", Recipe: recipe_ab52449a30c8},
+		{ID: "T6_2H_SHAPESHIFTER_MORGANA@4", Name: "Blutmondstab des Meisters", Tier: 6, Enchantment: 4, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_morgana", Recipe: recipe_ab52449a30c8},
+		{ID: "T7_2H_SHAPESHIFTER_MORGANA", Name: "Blutmondstab des Großmeisters", Tier: 7, Enchantment: 0, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_morgana", Recipe: recipe_c0ef5ab605d2},
+		{ID: "T7_2H_SHAPESHIFTER_MORGANA@1", Name: "Blutmondstab des Großmeisters", Tier: 7, Enchantment: 1, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_morgana", Recipe: recipe_c0ef5ab605d2},
+		{ID: "T7_2H_SHAPESHIFTER_MORGANA@2", Name: "Blutmondstab des Großmeisters", Tier: 7, Enchantment: 2, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_morgana", Recipe: recipe_c0ef5ab605d2},
+		{ID: "T7_2H_SHAPESHIFTER_MORGANA@3", Name: "Blutmondstab des Großmeisters", Tier: 7, Enchantment: 3, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_morgana", Recipe: recipe_c0ef5ab605d2},
+		{ID: "T7_2H_SHAPESHIFTER_MORGANA@4", Name: "Blutmondstab des Großmeisters", Tier: 7, Enchantment: 4, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_morgana", Recipe: recipe_c0ef5ab605d2},
+		{ID: "T8_2H_SHAPESHIFTER_MORGANA", Name: "Blutmondstab des Ältesten", Tier: 8, Enchantment: 0, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_morgana", Recipe: recipe_b1a16e3485a2},
+		{ID: "T8_2H_SHAPESHIFTER_MORGANA@1", Name: "Blutmondstab des Ältesten", Tier: 8, Enchantment: 1, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_morgana", Recipe: recipe_b1a16e3485a2},
+		{ID: "T8_2H_SHAPESHIFTER_MORGANA@2", Name: "Blutmondstab des Ältesten", Tier: 8, Enchantment: 2, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_morgana", Recipe: recipe_b1a16e3485a2},
+		{ID: "T8_2H_SHAPESHIFTER_MORGANA@3", Name: "Blutmondstab des Ältesten", Tier: 8, Enchantment: 3, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_morgana", Recipe: recipe_b1a16e3485a2},
+		{ID: "T8_2H_SHAPESHIFTER_MORGANA@4", Name: "Blutmondstab des Ältesten", Tier: 8, Enchantment: 4, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_morgana", Recipe: recipe_b1a16e3485a2},
+	}},
+	{Name: "Pirschstab des Gesellen", BaseID: "2H_SHAPESHIFTER_SET1", MinTier: 3, MaxTier: 8, MinEnchantment: 0, MaxEnchantment: 4, Variants: []ItemVariant{
+		{ID: "T3_2H_SHAPESHIFTER_SET1", Name: "Pirschstab des Gesellen", Tier: 3, Enchantment: 0, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_set1", Recipe: recipe_5c5516cce1d3},
+		{ID: "T4_2H_SHAPESHIFTER_SET1", Name: "Pirschstab des Adepten", Tier: 4, Enchantment: 0, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_set1", Recipe: recipe_fd1755f0a264},
+		{ID: "T4_2H_SHAPESHIFTER_SET1@1", Name: "Pirschstab des Adepten", Tier: 4, Enchantment: 1, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_set1", Recipe: recipe_fd1755f0a264},
+		{ID: "T4_2H_SHAPESHIFTER_SET1@2", Name: "Pirschstab des Adepten", Tier: 4, Enchantment: 2, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_set1", Recipe: recipe_fd1755f0a264},
+		{ID: "T4_2H_SHAPESHIFTER_SET1@3", Name: "Pirschstab des Adepten", Tier: 4, Enchantment: 3, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_set1", Recipe: recipe_fd1755f0a264},
+		{ID: "T4_2H_SHAPESHIFTER_SET1@4", Name: "Pirschstab des Adepten", Tier: 4, Enchantment: 4, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_set1", Recipe: recipe_fd1755f0a264},
+		{ID: "T5_2H_SHAPESHIFTER_SET1", Name: "Pirschstab des Experten", Tier: 5, Enchantment: 0, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_set1", Recipe: recipe_4fb6b52efce7},
+		{ID: "T5_2H_SHAPESHIFTER_SET1@1", Name: "Pirschstab des Experten", Tier: 5, Enchantment: 1, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_set1", Recipe: recipe_4fb6b52efce7},
+		{ID: "T5_2H_SHAPESHIFTER_SET1@2", Name: "Pirschstab des Experten", Tier: 5, Enchantment: 2, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_set1", Recipe: recipe_4fb6b52efce7},
+		{ID: "T5_2H_SHAPESHIFTER_SET1@3", Name: "Pirschstab des Experten", Tier: 5, Enchantment: 3, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_set1", Recipe: recipe_4fb6b52efce7},
+		{ID: "T5_2H_SHAPESHIFTER_SET1@4", Name: "Pirschstab des Experten", Tier: 5, Enchantment: 4, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_set1", Recipe: recipe_4fb6b52efce7},
+		{ID: "T6_2H_SHAPESHIFTER_SET1", Name: "Pirschstab des Meisters", Tier: 6, Enchantment: 0, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_set1", Recipe: recipe_0338749ba07d},
+		{ID: "T6_2H_SHAPESHIFTER_SET1@1", Name: "Pirschstab des Meisters", Tier: 6, Enchantment: 1, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_set1", Recipe: recipe_0338749ba07d},
+		{ID: "T6_2H_SHAPESHIFTER_SET1@2", Name: "Pirschstab des Meisters", Tier: 6, Enchantment: 2, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_set1", Recipe: recipe_0338749ba07d},
+		{ID: "T6_2H_SHAPESHIFTER_SET1@3", Name: "Pirschstab des Meisters", Tier: 6, Enchantment: 3, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_set1", Recipe: recipe_0338749ba07d},
+		{ID: "T6_2H_SHAPESHIFTER_SET1@4", Name: "Pirschstab des Meisters", Tier: 6, Enchantment: 4, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_set1", Recipe: recipe_0338749ba07d},
+		{ID: "T7_2H_SHAPESHIFTER_SET1", Name: "Pirschstab des Großmeisters", Tier: 7, Enchantment: 0, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_set1", Recipe: recipe_9e34092784be},
+		{ID: "T7_2H_SHAPESHIFTER_SET1@1", Name: "Pirschstab des Großmeisters", Tier: 7, Enchantment: 1, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_set1", Recipe: recipe_9e34092784be},
+		{ID: "T7_2H_SHAPESHIFTER_SET1@2", Name: "Pirschstab des Großmeisters", Tier: 7, Enchantment: 2, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_set1", Recipe: recipe_9e34092784be},
+		{ID: "T7_2H_SHAPESHIFTER_SET1@3", Name: "Pirschstab des Großmeisters", Tier: 7, Enchantment: 3, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_set1", Recipe: recipe_9e34092784be},
+		{ID: "T7_2H_SHAPESHIFTER_SET1@4", Name: "Pirschstab des Großmeisters", Tier: 7, Enchantment: 4, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_set1", Recipe: recipe_9e34092784be},
+		{ID: "T8_2H_SHAPESHIFTER_SET1", Name: "Pirschstab des Ältesten", Tier: 8, Enchantment: 0, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_set1", Recipe: recipe_15220e5ca258},
+		{ID: "T8_2H_SHAPESHIFTER_SET1@1", Name: "Pirschstab des Ältesten", Tier: 8, Enchantment: 1, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_set1", Recipe: recipe_15220e5ca258},
+		{ID: "T8_2H_SHAPESHIFTER_SET1@2", Name: "Pirschstab des Ältesten", Tier: 8, Enchantment: 2, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_set1", Recipe: recipe_15220e5ca258},
+		{ID: "T8_2H_SHAPESHIFTER_SET1@3", Name: "Pirschstab des Ältesten", Tier: 8, Enchantment: 3, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_set1", Recipe: recipe_15220e5ca258},
+		{ID: "T8_2H_SHAPESHIFTER_SET1@4", Name: "Pirschstab des Ältesten", Tier: 8, Enchantment: 4, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_set1", Recipe: recipe_15220e5ca258},
+	}},
+	{Name: "Wurzelbinderstab des Adepten", BaseID: "2H_SHAPESHIFTER_SET2", MinTier: 4, MaxTier: 8, MinEnchantment: 0, MaxEnchantment: 4, Variants: []ItemVariant{
+		{ID: "T4_2H_SHAPESHIFTER_SET2", Name: "Wurzelbinderstab des Adepten", Tier: 4, Enchantment: 0, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_set2", Recipe: recipe_6babeabb389d},
+		{ID: "T4_2H_SHAPESHIFTER_SET2@1", Name: "Wurzelbinderstab des Adepten", Tier: 4, Enchantment: 1, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_set2", Recipe: recipe_6babeabb389d},
+		{ID: "T4_2H_SHAPESHIFTER_SET2@2", Name: "Wurzelbinderstab des Adepten", Tier: 4, Enchantment: 2, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_set2", Recipe: recipe_6babeabb389d},
+		{ID: "T4_2H_SHAPESHIFTER_SET2@3", Name: "Wurzelbinderstab des Adepten", Tier: 4, Enchantment: 3, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_set2", Recipe: recipe_6babeabb389d},
+		{ID: "T4_2H_SHAPESHIFTER_SET2@4", Name: "Wurzelbinderstab des Adepten", Tier: 4, Enchantment: 4, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_set2", Recipe: recipe_6babeabb389d},
+		{ID: "T5_2H_SHAPESHIFTER_SET2", Name: "Wurzelbinderstab des Experten", Tier: 5, Enchantment: 0, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_set2", Recipe: recipe_10e787b0d58c},
+		{ID: "T5_2H_SHAPESHIFTER_SET2@1", Name: "Wurzelbinderstab des Experten", Tier: 5, Enchantment: 1, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_set2", Recipe: recipe_10e787b0d58c},
+		{ID: "T5_2H_SHAPESHIFTER_SET2@2", Name: "Wurzelbinderstab des Experten", Tier: 5, Enchantment: 2, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_set2", Recipe: recipe_10e787b0d58c},
+		{ID: "T5_2H_SHAPESHIFTER_SET2@3", Name: "Wurzelbinderstab des Experten", Tier: 5, Enchantment: 3, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_set2", Recipe: recipe_10e787b0d58c},
+		{ID: "T5_2H_SHAPESHIFTER_SET2@4", Name: "Wurzelbinderstab des Experten", Tier: 5, Enchantment: 4, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_set2", Recipe: recipe_10e787b0d58c},
+		{ID: "T6_2H_SHAPESHIFTER_SET2", Name: "Wurzelbinderstab des Meisters", Tier: 6, Enchantment: 0, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_set2", Recipe: recipe_30b0fc3848aa},
+		{ID: "T6_2H_SHAPESHIFTER_SET2@1", Name: "Wurzelbinderstab des Meisters", Tier: 6, Enchantment: 1, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_set2", Recipe: recipe_30b0fc3848aa},
+		{ID: "T6_2H_SHAPESHIFTER_SET2@2", Name: "Wurzelbinderstab des Meisters", Tier: 6, Enchantment: 2, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_set2", Recipe: recipe_30b0fc3848aa},
+		{ID: "T6_2H_SHAPESHIFTER_SET2@3", Name: "Wurzelbinderstab des Meisters", Tier: 6, Enchantment: 3, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_set2", Recipe: recipe_30b0fc3848aa},
+		{ID: "T6_2H_SHAPESHIFTER_SET2@4", Name: "Wurzelbinderstab des Meisters", Tier: 6, Enchantment: 4, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_set2", Recipe: recipe_30b0fc3848aa},
+		{ID: "T7_2H_SHAPESHIFTER_SET2", Name: "Wurzelbinderstab des Großmeisters", Tier: 7, Enchantment: 0, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_set2", Recipe: recipe_6825803fb8fd},
+		{ID: "T7_2H_SHAPESHIFTER_SET2@1", Name: "Wurzelbinderstab des Großmeisters", Tier: 7, Enchantment: 1, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_set2", Recipe: recipe_6825803fb8fd},
+		{ID: "T7_2H_SHAPESHIFTER_SET2@2", Name: "Wurzelbinderstab des Großmeisters", Tier: 7, Enchantment: 2, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_set2", Recipe: recipe_6825803fb8fd},
+		{ID: "T7_2H_SHAPESHIFTER_SET2@3", Name: "Wurzelbinderstab des Großmeisters", Tier: 7, Enchantment: 3, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_set2", Recipe: recipe_6825803fb8fd},
+		{ID: "T7_2H_SHAPESHIFTER_SET2@4", Name: "Wurzelbinderstab des Großmeisters", Tier: 7, Enchantment: 4, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_set2", Recipe: recipe_6825803fb8fd},
+		{ID: "T8_2H_SHAPESHIFTER_SET2", Name: "Wurzelbinderstab des Ältesten", Tier: 8, Enchantment: 0, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_set2", Recipe: recipe_2849803f009d},
+		{ID: "T8_2H_SHAPESHIFTER_SET2@1", Name: "Wurzelbinderstab des Ältesten", Tier: 8, Enchantment: 1, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_set2", Recipe: recipe_2849803f009d},
+		{ID: "T8_2H_SHAPESHIFTER_SET2@2", Name: "Wurzelbinderstab des Ältesten", Tier: 8, Enchantment: 2, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_set2", Recipe: recipe_2849803f009d},
+		{ID: "T8_2H_SHAPESHIFTER_SET2@3", Name: "Wurzelbinderstab des Ältesten", Tier: 8, Enchantment: 3, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_set2", Recipe: recipe_2849803f009d},
+		{ID: "T8_2H_SHAPESHIFTER_SET2@4", Name: "Wurzelbinderstab des Ältesten", Tier: 8, Enchantment: 4, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_set2", Recipe: recipe_2849803f009d},
+	}},
+	{Name: "Urstab des Adepten", BaseID: "2H_SHAPESHIFTER_SET3", MinTier: 4, MaxTier: 8, MinEnchantment: 0, MaxEnchantment: 4, Variants: []ItemVariant{
+		{ID: "T4_2H_SHAPESHIFTER_SET3", Name: "Urstab des Adepten", Tier: 4, Enchantment: 0, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_set3", Recipe: recipe_7dd302a5c9f9},
+		{ID: "T4_2H_SHAPESHIFTER_SET3@1", Name: "Urstab des Adepten", Tier: 4, Enchantment: 1, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_set3", Recipe: recipe_7dd302a5c9f9},
+		{ID: "T4_2H_SHAPESHIFTER_SET3@2", Name: "Urstab des Adepten", Tier: 4, Enchantment: 2, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_set3", Recipe: recipe_7dd302a5c9f9},
+		{ID: "T4_2H_SHAPESHIFTER_SET3@3", Name: "Urstab des Adepten", Tier: 4, Enchantment: 3, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_set3", Recipe: recipe_7dd302a5c9f9},
+		{ID: "T4_2H_SHAPESHIFTER_SET3@4", Name: "Urstab des Adepten", Tier: 4, Enchantment: 4, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_set3", Recipe: recipe_7dd302a5c9f9},
+		{ID: "T5_2H_SHAPESHIFTER_SET3", Name: "Urstab des Experten", Tier: 5, Enchantment: 0, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_set3", Recipe: recipe_c81204aa9798},
+		{ID: "T5_2H_SHAPESHIFTER_SET3@1", Name: "Urstab des Experten", Tier: 5, Enchantment: 1, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_set3", Recipe: recipe_c81204aa9798},
+		{ID: "T5_2H_SHAPESHIFTER_SET3@2", Name: "Urstab des Experten", Tier: 5, Enchantment: 2, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_set3", Recipe: recipe_c81204aa9798},
+		{ID: "T5_2H_SHAPESHIFTER_SET3@3", Name: "Urstab des Experten", Tier: 5, Enchantment: 3, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_set3", Recipe: recipe_c81204aa9798},
+		{ID: "T5_2H_SHAPESHIFTER_SET3@4", Name: "Urstab des Experten", Tier: 5, Enchantment: 4, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_set3", Recipe: recipe_c81204aa9798},
+		{ID: "T6_2H_SHAPESHIFTER_SET3", Name: "Urstab des Meisters", Tier: 6, Enchantment: 0, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_set3", Recipe: recipe_86c1efc276ab},
+		{ID: "T6_2H_SHAPESHIFTER_SET3@1", Name: "Urstab des Meisters", Tier: 6, Enchantment: 1, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_set3", Recipe: recipe_86c1efc276ab},
+		{ID: "T6_2H_SHAPESHIFTER_SET3@2", Name: "Urstab des Meisters", Tier: 6, Enchantment: 2, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_set3", Recipe: recipe_86c1efc276ab},
+		{ID: "T6_2H_SHAPESHIFTER_SET3@3", Name: "Urstab des Meisters", Tier: 6, Enchantment: 3, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_set3", Recipe: recipe_86c1efc276ab},
+		{ID: "T6_2H_SHAPESHIFTER_SET3@4", Name: "Urstab des Meisters", Tier: 6, Enchantment: 4, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_set3", Recipe: recipe_86c1efc276ab},
+		{ID: "T7_2H_SHAPESHIFTER_SET3", Name: "Urstab des Großmeisters", Tier: 7, Enchantment: 0, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_set3", Recipe: recipe_b90ea8632713},
+		{ID: "T7_2H_SHAPESHIFTER_SET3@1", Name: "Urstab des Großmeisters", Tier: 7, Enchantment: 1, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_set3", Recipe: recipe_b90ea8632713},
+		{ID: "T7_2H_SHAPESHIFTER_SET3@2", Name: "Urstab des Großmeisters", Tier: 7, Enchantment: 2, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_set3", Recipe: recipe_b90ea8632713},
+		{ID: "T7_2H_SHAPESHIFTER_SET3@3", Name: "Urstab des Großmeisters", Tier: 7, Enchantment: 3, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_set3", Recipe: recipe_b90ea8632713},
+		{ID: "T7_2H_SHAPESHIFTER_SET3@4", Name: "Urstab des Großmeisters", Tier: 7, Enchantment: 4, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_set3", Recipe: recipe_b90ea8632713},
+		{ID: "T8_2H_SHAPESHIFTER_SET3", Name: "Urstab des Ältesten", Tier: 8, Enchantment: 0, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_set3", Recipe: recipe_972dcfddc704},
+		{ID: "T8_2H_SHAPESHIFTER_SET3@1", Name: "Urstab des Ältesten", Tier: 8, Enchantment: 1, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_set3", Recipe: recipe_972dcfddc704},
+		{ID: "T8_2H_SHAPESHIFTER_SET3@2", Name: "Urstab des Ältesten", Tier: 8, Enchantment: 2, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_set3", Recipe: recipe_972dcfddc704},
+		{ID: "T8_2H_SHAPESHIFTER_SET3@3", Name: "Urstab des Ältesten", Tier: 8, Enchantment: 3, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_set3", Recipe: recipe_972dcfddc704},
+		{ID: "T8_2H_SHAPESHIFTER_SET3@4", Name: "Urstab des Ältesten", Tier: 8, Enchantment: 4, CategoryPath: "weapons/shapeshifterstaff/shapeshifterstaff_set3", Recipe: recipe_972dcfddc704},
+	}},
+	{Name: "Verfluchter Schädel des Adepten", BaseID: "2H_SKULLORB_HELL", MinTier: 4, MaxTier: 8, MinEnchantment: 0, MaxEnchantment: 4, Variants: []ItemVariant{
+		{ID: "T4_2H_SKULLORB_HELL", Name: "Verfluchter Schädel des Adepten", Tier: 4, Enchantment: 0, CategoryPath: "weapons/cursestaff/cursestaff_hell", Recipe: recipe_70ccb9904ebc},
+		{ID: "T4_2H_SKULLORB_HELL@1", Name: "Verfluchter Schädel des Adepten", Tier: 4, Enchantment: 1, CategoryPath: "weapons/cursestaff/cursestaff_hell", Recipe: recipe_70ccb9904ebc},
+		{ID: "T4_2H_SKULLORB_HELL@2", Name: "Verfluchter Schädel des Adepten", Tier: 4, Enchantment: 2, CategoryPath: "weapons/cursestaff/cursestaff_hell", Recipe: recipe_70ccb9904ebc},
+		{ID: "T4_2H_SKULLORB_HELL@3", Name: "Verfluchter Schädel des Adepten", Tier: 4, Enchantment: 3, CategoryPath: "weapons/cursestaff/cursestaff_hell", Recipe: recipe_70ccb9904ebc},
+		{ID: "T4_2H_SKULLORB_HELL@4", Name: "Verfluchter Schädel des Adepten", Tier: 4, Enchantment: 4, CategoryPath: "weapons/cursestaff/cursestaff_hell", Recipe: recipe_70ccb9904ebc},
+		{ID: "T5_2H_SKULLORB_HELL", Name: "Verfluchter Schädel des Experten", Tier: 5, Enchantment: 0, CategoryPath: "weapons/cursestaff/cursestaff_hell", Recipe: recipe_a1d9134b554c},
+		{ID: "T5_2H_SKULLORB_HELL@1", Name: "Verfluchter Schädel des Experten", Tier: 5, Enchantment: 1, CategoryPath: "weapons/cursestaff/cursestaff_hell", Recipe: recipe_a1d9134b554c},
+		{ID: "T5_2H_SKULLORB_HELL@2", Name: "Verfluchter Schädel des Experten", Tier: 5, Enchantment: 2, CategoryPath: "weapons/cursestaff/cursestaff_hell", Recipe: recipe_a1d9134b554c},
+		{ID: "T5_2H_SKULLORB_HELL@3", Name: "Verfluchter Schädel des Experten", Tier: 5, Enchantment: 3, CategoryPath: "weapons/cursestaff/cursestaff_hell", Recipe: recipe_a1d9134b554c},
+		{ID: "T5_2H_SKULLORB_HELL@4", Name: "Verfluchter Schädel des Experten", Tier: 5, Enchantment: 4, CategoryPath: "weapons/cursestaff/cursestaff_hell", Recipe: recipe_a1d9134b554c},
+		{ID: "T6_2H_SKULLORB_HELL", Name: "Verfluchter Schädel des Meisters", Tier: 6, Enchantment: 0, CategoryPath: "weapons/cursestaff/cursestaff_hell", Recipe: recipe_ba059079fde5},
+		{ID: "T6_2H_SKULLORB_HELL@1", Name: "Verfluchter Schädel des Meisters", Tier: 6, Enchantment: 1, CategoryPath: "weapons/cursestaff/cursestaff_hell", Recipe: recipe_ba059079fde5},
+		{ID: "T6_2H_SKULLORB_HELL@2", Name: "Verfluchter Schädel des Meisters", Tier: 6, Enchantment: 2, CategoryPath: "weapons/cursestaff/cursestaff_hell", Recipe: recipe_ba059079fde5},
+		{ID: "T6_2H_SKULLORB_HELL@3", Name: "Verfluchter Schädel des Meisters", Tier: 6, Enchantment: 3, CategoryPath: "weapons/cursestaff/cursestaff_hell", Recipe: recipe_ba059079fde5},
+		{ID: "T6_2H_SKULLORB_HELL@4", Name: "Verfluchter Schädel des Meisters", Tier: 6, Enchantment: 4, CategoryPath: "weapons/cursestaff/cursestaff_hell", Recipe: recipe_ba059079fde5},
+		{ID: "T7_2H_SKULLORB_HELL", Name: "Verfluchter Schädel des Großmeisters", Tier: 7, Enchantment: 0, CategoryPath: "weapons/cursestaff/cursestaff_hell", Recipe: recipe_b985c61f9e72},
+		{ID: "T7_2H_SKULLORB_HELL@1", Name: "Verfluchter Schädel des Großmeisters", Tier: 7, Enchantment: 1, CategoryPath: "weapons/cursestaff/cursestaff_hell", Recipe: recipe_b985c61f9e72},
+		{ID: "T7_2H_SKULLORB_HELL@2", Name: "Verfluchter Schädel des Großmeisters", Tier: 7, Enchantment: 2, CategoryPath: "weapons/cursestaff/cursestaff_hell", Recipe: recipe_b985c61f9e72},
+		{ID: "T7_2H_SKULLORB_HELL@3", Name: "Verfluchter Schädel des Großmeisters", Tier: 7, Enchantment: 3, CategoryPath: "weapons/cursestaff/cursestaff_hell", Recipe: recipe_b985c61f9e72},
+		{ID: "T7_2H_SKULLORB_HELL@4", Name: "Verfluchter Schädel des Großmeisters", Tier: 7, Enchantment: 4, CategoryPath: "weapons/cursestaff/cursestaff_hell", Recipe: recipe_b985c61f9e72},
+		{ID: "T8_2H_SKULLORB_HELL", Name: "Verfluchter Schädel des Ältesten", Tier: 8, Enchantment: 0, CategoryPath: "weapons/cursestaff/cursestaff_hell", Recipe: recipe_0b203eb149a1},
+		{ID: "T8_2H_SKULLORB_HELL@1", Name: "Verfluchter Schädel des Ältesten", Tier: 8, Enchantment: 1, CategoryPath: "weapons/cursestaff/cursestaff_hell", Recipe: recipe_0b203eb149a1},
+		{ID: "T8_2H_SKULLORB_HELL@2", Name: "Verfluchter Schädel des Ältesten", Tier: 8, Enchantment: 2, CategoryPath: "weapons/cursestaff/cursestaff_hell", Recipe: recipe_0b203eb149a1},
+		{ID: "T8_2H_SKULLORB_HELL@3", Name: "Verfluchter Schädel des Ältesten", Tier: 8, Enchantment: 3, CategoryPath: "weapons/cursestaff/cursestaff_hell", Recipe: recipe_0b203eb149a1},
+		{ID: "T8_2H_SKULLORB_HELL@4", Name: "Verfluchter Schädel des Ältesten", Tier: 8, Enchantment: 4, CategoryPath: "weapons/cursestaff/cursestaff_hell", Recipe: recipe_0b203eb149a1},
+	}},
+	{Name: "Pike des Adepten", BaseID: "2H_SPEAR", MinTier: 4, MaxTier: 8, MinEnchantment: 0, MaxEnchantment: 4, Variants: []ItemVariant{
+		{ID: "T4_2H_SPEAR", Name: "Pike des Adepten", Tier: 4, Enchantment: 0, CategoryPath: "weapons/spear/spear_2h_spear", Recipe: recipe_4e04a98b4887},
+		{ID: "T4_2H_SPEAR@1", Name: "Pike des Adepten", Tier: 4, Enchantment: 1, CategoryPath: "weapons/spear/spear_2h_spear", Recipe: recipe_4e04a98b4887},
+		{ID: "T4_2H_SPEAR@2", Name: "Pike des Adepten", Tier: 4, Enchantment: 2, CategoryPath: "weapons/spear/spear_2h_spear", Recipe: recipe_4e04a98b4887},
+		{ID: "T4_2H_SPEAR@3", Name: "Pike des Adepten", Tier: 4, Enchantment: 3, CategoryPath: "weapons/spear/spear_2h_spear", Recipe: recipe_4e04a98b4887},
+		{ID: "T4_2H_SPEAR@4", Name: "Pike des Adepten", Tier: 4, Enchantment: 4, CategoryPath: "weapons/spear/spear_2h_spear", Recipe: recipe_4e04a98b4887},
+		{ID: "T5_2H_SPEAR", Name: "Pike des Experten", Tier: 5, Enchantment: 0, CategoryPath: "weapons/spear/spear_2h_spear", Recipe: recipe_2a14fbbc242a},
+		{ID: "T5_2H_SPEAR@1", Name: "Pike des Experten", Tier: 5, Enchantment: 1, CategoryPath: "weapons/spear/spear_2h_spear", Recipe: recipe_2a14fbbc242a},
+		{ID: "T5_2H_SPEAR@2", Name: "Pike des Experten", Tier: 5, Enchantment: 2, CategoryPath: "weapons/spear/spear_2h_spear", Recipe: recipe_2a14fbbc242a},
+		{ID: "T5_2H_SPEAR@3", Name: "Pike des Experten", Tier: 5, Enchantment: 3, CategoryPath: "weapons/spear/spear_2h_spear", Recipe: recipe_2a14fbbc242a},
+		{ID: "T5_2H_SPEAR@4", Name: "Pike des Experten", Tier: 5, Enchantment: 4, CategoryPath: "weapons/spear/spear_2h_spear", Recipe: recipe_2a14fbbc242a},
+		{ID: "T6_2H_SPEAR", Name: "Pike des Meisters", Tier: 6, Enchantment: 0, CategoryPath: "weapons/spear/spear_2h_spear", Recipe: recipe_7d4ead915166},
+		{ID: "T6_2H_SPEAR@1", Name: "Pike des Meisters", Tier: 6, Enchantment: 1, CategoryPath: "weapons/spear/spear_2h_spear", Recipe: recipe_7d4ead915166},
+		{ID: "T6_2H_SPEAR@2", Name: "Pike des Meisters", Tier: 6, Enchantment: 2, CategoryPath: "weapons/spear/spear_2h_spear", Recipe: recipe_7d4ead915166},
+		{ID: "T6_2H_SPEAR@3", Name: "Pike des Meisters", Tier: 6, Enchantment: 3, CategoryPath: "weapons/spear/spear_2h_spear", Recipe: recipe_7d4ead915166},
+		{ID: "T6_2H_SPEAR@4", Name: "Pike des Meisters", Tier: 6, Enchantment: 4, CategoryPath: "weapons/spear/spear_2h_spear", Recipe: recipe_7d4ead915166},
+		{ID: "T7_2H_SPEAR", Name: "Pike des Großmeisters", Tier: 7, Enchantment: 0, CategoryPath: "weapons/spear/spear_2h_spear", Recipe: recipe_7f07f9e546ae},
+		{ID: "T7_2H_SPEAR@1", Name: "Pike des Großmeisters", Tier: 7, Enchantment: 1, CategoryPath: "weapons/spear/spear_2h_spear", Recipe: recipe_7f07f9e546ae},
+		{ID: "T7_2H_SPEAR@2", Name: "Pike des Großmeisters", Tier: 7, Enchantment: 2, CategoryPath: "weapons/spear/spear_2h_spear", Recipe: recipe_7f07f9e546ae},
+		{ID: "T7_2H_SPEAR@3", Name: "Pike des Großmeisters", Tier: 7, Enchantment: 3, CategoryPath: "weapons/spear/spear_2h_spear", Recipe: recipe_7f07f9e546ae},
+		{ID: "T7_2H_SPEAR@4", Name: "Pike des Großmeisters", Tier: 7, Enchantment: 4, CategoryPath: "weapons/spear/spear_2h_spear", Recipe: recipe_7f07f9e546ae},
+		{ID: "T8_2H_SPEAR", Name: "Pike des Ältesten", Tier: 8, Enchantment: 0, CategoryPath: "weapons/spear/spear_2h_spear", Recipe: recipe_52f4fb0fae91},
+		{ID: "T8_2H_SPEAR@1", Name: "Pike des Ältesten", Tier: 8, Enchantment: 1, CategoryPath: "weapons/spear/spear_2h_spear", Recipe: recipe_52f4fb0fae91},
+		{ID: "T8_2H_SPEAR@2", Name: "Pike des Ältesten", Tier: 8, Enchantment: 2, CategoryPath: "weapons/spear/spear_2h_spear", Recipe: recipe_52f4fb0fae91},
+		{ID: "T8_2H_SPEAR@3", Name: "Pike des Ältesten", Tier: 8, Enchantment: 3, CategoryPath: "weapons/spear/spear_2h_spear", Recipe: recipe_52f4fb0fae91},
+		{ID: "T8_2H_SPEAR@4", Name: "Pike des Ältesten", Tier: 8, Enchantment: 4, CategoryPath: "weapons/spear/spear_2h_spear", Recipe: recipe_52f4fb0fae91},
+	}},
+	{Name: "Dreifaltigkeitsspeer des Adepten", BaseID: "2H_TRIDENT_UNDEAD", MinTier: 4, MaxTier: 8, MinEnchantment: 0, MaxEnchantment: 4, Variants: []ItemVariant{
+		{ID: "T4_2H_TRIDENT_UNDEAD", Name: "Dreifaltigkeitsspeer des Adepten", Tier: 4, Enchantment: 0, CategoryPath: "weapons/spear/spear_undead", Recipe: recipe_3b1e465d20e4},
+		{ID: "T4_2H_TRIDENT_UNDEAD@1", Name: "Dreifaltigkeitsspeer des Adepten", Tier: 4, Enchantment: 1, CategoryPath: "weapons/spear/spear_undead", Recipe: recipe_3b1e465d20e4},
+		{ID: "T4_2H_TRIDENT_UNDEAD@2", Name: "Dreifaltigkeitsspeer des Adepten", Tier: 4, Enchantment: 2, CategoryPath: "weapons/spear/spear_undead", Recipe: recipe_3b1e465d20e4},
+		{ID: "T4_2H_TRIDENT_UNDEAD@3", Name: "Dreifaltigkeitsspeer des Adepten", Tier: 4, Enchantment: 3, CategoryPath: "weapons/spear/spear_undead", Recipe: recipe_3b1e465d20e4},
+		{ID: "T4_2H_TRIDENT_UNDEAD@4", Name: "Dreifaltigkeitsspeer des Adepten", Tier: 4, Enchantment: 4, CategoryPath: "weapons/spear/spear_undead", Recipe: recipe_3b1e465d20e4},
+		{ID: "T5_2H_TRIDENT_UNDEAD", Name: "Dreifaltigkeitsspeer des Experten", Tier: 5, Enchantment: 0, CategoryPath: "weapons/spear/spear_undead", Recipe: recipe_4be252bbe156},
+		{ID: "T5_2H_TRIDENT_UNDEAD@1", Name: "Dreifaltigkeitsspeer des Experten", Tier: 5, Enchantment: 1, CategoryPath: "weapons/spear/spear_undead", Recipe: recipe_4be252bbe156},
+		{ID: "T5_2H_TRIDENT_UNDEAD@2", Name: "Dreifaltigkeitsspeer des Experten", Tier: 5, Enchantment: 2, CategoryPath: "weapons/spear/spear_undead", Recipe: recipe_4be252bbe156},
+		{ID: "T5_2H_TRIDENT_UNDEAD@3", Name: "Dreifaltigkeitsspeer des Experten", Tier: 5, Enchantment: 3, CategoryPath: "weapons/spear/spear_undead", Recipe: recipe_4be252bbe156},
+		{ID: "T5_2H_TRIDENT_UNDEAD@4", Name: "Dreifaltigkeitsspeer des Experten", Tier: 5, Enchantment: 4, CategoryPath: "weapons/spear/spear_undead", Recipe: recipe_4be252bbe156},
+		{ID: "T6_2H_TRIDENT_UNDEAD", Name: "Dreifaltigkeitsspeer des Meisters", Tier: 6, Enchantment: 0, CategoryPath: "weapons/spear/spear_undead", Recipe: recipe_3d6cbc3fb99f},
+		{ID: "T6_2H_TRIDENT_UNDEAD@1", Name: "Dreifaltigkeitsspeer des Meisters", Tier: 6, Enchantment: 1, CategoryPath: "weapons/spear/spear_undead", Recipe: recipe_3d6cbc3fb99f},
+		{ID: "T6_2H_TRIDENT_UNDEAD@2", Name: "Dreifaltigkeitsspeer des Meisters", Tier: 6, Enchantment: 2, CategoryPath: "weapons/spear/spear_undead", Recipe: recipe_3d6cbc3fb99f},
+		{ID: "T6_2H_TRIDENT_UNDEAD@3", Name: "Dreifaltigkeitsspeer des Meisters", Tier: 6, Enchantment: 3, CategoryPath: "weapons/spear/spear_undead", Recipe: recipe_3d6cbc3fb99f},
+		{ID: "T6_2H_TRIDENT_UNDEAD@4", Name: "Dreifaltigkeitsspeer des Meisters", Tier: 6, Enchantment: 4, CategoryPath: "weapons/spear/spear_undead", Recipe: recipe_3d6cbc3fb99f},
+		{ID: "T7_2H_TRIDENT_UNDEAD", Name: "Dreifaltigkeitsspeer des Großmeisters", Tier: 7, Enchantment: 0, CategoryPath: "weapons/spear/spear_undead", Recipe: recipe_b0e78f1d3f39},
+		{ID: "T7_2H_TRIDENT_UNDEAD@1", Name: "Dreifaltigkeitsspeer des Großmeisters", Tier: 7, Enchantment: 1, CategoryPath: "weapons/spear/spear_undead", Recipe: recipe_b0e78f1d3f39},
+		{ID: "T7_2H_TRIDENT_UNDEAD@2", Name: "Dreifaltigkeitsspeer des Großmeisters", Tier: 7, Enchantment: 2, CategoryPath: "weapons/spear/spear_undead", Recipe: recipe_b0e78f1d3f39},
+		{ID: "T7_2H_TRIDENT_UNDEAD@3", Name: "Dreifaltigkeitsspeer des Großmeisters", Tier: 7, Enchantment: 3, CategoryPath: "weapons/spear/spear_undead", Recipe: recipe_b0e78f1d3f39},
+		{ID: "T7_2H_TRIDENT_UNDEAD@4", Name: "Dreifaltigkeitsspeer des Großmeisters", Tier: 7, Enchantment: 4, CategoryPath: "weapons/spear/spear_undead", Recipe: recipe_b0e78f1d3f39},
+		{ID: "T8_2H_TRIDENT_UNDEAD", Name: "Dreifaltigkeitsspeer des Ältesten", Tier: 8, Enchantment: 0, CategoryPath: "weapons/spear/spear_undead", Recipe: recipe_b5003897cb46},
+		{ID: "T8_2H_TRIDENT_UNDEAD@1", Name: "Dreifaltigkeitsspeer des Ältesten", Tier: 8, Enchantment: 1, CategoryPath: "weapons/spear/spear_undead", Recipe: recipe_b5003897cb46},
+		{ID: "T8_2H_TRIDENT_UNDEAD@2", Name: "Dreifaltigkeitsspeer des Ältesten", Tier: 8, Enchantment: 2, CategoryPath: "weapons/spear/spear_undead", Recipe: recipe_b5003897cb46},
+		{ID: "T8_2H_TRIDENT_UNDEAD@3", Name: "Dreifaltigkeitsspeer des Ältesten", Tier: 8, Enchantment: 3, CategoryPath: "weapons/spear/spear_undead", Recipe: recipe_b5003897cb46},
+		{ID: "T8_2H_TRIDENT_UNDEAD@4", Name: "Dreifaltigkeitsspeer des Ältesten", Tier: 8, Enchantment: 4, CategoryPath: "weapons/spear/spear_undead", Recipe: recipe_b5003897cb46},
+	}},
+	{Name: "Seelensense des Adepten", BaseID: "2H_TWINSCYTHE_HELL", MinTier: 4, MaxTier: 8, MinEnchantment: 0, MaxEnchantment: 4, Variants: []ItemVariant{
+		{ID: "T4_2H_TWINSCYTHE_HELL", Name: "Seelensense des Adepten", Tier: 4, Enchantment: 0, CategoryPath: "weapons/quarterstaff/quarterstaff_hell", Recipe: recipe_a791bb095413},
+		{ID: "T4_2H_TWINSCYTHE_HELL@1", Name: "Seelensense des Adepten", Tier: 4, Enchantment: 1, CategoryPath: "weapons/quarterstaff/quarterstaff_hell", Recipe: recipe_a791bb095413},
+		{ID: "T4_2H_TWINSCYTHE_HELL@2", Name: "Seelensense des Adepten", Tier: 4, Enchantment: 2, CategoryPath: "weapons/quarterstaff/quarterstaff_hell", Recipe: recipe_a791bb095413},
+		{ID: "T4_2H_TWINSCYTHE_HELL@3", Name: "Seelensense des Adepten", Tier: 4, Enchantment: 3, CategoryPath: "weapons/quarterstaff/quarterstaff_hell", Recipe: recipe_a791bb095413},
+		{ID: "T4_2H_TWINSCYTHE_HELL@4", Name: "Seelensense des Adepten", Tier: 4, Enchantment: 4, CategoryPath: "weapons/quarterstaff/quarterstaff_hell", Recipe: recipe_a791bb095413},
+		{ID: "T5_2H_TWINSCYTHE_HELL", Name: "Seelensense des Experten", Tier: 5, Enchantment: 0, CategoryPath: "weapons/quarterstaff/quarterstaff_hell", Recipe: recipe_1dc411f35fd3},
+		{ID: "T5_2H_TWINSCYTHE_HELL@1", Name: "Seelensense des Experten", Tier: 5, Enchantment: 1, CategoryPath: "weapons/quarterstaff/quarterstaff_hell", Recipe: recipe_1dc411f35fd3},
+		{ID: "T5_2H_TWINSCYTHE_HELL@2", Name: "Seelensense des Experten", Tier: 5, Enchantment: 2, CategoryPath: "weapons/quarterstaff/quarterstaff_hell", Recipe: recipe_1dc411f35fd3},
+		{ID: "T5_2H_TWINSCYTHE_HELL@3", Name: "Seelensense des Experten", Tier: 5, Enchantment: 3, CategoryPath: "weapons/quarterstaff/quarterstaff_hell", Recipe: recipe_1dc411f35fd3},
+		{ID: "T5_2H_TWINSCYTHE_HELL@4", Name: "Seelensense des Experten", Tier: 5, Enchantment: 4, CategoryPath: "weapons/quarterstaff/quarterstaff_hell", Recipe: recipe_1dc411f35fd3},
+		{ID: "T6_2H_TWINSCYTHE_HELL", Name: "Seelensense des Meisters", Tier: 6, Enchantment: 0, CategoryPath: "weapons/quarterstaff/quarterstaff_hell", Recipe: recipe_a4774ee243d3},
+		{ID: "T6_2H_TWINSCYTHE_HELL@1", Name: "Seelensense des Meisters", Tier: 6, Enchantment: 1, CategoryPath: "weapons/quarterstaff/quarterstaff_hell", Recipe: recipe_a4774ee243d3},
+		{ID: "T6_2H_TWINSCYTHE_HELL@2", Name: "Seelensense des Meisters", Tier: 6, Enchantment: 2, CategoryPath: "weapons/quarterstaff/quarterstaff_hell", Recipe: recipe_a4774ee243d3},
+		{ID: "T6_2H_TWINSCYTHE_HELL@3", Name: "Seelensense des Meisters", Tier: 6, Enchantment: 3, CategoryPath: "weapons/quarterstaff/quarterstaff_hell", Recipe: recipe_a4774ee243d3},
+		{ID: "T6_2H_TWINSCYTHE_HELL@4", Name: "Seelensense des Meisters", Tier: 6, Enchantment: 4, CategoryPath: "weapons/quarterstaff/quarterstaff_hell", Recipe: recipe_a4774ee243d3},
+		{ID: "T7_2H_TWINSCYTHE_HELL", Name: "Seelensense des Großmeisters", Tier: 7, Enchantment: 0, CategoryPath: "weapons/quarterstaff/quarterstaff_hell", Recipe: recipe_a7bceb9cd7db},
+		{ID: "T7_2H_TWINSCYTHE_HELL@1", Name: "Seelensense des Großmeisters", Tier: 7, Enchantment: 1, CategoryPath: "weapons/quarterstaff/quarterstaff_hell", Recipe: recipe_a7bceb9cd7db},
+		{ID: "T7_2H_TWINSCYTHE_HELL@2", Name: "Seelensense des Großmeisters", Tier: 7, Enchantment: 2, CategoryPath: "weapons/quarterstaff/quarterstaff_hell", Recipe: recipe_a7bceb9cd7db},
+		{ID: "T7_2H_TWINSCYTHE_HELL@3", Name: "Seelensense des Großmeisters", Tier: 7, Enchantment: 3, CategoryPath: "weapons/quarterstaff/quarterstaff_hell", Recipe: recipe_a7bceb9cd7db},
+		{ID: "T7_2H_TWINSCYTHE_HELL@4", Name: "Seelensense des Großmeisters", Tier: 7, Enchantment: 4, CategoryPath: "weapons/quarterstaff/quarterstaff_hell", Recipe: recipe_a7bceb9cd7db},
+		{ID: "T8_2H_TWINSCYTHE_HELL", Name: "Seelensense des Ältesten", Tier: 8, Enchantment: 0, CategoryPath: "weapons/quarterstaff/quarterstaff_hell", Recipe: recipe_cf715ca2579e},
+		{ID: "T8_2H_TWINSCYTHE_HELL@1", Name: "Seelensense des Ältesten", Tier: 8, Enchantment: 1, CategoryPath: "weapons/quarterstaff/quarterstaff_hell", Recipe: recipe_cf715ca2579e},
+		{ID: "T8_2H_TWINSCYTHE_HELL@2", Name: "Seelensense des Ältesten", Tier: 8, Enchantment: 2, CategoryPath: "weapons/quarterstaff/quarterstaff_hell", Recipe: recipe_cf715ca2579e},
+		{ID: "T8_2H_TWINSCYTHE_HELL@3", Name: "Seelensense des Ältesten", Tier: 8, Enchantment: 3, CategoryPath: "weapons/quarterstaff/quarterstaff_hell", Recipe: recipe_cf715ca2579e},
+		{ID: "T8_2H_TWINSCYTHE_HELL@4", Name: "Seelensense des Ältesten", Tier: 8, Enchantment: 4, CategoryPath: "weapons/quarterstaff/quarterstaff_hell", Recipe: recipe_cf715ca2579e},
+	}},
+	{Name: "Kriegsbogen des Adepten", BaseID: "2H_WARBOW", MinTier: 4, MaxTier: 8, MinEnchantment: 0, MaxEnchantment: 4, Variants: []ItemVariant{
+		{ID: "T4_2H_WARBOW", Name: "Kriegsbogen des Adepten", Tier: 4, Enchantment: 0, CategoryPath: "weapons/bow/bow_warbow", Recipe: recipe_de7c813b7c5b},
+		{ID: "T4_2H_WARBOW@1", Name: "Kriegsbogen des Adepten", Tier: 4, Enchantment: 1, CategoryPath: "weapons/bow/bow_warbow", Recipe: recipe_de7c813b7c5b},
+		{ID: "T4_2H_WARBOW@2", Name: "Kriegsbogen des Adepten", Tier: 4, Enchantment: 2, CategoryPath: "weapons/bow/bow_warbow", Recipe: recipe_de7c813b7c5b},
+		{ID: "T4_2H_WARBOW@3", Name: "Kriegsbogen des Adepten", Tier: 4, Enchantment: 3, CategoryPath: "weapons/bow/bow_warbow", Recipe: recipe_de7c813b7c5b},
+		{ID: "T4_2H_WARBOW@4", Name: "Kriegsbogen des Adepten", Tier: 4, Enchantment: 4, CategoryPath: "weapons/bow/bow_warbow", Recipe: recipe_de7c813b7c5b},
+		{ID: "T5_2H_WARBOW", Name: "Kriegsbogen des Experten", Tier: 5, Enchantment: 0, CategoryPath: "weapons/bow/bow_warbow", Recipe: recipe_a09a2e3ca463},
+		{ID: "T5_2H_WARBOW@1", Name: "Kriegsbogen des Experten", Tier: 5, Enchantment: 1, CategoryPath: "weapons/bow/bow_warbow", Recipe: recipe_a09a2e3ca463},
+		{ID: "T5_2H_WARBOW@2", Name: "Kriegsbogen des Experten", Tier: 5, Enchantment: 2, CategoryPath: "weapons/bow/bow_warbow", Recipe: recipe_a09a2e3ca463},
+		{ID: "T5_2H_WARBOW@3", Name: "Kriegsbogen des Experten", Tier: 5, Enchantment: 3, CategoryPath: "weapons/bow/bow_warbow", Recipe: recipe_a09a2e3ca463},
+		{ID: "T5_2H_WARBOW@4", Name: "Kriegsbogen des Experten", Tier: 5, Enchantment: 4, CategoryPath: "weapons/bow/bow_warbow", Recipe: recipe_a09a2e3ca463},
+		{ID: "T6_2H_WARBOW", Name: "Kriegsbogen des Meisters", Tier: 6, Enchantment: 0, CategoryPath: "weapons/bow/bow_warbow", Recipe: recipe_86ea3a23cbe3},
+		{ID: "T6_2H_WARBOW@1", Name: "Kriegsbogen des Meisters", Tier: 6, Enchantment: 1, CategoryPath: "weapons/bow/bow_warbow", Recipe: recipe_86ea3a23cbe3},
+		{ID: "T6_2H_WARBOW@2", Name: "Kriegsbogen des Meisters", Tier: 6, Enchantment: 2, CategoryPath: "weapons/bow/bow_warbow", Recipe: recipe_86ea3a23cbe3},
+		{ID: "T6_2H_WARBOW@3", Name: "Kriegsbogen des Meisters", Tier: 6, Enchantment: 3, CategoryPath: "weapons/bow/bow_warbow", Recipe: recipe_86ea3a23cbe3},
+		{ID: "T6_2H_WARBOW@4", Name: "Kriegsbogen des Meisters", Tier: 6, Enchantment: 4, CategoryPath: "weapons/bow/bow_warbow", Recipe: recipe_86ea3a23cbe3},
+		{ID: "T7_2H_WARBOW", Name: "Kriegsbogen des Großmeisters", Tier: 7, Enchantment: 0, CategoryPath: "weapons/bow/bow_warbow", Recipe: recipe_cc35da949703},
+		{ID: "T7_2H_WARBOW@1", Name: "Kriegsbogen des Großmeisters", Tier: 7, Enchantment: 1, CategoryPath: "weapons/bow/bow_warbow", Recipe: recipe_cc35da949703},
+		{ID: "T7_2H_WARBOW@2", Name: "Kriegsbogen des Großmeisters", Tier: 7, Enchantment: 2, CategoryPath: "weapons/bow/bow_warbow", Recipe: recipe_cc35da949703},
+		{ID: "T7_2H_WARBOW@3", Name: "Kriegsbogen des Großmeisters", Tier: 7, Enchantment: 3, CategoryPath: "weapons/bow/bow_warbow", Recipe: recipe_cc35da949703},
+		{ID: "T7_2H_WARBOW@4", Name: "Kriegsbogen des Großmeisters", Tier: 7, Enchantment: 4, CategoryPath: "weapons/bow/bow_warbow", Recipe: recipe_cc35da949703},
+		{ID: "T8_2H_WARBOW", Name: "Kriegsbogen des Ältesten", Tier: 8, Enchantment: 0, CategoryPath: "weapons/bow/bow_warbow", Recipe: recipe_9ff79e7c3e1d},
+		{ID: "T8_2H_WARBOW@1", Name: "Kriegsbogen des Ältesten", Tier: 8, Enchantment: 1, CategoryPath: "weapons/bow/bow_warbow", Recipe: recipe_9ff79e7c3e1d},
+		{ID: "T8_2H_WARBOW@2", Name: "Kriegsbogen des Ältesten", Tier: 8, Enchantment: 2, CategoryPath: "weapons/bow/bow_warbow", Recipe: recipe_9ff79e7c3e1d},
+		{ID: "T8_2H_WARBOW@3", Name: "Kriegsbogen des Ältesten", Tier: 8, Enchantment: 3, CategoryPath: "weapons/bow/bow_warbow", Recipe: recipe_9ff79e7c3e1d},
+		{ID: "T8_2H_WARBOW@4", Name: "Kriegsbogen des Ältesten", Tier: 8, Enchantment: 4, CategoryPath: "weapons/bow/bow_warbow", Recipe: recipe_9ff79e7c3e1d},
+	}},
+	{Name: "Wildstab des Adepten", BaseID: "2H_WILDSTAFF", MinTier: 4, MaxTier: 8, MinEnchantment: 0, MaxEnchantment: 4, Variants: []ItemVariant{
+		{ID: "T4_2H_WILDSTAFF", Name: "Wildstab des Adepten", Tier: 4, Enchantment: 0, CategoryPath: "weapons/naturestaff/naturestaff_wildstaff", Recipe: recipe_95dd0c213a05},
+		{ID: "T4_2H_WILDSTAFF@1", Name: "Wildstab des Adepten", Tier: 4, Enchantment: 1, CategoryPath: "weapons/naturestaff/naturestaff_wildstaff", Recipe: recipe_95dd0c213a05},
+		{ID: "T4_2H_WILDSTAFF@2", Name: "Wildstab des Adepten", Tier: 4, Enchantment: 2, CategoryPath: "weapons/naturestaff/naturestaff_wildstaff", Recipe: recipe_95dd0c213a05},
+		{ID: "T4_2H_WILDSTAFF@3", Name: "Wildstab des Adepten", Tier: 4, Enchantment: 3, CategoryPath: "weapons/naturestaff/naturestaff_wildstaff", Recipe: recipe_95dd0c213a05},
+		{ID: "T4_2H_WILDSTAFF@4", Name: "Wildstab des Adepten", Tier: 4, Enchantment: 4, CategoryPath: "weapons/naturestaff/naturestaff_wildstaff", Recipe: recipe_95dd0c213a05},
+		{ID: "T5_2H_WILDSTAFF", Name: "Wildstab des Experten", Tier: 5, Enchantment: 0, CategoryPath: "weapons/naturestaff/naturestaff_wildstaff", Recipe: recipe_2073f1536872},
+		{ID: "T5_2H_WILDSTAFF@1", Name: "Wildstab des Experten", Tier: 5, Enchantment: 1, CategoryPath: "weapons/naturestaff/naturestaff_wildstaff", Recipe: recipe_2073f1536872},
+		{ID: "T5_2H_WILDSTAFF@2", Name: "Wildstab des Experten", Tier: 5, Enchantment: 2, CategoryPath: "weapons/naturestaff/naturestaff_wildstaff", Recipe: recipe_2073f1536872},
+		{ID: "T5_2H_WILDSTAFF@3", Name: "Wildstab des Experten", Tier: 5, Enchantment: 3, CategoryPath: "weapons/naturestaff/naturestaff_wildstaff", Recipe: recipe_2073f1536872},
+		{ID: "T5_2H_WILDSTAFF@4", Name: "Wildstab des Experten", Tier: 5, Enchantment: 4, CategoryPath: "weapons/naturestaff/naturestaff_wildstaff", Recipe: recipe_2073f1536872},
+		{ID: "T6_2H_WILDSTAFF", Name: "Wildstab des Meisters", Tier: 6, Enchantment: 0, CategoryPath: "weapons/naturestaff/naturestaff_wildstaff", Recipe: recipe_6778062e3454},
+		{ID: "T6_2H_WILDSTAFF@1", Name: "Wildstab des Meisters", Tier: 6, Enchantment: 1, CategoryPath: "weapons/naturestaff/naturestaff_wildstaff", Recipe: recipe_6778062e3454},
+		{ID: "T6_2H_WILDSTAFF@2", Name: "Wildstab des Meisters", Tier: 6, Enchantment: 2, CategoryPath: "weapons/naturestaff/naturestaff_wildstaff", Recipe: recipe_6778062e3454},
+		{ID: "T6_2H_WILDSTAFF@3", Name: "Wildstab des Meisters", Tier: 6, Enchantment: 3, CategoryPath: "weapons/naturestaff/naturestaff_wildstaff", Recipe: recipe_6778062e3454},
+		{ID: "T6_2H_WILDSTAFF@4", Name: "Wildstab des Meisters", Tier: 6, Enchantment: 4, CategoryPath: "weapons/naturestaff/naturestaff_wildstaff", Recipe: recipe_6778062e3454},
+		{ID: "T7_2H_WILDSTAFF", Name: "Wildstab des Großmeisters", Tier: 7, Enchantment: 0, CategoryPath: "weapons/naturestaff/naturestaff_wildstaff", Recipe: recipe_5af037cfa10b},
+		{ID: "T7_2H_WILDSTAFF@1", Name: "Wildstab des Großmeisters", Tier: 7, Enchantment: 1, CategoryPath: "weapons/naturestaff/naturestaff_wildstaff", Recipe: recipe_5af037cfa10b},
+		{ID: "T7_2H_WILDSTAFF@2", Name: "Wildstab des Großmeisters", Tier: 7, Enchantment: 2, CategoryPath: "weapons/naturestaff/naturestaff_wildstaff", Recipe: recipe_5af037cfa10b},
+		{ID: "T7_2H_WILDSTAFF@3", Name: "Wildstab des Großmeisters", Tier: 7, Enchantment: 3, CategoryPath: "weapons/naturestaff/naturestaff_wildstaff", Recipe: recipe_5af037cfa10b},
+		{ID: "T7_2H_WILDSTAFF@4", Name: "Wildstab des Großmeisters", Tier: 7, Enchantment: 4, CategoryPath: "weapons/naturestaff/naturestaff_wildstaff", Recipe: recipe_5af037cfa10b},
+		{ID: "T8_2H_WILDSTAFF", Name: "Wildstab des Ältesten", Tier: 8, Enchantment: 0, CategoryPath: "weapons/naturestaff/naturestaff_wildstaff", Recipe: recipe_45be76fd068e},
+		{ID: "T8_2H_WILDSTAFF@1", Name: "Wildstab des Ältesten", Tier: 8, Enchantment: 1, CategoryPath: "weapons/naturestaff/naturestaff_wildstaff", Recipe: recipe_45be76fd068e},
+		{ID: "T8_2H_WILDSTAFF@2", Name: "Wildstab des Ältesten", Tier: 8, Enchantment: 2, CategoryPath: "weapons/naturestaff/naturestaff_wildstaff", Recipe: recipe_45be76fd068e},
+		{ID: "T8_2H_WILDSTAFF@3", Name: "Wildstab des Ältesten", Tier: 8, Enchantment: 3, CategoryPath: "weapons/naturestaff/naturestaff_wildstaff", Recipe: recipe_45be76fd068e},
+		{ID: "T8_2H_WILDSTAFF@4", Name: "Wildstab des Ältesten", Tier: 8, Enchantment: 4, CategoryPath: "weapons/naturestaff/naturestaff_wildstaff", Recipe: recipe_45be76fd068e},
+	}},
+	{Name: "T4_DEBUG_MAINHAND_HIDDEN", BaseID: "DEBUG_MAINHAND_HIDDEN", MinTier: 4, MaxTier: 4, MinEnchantment: 0, MaxEnchantment: 0, Variants: []ItemVariant{
+		{ID: "T4_DEBUG_MAINHAND_HIDDEN", Name: "T4_DEBUG_MAINHAND_HIDDEN", Tier: 4, Enchantment: 0, CategoryPath: "weapons/other", Recipe: nil},
+	}},
+	{Name: "Leichte Armbrust des Adepten", BaseID: "MAIN_1HCROSSBOW", MinTier: 4, MaxTier: 8, MinEnchantment: 0, MaxEnchantment: 4, Variants: []ItemVariant{
+		{ID: "T4_MAIN_1HCROSSBOW", Name: "Leichte Armbrust des Adepten", Tier: 4, Enchantment: 0, CategoryPath: "weapons/crossbow/crossbow_1hcrossbow", Recipe: recipe_adc507b1748a},
+		{ID: "T4_MAIN_1HCROSSBOW@1", Name: "Leichte Armbrust des Adepten", Tier: 4, Enchantment: 1, CategoryPath: "weapons/crossbow/crossbow_1hcrossbow", Recipe: recipe_adc507b1748a},
+		{ID: "T4_MAIN_1HCROSSBOW@2", Name: "Leichte Armbrust des Adepten", Tier: 4, Enchantment: 2, CategoryPath: "weapons/crossbow/crossbow_1hcrossbow", Recipe: recipe_adc507b1748a},
+		{ID: "T4_MAIN_1HCROSSBOW@3", Name: "Leichte Armbrust des Adepten", Tier: 4, Enchantment: 3, CategoryPath: "weapons/crossbow/crossbow_1hcrossbow", Recipe: recipe_adc507b1748a},
+		{ID: "T4_MAIN_1HCROSSBOW@4", Name: "Leichte Armbrust des Adepten", Tier: 4, Enchantment: 4, CategoryPath: "weapons/crossbow/crossbow_1hcrossbow", Recipe: recipe_adc507b1748a},
+		{ID: "T5_MAIN_1HCROSSBOW", Name: "Leichte Armbrust des Experten", Tier: 5, Enchantment: 0, CategoryPath: "weapons/crossbow/crossbow_1hcrossbow", Recipe: recipe_fe8570c364b3},
+		{ID: "T5_MAIN_1HCROSSBOW@1", Name: "Leichte Armbrust des Experten", Tier: 5, Enchantment: 1, CategoryPath: "weapons/crossbow/crossbow_1hcrossbow", Recipe: recipe_fe8570c364b3},
+		{ID: "T5_MAIN_1HCROSSBOW@2", Name: "Leichte Armbrust des Experten", Tier: 5, Enchantment: 2, CategoryPath: "weapons/crossbow/crossbow_1hcrossbow", Recipe: recipe_fe8570c364b3},
+		{ID: "T5_MAIN_1HCROSSBOW@3", Name: "Leichte Armbrust des Experten", Tier: 5, Enchantment: 3, CategoryPath: "weapons/crossbow/crossbow_1hcrossbow", Recipe: recipe_fe8570c364b3},
+		{ID: "T5_MAIN_1HCROSSBOW@4", Name: "Leichte Armbrust des Experten", Tier: 5, Enchantment: 4, CategoryPath: "weapons/crossbow/crossbow_1hcrossbow", Recipe: recipe_fe8570c364b3},
+		{ID: "T6_MAIN_1HCROSSBOW", Name: "Leichte Armbrust des Meisters", Tier: 6, Enchantment: 0, CategoryPath: "weapons/crossbow/crossbow_1hcrossbow", Recipe: recipe_8c7e8d8c1e83},
+		{ID: "T6_MAIN_1HCROSSBOW@1", Name: "Leichte Armbrust des Meisters", Tier: 6, Enchantment: 1, CategoryPath: "weapons/crossbow/crossbow_1hcrossbow", Recipe: recipe_8c7e8d8c1e83},
+		{ID: "T6_MAIN_1HCROSSBOW@2", Name: "Leichte Armbrust des Meisters", Tier: 6, Enchantment: 2, CategoryPath: "weapons/crossbow/crossbow_1hcrossbow", Recipe: recipe_8c7e8d8c1e83},
+		{ID: "T6_MAIN_1HCROSSBOW@3", Name: "Leichte Armbrust des Meisters", Tier: 6, Enchantment: 3, CategoryPath: "weapons/crossbow/crossbow_1hcrossbow", Recipe: recipe_8c7e8d8c1e83},
+		{ID: "T6_MAIN_1HCROSSBOW@4", Name: "Leichte Armbrust des Meisters", Tier: 6, Enchantment: 4, CategoryPath: "weapons/crossbow/crossbow_1hcrossbow", Recipe: recipe_8c7e8d8c1e83},
+		{ID: "T7_MAIN_1HCROSSBOW", Name: "Leichte Armbrust des Großmeisters", Tier: 7, Enchantment: 0, CategoryPath: "weapons/crossbow/crossbow_1hcrossbow", Recipe: recipe_59ef8e1dd31d},
+		{ID: "T7_MAIN_1HCROSSBOW@1", Name: "Leichte Armbrust des Großmeisters", Tier: 7, Enchantment: 1, CategoryPath: "weapons/crossbow/crossbow_1hcrossbow", Recipe: recipe_59ef8e1dd31d},
+		{ID: "T7_MAIN_1HCROSSBOW@2", Name: "Leichte Armbrust des Großmeisters", Tier: 7, Enchantment: 2, CategoryPath: "weapons/crossbow/crossbow_1hcrossbow", Recipe: recipe_59ef8e1dd31d},
+		{ID: "T7_MAIN_1HCROSSBOW@3", Name: "Leichte Armbrust des Großmeisters", Tier: 7, Enchantment: 3, CategoryPath: "weapons/crossbow/crossbow_1hcrossbow", Recipe: recipe_59ef8e1dd31d},
+		{ID: "T7_MAIN_1HCROSSBOW@4", Name: "Leichte Armbrust des Großmeisters", Tier: 7, Enchantment: 4, CategoryPath: "weapons/crossbow/crossbow_1hcrossbow", Recipe: recipe_59ef8e1dd31d},
+		{ID: "T8_MAIN_1HCROSSBOW", Name: "Leichte Armbrust des Ältesten", Tier: 8, Enchantment: 0, CategoryPath: "weapons/crossbow/crossbow_1hcrossbow", Recipe: recipe_31fe9898d477},
+		{ID: "T8_MAIN_1HCROSSBOW@1", Name: "Leichte Armbrust des Ältesten", Tier: 8, Enchantment: 1, CategoryPath: "weapons/crossbow/crossbow_1hcrossbow", Recipe: recipe_31fe9898d477},
+		{ID: "T8_MAIN_1HCROSSBOW@2", Name: "Leichte Armbrust des Ältesten", Tier: 8, Enchantment: 2, CategoryPath: "weapons/crossbow/crossbow_1hcrossbow", Recipe: recipe_31fe9898d477},
+		{ID: "T8_MAIN_1HCROSSBOW@3", Name: "Leichte Armbrust des Ältesten", Tier: 8, Enchantment: 3, CategoryPath: "weapons/crossbow/crossbow_1hcrossbow", Recipe: recipe_31fe9898d477},
+		{ID: "T8_MAIN_1HCROSSBOW@4", Name: "Leichte Armbrust des Ältesten", Tier: 8, Enchantment: 4, CategoryPath: "weapons/crossbow/crossbow_1hcrossbow", Recipe: recipe_31fe9898d477},
+	}},
+	{Name: "Arkanstab des Gesellen", BaseID: "MAIN_ARCANESTAFF", MinTier: 3, MaxTier: 8, MinEnchantment: 0, MaxEnchantment: 4, Variants: []ItemVariant{
+		{ID: "T3_MAIN_ARCANESTAFF", Name: "Arkanstab des Gesellen", Tier: 3, Enchantment: 0, CategoryPath: "weapons/arcanestaff/arcanestaff_main_arcanestaff", Recipe: recipe_342699aabb94},
+		{ID: "T4_MAIN_ARCANESTAFF", Name: "Arkanstab des Adepten", Tier: 4, Enchantment: 0, CategoryPath: "weapons/arcanestaff/arcanestaff_main_arcanestaff", Recipe: recipe_837fcb975be9},
+		{ID: "T4_MAIN_ARCANESTAFF@1", Name: "Arkanstab des Adepten", Tier: 4, Enchantment: 1, CategoryPath: "weapons/arcanestaff/arcanestaff_main_arcanestaff", Recipe: recipe_837fcb975be9},
+		{ID: "T4_MAIN_ARCANESTAFF@2", Name: "Arkanstab des Adepten", Tier: 4, Enchantment: 2, CategoryPath: "weapons/arcanestaff/arcanestaff_main_arcanestaff", Recipe: recipe_837fcb975be9},
+		{ID: "T4_MAIN_ARCANESTAFF@3", Name: "Arkanstab des Adepten", Tier: 4, Enchantment: 3, CategoryPath: "weapons/arcanestaff/arcanestaff_main_arcanestaff", Recipe: recipe_837fcb975be9},
+		{ID: "T4_MAIN_ARCANESTAFF@4", Name: "Arkanstab des Adepten", Tier: 4, Enchantment: 4, CategoryPath: "weapons/arcanestaff/arcanestaff_main_arcanestaff", Recipe: recipe_837fcb975be9},
+		{ID: "T5_MAIN_ARCANESTAFF", Name: "Arkanstab des Experten", Tier: 5, Enchantment: 0, CategoryPath: "weapons/arcanestaff/arcanestaff_main_arcanestaff", Recipe: recipe_24e6fe818596},
+		{ID: "T5_MAIN_ARCANESTAFF@1", Name: "Arkanstab des Experten", Tier: 5, Enchantment: 1, CategoryPath: "weapons/arcanestaff/arcanestaff_main_arcanestaff", Recipe: recipe_24e6fe818596},
+		{ID: "T5_MAIN_ARCANESTAFF@2", Name: "Arkanstab des Experten", Tier: 5, Enchantment: 2, CategoryPath: "weapons/arcanestaff/arcanestaff_main_arcanestaff", Recipe: recipe_24e6fe818596},
+		{ID: "T5_MAIN_ARCANESTAFF@3", Name: "Arkanstab des Experten", Tier: 5, Enchantment: 3, CategoryPath: "weapons/arcanestaff/arcanestaff_main_arcanestaff", Recipe: recipe_24e6fe818596},
+		{ID: "T5_MAIN_ARCANESTAFF@4", Name: "Arkanstab des Experten", Tier: 5, Enchantment: 4, CategoryPath: "weapons/arcanestaff/arcanestaff_main_arcanestaff", Recipe: recipe_24e6fe818596},
+		{ID: "T6_MAIN_ARCANESTAFF", Name: "Arkanstab des Meisters", Tier: 6, Enchantment: 0, CategoryPath: "weapons/arcanestaff/arcanestaff_main_arcanestaff", Recipe: recipe_f808e5cb51b3},
+		{ID: "T6_MAIN_ARCANESTAFF@1", Name: "Arkanstab des Meisters", Tier: 6, Enchantment: 1, CategoryPath: "weapons/arcanestaff/arcanestaff_main_arcanestaff", Recipe: recipe_f808e5cb51b3},
+		{ID: "T6_MAIN_ARCANESTAFF@2", Name: "Arkanstab des Meisters", Tier: 6, Enchantment: 2, CategoryPath: "weapons/arcanestaff/arcanestaff_main_arcanestaff", Recipe: recipe_f808e5cb51b3},
+		{ID: "T6_MAIN_ARCANESTAFF@3", Name: "Arkanstab des Meisters", Tier: 6, Enchantment: 3, CategoryPath: "weapons/arcanestaff/arcanestaff_main_arcanestaff", Recipe: recipe_f808e5cb51b3},
+		{ID: "T6_MAIN_ARCANESTAFF@4", Name: "Arkanstab des Meisters", Tier: 6, Enchantment: 4, CategoryPath: "weapons/arcanestaff/arcanestaff_main_arcanestaff", Recipe: recipe_f808e5cb51b3},
+		{ID: "T7_MAIN_ARCANESTAFF", Name: "Arkanstab des Großmeisters", Tier: 7, Enchantment: 0, CategoryPath: "weapons/arcanestaff/arcanestaff_main_arcanestaff", Recipe: recipe_cf544838d990},
+		{ID: "T7_MAIN_ARCANESTAFF@1", Name: "Arkanstab des Großmeisters", Tier: 7, Enchantment: 1, CategoryPath: "weapons/arcanestaff/arcanestaff_main_arcanestaff", Recipe: recipe_cf544838d990},
+		{ID: "T7_MAIN_ARCANESTAFF@2", Name: "Arkanstab des Großmeisters", Tier: 7, Enchantment: 2, CategoryPath: "weapons/arcanestaff/arcanestaff_main_arcanestaff", Recipe: recipe_cf544838d990},
+		{ID: "T7_MAIN_ARCANESTAFF@3", Name: "Arkanstab des Großmeisters", Tier: 7, Enchantment: 3, CategoryPath: "weapons/arcanestaff/arcanestaff_main_arcanestaff", Recipe: recipe_cf544838d990},
+		{ID: "T7_MAIN_ARCANESTAFF@4", Name: "Arkanstab des Großmeisters", Tier: 7, Enchantment: 4, CategoryPath: "weapons/arcanestaff/arcanestaff_main_arcanestaff", Recipe: recipe_cf544838d990},
+		{ID: "T8_MAIN_ARCANESTAFF", Name: "Arkanstab des Ältesten", Tier: 8, Enchantment: 0, CategoryPath: "weapons/arcanestaff/arcanestaff_main_arcanestaff", Recipe: recipe_e8465d349b67},
+		{ID: "T8_MAIN_ARCANESTAFF@1", Name: "Arkanstab des Ältesten", Tier: 8, Enchantment: 1, CategoryPath: "weapons/arcanestaff/arcanestaff_main_arcanestaff", Recipe: recipe_e8465d349b67},
+		{ID: "T8_MAIN_ARCANESTAFF@2", Name: "Arkanstab des Ältesten", Tier: 8, Enchantment: 2, CategoryPath: "weapons/arcanestaff/arcanestaff_main_arcanestaff", Recipe: recipe_e8465d349b67},
+		{ID: "T8_MAIN_ARCANESTAFF@3", Name: "Arkanstab des Ältesten", Tier: 8, Enchantment: 3, CategoryPath: "weapons/arcanestaff/arcanestaff_main_arcanestaff", Recipe: recipe_e8465d349b67},
+		{ID: "T8_MAIN_ARCANESTAFF@4", Name: "Arkanstab des Ältesten", Tier: 8, Enchantment: 4, CategoryPath: "weapons/arcanestaff/arcanestaff_main_arcanestaff", Recipe: recipe_e8465d349b67},
+	}},
+	{Name: "Hexenzauber-Stab des Adepten", BaseID: "MAIN_ARCANESTAFF_UNDEAD", MinTier: 4, MaxTier: 8, MinEnchantment: 0, MaxEnchantment: 4, Variants: []ItemVariant{
+		{ID: "T4_MAIN_ARCANESTAFF_UNDEAD", Name: "Hexenzauber-Stab des Adepten", Tier: 4, Enchantment: 0, CategoryPath: "weapons/arcanestaff/arcanestaff_undead", Recipe: recipe_e8056f342aee},
+		{ID: "T4_MAIN_ARCANESTAFF_UNDEAD@1", Name: "Hexenzauber-Stab des Adepten", Tier: 4, Enchantment: 1, CategoryPath: "weapons/arcanestaff/arcanestaff_undead", Recipe: recipe_e8056f342aee},
+		{ID: "T4_MAIN_ARCANESTAFF_UNDEAD@2", Name: "Hexenzauber-Stab des Adepten", Tier: 4, Enchantment: 2, CategoryPath: "weapons/arcanestaff/arcanestaff_undead", Recipe: recipe_e8056f342aee},
+		{ID: "T4_MAIN_ARCANESTAFF_UNDEAD@3", Name: "Hexenzauber-Stab des Adepten", Tier: 4, Enchantment: 3, CategoryPath: "weapons/arcanestaff/arcanestaff_undead", Recipe: recipe_e8056f342aee},
+		{ID: "T4_MAIN_ARCANESTAFF_UNDEAD@4", Name: "Hexenzauber-Stab des Adepten", Tier: 4, Enchantment: 4, CategoryPath: "weapons/arcanestaff/arcanestaff_undead", Recipe: recipe_e8056f342aee},
+		{ID: "T5_MAIN_ARCANESTAFF_UNDEAD", Name: "Hexenzauber-Stab des Experten", Tier: 5, Enchantment: 0, CategoryPath: "weapons/arcanestaff/arcanestaff_undead", Recipe: recipe_858d29dc78c3},
+		{ID: "T5_MAIN_ARCANESTAFF_UNDEAD@1", Name: "Hexenzauber-Stab des Experten", Tier: 5, Enchantment: 1, CategoryPath: "weapons/arcanestaff/arcanestaff_undead", Recipe: recipe_858d29dc78c3},
+		{ID: "T5_MAIN_ARCANESTAFF_UNDEAD@2", Name: "Hexenzauber-Stab des Experten", Tier: 5, Enchantment: 2, CategoryPath: "weapons/arcanestaff/arcanestaff_undead", Recipe: recipe_858d29dc78c3},
+		{ID: "T5_MAIN_ARCANESTAFF_UNDEAD@3", Name: "Hexenzauber-Stab des Experten", Tier: 5, Enchantment: 3, CategoryPath: "weapons/arcanestaff/arcanestaff_undead", Recipe: recipe_858d29dc78c3},
+		{ID: "T5_MAIN_ARCANESTAFF_UNDEAD@4", Name: "Hexenzauber-Stab des Experten", Tier: 5, Enchantment: 4, CategoryPath: "weapons/arcanestaff/arcanestaff_undead", Recipe: recipe_858d29dc78c3},
+		{ID: "T6_MAIN_ARCANESTAFF_UNDEAD", Name: "Hexenzauber-Stab des Meisters", Tier: 6, Enchantment: 0, CategoryPath: "weapons/arcanestaff/arcanestaff_undead", Recipe: recipe_9551659fd626},
+		{ID: "T6_MAIN_ARCANESTAFF_UNDEAD@1", Name: "Hexenzauber-Stab des Meisters", Tier: 6, Enchantment: 1, CategoryPath: "weapons/arcanestaff/arcanestaff_undead", Recipe: recipe_9551659fd626},
+		{ID: "T6_MAIN_ARCANESTAFF_UNDEAD@2", Name: "Hexenzauber-Stab des Meisters", Tier: 6, Enchantment: 2, CategoryPath: "weapons/arcanestaff/arcanestaff_undead", Recipe: recipe_9551659fd626},
+		{ID: "T6_MAIN_ARCANESTAFF_UNDEAD@3", Name: "Hexenzauber-Stab des Meisters", Tier: 6, Enchantment: 3, CategoryPath: "weapons/arcanestaff/arcanestaff_undead", Recipe: recipe_9551659fd626},
+		{ID: "T6_MAIN_ARCANESTAFF_UNDEAD@4", Name: "Hexenzauber-Stab des Meisters", Tier: 6, Enchantment: 4, CategoryPath: "weapons/arcanestaff/arcanestaff_undead", Recipe: recipe_9551659fd626},
+		{ID: "T7_MAIN_ARCANESTAFF_UNDEAD", Name: "Hexenzauber-Stab des Großmeisters", Tier: 7, Enchantment: 0, CategoryPath: "weapons/arcanestaff/arcanestaff_undead", Recipe: recipe_7b63c0a63abb},
+		{ID: "T7_MAIN_ARCANESTAFF_UNDEAD@1", Name: "Hexenzauber-Stab des Großmeisters", Tier: 7, Enchantment: 1, CategoryPath: "weapons/arcanestaff/arcanestaff_undead", Recipe: recipe_7b63c0a63abb},
+		{ID: "T7_MAIN_ARCANESTAFF_UNDEAD@2", Name: "Hexenzauber-Stab des Großmeisters", Tier: 7, Enchantment: 2, CategoryPath: "weapons/arcanestaff/arcanestaff_undead", Recipe: recipe_7b63c0a63abb},
+		{ID: "T7_MAIN_ARCANESTAFF_UNDEAD@3", Name: "Hexenzauber-Stab des Großmeisters", Tier: 7, Enchantment: 3, CategoryPath: "weapons/arcanestaff/arcanestaff_undead", Recipe: recipe_7b63c0a63abb},
+		{ID: "T7_MAIN_ARCANESTAFF_UNDEAD@4", Name: "Hexenzauber-Stab des Großmeisters", Tier: 7, Enchantment: 4, CategoryPath: "weapons/arcanestaff/arcanestaff_undead", Recipe: recipe_7b63c0a63abb},
+		{ID: "T8_MAIN_ARCANESTAFF_UNDEAD", Name: "Hexenzauber-Stab des Ältesten", Tier: 8, Enchantment: 0, CategoryPath: "weapons/arcanestaff/arcanestaff_undead", Recipe: recipe_9f4692133dc1},
+		{ID: "T8_MAIN_ARCANESTAFF_UNDEAD@1", Name: "Hexenzauber-Stab des Ältesten", Tier: 8, Enchantment: 1, CategoryPath: "weapons/arcanestaff/arcanestaff_undead", Recipe: recipe_9f4692133dc1},
+		{ID: "T8_MAIN_ARCANESTAFF_UNDEAD@2", Name: "Hexenzauber-Stab des Ältesten", Tier: 8, Enchantment: 2, CategoryPath: "weapons/arcanestaff/arcanestaff_undead", Recipe: recipe_9f4692133dc1},
+		{ID: "T8_MAIN_ARCANESTAFF_UNDEAD@3", Name: "Hexenzauber-Stab des Ältesten", Tier: 8, Enchantment: 3, CategoryPath: "weapons/arcanestaff/arcanestaff_undead", Recipe: recipe_9f4692133dc1},
+		{ID: "T8_MAIN_ARCANESTAFF_UNDEAD@4", Name: "Hexenzauber-Stab des Ältesten", Tier: 8, Enchantment: 4, CategoryPath: "weapons/arcanestaff/arcanestaff_undead", Recipe: recipe_9f4692133dc1},
+	}},
+	{Name: "Streitaxt des Gesellen", BaseID: "MAIN_AXE", MinTier: 3, MaxTier: 8, MinEnchantment: 0, MaxEnchantment: 4, Variants: []ItemVariant{
+		{ID: "T3_MAIN_AXE", Name: "Streitaxt des Gesellen", Tier: 3, Enchantment: 0, CategoryPath: "weapons/axe/axe_main_axe", Recipe: recipe_3f6afc87bc10},
+		{ID: "T4_MAIN_AXE", Name: "Streitaxt des Adepten", Tier: 4, Enchantment: 0, CategoryPath: "weapons/axe/axe_main_axe", Recipe: recipe_03d042c6964b},
+		{ID: "T4_MAIN_AXE@1", Name: "Streitaxt des Adepten", Tier: 4, Enchantment: 1, CategoryPath: "weapons/axe/axe_main_axe", Recipe: recipe_03d042c6964b},
+		{ID: "T4_MAIN_AXE@2", Name: "Streitaxt des Adepten", Tier: 4, Enchantment: 2, CategoryPath: "weapons/axe/axe_main_axe", Recipe: recipe_03d042c6964b},
+		{ID: "T4_MAIN_AXE@3", Name: "Streitaxt des Adepten", Tier: 4, Enchantment: 3, CategoryPath: "weapons/axe/axe_main_axe", Recipe: recipe_03d042c6964b},
+		{ID: "T4_MAIN_AXE@4", Name: "Streitaxt des Adepten", Tier: 4, Enchantment: 4, CategoryPath: "weapons/axe/axe_main_axe", Recipe: recipe_03d042c6964b},
+		{ID: "T5_MAIN_AXE", Name: "Streitaxt des Experten", Tier: 5, Enchantment: 0, CategoryPath: "weapons/axe/axe_main_axe", Recipe: recipe_e1358a6c0dd9},
+		{ID: "T5_MAIN_AXE@1", Name: "Streitaxt des Experten", Tier: 5, Enchantment: 1, CategoryPath: "weapons/axe/axe_main_axe", Recipe: recipe_e1358a6c0dd9},
+		{ID: "T5_MAIN_AXE@2", Name: "Streitaxt des Experten", Tier: 5, Enchantment: 2, CategoryPath: "weapons/axe/axe_main_axe", Recipe: recipe_e1358a6c0dd9},
+		{ID: "T5_MAIN_AXE@3", Name: "Streitaxt des Experten", Tier: 5, Enchantment: 3, CategoryPath: "weapons/axe/axe_main_axe", Recipe: recipe_e1358a6c0dd9},
+		{ID: "T5_MAIN_AXE@4", Name: "Streitaxt des Experten", Tier: 5, Enchantment: 4, CategoryPath: "weapons/axe/axe_main_axe", Recipe: recipe_e1358a6c0dd9},
+		{ID: "T6_MAIN_AXE", Name: "Streitaxt des Meisters", Tier: 6, Enchantment: 0, CategoryPath: "weapons/axe/axe_main_axe", Recipe: recipe_ebd0182f3762},
+		{ID: "T6_MAIN_AXE@1", Name: "Streitaxt des Meisters", Tier: 6, Enchantment: 1, CategoryPath: "weapons/axe/axe_main_axe", Recipe: recipe_ebd0182f3762},
+		{ID: "T6_MAIN_AXE@2", Name: "Streitaxt des Meisters", Tier: 6, Enchantment: 2, CategoryPath: "weapons/axe/axe_main_axe", Recipe: recipe_ebd0182f3762},
+		{ID: "T6_MAIN_AXE@3", Name: "Streitaxt des Meisters", Tier: 6, Enchantment: 3, CategoryPath: "weapons/axe/axe_main_axe", Recipe: recipe_ebd0182f3762},
+		{ID: "T6_MAIN_AXE@4", Name: "Streitaxt des Meisters", Tier: 6, Enchantment: 4, CategoryPath: "weapons/axe/axe_main_axe", Recipe: recipe_ebd0182f3762},
+		{ID: "T7_MAIN_AXE", Name: "Streitaxt des Großmeisters", Tier: 7, Enchantment: 0, CategoryPath: "weapons/axe/axe_main_axe", Recipe: recipe_a7622b3d9854},
+		{ID: "T7_MAIN_AXE@1", Name: "Streitaxt des Großmeisters", Tier: 7, Enchantment: 1, CategoryPath: "weapons/axe/axe_main_axe", Recipe: recipe_a7622b3d9854},
+		{ID: "T7_MAIN_AXE@2", Name: "Streitaxt des Großmeisters", Tier: 7, Enchantment: 2, CategoryPath: "weapons/axe/axe_main_axe", Recipe: recipe_a7622b3d9854},
+		{ID: "T7_MAIN_AXE@3", Name: "Streitaxt des Großmeisters", Tier: 7, Enchantment: 3, CategoryPath: "weapons/axe/axe_main_axe", Recipe: recipe_a7622b3d9854},
+		{ID: "T7_MAIN_AXE@4", Name: "Streitaxt des Großmeisters", Tier: 7, Enchantment: 4, CategoryPath: "weapons/axe/axe_main_axe", Recipe: recipe_a7622b3d9854},
+		{ID: "T8_MAIN_AXE", Name: "Streitaxt des Ältesten", Tier: 8, Enchantment: 0, CategoryPath: "weapons/axe/axe_main_axe", Recipe: recipe_0e9e172589ff},
+		{ID: "T8_MAIN_AXE@1", Name: "Streitaxt des Ältesten", Tier: 8, Enchantment: 1, CategoryPath: "weapons/axe/axe_main_axe", Recipe: recipe_0e9e172589ff},
+		{ID: "T8_MAIN_AXE@2", Name: "Streitaxt des Ältesten", Tier: 8, Enchantment: 2, CategoryPath: "weapons/axe/axe_main_axe", Recipe: recipe_0e9e172589ff},
+		{ID: "T8_MAIN_AXE@3", Name: "Streitaxt des Ältesten", Tier: 8, Enchantment: 3, CategoryPath: "weapons/axe/axe_main_axe", Recipe: recipe_0e9e172589ff},
+		{ID: "T8_MAIN_AXE@4", Name: "Streitaxt des Ältesten", Tier: 8, Enchantment: 4, CategoryPath: "weapons/axe/axe_main_axe", Recipe: recipe_0e9e172589ff},
+	}},
+	{Name: "Verfluchter Stab des Gesellen", BaseID: "MAIN_CURSEDSTAFF", MinTier: 3, MaxTier: 8, MinEnchantment: 0, MaxEnchantment: 4, Variants: []ItemVariant{
+		{ID: "T3_MAIN_CURSEDSTAFF", Name: "Verfluchter Stab des Gesellen", Tier: 3, Enchantment: 0, CategoryPath: "weapons/cursestaff/cursestaff_main_cursedstaff", Recipe: recipe_81a3d6eae906},
+		{ID: "T4_MAIN_CURSEDSTAFF", Name: "Verfluchter Stab des Adepten", Tier: 4, Enchantment: 0, CategoryPath: "weapons/cursestaff/cursestaff_main_cursedstaff", Recipe: recipe_8a9c4649866a},
+		{ID: "T4_MAIN_CURSEDSTAFF@1", Name: "Verfluchter Stab des Adepten", Tier: 4, Enchantment: 1, CategoryPath: "weapons/cursestaff/cursestaff_main_cursedstaff", Recipe: recipe_8a9c4649866a},
+		{ID: "T4_MAIN_CURSEDSTAFF@2", Name: "Verfluchter Stab des Adepten", Tier: 4, Enchantment: 2, CategoryPath: "weapons/cursestaff/cursestaff_main_cursedstaff", Recipe: recipe_8a9c4649866a},
+		{ID: "T4_MAIN_CURSEDSTAFF@3", Name: "Verfluchter Stab des Adepten", Tier: 4, Enchantment: 3, CategoryPath: "weapons/cursestaff/cursestaff_main_cursedstaff", Recipe: recipe_8a9c4649866a},
+		{ID: "T4_MAIN_CURSEDSTAFF@4", Name: "Verfluchter Stab des Adepten", Tier: 4, Enchantment: 4, CategoryPath: "weapons/cursestaff/cursestaff_main_cursedstaff", Recipe: recipe_8a9c4649866a},
+		{ID: "T5_MAIN_CURSEDSTAFF", Name: "Verfluchter Stab des Experten", Tier: 5, Enchantment: 0, CategoryPath: "weapons/cursestaff/cursestaff_main_cursedstaff", Recipe: recipe_789135ad3e6d},
+		{ID: "T5_MAIN_CURSEDSTAFF@1", Name: "Verfluchter Stab des Experten", Tier: 5, Enchantment: 1, CategoryPath: "weapons/cursestaff/cursestaff_main_cursedstaff", Recipe: recipe_789135ad3e6d},
+		{ID: "T5_MAIN_CURSEDSTAFF@2", Name: "Verfluchter Stab des Experten", Tier: 5, Enchantment: 2, CategoryPath: "weapons/cursestaff/cursestaff_main_cursedstaff", Recipe: recipe_789135ad3e6d},
+		{ID: "T5_MAIN_CURSEDSTAFF@3", Name: "Verfluchter Stab des Experten", Tier: 5, Enchantment: 3, CategoryPath: "weapons/cursestaff/cursestaff_main_cursedstaff", Recipe: recipe_789135ad3e6d},
+		{ID: "T5_MAIN_CURSEDSTAFF@4", Name: "Verfluchter Stab des Experten", Tier: 5, Enchantment: 4, CategoryPath: "weapons/cursestaff/cursestaff_main_cursedstaff", Recipe: recipe_789135ad3e6d},
+		{ID: "T6_MAIN_CURSEDSTAFF", Name: "Verfluchter Stab des Meisters", Tier: 6, Enchantment: 0, CategoryPath: "weapons/cursestaff/cursestaff_main_cursedstaff", Recipe: recipe_0ac741b8de92},
+		{ID: "T6_MAIN_CURSEDSTAFF@1", Name: "Verfluchter Stab des Meisters", Tier: 6, Enchantment: 1, CategoryPath: "weapons/cursestaff/cursestaff_main_cursedstaff", Recipe: recipe_0ac741b8de92},
+		{ID: "T6_MAIN_CURSEDSTAFF@2", Name: "Verfluchter Stab des Meisters", Tier: 6, Enchantment: 2, CategoryPath: "weapons/cursestaff/cursestaff_main_cursedstaff", Recipe: recipe_0ac741b8de92},
+		{ID: "T6_MAIN_CURSEDSTAFF@3", Name: "Verfluchter Stab des Meisters", Tier: 6, Enchantment: 3, CategoryPath: "weapons/cursestaff/cursestaff_main_cursedstaff", Recipe: recipe_0ac741b8de92},
+		{ID: "T6_MAIN_CURSEDSTAFF@4", Name: "Verfluchter Stab des Meisters", Tier: 6, Enchantment: 4, CategoryPath: "weapons/cursestaff/cursestaff_main_cursedstaff", Recipe: recipe_0ac741b8de92},
+		{ID: "T7_MAIN_CURSEDSTAFF", Name: "Verfluchter Stab des Großmeisters", Tier: 7, Enchantment: 0, CategoryPath: "weapons/cursestaff/cursestaff_main_cursedstaff", Recipe: recipe_12f6ae0e5c43},
+		{ID: "T7_MAIN_CURSEDSTAFF@1", Name: "Verfluchter Stab des Großmeisters", Tier: 7, Enchantment: 1, CategoryPath: "weapons/cursestaff/cursestaff_main_cursedstaff", Recipe: recipe_12f6ae0e5c43},
+		{ID: "T7_MAIN_CURSEDSTAFF@2", Name: "Verfluchter Stab des Großmeisters", Tier: 7, Enchantment: 2, CategoryPath: "weapons/cursestaff/cursestaff_main_cursedstaff", Recipe: recipe_12f6ae0e5c43},
+		{ID: "T7_MAIN_CURSEDSTAFF@3", Name: "Verfluchter Stab des Großmeisters", Tier: 7, Enchantment: 3, CategoryPath: "weapons/cursestaff/cursestaff_main_cursedstaff", Recipe: recipe_12f6ae0e5c43},
+		{ID: "T7_MAIN_CURSEDSTAFF@4", Name: "Verfluchter Stab des Großmeisters", Tier: 7, Enchantment: 4, CategoryPath: "weapons/cursestaff/cursestaff_main_cursedstaff", Recipe: recipe_12f6ae0e5c43},
+		{ID: "T8_MAIN_CURSEDSTAFF", Name: "Verfluchter Stab des Ältesten", Tier: 8, Enchantment: 0, CategoryPath: "weapons/cursestaff/cursestaff_main_cursedstaff", Recipe: recipe_cde75afbf189},
+		{ID: "T8_MAIN_CURSEDSTAFF@1", Name: "Verfluchter Stab des Ältesten", Tier: 8, Enchantment: 1, CategoryPath: "weapons/cursestaff/cursestaff_main_cursedstaff", Recipe: recipe_cde75afbf189},
+		{ID: "T8_MAIN_CURSEDSTAFF@2", Name: "Verfluchter Stab des Ältesten", Tier: 8, Enchantment: 2, CategoryPath: "weapons/cursestaff/cursestaff_main_cursedstaff", Recipe: recipe_cde75afbf189},
+		{ID: "T8_MAIN_CURSEDSTAFF@3", Name: "Verfluchter Stab des Ältesten", Tier: 8, Enchantment: 3, CategoryPath: "weapons/cursestaff/cursestaff_main_cursedstaff", Recipe: recipe_cde75afbf189},
+		{ID: "T8_MAIN_CURSEDSTAFF@4", Name: "Verfluchter Stab des Ältesten", Tier: 8, Enchantment: 4, CategoryPath: "weapons/cursestaff/cursestaff_main_cursedstaff", Recipe: recipe_cde75afbf189},
+	}},
+	{Name: "Schattenrufer des Adepten", BaseID: "MAIN_CURSEDSTAFF_AVALON", MinTier: 4, MaxTier: 8, MinEnchantment: 0, MaxEnchantment: 4, Variants: []ItemVariant{
+		{ID: "T4_MAIN_CURSEDSTAFF_AVALON", Name: "Schattenrufer des Adepten", Tier: 4, Enchantment: 0, CategoryPath: "weapons/cursestaff/cursestaff_avalon", Recipe: recipe_4368993bce26},
+		{ID: "T4_MAIN_CURSEDSTAFF_AVALON@1", Name: "Schattenrufer des Adepten", Tier: 4, Enchantment: 1, CategoryPath: "weapons/cursestaff/cursestaff_avalon", Recipe: recipe_4368993bce26},
+		{ID: "T4_MAIN_CURSEDSTAFF_AVALON@2", Name: "Schattenrufer des Adepten", Tier: 4, Enchantment: 2, CategoryPath: "weapons/cursestaff/cursestaff_avalon", Recipe: recipe_4368993bce26},
+		{ID: "T4_MAIN_CURSEDSTAFF_AVALON@3", Name: "Schattenrufer des Adepten", Tier: 4, Enchantment: 3, CategoryPath: "weapons/cursestaff/cursestaff_avalon", Recipe: recipe_4368993bce26},
+		{ID: "T4_MAIN_CURSEDSTAFF_AVALON@4", Name: "Schattenrufer des Adepten", Tier: 4, Enchantment: 4, CategoryPath: "weapons/cursestaff/cursestaff_avalon", Recipe: recipe_4368993bce26},
+		{ID: "T5_MAIN_CURSEDSTAFF_AVALON", Name: "Schattenrufer des Experten", Tier: 5, Enchantment: 0, CategoryPath: "weapons/cursestaff/cursestaff_avalon", Recipe: recipe_7d710f5f8c24},
+		{ID: "T5_MAIN_CURSEDSTAFF_AVALON@1", Name: "Schattenrufer des Experten", Tier: 5, Enchantment: 1, CategoryPath: "weapons/cursestaff/cursestaff_avalon", Recipe: recipe_7d710f5f8c24},
+		{ID: "T5_MAIN_CURSEDSTAFF_AVALON@2", Name: "Schattenrufer des Experten", Tier: 5, Enchantment: 2, CategoryPath: "weapons/cursestaff/cursestaff_avalon", Recipe: recipe_7d710f5f8c24},
+		{ID: "T5_MAIN_CURSEDSTAFF_AVALON@3", Name: "Schattenrufer des Experten", Tier: 5, Enchantment: 3, CategoryPath: "weapons/cursestaff/cursestaff_avalon", Recipe: recipe_7d710f5f8c24},
+		{ID: "T5_MAIN_CURSEDSTAFF_AVALON@4", Name: "Schattenrufer des Experten", Tier: 5, Enchantment: 4, CategoryPath: "weapons/cursestaff/cursestaff_avalon", Recipe: recipe_7d710f5f8c24},
+		{ID: "T6_MAIN_CURSEDSTAFF_AVALON", Name: "Schattenrufer des Meisters", Tier: 6, Enchantment: 0, CategoryPath: "weapons/cursestaff/cursestaff_avalon", Recipe: recipe_00bd67b18790},
+		{ID: "T6_MAIN_CURSEDSTAFF_AVALON@1", Name: "Schattenrufer des Meisters", Tier: 6, Enchantment: 1, CategoryPath: "weapons/cursestaff/cursestaff_avalon", Recipe: recipe_00bd67b18790},
+		{ID: "T6_MAIN_CURSEDSTAFF_AVALON@2", Name: "Schattenrufer des Meisters", Tier: 6, Enchantment: 2, CategoryPath: "weapons/cursestaff/cursestaff_avalon", Recipe: recipe_00bd67b18790},
+		{ID: "T6_MAIN_CURSEDSTAFF_AVALON@3", Name: "Schattenrufer des Meisters", Tier: 6, Enchantment: 3, CategoryPath: "weapons/cursestaff/cursestaff_avalon", Recipe: recipe_00bd67b18790},
+		{ID: "T6_MAIN_CURSEDSTAFF_AVALON@4", Name: "Schattenrufer des Meisters", Tier: 6, Enchantment: 4, CategoryPath: "weapons/cursestaff/cursestaff_avalon", Recipe: recipe_00bd67b18790},
+		{ID: "T7_MAIN_CURSEDSTAFF_AVALON", Name: "Schattenrufer des Großmeisters", Tier: 7, Enchantment: 0, CategoryPath: "weapons/cursestaff/cursestaff_avalon", Recipe: recipe_ef6b4e85f85b},
+		{ID: "T7_MAIN_CURSEDSTAFF_AVALON@1", Name: "Schattenrufer des Großmeisters", Tier: 7, Enchantment: 1, CategoryPath: "weapons/cursestaff/cursestaff_avalon", Recipe: recipe_ef6b4e85f85b},
+		{ID: "T7_MAIN_CURSEDSTAFF_AVALON@2", Name: "Schattenrufer des Großmeisters", Tier: 7, Enchantment: 2, CategoryPath: "weapons/cursestaff/cursestaff_avalon", Recipe: recipe_ef6b4e85f85b},
+		{ID: "T7_MAIN_CURSEDSTAFF_AVALON@3", Name: "Schattenrufer des Großmeisters", Tier: 7, Enchantment: 3, CategoryPath: "weapons/cursestaff/cursestaff_avalon", Recipe: recipe_ef6b4e85f85b},
+		{ID: "T7_MAIN_CURSEDSTAFF_AVALON@4", Name: "Schattenrufer des Großmeisters", Tier: 7, Enchantment: 4, CategoryPath: "weapons/cursestaff/cursestaff_avalon", Recipe: recipe_ef6b4e85f85b},
+		{ID: "T8_MAIN_CURSEDSTAFF_AVALON", Name: "Schattenrufer des Ältesten", Tier: 8, Enchantment: 0, CategoryPath: "weapons/cursestaff/cursestaff_avalon", Recipe: recipe_a95a0d6ec6ca},
+		{ID: "T8_MAIN_CURSEDSTAFF_AVALON@1", Name: "Schattenrufer des Ältesten", Tier: 8, Enchantment: 1, CategoryPath: "weapons/cursestaff/cursestaff_avalon", Recipe: recipe_a95a0d6ec6ca},
+		{ID: "T8_MAIN_CURSEDSTAFF_AVALON@2", Name: "Schattenrufer des Ältesten", Tier: 8, Enchantment: 2, CategoryPath: "weapons/cursestaff/cursestaff_avalon", Recipe: recipe_a95a0d6ec6ca},
+		{ID: "T8_MAIN_CURSEDSTAFF_AVALON@3", Name: "Schattenrufer des Ältesten", Tier: 8, Enchantment: 3, CategoryPath: "weapons/cursestaff/cursestaff_avalon", Recipe: recipe_a95a0d6ec6ca},
+		{ID: "T8_MAIN_CURSEDSTAFF_AVALON@4", Name: "Schattenrufer des Ältesten", Tier: 8, Enchantment: 4, CategoryPath: "weapons/cursestaff/cursestaff_avalon", Recipe: recipe_a95a0d6ec6ca},
+	}},
+	{Name: "Fäulnisrufer Stab des Adepten", BaseID: "MAIN_CURSEDSTAFF_CRYSTAL", MinTier: 4, MaxTier: 8, MinEnchantment: 0, MaxEnchantment: 4, Variants: []ItemVariant{
+		{ID: "T4_MAIN_CURSEDSTAFF_CRYSTAL", Name: "Fäulnisrufer Stab des Adepten", Tier: 4, Enchantment: 0, CategoryPath: "weapons/cursestaff/cursestaff_crystal", Recipe: recipe_8afc3e180b56},
+		{ID: "T4_MAIN_CURSEDSTAFF_CRYSTAL@1", Name: "Fäulnisrufer Stab des Adepten", Tier: 4, Enchantment: 1, CategoryPath: "weapons/cursestaff/cursestaff_crystal", Recipe: recipe_8afc3e180b56},
+		{ID: "T4_MAIN_CURSEDSTAFF_CRYSTAL@2", Name: "Fäulnisrufer Stab des Adepten", Tier: 4, Enchantment: 2, CategoryPath: "weapons/cursestaff/cursestaff_crystal", Recipe: recipe_8afc3e180b56},
+		{ID: "T4_MAIN_CURSEDSTAFF_CRYSTAL@3", Name: "Fäulnisrufer Stab des Adepten", Tier: 4, Enchantment: 3, CategoryPath: "weapons/cursestaff/cursestaff_crystal", Recipe: recipe_8afc3e180b56},
+		{ID: "T4_MAIN_CURSEDSTAFF_CRYSTAL@4", Name: "Fäulnisrufer Stab des Adepten", Tier: 4, Enchantment: 4, CategoryPath: "weapons/cursestaff/cursestaff_crystal", Recipe: recipe_8afc3e180b56},
+		{ID: "T5_MAIN_CURSEDSTAFF_CRYSTAL", Name: "Fäulnisrufer Stab des Experten", Tier: 5, Enchantment: 0, CategoryPath: "weapons/cursestaff/cursestaff_crystal", Recipe: recipe_0a1c89bfe34f},
+		{ID: "T5_MAIN_CURSEDSTAFF_CRYSTAL@1", Name: "Fäulnisrufer Stab des Experten", Tier: 5, Enchantment: 1, CategoryPath: "weapons/cursestaff/cursestaff_crystal", Recipe: recipe_0a1c89bfe34f},
+		{ID: "T5_MAIN_CURSEDSTAFF_CRYSTAL@2", Name: "Fäulnisrufer Stab des Experten", Tier: 5, Enchantment: 2, CategoryPath: "weapons/cursestaff/cursestaff_crystal", Recipe: recipe_0a1c89bfe34f},
+		{ID: "T5_MAIN_CURSEDSTAFF_CRYSTAL@3", Name: "Fäulnisrufer Stab des Experten", Tier: 5, Enchantment: 3, CategoryPath: "weapons/cursestaff/cursestaff_crystal", Recipe: recipe_0a1c89bfe34f},
+		{ID: "T5_MAIN_CURSEDSTAFF_CRYSTAL@4", Name: "Fäulnisrufer Stab des Experten", Tier: 5, Enchantment: 4, CategoryPath: "weapons/cursestaff/cursestaff_crystal", Recipe: recipe_0a1c89bfe34f},
+		{ID: "T6_MAIN_CURSEDSTAFF_CRYSTAL", Name: "Fäulnisrufer Stab des Meisters", Tier: 6, Enchantment: 0, CategoryPath: "weapons/cursestaff/cursestaff_crystal", Recipe: recipe_aa3b96425d15},
+		{ID: "T6_MAIN_CURSEDSTAFF_CRYSTAL@1", Name: "Fäulnisrufer Stab des Meisters", Tier: 6, Enchantment: 1, CategoryPath: "weapons/cursestaff/cursestaff_crystal", Recipe: recipe_aa3b96425d15},
+		{ID: "T6_MAIN_CURSEDSTAFF_CRYSTAL@2", Name: "Fäulnisrufer Stab des Meisters", Tier: 6, Enchantment: 2, CategoryPath: "weapons/cursestaff/cursestaff_crystal", Recipe: recipe_aa3b96425d15},
+		{ID: "T6_MAIN_CURSEDSTAFF_CRYSTAL@3", Name: "Fäulnisrufer Stab des Meisters", Tier: 6, Enchantment: 3, CategoryPath: "weapons/cursestaff/cursestaff_crystal", Recipe: recipe_aa3b96425d15},
+		{ID: "T6_MAIN_CURSEDSTAFF_CRYSTAL@4", Name: "Fäulnisrufer Stab des Meisters", Tier: 6, Enchantment: 4, CategoryPath: "weapons/cursestaff/cursestaff_crystal", Recipe: recipe_aa3b96425d15},
+		{ID: "T7_MAIN_CURSEDSTAFF_CRYSTAL", Name: "Fäulnisrufer Stab des Großmeisters", Tier: 7, Enchantment: 0, CategoryPath: "weapons/cursestaff/cursestaff_crystal", Recipe: recipe_61992ece16f1},
+		{ID: "T7_MAIN_CURSEDSTAFF_CRYSTAL@1", Name: "Fäulnisrufer Stab des Großmeisters", Tier: 7, Enchantment: 1, CategoryPath: "weapons/cursestaff/cursestaff_crystal", Recipe: recipe_61992ece16f1},
+		{ID: "T7_MAIN_CURSEDSTAFF_CRYSTAL@2", Name: "Fäulnisrufer Stab des Großmeisters", Tier: 7, Enchantment: 2, CategoryPath: "weapons/cursestaff/cursestaff_crystal", Recipe: recipe_61992ece16f1},
+		{ID: "T7_MAIN_CURSEDSTAFF_CRYSTAL@3", Name: "Fäulnisrufer Stab des Großmeisters", Tier: 7, Enchantment: 3, CategoryPath: "weapons/cursestaff/cursestaff_crystal", Recipe: recipe_61992ece16f1},
+		{ID: "T7_MAIN_CURSEDSTAFF_CRYSTAL@4", Name: "Fäulnisrufer Stab des Großmeisters", Tier: 7, Enchantment: 4, CategoryPath: "weapons/cursestaff/cursestaff_crystal", Recipe: recipe_61992ece16f1},
+		{ID: "T8_MAIN_CURSEDSTAFF_CRYSTAL", Name: "Fäulnisrufer Stab des Ältesten", Tier: 8, Enchantment: 0, CategoryPath: "weapons/cursestaff/cursestaff_crystal", Recipe: recipe_7e439531bc29},
+		{ID: "T8_MAIN_CURSEDSTAFF_CRYSTAL@1", Name: "Fäulnisrufer Stab des Ältesten", Tier: 8, Enchantment: 1, CategoryPath: "weapons/cursestaff/cursestaff_crystal", Recipe: recipe_7e439531bc29},
+		{ID: "T8_MAIN_CURSEDSTAFF_CRYSTAL@2", Name: "Fäulnisrufer Stab des Ältesten", Tier: 8, Enchantment: 2, CategoryPath: "weapons/cursestaff/cursestaff_crystal", Recipe: recipe_7e439531bc29},
+		{ID: "T8_MAIN_CURSEDSTAFF_CRYSTAL@3", Name: "Fäulnisrufer Stab des Ältesten", Tier: 8, Enchantment: 3, CategoryPath: "weapons/cursestaff/cursestaff_crystal", Recipe: recipe_7e439531bc29},
+		{ID: "T8_MAIN_CURSEDSTAFF_CRYSTAL@4", Name: "Fäulnisrufer Stab des Ältesten", Tier: 8, Enchantment: 4, CategoryPath: "weapons/cursestaff/cursestaff_crystal", Recipe: recipe_7e439531bc29},
+	}},
+	{Name: "Lebensfluchstab des Adepten", BaseID: "MAIN_CURSEDSTAFF_UNDEAD", MinTier: 4, MaxTier: 8, MinEnchantment: 0, MaxEnchantment: 4, Variants: []ItemVariant{
+		{ID: "T4_MAIN_CURSEDSTAFF_UNDEAD", Name: "Lebensfluchstab des Adepten", Tier: 4, Enchantment: 0, CategoryPath: "weapons/cursestaff/cursestaff_undead", Recipe: recipe_ecd99b59d176},
+		{ID: "T4_MAIN_CURSEDSTAFF_UNDEAD@1", Name: "Lebensfluchstab des Adepten", Tier: 4, Enchantment: 1, CategoryPath: "weapons/cursestaff/cursestaff_undead", Recipe: recipe_ecd99b59d176},
+		{ID: "T4_MAIN_CURSEDSTAFF_UNDEAD@2", Name: "Lebensfluchstab des Adepten", Tier: 4, Enchantment: 2, CategoryPath: "weapons/cursestaff/cursestaff_undead", Recipe: recipe_ecd99b59d176},
+		{ID: "T4_MAIN_CURSEDSTAFF_UNDEAD@3", Name: "Lebensfluchstab des Adepten", Tier: 4, Enchantment: 3, CategoryPath: "weapons/cursestaff/cursestaff_undead", Recipe: recipe_ecd99b59d176},
+		{ID: "T4_MAIN_CURSEDSTAFF_UNDEAD@4", Name: "Lebensfluchstab des Adepten", Tier: 4, Enchantment: 4, CategoryPath: "weapons/cursestaff/cursestaff_undead", Recipe: recipe_ecd99b59d176},
+		{ID: "T5_MAIN_CURSEDSTAFF_UNDEAD", Name: "Lebensfluchstab des Experten", Tier: 5, Enchantment: 0, CategoryPath: "weapons/cursestaff/cursestaff_undead", Recipe: recipe_95f40546c552},
+		{ID: "T5_MAIN_CURSEDSTAFF_UNDEAD@1", Name: "Lebensfluchstab des Experten", Tier: 5, Enchantment: 1, CategoryPath: "weapons/cursestaff/cursestaff_undead", Recipe: recipe_95f40546c552},
+		{ID: "T5_MAIN_CURSEDSTAFF_UNDEAD@2", Name: "Lebensfluchstab des Experten", Tier: 5, Enchantment: 2, CategoryPath: "weapons/cursestaff/cursestaff_undead", Recipe: recipe_95f40546c552},
+		{ID: "T5_MAIN_CURSEDSTAFF_UNDEAD@3", Name: "Lebensfluchstab des Experten", Tier: 5, Enchantment: 3, CategoryPath: "weapons/cursestaff/cursestaff_undead", Recipe: recipe_95f40546c552},
+		{ID: "T5_MAIN_CURSEDSTAFF_UNDEAD@4", Name: "Lebensfluchstab des Experten", Tier: 5, Enchantment: 4, CategoryPath: "weapons/cursestaff/cursestaff_undead", Recipe: recipe_95f40546c552},
+		{ID: "T6_MAIN_CURSEDSTAFF_UNDEAD", Name: "Lebensfluchstab des Meisters", Tier: 6, Enchantment: 0, CategoryPath: "weapons/cursestaff/cursestaff_undead", Recipe: recipe_4357b0f0d0f5},
+		{ID: "T6_MAIN_CURSEDSTAFF_UNDEAD@1", Name: "Lebensfluchstab des Meisters", Tier: 6, Enchantment: 1, CategoryPath: "weapons/cursestaff/cursestaff_undead", Recipe: recipe_4357b0f0d0f5},
+		{ID: "T6_MAIN_CURSEDSTAFF_UNDEAD@2", Name: "Lebensfluchstab des Meisters", Tier: 6, Enchantment: 2, CategoryPath: "weapons/cursestaff/cursestaff_undead", Recipe: recipe_4357b0f0d0f5},
+		{ID: "T6_MAIN_CURSEDSTAFF_UNDEAD@3", Name: "Lebensfluchstab des Meisters", Tier: 6, Enchantment: 3, CategoryPath: "weapons/cursestaff/cursestaff_undead", Recipe: recipe_4357b0f0d0f5},
+		{ID: "T6_MAIN_CURSEDSTAFF_UNDEAD@4", Name: "Lebensfluchstab des Meisters", Tier: 6, Enchantment: 4, CategoryPath: "weapons/cursestaff/cursestaff_undead", Recipe: recipe_4357b0f0d0f5},
+		{ID: "T7_MAIN_CURSEDSTAFF_UNDEAD", Name: "Lebensfluchstab des Großmeisters", Tier: 7, Enchantment: 0, CategoryPath: "weapons/cursestaff/cursestaff_undead", Recipe: recipe_a4339a1173dc},
+		{ID: "T7_MAIN_CURSEDSTAFF_UNDEAD@1", Name: "Lebensfluchstab des Großmeisters", Tier: 7, Enchantment: 1, CategoryPath: "weapons/cursestaff/cursestaff_undead", Recipe: recipe_a4339a1173dc},
+		{ID: "T7_MAIN_CURSEDSTAFF_UNDEAD@2", Name: "Lebensfluchstab des Großmeisters", Tier: 7, Enchantment: 2, CategoryPath: "weapons/cursestaff/cursestaff_undead", Recipe: recipe_a4339a1173dc},
+		{ID: "T7_MAIN_CURSEDSTAFF_UNDEAD@3", Name: "Lebensfluchstab des Großmeisters", Tier: 7, Enchantment: 3, CategoryPath: "weapons/cursestaff/cursestaff_undead", Recipe: recipe_a4339a1173dc},
+		{ID: "T7_MAIN_CURSEDSTAFF_UNDEAD@4", Name: "Lebensfluchstab des Großmeisters", Tier: 7, Enchantment: 4, CategoryPath: "weapons/cursestaff/cursestaff_undead", Recipe: recipe_a4339a1173dc},
+		{ID: "T8_MAIN_CURSEDSTAFF_UNDEAD", Name: "Lebensfluchstab des Ältesten", Tier: 8, Enchantment: 0, CategoryPath: "weapons/cursestaff/cursestaff_undead", Recipe: recipe_29aca92c44ac},
+		{ID: "T8_MAIN_CURSEDSTAFF_UNDEAD@1", Name: "Lebensfluchstab des Ältesten", Tier: 8, Enchantment: 1, CategoryPath: "weapons/cursestaff/cursestaff_undead", Recipe: recipe_29aca92c44ac},
+		{ID: "T8_MAIN_CURSEDSTAFF_UNDEAD@2", Name: "Lebensfluchstab des Ältesten", Tier: 8, Enchantment: 2, CategoryPath: "weapons/cursestaff/cursestaff_undead", Recipe: recipe_29aca92c44ac},
+		{ID: "T8_MAIN_CURSEDSTAFF_UNDEAD@3", Name: "Lebensfluchstab des Ältesten", Tier: 8, Enchantment: 3, CategoryPath: "weapons/cursestaff/cursestaff_undead", Recipe: recipe_29aca92c44ac},
+		{ID: "T8_MAIN_CURSEDSTAFF_UNDEAD@4", Name: "Lebensfluchstab des Ältesten", Tier: 8, Enchantment: 4, CategoryPath: "weapons/cursestaff/cursestaff_undead", Recipe: recipe_29aca92c44ac},
+	}},
+	{Name: "Dolch des Gesellen", BaseID: "MAIN_DAGGER", MinTier: 3, MaxTier: 8, MinEnchantment: 0, MaxEnchantment: 4, Variants: []ItemVariant{
+		{ID: "T3_MAIN_DAGGER", Name: "Dolch des Gesellen", Tier: 3, Enchantment: 0, CategoryPath: "weapons/dagger/dagger_dagger", Recipe: recipe_b21c601ab691},
+		{ID: "T4_MAIN_DAGGER", Name: "Dolch des Adepten", Tier: 4, Enchantment: 0, CategoryPath: "weapons/dagger/dagger_dagger", Recipe: recipe_09496e01d979},
+		{ID: "T4_MAIN_DAGGER@1", Name: "Dolch des Adepten", Tier: 4, Enchantment: 1, CategoryPath: "weapons/dagger/dagger_dagger", Recipe: recipe_09496e01d979},
+		{ID: "T4_MAIN_DAGGER@2", Name: "Dolch des Adepten", Tier: 4, Enchantment: 2, CategoryPath: "weapons/dagger/dagger_dagger", Recipe: recipe_09496e01d979},
+		{ID: "T4_MAIN_DAGGER@3", Name: "Dolch des Adepten", Tier: 4, Enchantment: 3, CategoryPath: "weapons/dagger/dagger_dagger", Recipe: recipe_09496e01d979},
+		{ID: "T4_MAIN_DAGGER@4", Name: "Dolch des Adepten", Tier: 4, Enchantment: 4, CategoryPath: "weapons/dagger/dagger_dagger", Recipe: recipe_09496e01d979},
+		{ID: "T5_MAIN_DAGGER", Name: "Dolch des Experten", Tier: 5, Enchantment: 0, CategoryPath: "weapons/dagger/dagger_dagger", Recipe: recipe_ab4bc6deea5e},
+		{ID: "T5_MAIN_DAGGER@1", Name: "Dolch des Experten", Tier: 5, Enchantment: 1, CategoryPath: "weapons/dagger/dagger_dagger", Recipe: recipe_ab4bc6deea5e},
+		{ID: "T5_MAIN_DAGGER@2", Name: "Dolch des Experten", Tier: 5, Enchantment: 2, CategoryPath: "weapons/dagger/dagger_dagger", Recipe: recipe_ab4bc6deea5e},
+		{ID: "T5_MAIN_DAGGER@3", Name: "Dolch des Experten", Tier: 5, Enchantment: 3, CategoryPath: "weapons/dagger/dagger_dagger", Recipe: recipe_ab4bc6deea5e},
+		{ID: "T5_MAIN_DAGGER@4", Name: "Dolch des Experten", Tier: 5, Enchantment: 4, CategoryPath: "weapons/dagger/dagger_dagger", Recipe: recipe_ab4bc6deea5e},
+		{ID: "T6_MAIN_DAGGER", Name: "Dolch des Meisters", Tier: 6, Enchantment: 0, CategoryPath: "weapons/dagger/dagger_dagger", Recipe: recipe_e86bafda5857},
+		{ID: "T6_MAIN_DAGGER@1", Name: "Dolch des Meisters", Tier: 6, Enchantment: 1, CategoryPath: "weapons/dagger/dagger_dagger", Recipe: recipe_e86bafda5857},
+		{ID: "T6_MAIN_DAGGER@2", Name: "Dolch des Meisters", Tier: 6, Enchantment: 2, CategoryPath: "weapons/dagger/dagger_dagger", Recipe: recipe_e86bafda5857},
+		{ID: "T6_MAIN_DAGGER@3", Name: "Dolch des Meisters", Tier: 6, Enchantment: 3, CategoryPath: "weapons/dagger/dagger_dagger", Recipe: recipe_e86bafda5857},
+		{ID: "T6_MAIN_DAGGER@4", Name: "Dolch des Meisters", Tier: 6, Enchantment: 4, CategoryPath: "weapons/dagger/dagger_dagger", Recipe: recipe_e86bafda5857},
+		{ID: "T7_MAIN_DAGGER", Name: "Dolch des Großmeisters", Tier: 7, Enchantment: 0, CategoryPath: "weapons/dagger/dagger_dagger", Recipe: recipe_bc831d752b29},
+		{ID: "T7_MAIN_DAGGER@1", Name: "Dolch des Großmeisters", Tier: 7, Enchantment: 1, CategoryPath: "weapons/dagger/dagger_dagger", Recipe: recipe_bc831d752b29},
+		{ID: "T7_MAIN_DAGGER@2", Name: "Dolch des Großmeisters", Tier: 7, Enchantment: 2, CategoryPath: "weapons/dagger/dagger_dagger", Recipe: recipe_bc831d752b29},
+		{ID: "T7_MAIN_DAGGER@3", Name: "Dolch des Großmeisters", Tier: 7, Enchantment: 3, CategoryPath: "weapons/dagger/dagger_dagger", Recipe: recipe_bc831d752b29},
+		{ID: "T7_MAIN_DAGGER@4", Name: "Dolch des Großmeisters", Tier: 7, Enchantment: 4, CategoryPath: "weapons/dagger/dagger_dagger", Recipe: recipe_bc831d752b29},
+		{ID: "T8_MAIN_DAGGER", Name: "Dolch des Ältesten", Tier: 8, Enchantment: 0, CategoryPath: "weapons/dagger/dagger_dagger", Recipe: recipe_6a40b86e9d2c},
+		{ID: "T8_MAIN_DAGGER@1", Name: "Dolch des Ältesten", Tier: 8, Enchantment: 1, CategoryPath: "weapons/dagger/dagger_dagger", Recipe: recipe_6a40b86e9d2c},
+		{ID: "T8_MAIN_DAGGER@2", Name: "Dolch des Ältesten", Tier: 8, Enchantment: 2, CategoryPath: "weapons/dagger/dagger_dagger", Recipe: recipe_6a40b86e9d2c},
+		{ID: "T8_MAIN_DAGGER@3", Name: "Dolch des Ältesten", Tier: 8, Enchantment: 3, CategoryPath: "weapons/dagger/dagger_dagger", Recipe: recipe_6a40b86e9d2c},
+		{ID: "T8_MAIN_DAGGER@4", Name: "Dolch des Ältesten", Tier: 8, Enchantment: 4, CategoryPath: "weapons/dagger/dagger_dagger", Recipe: recipe_6a40b86e9d2c},
+	}},
+	{Name: "Dämonenzahn des Adepten", BaseID: "MAIN_DAGGER_HELL", MinTier: 4, MaxTier: 8, MinEnchantment: 0, MaxEnchantment: 4, Variants: []ItemVariant{
+		{ID: "T4_MAIN_DAGGER_HELL", Name: "Dämonenzahn des Adepten", Tier: 4, Enchantment: 0, CategoryPath: "weapons/dagger/dagger_hell", Recipe: recipe_39eb0cb87071},
+		{ID: "T4_MAIN_DAGGER_HELL@1", Name: "Dämonenzahn des Adepten", Tier: 4, Enchantment: 1, CategoryPath: "weapons/dagger/dagger_hell", Recipe: recipe_39eb0cb87071},
+		{ID: "T4_MAIN_DAGGER_HELL@2", Name: "Dämonenzahn des Adepten", Tier: 4, Enchantment: 2, CategoryPath: "weapons/dagger/dagger_hell", Recipe: recipe_39eb0cb87071},
+		{ID: "T4_MAIN_DAGGER_HELL@3", Name: "Dämonenzahn des Adepten", Tier: 4, Enchantment: 3, CategoryPath: "weapons/dagger/dagger_hell", Recipe: recipe_39eb0cb87071},
+		{ID: "T4_MAIN_DAGGER_HELL@4", Name: "Dämonenzahn des Adepten", Tier: 4, Enchantment: 4, CategoryPath: "weapons/dagger/dagger_hell", Recipe: recipe_39eb0cb87071},
+		{ID: "T5_MAIN_DAGGER_HELL", Name: "Dämonenzahn des Experten", Tier: 5, Enchantment: 0, CategoryPath: "weapons/dagger/dagger_hell", Recipe: recipe_da6738ee5446},
+		{ID: "T5_MAIN_DAGGER_HELL@1", Name: "Dämonenzahn des Experten", Tier: 5, Enchantment: 1, CategoryPath: "weapons/dagger/dagger_hell", Recipe: recipe_da6738ee5446},
+		{ID: "T5_MAIN_DAGGER_HELL@2", Name: "Dämonenzahn des Experten", Tier: 5, Enchantment: 2, CategoryPath: "weapons/dagger/dagger_hell", Recipe: recipe_da6738ee5446},
+		{ID: "T5_MAIN_DAGGER_HELL@3", Name: "Dämonenzahn des Experten", Tier: 5, Enchantment: 3, CategoryPath: "weapons/dagger/dagger_hell", Recipe: recipe_da6738ee5446},
+		{ID: "T5_MAIN_DAGGER_HELL@4", Name: "Dämonenzahn des Experten", Tier: 5, Enchantment: 4, CategoryPath: "weapons/dagger/dagger_hell", Recipe: recipe_da6738ee5446},
+		{ID: "T6_MAIN_DAGGER_HELL", Name: "Dämonenzahn des Meisters", Tier: 6, Enchantment: 0, CategoryPath: "weapons/dagger/dagger_hell", Recipe: recipe_02a15139e7e9},
+		{ID: "T6_MAIN_DAGGER_HELL@1", Name: "Dämonenzahn des Meisters", Tier: 6, Enchantment: 1, CategoryPath: "weapons/dagger/dagger_hell", Recipe: recipe_02a15139e7e9},
+		{ID: "T6_MAIN_DAGGER_HELL@2", Name: "Dämonenzahn des Meisters", Tier: 6, Enchantment: 2, CategoryPath: "weapons/dagger/dagger_hell", Recipe: recipe_02a15139e7e9},
+		{ID: "T6_MAIN_DAGGER_HELL@3", Name: "Dämonenzahn des Meisters", Tier: 6, Enchantment: 3, CategoryPath: "weapons/dagger/dagger_hell", Recipe: recipe_02a15139e7e9},
+		{ID: "T6_MAIN_DAGGER_HELL@4", Name: "Dämonenzahn des Meisters", Tier: 6, Enchantment: 4, CategoryPath: "weapons/dagger/dagger_hell", Recipe: recipe_02a15139e7e9},
+		{ID: "T7_MAIN_DAGGER_HELL", Name: "Dämonenzahn des Großmeisters", Tier: 7, Enchantment: 0, CategoryPath: "weapons/dagger/dagger_hell", Recipe: recipe_1e5099202f1f},
+		{ID: "T7_MAIN_DAGGER_HELL@1", Name: "Dämonenzahn des Großmeisters", Tier: 7, Enchantment: 1, CategoryPath: "weapons/dagger/dagger_hell", Recipe: recipe_1e5099202f1f},
+		{ID: "T7_MAIN_DAGGER_HELL@2", Name: "Dämonenzahn des Großmeisters", Tier: 7, Enchantment: 2, CategoryPath: "weapons/dagger/dagger_hell", Recipe: recipe_1e5099202f1f},
+		{ID: "T7_MAIN_DAGGER_HELL@3", Name: "Dämonenzahn des Großmeisters", Tier: 7, Enchantment: 3, CategoryPath: "weapons/dagger/dagger_hell", Recipe: recipe_1e5099202f1f},
+		{ID: "T7_MAIN_DAGGER_HELL@4", Name: "Dämonenzahn des Großmeisters", Tier: 7, Enchantment: 4, CategoryPath: "weapons/dagger/dagger_hell", Recipe: recipe_1e5099202f1f},
+		{ID: "T8_MAIN_DAGGER_HELL", Name: "Dämonenzahn des Ältesten", Tier: 8, Enchantment: 0, CategoryPath: "weapons/dagger/dagger_hell", Recipe: recipe_e405a2629b9f},
+		{ID: "T8_MAIN_DAGGER_HELL@1", Name: "Dämonenzahn des Ältesten", Tier: 8, Enchantment: 1, CategoryPath: "weapons/dagger/dagger_hell", Recipe: recipe_e405a2629b9f},
+		{ID: "T8_MAIN_DAGGER_HELL@2", Name: "Dämonenzahn des Ältesten", Tier: 8, Enchantment: 2, CategoryPath: "weapons/dagger/dagger_hell", Recipe: recipe_e405a2629b9f},
+		{ID: "T8_MAIN_DAGGER_HELL@3", Name: "Dämonenzahn des Ältesten", Tier: 8, Enchantment: 3, CategoryPath: "weapons/dagger/dagger_hell", Recipe: recipe_e405a2629b9f},
+		{ID: "T8_MAIN_DAGGER_HELL@4", Name: "Dämonenzahn des Ältesten", Tier: 8, Enchantment: 4, CategoryPath: "weapons/dagger/dagger_hell", Recipe: recipe_e405a2629b9f},
+	}},
+	{Name: "Feuerstab des Novizen", BaseID: "MAIN_FIRESTAFF", MinTier: 2, MaxTier: 8, MinEnchantment: 0, MaxEnchantment: 4, Variants: []ItemVariant{
+		{ID: "T2_MAIN_FIRESTAFF", Name: "Feuerstab des Novizen", Tier: 2, Enchantment: 0, CategoryPath: "weapons/firestaff/firestaff_main_firestaff", Recipe: recipe_991e9089cb4e},
+		{ID: "T3_MAIN_FIRESTAFF", Name: "Feuerstab des Gesellen", Tier: 3, Enchantment: 0, CategoryPath: "weapons/firestaff/firestaff_main_firestaff", Recipe: recipe_7c7f829e94d9},
+		{ID: "T4_MAIN_FIRESTAFF", Name: "Feuerstab des Adepten", Tier: 4, Enchantment: 0, CategoryPath: "weapons/firestaff/firestaff_main_firestaff", Recipe: recipe_08e51242a1be},
+		{ID: "T4_MAIN_FIRESTAFF@1", Name: "Feuerstab des Adepten", Tier: 4, Enchantment: 1, CategoryPath: "weapons/firestaff/firestaff_main_firestaff", Recipe: recipe_08e51242a1be},
+		{ID: "T4_MAIN_FIRESTAFF@2", Name: "Feuerstab des Adepten", Tier: 4, Enchantment: 2, CategoryPath: "weapons/firestaff/firestaff_main_firestaff", Recipe: recipe_08e51242a1be},
+		{ID: "T4_MAIN_FIRESTAFF@3", Name: "Feuerstab des Adepten", Tier: 4, Enchantment: 3, CategoryPath: "weapons/firestaff/firestaff_main_firestaff", Recipe: recipe_08e51242a1be},
+		{ID: "T4_MAIN_FIRESTAFF@4", Name: "Feuerstab des Adepten", Tier: 4, Enchantment: 4, CategoryPath: "weapons/firestaff/firestaff_main_firestaff", Recipe: recipe_08e51242a1be},
+		{ID: "T5_MAIN_FIRESTAFF", Name: "Feuerstab des Experten", Tier: 5, Enchantment: 0, CategoryPath: "weapons/firestaff/firestaff_main_firestaff", Recipe: recipe_ab2dee42f89c},
+		{ID: "T5_MAIN_FIRESTAFF@1", Name: "Feuerstab des Experten", Tier: 5, Enchantment: 1, CategoryPath: "weapons/firestaff/firestaff_main_firestaff", Recipe: recipe_ab2dee42f89c},
+		{ID: "T5_MAIN_FIRESTAFF@2", Name: "Feuerstab des Experten", Tier: 5, Enchantment: 2, CategoryPath: "weapons/firestaff/firestaff_main_firestaff", Recipe: recipe_ab2dee42f89c},
+		{ID: "T5_MAIN_FIRESTAFF@3", Name: "Feuerstab des Experten", Tier: 5, Enchantment: 3, CategoryPath: "weapons/firestaff/firestaff_main_firestaff", Recipe: recipe_ab2dee42f89c},
+		{ID: "T5_MAIN_FIRESTAFF@4", Name: "Feuerstab des Experten", Tier: 5, Enchantment: 4, CategoryPath: "weapons/firestaff/firestaff_main_firestaff", Recipe: recipe_ab2dee42f89c},
+		{ID: "T6_MAIN_FIRESTAFF", Name: "Feuerstab des Meisters", Tier: 6, Enchantment: 0, CategoryPath: "weapons/firestaff/firestaff_main_firestaff", Recipe: recipe_a5995fc1a31f},
+		{ID: "T6_MAIN_FIRESTAFF@1", Name: "Feuerstab des Meisters", Tier: 6, Enchantment: 1, CategoryPath: "weapons/firestaff/firestaff_main_firestaff", Recipe: recipe_a5995fc1a31f},
+		{ID: "T6_MAIN_FIRESTAFF@2", Name: "Feuerstab des Meisters", Tier: 6, Enchantment: 2, CategoryPath: "weapons/firestaff/firestaff_main_firestaff", Recipe: recipe_a5995fc1a31f},
+		{ID: "T6_MAIN_FIRESTAFF@3", Name: "Feuerstab des Meisters", Tier: 6, Enchantment: 3, CategoryPath: "weapons/firestaff/firestaff_main_firestaff", Recipe: recipe_a5995fc1a31f},
+		{ID: "T6_MAIN_FIRESTAFF@4", Name: "Feuerstab des Meisters", Tier: 6, Enchantment: 4, CategoryPath: "weapons/firestaff/firestaff_main_firestaff", Recipe: recipe_a5995fc1a31f},
+		{ID: "T7_MAIN_FIRESTAFF", Name: "Feuerstab des Großmeisters", Tier: 7, Enchantment: 0, CategoryPath: "weapons/firestaff/firestaff_main_firestaff", Recipe: recipe_9b6fc0363a17},
+		{ID: "T7_MAIN_FIRESTAFF@1", Name: "Feuerstab des Großmeisters", Tier: 7, Enchantment: 1, CategoryPath: "weapons/firestaff/firestaff_main_firestaff", Recipe: recipe_9b6fc0363a17},
+		{ID: "T7_MAIN_FIRESTAFF@2", Name: "Feuerstab des Großmeisters", Tier: 7, Enchantment: 2, CategoryPath: "weapons/firestaff/firestaff_main_firestaff", Recipe: recipe_9b6fc0363a17},
+		{ID: "T7_MAIN_FIRESTAFF@3", Name: "Feuerstab des Großmeisters", Tier: 7, Enchantment: 3, CategoryPath: "weapons/firestaff/firestaff_main_firestaff", Recipe: recipe_9b6fc0363a17},
+		{ID: "T7_MAIN_FIRESTAFF@4", Name: "Feuerstab des Großmeisters", Tier: 7, Enchantment: 4, CategoryPath: "weapons/firestaff/firestaff_main_firestaff", Recipe: recipe_9b6fc0363a17},
+		{ID: "T8_MAIN_FIRESTAFF", Name: "Feuerstab des Ältesten", Tier: 8, Enchantment: 0, CategoryPath: "weapons/firestaff/firestaff_main_firestaff", Recipe: recipe_a560b98a5ea2},
+		{ID: "T8_MAIN_FIRESTAFF@1", Name: "Feuerstab des Ältesten", Tier: 8, Enchantment: 1, CategoryPath: "weapons/firestaff/firestaff_main_firestaff", Recipe: recipe_a560b98a5ea2},
+		{ID: "T8_MAIN_FIRESTAFF@2", Name: "Feuerstab des Ältesten", Tier: 8, Enchantment: 2, CategoryPath: "weapons/firestaff/firestaff_main_firestaff", Recipe: recipe_a560b98a5ea2},
+		{ID: "T8_MAIN_FIRESTAFF@3", Name: "Feuerstab des Ältesten", Tier: 8, Enchantment: 3, CategoryPath: "weapons/firestaff/firestaff_main_firestaff", Recipe: recipe_a560b98a5ea2},
+		{ID: "T8_MAIN_FIRESTAFF@4", Name: "Feuerstab des Ältesten", Tier: 8, Enchantment: 4, CategoryPath: "weapons/firestaff/firestaff_main_firestaff", Recipe: recipe_a560b98a5ea2},
+	}},
+	{Name: "Flammenwandler-Stab des Adepten", BaseID: "MAIN_FIRESTAFF_CRYSTAL", MinTier: 4, MaxTier: 8, MinEnchantment: 0, MaxEnchantment: 4, Variants: []ItemVariant{
+		{ID: "T4_MAIN_FIRESTAFF_CRYSTAL", Name: "Flammenwandler-Stab des Adepten", Tier: 4, Enchantment: 0, CategoryPath: "weapons/firestaff/firestaff_crystal", Recipe: recipe_d8d9a10ef441},
+		{ID: "T4_MAIN_FIRESTAFF_CRYSTAL@1", Name: "Flammenwandler-Stab des Adepten", Tier: 4, Enchantment: 1, CategoryPath: "weapons/firestaff/firestaff_crystal", Recipe: recipe_d8d9a10ef441},
+		{ID: "T4_MAIN_FIRESTAFF_CRYSTAL@2", Name: "Flammenwandler-Stab des Adepten", Tier: 4, Enchantment: 2, CategoryPath: "weapons/firestaff/firestaff_crystal", Recipe: recipe_d8d9a10ef441},
+		{ID: "T4_MAIN_FIRESTAFF_CRYSTAL@3", Name: "Flammenwandler-Stab des Adepten", Tier: 4, Enchantment: 3, CategoryPath: "weapons/firestaff/firestaff_crystal", Recipe: recipe_d8d9a10ef441},
+		{ID: "T4_MAIN_FIRESTAFF_CRYSTAL@4", Name: "Flammenwandler-Stab des Adepten", Tier: 4, Enchantment: 4, CategoryPath: "weapons/firestaff/firestaff_crystal", Recipe: recipe_d8d9a10ef441},
+		{ID: "T5_MAIN_FIRESTAFF_CRYSTAL", Name: "Flammenwandler-Stab des Experten", Tier: 5, Enchantment: 0, CategoryPath: "weapons/firestaff/firestaff_crystal", Recipe: recipe_535535916220},
+		{ID: "T5_MAIN_FIRESTAFF_CRYSTAL@1", Name: "Flammenwandler-Stab des Experten", Tier: 5, Enchantment: 1, CategoryPath: "weapons/firestaff/firestaff_crystal", Recipe: recipe_535535916220},
+		{ID: "T5_MAIN_FIRESTAFF_CRYSTAL@2", Name: "Flammenwandler-Stab des Experten", Tier: 5, Enchantment: 2, CategoryPath: "weapons/firestaff/firestaff_crystal", Recipe: recipe_535535916220},
+		{ID: "T5_MAIN_FIRESTAFF_CRYSTAL@3", Name: "Flammenwandler-Stab des Experten", Tier: 5, Enchantment: 3, CategoryPath: "weapons/firestaff/firestaff_crystal", Recipe: recipe_535535916220},
+		{ID: "T5_MAIN_FIRESTAFF_CRYSTAL@4", Name: "Flammenwandler-Stab des Experten", Tier: 5, Enchantment: 4, CategoryPath: "weapons/firestaff/firestaff_crystal", Recipe: recipe_535535916220},
+		{ID: "T6_MAIN_FIRESTAFF_CRYSTAL", Name: "Flammenwandler-Stab des Meisters", Tier: 6, Enchantment: 0, CategoryPath: "weapons/firestaff/firestaff_crystal", Recipe: recipe_3778ec30534c},
+		{ID: "T6_MAIN_FIRESTAFF_CRYSTAL@1", Name: "Flammenwandler-Stab des Meisters", Tier: 6, Enchantment: 1, CategoryPath: "weapons/firestaff/firestaff_crystal", Recipe: recipe_3778ec30534c},
+		{ID: "T6_MAIN_FIRESTAFF_CRYSTAL@2", Name: "Flammenwandler-Stab des Meisters", Tier: 6, Enchantment: 2, CategoryPath: "weapons/firestaff/firestaff_crystal", Recipe: recipe_3778ec30534c},
+		{ID: "T6_MAIN_FIRESTAFF_CRYSTAL@3", Name: "Flammenwandler-Stab des Meisters", Tier: 6, Enchantment: 3, CategoryPath: "weapons/firestaff/firestaff_crystal", Recipe: recipe_3778ec30534c},
+		{ID: "T6_MAIN_FIRESTAFF_CRYSTAL@4", Name: "Flammenwandler-Stab des Meisters", Tier: 6, Enchantment: 4, CategoryPath: "weapons/firestaff/firestaff_crystal", Recipe: recipe_3778ec30534c},
+		{ID: "T7_MAIN_FIRESTAFF_CRYSTAL", Name: "Flammenwandler-Stab des Großmeisters", Tier: 7, Enchantment: 0, CategoryPath: "weapons/firestaff/firestaff_crystal", Recipe: recipe_a488d1287999},
+		{ID: "T7_MAIN_FIRESTAFF_CRYSTAL@1", Name: "Flammenwandler-Stab des Großmeisters", Tier: 7, Enchantment: 1, CategoryPath: "weapons/firestaff/firestaff_crystal", Recipe: recipe_a488d1287999},
+		{ID: "T7_MAIN_FIRESTAFF_CRYSTAL@2", Name: "Flammenwandler-Stab des Großmeisters", Tier: 7, Enchantment: 2, CategoryPath: "weapons/firestaff/firestaff_crystal", Recipe: recipe_a488d1287999},
+		{ID: "T7_MAIN_FIRESTAFF_CRYSTAL@3", Name: "Flammenwandler-Stab des Großmeisters", Tier: 7, Enchantment: 3, CategoryPath: "weapons/firestaff/firestaff_crystal", Recipe: recipe_a488d1287999},
+		{ID: "T7_MAIN_FIRESTAFF_CRYSTAL@4", Name: "Flammenwandler-Stab des Großmeisters", Tier: 7, Enchantment: 4, CategoryPath: "weapons/firestaff/firestaff_crystal", Recipe: recipe_a488d1287999},
+		{ID: "T8_MAIN_FIRESTAFF_CRYSTAL", Name: "Flammenwandler-Stab des Ältesten", Tier: 8, Enchantment: 0, CategoryPath: "weapons/firestaff/firestaff_crystal", Recipe: recipe_8fd9f01ffce6},
+		{ID: "T8_MAIN_FIRESTAFF_CRYSTAL@1", Name: "Flammenwandler-Stab des Ältesten", Tier: 8, Enchantment: 1, CategoryPath: "weapons/firestaff/firestaff_crystal", Recipe: recipe_8fd9f01ffce6},
+		{ID: "T8_MAIN_FIRESTAFF_CRYSTAL@2", Name: "Flammenwandler-Stab des Ältesten", Tier: 8, Enchantment: 2, CategoryPath: "weapons/firestaff/firestaff_crystal", Recipe: recipe_8fd9f01ffce6},
+		{ID: "T8_MAIN_FIRESTAFF_CRYSTAL@3", Name: "Flammenwandler-Stab des Ältesten", Tier: 8, Enchantment: 3, CategoryPath: "weapons/firestaff/firestaff_crystal", Recipe: recipe_8fd9f01ffce6},
+		{ID: "T8_MAIN_FIRESTAFF_CRYSTAL@4", Name: "Flammenwandler-Stab des Ältesten", Tier: 8, Enchantment: 4, CategoryPath: "weapons/firestaff/firestaff_crystal", Recipe: recipe_8fd9f01ffce6},
+	}},
+	{Name: "Lauffeuerstab des Adepten", BaseID: "MAIN_FIRESTAFF_KEEPER", MinTier: 4, MaxTier: 8, MinEnchantment: 0, MaxEnchantment: 4, Variants: []ItemVariant{
+		{ID: "T4_MAIN_FIRESTAFF_KEEPER", Name: "Lauffeuerstab des Adepten", Tier: 4, Enchantment: 0, CategoryPath: "weapons/firestaff/firestaff_keeper", Recipe: recipe_81c7caef1c44},
+		{ID: "T4_MAIN_FIRESTAFF_KEEPER@1", Name: "Lauffeuerstab des Adepten", Tier: 4, Enchantment: 1, CategoryPath: "weapons/firestaff/firestaff_keeper", Recipe: recipe_81c7caef1c44},
+		{ID: "T4_MAIN_FIRESTAFF_KEEPER@2", Name: "Lauffeuerstab des Adepten", Tier: 4, Enchantment: 2, CategoryPath: "weapons/firestaff/firestaff_keeper", Recipe: recipe_81c7caef1c44},
+		{ID: "T4_MAIN_FIRESTAFF_KEEPER@3", Name: "Lauffeuerstab des Adepten", Tier: 4, Enchantment: 3, CategoryPath: "weapons/firestaff/firestaff_keeper", Recipe: recipe_81c7caef1c44},
+		{ID: "T4_MAIN_FIRESTAFF_KEEPER@4", Name: "Lauffeuerstab des Adepten", Tier: 4, Enchantment: 4, CategoryPath: "weapons/firestaff/firestaff_keeper", Recipe: recipe_81c7caef1c44},
+		{ID: "T5_MAIN_FIRESTAFF_KEEPER", Name: "Lauffeuerstab des Experten", Tier: 5, Enchantment: 0, CategoryPath: "weapons/firestaff/firestaff_keeper", Recipe: recipe_be38f50d3421},
+		{ID: "T5_MAIN_FIRESTAFF_KEEPER@1", Name: "Lauffeuerstab des Experten", Tier: 5, Enchantment: 1, CategoryPath: "weapons/firestaff/firestaff_keeper", Recipe: recipe_be38f50d3421},
+		{ID: "T5_MAIN_FIRESTAFF_KEEPER@2", Name: "Lauffeuerstab des Experten", Tier: 5, Enchantment: 2, CategoryPath: "weapons/firestaff/firestaff_keeper", Recipe: recipe_be38f50d3421},
+		{ID: "T5_MAIN_FIRESTAFF_KEEPER@3", Name: "Lauffeuerstab des Experten", Tier: 5, Enchantment: 3, CategoryPath: "weapons/firestaff/firestaff_keeper", Recipe: recipe_be38f50d3421},
+		{ID: "T5_MAIN_FIRESTAFF_KEEPER@4", Name: "Lauffeuerstab des Experten", Tier: 5, Enchantment: 4, CategoryPath: "weapons/firestaff/firestaff_keeper", Recipe: recipe_be38f50d3421},
+		{ID: "T6_MAIN_FIRESTAFF_KEEPER", Name: "Lauffeuerstab des Meisters", Tier: 6, Enchantment: 0, CategoryPath: "weapons/firestaff/firestaff_keeper", Recipe: recipe_79b4bd19cf3e},
+		{ID: "T6_MAIN_FIRESTAFF_KEEPER@1", Name: "Lauffeuerstab des Meisters", Tier: 6, Enchantment: 1, CategoryPath: "weapons/firestaff/firestaff_keeper", Recipe: recipe_79b4bd19cf3e},
+		{ID: "T6_MAIN_FIRESTAFF_KEEPER@2", Name: "Lauffeuerstab des Meisters", Tier: 6, Enchantment: 2, CategoryPath: "weapons/firestaff/firestaff_keeper", Recipe: recipe_79b4bd19cf3e},
+		{ID: "T6_MAIN_FIRESTAFF_KEEPER@3", Name: "Lauffeuerstab des Meisters", Tier: 6, Enchantment: 3, CategoryPath: "weapons/firestaff/firestaff_keeper", Recipe: recipe_79b4bd19cf3e},
+		{ID: "T6_MAIN_FIRESTAFF_KEEPER@4", Name: "Lauffeuerstab des Meisters", Tier: 6, Enchantment: 4, CategoryPath: "weapons/firestaff/firestaff_keeper", Recipe: recipe_79b4bd19cf3e},
+		{ID: "T7_MAIN_FIRESTAFF_KEEPER", Name: "Lauffeuerstab des Großmeisters", Tier: 7, Enchantment: 0, CategoryPath: "weapons/firestaff/firestaff_keeper", Recipe: recipe_6930568333c9},
+		{ID: "T7_MAIN_FIRESTAFF_KEEPER@1", Name: "Lauffeuerstab des Großmeisters", Tier: 7, Enchantment: 1, CategoryPath: "weapons/firestaff/firestaff_keeper", Recipe: recipe_6930568333c9},
+		{ID: "T7_MAIN_FIRESTAFF_KEEPER@2", Name: "Lauffeuerstab des Großmeisters", Tier: 7, Enchantment: 2, CategoryPath: "weapons/firestaff/firestaff_keeper", Recipe: recipe_6930568333c9},
+		{ID: "T7_MAIN_FIRESTAFF_KEEPER@3", Name: "Lauffeuerstab des Großmeisters", Tier: 7, Enchantment: 3, CategoryPath: "weapons/firestaff/firestaff_keeper", Recipe: recipe_6930568333c9},
+		{ID: "T7_MAIN_FIRESTAFF_KEEPER@4", Name: "Lauffeuerstab des Großmeisters", Tier: 7, Enchantment: 4, CategoryPath: "weapons/firestaff/firestaff_keeper", Recipe: recipe_6930568333c9},
+		{ID: "T8_MAIN_FIRESTAFF_KEEPER", Name: "Lauffeuerstab des Ältesten", Tier: 8, Enchantment: 0, CategoryPath: "weapons/firestaff/firestaff_keeper", Recipe: recipe_8048ec83eea3},
+		{ID: "T8_MAIN_FIRESTAFF_KEEPER@1", Name: "Lauffeuerstab des Ältesten", Tier: 8, Enchantment: 1, CategoryPath: "weapons/firestaff/firestaff_keeper", Recipe: recipe_8048ec83eea3},
+		{ID: "T8_MAIN_FIRESTAFF_KEEPER@2", Name: "Lauffeuerstab des Ältesten", Tier: 8, Enchantment: 2, CategoryPath: "weapons/firestaff/firestaff_keeper", Recipe: recipe_8048ec83eea3},
+		{ID: "T8_MAIN_FIRESTAFF_KEEPER@3", Name: "Lauffeuerstab des Ältesten", Tier: 8, Enchantment: 3, CategoryPath: "weapons/firestaff/firestaff_keeper", Recipe: recipe_8048ec83eea3},
+		{ID: "T8_MAIN_FIRESTAFF_KEEPER@4", Name: "Lauffeuerstab des Ältesten", Tier: 8, Enchantment: 4, CategoryPath: "weapons/firestaff/firestaff_keeper", Recipe: recipe_8048ec83eea3},
+	}},
+	{Name: "Froststab des Gesellen", BaseID: "MAIN_FROSTSTAFF", MinTier: 3, MaxTier: 8, MinEnchantment: 0, MaxEnchantment: 4, Variants: []ItemVariant{
+		{ID: "T3_MAIN_FROSTSTAFF", Name: "Froststab des Gesellen", Tier: 3, Enchantment: 0, CategoryPath: "weapons/froststaff/froststaff_main_froststaff", Recipe: recipe_8b9be69e3a9b},
+		{ID: "T4_MAIN_FROSTSTAFF", Name: "Froststab des Adepten", Tier: 4, Enchantment: 0, CategoryPath: "weapons/froststaff/froststaff_main_froststaff", Recipe: recipe_fc99464383c2},
+		{ID: "T4_MAIN_FROSTSTAFF@1", Name: "Froststab des Adepten", Tier: 4, Enchantment: 1, CategoryPath: "weapons/froststaff/froststaff_main_froststaff", Recipe: recipe_fc99464383c2},
+		{ID: "T4_MAIN_FROSTSTAFF@2", Name: "Froststab des Adepten", Tier: 4, Enchantment: 2, CategoryPath: "weapons/froststaff/froststaff_main_froststaff", Recipe: recipe_fc99464383c2},
+		{ID: "T4_MAIN_FROSTSTAFF@3", Name: "Froststab des Adepten", Tier: 4, Enchantment: 3, CategoryPath: "weapons/froststaff/froststaff_main_froststaff", Recipe: recipe_fc99464383c2},
+		{ID: "T4_MAIN_FROSTSTAFF@4", Name: "Froststab des Adepten", Tier: 4, Enchantment: 4, CategoryPath: "weapons/froststaff/froststaff_main_froststaff", Recipe: recipe_fc99464383c2},
+		{ID: "T5_MAIN_FROSTSTAFF", Name: "Froststab des Experten", Tier: 5, Enchantment: 0, CategoryPath: "weapons/froststaff/froststaff_main_froststaff", Recipe: recipe_e25e7bc64f7c},
+		{ID: "T5_MAIN_FROSTSTAFF@1", Name: "Froststab des Experten", Tier: 5, Enchantment: 1, CategoryPath: "weapons/froststaff/froststaff_main_froststaff", Recipe: recipe_e25e7bc64f7c},
+		{ID: "T5_MAIN_FROSTSTAFF@2", Name: "Froststab des Experten", Tier: 5, Enchantment: 2, CategoryPath: "weapons/froststaff/froststaff_main_froststaff", Recipe: recipe_e25e7bc64f7c},
+		{ID: "T5_MAIN_FROSTSTAFF@3", Name: "Froststab des Experten", Tier: 5, Enchantment: 3, CategoryPath: "weapons/froststaff/froststaff_main_froststaff", Recipe: recipe_e25e7bc64f7c},
+		{ID: "T5_MAIN_FROSTSTAFF@4", Name: "Froststab des Experten", Tier: 5, Enchantment: 4, CategoryPath: "weapons/froststaff/froststaff_main_froststaff", Recipe: recipe_e25e7bc64f7c},
+		{ID: "T6_MAIN_FROSTSTAFF", Name: "Froststab des Meisters", Tier: 6, Enchantment: 0, CategoryPath: "weapons/froststaff/froststaff_main_froststaff", Recipe: recipe_4f311ec9f876},
+		{ID: "T6_MAIN_FROSTSTAFF@1", Name: "Froststab des Meisters", Tier: 6, Enchantment: 1, CategoryPath: "weapons/froststaff/froststaff_main_froststaff", Recipe: recipe_4f311ec9f876},
+		{ID: "T6_MAIN_FROSTSTAFF@2", Name: "Froststab des Meisters", Tier: 6, Enchantment: 2, CategoryPath: "weapons/froststaff/froststaff_main_froststaff", Recipe: recipe_4f311ec9f876},
+		{ID: "T6_MAIN_FROSTSTAFF@3", Name: "Froststab des Meisters", Tier: 6, Enchantment: 3, CategoryPath: "weapons/froststaff/froststaff_main_froststaff", Recipe: recipe_4f311ec9f876},
+		{ID: "T6_MAIN_FROSTSTAFF@4", Name: "Froststab des Meisters", Tier: 6, Enchantment: 4, CategoryPath: "weapons/froststaff/froststaff_main_froststaff", Recipe: recipe_4f311ec9f876},
+		{ID: "T7_MAIN_FROSTSTAFF", Name: "Froststab des Großmeisters", Tier: 7, Enchantment: 0, CategoryPath: "weapons/froststaff/froststaff_main_froststaff", Recipe: recipe_13bca2ff70af},
+		{ID: "T7_MAIN_FROSTSTAFF@1", Name: "Froststab des Großmeisters", Tier: 7, Enchantment: 1, CategoryPath: "weapons/froststaff/froststaff_main_froststaff", Recipe: recipe_13bca2ff70af},
+		{ID: "T7_MAIN_FROSTSTAFF@2", Name: "Froststab des Großmeisters", Tier: 7, Enchantment: 2, CategoryPath: "weapons/froststaff/froststaff_main_froststaff", Recipe: recipe_13bca2ff70af},
+		{ID: "T7_MAIN_FROSTSTAFF@3", Name: "Froststab des Großmeisters", Tier: 7, Enchantment: 3, CategoryPath: "weapons/froststaff/froststaff_main_froststaff", Recipe: recipe_13bca2ff70af},
+		{ID: "T7_MAIN_FROSTSTAFF@4", Name: "Froststab des Großmeisters", Tier: 7, Enchantment: 4, CategoryPath: "weapons/froststaff/froststaff_main_froststaff", Recipe: recipe_13bca2ff70af},
+		{ID: "T8_MAIN_FROSTSTAFF", Name: "Froststab des Ältesten", Tier: 8, Enchantment: 0, CategoryPath: "weapons/froststaff/froststaff_main_froststaff", Recipe: recipe_5894dbddcbe1},
+		{ID: "T8_MAIN_FROSTSTAFF@1", Name: "Froststab des Ältesten", Tier: 8, Enchantment: 1, CategoryPath: "weapons/froststaff/froststaff_main_froststaff", Recipe: recipe_5894dbddcbe1},
+		{ID: "T8_MAIN_FROSTSTAFF@2", Name: "Froststab des Ältesten", Tier: 8, Enchantment: 2, CategoryPath: "weapons/froststaff/froststaff_main_froststaff", Recipe: recipe_5894dbddcbe1},
+		{ID: "T8_MAIN_FROSTSTAFF@3", Name: "Froststab des Ältesten", Tier: 8, Enchantment: 3, CategoryPath: "weapons/froststaff/froststaff_main_froststaff", Recipe: recipe_5894dbddcbe1},
+		{ID: "T8_MAIN_FROSTSTAFF@4", Name: "Froststab des Ältesten", Tier: 8, Enchantment: 4, CategoryPath: "weapons/froststaff/froststaff_main_froststaff", Recipe: recipe_5894dbddcbe1},
+	}},
+	{Name: "Frostschrei des Adepten", BaseID: "MAIN_FROSTSTAFF_AVALON", MinTier: 4, MaxTier: 8, MinEnchantment: 0, MaxEnchantment: 4, Variants: []ItemVariant{
+		{ID: "T4_MAIN_FROSTSTAFF_AVALON", Name: "Frostschrei des Adepten", Tier: 4, Enchantment: 0, CategoryPath: "weapons/froststaff/froststaff_avalon", Recipe: recipe_4c1491a27848},
+		{ID: "T4_MAIN_FROSTSTAFF_AVALON@1", Name: "Frostschrei des Adepten", Tier: 4, Enchantment: 1, CategoryPath: "weapons/froststaff/froststaff_avalon", Recipe: recipe_4c1491a27848},
+		{ID: "T4_MAIN_FROSTSTAFF_AVALON@2", Name: "Frostschrei des Adepten", Tier: 4, Enchantment: 2, CategoryPath: "weapons/froststaff/froststaff_avalon", Recipe: recipe_4c1491a27848},
+		{ID: "T4_MAIN_FROSTSTAFF_AVALON@3", Name: "Frostschrei des Adepten", Tier: 4, Enchantment: 3, CategoryPath: "weapons/froststaff/froststaff_avalon", Recipe: recipe_4c1491a27848},
+		{ID: "T4_MAIN_FROSTSTAFF_AVALON@4", Name: "Frostschrei des Adepten", Tier: 4, Enchantment: 4, CategoryPath: "weapons/froststaff/froststaff_avalon", Recipe: recipe_4c1491a27848},
+		{ID: "T5_MAIN_FROSTSTAFF_AVALON", Name: "Frostschrei des Experten", Tier: 5, Enchantment: 0, CategoryPath: "weapons/froststaff/froststaff_avalon", Recipe: recipe_b29ae26b6ae8},
+		{ID: "T5_MAIN_FROSTSTAFF_AVALON@1", Name: "Frostschrei des Experten", Tier: 5, Enchantment: 1, CategoryPath: "weapons/froststaff/froststaff_avalon", Recipe: recipe_b29ae26b6ae8},
+		{ID: "T5_MAIN_FROSTSTAFF_AVALON@2", Name: "Frostschrei des Experten", Tier: 5, Enchantment: 2, CategoryPath: "weapons/froststaff/froststaff_avalon", Recipe: recipe_b29ae26b6ae8},
+		{ID: "T5_MAIN_FROSTSTAFF_AVALON@3", Name: "Frostschrei des Experten", Tier: 5, Enchantment: 3, CategoryPath: "weapons/froststaff/froststaff_avalon", Recipe: recipe_b29ae26b6ae8},
+		{ID: "T5_MAIN_FROSTSTAFF_AVALON@4", Name: "Frostschrei des Experten", Tier: 5, Enchantment: 4, CategoryPath: "weapons/froststaff/froststaff_avalon", Recipe: recipe_b29ae26b6ae8},
+		{ID: "T6_MAIN_FROSTSTAFF_AVALON", Name: "Frostschrei des Meisters", Tier: 6, Enchantment: 0, CategoryPath: "weapons/froststaff/froststaff_avalon", Recipe: recipe_adda674c3b52},
+		{ID: "T6_MAIN_FROSTSTAFF_AVALON@1", Name: "Frostschrei des Meisters", Tier: 6, Enchantment: 1, CategoryPath: "weapons/froststaff/froststaff_avalon", Recipe: recipe_adda674c3b52},
+		{ID: "T6_MAIN_FROSTSTAFF_AVALON@2", Name: "Frostschrei des Meisters", Tier: 6, Enchantment: 2, CategoryPath: "weapons/froststaff/froststaff_avalon", Recipe: recipe_adda674c3b52},
+		{ID: "T6_MAIN_FROSTSTAFF_AVALON@3", Name: "Frostschrei des Meisters", Tier: 6, Enchantment: 3, CategoryPath: "weapons/froststaff/froststaff_avalon", Recipe: recipe_adda674c3b52},
+		{ID: "T6_MAIN_FROSTSTAFF_AVALON@4", Name: "Frostschrei des Meisters", Tier: 6, Enchantment: 4, CategoryPath: "weapons/froststaff/froststaff_avalon", Recipe: recipe_adda674c3b52},
+		{ID: "T7_MAIN_FROSTSTAFF_AVALON", Name: "Frostschrei des Großmeisters", Tier: 7, Enchantment: 0, CategoryPath: "weapons/froststaff/froststaff_avalon", Recipe: recipe_40ecac1fca64},
+		{ID: "T7_MAIN_FROSTSTAFF_AVALON@1", Name: "Frostschrei des Großmeisters", Tier: 7, Enchantment: 1, CategoryPath: "weapons/froststaff/froststaff_avalon", Recipe: recipe_40ecac1fca64},
+		{ID: "T7_MAIN_FROSTSTAFF_AVALON@2", Name: "Frostschrei des Großmeisters", Tier: 7, Enchantment: 2, CategoryPath: "weapons/froststaff/froststaff_avalon", Recipe: recipe_40ecac1fca64},
+		{ID: "T7_MAIN_FROSTSTAFF_AVALON@3", Name: "Frostschrei des Großmeisters", Tier: 7, Enchantment: 3, CategoryPath: "weapons/froststaff/froststaff_avalon", Recipe: recipe_40ecac1fca64},
+		{ID: "T7_MAIN_FROSTSTAFF_AVALON@4", Name: "Frostschrei des Großmeisters", Tier: 7, Enchantment: 4, CategoryPath: "weapons/froststaff/froststaff_avalon", Recipe: recipe_40ecac1fca64},
+		{ID: "T8_MAIN_FROSTSTAFF_AVALON", Name: "Frostschrei des Ältesten", Tier: 8, Enchantment: 0, CategoryPath: "weapons/froststaff/froststaff_avalon", Recipe: recipe_5af520336139},
+		{ID: "T8_MAIN_FROSTSTAFF_AVALON@1", Name: "Frostschrei des Ältesten", Tier: 8, Enchantment: 1, CategoryPath: "weapons/froststaff/froststaff_avalon", Recipe: recipe_5af520336139},
+		{ID: "T8_MAIN_FROSTSTAFF_AVALON@2", Name: "Frostschrei des Ältesten", Tier: 8, Enchantment: 2, CategoryPath: "weapons/froststaff/froststaff_avalon", Recipe: recipe_5af520336139},
+		{ID: "T8_MAIN_FROSTSTAFF_AVALON@3", Name: "Frostschrei des Ältesten", Tier: 8, Enchantment: 3, CategoryPath: "weapons/froststaff/froststaff_avalon", Recipe: recipe_5af520336139},
+		{ID: "T8_MAIN_FROSTSTAFF_AVALON@4", Name: "Frostschrei des Ältesten", Tier: 8, Enchantment: 4, CategoryPath: "weapons/froststaff/froststaff_avalon", Recipe: recipe_5af520336139},
+	}},
+	{Name: "Raureifstab des Adepten", BaseID: "MAIN_FROSTSTAFF_KEEPER", MinTier: 4, MaxTier: 8, MinEnchantment: 0, MaxEnchantment: 4, Variants: []ItemVariant{
+		{ID: "T4_MAIN_FROSTSTAFF_KEEPER", Name: "Raureifstab des Adepten", Tier: 4, Enchantment: 0, CategoryPath: "weapons/froststaff/froststaff_keeper", Recipe: recipe_4cc46ba7ec17},
+		{ID: "T4_MAIN_FROSTSTAFF_KEEPER@1", Name: "Raureifstab des Adepten", Tier: 4, Enchantment: 1, CategoryPath: "weapons/froststaff/froststaff_keeper", Recipe: recipe_4cc46ba7ec17},
+		{ID: "T4_MAIN_FROSTSTAFF_KEEPER@2", Name: "Raureifstab des Adepten", Tier: 4, Enchantment: 2, CategoryPath: "weapons/froststaff/froststaff_keeper", Recipe: recipe_4cc46ba7ec17},
+		{ID: "T4_MAIN_FROSTSTAFF_KEEPER@3", Name: "Raureifstab des Adepten", Tier: 4, Enchantment: 3, CategoryPath: "weapons/froststaff/froststaff_keeper", Recipe: recipe_4cc46ba7ec17},
+		{ID: "T4_MAIN_FROSTSTAFF_KEEPER@4", Name: "Raureifstab des Adepten", Tier: 4, Enchantment: 4, CategoryPath: "weapons/froststaff/froststaff_keeper", Recipe: recipe_4cc46ba7ec17},
+		{ID: "T5_MAIN_FROSTSTAFF_KEEPER", Name: "Raureifstab des Experten", Tier: 5, Enchantment: 0, CategoryPath: "weapons/froststaff/froststaff_keeper", Recipe: recipe_5773dc9a8d28},
+		{ID: "T5_MAIN_FROSTSTAFF_KEEPER@1", Name: "Raureifstab des Experten", Tier: 5, Enchantment: 1, CategoryPath: "weapons/froststaff/froststaff_keeper", Recipe: recipe_5773dc9a8d28},
+		{ID: "T5_MAIN_FROSTSTAFF_KEEPER@2", Name: "Raureifstab des Experten", Tier: 5, Enchantment: 2, CategoryPath: "weapons/froststaff/froststaff_keeper", Recipe: recipe_5773dc9a8d28},
+		{ID: "T5_MAIN_FROSTSTAFF_KEEPER@3", Name: "Raureifstab des Experten", Tier: 5, Enchantment: 3, CategoryPath: "weapons/froststaff/froststaff_keeper", Recipe: recipe_5773dc9a8d28},
+		{ID: "T5_MAIN_FROSTSTAFF_KEEPER@4", Name: "Raureifstab des Experten", Tier: 5, Enchantment: 4, CategoryPath: "weapons/froststaff/froststaff_keeper", Recipe: recipe_5773dc9a8d28},
+		{ID: "T6_MAIN_FROSTSTAFF_KEEPER", Name: "Raureifstab des Meisters", Tier: 6, Enchantment: 0, CategoryPath: "weapons/froststaff/froststaff_keeper", Recipe: recipe_d40e5b49985d},
+		{ID: "T6_MAIN_FROSTSTAFF_KEEPER@1", Name: "Raureifstab des Meisters", Tier: 6, Enchantment: 1, CategoryPath: "weapons/froststaff/froststaff_keeper", Recipe: recipe_d40e5b49985d},
+		{ID: "T6_MAIN_FROSTSTAFF_KEEPER@2", Name: "Raureifstab des Meisters", Tier: 6, Enchantment: 2, CategoryPath: "weapons/froststaff/froststaff_keeper", Recipe: recipe_d40e5b49985d},
+		{ID: "T6_MAIN_FROSTSTAFF_KEEPER@3", Name: "Raureifstab des Meisters", Tier: 6, Enchantment: 3, CategoryPath: "weapons/froststaff/froststaff_keeper", Recipe: recipe_d40e5b49985d},
+		{ID: "T6_MAIN_FROSTSTAFF_KEEPER@4", Name: "Raureifstab des Meisters", Tier: 6, Enchantment: 4, CategoryPath: "weapons/froststaff/froststaff_keeper", Recipe: recipe_d40e5b49985d},
+		{ID: "T7_MAIN_FROSTSTAFF_KEEPER", Name: "Raureifstab des Großmeisters", Tier: 7, Enchantment: 0, CategoryPath: "weapons/froststaff/froststaff_keeper", Recipe: recipe_f23a3d3482fa},
+		{ID: "T7_MAIN_FROSTSTAFF_KEEPER@1", Name: "Raureifstab des Großmeisters", Tier: 7, Enchantment: 1, CategoryPath: "weapons/froststaff/froststaff_keeper", Recipe: recipe_f23a3d3482fa},
+		{ID: "T7_MAIN_FROSTSTAFF_KEEPER@2", Name: "Raureifstab des Großmeisters", Tier: 7, Enchantment: 2, CategoryPath: "weapons/froststaff/froststaff_keeper", Recipe: recipe_f23a3d3482fa},
+		{ID: "T7_MAIN_FROSTSTAFF_KEEPER@3", Name: "Raureifstab des Großmeisters", Tier: 7, Enchantment: 3, CategoryPath: "weapons/froststaff/froststaff_keeper", Recipe: recipe_f23a3d3482fa},
+		{ID: "T7_MAIN_FROSTSTAFF_KEEPER@4", Name: "Raureifstab des Großmeisters", Tier: 7, Enchantment: 4, CategoryPath: "weapons/froststaff/froststaff_keeper", Recipe: recipe_f23a3d3482fa},
+		{ID: "T8_MAIN_FROSTSTAFF_KEEPER", Name: "Raureifstab des Ältesten", Tier: 8, Enchantment: 0, CategoryPath: "weapons/froststaff/froststaff_keeper", Recipe: recipe_d89aabdd3b65},
+		{ID: "T8_MAIN_FROSTSTAFF_KEEPER@1", Name: "Raureifstab des Ältesten", Tier: 8, Enchantment: 1, CategoryPath: "weapons/froststaff/froststaff_keeper", Recipe: recipe_d89aabdd3b65},
+		{ID: "T8_MAIN_FROSTSTAFF_KEEPER@2", Name: "Raureifstab des Ältesten", Tier: 8, Enchantment: 2, CategoryPath: "weapons/froststaff/froststaff_keeper", Recipe: recipe_d89aabdd3b65},
+		{ID: "T8_MAIN_FROSTSTAFF_KEEPER@3", Name: "Raureifstab des Ältesten", Tier: 8, Enchantment: 3, CategoryPath: "weapons/froststaff/froststaff_keeper", Recipe: recipe_d89aabdd3b65},
+		{ID: "T8_MAIN_FROSTSTAFF_KEEPER@4", Name: "Raureifstab des Ältesten", Tier: 8, Enchantment: 4, CategoryPath: "weapons/froststaff/froststaff_keeper", Recipe: recipe_d89aabdd3b65},
+	}},
+	{Name: "Hammer des Gesellen", BaseID: "MAIN_HAMMER", MinTier: 3, MaxTier: 8, MinEnchantment: 0, MaxEnchantment: 4, Variants: []ItemVariant{
+		{ID: "T3_MAIN_HAMMER", Name: "Hammer des Gesellen", Tier: 3, Enchantment: 0, CategoryPath: "weapons/hammer/hammer_main_hammer", Recipe: recipe_1d6e17aa325a},
+		{ID: "T4_MAIN_HAMMER", Name: "Hammer des Adepten", Tier: 4, Enchantment: 0, CategoryPath: "weapons/hammer/hammer_main_hammer", Recipe: recipe_0c6fd281c8d4},
+		{ID: "T4_MAIN_HAMMER@1", Name: "Hammer des Adepten", Tier: 4, Enchantment: 1, CategoryPath: "weapons/hammer/hammer_main_hammer", Recipe: recipe_0c6fd281c8d4},
+		{ID: "T4_MAIN_HAMMER@2", Name: "Hammer des Adepten", Tier: 4, Enchantment: 2, CategoryPath: "weapons/hammer/hammer_main_hammer", Recipe: recipe_0c6fd281c8d4},
+		{ID: "T4_MAIN_HAMMER@3", Name: "Hammer des Adepten", Tier: 4, Enchantment: 3, CategoryPath: "weapons/hammer/hammer_main_hammer", Recipe: recipe_0c6fd281c8d4},
+		{ID: "T4_MAIN_HAMMER@4", Name: "Hammer des Adepten", Tier: 4, Enchantment: 4, CategoryPath: "weapons/hammer/hammer_main_hammer", Recipe: recipe_0c6fd281c8d4},
+		{ID: "T5_MAIN_HAMMER", Name: "Hammer des Experten", Tier: 5, Enchantment: 0, CategoryPath: "weapons/hammer/hammer_main_hammer", Recipe: recipe_4799103de292},
+		{ID: "T5_MAIN_HAMMER@1", Name: "Hammer des Experten", Tier: 5, Enchantment: 1, CategoryPath: "weapons/hammer/hammer_main_hammer", Recipe: recipe_4799103de292},
+		{ID: "T5_MAIN_HAMMER@2", Name: "Hammer des Experten", Tier: 5, Enchantment: 2, CategoryPath: "weapons/hammer/hammer_main_hammer", Recipe: recipe_4799103de292},
+		{ID: "T5_MAIN_HAMMER@3", Name: "Hammer des Experten", Tier: 5, Enchantment: 3, CategoryPath: "weapons/hammer/hammer_main_hammer", Recipe: recipe_4799103de292},
+		{ID: "T5_MAIN_HAMMER@4", Name: "Hammer des Experten", Tier: 5, Enchantment: 4, CategoryPath: "weapons/hammer/hammer_main_hammer", Recipe: recipe_4799103de292},
+		{ID: "T6_MAIN_HAMMER", Name: "Hammer des Meisters", Tier: 6, Enchantment: 0, CategoryPath: "weapons/hammer/hammer_main_hammer", Recipe: recipe_cae6021a5cc9},
+		{ID: "T6_MAIN_HAMMER@1", Name: "Hammer des Meisters", Tier: 6, Enchantment: 1, CategoryPath: "weapons/hammer/hammer_main_hammer", Recipe: recipe_cae6021a5cc9},
+		{ID: "T6_MAIN_HAMMER@2", Name: "Hammer des Meisters", Tier: 6, Enchantment: 2, CategoryPath: "weapons/hammer/hammer_main_hammer", Recipe: recipe_cae6021a5cc9},
+		{ID: "T6_MAIN_HAMMER@3", Name: "Hammer des Meisters", Tier: 6, Enchantment: 3, CategoryPath: "weapons/hammer/hammer_main_hammer", Recipe: recipe_cae6021a5cc9},
+		{ID: "T6_MAIN_HAMMER@4", Name: "Hammer des Meisters", Tier: 6, Enchantment: 4, CategoryPath: "weapons/hammer/hammer_main_hammer", Recipe: recipe_cae6021a5cc9},
+		{ID: "T7_MAIN_HAMMER", Name: "Hammer des Großmeisters", Tier: 7, Enchantment: 0, CategoryPath: "weapons/hammer/hammer_main_hammer", Recipe: recipe_d381cacaa466},
+		{ID: "T7_MAIN_HAMMER@1", Name: "Hammer des Großmeisters", Tier: 7, Enchantment: 1, CategoryPath: "weapons/hammer/hammer_main_hammer", Recipe: recipe_d381cacaa466},
+		{ID: "T7_MAIN_HAMMER@2", Name: "Hammer des Großmeisters", Tier: 7, Enchantment: 2, CategoryPath: "weapons/hammer/hammer_main_hammer", Recipe: recipe_d381cacaa466},
+		{ID: "T7_MAIN_HAMMER@3", Name: "Hammer des Großmeisters", Tier: 7, Enchantment: 3, CategoryPath: "weapons/hammer/hammer_main_hammer", Recipe: recipe_d381cacaa466},
+		{ID: "T7_MAIN_HAMMER@4", Name: "Hammer des Großmeisters", Tier: 7, Enchantment: 4, CategoryPath: "weapons/hammer/hammer_main_hammer", Recipe: recipe_d381cacaa466},
+		{ID: "T8_MAIN_HAMMER", Name: "Hammer des Ältesten", Tier: 8, Enchantment: 0, CategoryPath: "weapons/hammer/hammer_main_hammer", Recipe: recipe_b9b71cabe312},
+		{ID: "T8_MAIN_HAMMER@1", Name: "Hammer des Ältesten", Tier: 8, Enchantment: 1, CategoryPath: "weapons/hammer/hammer_main_hammer", Recipe: recipe_b9b71cabe312},
+		{ID: "T8_MAIN_HAMMER@2", Name: "Hammer des Ältesten", Tier: 8, Enchantment: 2, CategoryPath: "weapons/hammer/hammer_main_hammer", Recipe: recipe_b9b71cabe312},
+		{ID: "T8_MAIN_HAMMER@3", Name: "Hammer des Ältesten", Tier: 8, Enchantment: 3, CategoryPath: "weapons/hammer/hammer_main_hammer", Recipe: recipe_b9b71cabe312},
+		{ID: "T8_MAIN_HAMMER@4", Name: "Hammer des Ältesten", Tier: 8, Enchantment: 4, CategoryPath: "weapons/hammer/hammer_main_hammer", Recipe: recipe_b9b71cabe312},
+	}},
+	{Name: "Heiligenstab des Gesellen", BaseID: "MAIN_HOLYSTAFF", MinTier: 3, MaxTier: 8, MinEnchantment: 0, MaxEnchantment: 4, Variants: []ItemVariant{
+		{ID: "T3_MAIN_HOLYSTAFF", Name: "Heiligenstab des Gesellen", Tier: 3, Enchantment: 0, CategoryPath: "weapons/holystaff/holystaff_main_holystaff", Recipe: recipe_54839930f414},
+		{ID: "T4_MAIN_HOLYSTAFF", Name: "Heiligenstab des Adepten", Tier: 4, Enchantment: 0, CategoryPath: "weapons/holystaff/holystaff_main_holystaff", Recipe: recipe_44850ba71bf0},
+		{ID: "T4_MAIN_HOLYSTAFF@1", Name: "Heiligenstab des Adepten", Tier: 4, Enchantment: 1, CategoryPath: "weapons/holystaff/holystaff_main_holystaff", Recipe: recipe_44850ba71bf0},
+		{ID: "T4_MAIN_HOLYSTAFF@2", Name: "Heiligenstab des Adepten", Tier: 4, Enchantment: 2, CategoryPath: "weapons/holystaff/holystaff_main_holystaff", Recipe: recipe_44850ba71bf0},
+		{ID: "T4_MAIN_HOLYSTAFF@3", Name: "Heiligenstab des Adepten", Tier: 4, Enchantment: 3, CategoryPath: "weapons/holystaff/holystaff_main_holystaff", Recipe: recipe_44850ba71bf0},
+		{ID: "T4_MAIN_HOLYSTAFF@4", Name: "Heiligenstab des Adepten", Tier: 4, Enchantment: 4, CategoryPath: "weapons/holystaff/holystaff_main_holystaff", Recipe: recipe_44850ba71bf0},
+		{ID: "T5_MAIN_HOLYSTAFF", Name: "Heiligenstab des Experten", Tier: 5, Enchantment: 0, CategoryPath: "weapons/holystaff/holystaff_main_holystaff", Recipe: recipe_29ce5f881b9b},
+		{ID: "T5_MAIN_HOLYSTAFF@1", Name: "Heiligenstab des Experten", Tier: 5, Enchantment: 1, CategoryPath: "weapons/holystaff/holystaff_main_holystaff", Recipe: recipe_29ce5f881b9b},
+		{ID: "T5_MAIN_HOLYSTAFF@2", Name: "Heiligenstab des Experten", Tier: 5, Enchantment: 2, CategoryPath: "weapons/holystaff/holystaff_main_holystaff", Recipe: recipe_29ce5f881b9b},
+		{ID: "T5_MAIN_HOLYSTAFF@3", Name: "Heiligenstab des Experten", Tier: 5, Enchantment: 3, CategoryPath: "weapons/holystaff/holystaff_main_holystaff", Recipe: recipe_29ce5f881b9b},
+		{ID: "T5_MAIN_HOLYSTAFF@4", Name: "Heiligenstab des Experten", Tier: 5, Enchantment: 4, CategoryPath: "weapons/holystaff/holystaff_main_holystaff", Recipe: recipe_29ce5f881b9b},
+		{ID: "T6_MAIN_HOLYSTAFF", Name: "Heiligenstab des Meisters", Tier: 6, Enchantment: 0, CategoryPath: "weapons/holystaff/holystaff_main_holystaff", Recipe: recipe_07b7a6541ce4},
+		{ID: "T6_MAIN_HOLYSTAFF@1", Name: "Heiligenstab des Meisters", Tier: 6, Enchantment: 1, CategoryPath: "weapons/holystaff/holystaff_main_holystaff", Recipe: recipe_07b7a6541ce4},
+		{ID: "T6_MAIN_HOLYSTAFF@2", Name: "Heiligenstab des Meisters", Tier: 6, Enchantment: 2, CategoryPath: "weapons/holystaff/holystaff_main_holystaff", Recipe: recipe_07b7a6541ce4},
+		{ID: "T6_MAIN_HOLYSTAFF@3", Name: "Heiligenstab des Meisters", Tier: 6, Enchantment: 3, CategoryPath: "weapons/holystaff/holystaff_main_holystaff", Recipe: recipe_07b7a6541ce4},
+		{ID: "T6_MAIN_HOLYSTAFF@4", Name: "Heiligenstab des Meisters", Tier: 6, Enchantment: 4, CategoryPath: "weapons/holystaff/holystaff_main_holystaff", Recipe: recipe_07b7a6541ce4},
+		{ID: "T7_MAIN_HOLYSTAFF", Name: "Heiligenstab des Großmeisters", Tier: 7, Enchantment: 0, CategoryPath: "weapons/holystaff/holystaff_main_holystaff", Recipe: recipe_06f628270f6d},
+		{ID: "T7_MAIN_HOLYSTAFF@1", Name: "Heiligenstab des Großmeisters", Tier: 7, Enchantment: 1, CategoryPath: "weapons/holystaff/holystaff_main_holystaff", Recipe: recipe_06f628270f6d},
+		{ID: "T7_MAIN_HOLYSTAFF@2", Name: "Heiligenstab des Großmeisters", Tier: 7, Enchantment: 2, CategoryPath: "weapons/holystaff/holystaff_main_holystaff", Recipe: recipe_06f628270f6d},
+		{ID: "T7_MAIN_HOLYSTAFF@3", Name: "Heiligenstab des Großmeisters", Tier: 7, Enchantment: 3, CategoryPath: "weapons/holystaff/holystaff_main_holystaff", Recipe: recipe_06f628270f6d},
+		{ID: "T7_MAIN_HOLYSTAFF@4", Name: "Heiligenstab des Großmeisters", Tier: 7, Enchantment: 4, CategoryPath: "weapons/holystaff/holystaff_main_holystaff", Recipe: recipe_06f628270f6d},
+		{ID: "T8_MAIN_HOLYSTAFF", Name: "Heiligenstab des Ältesten", Tier: 8, Enchantment: 0, CategoryPath: "weapons/holystaff/holystaff_main_holystaff", Recipe: recipe_ca5b09532499},
+		{ID: "T8_MAIN_HOLYSTAFF@1", Name: "Heiligenstab des Ältesten", Tier: 8, Enchantment: 1, CategoryPath: "weapons/holystaff/holystaff_main_holystaff", Recipe: recipe_ca5b09532499},
+		{ID: "T8_MAIN_HOLYSTAFF@2", Name: "Heiligenstab des Ältesten", Tier: 8, Enchantment: 2, CategoryPath: "weapons/holystaff/holystaff_main_holystaff", Recipe: recipe_ca5b09532499},
+		{ID: "T8_MAIN_HOLYSTAFF@3", Name: "Heiligenstab des Ältesten", Tier: 8, Enchantment: 3, CategoryPath: "weapons/holystaff/holystaff_main_holystaff", Recipe: recipe_ca5b09532499},
+		{ID: "T8_MAIN_HOLYSTAFF@4", Name: "Heiligenstab des Ältesten", Tier: 8, Enchantment: 4, CategoryPath: "weapons/holystaff/holystaff_main_holystaff", Recipe: recipe_ca5b09532499},
+	}},
+	{Name: "Heiligsturz des Adepten", BaseID: "MAIN_HOLYSTAFF_AVALON", MinTier: 4, MaxTier: 8, MinEnchantment: 0, MaxEnchantment: 4, Variants: []ItemVariant{
+		{ID: "T4_MAIN_HOLYSTAFF_AVALON", Name: "Heiligsturz des Adepten", Tier: 4, Enchantment: 0, CategoryPath: "weapons/holystaff/holystaff_avalon", Recipe: recipe_e811accf704a},
+		{ID: "T4_MAIN_HOLYSTAFF_AVALON@1", Name: "Heiligsturz des Adepten", Tier: 4, Enchantment: 1, CategoryPath: "weapons/holystaff/holystaff_avalon", Recipe: recipe_e811accf704a},
+		{ID: "T4_MAIN_HOLYSTAFF_AVALON@2", Name: "Heiligsturz des Adepten", Tier: 4, Enchantment: 2, CategoryPath: "weapons/holystaff/holystaff_avalon", Recipe: recipe_e811accf704a},
+		{ID: "T4_MAIN_HOLYSTAFF_AVALON@3", Name: "Heiligsturz des Adepten", Tier: 4, Enchantment: 3, CategoryPath: "weapons/holystaff/holystaff_avalon", Recipe: recipe_e811accf704a},
+		{ID: "T4_MAIN_HOLYSTAFF_AVALON@4", Name: "Heiligsturz des Adepten", Tier: 4, Enchantment: 4, CategoryPath: "weapons/holystaff/holystaff_avalon", Recipe: recipe_e811accf704a},
+		{ID: "T5_MAIN_HOLYSTAFF_AVALON", Name: "Heiligsturz des Experten", Tier: 5, Enchantment: 0, CategoryPath: "weapons/holystaff/holystaff_avalon", Recipe: recipe_e5b7b9ae5070},
+		{ID: "T5_MAIN_HOLYSTAFF_AVALON@1", Name: "Heiligsturz des Experten", Tier: 5, Enchantment: 1, CategoryPath: "weapons/holystaff/holystaff_avalon", Recipe: recipe_e5b7b9ae5070},
+		{ID: "T5_MAIN_HOLYSTAFF_AVALON@2", Name: "Heiligsturz des Experten", Tier: 5, Enchantment: 2, CategoryPath: "weapons/holystaff/holystaff_avalon", Recipe: recipe_e5b7b9ae5070},
+		{ID: "T5_MAIN_HOLYSTAFF_AVALON@3", Name: "Heiligsturz des Experten", Tier: 5, Enchantment: 3, CategoryPath: "weapons/holystaff/holystaff_avalon", Recipe: recipe_e5b7b9ae5070},
+		{ID: "T5_MAIN_HOLYSTAFF_AVALON@4", Name: "Heiligsturz des Experten", Tier: 5, Enchantment: 4, CategoryPath: "weapons/holystaff/holystaff_avalon", Recipe: recipe_e5b7b9ae5070},
+		{ID: "T6_MAIN_HOLYSTAFF_AVALON", Name: "Heiligsturz des Meisters", Tier: 6, Enchantment: 0, CategoryPath: "weapons/holystaff/holystaff_avalon", Recipe: recipe_9cc129b1188c},
+		{ID: "T6_MAIN_HOLYSTAFF_AVALON@1", Name: "Heiligsturz des Meisters", Tier: 6, Enchantment: 1, CategoryPath: "weapons/holystaff/holystaff_avalon", Recipe: recipe_9cc129b1188c},
+		{ID: "T6_MAIN_HOLYSTAFF_AVALON@2", Name: "Heiligsturz des Meisters", Tier: 6, Enchantment: 2, CategoryPath: "weapons/holystaff/holystaff_avalon", Recipe: recipe_9cc129b1188c},
+		{ID: "T6_MAIN_HOLYSTAFF_AVALON@3", Name: "Heiligsturz des Meisters", Tier: 6, Enchantment: 3, CategoryPath: "weapons/holystaff/holystaff_avalon", Recipe: recipe_9cc129b1188c},
+		{ID: "T6_MAIN_HOLYSTAFF_AVALON@4", Name: "Heiligsturz des Meisters", Tier: 6, Enchantment: 4, CategoryPath: "weapons/holystaff/holystaff_avalon", Recipe: recipe_9cc129b1188c},
+		{ID: "T7_MAIN_HOLYSTAFF_AVALON", Name: "Heiligsturz des Großmeisters", Tier: 7, Enchantment: 0, CategoryPath: "weapons/holystaff/holystaff_avalon", Recipe: recipe_ecdc75646615},
+		{ID: "T7_MAIN_HOLYSTAFF_AVALON@1", Name: "Heiligsturz des Großmeisters", Tier: 7, Enchantment: 1, CategoryPath: "weapons/holystaff/holystaff_avalon", Recipe: recipe_ecdc75646615},
+		{ID: "T7_MAIN_HOLYSTAFF_AVALON@2", Name: "Heiligsturz des Großmeisters", Tier: 7, Enchantment: 2, CategoryPath: "weapons/holystaff/holystaff_avalon", Recipe: recipe_ecdc75646615},
+		{ID: "T7_MAIN_HOLYSTAFF_AVALON@3", Name: "Heiligsturz des Großmeisters", Tier: 7, Enchantment: 3, CategoryPath: "weapons/holystaff/holystaff_avalon", Recipe: recipe_ecdc75646615},
+		{ID: "T7_MAIN_HOLYSTAFF_AVALON@4", Name: "Heiligsturz des Großmeisters", Tier: 7, Enchantment: 4, CategoryPath: "weapons/holystaff/holystaff_avalon", Recipe: recipe_ecdc75646615},
+		{ID: "T8_MAIN_HOLYSTAFF_AVALON", Name: "Heiligsturz des Ältesten", Tier: 8, Enchantment: 0, CategoryPath: "weapons/holystaff/holystaff_avalon", Recipe: recipe_e1bb97555daa},
+		{ID: "T8_MAIN_HOLYSTAFF_AVALON@1", Name: "Heiligsturz des Ältesten", Tier: 8, Enchantment: 1, CategoryPath: "weapons/holystaff/holystaff_avalon", Recipe: recipe_e1bb97555daa},
+		{ID: "T8_MAIN_HOLYSTAFF_AVALON@2", Name: "Heiligsturz des Ältesten", Tier: 8, Enchantment: 2, CategoryPath: "weapons/holystaff/holystaff_avalon", Recipe: recipe_e1bb97555daa},
+		{ID: "T8_MAIN_HOLYSTAFF_AVALON@3", Name: "Heiligsturz des Ältesten", Tier: 8, Enchantment: 3, CategoryPath: "weapons/holystaff/holystaff_avalon", Recipe: recipe_e1bb97555daa},
+		{ID: "T8_MAIN_HOLYSTAFF_AVALON@4", Name: "Heiligsturz des Ältesten", Tier: 8, Enchantment: 4, CategoryPath: "weapons/holystaff/holystaff_avalon", Recipe: recipe_e1bb97555daa},
+	}},
+	{Name: "Lebensgefühl-Stab des Adepten", BaseID: "MAIN_HOLYSTAFF_MORGANA", MinTier: 4, MaxTier: 8, MinEnchantment: 0, MaxEnchantment: 4, Variants: []ItemVariant{
+		{ID: "T4_MAIN_HOLYSTAFF_MORGANA", Name: "Lebensgefühl-Stab des Adepten", Tier: 4, Enchantment: 0, CategoryPath: "weapons/holystaff/holystaff_morgana", Recipe: recipe_9b5e9d579edb},
+		{ID: "T4_MAIN_HOLYSTAFF_MORGANA@1", Name: "Lebensgefühl-Stab des Adepten", Tier: 4, Enchantment: 1, CategoryPath: "weapons/holystaff/holystaff_morgana", Recipe: recipe_9b5e9d579edb},
+		{ID: "T4_MAIN_HOLYSTAFF_MORGANA@2", Name: "Lebensgefühl-Stab des Adepten", Tier: 4, Enchantment: 2, CategoryPath: "weapons/holystaff/holystaff_morgana", Recipe: recipe_9b5e9d579edb},
+		{ID: "T4_MAIN_HOLYSTAFF_MORGANA@3", Name: "Lebensgefühl-Stab des Adepten", Tier: 4, Enchantment: 3, CategoryPath: "weapons/holystaff/holystaff_morgana", Recipe: recipe_9b5e9d579edb},
+		{ID: "T4_MAIN_HOLYSTAFF_MORGANA@4", Name: "Lebensgefühl-Stab des Adepten", Tier: 4, Enchantment: 4, CategoryPath: "weapons/holystaff/holystaff_morgana", Recipe: recipe_9b5e9d579edb},
+		{ID: "T5_MAIN_HOLYSTAFF_MORGANA", Name: "Lebensgefühl-Stab des Experten", Tier: 5, Enchantment: 0, CategoryPath: "weapons/holystaff/holystaff_morgana", Recipe: recipe_dc5ba10d28f2},
+		{ID: "T5_MAIN_HOLYSTAFF_MORGANA@1", Name: "Lebensgefühl-Stab des Experten", Tier: 5, Enchantment: 1, CategoryPath: "weapons/holystaff/holystaff_morgana", Recipe: recipe_dc5ba10d28f2},
+		{ID: "T5_MAIN_HOLYSTAFF_MORGANA@2", Name: "Lebensgefühl-Stab des Experten", Tier: 5, Enchantment: 2, CategoryPath: "weapons/holystaff/holystaff_morgana", Recipe: recipe_dc5ba10d28f2},
+		{ID: "T5_MAIN_HOLYSTAFF_MORGANA@3", Name: "Lebensgefühl-Stab des Experten", Tier: 5, Enchantment: 3, CategoryPath: "weapons/holystaff/holystaff_morgana", Recipe: recipe_dc5ba10d28f2},
+		{ID: "T5_MAIN_HOLYSTAFF_MORGANA@4", Name: "Lebensgefühl-Stab des Experten", Tier: 5, Enchantment: 4, CategoryPath: "weapons/holystaff/holystaff_morgana", Recipe: recipe_dc5ba10d28f2},
+		{ID: "T6_MAIN_HOLYSTAFF_MORGANA", Name: "Lebensgefühl-Stab des Meisters", Tier: 6, Enchantment: 0, CategoryPath: "weapons/holystaff/holystaff_morgana", Recipe: recipe_2a6758cb0f0e},
+		{ID: "T6_MAIN_HOLYSTAFF_MORGANA@1", Name: "Lebensgefühl-Stab des Meisters", Tier: 6, Enchantment: 1, CategoryPath: "weapons/holystaff/holystaff_morgana", Recipe: recipe_2a6758cb0f0e},
+		{ID: "T6_MAIN_HOLYSTAFF_MORGANA@2", Name: "Lebensgefühl-Stab des Meisters", Tier: 6, Enchantment: 2, CategoryPath: "weapons/holystaff/holystaff_morgana", Recipe: recipe_2a6758cb0f0e},
+		{ID: "T6_MAIN_HOLYSTAFF_MORGANA@3", Name: "Lebensgefühl-Stab des Meisters", Tier: 6, Enchantment: 3, CategoryPath: "weapons/holystaff/holystaff_morgana", Recipe: recipe_2a6758cb0f0e},
+		{ID: "T6_MAIN_HOLYSTAFF_MORGANA@4", Name: "Lebensgefühl-Stab des Meisters", Tier: 6, Enchantment: 4, CategoryPath: "weapons/holystaff/holystaff_morgana", Recipe: recipe_2a6758cb0f0e},
+		{ID: "T7_MAIN_HOLYSTAFF_MORGANA", Name: "Lebensgefühl-Stab des Großmeisters", Tier: 7, Enchantment: 0, CategoryPath: "weapons/holystaff/holystaff_morgana", Recipe: recipe_ab14173ff86b},
+		{ID: "T7_MAIN_HOLYSTAFF_MORGANA@1", Name: "Lebensgefühl-Stab des Großmeisters", Tier: 7, Enchantment: 1, CategoryPath: "weapons/holystaff/holystaff_morgana", Recipe: recipe_ab14173ff86b},
+		{ID: "T7_MAIN_HOLYSTAFF_MORGANA@2", Name: "Lebensgefühl-Stab des Großmeisters", Tier: 7, Enchantment: 2, CategoryPath: "weapons/holystaff/holystaff_morgana", Recipe: recipe_ab14173ff86b},
+		{ID: "T7_MAIN_HOLYSTAFF_MORGANA@3", Name: "Lebensgefühl-Stab des Großmeisters", Tier: 7, Enchantment: 3, CategoryPath: "weapons/holystaff/holystaff_morgana", Recipe: recipe_ab14173ff86b},
+		{ID: "T7_MAIN_HOLYSTAFF_MORGANA@4", Name: "Lebensgefühl-Stab des Großmeisters", Tier: 7, Enchantment: 4, CategoryPath: "weapons/holystaff/holystaff_morgana", Recipe: recipe_ab14173ff86b},
+		{ID: "T8_MAIN_HOLYSTAFF_MORGANA", Name: "Lebensgefühl-Stab des Ältesten", Tier: 8, Enchantment: 0, CategoryPath: "weapons/holystaff/holystaff_morgana", Recipe: recipe_712db5beef4c},
+		{ID: "T8_MAIN_HOLYSTAFF_MORGANA@1", Name: "Lebensgefühl-Stab des Ältesten", Tier: 8, Enchantment: 1, CategoryPath: "weapons/holystaff/holystaff_morgana", Recipe: recipe_712db5beef4c},
+		{ID: "T8_MAIN_HOLYSTAFF_MORGANA@2", Name: "Lebensgefühl-Stab des Ältesten", Tier: 8, Enchantment: 2, CategoryPath: "weapons/holystaff/holystaff_morgana", Recipe: recipe_712db5beef4c},
+		{ID: "T8_MAIN_HOLYSTAFF_MORGANA@3", Name: "Lebensgefühl-Stab des Ältesten", Tier: 8, Enchantment: 3, CategoryPath: "weapons/holystaff/holystaff_morgana", Recipe: recipe_712db5beef4c},
+		{ID: "T8_MAIN_HOLYSTAFF_MORGANA@4", Name: "Lebensgefühl-Stab des Ältesten", Tier: 8, Enchantment: 4, CategoryPath: "weapons/holystaff/holystaff_morgana", Recipe: recipe_712db5beef4c},
+	}},
+	{Name: "Keule des Gesellen", BaseID: "MAIN_MACE", MinTier: 3, MaxTier: 8, MinEnchantment: 0, MaxEnchantment: 4, Variants: []ItemVariant{
+		{ID: "T3_MAIN_MACE", Name: "Keule des Gesellen", Tier: 3, Enchantment: 0, CategoryPath: "weapons/mace/mace_main_mace", Recipe: recipe_7c2a8543c5fa},
+		{ID: "T4_MAIN_MACE", Name: "Keule des Adepten", Tier: 4, Enchantment: 0, CategoryPath: "weapons/mace/mace_main_mace", Recipe: recipe_0de6174c5041},
+		{ID: "T4_MAIN_MACE@1", Name: "Keule des Adepten", Tier: 4, Enchantment: 1, CategoryPath: "weapons/mace/mace_main_mace", Recipe: recipe_0de6174c5041},
+		{ID: "T4_MAIN_MACE@2", Name: "Keule des Adepten", Tier: 4, Enchantment: 2, CategoryPath: "weapons/mace/mace_main_mace", Recipe: recipe_0de6174c5041},
+		{ID: "T4_MAIN_MACE@3", Name: "Keule des Adepten", Tier: 4, Enchantment: 3, CategoryPath: "weapons/mace/mace_main_mace", Recipe: recipe_0de6174c5041},
+		{ID: "T4_MAIN_MACE@4", Name: "Keule des Adepten", Tier: 4, Enchantment: 4, CategoryPath: "weapons/mace/mace_main_mace", Recipe: recipe_0de6174c5041},
+		{ID: "T5_MAIN_MACE", Name: "Keule des Experten", Tier: 5, Enchantment: 0, CategoryPath: "weapons/mace/mace_main_mace", Recipe: recipe_ea46020cfe60},
+		{ID: "T5_MAIN_MACE@1", Name: "Keule des Experten", Tier: 5, Enchantment: 1, CategoryPath: "weapons/mace/mace_main_mace", Recipe: recipe_ea46020cfe60},
+		{ID: "T5_MAIN_MACE@2", Name: "Keule des Experten", Tier: 5, Enchantment: 2, CategoryPath: "weapons/mace/mace_main_mace", Recipe: recipe_ea46020cfe60},
+		{ID: "T5_MAIN_MACE@3", Name: "Keule des Experten", Tier: 5, Enchantment: 3, CategoryPath: "weapons/mace/mace_main_mace", Recipe: recipe_ea46020cfe60},
+		{ID: "T5_MAIN_MACE@4", Name: "Keule des Experten", Tier: 5, Enchantment: 4, CategoryPath: "weapons/mace/mace_main_mace", Recipe: recipe_ea46020cfe60},
+		{ID: "T6_MAIN_MACE", Name: "Keule des Meisters", Tier: 6, Enchantment: 0, CategoryPath: "weapons/mace/mace_main_mace", Recipe: recipe_e038cf4c3f17},
+		{ID: "T6_MAIN_MACE@1", Name: "Keule des Meisters", Tier: 6, Enchantment: 1, CategoryPath: "weapons/mace/mace_main_mace", Recipe: recipe_e038cf4c3f17},
+		{ID: "T6_MAIN_MACE@2", Name: "Keule des Meisters", Tier: 6, Enchantment: 2, CategoryPath: "weapons/mace/mace_main_mace", Recipe: recipe_e038cf4c3f17},
+		{ID: "T6_MAIN_MACE@3", Name: "Keule des Meisters", Tier: 6, Enchantment: 3, CategoryPath: "weapons/mace/mace_main_mace", Recipe: recipe_e038cf4c3f17},
+		{ID: "T6_MAIN_MACE@4", Name: "Keule des Meisters", Tier: 6, Enchantment: 4, CategoryPath: "weapons/mace/mace_main_mace", Recipe: recipe_e038cf4c3f17},
+		{ID: "T7_MAIN_MACE", Name: "Keule des Großmeisters", Tier: 7, Enchantment: 0, CategoryPath: "weapons/mace/mace_main_mace", Recipe: recipe_a8eebdbc1c60},
+		{ID: "T7_MAIN_MACE@1", Name: "Keule des Großmeisters", Tier: 7, Enchantment: 1, CategoryPath: "weapons/mace/mace_main_mace", Recipe: recipe_a8eebdbc1c60},
+		{ID: "T7_MAIN_MACE@2", Name: "Keule des Großmeisters", Tier: 7, Enchantment: 2, CategoryPath: "weapons/mace/mace_main_mace", Recipe: recipe_a8eebdbc1c60},
+		{ID: "T7_MAIN_MACE@3", Name: "Keule des Großmeisters", Tier: 7, Enchantment: 3, CategoryPath: "weapons/mace/mace_main_mace", Recipe: recipe_a8eebdbc1c60},
+		{ID: "T7_MAIN_MACE@4", Name: "Keule des Großmeisters", Tier: 7, Enchantment: 4, CategoryPath: "weapons/mace/mace_main_mace", Recipe: recipe_a8eebdbc1c60},
+		{ID: "T8_MAIN_MACE", Name: "Keule des Ältesten", Tier: 8, Enchantment: 0, CategoryPath: "weapons/mace/mace_main_mace", Recipe: recipe_a5282a0e1ef2},
+		{ID: "T8_MAIN_MACE@1", Name: "Keule des Ältesten", Tier: 8, Enchantment: 1, CategoryPath: "weapons/mace/mace_main_mace", Recipe: recipe_a5282a0e1ef2},
+		{ID: "T8_MAIN_MACE@2", Name: "Keule des Ältesten", Tier: 8, Enchantment: 2, CategoryPath: "weapons/mace/mace_main_mace", Recipe: recipe_a5282a0e1ef2},
+		{ID: "T8_MAIN_MACE@3", Name: "Keule des Ältesten", Tier: 8, Enchantment: 3, CategoryPath: "weapons/mace/mace_main_mace", Recipe: recipe_a5282a0e1ef2},
+		{ID: "T8_MAIN_MACE@4", Name: "Keule des Ältesten", Tier: 8, Enchantment: 4, CategoryPath: "weapons/mace/mace_main_mace", Recipe: recipe_a5282a0e1ef2},
+	}},
+	{Name: "Grauenssturm-Monarch des Adepten", BaseID: "MAIN_MACE_CRYSTAL", MinTier: 4, MaxTier: 8, MinEnchantment: 0, MaxEnchantment: 4, Variants: []ItemVariant{
+		{ID: "T4_MAIN_MACE_CRYSTAL", Name: "Grauenssturm-Monarch des Adepten", Tier: 4, Enchantment: 0, CategoryPath: "weapons/mace/mace_crystal", Recipe: recipe_856d7ce0c84c},
+		{ID: "T4_MAIN_MACE_CRYSTAL@1", Name: "Grauenssturm-Monarch des Adepten", Tier: 4, Enchantment: 1, CategoryPath: "weapons/mace/mace_crystal", Recipe: recipe_856d7ce0c84c},
+		{ID: "T4_MAIN_MACE_CRYSTAL@2", Name: "Grauenssturm-Monarch des Adepten", Tier: 4, Enchantment: 2, CategoryPath: "weapons/mace/mace_crystal", Recipe: recipe_856d7ce0c84c},
+		{ID: "T4_MAIN_MACE_CRYSTAL@3", Name: "Grauenssturm-Monarch des Adepten", Tier: 4, Enchantment: 3, CategoryPath: "weapons/mace/mace_crystal", Recipe: recipe_856d7ce0c84c},
+		{ID: "T4_MAIN_MACE_CRYSTAL@4", Name: "Grauenssturm-Monarch des Adepten", Tier: 4, Enchantment: 4, CategoryPath: "weapons/mace/mace_crystal", Recipe: recipe_856d7ce0c84c},
+		{ID: "T5_MAIN_MACE_CRYSTAL", Name: "Grauenssturm-Monarch des Experten", Tier: 5, Enchantment: 0, CategoryPath: "weapons/mace/mace_crystal", Recipe: recipe_7091ed996b05},
+		{ID: "T5_MAIN_MACE_CRYSTAL@1", Name: "Grauenssturm-Monarch des Experten", Tier: 5, Enchantment: 1, CategoryPath: "weapons/mace/mace_crystal", Recipe: recipe_7091ed996b05},
+		{ID: "T5_MAIN_MACE_CRYSTAL@2", Name: "Grauenssturm-Monarch des Experten", Tier: 5, Enchantment: 2, CategoryPath: "weapons/mace/mace_crystal", Recipe: recipe_7091ed996b05},
+		{ID: "T5_MAIN_MACE_CRYSTAL@3", Name: "Grauenssturm-Monarch des Experten", Tier: 5, Enchantment: 3, CategoryPath: "weapons/mace/mace_crystal", Recipe: recipe_7091ed996b05},
+		{ID: "T5_MAIN_MACE_CRYSTAL@4", Name: "Grauenssturm-Monarch des Experten", Tier: 5, Enchantment: 4, CategoryPath: "weapons/mace/mace_crystal", Recipe: recipe_7091ed996b05},
+		{ID: "T6_MAIN_MACE_CRYSTAL", Name: "Grauenssturm-Monarch des Meisters", Tier: 6, Enchantment: 0, CategoryPath: "weapons/mace/mace_crystal", Recipe: recipe_edbee839d49b},
+		{ID: "T6_MAIN_MACE_CRYSTAL@1", Name: "Grauenssturm-Monarch des Meisters", Tier: 6, Enchantment: 1, CategoryPath: "weapons/mace/mace_crystal", Recipe: recipe_edbee839d49b},
+		{ID: "T6_MAIN_MACE_CRYSTAL@2", Name: "Grauenssturm-Monarch des Meisters", Tier: 6, Enchantment: 2, CategoryPath: "weapons/mace/mace_crystal", Recipe: recipe_edbee839d49b},
+		{ID: "T6_MAIN_MACE_CRYSTAL@3", Name: "Grauenssturm-Monarch des Meisters", Tier: 6, Enchantment: 3, CategoryPath: "weapons/mace/mace_crystal", Recipe: recipe_edbee839d49b},
+		{ID: "T6_MAIN_MACE_CRYSTAL@4", Name: "Grauenssturm-Monarch des Meisters", Tier: 6, Enchantment: 4, CategoryPath: "weapons/mace/mace_crystal", Recipe: recipe_edbee839d49b},
+		{ID: "T7_MAIN_MACE_CRYSTAL", Name: "Grauenssturm-Monarch des Großmeisters", Tier: 7, Enchantment: 0, CategoryPath: "weapons/mace/mace_crystal", Recipe: recipe_e8d1f99bd5dc},
+		{ID: "T7_MAIN_MACE_CRYSTAL@1", Name: "Grauenssturm-Monarch des Großmeisters", Tier: 7, Enchantment: 1, CategoryPath: "weapons/mace/mace_crystal", Recipe: recipe_e8d1f99bd5dc},
+		{ID: "T7_MAIN_MACE_CRYSTAL@2", Name: "Grauenssturm-Monarch des Großmeisters", Tier: 7, Enchantment: 2, CategoryPath: "weapons/mace/mace_crystal", Recipe: recipe_e8d1f99bd5dc},
+		{ID: "T7_MAIN_MACE_CRYSTAL@3", Name: "Grauenssturm-Monarch des Großmeisters", Tier: 7, Enchantment: 3, CategoryPath: "weapons/mace/mace_crystal", Recipe: recipe_e8d1f99bd5dc},
+		{ID: "T7_MAIN_MACE_CRYSTAL@4", Name: "Grauenssturm-Monarch des Großmeisters", Tier: 7, Enchantment: 4, CategoryPath: "weapons/mace/mace_crystal", Recipe: recipe_e8d1f99bd5dc},
+		{ID: "T8_MAIN_MACE_CRYSTAL", Name: "Grauenssturm-Monarch des Ältesten", Tier: 8, Enchantment: 0, CategoryPath: "weapons/mace/mace_crystal", Recipe: recipe_544599716431},
+		{ID: "T8_MAIN_MACE_CRYSTAL@1", Name: "Grauenssturm-Monarch des Ältesten", Tier: 8, Enchantment: 1, CategoryPath: "weapons/mace/mace_crystal", Recipe: recipe_544599716431},
+		{ID: "T8_MAIN_MACE_CRYSTAL@2", Name: "Grauenssturm-Monarch des Ältesten", Tier: 8, Enchantment: 2, CategoryPath: "weapons/mace/mace_crystal", Recipe: recipe_544599716431},
+		{ID: "T8_MAIN_MACE_CRYSTAL@3", Name: "Grauenssturm-Monarch des Ältesten", Tier: 8, Enchantment: 3, CategoryPath: "weapons/mace/mace_crystal", Recipe: recipe_544599716431},
+		{ID: "T8_MAIN_MACE_CRYSTAL@4", Name: "Grauenssturm-Monarch des Ältesten", Tier: 8, Enchantment: 4, CategoryPath: "weapons/mace/mace_crystal", Recipe: recipe_544599716431},
+	}},
+	{Name: "Incubuskeule des Adepten", BaseID: "MAIN_MACE_HELL", MinTier: 4, MaxTier: 8, MinEnchantment: 0, MaxEnchantment: 4, Variants: []ItemVariant{
+		{ID: "T4_MAIN_MACE_HELL", Name: "Incubuskeule des Adepten", Tier: 4, Enchantment: 0, CategoryPath: "weapons/mace/mace_hell", Recipe: recipe_7075c5f21541},
+		{ID: "T4_MAIN_MACE_HELL@1", Name: "Incubuskeule des Adepten", Tier: 4, Enchantment: 1, CategoryPath: "weapons/mace/mace_hell", Recipe: recipe_7075c5f21541},
+		{ID: "T4_MAIN_MACE_HELL@2", Name: "Incubuskeule des Adepten", Tier: 4, Enchantment: 2, CategoryPath: "weapons/mace/mace_hell", Recipe: recipe_7075c5f21541},
+		{ID: "T4_MAIN_MACE_HELL@3", Name: "Incubuskeule des Adepten", Tier: 4, Enchantment: 3, CategoryPath: "weapons/mace/mace_hell", Recipe: recipe_7075c5f21541},
+		{ID: "T4_MAIN_MACE_HELL@4", Name: "Incubuskeule des Adepten", Tier: 4, Enchantment: 4, CategoryPath: "weapons/mace/mace_hell", Recipe: recipe_7075c5f21541},
+		{ID: "T5_MAIN_MACE_HELL", Name: "Incubuskeule des Experten", Tier: 5, Enchantment: 0, CategoryPath: "weapons/mace/mace_hell", Recipe: recipe_b5ffbd03cdc9},
+		{ID: "T5_MAIN_MACE_HELL@1", Name: "Incubuskeule des Experten", Tier: 5, Enchantment: 1, CategoryPath: "weapons/mace/mace_hell", Recipe: recipe_b5ffbd03cdc9},
+		{ID: "T5_MAIN_MACE_HELL@2", Name: "Incubuskeule des Experten", Tier: 5, Enchantment: 2, CategoryPath: "weapons/mace/mace_hell", Recipe: recipe_b5ffbd03cdc9},
+		{ID: "T5_MAIN_MACE_HELL@3", Name: "Incubuskeule des Experten", Tier: 5, Enchantment: 3, CategoryPath: "weapons/mace/mace_hell", Recipe: recipe_b5ffbd03cdc9},
+		{ID: "T5_MAIN_MACE_HELL@4", Name: "Incubuskeule des Experten", Tier: 5, Enchantment: 4, CategoryPath: "weapons/mace/mace_hell", Recipe: recipe_b5ffbd03cdc9},
+		{ID: "T6_MAIN_MACE_HELL", Name: "Incubuskeule des Meisters", Tier: 6, Enchantment: 0, CategoryPath: "weapons/mace/mace_hell", Recipe: recipe_e6eb4bb02510},
+		{ID: "T6_MAIN_MACE_HELL@1", Name: "Incubuskeule des Meisters", Tier: 6, Enchantment: 1, CategoryPath: "weapons/mace/mace_hell", Recipe: recipe_e6eb4bb02510},
+		{ID: "T6_MAIN_MACE_HELL@2", Name: "Incubuskeule des Meisters", Tier: 6, Enchantment: 2, CategoryPath: "weapons/mace/mace_hell", Recipe: recipe_e6eb4bb02510},
+		{ID: "T6_MAIN_MACE_HELL@3", Name: "Incubuskeule des Meisters", Tier: 6, Enchantment: 3, CategoryPath: "weapons/mace/mace_hell", Recipe: recipe_e6eb4bb02510},
+		{ID: "T6_MAIN_MACE_HELL@4", Name: "Incubuskeule des Meisters", Tier: 6, Enchantment: 4, CategoryPath: "weapons/mace/mace_hell", Recipe: recipe_e6eb4bb02510},
+		{ID: "T7_MAIN_MACE_HELL", Name: "Incubuskeule des Großmeisters", Tier: 7, Enchantment: 0, CategoryPath: "weapons/mace/mace_hell", Recipe: recipe_886170f6be7a},
+		{ID: "T7_MAIN_MACE_HELL@1", Name: "Incubuskeule des Großmeisters", Tier: 7, Enchantment: 1, CategoryPath: "weapons/mace/mace_hell", Recipe: recipe_886170f6be7a},
+		{ID: "T7_MAIN_MACE_HELL@2", Name: "Incubuskeule des Großmeisters", Tier: 7, Enchantment: 2, CategoryPath: "weapons/mace/mace_hell", Recipe: recipe_886170f6be7a},
+		{ID: "T7_MAIN_MACE_HELL@3", Name: "Incubuskeule des Großmeisters", Tier: 7, Enchantment: 3, CategoryPath: "weapons/mace/mace_hell", Recipe: recipe_886170f6be7a},
+		{ID: "T7_MAIN_MACE_HELL@4", Name: "Incubuskeule des Großmeisters", Tier: 7, Enchantment: 4, CategoryPath: "weapons/mace/mace_hell", Recipe: recipe_886170f6be7a},
+		{ID: "T8_MAIN_MACE_HELL", Name: "Incubuskeule des Ältesten", Tier: 8, Enchantment: 0, CategoryPath: "weapons/mace/mace_hell", Recipe: recipe_54dda3142d3a},
+		{ID: "T8_MAIN_MACE_HELL@1", Name: "Incubuskeule des Ältesten", Tier: 8, Enchantment: 1, CategoryPath: "weapons/mace/mace_hell", Recipe: recipe_54dda3142d3a},
+		{ID: "T8_MAIN_MACE_HELL@2", Name: "Incubuskeule des Ältesten", Tier: 8, Enchantment: 2, CategoryPath: "weapons/mace/mace_hell", Recipe: recipe_54dda3142d3a},
+		{ID: "T8_MAIN_MACE_HELL@3", Name: "Incubuskeule des Ältesten", Tier: 8, Enchantment: 3, CategoryPath: "weapons/mace/mace_hell", Recipe: recipe_54dda3142d3a},
+		{ID: "T8_MAIN_MACE_HELL@4", Name: "Incubuskeule des Ältesten", Tier: 8, Enchantment: 4, CategoryPath: "weapons/mace/mace_hell", Recipe: recipe_54dda3142d3a},
+	}},
+	{Name: "Naturstab des Gesellen", BaseID: "MAIN_NATURESTAFF", MinTier: 3, MaxTier: 8, MinEnchantment: 0, MaxEnchantment: 4, Variants: []ItemVariant{
+		{ID: "T3_MAIN_NATURESTAFF", Name: "Naturstab des Gesellen", Tier: 3, Enchantment: 0, CategoryPath: "weapons/naturestaff/naturestaff_main_naturestaff", Recipe: recipe_3bc39802a863},
+		{ID: "T4_MAIN_NATURESTAFF", Name: "Naturstab des Adepten", Tier: 4, Enchantment: 0, CategoryPath: "weapons/naturestaff/naturestaff_main_naturestaff", Recipe: recipe_d06afe5bd67c},
+		{ID: "T4_MAIN_NATURESTAFF@1", Name: "Naturstab des Adepten", Tier: 4, Enchantment: 1, CategoryPath: "weapons/naturestaff/naturestaff_main_naturestaff", Recipe: recipe_d06afe5bd67c},
+		{ID: "T4_MAIN_NATURESTAFF@2", Name: "Naturstab des Adepten", Tier: 4, Enchantment: 2, CategoryPath: "weapons/naturestaff/naturestaff_main_naturestaff", Recipe: recipe_d06afe5bd67c},
+		{ID: "T4_MAIN_NATURESTAFF@3", Name: "Naturstab des Adepten", Tier: 4, Enchantment: 3, CategoryPath: "weapons/naturestaff/naturestaff_main_naturestaff", Recipe: recipe_d06afe5bd67c},
+		{ID: "T4_MAIN_NATURESTAFF@4", Name: "Naturstab des Adepten", Tier: 4, Enchantment: 4, CategoryPath: "weapons/naturestaff/naturestaff_main_naturestaff", Recipe: recipe_d06afe5bd67c},
+		{ID: "T5_MAIN_NATURESTAFF", Name: "Naturstab des Experten", Tier: 5, Enchantment: 0, CategoryPath: "weapons/naturestaff/naturestaff_main_naturestaff", Recipe: recipe_679f70fb6c96},
+		{ID: "T5_MAIN_NATURESTAFF@1", Name: "Naturstab des Experten", Tier: 5, Enchantment: 1, CategoryPath: "weapons/naturestaff/naturestaff_main_naturestaff", Recipe: recipe_679f70fb6c96},
+		{ID: "T5_MAIN_NATURESTAFF@2", Name: "Naturstab des Experten", Tier: 5, Enchantment: 2, CategoryPath: "weapons/naturestaff/naturestaff_main_naturestaff", Recipe: recipe_679f70fb6c96},
+		{ID: "T5_MAIN_NATURESTAFF@3", Name: "Naturstab des Experten", Tier: 5, Enchantment: 3, CategoryPath: "weapons/naturestaff/naturestaff_main_naturestaff", Recipe: recipe_679f70fb6c96},
+		{ID: "T5_MAIN_NATURESTAFF@4", Name: "Naturstab des Experten", Tier: 5, Enchantment: 4, CategoryPath: "weapons/naturestaff/naturestaff_main_naturestaff", Recipe: recipe_679f70fb6c96},
+		{ID: "T6_MAIN_NATURESTAFF", Name: "Naturstab des Meisters", Tier: 6, Enchantment: 0, CategoryPath: "weapons/naturestaff/naturestaff_main_naturestaff", Recipe: recipe_db95823847b9},
+		{ID: "T6_MAIN_NATURESTAFF@1", Name: "Naturstab des Meisters", Tier: 6, Enchantment: 1, CategoryPath: "weapons/naturestaff/naturestaff_main_naturestaff", Recipe: recipe_db95823847b9},
+		{ID: "T6_MAIN_NATURESTAFF@2", Name: "Naturstab des Meisters", Tier: 6, Enchantment: 2, CategoryPath: "weapons/naturestaff/naturestaff_main_naturestaff", Recipe: recipe_db95823847b9},
+		{ID: "T6_MAIN_NATURESTAFF@3", Name: "Naturstab des Meisters", Tier: 6, Enchantment: 3, CategoryPath: "weapons/naturestaff/naturestaff_main_naturestaff", Recipe: recipe_db95823847b9},
+		{ID: "T6_MAIN_NATURESTAFF@4", Name: "Naturstab des Meisters", Tier: 6, Enchantment: 4, CategoryPath: "weapons/naturestaff/naturestaff_main_naturestaff", Recipe: recipe_db95823847b9},
+		{ID: "T7_MAIN_NATURESTAFF", Name: "Naturstab des Großmeisters", Tier: 7, Enchantment: 0, CategoryPath: "weapons/naturestaff/naturestaff_main_naturestaff", Recipe: recipe_299e0e00c44b},
+		{ID: "T7_MAIN_NATURESTAFF@1", Name: "Naturstab des Großmeisters", Tier: 7, Enchantment: 1, CategoryPath: "weapons/naturestaff/naturestaff_main_naturestaff", Recipe: recipe_299e0e00c44b},
+		{ID: "T7_MAIN_NATURESTAFF@2", Name: "Naturstab des Großmeisters", Tier: 7, Enchantment: 2, CategoryPath: "weapons/naturestaff/naturestaff_main_naturestaff", Recipe: recipe_299e0e00c44b},
+		{ID: "T7_MAIN_NATURESTAFF@3", Name: "Naturstab des Großmeisters", Tier: 7, Enchantment: 3, CategoryPath: "weapons/naturestaff/naturestaff_main_naturestaff", Recipe: recipe_299e0e00c44b},
+		{ID: "T7_MAIN_NATURESTAFF@4", Name: "Naturstab des Großmeisters", Tier: 7, Enchantment: 4, CategoryPath: "weapons/naturestaff/naturestaff_main_naturestaff", Recipe: recipe_299e0e00c44b},
+		{ID: "T8_MAIN_NATURESTAFF", Name: "Naturstab des Ältesten", Tier: 8, Enchantment: 0, CategoryPath: "weapons/naturestaff/naturestaff_main_naturestaff", Recipe: recipe_5aefdb37bd2f},
+		{ID: "T8_MAIN_NATURESTAFF@1", Name: "Naturstab des Ältesten", Tier: 8, Enchantment: 1, CategoryPath: "weapons/naturestaff/naturestaff_main_naturestaff", Recipe: recipe_5aefdb37bd2f},
+		{ID: "T8_MAIN_NATURESTAFF@2", Name: "Naturstab des Ältesten", Tier: 8, Enchantment: 2, CategoryPath: "weapons/naturestaff/naturestaff_main_naturestaff", Recipe: recipe_5aefdb37bd2f},
+		{ID: "T8_MAIN_NATURESTAFF@3", Name: "Naturstab des Ältesten", Tier: 8, Enchantment: 3, CategoryPath: "weapons/naturestaff/naturestaff_main_naturestaff", Recipe: recipe_5aefdb37bd2f},
+		{ID: "T8_MAIN_NATURESTAFF@4", Name: "Naturstab des Ältesten", Tier: 8, Enchantment: 4, CategoryPath: "weapons/naturestaff/naturestaff_main_naturestaff", Recipe: recipe_5aefdb37bd2f},
+	}},
+	{Name: "Eisenwurzelstab des Adepten", BaseID: "MAIN_NATURESTAFF_AVALON", MinTier: 4, MaxTier: 8, MinEnchantment: 0, MaxEnchantment: 4, Variants: []ItemVariant{
+		{ID: "T4_MAIN_NATURESTAFF_AVALON", Name: "Eisenwurzelstab des Adepten", Tier: 4, Enchantment: 0, CategoryPath: "weapons/naturestaff/naturestaff_avalon", Recipe: recipe_1c25257907c5},
+		{ID: "T4_MAIN_NATURESTAFF_AVALON@1", Name: "Eisenwurzelstab des Adepten", Tier: 4, Enchantment: 1, CategoryPath: "weapons/naturestaff/naturestaff_avalon", Recipe: recipe_1c25257907c5},
+		{ID: "T4_MAIN_NATURESTAFF_AVALON@2", Name: "Eisenwurzelstab des Adepten", Tier: 4, Enchantment: 2, CategoryPath: "weapons/naturestaff/naturestaff_avalon", Recipe: recipe_1c25257907c5},
+		{ID: "T4_MAIN_NATURESTAFF_AVALON@3", Name: "Eisenwurzelstab des Adepten", Tier: 4, Enchantment: 3, CategoryPath: "weapons/naturestaff/naturestaff_avalon", Recipe: recipe_1c25257907c5},
+		{ID: "T4_MAIN_NATURESTAFF_AVALON@4", Name: "Eisenwurzelstab des Adepten", Tier: 4, Enchantment: 4, CategoryPath: "weapons/naturestaff/naturestaff_avalon", Recipe: recipe_1c25257907c5},
+		{ID: "T5_MAIN_NATURESTAFF_AVALON", Name: "Eisenwurzelstab des Experten", Tier: 5, Enchantment: 0, CategoryPath: "weapons/naturestaff/naturestaff_avalon", Recipe: recipe_f14cd8fac5c9},
+		{ID: "T5_MAIN_NATURESTAFF_AVALON@1", Name: "Eisenwurzelstab des Experten", Tier: 5, Enchantment: 1, CategoryPath: "weapons/naturestaff/naturestaff_avalon", Recipe: recipe_f14cd8fac5c9},
+		{ID: "T5_MAIN_NATURESTAFF_AVALON@2", Name: "Eisenwurzelstab des Experten", Tier: 5, Enchantment: 2, CategoryPath: "weapons/naturestaff/naturestaff_avalon", Recipe: recipe_f14cd8fac5c9},
+		{ID: "T5_MAIN_NATURESTAFF_AVALON@3", Name: "Eisenwurzelstab des Experten", Tier: 5, Enchantment: 3, CategoryPath: "weapons/naturestaff/naturestaff_avalon", Recipe: recipe_f14cd8fac5c9},
+		{ID: "T5_MAIN_NATURESTAFF_AVALON@4", Name: "Eisenwurzelstab des Experten", Tier: 5, Enchantment: 4, CategoryPath: "weapons/naturestaff/naturestaff_avalon", Recipe: recipe_f14cd8fac5c9},
+		{ID: "T6_MAIN_NATURESTAFF_AVALON", Name: "Eisenwurzelstab des Meisters", Tier: 6, Enchantment: 0, CategoryPath: "weapons/naturestaff/naturestaff_avalon", Recipe: recipe_a794a531b5b4},
+		{ID: "T6_MAIN_NATURESTAFF_AVALON@1", Name: "Eisenwurzelstab des Meisters", Tier: 6, Enchantment: 1, CategoryPath: "weapons/naturestaff/naturestaff_avalon", Recipe: recipe_a794a531b5b4},
+		{ID: "T6_MAIN_NATURESTAFF_AVALON@2", Name: "Eisenwurzelstab des Meisters", Tier: 6, Enchantment: 2, CategoryPath: "weapons/naturestaff/naturestaff_avalon", Recipe: recipe_a794a531b5b4},
+		{ID: "T6_MAIN_NATURESTAFF_AVALON@3", Name: "Eisenwurzelstab des Meisters", Tier: 6, Enchantment: 3, CategoryPath: "weapons/naturestaff/naturestaff_avalon", Recipe: recipe_a794a531b5b4},
+		{ID: "T6_MAIN_NATURESTAFF_AVALON@4", Name: "Eisenwurzelstab des Meisters", Tier: 6, Enchantment: 4, CategoryPath: "weapons/naturestaff/naturestaff_avalon", Recipe: recipe_a794a531b5b4},
+		{ID: "T7_MAIN_NATURESTAFF_AVALON", Name: "Eisenwurzelstab des Großmeisters", Tier: 7, Enchantment: 0, CategoryPath: "weapons/naturestaff/naturestaff_avalon", Recipe: recipe_658355a12fd0},
+		{ID: "T7_MAIN_NATURESTAFF_AVALON@1", Name: "Eisenwurzelstab des Großmeisters", Tier: 7, Enchantment: 1, CategoryPath: "weapons/naturestaff/naturestaff_avalon", Recipe: recipe_658355a12fd0},
+		{ID: "T7_MAIN_NATURESTAFF_AVALON@2", Name: "Eisenwurzelstab des Großmeisters", Tier: 7, Enchantment: 2, CategoryPath: "weapons/naturestaff/naturestaff_avalon", Recipe: recipe_658355a12fd0},
+		{ID: "T7_MAIN_NATURESTAFF_AVALON@3", Name: "Eisenwurzelstab des Großmeisters", Tier: 7, Enchantment: 3, CategoryPath: "weapons/naturestaff/naturestaff_avalon", Recipe: recipe_658355a12fd0},
+		{ID: "T7_MAIN_NATURESTAFF_AVALON@4", Name: "Eisenwurzelstab des Großmeisters", Tier: 7, Enchantment: 4, CategoryPath: "weapons/naturestaff/naturestaff_avalon", Recipe: recipe_658355a12fd0},
+		{ID: "T8_MAIN_NATURESTAFF_AVALON", Name: "Eisenwurzelstab des Ältesten", Tier: 8, Enchantment: 0, CategoryPath: "weapons/naturestaff/naturestaff_avalon", Recipe: recipe_bd9e25b12e54},
+		{ID: "T8_MAIN_NATURESTAFF_AVALON@1", Name: "Eisenwurzelstab des Ältesten", Tier: 8, Enchantment: 1, CategoryPath: "weapons/naturestaff/naturestaff_avalon", Recipe: recipe_bd9e25b12e54},
+		{ID: "T8_MAIN_NATURESTAFF_AVALON@2", Name: "Eisenwurzelstab des Ältesten", Tier: 8, Enchantment: 2, CategoryPath: "weapons/naturestaff/naturestaff_avalon", Recipe: recipe_bd9e25b12e54},
+		{ID: "T8_MAIN_NATURESTAFF_AVALON@3", Name: "Eisenwurzelstab des Ältesten", Tier: 8, Enchantment: 3, CategoryPath: "weapons/naturestaff/naturestaff_avalon", Recipe: recipe_bd9e25b12e54},
+		{ID: "T8_MAIN_NATURESTAFF_AVALON@4", Name: "Eisenwurzelstab des Ältesten", Tier: 8, Enchantment: 4, CategoryPath: "weapons/naturestaff/naturestaff_avalon", Recipe: recipe_bd9e25b12e54},
+	}},
+	{Name: "Schmiedeborkenstab des Adepten", BaseID: "MAIN_NATURESTAFF_CRYSTAL", MinTier: 4, MaxTier: 8, MinEnchantment: 0, MaxEnchantment: 4, Variants: []ItemVariant{
+		{ID: "T4_MAIN_NATURESTAFF_CRYSTAL", Name: "Schmiedeborkenstab des Adepten", Tier: 4, Enchantment: 0, CategoryPath: "weapons/naturestaff/naturestaff_crystal", Recipe: recipe_f98e16a7e9fd},
+		{ID: "T4_MAIN_NATURESTAFF_CRYSTAL@1", Name: "Schmiedeborkenstab des Adepten", Tier: 4, Enchantment: 1, CategoryPath: "weapons/naturestaff/naturestaff_crystal", Recipe: recipe_f98e16a7e9fd},
+		{ID: "T4_MAIN_NATURESTAFF_CRYSTAL@2", Name: "Schmiedeborkenstab des Adepten", Tier: 4, Enchantment: 2, CategoryPath: "weapons/naturestaff/naturestaff_crystal", Recipe: recipe_f98e16a7e9fd},
+		{ID: "T4_MAIN_NATURESTAFF_CRYSTAL@3", Name: "Schmiedeborkenstab des Adepten", Tier: 4, Enchantment: 3, CategoryPath: "weapons/naturestaff/naturestaff_crystal", Recipe: recipe_f98e16a7e9fd},
+		{ID: "T4_MAIN_NATURESTAFF_CRYSTAL@4", Name: "Schmiedeborkenstab des Adepten", Tier: 4, Enchantment: 4, CategoryPath: "weapons/naturestaff/naturestaff_crystal", Recipe: recipe_f98e16a7e9fd},
+		{ID: "T5_MAIN_NATURESTAFF_CRYSTAL", Name: "Schmiedeborkenstab des Experten", Tier: 5, Enchantment: 0, CategoryPath: "weapons/naturestaff/naturestaff_crystal", Recipe: recipe_488901cd4d57},
+		{ID: "T5_MAIN_NATURESTAFF_CRYSTAL@1", Name: "Schmiedeborkenstab des Experten", Tier: 5, Enchantment: 1, CategoryPath: "weapons/naturestaff/naturestaff_crystal", Recipe: recipe_488901cd4d57},
+		{ID: "T5_MAIN_NATURESTAFF_CRYSTAL@2", Name: "Schmiedeborkenstab des Experten", Tier: 5, Enchantment: 2, CategoryPath: "weapons/naturestaff/naturestaff_crystal", Recipe: recipe_488901cd4d57},
+		{ID: "T5_MAIN_NATURESTAFF_CRYSTAL@3", Name: "Schmiedeborkenstab des Experten", Tier: 5, Enchantment: 3, CategoryPath: "weapons/naturestaff/naturestaff_crystal", Recipe: recipe_488901cd4d57},
+		{ID: "T5_MAIN_NATURESTAFF_CRYSTAL@4", Name: "Schmiedeborkenstab des Experten", Tier: 5, Enchantment: 4, CategoryPath: "weapons/naturestaff/naturestaff_crystal", Recipe: recipe_488901cd4d57},
+		{ID: "T6_MAIN_NATURESTAFF_CRYSTAL", Name: "Schmiedeborkenstab des Meisters", Tier: 6, Enchantment: 0, CategoryPath: "weapons/naturestaff/naturestaff_crystal", Recipe: recipe_cc7c22234f81},
+		{ID: "T6_MAIN_NATURESTAFF_CRYSTAL@1", Name: "Schmiedeborkenstab des Meisters", Tier: 6, Enchantment: 1, CategoryPath: "weapons/naturestaff/naturestaff_crystal", Recipe: recipe_cc7c22234f81},
+		{ID: "T6_MAIN_NATURESTAFF_CRYSTAL@2", Name: "Schmiedeborkenstab des Meisters", Tier: 6, Enchantment: 2, CategoryPath: "weapons/naturestaff/naturestaff_crystal", Recipe: recipe_cc7c22234f81},
+		{ID: "T6_MAIN_NATURESTAFF_CRYSTAL@3", Name: "Schmiedeborkenstab des Meisters", Tier: 6, Enchantment: 3, CategoryPath: "weapons/naturestaff/naturestaff_crystal", Recipe: recipe_cc7c22234f81},
+		{ID: "T6_MAIN_NATURESTAFF_CRYSTAL@4", Name: "Schmiedeborkenstab des Meisters", Tier: 6, Enchantment: 4, CategoryPath: "weapons/naturestaff/naturestaff_crystal", Recipe: recipe_cc7c22234f81},
+		{ID: "T7_MAIN_NATURESTAFF_CRYSTAL", Name: "Schmiedeborkenstab des Großmeisters", Tier: 7, Enchantment: 0, CategoryPath: "weapons/naturestaff/naturestaff_crystal", Recipe: recipe_862704233a76},
+		{ID: "T7_MAIN_NATURESTAFF_CRYSTAL@1", Name: "Schmiedeborkenstab des Großmeisters", Tier: 7, Enchantment: 1, CategoryPath: "weapons/naturestaff/naturestaff_crystal", Recipe: recipe_862704233a76},
+		{ID: "T7_MAIN_NATURESTAFF_CRYSTAL@2", Name: "Schmiedeborkenstab des Großmeisters", Tier: 7, Enchantment: 2, CategoryPath: "weapons/naturestaff/naturestaff_crystal", Recipe: recipe_862704233a76},
+		{ID: "T7_MAIN_NATURESTAFF_CRYSTAL@3", Name: "Schmiedeborkenstab des Großmeisters", Tier: 7, Enchantment: 3, CategoryPath: "weapons/naturestaff/naturestaff_crystal", Recipe: recipe_862704233a76},
+		{ID: "T7_MAIN_NATURESTAFF_CRYSTAL@4", Name: "Schmiedeborkenstab des Großmeisters", Tier: 7, Enchantment: 4, CategoryPath: "weapons/naturestaff/naturestaff_crystal", Recipe: recipe_862704233a76},
+		{ID: "T8_MAIN_NATURESTAFF_CRYSTAL", Name: "Schmiedeborkenstab des Ältesten", Tier: 8, Enchantment: 0, CategoryPath: "weapons/naturestaff/naturestaff_crystal", Recipe: recipe_a268be85ab83},
+		{ID: "T8_MAIN_NATURESTAFF_CRYSTAL@1", Name: "Schmiedeborkenstab des Ältesten", Tier: 8, Enchantment: 1, CategoryPath: "weapons/naturestaff/naturestaff_crystal", Recipe: recipe_a268be85ab83},
+		{ID: "T8_MAIN_NATURESTAFF_CRYSTAL@2", Name: "Schmiedeborkenstab des Ältesten", Tier: 8, Enchantment: 2, CategoryPath: "weapons/naturestaff/naturestaff_crystal", Recipe: recipe_a268be85ab83},
+		{ID: "T8_MAIN_NATURESTAFF_CRYSTAL@3", Name: "Schmiedeborkenstab des Ältesten", Tier: 8, Enchantment: 3, CategoryPath: "weapons/naturestaff/naturestaff_crystal", Recipe: recipe_a268be85ab83},
+		{ID: "T8_MAIN_NATURESTAFF_CRYSTAL@4", Name: "Schmiedeborkenstab des Ältesten", Tier: 8, Enchantment: 4, CategoryPath: "weapons/naturestaff/naturestaff_crystal", Recipe: recipe_a268be85ab83},
+	}},
+	{Name: "Druidenstab des Adepten", BaseID: "MAIN_NATURESTAFF_KEEPER", MinTier: 4, MaxTier: 8, MinEnchantment: 0, MaxEnchantment: 4, Variants: []ItemVariant{
+		{ID: "T4_MAIN_NATURESTAFF_KEEPER", Name: "Druidenstab des Adepten", Tier: 4, Enchantment: 0, CategoryPath: "weapons/naturestaff/naturestaff_main_keeper", Recipe: recipe_5ed22284b7a2},
+		{ID: "T4_MAIN_NATURESTAFF_KEEPER@1", Name: "Druidenstab des Adepten", Tier: 4, Enchantment: 1, CategoryPath: "weapons/naturestaff/naturestaff_main_keeper", Recipe: recipe_5ed22284b7a2},
+		{ID: "T4_MAIN_NATURESTAFF_KEEPER@2", Name: "Druidenstab des Adepten", Tier: 4, Enchantment: 2, CategoryPath: "weapons/naturestaff/naturestaff_main_keeper", Recipe: recipe_5ed22284b7a2},
+		{ID: "T4_MAIN_NATURESTAFF_KEEPER@3", Name: "Druidenstab des Adepten", Tier: 4, Enchantment: 3, CategoryPath: "weapons/naturestaff/naturestaff_main_keeper", Recipe: recipe_5ed22284b7a2},
+		{ID: "T4_MAIN_NATURESTAFF_KEEPER@4", Name: "Druidenstab des Adepten", Tier: 4, Enchantment: 4, CategoryPath: "weapons/naturestaff/naturestaff_main_keeper", Recipe: recipe_5ed22284b7a2},
+		{ID: "T5_MAIN_NATURESTAFF_KEEPER", Name: "Druidenstab des Experten", Tier: 5, Enchantment: 0, CategoryPath: "weapons/naturestaff/naturestaff_main_keeper", Recipe: recipe_f89b0523012e},
+		{ID: "T5_MAIN_NATURESTAFF_KEEPER@1", Name: "Druidenstab des Experten", Tier: 5, Enchantment: 1, CategoryPath: "weapons/naturestaff/naturestaff_main_keeper", Recipe: recipe_f89b0523012e},
+		{ID: "T5_MAIN_NATURESTAFF_KEEPER@2", Name: "Druidenstab des Experten", Tier: 5, Enchantment: 2, CategoryPath: "weapons/naturestaff/naturestaff_main_keeper", Recipe: recipe_f89b0523012e},
+		{ID: "T5_MAIN_NATURESTAFF_KEEPER@3", Name: "Druidenstab des Experten", Tier: 5, Enchantment: 3, CategoryPath: "weapons/naturestaff/naturestaff_main_keeper", Recipe: recipe_f89b0523012e},
+		{ID: "T5_MAIN_NATURESTAFF_KEEPER@4", Name: "Druidenstab des Experten", Tier: 5, Enchantment: 4, CategoryPath: "weapons/naturestaff/naturestaff_main_keeper", Recipe: recipe_f89b0523012e},
+		{ID: "T6_MAIN_NATURESTAFF_KEEPER", Name: "Druidenstab des Meisters", Tier: 6, Enchantment: 0, CategoryPath: "weapons/naturestaff/naturestaff_main_keeper", Recipe: recipe_5c8d9ea166be},
+		{ID: "T6_MAIN_NATURESTAFF_KEEPER@1", Name: "Druidenstab des Meisters", Tier: 6, Enchantment: 1, CategoryPath: "weapons/naturestaff/naturestaff_main_keeper", Recipe: recipe_5c8d9ea166be},
+		{ID: "T6_MAIN_NATURESTAFF_KEEPER@2", Name: "Druidenstab des Meisters", Tier: 6, Enchantment: 2, CategoryPath: "weapons/naturestaff/naturestaff_main_keeper", Recipe: recipe_5c8d9ea166be},
+		{ID: "T6_MAIN_NATURESTAFF_KEEPER@3", Name: "Druidenstab des Meisters", Tier: 6, Enchantment: 3, CategoryPath: "weapons/naturestaff/naturestaff_main_keeper", Recipe: recipe_5c8d9ea166be},
+		{ID: "T6_MAIN_NATURESTAFF_KEEPER@4", Name: "Druidenstab des Meisters", Tier: 6, Enchantment: 4, CategoryPath: "weapons/naturestaff/naturestaff_main_keeper", Recipe: recipe_5c8d9ea166be},
+		{ID: "T7_MAIN_NATURESTAFF_KEEPER", Name: "Druidenstab des Großmeisters", Tier: 7, Enchantment: 0, CategoryPath: "weapons/naturestaff/naturestaff_main_keeper", Recipe: recipe_7afb1e20fe7d},
+		{ID: "T7_MAIN_NATURESTAFF_KEEPER@1", Name: "Druidenstab des Großmeisters", Tier: 7, Enchantment: 1, CategoryPath: "weapons/naturestaff/naturestaff_main_keeper", Recipe: recipe_7afb1e20fe7d},
+		{ID: "T7_MAIN_NATURESTAFF_KEEPER@2", Name: "Druidenstab des Großmeisters", Tier: 7, Enchantment: 2, CategoryPath: "weapons/naturestaff/naturestaff_main_keeper", Recipe: recipe_7afb1e20fe7d},
+		{ID: "T7_MAIN_NATURESTAFF_KEEPER@3", Name: "Druidenstab des Großmeisters", Tier: 7, Enchantment: 3, CategoryPath: "weapons/naturestaff/naturestaff_main_keeper", Recipe: recipe_7afb1e20fe7d},
+		{ID: "T7_MAIN_NATURESTAFF_KEEPER@4", Name: "Druidenstab des Großmeisters", Tier: 7, Enchantment: 4, CategoryPath: "weapons/naturestaff/naturestaff_main_keeper", Recipe: recipe_7afb1e20fe7d},
+		{ID: "T8_MAIN_NATURESTAFF_KEEPER", Name: "Druidenstab des Ältesten", Tier: 8, Enchantment: 0, CategoryPath: "weapons/naturestaff/naturestaff_main_keeper", Recipe: recipe_dac216ab8e78},
+		{ID: "T8_MAIN_NATURESTAFF_KEEPER@1", Name: "Druidenstab des Ältesten", Tier: 8, Enchantment: 1, CategoryPath: "weapons/naturestaff/naturestaff_main_keeper", Recipe: recipe_dac216ab8e78},
+		{ID: "T8_MAIN_NATURESTAFF_KEEPER@2", Name: "Druidenstab des Ältesten", Tier: 8, Enchantment: 2, CategoryPath: "weapons/naturestaff/naturestaff_main_keeper", Recipe: recipe_dac216ab8e78},
+		{ID: "T8_MAIN_NATURESTAFF_KEEPER@3", Name: "Druidenstab des Ältesten", Tier: 8, Enchantment: 3, CategoryPath: "weapons/naturestaff/naturestaff_main_keeper", Recipe: recipe_dac216ab8e78},
+		{ID: "T8_MAIN_NATURESTAFF_KEEPER@4", Name: "Druidenstab des Ältesten", Tier: 8, Enchantment: 4, CategoryPath: "weapons/naturestaff/naturestaff_main_keeper", Recipe: recipe_dac216ab8e78},
+	}},
+	{Name: "Blutklinge des Adepten", BaseID: "MAIN_RAPIER_MORGANA", MinTier: 4, MaxTier: 8, MinEnchantment: 0, MaxEnchantment: 4, Variants: []ItemVariant{
+		{ID: "T4_MAIN_RAPIER_MORGANA", Name: "Blutklinge des Adepten", Tier: 4, Enchantment: 0, CategoryPath: "weapons/dagger/dagger_morgana", Recipe: recipe_c16b7a859b0f},
+		{ID: "T4_MAIN_RAPIER_MORGANA@1", Name: "Blutklinge des Adepten", Tier: 4, Enchantment: 1, CategoryPath: "weapons/dagger/dagger_morgana", Recipe: recipe_c16b7a859b0f},
+		{ID: "T4_MAIN_RAPIER_MORGANA@2", Name: "Blutklinge des Adepten", Tier: 4, Enchantment: 2, CategoryPath: "weapons/dagger/dagger_morgana", Recipe: recipe_c16b7a859b0f},
+		{ID: "T4_MAIN_RAPIER_MORGANA@3", Name: "Blutklinge des Adepten", Tier: 4, Enchantment: 3, CategoryPath: "weapons/dagger/dagger_morgana", Recipe: recipe_c16b7a859b0f},
+		{ID: "T4_MAIN_RAPIER_MORGANA@4", Name: "Blutklinge des Adepten", Tier: 4, Enchantment: 4, CategoryPath: "weapons/dagger/dagger_morgana", Recipe: recipe_c16b7a859b0f},
+		{ID: "T5_MAIN_RAPIER_MORGANA", Name: "Blutklinge des Experten", Tier: 5, Enchantment: 0, CategoryPath: "weapons/dagger/dagger_morgana", Recipe: recipe_81180b5884e6},
+		{ID: "T5_MAIN_RAPIER_MORGANA@1", Name: "Blutklinge des Experten", Tier: 5, Enchantment: 1, CategoryPath: "weapons/dagger/dagger_morgana", Recipe: recipe_81180b5884e6},
+		{ID: "T5_MAIN_RAPIER_MORGANA@2", Name: "Blutklinge des Experten", Tier: 5, Enchantment: 2, CategoryPath: "weapons/dagger/dagger_morgana", Recipe: recipe_81180b5884e6},
+		{ID: "T5_MAIN_RAPIER_MORGANA@3", Name: "Blutklinge des Experten", Tier: 5, Enchantment: 3, CategoryPath: "weapons/dagger/dagger_morgana", Recipe: recipe_81180b5884e6},
+		{ID: "T5_MAIN_RAPIER_MORGANA@4", Name: "Blutklinge des Experten", Tier: 5, Enchantment: 4, CategoryPath: "weapons/dagger/dagger_morgana", Recipe: recipe_81180b5884e6},
+		{ID: "T6_MAIN_RAPIER_MORGANA", Name: "Blutklinge des Meisters", Tier: 6, Enchantment: 0, CategoryPath: "weapons/dagger/dagger_morgana", Recipe: recipe_02d0e5cf92e1},
+		{ID: "T6_MAIN_RAPIER_MORGANA@1", Name: "Blutklinge des Meisters", Tier: 6, Enchantment: 1, CategoryPath: "weapons/dagger/dagger_morgana", Recipe: recipe_02d0e5cf92e1},
+		{ID: "T6_MAIN_RAPIER_MORGANA@2", Name: "Blutklinge des Meisters", Tier: 6, Enchantment: 2, CategoryPath: "weapons/dagger/dagger_morgana", Recipe: recipe_02d0e5cf92e1},
+		{ID: "T6_MAIN_RAPIER_MORGANA@3", Name: "Blutklinge des Meisters", Tier: 6, Enchantment: 3, CategoryPath: "weapons/dagger/dagger_morgana", Recipe: recipe_02d0e5cf92e1},
+		{ID: "T6_MAIN_RAPIER_MORGANA@4", Name: "Blutklinge des Meisters", Tier: 6, Enchantment: 4, CategoryPath: "weapons/dagger/dagger_morgana", Recipe: recipe_02d0e5cf92e1},
+		{ID: "T7_MAIN_RAPIER_MORGANA", Name: "Blutklinge des Großmeisters", Tier: 7, Enchantment: 0, CategoryPath: "weapons/dagger/dagger_morgana", Recipe: recipe_3ab8b75a9080},
+		{ID: "T7_MAIN_RAPIER_MORGANA@1", Name: "Blutklinge des Großmeisters", Tier: 7, Enchantment: 1, CategoryPath: "weapons/dagger/dagger_morgana", Recipe: recipe_3ab8b75a9080},
+		{ID: "T7_MAIN_RAPIER_MORGANA@2", Name: "Blutklinge des Großmeisters", Tier: 7, Enchantment: 2, CategoryPath: "weapons/dagger/dagger_morgana", Recipe: recipe_3ab8b75a9080},
+		{ID: "T7_MAIN_RAPIER_MORGANA@3", Name: "Blutklinge des Großmeisters", Tier: 7, Enchantment: 3, CategoryPath: "weapons/dagger/dagger_morgana", Recipe: recipe_3ab8b75a9080},
+		{ID: "T7_MAIN_RAPIER_MORGANA@4", Name: "Blutklinge des Großmeisters", Tier: 7, Enchantment: 4, CategoryPath: "weapons/dagger/dagger_morgana", Recipe: recipe_3ab8b75a9080},
+		{ID: "T8_MAIN_RAPIER_MORGANA", Name: "Blutklinge des Ältesten", Tier: 8, Enchantment: 0, CategoryPath: "weapons/dagger/dagger_morgana", Recipe: recipe_e05f4bec56a0},
+		{ID: "T8_MAIN_RAPIER_MORGANA@1", Name: "Blutklinge des Ältesten", Tier: 8, Enchantment: 1, CategoryPath: "weapons/dagger/dagger_morgana", Recipe: recipe_e05f4bec56a0},
+		{ID: "T8_MAIN_RAPIER_MORGANA@2", Name: "Blutklinge des Ältesten", Tier: 8, Enchantment: 2, CategoryPath: "weapons/dagger/dagger_morgana", Recipe: recipe_e05f4bec56a0},
+		{ID: "T8_MAIN_RAPIER_MORGANA@3", Name: "Blutklinge des Ältesten", Tier: 8, Enchantment: 3, CategoryPath: "weapons/dagger/dagger_morgana", Recipe: recipe_e05f4bec56a0},
+		{ID: "T8_MAIN_RAPIER_MORGANA@4", Name: "Blutklinge des Ältesten", Tier: 8, Enchantment: 4, CategoryPath: "weapons/dagger/dagger_morgana", Recipe: recipe_e05f4bec56a0},
+	}},
+	{Name: "Felsenkeule des Adepten", BaseID: "MAIN_ROCKMACE_KEEPER", MinTier: 4, MaxTier: 8, MinEnchantment: 0, MaxEnchantment: 4, Variants: []ItemVariant{
+		{ID: "T4_MAIN_ROCKMACE_KEEPER", Name: "Felsenkeule des Adepten", Tier: 4, Enchantment: 0, CategoryPath: "weapons/mace/mace_keeper", Recipe: recipe_868ec4384cd9},
+		{ID: "T4_MAIN_ROCKMACE_KEEPER@1", Name: "Felsenkeule des Adepten", Tier: 4, Enchantment: 1, CategoryPath: "weapons/mace/mace_keeper", Recipe: recipe_868ec4384cd9},
+		{ID: "T4_MAIN_ROCKMACE_KEEPER@2", Name: "Felsenkeule des Adepten", Tier: 4, Enchantment: 2, CategoryPath: "weapons/mace/mace_keeper", Recipe: recipe_868ec4384cd9},
+		{ID: "T4_MAIN_ROCKMACE_KEEPER@3", Name: "Felsenkeule des Adepten", Tier: 4, Enchantment: 3, CategoryPath: "weapons/mace/mace_keeper", Recipe: recipe_868ec4384cd9},
+		{ID: "T4_MAIN_ROCKMACE_KEEPER@4", Name: "Felsenkeule des Adepten", Tier: 4, Enchantment: 4, CategoryPath: "weapons/mace/mace_keeper", Recipe: recipe_868ec4384cd9},
+		{ID: "T5_MAIN_ROCKMACE_KEEPER", Name: "Felsenkeule des Experten", Tier: 5, Enchantment: 0, CategoryPath: "weapons/mace/mace_keeper", Recipe: recipe_9e385b5a2b6c},
+		{ID: "T5_MAIN_ROCKMACE_KEEPER@1", Name: "Felsenkeule des Experten", Tier: 5, Enchantment: 1, CategoryPath: "weapons/mace/mace_keeper", Recipe: recipe_9e385b5a2b6c},
+		{ID: "T5_MAIN_ROCKMACE_KEEPER@2", Name: "Felsenkeule des Experten", Tier: 5, Enchantment: 2, CategoryPath: "weapons/mace/mace_keeper", Recipe: recipe_9e385b5a2b6c},
+		{ID: "T5_MAIN_ROCKMACE_KEEPER@3", Name: "Felsenkeule des Experten", Tier: 5, Enchantment: 3, CategoryPath: "weapons/mace/mace_keeper", Recipe: recipe_9e385b5a2b6c},
+		{ID: "T5_MAIN_ROCKMACE_KEEPER@4", Name: "Felsenkeule des Experten", Tier: 5, Enchantment: 4, CategoryPath: "weapons/mace/mace_keeper", Recipe: recipe_9e385b5a2b6c},
+		{ID: "T6_MAIN_ROCKMACE_KEEPER", Name: "Felsenkeule des Meisters", Tier: 6, Enchantment: 0, CategoryPath: "weapons/mace/mace_keeper", Recipe: recipe_f91af23f9c3a},
+		{ID: "T6_MAIN_ROCKMACE_KEEPER@1", Name: "Felsenkeule des Meisters", Tier: 6, Enchantment: 1, CategoryPath: "weapons/mace/mace_keeper", Recipe: recipe_f91af23f9c3a},
+		{ID: "T6_MAIN_ROCKMACE_KEEPER@2", Name: "Felsenkeule des Meisters", Tier: 6, Enchantment: 2, CategoryPath: "weapons/mace/mace_keeper", Recipe: recipe_f91af23f9c3a},
+		{ID: "T6_MAIN_ROCKMACE_KEEPER@3", Name: "Felsenkeule des Meisters", Tier: 6, Enchantment: 3, CategoryPath: "weapons/mace/mace_keeper", Recipe: recipe_f91af23f9c3a},
+		{ID: "T6_MAIN_ROCKMACE_KEEPER@4", Name: "Felsenkeule des Meisters", Tier: 6, Enchantment: 4, CategoryPath: "weapons/mace/mace_keeper", Recipe: recipe_f91af23f9c3a},
+		{ID: "T7_MAIN_ROCKMACE_KEEPER", Name: "Felsenkeule des Großmeisters", Tier: 7, Enchantment: 0, CategoryPath: "weapons/mace/mace_keeper", Recipe: recipe_3776c96ba183},
+		{ID: "T7_MAIN_ROCKMACE_KEEPER@1", Name: "Felsenkeule des Großmeisters", Tier: 7, Enchantment: 1, CategoryPath: "weapons/mace/mace_keeper", Recipe: recipe_3776c96ba183},
+		{ID: "T7_MAIN_ROCKMACE_KEEPER@2", Name: "Felsenkeule des Großmeisters", Tier: 7, Enchantment: 2, CategoryPath: "weapons/mace/mace_keeper", Recipe: recipe_3776c96ba183},
+		{ID: "T7_MAIN_ROCKMACE_KEEPER@3", Name: "Felsenkeule des Großmeisters", Tier: 7, Enchantment: 3, CategoryPath: "weapons/mace/mace_keeper", Recipe: recipe_3776c96ba183},
+		{ID: "T7_MAIN_ROCKMACE_KEEPER@4", Name: "Felsenkeule des Großmeisters", Tier: 7, Enchantment: 4, CategoryPath: "weapons/mace/mace_keeper", Recipe: recipe_3776c96ba183},
+		{ID: "T8_MAIN_ROCKMACE_KEEPER", Name: "Felsenkeule des Ältesten", Tier: 8, Enchantment: 0, CategoryPath: "weapons/mace/mace_keeper", Recipe: recipe_6b82d841c4d7},
+		{ID: "T8_MAIN_ROCKMACE_KEEPER@1", Name: "Felsenkeule des Ältesten", Tier: 8, Enchantment: 1, CategoryPath: "weapons/mace/mace_keeper", Recipe: recipe_6b82d841c4d7},
+		{ID: "T8_MAIN_ROCKMACE_KEEPER@2", Name: "Felsenkeule des Ältesten", Tier: 8, Enchantment: 2, CategoryPath: "weapons/mace/mace_keeper", Recipe: recipe_6b82d841c4d7},
+		{ID: "T8_MAIN_ROCKMACE_KEEPER@3", Name: "Felsenkeule des Ältesten", Tier: 8, Enchantment: 3, CategoryPath: "weapons/mace/mace_keeper", Recipe: recipe_6b82d841c4d7},
+		{ID: "T8_MAIN_ROCKMACE_KEEPER@4", Name: "Felsenkeule des Ältesten", Tier: 8, Enchantment: 4, CategoryPath: "weapons/mace/mace_keeper", Recipe: recipe_6b82d841c4d7},
+	}},
+	{Name: "Clarent-Klinge des Adepten", BaseID: "MAIN_SCIMITAR_MORGANA", MinTier: 4, MaxTier: 8, MinEnchantment: 0, MaxEnchantment: 4, Variants: []ItemVariant{
+		{ID: "T4_MAIN_SCIMITAR_MORGANA", Name: "Clarent-Klinge des Adepten", Tier: 4, Enchantment: 0, CategoryPath: "weapons/sword/sword_morgana", Recipe: recipe_1c014c448e06},
+		{ID: "T4_MAIN_SCIMITAR_MORGANA@1", Name: "Clarent-Klinge des Adepten", Tier: 4, Enchantment: 1, CategoryPath: "weapons/sword/sword_morgana", Recipe: recipe_1c014c448e06},
+		{ID: "T4_MAIN_SCIMITAR_MORGANA@2", Name: "Clarent-Klinge des Adepten", Tier: 4, Enchantment: 2, CategoryPath: "weapons/sword/sword_morgana", Recipe: recipe_1c014c448e06},
+		{ID: "T4_MAIN_SCIMITAR_MORGANA@3", Name: "Clarent-Klinge des Adepten", Tier: 4, Enchantment: 3, CategoryPath: "weapons/sword/sword_morgana", Recipe: recipe_1c014c448e06},
+		{ID: "T4_MAIN_SCIMITAR_MORGANA@4", Name: "Clarent-Klinge des Adepten", Tier: 4, Enchantment: 4, CategoryPath: "weapons/sword/sword_morgana", Recipe: recipe_1c014c448e06},
+		{ID: "T5_MAIN_SCIMITAR_MORGANA", Name: "Clarent-Klinge des Experten", Tier: 5, Enchantment: 0, CategoryPath: "weapons/sword/sword_morgana", Recipe: recipe_c1fdb33c8fc6},
+		{ID: "T5_MAIN_SCIMITAR_MORGANA@1", Name: "Clarent-Klinge des Experten", Tier: 5, Enchantment: 1, CategoryPath: "weapons/sword/sword_morgana", Recipe: recipe_c1fdb33c8fc6},
+		{ID: "T5_MAIN_SCIMITAR_MORGANA@2", Name: "Clarent-Klinge des Experten", Tier: 5, Enchantment: 2, CategoryPath: "weapons/sword/sword_morgana", Recipe: recipe_c1fdb33c8fc6},
+		{ID: "T5_MAIN_SCIMITAR_MORGANA@3", Name: "Clarent-Klinge des Experten", Tier: 5, Enchantment: 3, CategoryPath: "weapons/sword/sword_morgana", Recipe: recipe_c1fdb33c8fc6},
+		{ID: "T5_MAIN_SCIMITAR_MORGANA@4", Name: "Clarent-Klinge des Experten", Tier: 5, Enchantment: 4, CategoryPath: "weapons/sword/sword_morgana", Recipe: recipe_c1fdb33c8fc6},
+		{ID: "T6_MAIN_SCIMITAR_MORGANA", Name: "Clarent-Klinge des Meisters", Tier: 6, Enchantment: 0, CategoryPath: "weapons/sword/sword_morgana", Recipe: recipe_fa6b9550bbb8},
+		{ID: "T6_MAIN_SCIMITAR_MORGANA@1", Name: "Clarent-Klinge des Meisters", Tier: 6, Enchantment: 1, CategoryPath: "weapons/sword/sword_morgana", Recipe: recipe_fa6b9550bbb8},
+		{ID: "T6_MAIN_SCIMITAR_MORGANA@2", Name: "Clarent-Klinge des Meisters", Tier: 6, Enchantment: 2, CategoryPath: "weapons/sword/sword_morgana", Recipe: recipe_fa6b9550bbb8},
+		{ID: "T6_MAIN_SCIMITAR_MORGANA@3", Name: "Clarent-Klinge des Meisters", Tier: 6, Enchantment: 3, CategoryPath: "weapons/sword/sword_morgana", Recipe: recipe_fa6b9550bbb8},
+		{ID: "T6_MAIN_SCIMITAR_MORGANA@4", Name: "Clarent-Klinge des Meisters", Tier: 6, Enchantment: 4, CategoryPath: "weapons/sword/sword_morgana", Recipe: recipe_fa6b9550bbb8},
+		{ID: "T7_MAIN_SCIMITAR_MORGANA", Name: "Clarent-Klinge des Großmeisters", Tier: 7, Enchantment: 0, CategoryPath: "weapons/sword/sword_morgana", Recipe: recipe_b4dd139232a8},
+		{ID: "T7_MAIN_SCIMITAR_MORGANA@1", Name: "Clarent-Klinge des Großmeisters", Tier: 7, Enchantment: 1, CategoryPath: "weapons/sword/sword_morgana", Recipe: recipe_b4dd139232a8},
+		{ID: "T7_MAIN_SCIMITAR_MORGANA@2", Name: "Clarent-Klinge des Großmeisters", Tier: 7, Enchantment: 2, CategoryPath: "weapons/sword/sword_morgana", Recipe: recipe_b4dd139232a8},
+		{ID: "T7_MAIN_SCIMITAR_MORGANA@3", Name: "Clarent-Klinge des Großmeisters", Tier: 7, Enchantment: 3, CategoryPath: "weapons/sword/sword_morgana", Recipe: recipe_b4dd139232a8},
+		{ID: "T7_MAIN_SCIMITAR_MORGANA@4", Name: "Clarent-Klinge des Großmeisters", Tier: 7, Enchantment: 4, CategoryPath: "weapons/sword/sword_morgana", Recipe: recipe_b4dd139232a8},
+		{ID: "T8_MAIN_SCIMITAR_MORGANA", Name: "Clarent-Klinge des Ältesten", Tier: 8, Enchantment: 0, CategoryPath: "weapons/sword/sword_morgana", Recipe: recipe_9e305665a825},
+		{ID: "T8_MAIN_SCIMITAR_MORGANA@1", Name: "Clarent-Klinge des Ältesten", Tier: 8, Enchantment: 1, CategoryPath: "weapons/sword/sword_morgana", Recipe: recipe_9e305665a825},
+		{ID: "T8_MAIN_SCIMITAR_MORGANA@2", Name: "Clarent-Klinge des Ältesten", Tier: 8, Enchantment: 2, CategoryPath: "weapons/sword/sword_morgana", Recipe: recipe_9e305665a825},
+		{ID: "T8_MAIN_SCIMITAR_MORGANA@3", Name: "Clarent-Klinge des Ältesten", Tier: 8, Enchantment: 3, CategoryPath: "weapons/sword/sword_morgana", Recipe: recipe_9e305665a825},
+		{ID: "T8_MAIN_SCIMITAR_MORGANA@4", Name: "Clarent-Klinge des Ältesten", Tier: 8, Enchantment: 4, CategoryPath: "weapons/sword/sword_morgana", Recipe: recipe_9e305665a825},
+	}},
+	{Name: "Speer des Gesellen", BaseID: "MAIN_SPEAR", MinTier: 3, MaxTier: 8, MinEnchantment: 0, MaxEnchantment: 4, Variants: []ItemVariant{
+		{ID: "T3_MAIN_SPEAR", Name: "Speer des Gesellen", Tier: 3, Enchantment: 0, CategoryPath: "weapons/spear/spear_main_spear", Recipe: recipe_8cac28d301b2},
+		{ID: "T4_MAIN_SPEAR", Name: "Speer des Adepten", Tier: 4, Enchantment: 0, CategoryPath: "weapons/spear/spear_main_spear", Recipe: recipe_aecdf2b0cacd},
+		{ID: "T4_MAIN_SPEAR@1", Name: "Speer des Adepten", Tier: 4, Enchantment: 1, CategoryPath: "weapons/spear/spear_main_spear", Recipe: recipe_aecdf2b0cacd},
+		{ID: "T4_MAIN_SPEAR@2", Name: "Speer des Adepten", Tier: 4, Enchantment: 2, CategoryPath: "weapons/spear/spear_main_spear", Recipe: recipe_aecdf2b0cacd},
+		{ID: "T4_MAIN_SPEAR@3", Name: "Speer des Adepten", Tier: 4, Enchantment: 3, CategoryPath: "weapons/spear/spear_main_spear", Recipe: recipe_aecdf2b0cacd},
+		{ID: "T4_MAIN_SPEAR@4", Name: "Speer des Adepten", Tier: 4, Enchantment: 4, CategoryPath: "weapons/spear/spear_main_spear", Recipe: recipe_aecdf2b0cacd},
+		{ID: "T5_MAIN_SPEAR", Name: "Speer des Experten", Tier: 5, Enchantment: 0, CategoryPath: "weapons/spear/spear_main_spear", Recipe: recipe_bb012aa4212f},
+		{ID: "T5_MAIN_SPEAR@1", Name: "Speer des Experten", Tier: 5, Enchantment: 1, CategoryPath: "weapons/spear/spear_main_spear", Recipe: recipe_bb012aa4212f},
+		{ID: "T5_MAIN_SPEAR@2", Name: "Speer des Experten", Tier: 5, Enchantment: 2, CategoryPath: "weapons/spear/spear_main_spear", Recipe: recipe_bb012aa4212f},
+		{ID: "T5_MAIN_SPEAR@3", Name: "Speer des Experten", Tier: 5, Enchantment: 3, CategoryPath: "weapons/spear/spear_main_spear", Recipe: recipe_bb012aa4212f},
+		{ID: "T5_MAIN_SPEAR@4", Name: "Speer des Experten", Tier: 5, Enchantment: 4, CategoryPath: "weapons/spear/spear_main_spear", Recipe: recipe_bb012aa4212f},
+		{ID: "T6_MAIN_SPEAR", Name: "Speer des Meisters", Tier: 6, Enchantment: 0, CategoryPath: "weapons/spear/spear_main_spear", Recipe: recipe_3089cd6093d2},
+		{ID: "T6_MAIN_SPEAR@1", Name: "Speer des Meisters", Tier: 6, Enchantment: 1, CategoryPath: "weapons/spear/spear_main_spear", Recipe: recipe_3089cd6093d2},
+		{ID: "T6_MAIN_SPEAR@2", Name: "Speer des Meisters", Tier: 6, Enchantment: 2, CategoryPath: "weapons/spear/spear_main_spear", Recipe: recipe_3089cd6093d2},
+		{ID: "T6_MAIN_SPEAR@3", Name: "Speer des Meisters", Tier: 6, Enchantment: 3, CategoryPath: "weapons/spear/spear_main_spear", Recipe: recipe_3089cd6093d2},
+		{ID: "T6_MAIN_SPEAR@4", Name: "Speer des Meisters", Tier: 6, Enchantment: 4, CategoryPath: "weapons/spear/spear_main_spear", Recipe: recipe_3089cd6093d2},
+		{ID: "T7_MAIN_SPEAR", Name: "Speer des Großmeisters", Tier: 7, Enchantment: 0, CategoryPath: "weapons/spear/spear_main_spear", Recipe: recipe_090a9e047830},
+		{ID: "T7_MAIN_SPEAR@1", Name: "Speer des Großmeisters", Tier: 7, Enchantment: 1, CategoryPath: "weapons/spear/spear_main_spear", Recipe: recipe_090a9e047830},
+		{ID: "T7_MAIN_SPEAR@2", Name: "Speer des Großmeisters", Tier: 7, Enchantment: 2, CategoryPath: "weapons/spear/spear_main_spear", Recipe: recipe_090a9e047830},
+		{ID: "T7_MAIN_SPEAR@3", Name: "Speer des Großmeisters", Tier: 7, Enchantment: 3, CategoryPath: "weapons/spear/spear_main_spear", Recipe: recipe_090a9e047830},
+		{ID: "T7_MAIN_SPEAR@4", Name: "Speer des Großmeisters", Tier: 7, Enchantment: 4, CategoryPath: "weapons/spear/spear_main_spear", Recipe: recipe_090a9e047830},
+		{ID: "T8_MAIN_SPEAR", Name: "Speer des Ältesten", Tier: 8, Enchantment: 0, CategoryPath: "weapons/spear/spear_main_spear", Recipe: recipe_c22ce092c5c1},
+		{ID: "T8_MAIN_SPEAR@1", Name: "Speer des Ältesten", Tier: 8, Enchantment: 1, CategoryPath: "weapons/spear/spear_main_spear", Recipe: recipe_c22ce092c5c1},
+		{ID: "T8_MAIN_SPEAR@2", Name: "Speer des Ältesten", Tier: 8, Enchantment: 2, CategoryPath: "weapons/spear/spear_main_spear", Recipe: recipe_c22ce092c5c1},
+		{ID: "T8_MAIN_SPEAR@3", Name: "Speer des Ältesten", Tier: 8, Enchantment: 3, CategoryPath: "weapons/spear/spear_main_spear", Recipe: recipe_c22ce092c5c1},
+		{ID: "T8_MAIN_SPEAR@4", Name: "Speer des Ältesten", Tier: 8, Enchantment: 4, CategoryPath: "weapons/spear/spear_main_spear", Recipe: recipe_c22ce092c5c1},
+	}},
+	{Name: "Reiherspeer des Adepten", BaseID: "MAIN_SPEAR_KEEPER", MinTier: 4, MaxTier: 8, MinEnchantment: 0, MaxEnchantment: 4, Variants: []ItemVariant{
+		{ID: "T4_MAIN_SPEAR_KEEPER", Name: "Reiherspeer des Adepten", Tier: 4, Enchantment: 0, CategoryPath: "weapons/spear/spear_keeper", Recipe: recipe_76ba04e419bd},
+		{ID: "T4_MAIN_SPEAR_KEEPER@1", Name: "Reiherspeer des Adepten", Tier: 4, Enchantment: 1, CategoryPath: "weapons/spear/spear_keeper", Recipe: recipe_76ba04e419bd},
+		{ID: "T4_MAIN_SPEAR_KEEPER@2", Name: "Reiherspeer des Adepten", Tier: 4, Enchantment: 2, CategoryPath: "weapons/spear/spear_keeper", Recipe: recipe_76ba04e419bd},
+		{ID: "T4_MAIN_SPEAR_KEEPER@3", Name: "Reiherspeer des Adepten", Tier: 4, Enchantment: 3, CategoryPath: "weapons/spear/spear_keeper", Recipe: recipe_76ba04e419bd},
+		{ID: "T4_MAIN_SPEAR_KEEPER@4", Name: "Reiherspeer des Adepten", Tier: 4, Enchantment: 4, CategoryPath: "weapons/spear/spear_keeper", Recipe: recipe_76ba04e419bd},
+		{ID: "T5_MAIN_SPEAR_KEEPER", Name: "Reiherspeer des Experten", Tier: 5, Enchantment: 0, CategoryPath: "weapons/spear/spear_keeper", Recipe: recipe_b480239575dc},
+		{ID: "T5_MAIN_SPEAR_KEEPER@1", Name: "Reiherspeer des Experten", Tier: 5, Enchantment: 1, CategoryPath: "weapons/spear/spear_keeper", Recipe: recipe_b480239575dc},
+		{ID: "T5_MAIN_SPEAR_KEEPER@2", Name: "Reiherspeer des Experten", Tier: 5, Enchantment: 2, CategoryPath: "weapons/spear/spear_keeper", Recipe: recipe_b480239575dc},
+		{ID: "T5_MAIN_SPEAR_KEEPER@3", Name: "Reiherspeer des Experten", Tier: 5, Enchantment: 3, CategoryPath: "weapons/spear/spear_keeper", Recipe: recipe_b480239575dc},
+		{ID: "T5_MAIN_SPEAR_KEEPER@4", Name: "Reiherspeer des Experten", Tier: 5, Enchantment: 4, CategoryPath: "weapons/spear/spear_keeper", Recipe: recipe_b480239575dc},
+		{ID: "T6_MAIN_SPEAR_KEEPER", Name: "Reiherspeer des Meisters", Tier: 6, Enchantment: 0, CategoryPath: "weapons/spear/spear_keeper", Recipe: recipe_afb92267e7e0},
+		{ID: "T6_MAIN_SPEAR_KEEPER@1", Name: "Reiherspeer des Meisters", Tier: 6, Enchantment: 1, CategoryPath: "weapons/spear/spear_keeper", Recipe: recipe_afb92267e7e0},
+		{ID: "T6_MAIN_SPEAR_KEEPER@2", Name: "Reiherspeer des Meisters", Tier: 6, Enchantment: 2, CategoryPath: "weapons/spear/spear_keeper", Recipe: recipe_afb92267e7e0},
+		{ID: "T6_MAIN_SPEAR_KEEPER@3", Name: "Reiherspeer des Meisters", Tier: 6, Enchantment: 3, CategoryPath: "weapons/spear/spear_keeper", Recipe: recipe_afb92267e7e0},
+		{ID: "T6_MAIN_SPEAR_KEEPER@4", Name: "Reiherspeer des Meisters", Tier: 6, Enchantment: 4, CategoryPath: "weapons/spear/spear_keeper", Recipe: recipe_afb92267e7e0},
+		{ID: "T7_MAIN_SPEAR_KEEPER", Name: "Reiherspeer des Großmeisters", Tier: 7, Enchantment: 0, CategoryPath: "weapons/spear/spear_keeper", Recipe: recipe_30a9d956721e},
+		{ID: "T7_MAIN_SPEAR_KEEPER@1", Name: "Reiherspeer des Großmeisters", Tier: 7, Enchantment: 1, CategoryPath: "weapons/spear/spear_keeper", Recipe: recipe_30a9d956721e},
+		{ID: "T7_MAIN_SPEAR_KEEPER@2", Name: "Reiherspeer des Großmeisters", Tier: 7, Enchantment: 2, CategoryPath: "weapons/spear/spear_keeper", Recipe: recipe_30a9d956721e},
+		{ID: "T7_MAIN_SPEAR_KEEPER@3", Name: "Reiherspeer des Großmeisters", Tier: 7, Enchantment: 3, CategoryPath: "weapons/spear/spear_keeper", Recipe: recipe_30a9d956721e},
+		{ID: "T7_MAIN_SPEAR_KEEPER@4", Name: "Reiherspeer des Großmeisters", Tier: 7, Enchantment: 4, CategoryPath: "weapons/spear/spear_keeper", Recipe: recipe_30a9d956721e},
+		{ID: "T8_MAIN_SPEAR_KEEPER", Name: "Reiherspeer des Ältesten", Tier: 8, Enchantment: 0, CategoryPath: "weapons/spear/spear_keeper", Recipe: recipe_54137cc5efdb},
+		{ID: "T8_MAIN_SPEAR_KEEPER@1", Name: "Reiherspeer des Ältesten", Tier: 8, Enchantment: 1, CategoryPath: "weapons/spear/spear_keeper", Recipe: recipe_54137cc5efdb},
+		{ID: "T8_MAIN_SPEAR_KEEPER@2", Name: "Reiherspeer des Ältesten", Tier: 8, Enchantment: 2, CategoryPath: "weapons/spear/spear_keeper", Recipe: recipe_54137cc5efdb},
+		{ID: "T8_MAIN_SPEAR_KEEPER@3", Name: "Reiherspeer des Ältesten", Tier: 8, Enchantment: 3, CategoryPath: "weapons/spear/spear_keeper", Recipe: recipe_54137cc5efdb},
+		{ID: "T8_MAIN_SPEAR_KEEPER@4", Name: "Reiherspeer des Ältesten", Tier: 8, Enchantment: 4, CategoryPath: "weapons/spear/spear_keeper", Recipe: recipe_54137cc5efdb},
+	}},
+	{Name: "Tagesbringer des Adepten", BaseID: "MAIN_SPEAR_LANCE_AVALON", MinTier: 4, MaxTier: 8, MinEnchantment: 0, MaxEnchantment: 4, Variants: []ItemVariant{
+		{ID: "T4_MAIN_SPEAR_LANCE_AVALON", Name: "Tagesbringer des Adepten", Tier: 4, Enchantment: 0, CategoryPath: "weapons/spear/spear_avalon", Recipe: recipe_4cf2d6dad5de},
+		{ID: "T4_MAIN_SPEAR_LANCE_AVALON@1", Name: "Tagesbringer des Adepten", Tier: 4, Enchantment: 1, CategoryPath: "weapons/spear/spear_avalon", Recipe: recipe_4cf2d6dad5de},
+		{ID: "T4_MAIN_SPEAR_LANCE_AVALON@2", Name: "Tagesbringer des Adepten", Tier: 4, Enchantment: 2, CategoryPath: "weapons/spear/spear_avalon", Recipe: recipe_4cf2d6dad5de},
+		{ID: "T4_MAIN_SPEAR_LANCE_AVALON@3", Name: "Tagesbringer des Adepten", Tier: 4, Enchantment: 3, CategoryPath: "weapons/spear/spear_avalon", Recipe: recipe_4cf2d6dad5de},
+		{ID: "T4_MAIN_SPEAR_LANCE_AVALON@4", Name: "Tagesbringer des Adepten", Tier: 4, Enchantment: 4, CategoryPath: "weapons/spear/spear_avalon", Recipe: recipe_4cf2d6dad5de},
+		{ID: "T5_MAIN_SPEAR_LANCE_AVALON", Name: "Tagesbringer des Experten", Tier: 5, Enchantment: 0, CategoryPath: "weapons/spear/spear_avalon", Recipe: recipe_77dcfb872ae1},
+		{ID: "T5_MAIN_SPEAR_LANCE_AVALON@1", Name: "Tagesbringer des Experten", Tier: 5, Enchantment: 1, CategoryPath: "weapons/spear/spear_avalon", Recipe: recipe_77dcfb872ae1},
+		{ID: "T5_MAIN_SPEAR_LANCE_AVALON@2", Name: "Tagesbringer des Experten", Tier: 5, Enchantment: 2, CategoryPath: "weapons/spear/spear_avalon", Recipe: recipe_77dcfb872ae1},
+		{ID: "T5_MAIN_SPEAR_LANCE_AVALON@3", Name: "Tagesbringer des Experten", Tier: 5, Enchantment: 3, CategoryPath: "weapons/spear/spear_avalon", Recipe: recipe_77dcfb872ae1},
+		{ID: "T5_MAIN_SPEAR_LANCE_AVALON@4", Name: "Tagesbringer des Experten", Tier: 5, Enchantment: 4, CategoryPath: "weapons/spear/spear_avalon", Recipe: recipe_77dcfb872ae1},
+		{ID: "T6_MAIN_SPEAR_LANCE_AVALON", Name: "Tagesbringer des Meisters", Tier: 6, Enchantment: 0, CategoryPath: "weapons/spear/spear_avalon", Recipe: recipe_80a7af483c52},
+		{ID: "T6_MAIN_SPEAR_LANCE_AVALON@1", Name: "Tagesbringer des Meisters", Tier: 6, Enchantment: 1, CategoryPath: "weapons/spear/spear_avalon", Recipe: recipe_80a7af483c52},
+		{ID: "T6_MAIN_SPEAR_LANCE_AVALON@2", Name: "Tagesbringer des Meisters", Tier: 6, Enchantment: 2, CategoryPath: "weapons/spear/spear_avalon", Recipe: recipe_80a7af483c52},
+		{ID: "T6_MAIN_SPEAR_LANCE_AVALON@3", Name: "Tagesbringer des Meisters", Tier: 6, Enchantment: 3, CategoryPath: "weapons/spear/spear_avalon", Recipe: recipe_80a7af483c52},
+		{ID: "T6_MAIN_SPEAR_LANCE_AVALON@4", Name: "Tagesbringer des Meisters", Tier: 6, Enchantment: 4, CategoryPath: "weapons/spear/spear_avalon", Recipe: recipe_80a7af483c52},
+		{ID: "T7_MAIN_SPEAR_LANCE_AVALON", Name: "Tagesbringer des Großmeisters", Tier: 7, Enchantment: 0, CategoryPath: "weapons/spear/spear_avalon", Recipe: recipe_44dc46726bab},
+		{ID: "T7_MAIN_SPEAR_LANCE_AVALON@1", Name: "Tagesbringer des Großmeisters", Tier: 7, Enchantment: 1, CategoryPath: "weapons/spear/spear_avalon", Recipe: recipe_44dc46726bab},
+		{ID: "T7_MAIN_SPEAR_LANCE_AVALON@2", Name: "Tagesbringer des Großmeisters", Tier: 7, Enchantment: 2, CategoryPath: "weapons/spear/spear_avalon", Recipe: recipe_44dc46726bab},
+		{ID: "T7_MAIN_SPEAR_LANCE_AVALON@3", Name: "Tagesbringer des Großmeisters", Tier: 7, Enchantment: 3, CategoryPath: "weapons/spear/spear_avalon", Recipe: recipe_44dc46726bab},
+		{ID: "T7_MAIN_SPEAR_LANCE_AVALON@4", Name: "Tagesbringer des Großmeisters", Tier: 7, Enchantment: 4, CategoryPath: "weapons/spear/spear_avalon", Recipe: recipe_44dc46726bab},
+		{ID: "T8_MAIN_SPEAR_LANCE_AVALON", Name: "Tagesbringer des Ältesten", Tier: 8, Enchantment: 0, CategoryPath: "weapons/spear/spear_avalon", Recipe: recipe_61c84b3ef6ee},
+		{ID: "T8_MAIN_SPEAR_LANCE_AVALON@1", Name: "Tagesbringer des Ältesten", Tier: 8, Enchantment: 1, CategoryPath: "weapons/spear/spear_avalon", Recipe: recipe_61c84b3ef6ee},
+		{ID: "T8_MAIN_SPEAR_LANCE_AVALON@2", Name: "Tagesbringer des Ältesten", Tier: 8, Enchantment: 2, CategoryPath: "weapons/spear/spear_avalon", Recipe: recipe_61c84b3ef6ee},
+		{ID: "T8_MAIN_SPEAR_LANCE_AVALON@3", Name: "Tagesbringer des Ältesten", Tier: 8, Enchantment: 3, CategoryPath: "weapons/spear/spear_avalon", Recipe: recipe_61c84b3ef6ee},
+		{ID: "T8_MAIN_SPEAR_LANCE_AVALON@4", Name: "Tagesbringer des Ältesten", Tier: 8, Enchantment: 4, CategoryPath: "weapons/spear/spear_avalon", Recipe: recipe_61c84b3ef6ee},
+	}},
+	{Name: "Breitschwert des Anfängers", BaseID: "MAIN_SWORD", MinTier: 1, MaxTier: 8, MinEnchantment: 0, MaxEnchantment: 4, Variants: []ItemVariant{
+		{ID: "T1_MAIN_SWORD", Name: "Breitschwert des Anfängers", Tier: 1, Enchantment: 0, CategoryPath: "weapons/sword/sword_sword", Recipe: recipe_59e5640ff251},
+		{ID: "T2_MAIN_SWORD", Name: "Breitschwert des Novizen", Tier: 2, Enchantment: 0, CategoryPath: "weapons/sword/sword_sword", Recipe: recipe_19dd5d885326},
+		{ID: "T3_MAIN_SWORD", Name: "Breitschwert des Gesellen", Tier: 3, Enchantment: 0, CategoryPath: "weapons/sword/sword_sword", Recipe: recipe_871f29ce211f},
+		{ID: "T4_MAIN_SWORD", Name: "Breitschwert des Adepten", Tier: 4, Enchantment: 0, CategoryPath: "weapons/sword/sword_sword", Recipe: recipe_3713d36b27ea},
+		{ID: "T4_MAIN_SWORD@1", Name: "Breitschwert des Adepten", Tier: 4, Enchantment: 1, CategoryPath: "weapons/sword/sword_sword", Recipe: recipe_3713d36b27ea},
+		{ID: "T4_MAIN_SWORD@2", Name: "Breitschwert des Adepten", Tier: 4, Enchantment: 2, CategoryPath: "weapons/sword/sword_sword", Recipe: recipe_3713d36b27ea},
+		{ID: "T4_MAIN_SWORD@3", Name: "Breitschwert des Adepten", Tier: 4, Enchantment: 3, CategoryPath: "weapons/sword/sword_sword", Recipe: recipe_3713d36b27ea},
+		{ID: "T4_MAIN_SWORD@4", Name: "Breitschwert des Adepten", Tier: 4, Enchantment: 4, CategoryPath: "weapons/sword/sword_sword", Recipe: recipe_3713d36b27ea},
+		{ID: "T5_MAIN_SWORD", Name: "Breitschwert des Experten", Tier: 5, Enchantment: 0, CategoryPath: "weapons/sword/sword_sword", Recipe: recipe_5ad44dda52a9},
+		{ID: "T5_MAIN_SWORD@1", Name: "Breitschwert des Experten", Tier: 5, Enchantment: 1, CategoryPath: "weapons/sword/sword_sword", Recipe: recipe_5ad44dda52a9},
+		{ID: "T5_MAIN_SWORD@2", Name: "Breitschwert des Experten", Tier: 5, Enchantment: 2, CategoryPath: "weapons/sword/sword_sword", Recipe: recipe_5ad44dda52a9},
+		{ID: "T5_MAIN_SWORD@3", Name: "Breitschwert des Experten", Tier: 5, Enchantment: 3, CategoryPath: "weapons/sword/sword_sword", Recipe: recipe_5ad44dda52a9},
+		{ID: "T5_MAIN_SWORD@4", Name: "Breitschwert des Experten", Tier: 5, Enchantment: 4, CategoryPath: "weapons/sword/sword_sword", Recipe: recipe_5ad44dda52a9},
+		{ID: "T6_MAIN_SWORD", Name: "Breitschwert des Meisters", Tier: 6, Enchantment: 0, CategoryPath: "weapons/sword/sword_sword", Recipe: recipe_5dfaa51bd20f},
+		{ID: "T6_MAIN_SWORD@1", Name: "Breitschwert des Meisters", Tier: 6, Enchantment: 1, CategoryPath: "weapons/sword/sword_sword", Recipe: recipe_5dfaa51bd20f},
+		{ID: "T6_MAIN_SWORD@2", Name: "Breitschwert des Meisters", Tier: 6, Enchantment: 2, CategoryPath: "weapons/sword/sword_sword", Recipe: recipe_5dfaa51bd20f},
+		{ID: "T6_MAIN_SWORD@3", Name: "Breitschwert des Meisters", Tier: 6, Enchantment: 3, CategoryPath: "weapons/sword/sword_sword", Recipe: recipe_5dfaa51bd20f},
+		{ID: "T6_MAIN_SWORD@4", Name: "Breitschwert des Meisters", Tier: 6, Enchantment: 4, CategoryPath: "weapons/sword/sword_sword", Recipe: recipe_5dfaa51bd20f},
+		{ID: "T7_MAIN_SWORD", Name: "Breitschwert des Großmeisters", Tier: 7, Enchantment: 0, CategoryPath: "weapons/sword/sword_sword", Recipe: recipe_b728e6dffa3a},
+		{ID: "T7_MAIN_SWORD@1", Name: "Breitschwert des Großmeisters", Tier: 7, Enchantment: 1, CategoryPath: "weapons/sword/sword_sword", Recipe: recipe_b728e6dffa3a},
+		{ID: "T7_MAIN_SWORD@2", Name: "Breitschwert des Großmeisters", Tier: 7, Enchantment: 2, CategoryPath: "weapons/sword/sword_sword", Recipe: recipe_b728e6dffa3a},
+		{ID: "T7_MAIN_SWORD@3", Name: "Breitschwert des Großmeisters", Tier: 7, Enchantment: 3, CategoryPath: "weapons/sword/sword_sword", Recipe: recipe_b728e6dffa3a},
+		{ID: "T7_MAIN_SWORD@4", Name: "Breitschwert des Großmeisters", Tier: 7, Enchantment: 4, CategoryPath: "weapons/sword/sword_sword", Recipe: recipe_b728e6dffa3a},
+		{ID: "T8_MAIN_SWORD", Name: "Breitschwert des Ältesten", Tier: 8, Enchantment: 0, CategoryPath: "weapons/sword/sword_sword", Recipe: recipe_364941955a40},
+		{ID: "T8_MAIN_SWORD@1", Name: "Breitschwert des Ältesten", Tier: 8, Enchantment: 1, CategoryPath: "weapons/sword/sword_sword", Recipe: recipe_364941955a40},
+		{ID: "T8_MAIN_SWORD@2", Name: "Breitschwert des Ältesten", Tier: 8, Enchantment: 2, CategoryPath: "weapons/sword/sword_sword", Recipe: recipe_364941955a40},
+		{ID: "T8_MAIN_SWORD@3", Name: "Breitschwert des Ältesten", Tier: 8, Enchantment: 3, CategoryPath: "weapons/sword/sword_sword", Recipe: recipe_364941955a40},
+		{ID: "T8_MAIN_SWORD@4", Name: "Breitschwert des Ältesten", Tier: 8, Enchantment: 4, CategoryPath: "weapons/sword/sword_sword", Recipe: recipe_364941955a40},
+	}},
+	{Name: "Unendlichkeitsklinge des Adepten", BaseID: "MAIN_SWORD_CRYSTAL", MinTier: 4, MaxTier: 8, MinEnchantment: 0, MaxEnchantment: 4, Variants: []ItemVariant{
+		{ID: "T4_MAIN_SWORD_CRYSTAL", Name: "Unendlichkeitsklinge des Adepten", Tier: 4, Enchantment: 0, CategoryPath: "weapons/sword/sword_crystal", Recipe: recipe_70507160e5dc},
+		{ID: "T4_MAIN_SWORD_CRYSTAL@1", Name: "Unendlichkeitsklinge des Adepten", Tier: 4, Enchantment: 1, CategoryPath: "weapons/sword/sword_crystal", Recipe: recipe_70507160e5dc},
+		{ID: "T4_MAIN_SWORD_CRYSTAL@2", Name: "Unendlichkeitsklinge des Adepten", Tier: 4, Enchantment: 2, CategoryPath: "weapons/sword/sword_crystal", Recipe: recipe_70507160e5dc},
+		{ID: "T4_MAIN_SWORD_CRYSTAL@3", Name: "Unendlichkeitsklinge des Adepten", Tier: 4, Enchantment: 3, CategoryPath: "weapons/sword/sword_crystal", Recipe: recipe_70507160e5dc},
+		{ID: "T4_MAIN_SWORD_CRYSTAL@4", Name: "Unendlichkeitsklinge des Adepten", Tier: 4, Enchantment: 4, CategoryPath: "weapons/sword/sword_crystal", Recipe: recipe_70507160e5dc},
+		{ID: "T5_MAIN_SWORD_CRYSTAL", Name: "Unendlichkeitsklinge des Experten", Tier: 5, Enchantment: 0, CategoryPath: "weapons/sword/sword_crystal", Recipe: recipe_b56b01ddeb44},
+		{ID: "T5_MAIN_SWORD_CRYSTAL@1", Name: "Unendlichkeitsklinge des Experten", Tier: 5, Enchantment: 1, CategoryPath: "weapons/sword/sword_crystal", Recipe: recipe_b56b01ddeb44},
+		{ID: "T5_MAIN_SWORD_CRYSTAL@2", Name: "Unendlichkeitsklinge des Experten", Tier: 5, Enchantment: 2, CategoryPath: "weapons/sword/sword_crystal", Recipe: recipe_b56b01ddeb44},
+		{ID: "T5_MAIN_SWORD_CRYSTAL@3", Name: "Unendlichkeitsklinge des Experten", Tier: 5, Enchantment: 3, CategoryPath: "weapons/sword/sword_crystal", Recipe: recipe_b56b01ddeb44},
+		{ID: "T5_MAIN_SWORD_CRYSTAL@4", Name: "Unendlichkeitsklinge des Experten", Tier: 5, Enchantment: 4, CategoryPath: "weapons/sword/sword_crystal", Recipe: recipe_b56b01ddeb44},
+		{ID: "T6_MAIN_SWORD_CRYSTAL", Name: "Unendlichkeitsklinge des Meisters", Tier: 6, Enchantment: 0, CategoryPath: "weapons/sword/sword_crystal", Recipe: recipe_2d1d71c1dcbb},
+		{ID: "T6_MAIN_SWORD_CRYSTAL@1", Name: "Unendlichkeitsklinge des Meisters", Tier: 6, Enchantment: 1, CategoryPath: "weapons/sword/sword_crystal", Recipe: recipe_2d1d71c1dcbb},
+		{ID: "T6_MAIN_SWORD_CRYSTAL@2", Name: "Unendlichkeitsklinge des Meisters", Tier: 6, Enchantment: 2, CategoryPath: "weapons/sword/sword_crystal", Recipe: recipe_2d1d71c1dcbb},
+		{ID: "T6_MAIN_SWORD_CRYSTAL@3", Name: "Unendlichkeitsklinge des Meisters", Tier: 6, Enchantment: 3, CategoryPath: "weapons/sword/sword_crystal", Recipe: recipe_2d1d71c1dcbb},
+		{ID: "T6_MAIN_SWORD_CRYSTAL@4", Name: "Unendlichkeitsklinge des Meisters", Tier: 6, Enchantment: 4, CategoryPath: "weapons/sword/sword_crystal", Recipe: recipe_2d1d71c1dcbb},
+		{ID: "T7_MAIN_SWORD_CRYSTAL", Name: "Unendlichkeitsklinge des Großmeisters", Tier: 7, Enchantment: 0, CategoryPath: "weapons/sword/sword_crystal", Recipe: recipe_f07a4ce70252},
+		{ID: "T7_MAIN_SWORD_CRYSTAL@1", Name: "Unendlichkeitsklinge des Großmeisters", Tier: 7, Enchantment: 1, CategoryPath: "weapons/sword/sword_crystal", Recipe: recipe_f07a4ce70252},
+		{ID: "T7_MAIN_SWORD_CRYSTAL@2", Name: "Unendlichkeitsklinge des Großmeisters", Tier: 7, Enchantment: 2, CategoryPath: "weapons/sword/sword_crystal", Recipe: recipe_f07a4ce70252},
+		{ID: "T7_MAIN_SWORD_CRYSTAL@3", Name: "Unendlichkeitsklinge des Großmeisters", Tier: 7, Enchantment: 3, CategoryPath: "weapons/sword/sword_crystal", Recipe: recipe_f07a4ce70252},
+		{ID: "T7_MAIN_SWORD_CRYSTAL@4", Name: "Unendlichkeitsklinge des Großmeisters", Tier: 7, Enchantment: 4, CategoryPath: "weapons/sword/sword_crystal", Recipe: recipe_f07a4ce70252},
+		{ID: "T8_MAIN_SWORD_CRYSTAL", Name: "Unendlichkeitsklinge des Ältesten", Tier: 8, Enchantment: 0, CategoryPath: "weapons/sword/sword_crystal", Recipe: recipe_3293e0da11a0},
+		{ID: "T8_MAIN_SWORD_CRYSTAL@1", Name: "Unendlichkeitsklinge des Ältesten", Tier: 8, Enchantment: 1, CategoryPath: "weapons/sword/sword_crystal", Recipe: recipe_3293e0da11a0},
+		{ID: "T8_MAIN_SWORD_CRYSTAL@2", Name: "Unendlichkeitsklinge des Ältesten", Tier: 8, Enchantment: 2, CategoryPath: "weapons/sword/sword_crystal", Recipe: recipe_3293e0da11a0},
+		{ID: "T8_MAIN_SWORD_CRYSTAL@3", Name: "Unendlichkeitsklinge des Ältesten", Tier: 8, Enchantment: 3, CategoryPath: "weapons/sword/sword_crystal", Recipe: recipe_3293e0da11a0},
+		{ID: "T8_MAIN_SWORD_CRYSTAL@4", Name: "Unendlichkeitsklinge des Ältesten", Tier: 8, Enchantment: 4, CategoryPath: "weapons/sword/sword_crystal", Recipe: recipe_3293e0da11a0},
+	}},
+}

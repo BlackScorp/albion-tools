@@ -1,7 +1,10 @@
-// Package catalog contains the bundled item definitions and shared market types.
+// Package catalog contains the Go item definitions and shared market types.
 package catalog
 
-import "fmt"
+import (
+	"fmt"
+	"sync"
+)
 
 type Market string
 
@@ -17,13 +20,124 @@ const (
 
 var Markets = []Market{Thetford, FortSterling, Lymhurst, Bridgewatch, Martlock, Caerleon, BlackMarket}
 
-// Item describes one concrete catalog entry. Enchantment is zero for a base item.
+// Category is one node in the parent-linked item category tree.
+type Category struct {
+	ID     string
+	Name   string
+	Parent *Category
+}
+
+// Path returns the category and all its parents, from root to leaf.
+func (c *Category) Path() string {
+	if c == nil {
+		return ""
+	}
+	if c.Parent == nil {
+		return c.Name
+	}
+	return c.Parent.Path() + " / " + c.Name
+}
+
+// IsWithin reports whether c is the requested category or one of its children.
+func (c *Category) IsWithin(parent *Category) bool {
+	for current := c; current != nil; current = current.Parent {
+		if current == parent {
+			return true
+		}
+	}
+	return false
+}
+
+// IncludesPath reports whether the category is at or below the given path.
+func (c *Category) IncludesPath(path string) bool {
+	for current := c; current != nil; current = current.Parent {
+		if current.Path() == path {
+			return true
+		}
+	}
+	return false
+}
+
+// Item describes one concrete tier/enchantment variant in the catalog.
 type Item struct {
 	ID          string
 	Name        string
-	Category    string
+	Category    *Category
 	Tier        int
 	Enchantment int
+	Recipe      *CraftingRecipe
+}
+
+// CraftingRecipe preserves the recipe metadata supplied by items.xml.
+type CraftingRecipe struct {
+	SourceItemID string
+	Attributes   map[string]string
+	Resources    []CraftingResource
+}
+
+// CraftingResource is one source item and its recipe-specific metadata.
+type CraftingResource struct {
+	ItemID     string
+	Attributes map[string]string
+}
+
+// ItemVariant describes one concrete, valid ID in a family.
+type ItemVariant struct {
+	ID           string
+	Name         string
+	Tier         int
+	Enchantment  int
+	CategoryPath string
+	Recipe       *CraftingRecipe
+}
+
+// ItemDefinition defines valid concrete variants for one family.
+type ItemDefinition struct {
+	Name           string
+	BaseID         string
+	MinTier        int
+	MaxTier        int
+	MinEnchantment int
+	MaxEnchantment int
+	Variants       []ItemVariant
+}
+
+// GetID returns the source-listed Albion ID for a supported variant.
+func (d ItemDefinition) GetID(tier, enchantment int) (string, error) {
+	for _, variant := range d.Variants {
+		if variant.Tier == tier && variant.Enchantment == enchantment {
+			return variant.ID, nil
+		}
+	}
+	return "", fmt.Errorf("tier %d enchantment %d is not defined for %s", tier, enchantment, d.Name)
+}
+
+func (d ItemDefinition) variants() []Item {
+	items := make([]Item, 0, len(d.Variants))
+	categories := catalogCategories()
+	for _, variant := range d.Variants {
+		items = append(items, Item{
+			ID: variant.ID, Name: variant.Name, Category: categories[variant.CategoryPath],
+			Tier: variant.Tier, Enchantment: variant.Enchantment, Recipe: variant.Recipe,
+		})
+	}
+	return items
+}
+
+type categorySpec struct{ Path, ID, Name, ParentPath string }
+
+var categoriesOnce sync.Once
+var categoriesByPath map[string]*Category
+
+func catalogCategories() map[string]*Category {
+	categoriesOnce.Do(func() {
+		categoriesByPath = make(map[string]*Category, len(categorySpecs))
+		for _, spec := range categorySpecs {
+			category := &Category{ID: spec.ID, Name: spec.Name, Parent: categoriesByPath[spec.ParentPath]}
+			categoriesByPath[spec.Path] = category
+		}
+	})
+	return categoriesByPath
 }
 
 // Quality is the market quality attached to a price observation.
@@ -39,17 +153,14 @@ type Price struct {
 	UpdatedAt int64
 }
 
-var items = []Item{
-	{ID: "T4_MAIN_SWORD", Name: "Broadsword", Category: "Weapons / Swords", Tier: 4},
-	{ID: "T4_CAPE", Name: "Cape", Category: "Accessories / Capes", Tier: 4},
-	{ID: "T4_WOOD", Name: "Wood", Category: "Resources / Logs", Tier: 4},
-	{ID: "T4_MOUNT_HORSE", Name: "Riding Horse", Category: "Mounts / Horses", Tier: 4},
-	{ID: "T4_MAIN_SWORD@1", Name: "Broadsword", Category: "Weapons / Swords", Tier: 4, Enchantment: 1},
-	{ID: "T5_MAIN_SWORD", Name: "Broadsword", Category: "Weapons / Swords", Tier: 5},
+// Items expands the bundled Go definitions into concrete API item IDs.
+func Items() []Item {
+	items := make([]Item, 0)
+	for _, definition := range definitions {
+		items = append(items, definition.variants()...)
+	}
+	return items
 }
-
-// Items returns a copy so callers cannot mutate the bundled catalog.
-func Items() []Item { return append([]Item(nil), items...) }
 
 // RingDistance returns the shortest leg count between Royal Cities. Any
 // connection involving Caerleon or the Black Market is represented as one leg;

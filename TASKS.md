@@ -15,6 +15,7 @@ Regel: Genau eine Aufgabe steht gleichzeitig auf **IN ARBEIT**. Der ausführende
 
 - [x] **T02 – Domänenmodell und Startkatalog**
   - Item-, Markt-, Qualitäts- und Preisstrukturen definieren.
+  - Item-Familien in einzelnen Go-Dateien mit Tier-/Enchant-Bereichen und ID-Erzeugung definieren; Kategorien als Parent-Child-Structs modellieren.
   - Kleinen repräsentativen Katalog mit Kategorien, Tiers und Enchantments einbetten.
   - Ringdistanz und Sondermärkte mit Tabellentests absichern.
   - Akzeptanz: Katalog wird beim Start geladen und ersetzt die fest codierten UI-Beispielzeilen.
@@ -46,7 +47,7 @@ Regel: Genau eine Aufgabe steht gleichzeitig auf **IN ARBEIT**. Der ausführende
   - Akzeptanz: Ergebnisse lassen sich aus bekannten Preisen exakt nachvollziehen; Null-/Verlustchancen fehlen.
 
 - [x] **T07 – Filter, Sortierung und UI-Zustände**
-  - Freitext, Kategoriebaum, Tier, Enchantment, Mindestgewinn und Mindest-ROI anbinden.
+  - Freitext, Kategoriebaum mit aufklappbaren Untermenüs, Tier, Enchantment, Mindestgewinn und Mindest-ROI anbinden.
   - Alle sichtbaren Spalten sortierbar machen; Lade-, Leer-, Fehler- und Offline-Zustand gestalten.
   - Bruttowerte und nicht berücksichtigte Gebühren klar kennzeichnen.
   - Akzeptanz: Jeder Filter und jede Sortierung funktioniert auf gespeicherten und frisch synchronisierten Daten.
@@ -54,6 +55,8 @@ Regel: Genau eine Aufgabe steht gleichzeitig auf **IN ARBEIT**. Der ausführende
 ## M5 – Reproduzierbare Übergabe
 
 - [ ] **T08 – Stabilisierung und MVP-Abnahme**
+  - Vollständigen lokalen Katalog aus allen Item-IDs, übersetzten Namen, Kategorien und verknüpften XML-Rezepten einbetten.
+  - Alle Items beim Start anzeigen, Filtern und Paginieren; pro Preis-Sync nur die aktuelle Seite mit höchstens 50 Items laden.
   - Über stille Make-Ziele Gesamttests, Race-Test soweit mit UI-Build praktikabel, `git diff --check` und Windows-amd64-Build ausführen.
   - Ressourcen im Leerlauf messen, bekannte Grenzen dokumentieren und kritische Fehler beheben.
   - Akzeptanz: kompletter Abnahmelauf ist grün und in `STATUS.md` protokolliert.
@@ -68,5 +71,5 @@ Regel: Genau eine Aufgabe steht gleichzeitig auf **IN ARBEIT**. Der ausführende
 - [ ] Crafting/Refining und Rücklaufboni
 - [ ] Lokaler HTTP-/NATS-Empfang vom Albion Data Client
 - [ ] Gebühren-, Steuer- und Transportprofile
-- [ ] Vollständiger Item-Katalog und automatische Metadatenpflege
+- [ ] Automatische Metadatenpflege
 - [ ] Signierte Installer, Auto-Update und weitere Plattformpakete

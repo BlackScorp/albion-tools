@@ -17,11 +17,14 @@ import (
 )
 
 type marketRow struct {
-	item, itemID string
-	opportunity  arbitrage.Opportunity
+	item, itemID   string
+	opportunity    arbitrage.Opportunity
+	hasOpportunity bool
 }
 
 var columns = []string{"Item", "Kaufstadt", "Verkaufsstadt", "Range", "Kaufpreis", "Verkaufspreis", "Bruttogewinn", "ROI (brutto)", "Datenalter"}
+
+const maxItemsPerPage = 50
 
 type syncFunc func(string, []string) ([]catalog.Price, error)
 
@@ -36,8 +39,8 @@ func NewWindowWithData(a fyne.App, cached []catalog.Price, syncPrices syncFunc) 
 	server.SetSelected("Europe")
 	search := widget.NewEntry()
 	search.SetPlaceHolder("Name, ID oder Kategorie filtern …")
-	category := widget.NewSelect(categoryOptions(), nil)
-	category.SetSelected("Alle Kategorien")
+	selectedCategory := "Alle Kategorien"
+	categoryButton := widget.NewButton(selectedCategory, nil)
 	tier := widget.NewSelect([]string{"Alle Tiers", "1", "2", "3", "4", "5", "6", "7", "8"}, nil)
 	tier.SetSelected("Alle Tiers")
 	enchantment := widget.NewSelect([]string{"Alle Verzauberungen", "0", "1", "2", "3", "4"}, nil)
@@ -48,18 +51,25 @@ func NewWindowWithData(a fyne.App, cached []catalog.Price, syncPrices syncFunc) 
 	minROI.SetPlaceHolder("Mindest-ROI %")
 	syncButton := widget.NewButton("Preise aktualisieren", nil)
 	status := widget.NewLabel("Offline · Gebühren und Transportkosten nicht berücksichtigt")
-	if len(cached) > 0 {
-		status.SetText("Gespeicherte Preise geladen · Gebühren und Transportkosten nicht berücksichtigt")
-	}
 
 	items := catalog.Items()
 	itemByID := make(map[string]catalog.Item, len(items))
 	for _, item := range items {
 		itemByID[item.ID] = item
 	}
-	allRows := opportunityRows(cached, itemByID, time.Now())
+	allPrices := append([]catalog.Price(nil), cached...)
+	allRows := catalogRows(items, bestPriceRows(allPrices, itemByID, time.Now()))
+	observationCount := len(allPrices)
+	if observationCount > 0 {
+		status.SetText(fmt.Sprintf("Offline · %d gespeicherte Marktbeobachtungen · %d Items im Katalog", observationCount, len(allRows)))
+	}
 	rows := append([]marketRow(nil), allRows...)
+	filteredRows := append([]marketRow(nil), allRows...)
+	currentPage, pageSize := 0, maxItemsPerPage
 	ascending, sortedColumn := true, -1
+	previousPage := widget.NewButton("‹ Zurück", nil)
+	nextPage := widget.NewButton("Weiter ›", nil)
+	pageLabel := widget.NewLabel("")
 	table := widget.NewTable(
 		func() (int, int) { return len(rows) + 1, len(columns) },
 		func() fyne.CanvasObject { return widget.NewLabel("#######") },
@@ -71,6 +81,11 @@ func NewWindowWithData(a fyne.App, cached []catalog.Price, syncPrices syncFunc) 
 				return
 			}
 			r := rows[id.Row-1]
+			if !r.hasOpportunity {
+				values := []string{r.item, "–", "–", "–", "–", "–", "–", "–", "–"}
+				label.SetText(values[id.Col])
+				return
+			}
 			op := r.opportunity
 			values := []string{r.item, string(op.BuyMarket), string(op.SellMarket), fmt.Sprint(op.Range), formatSilver(int(op.BuyPrice)), formatSilver(int(op.SellPrice)), formatSilver(int(op.Profit)), formatROI(int(op.Profit), int(op.BuyPrice)), formatAge(op.DataAge)}
 			label.SetText(values[id.Col])
@@ -79,6 +94,7 @@ func NewWindowWithData(a fyne.App, cached []catalog.Price, syncPrices syncFunc) 
 	for col, width := range []float32{220, 130, 140, 65, 110, 120, 125, 105, 100} {
 		table.SetColumnWidth(col, width)
 	}
+	var refreshPage func()
 	table.OnSelected = func(id widget.TableCellID) {
 		if id.Row != 0 {
 			return
@@ -88,27 +104,82 @@ func NewWindowWithData(a fyne.App, cached []catalog.Price, syncPrices syncFunc) 
 		} else {
 			sortedColumn, ascending = id.Col, true
 		}
-		sortRows(rows, id.Col, ascending)
+		sortRows(filteredRows, id.Col, ascending)
+		refreshPage()
 		table.Refresh()
 	}
+	refreshPage = func() {
+		pageCount := (len(filteredRows) + pageSize - 1) / pageSize
+		if pageCount == 0 {
+			currentPage = 0
+			rows = nil
+			pageLabel.SetText("Keine Items")
+			previousPage.Disable()
+			nextPage.Disable()
+			table.Refresh()
+			return
+		}
+		if currentPage >= pageCount {
+			currentPage = pageCount - 1
+		}
+		start := currentPage * pageSize
+		end := start + pageSize
+		if end > len(filteredRows) {
+			end = len(filteredRows)
+		}
+		rows = pageRows(filteredRows, currentPage, pageSize)
+		pageLabel.SetText(fmt.Sprintf("Seite %d/%d · Items %d–%d von %d · maximal %d je Sync", currentPage+1, pageCount, start+1, end, len(filteredRows), pageSize))
+		if currentPage == 0 {
+			previousPage.Disable()
+		} else {
+			previousPage.Enable()
+		}
+		if currentPage+1 == pageCount {
+			nextPage.Disable()
+		} else {
+			nextPage.Enable()
+		}
+		table.Refresh()
+	}
+	previousPage.OnTapped = func() {
+		if currentPage > 0 {
+			currentPage--
+			refreshPage()
+		}
+	}
+	nextPage.OnTapped = func() {
+		if (currentPage+1)*pageSize < len(filteredRows) {
+			currentPage++
+			refreshPage()
+		}
+	}
 	applyFilters := func() {
-		criteria, err := readCriteria(search.Text, category.Selected, tier.Selected, enchantment.Selected, minProfit.Text, minROI.Text)
+		criteria, err := readCriteria(search.Text, selectedCategory, tier.Selected, enchantment.Selected, minProfit.Text, minROI.Text)
 		if err != nil {
 			status.SetText("Filterfehler: " + err.Error())
 			return
 		}
-		rows = filterRows(allRows, itemByID, criteria)
-		if len(allRows) == 0 {
-			status.SetText("Keine gespeicherten Preise · Offline")
-		} else if len(rows) == 0 {
-			status.SetText("Keine passenden profitablen Handelschancen")
+		filteredRows = filterRows(allRows, itemByID, criteria)
+		currentPage = 0
+		refreshPage()
+		if observationCount == 0 {
+			status.SetText(fmt.Sprintf("Keine gespeicherten Marktbeobachtungen · Offline · %d Items passen", len(filteredRows)))
+		} else if len(filteredRows) == 0 {
+			status.SetText(fmt.Sprintf("%d gespeicherte Marktbeobachtungen · Keine Items passen", observationCount))
 		} else {
-			status.SetText(fmt.Sprintf("%d Handelschancen · Gebühren und Transportkosten nicht berücksichtigt", len(rows)))
+			status.SetText(fmt.Sprintf("%d gespeicherte Marktbeobachtungen · %d Items passen · Gebühren und Transportkosten nicht berücksichtigt", observationCount, len(filteredRows)))
 		}
 		table.Refresh()
 	}
+	categoryButton.OnTapped = func() {
+		menu := categoryMenu(func(category string) {
+			selectedCategory = category
+			categoryButton.SetText(category)
+			applyFilters()
+		})
+		widget.ShowPopUpMenuAtRelativePosition(menu, w.Canvas(), fyne.NewPos(0, categoryButton.Size().Height), categoryButton)
+	}
 	search.OnChanged = func(string) { applyFilters() }
-	category.OnChanged = func(string) { applyFilters() }
 	tier.OnChanged = func(string) { applyFilters() }
 	enchantment.OnChanged = func(string) { applyFilters() }
 	minProfit.OnChanged = func(string) { applyFilters() }
@@ -120,17 +191,22 @@ func NewWindowWithData(a fyne.App, cached []catalog.Price, syncPrices syncFunc) 
 			if !syncMu.TryLock() {
 				return
 			}
-			criteria, err := readCriteria(search.Text, category.Selected, tier.Selected, enchantment.Selected, minProfit.Text, minROI.Text)
+			_, err := readCriteria(search.Text, selectedCategory, tier.Selected, enchantment.Selected, minProfit.Text, minROI.Text)
 			if err != nil {
 				syncMu.Unlock()
 				status.SetText("Filterfehler: " + err.Error())
 				return
 			}
-			ids := make([]string, 0)
-			for _, item := range items {
-				if itemMatches(item, criteria) {
-					ids = append(ids, item.ID)
-				}
+			ids := pageItemIDs(rows)
+			if len(ids) == 0 {
+				syncMu.Unlock()
+				status.SetText("Keine Items auf dieser Seite zum Synchronisieren")
+				return
+			}
+			if len(ids) > pageSize {
+				syncMu.Unlock()
+				status.SetText("Synchronisierung auf 50 Items begrenzt")
+				return
 			}
 			selectedServer := server.Selected
 			syncButton.Disable()
@@ -144,17 +220,21 @@ func NewWindowWithData(a fyne.App, cached []catalog.Price, syncPrices syncFunc) 
 						status.SetText("Synchronisierung fehlgeschlagen: " + err.Error())
 						return
 					}
-					allRows = opportunityRows(prices, itemByID, time.Now())
+					allPrices = mergePrices(allPrices, prices)
+					observationCount = len(allPrices)
+					allRows = catalogRows(items, bestPriceRows(allPrices, itemByID, time.Now()))
 					applyFilters()
-					status.SetText(fmt.Sprintf("Synchronisierung %s abgeschlossen · %d Handelschancen · Gebühren und Transportkosten nicht berücksichtigt", time.Now().Format("15:04:05"), len(allRows)))
+					status.SetText(fmt.Sprintf("Synchronisierung %s abgeschlossen · %d Items dieser Seite aktualisiert · insgesamt %d gespeicherte Marktbeobachtungen · Gebühren und Transportkosten nicht berücksichtigt", time.Now().Format("15:04:05"), len(ids), observationCount))
 				})
 			}()
 		}
 	}
 
-	filters := container.NewHBox(widget.NewLabel("Kategorie"), category, tier, enchantment, minProfit, minROI)
+	filters := container.NewHBox(widget.NewLabel("Kategorie"), categoryButton, tier, enchantment, minProfit, minROI)
 	toolbar := container.NewBorder(nil, nil, widget.NewLabel("Server:"), syncButton, server)
-	w.SetContent(container.NewBorder(container.NewVBox(toolbar, search, filters, status), nil, nil, nil, table))
+	pagination := container.NewHBox(previousPage, pageLabel, nextPage)
+	refreshPage()
+	w.SetContent(container.NewBorder(container.NewVBox(toolbar, search, filters, status), pagination, nil, nil, table))
 	return w
 }
 
@@ -199,10 +279,10 @@ func readCriteria(query, category, tier, enchantment, profit, roi string) (crite
 }
 
 func itemMatches(item catalog.Item, c criteria) bool {
-	if c.query != "" && !containsFold(item.Name+" "+item.ID+" "+item.Category, c.query) {
+	if c.query != "" && !containsFold(item.Name+" "+item.ID+" "+item.Category.Path(), c.query) {
 		return false
 	}
-	if c.category != "" && c.category != "Alle Kategorien" && item.Category != c.category && !strings.HasPrefix(item.Category, c.category+" / ") {
+	if c.category != "" && c.category != "Alle Kategorien" && !item.Category.IncludesPath(c.category) {
 		return false
 	}
 	if c.tier > 0 && item.Tier != c.tier {
@@ -218,7 +298,13 @@ func filterRows(rows []marketRow, items map[string]catalog.Item, c criteria) []m
 	filtered := make([]marketRow, 0, len(rows))
 	for _, row := range rows {
 		item, ok := items[row.itemID]
-		if !ok || !itemMatches(item, c) || row.opportunity.Profit < c.minProfit || row.opportunity.ROI < c.minROI {
+		if !ok || !itemMatches(item, c) {
+			continue
+		}
+		if (c.minProfit > 0 || c.minROI > 0) && !row.hasOpportunity {
+			continue
+		}
+		if row.hasOpportunity && (row.opportunity.Profit < c.minProfit || row.opportunity.ROI < c.minROI) {
 			continue
 		}
 		filtered = append(filtered, row)
@@ -235,9 +321,143 @@ func opportunityRows(prices []catalog.Price, items map[string]catalog.Item, now 
 			continue
 		}
 		name := fmt.Sprintf("%s · T%d.%d · Q%d", item.Name, item.Tier, item.Enchantment, op.Quality)
-		rows = append(rows, marketRow{item: name, itemID: item.ID, opportunity: op})
+		rows = append(rows, marketRow{item: name, itemID: item.ID, opportunity: op, hasOpportunity: true})
 	}
 	return rows
+}
+
+func bestPriceRows(prices []catalog.Price, items map[string]catalog.Item, now time.Time) []marketRow {
+	best := make(map[string]marketRow)
+	type priceKey struct {
+		item    string
+		quality catalog.Quality
+	}
+	groups := make(map[priceKey][]catalog.Price)
+	for _, price := range prices {
+		key := priceKey{item: price.ItemID, quality: price.Quality}
+		groups[key] = append(groups[key], price)
+	}
+	for key, quotes := range groups {
+		for _, source := range quotes {
+			if source.Buy <= 0 {
+				continue
+			}
+			for _, destination := range quotes {
+				if source.Market == destination.Market || destination.Sell <= 0 {
+					continue
+				}
+				item, exists := items[key.item]
+				if !exists {
+					continue
+				}
+				distance, err := catalog.RingDistance(source.Market, destination.Market)
+				if err != nil {
+					continue
+				}
+				oldest := source.UpdatedAt
+				if oldest == 0 || destination.UpdatedAt == 0 {
+					oldest = 0
+				} else if destination.UpdatedAt < oldest {
+					oldest = destination.UpdatedAt
+				}
+				var age time.Duration
+				if oldest != 0 {
+					age = now.Sub(time.Unix(oldest, 0))
+					if age < 0 {
+						age = 0
+					}
+				}
+				profit := destination.Sell - source.Buy
+				row := marketRow{
+					item:   fmt.Sprintf("%s · T%d.%d · Q%d", item.Name, item.Tier, item.Enchantment, key.quality),
+					itemID: item.ID, hasOpportunity: true,
+					opportunity: arbitrage.Opportunity{
+						ItemID: item.ID, Quality: key.quality, BuyMarket: source.Market, SellMarket: destination.Market,
+						BuyPrice: source.Buy, SellPrice: destination.Sell, Profit: profit,
+						ROI: float64(profit) * 100 / float64(source.Buy), Range: distance, DataAge: age,
+					},
+				}
+				if previous, exists := best[item.ID]; exists && previous.opportunity.Profit >= profit {
+					continue
+				}
+				best[item.ID] = row
+			}
+		}
+	}
+	rows := make([]marketRow, 0, len(best))
+	for _, row := range best {
+		rows = append(rows, row)
+	}
+	return rows
+}
+
+func catalogRows(items []catalog.Item, opportunities []marketRow) []marketRow {
+	rows := make([]marketRow, 0, len(items))
+	byID := make(map[string]int, len(items))
+	baseNames := make(map[string]string, len(items))
+	for _, item := range items {
+		name := fmt.Sprintf("%s · T%d.%d", item.Name, item.Tier, item.Enchantment)
+		byID[item.ID] = len(rows)
+		baseNames[item.ID] = name
+		rows = append(rows, marketRow{item: name, itemID: item.ID})
+	}
+	for _, opportunity := range opportunities {
+		index, exists := byID[opportunity.itemID]
+		if !exists || (rows[index].hasOpportunity && rows[index].opportunity.Profit >= opportunity.opportunity.Profit) {
+			continue
+		}
+		rows[index].opportunity = opportunity.opportunity
+		rows[index].hasOpportunity = true
+		rows[index].item = fmt.Sprintf("%s · Q%d", baseNames[opportunity.itemID], opportunity.opportunity.Quality)
+	}
+	sort.SliceStable(rows, func(i, j int) bool {
+		if rows[i].item == rows[j].item {
+			return rows[i].itemID < rows[j].itemID
+		}
+		return rows[i].item < rows[j].item
+	})
+	return rows
+}
+
+func pageRows(rows []marketRow, page, pageSize int) []marketRow {
+	if page < 0 || pageSize <= 0 || page*pageSize >= len(rows) {
+		return nil
+	}
+	start := page * pageSize
+	end := start + pageSize
+	if end > len(rows) {
+		end = len(rows)
+	}
+	return append([]marketRow(nil), rows[start:end]...)
+}
+
+func pageItemIDs(rows []marketRow) []string {
+	if len(rows) > maxItemsPerPage {
+		rows = rows[:maxItemsPerPage]
+	}
+	ids := make([]string, len(rows))
+	for index, row := range rows {
+		ids[index] = row.itemID
+	}
+	return ids
+}
+
+func mergePrices(existing, updated []catalog.Price) []catalog.Price {
+	merged := make(map[string]catalog.Price, len(existing)+len(updated))
+	key := func(price catalog.Price) string {
+		return fmt.Sprintf("%s\x00%s\x00%d", price.ItemID, price.Market, price.Quality)
+	}
+	for _, price := range existing {
+		merged[key(price)] = price
+	}
+	for _, price := range updated {
+		merged[key(price)] = price
+	}
+	result := make([]catalog.Price, 0, len(merged))
+	for _, price := range merged {
+		result = append(result, price)
+	}
+	return result
 }
 
 func sortRows(rows []marketRow, col int, ascending bool) {
@@ -274,21 +494,50 @@ func sortRows(rows []marketRow, col int, ascending bool) {
 	})
 }
 
-func categoryOptions() []string {
-	options := []string{"Alle Kategorien"}
-	seen := map[string]bool{}
+type categoryNode struct {
+	children map[string]*categoryNode
+}
+
+func categoryMenu(selectCategory func(string)) *fyne.Menu {
+	root := &categoryNode{children: map[string]*categoryNode{}}
 	for _, item := range catalog.Items() {
-		parts := strings.Split(item.Category, " / ")
-		for i := range parts {
-			name := strings.Join(parts[:i+1], " / ")
-			if !seen[name] {
-				options = append(options, name)
-				seen[name] = true
+		parts := strings.Split(item.Category.Path(), " / ")
+		node := root
+		for _, part := range parts {
+			if node.children[part] == nil {
+				node.children[part] = &categoryNode{children: map[string]*categoryNode{}}
 			}
+			node = node.children[part]
 		}
 	}
-	sort.Strings(options[1:])
-	return options
+	menu := fyne.NewMenu("")
+	menu.Items = append(menu.Items, fyne.NewMenuItem("Alle Kategorien", func() { selectCategory("Alle Kategorien") }))
+	for _, name := range sortedCategoryNames(root.children) {
+		menu.Items = append(menu.Items, categoryMenuItem(name, name, root.children[name], selectCategory))
+	}
+	return menu
+}
+
+func categoryMenuItem(name, path string, node *categoryNode, selectCategory func(string)) *fyne.MenuItem {
+	if len(node.children) == 0 {
+		return fyne.NewMenuItem(name, func() { selectCategory(path) })
+	}
+	children := fyne.NewMenu("")
+	children.Items = append(children.Items, fyne.NewMenuItem(name+" (alle)", func() { selectCategory(path) }))
+	for _, child := range sortedCategoryNames(node.children) {
+		childPath := path + " / " + child
+		children.Items = append(children.Items, categoryMenuItem(child, childPath, node.children[child], selectCategory))
+	}
+	return &fyne.MenuItem{Label: name, ChildMenu: children}
+}
+
+func sortedCategoryNames(children map[string]*categoryNode) []string {
+	names := make([]string, 0, len(children))
+	for name := range children {
+		names = append(names, name)
+	}
+	sort.Strings(names)
+	return names
 }
 
 func formatSilver(value int) string { return fmt.Sprintf("%d", value) }

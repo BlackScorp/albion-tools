@@ -4,18 +4,20 @@ Stand: 2026-09-15
 
 ## Produktziel
 
-Eine leichtgewichtige Windows-Desktop-App zeigt für ausgewählte Albion-Online-Items profitable direkte Handelswege zwischen Märkten. Der Nutzer kann gespeicherte Ergebnisse sofort öffnen, die Preise gezielt aktualisieren, filtern und sortieren. Entwicklung, Tests und Builds laufen in Docker; das Ergebnis ist eine lokal startbare Windows-Anwendung. Linux und macOS bleiben spätere Plattformziele.
+Eine leichtgewichtige Windows-Desktop-App zeigt den vollständigen lokalen Albion-Online-Itemkatalog und profitable direkte Handelswege zwischen Märkten. Der Nutzer kann Items filtern, die aktuelle Tabellenseite laden und gespeicherte Ergebnisse sofort öffnen. Entwicklung, Tests und Builds laufen in Docker; das Ergebnis ist eine lokal startbare Windows-Anwendung. Linux und macOS bleiben spätere Plattformziele.
 
 ## Erfolgskriterium des MVP
 
-Ein Nutzer kann die App starten, einen Albion-Server wählen, Preise für den sichtbaren Item-Bestand synchronisieren und anschließend nachvollziehbare Kauf-/Verkaufschancen nach Gewinn und ROI filtern und sortieren. Nach einem Neustart sind die zuletzt geladenen Preise ohne Netzwerkzugriff sichtbar.
+Ein Nutzer kann die App starten, im vollständigen lokalen Itembestand filtern und jeweils Preise für höchstens 50 Items der aktuellen Tabellenseite synchronisieren. Kategorien, gültige Varianten und verfügbare XML-Rezeptdaten sind im lokalen Go-Katalog verknüpft. Nach einem Neustart sind die zuletzt geladenen Preise ohne Netzwerkzugriff sichtbar.
 
 ## Festgelegter MVP-Umfang
 
 - Desktop-UI in Go mit Fyne
 - Serverauswahl: Europe, Americas und Asia
 - Märkte: Thetford, Fort Sterling, Lymhurst, Bridgewatch, Martlock, Caerleon und Black Market
-- Ein versionierter, lokaler Item-Katalog mit einer kleinen, repräsentativen Startmenge; er kann später ohne Schemaänderung erweitert werden
+- Vollständiger lokaler Item-Katalog aus den bereitgestellten Item-IDs und vorhandenen deutschen Namen; bei fehlender Übersetzung wird Englisch, dann die ID verwendet. Go-Definitionen sind nach Kategorien gruppiert.
+- Parent-Child-Kategorien, gültige Variantenbereiche und verfügbare Crafting-Rezepte aus den bereitgestellten XML-Daten
+- Paginierte Tabelle; ein manueller Sync lädt nur die aktuelle Seite mit höchstens 50 Items
 - Aktuelle Buy- und Sell-Preise über `/api/v2/stats/prices/{item_ids}.json`
 - Gebündelte Requests unterhalb des API-URL-Limits, begrenzte Request-Rate, Timeout und verständliche Fehleranzeige
 - Speicherung der letzten Marktpreise und Sync-Zeitpunkte in SQLite
@@ -34,7 +36,7 @@ Ein Nutzer kann die App starten, einen Albion-Server wählen, Preise für den si
 - „Range“ ist die kürzeste Zahl von Etappen im Ring der fünf Royal Cities. Eine Verbindung von oder nach Caerleon/Black Market wird vorerst als eine gesonderte Etappe dargestellt. Diese Anzeige beeinflusst die Gewinnberechnung nicht.
 - Qualität wird aus den API-Daten übernommen, ist im ersten UI-Filter aber noch nicht separat auswählbar.
 - Die App empfängt im MVP keine Daten direkt vom Albion Online Data Client.
-- Crafting, Refining, Rücklaufboni, Historien, Routenoptimierung, Benachrichtigungen und automatische Hintergrund-Synchronisation sind nicht Teil des MVP.
+- Crafting-Kostenberechnung, Refining-Auswertung, Rücklaufboni, Historien, Routenoptimierung, Benachrichtigungen und automatische Hintergrund-Synchronisation sind nicht Teil des MVP.
 
 ## Technischer Schnitt
 
@@ -90,7 +92,7 @@ Jeder Meilenstein muss separat ausführbar bleiben. M1 wird zuerst geliefert, da
 - Keine Hintergrunddienste und keine Telemetrie.
 - Erfolgreiche Standard-Builds und -Tests erzeugen keine ausführlichen Logs im Terminal oder KI-Kontext.
 - Ein manueller Sync bleibt sicher unter den veröffentlichten API-Grenzen von 180 Requests/Minute und 300 Requests/5 Minuten.
-- Item-IDs werden so gebündelt, dass jede URL unter 4096 Zeichen bleibt.
+- Pro manuellem Sync werden höchstens 50 sichtbare Item-IDs angefragt; Item-IDs werden so gebündelt, dass jede URL unter 4096 Zeichen bleibt.
 - Ziel für normalen Leerlauf: keine dauerhafte CPU-Last; Speicherverbrauch wird vor MVP-Abnahme einmal gemessen und in `STATUS.md` dokumentiert, ohne vorab künstlich zu optimieren.
 
 ## Hauptrisiken und frühe Prüfungen
@@ -98,11 +100,11 @@ Jeder Meilenstein muss separat ausführbar bleiben. M1 wird zuerst geliefert, da
 | Risiko | Frühe Gegenmaßnahme |
 |---|---|
 | Fyne-Cross-Build oder Grafikbibliotheken funktionieren im Container nicht | Bereits in M1 über `make build-windows` einen echten Windows-amd64-Build erzeugen und lokal starten lassen |
-| Item-Metadaten sind unvollständig oder Namen passen nicht | Mit kleinem versioniertem Katalog beginnen und IDs gegen eine echte API-Antwort prüfen |
+| Item-Metadaten enthalten Lücken | Alle IDs/Namen bleiben erhalten; fehlende XML-Kategorien werden als „Uncategorized“ markiert und fehlende Rezepte nicht erfunden |
 | SQLite-Treiber erschwert Cross-Build | Treiberwahl in M2 mit Windows-Build prüfen; pure-Go bevorzugen |
 | API liefert alte oder partielle Preise | Zeitstempel speichern, Datenalter zeigen und bestehende Daten bei Fehler behalten |
 | Fachliche Begriffe Gewinn/Umsatz sind missverständlich | Spalten im MVP als „Bruttogewinn“ und „ROI (brutto)“ benennen |
 
 ## Entscheidungen nach dem MVP
 
-Erst nach bestandener M5-Abnahme werden Crafting/Refining, direkter Data-Client-Ingest, Gebührenprofile, größere Item-Kataloge, weitere Plattformpakete oder automatische Updates priorisiert. Dafür wird kein Code im Voraus angelegt.
+Erst nach bestandener M5-Abnahme werden Crafting-Kostenberechnung/Refining, direkter Data-Client-Ingest, Gebührenprofile, weitere Plattformpakete oder automatische Updates priorisiert. Dafür wird kein Code im Voraus angelegt.
