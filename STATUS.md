@@ -6,10 +6,10 @@ Stand: 2026-09-16
 
 | Feld | Wert |
 |---|---|
-| Phase | M2 – Daten bleiben lokal erhalten |
+| Phase | M3 – Reale Daten fließen |
 | Aktiver Task | keiner |
-| Nächster Task | T04 – Albion-Data-API-Client |
-| MVP-Fortschritt | 3/9 Tasks (33 %) |
+| Nächster Task | T05 – Sync-Ablauf in der App |
+| MVP-Fortschritt | 4/9 Tasks (44 %) |
 | Letzter grüner Build | 2026-09-16 – `make test`, `make verify` |
 | Blocker | keine |
 
@@ -22,7 +22,7 @@ Hinweis zum Ausgangsstand: `PROJEKT.md` war vor der Planung bereits uncommittet 
 | T01 Walking Skeleton | ERLEDIGT | `make test`, `make build-windows`, `make verify` erfolgreich; Windows-amd64-EXE erzeugt |
 | T02 Domänenmodell/Katalog | ERLEDIGT | `make test`, `make verify` und `git diff --check` erfolgreich |
 | T03 SQLite | ERLEDIGT | `make test` und `make verify` erfolgreich; Persistenz-, Upsert-, Reopen- und Transaktionstests grün |
-| T04 API-Client | OFFEN | – |
+| T04 API-Client | ERLEDIGT | `make test` und `make verify` erfolgreich; lokale HTTP-Tests für Gzip, Batching, Teilantwort, JSON-/HTTP-Fehler und Timeout grün |
 | T05 Sync-Ablauf | OFFEN | – |
 | T06 Arbitrage | OFFEN | – |
 | T07 Filter/UI-Zustände | OFFEN | – |
@@ -39,6 +39,7 @@ Erlaubte Statuswerte sind `OFFEN`, `IN ARBEIT`, `BLOCKIERT` und `ERLEDIGT`. Es d
 - Docker wird für Nutzer und Agents durch stille Make-Ziele gekapselt: bei Erfolg nur `Success`, bei Fehler der relevante Log.
 - Gewinn und ROI sind im MVP Bruttowerte ohne Gebühren und Transportkosten.
 - Start mit kleinem eingebettetem Katalog, damit früh ein nutzbares Ergebnis entsteht.
+- API-Zeitstempel ohne Zeitzonen-Suffix werden als UTC interpretiert; der Client speichert den neuesten Sell-/Buy-Zeitstempel.
 
 ## Offene Annahmen zur Nutzerabnahme
 
@@ -57,6 +58,7 @@ Diese Punkte blockieren T01 nicht und werden spätestens vor T07 bestätigt:
 | 2026-09-15 | T01 | Fyne-Walking-Skeleton erstellt; `make test`, Windows-amd64-Build und `make verify` erfolgreich. Fester Docker-Image-Tag wird wiederverwendet. | T02 umsetzen |
 | 2026-09-15 | T02 | Markt-/Preis-/Itemmodell, eingebetteter Startkatalog, UI-Katalogbindung und Ringdistanztests; `make test`, `make verify` und `git diff --check` erfolgreich. | T03 umsetzen |
 | 2026-09-16 | T03 | SQLite-Repository mit idempotenter Migration, per-OS-Datenbankpfad, atomarem Upsert und Lesen der letzten Preise; `make test` und `make verify` im Docker-Container erfolgreich. | T04 umsetzen |
+| 2026-09-16 | T04 | API-Client für Europe/Americas/Asia mit URL-sicherem Batching, Gzip, Timeout, Rate-Limit und verständlichem Fehlerkontext; lokale HTTP-Tests sowie `make verify` erfolgreich. | T05 umsetzen |
 
 
 ## Später-Parkplatz

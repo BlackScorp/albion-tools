@@ -26,7 +26,7 @@ Regel: Genau eine Aufgabe steht gleichzeitig auf **IN ARBEIT**. Der ausführende
 
 ## M3 – Reale Daten fließen
 
-- [ ] **T04 – Albion-Data-API-Client**
+- [x] **T04 – Albion-Data-API-Client**
   - Server-Hosts und Preisantworten abbilden.
   - Item-IDs URL-sicher bündeln, Timeout, Gzip, begrenzte Rate und Fehlerkontext implementieren.
   - Tests mit lokalem HTTP-Server für Erfolg, partielle Daten, ungültige Antwort und Timeout schreiben.
