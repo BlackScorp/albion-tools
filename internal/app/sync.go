@@ -23,7 +23,7 @@ type SyncService struct {
 	Store   PriceRepository
 }
 
-// Sync fetches the full request before atomically replacing any stored prices.
+// Sync stores all API observations and returns only observations from this request.
 func (s SyncService) Sync(ctx context.Context, server marketapi.Server, itemIDs []string) ([]catalog.Price, error) {
 	return s.SyncAt(ctx, server, itemIDs, nil)
 }
@@ -56,5 +56,5 @@ func (s SyncService) SyncAt(ctx context.Context, server marketapi.Server, itemID
 	if err := s.Store.UpsertPrices(ctx, prices); err != nil {
 		return nil, fmt.Errorf("save synchronized prices: %w", err)
 	}
-	return s.Store.Prices(ctx)
+	return prices, nil
 }

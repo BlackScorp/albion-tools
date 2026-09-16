@@ -152,7 +152,7 @@ func TestCatalogRowsShowEveryItemAndBestAvailableQuote(t *testing.T) {
 		{ID: "quoted", Name: "Breitschwert", Category: catalog.SwordsCategory, Tier: 4},
 		{ID: "unquoted", Name: "Cape", Category: catalog.CapesCategory, Tier: 4},
 	}
-	opportunity := marketRow{itemID: "quoted", hasOpportunity: true, opportunity: arbitrage.Opportunity{Quality: 2, Profit: 25}}
+	opportunity := marketRow{itemID: "quoted", hasPrices: true, hasBuyPrice: true, hasSellPrice: true, hasOpportunity: true, opportunity: arbitrage.Opportunity{Quality: 2, Profit: 25}}
 	rows := catalogRows(items, []marketRow{opportunity})
 	if len(rows) != 2 {
 		t.Fatalf("catalog row count = %d, want all two items", len(rows))
@@ -224,6 +224,34 @@ func TestBestPriceRowsShowsQuotesWithoutAProfitableSpread(t *testing.T) {
 	rows := bestPriceRows(prices, items, time.Unix(1020, 0))
 	if len(rows) != 1 || rows[0].opportunity.Profit != -20 || !rows[0].hasOpportunity {
 		t.Fatalf("best quote rows = %#v, want visible -20 silver spread", rows)
+	}
+}
+
+func TestBestPriceRowsShowsSingleCityQuotesWithoutInventingARoute(t *testing.T) {
+	items := map[string]catalog.Item{
+		"cape": {ID: "cape", Name: "Cape", Category: catalog.CapesCategory, Tier: 5},
+	}
+	prices := []catalog.Price{{ItemID: "cape", Market: catalog.Bridgewatch, Quality: 1, Buy: 90, Sell: 110, UpdatedAt: 1000}}
+	rows := bestPriceRows(prices, items, time.Unix(1020, 0))
+	if len(rows) != 1 || !rows[0].hasPrices || rows[0].hasOpportunity || !rows[0].hasBuyPrice || !rows[0].hasSellPrice {
+		t.Fatalf("single-city quote row = %#v", rows)
+	}
+	values := marketRowValues(rows[0])
+	if values[1] != "Bridgewatch" || values[2] != "Bridgewatch" || values[3] != "–" || values[4] != "90" || values[5] != "110" || values[6] != "–" {
+		t.Fatalf("single-city row values = %v", values)
+	}
+}
+
+func TestBestPriceRowsShowsASingleAvailableSide(t *testing.T) {
+	items := map[string]catalog.Item{"cape": {ID: "cape", Name: "Cape", Category: catalog.CapesCategory}}
+	prices := []catalog.Price{{ItemID: "cape", Market: catalog.Martlock, Buy: 75}}
+	rows := bestPriceRows(prices, items, time.Unix(1020, 0))
+	if len(rows) != 1 || !rows[0].hasBuyPrice || rows[0].hasSellPrice || rows[0].hasOpportunity {
+		t.Fatalf("one-sided price row = %#v", rows)
+	}
+	values := marketRowValues(rows[0])
+	if values[1] != "Martlock" || values[2] != "–" || values[4] != "75" || values[5] != "–" || values[6] != "–" {
+		t.Fatalf("one-sided row values = %v", values)
 	}
 }
 

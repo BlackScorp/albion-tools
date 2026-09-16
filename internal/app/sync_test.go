@@ -29,8 +29,24 @@ func (s *fakeStore) UpsertPrices(_ context.Context, prices []catalog.Price) erro
 	if s.err != nil {
 		return s.err
 	}
-	s.prices = append([]catalog.Price(nil), prices...)
+	s.prices = append(s.prices, prices...)
 	return nil
+}
+
+func TestSyncReturnsNewObservationsButKeepsOlderStoredPrices(t *testing.T) {
+	old := catalog.Price{ItemID: "T4_WOOD", Market: catalog.Thetford, Buy: 10}
+	newPrice := catalog.Price{ItemID: "T4_CAPE", Market: catalog.Bridgewatch, Buy: 20}
+	store := &fakeStore{prices: []catalog.Price{old}}
+	got, err := (SyncService{Fetcher: fakeFetcher{prices: []catalog.Price{newPrice}}, Store: store}).Sync(context.Background(), marketapi.Europe, []string{"T4_CAPE"})
+	if err != nil {
+		t.Fatal(err)
+	}
+	if len(got) != 1 || got[0] != newPrice {
+		t.Fatalf("Sync() returned %v, want only this sync's observation %v", got, newPrice)
+	}
+	if len(store.prices) != 2 || store.prices[0] != old || store.prices[1] != newPrice {
+		t.Fatalf("stored prices = %v, want old and new observations", store.prices)
+	}
 }
 func (s *fakeStore) Prices(context.Context) ([]catalog.Price, error) {
 	return append([]catalog.Price(nil), s.prices...), nil

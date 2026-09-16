@@ -19,6 +19,9 @@ import (
 type marketRow struct {
 	item, itemID   string
 	opportunity    arbitrage.Opportunity
+	hasPrices      bool
+	hasBuyPrice    bool
+	hasSellPrice   bool
 	hasOpportunity bool
 }
 
@@ -97,18 +100,7 @@ func NewWindowWithData(a fyne.App, cached []catalog.Price, syncPrices syncFunc) 
 				return
 			}
 			r := rows[id.Row-1]
-			if !r.hasOpportunity {
-				values := []string{r.item, "–", "–", "–", "–", "–", "–", "–", "–"}
-				label.SetText(values[id.Col])
-				return
-			}
-			op := r.opportunity
-			rangeLabel := fmt.Sprint(op.Range)
-			if op.Range < 0 {
-				rangeLabel = "–"
-			}
-			values := []string{r.item, string(op.BuyMarket), string(op.SellMarket), rangeLabel, formatSilver(int(op.BuyPrice)), formatSilver(int(op.SellPrice)), formatSilver(int(op.Profit)), formatROI(int(op.Profit), int(op.BuyPrice)), formatAge(op.DataAge)}
-			label.SetText(values[id.Col])
+			label.SetText(marketRowValues(r)[id.Col])
 		},
 	)
 	for col, width := range []float32{220, 130, 140, 65, 110, 120, 125, 105, 100} {
@@ -184,11 +176,11 @@ func NewWindowWithData(a fyne.App, cached []catalog.Price, syncPrices syncFunc) 
 		currentPage = 0
 		refreshPage()
 		if observationCount == 0 {
-			status.SetText(fmt.Sprintf("Keine gespeicherten Marktbeobachtungen · Offline · %d Items passen", len(filteredRows)))
+			status.SetText(fmt.Sprintf("Keine lokalen Marktbeobachtungen · Offline · %d Items passen", len(filteredRows)))
 		} else if len(filteredRows) == 0 {
-			status.SetText(fmt.Sprintf("%d gespeicherte Marktbeobachtungen · Keine Items passen", observationCount))
+			status.SetText(fmt.Sprintf("%d Marktbeobachtungen lokal gespeichert · Keine Items passen", observationCount))
 		} else {
-			status.SetText(fmt.Sprintf("%d gespeicherte Marktbeobachtungen · %d Items passen · Gebühren und Transportkosten nicht berücksichtigt", observationCount, len(filteredRows)))
+			status.SetText(fmt.Sprintf("%d Marktbeobachtungen lokal gespeichert · %d Items passen · Gebühren und Transportkosten nicht berücksichtigt", observationCount, len(filteredRows)))
 		}
 		table.Refresh()
 	}
@@ -252,7 +244,7 @@ func NewWindowWithData(a fyne.App, cached []catalog.Price, syncPrices syncFunc) 
 					observationCount = len(allPrices)
 					allRows = catalogRows(items, bestPriceRows(filterPricesByMarkets(allPrices, selectedMarkets), itemByID, time.Now()))
 					applyFilters()
-					status.SetText(fmt.Sprintf("Synchronisierung %s abgeschlossen · %d gefilterte Items aktualisiert · insgesamt %d gespeicherte Marktbeobachtungen · Gebühren und Transportkosten nicht berücksichtigt", time.Now().Format("15:04:05"), len(ids), observationCount))
+					status.SetText(fmt.Sprintf("Synchronisierung %s abgeschlossen · API: %d Beobachtungen für %d gefilterte Items · lokal insgesamt %d Beobachtungen · Gebühren und Transportkosten nicht berücksichtigt", time.Now().Format("15:04:05"), len(prices), len(ids), observationCount))
 				})
 			}()
 		}
@@ -436,13 +428,16 @@ func opportunityRows(prices []catalog.Price, items map[string]catalog.Item, now 
 			continue
 		}
 		name := itemTitle(item)
-		rows = append(rows, marketRow{item: name, itemID: item.ID, opportunity: op, hasOpportunity: true})
+		rows = append(rows, marketRow{item: name, itemID: item.ID, opportunity: op, hasPrices: true, hasBuyPrice: true, hasSellPrice: true, hasOpportunity: true})
 	}
 	return rows
 }
 
 func bestPriceRows(prices []catalog.Price, items map[string]catalog.Item, now time.Time) []marketRow {
 	best := make(map[string]marketRow)
+	fallback := make(map[string]marketRow)
+	fallbackCoverage := make(map[string]int)
+	fallbackTime := make(map[string]int64)
 	type priceKey struct {
 		item    string
 		quality catalog.Quality
@@ -452,17 +447,87 @@ func bestPriceRows(prices []catalog.Price, items map[string]catalog.Item, now ti
 		key := priceKey{item: price.ItemID, quality: price.Quality}
 		groups[key] = append(groups[key], price)
 	}
-	for key, quotes := range groups {
+	keys := make([]priceKey, 0, len(groups))
+	for key := range groups {
+		keys = append(keys, key)
+	}
+	sort.Slice(keys, func(i, j int) bool {
+		if keys[i].item != keys[j].item {
+			return keys[i].item < keys[j].item
+		}
+		return keys[i].quality < keys[j].quality
+	})
+	for _, key := range keys {
+		quotes := groups[key]
+		item, exists := items[key.item]
+		if !exists {
+			continue
+		}
+		var lowestAsk, highestBid *catalog.Price
+		for i := range quotes {
+			quote := &quotes[i]
+			if quote.Buy > 0 && (lowestAsk == nil || quote.Buy < lowestAsk.Buy) {
+				lowestAsk = quote
+			}
+			if quote.Sell > 0 && (highestBid == nil || quote.Sell > highestBid.Sell) {
+				highestBid = quote
+			}
+		}
+		coverage := 0
+		var fallbackRow marketRow
+		fallbackRow.item = itemTitle(item)
+		fallbackRow.itemID = item.ID
+		fallbackRow.hasPrices = lowestAsk != nil || highestBid != nil
+		if lowestAsk != nil {
+			coverage++
+			fallbackRow.hasBuyPrice = true
+			fallbackRow.opportunity.BuyMarket = lowestAsk.Market
+			fallbackRow.opportunity.BuyPrice = lowestAsk.Buy
+		}
+		if highestBid != nil {
+			coverage++
+			fallbackRow.hasSellPrice = true
+			fallbackRow.opportunity.SellMarket = highestBid.Market
+			fallbackRow.opportunity.SellPrice = highestBid.Sell
+		}
+		oldest := int64(0)
+		if lowestAsk != nil && highestBid != nil {
+			if lowestAsk.UpdatedAt != 0 && highestBid.UpdatedAt != 0 {
+				oldest = lowestAsk.UpdatedAt
+				if highestBid.UpdatedAt < oldest {
+					oldest = highestBid.UpdatedAt
+				}
+			}
+		} else if lowestAsk != nil {
+			oldest = lowestAsk.UpdatedAt
+		} else if highestBid != nil {
+			oldest = highestBid.UpdatedAt
+		}
+		if oldest != 0 {
+			fallbackRow.opportunity.DataAge = now.Sub(time.Unix(oldest, 0))
+			if fallbackRow.opportunity.DataAge < 0 {
+				fallbackRow.opportunity.DataAge = 0
+			}
+		}
+		latest := int64(0)
+		if lowestAsk != nil && lowestAsk.UpdatedAt > latest {
+			latest = lowestAsk.UpdatedAt
+		}
+		if highestBid != nil && highestBid.UpdatedAt > latest {
+			latest = highestBid.UpdatedAt
+		}
+		if _, ok := fallback[item.ID]; !ok || coverage > fallbackCoverage[item.ID] || (coverage == fallbackCoverage[item.ID] && latest > fallbackTime[item.ID]) {
+			fallback[item.ID] = fallbackRow
+			fallbackCoverage[item.ID] = coverage
+			fallbackTime[item.ID] = latest
+		}
+
 		for _, source := range quotes {
 			if source.Buy <= 0 {
 				continue
 			}
 			for _, destination := range quotes {
 				if source.Market == destination.Market || destination.Sell <= 0 {
-					continue
-				}
-				item, exists := items[key.item]
-				if !exists {
 					continue
 				}
 				distance, err := catalog.RingDistance(source.Market, destination.Market)
@@ -485,7 +550,7 @@ func bestPriceRows(prices []catalog.Price, items map[string]catalog.Item, now ti
 				profit := destination.Sell - source.Buy
 				row := marketRow{
 					item:   itemTitle(item),
-					itemID: item.ID, hasOpportunity: true,
+					itemID: item.ID, hasPrices: true, hasBuyPrice: true, hasSellPrice: true, hasOpportunity: true,
 					opportunity: arbitrage.Opportunity{
 						ItemID: item.ID, Quality: key.quality, BuyMarket: source.Market, SellMarket: destination.Market,
 						BuyPrice: source.Buy, SellPrice: destination.Sell, Profit: profit,
@@ -497,6 +562,11 @@ func bestPriceRows(prices []catalog.Price, items map[string]catalog.Item, now ti
 				}
 				best[item.ID] = row
 			}
+		}
+	}
+	for itemID, row := range fallback {
+		if _, hasCrossCityQuotes := best[itemID]; !hasCrossCityQuotes && row.hasPrices {
+			best[itemID] = row
 		}
 	}
 	rows := make([]marketRow, 0, len(best))
@@ -518,11 +588,21 @@ func catalogRows(items []catalog.Item, opportunities []marketRow) []marketRow {
 	}
 	for _, opportunity := range opportunities {
 		index, exists := byID[opportunity.itemID]
-		if !exists || (rows[index].hasOpportunity && rows[index].opportunity.Profit >= opportunity.opportunity.Profit) {
+		if !exists {
+			continue
+		}
+		previous := rows[index]
+		if previous.hasOpportunity && (!opportunity.hasOpportunity || previous.opportunity.Profit >= opportunity.opportunity.Profit) {
+			continue
+		}
+		if previous.hasPrices && !previous.hasOpportunity && !opportunity.hasOpportunity {
 			continue
 		}
 		rows[index].opportunity = opportunity.opportunity
-		rows[index].hasOpportunity = true
+		rows[index].hasPrices = opportunity.hasPrices
+		rows[index].hasBuyPrice = opportunity.hasBuyPrice
+		rows[index].hasSellPrice = opportunity.hasSellPrice
+		rows[index].hasOpportunity = opportunity.hasOpportunity
 		rows[index].item = baseNames[opportunity.itemID]
 	}
 	sort.SliceStable(rows, func(i, j int) bool {
@@ -591,14 +671,58 @@ func sortRows(rows []marketRow, col int, ascending bool) {
 		}
 	}
 	sort.SliceStable(rows, func(i, j int) bool {
-		if rows[i].hasOpportunity != rows[j].hasOpportunity {
-			return rows[i].hasOpportunity
+		leftHasValue, rightHasValue := rowHasColumnValue(rows[i], col), rowHasColumnValue(rows[j], col)
+		if leftHasValue != rightHasValue {
+			return leftHasValue
 		}
 		if ascending {
 			return lessValue(rows[i], rows[j])
 		}
 		return lessValue(rows[j], rows[i])
 	})
+}
+
+func rowHasColumnValue(row marketRow, col int) bool {
+	switch col {
+	case 0:
+		return true
+	case 1, 4:
+		return row.hasBuyPrice
+	case 2, 5:
+		return row.hasSellPrice
+	case 3, 6, 7, 8:
+		if col == 8 {
+			return row.hasPrices
+		}
+		return row.hasOpportunity
+	default:
+		return false
+	}
+}
+
+func marketRowValues(row marketRow) []string {
+	values := []string{row.item, "–", "–", "–", "–", "–", "–", "–", "–"}
+	if !row.hasPrices {
+		return values
+	}
+	quote := row.opportunity
+	if row.hasBuyPrice {
+		values[1] = string(quote.BuyMarket)
+		values[4] = formatSilver(int(quote.BuyPrice))
+	}
+	if row.hasSellPrice {
+		values[2] = string(quote.SellMarket)
+		values[5] = formatSilver(int(quote.SellPrice))
+	}
+	if row.hasOpportunity {
+		if quote.Range >= 0 {
+			values[3] = fmt.Sprint(quote.Range)
+		}
+		values[6] = formatSilver(int(quote.Profit))
+		values[7] = formatROI(int(quote.Profit), int(quote.BuyPrice))
+	}
+	values[8] = formatAge(quote.DataAge)
+	return values
 }
 
 func nextSortState(column, sortedColumn int, ascending bool) (int, bool) {
