@@ -24,7 +24,7 @@ Ein Nutzer kann die App starten, im vollständigen lokalen Itembestand filtern u
 - Gebündelte Requests unterhalb des API-URL-Limits, begrenzte Request-Rate, Timeout und verständliche Fehleranzeige
 - Speicherung der letzten Marktpreise und Sync-Zeitpunkte in SQLite
 - Berechnung direkter Handelschancen
-- Filter: Freitext, Kategorie, Tier 1–8, Enchantment 0–4, Mindestgewinn, Mindest-ROI
+- Filter: Freitext, Kategorie, Tier 1–8, Enchantment 0–4, Range 1–5, Mindestgewinn, Mindest-ROI
 - Sortierbare Ergebnistabelle
 - Kurze, stille Make-Ziele für Formatierung, Tests, Verifikation und Windows-amd64-Build; Docker bleibt hinter dem Makefile verborgen
 - Bei erfolgreichen Make-Läufen nur `Success`, bei Fehlern Ausgabe des relevanten Build-/Testlogs
@@ -35,7 +35,7 @@ Ein Nutzer kann die App starten, im vollständigen lokalen Itembestand filtern u
 - Gewinn ist im MVP der Brutto-Spread `Verkaufspreis - Kaufpreis`; ROI ist `Gewinn / Kaufpreis * 100`. Steuern, Marktgebühren, Transportkosten und Volumen werden sichtbar als nicht berücksichtigt bezeichnet.
 - Als Kaufpreis gilt die niedrigste aktuelle Sell Order am Startmarkt. Als Verkaufspreis gilt die höchste aktuelle Buy Order am Zielmarkt.
 - Chancen mit Preis `0`, identischem Markt oder nichtpositivem Spread werden nicht angezeigt. Eine Ausnahme ist Handel zwischen dem Caerleon-Spielermarkt und dem Black Market, da dies zwei Märkte am selben Ort sind.
-- „Range“ ist die kürzeste Zahl von Etappen im Ring der fünf Royal Cities. Eine Verbindung von oder nach Caerleon/Black Market wird vorerst als eine gesonderte Etappe dargestellt. Diese Anzeige beeinflusst die Gewinnberechnung nicht.
+- „Range“ ist die kürzeste Zahl von Etappen im Ring der fünf Royal Cities. Eine Verbindung von oder nach Caerleon/Black Market wird als eine gesonderte Etappe dargestellt; Brecilien wird mit Range 5 dargestellt. Diese Anzeige beeinflusst die Gewinnberechnung nicht.
 - Qualität wird aus den API-Daten übernommen, ist im ersten UI-Filter aber noch nicht separat auswählbar.
 - Die App empfängt im MVP keine Daten direkt vom Albion Online Data Client.
 - Crafting-Kostenberechnung, Refining-Auswertung, Rücklaufboni, Historien, Routenoptimierung, Benachrichtigungen und automatische Hintergrund-Synchronisation sind nicht Teil des MVP.

@@ -26,7 +26,7 @@ func TestNewWindowBuildsWalkingSkeleton(t *testing.T) {
 }
 
 func TestReadCriteriaAndFilterRows(t *testing.T) {
-	c, err := readCriteria("sword", "Weapons", "4", "0", "100", "25.5")
+	c, err := readCriteria("sword", "Weapons", "4", "0", "Alle Ranges", "100", "25.5")
 	if err != nil {
 		t.Fatal(err)
 	}
@@ -46,9 +46,12 @@ func TestReadCriteriaAndFilterRows(t *testing.T) {
 
 func TestReadCriteriaRejectsInvalidThresholds(t *testing.T) {
 	for _, args := range [][2]string{{"-1", ""}, {"abc", ""}, {"", "-0.1"}, {"", "NaN"}} {
-		if _, err := readCriteria("", "Alle Kategorien", "Alle Tiers", "Alle Verzauberungen", args[0], args[1]); err == nil {
+		if _, err := readCriteria("", "Alle Kategorien", "Alle Tiers", "Alle Verzauberungen", "Alle Ranges", args[0], args[1]); err == nil {
 			t.Errorf("readCriteria(%q, %q) succeeded", args[0], args[1])
 		}
+	}
+	if _, err := readCriteria("", "Alle Kategorien", "Alle Tiers", "Alle Verzauberungen", "6", "", ""); err == nil {
+		t.Fatal("readCriteria accepted unsupported range 6")
 	}
 }
 
@@ -76,6 +79,46 @@ func TestSortHeaderStateTogglesOnRepeatedClick(t *testing.T) {
 	column, ascending = nextSortState(7, column, ascending)
 	if column != 7 || ascending {
 		t.Fatalf("second ROI click state = %d/%v, want descending", column, ascending)
+	}
+}
+
+func TestSortingKeepsRowsWithoutPricesLastInBothDirections(t *testing.T) {
+	for _, ascending := range []bool{true, false} {
+		rows := []marketRow{
+			{itemID: "missing"},
+			{itemID: "priced", hasOpportunity: true, opportunity: arbitrage.Opportunity{Profit: 10, Range: 2}},
+		}
+		sortRows(rows, 6, ascending)
+		if rows[0].itemID != "priced" || rows[1].itemID != "missing" {
+			t.Errorf("ascending=%v sorted IDs = %s, %s; missing-price row should be last", ascending, rows[0].itemID, rows[1].itemID)
+		}
+	}
+}
+
+func TestRangeFilterSelectsMatchingPricedItemsAndProfitFilterDropsMissing(t *testing.T) {
+	items := map[string]catalog.Item{
+		"range-two":   {ID: "range-two", Name: "Item", Category: catalog.SwordsCategory},
+		"range-three": {ID: "range-three", Name: "Item", Category: catalog.SwordsCategory},
+		"missing":     {ID: "missing", Name: "Item", Category: catalog.SwordsCategory},
+	}
+	rows := []marketRow{
+		{itemID: "range-two", hasOpportunity: true, opportunity: arbitrage.Opportunity{Range: 2, Profit: 50}},
+		{itemID: "range-three", hasOpportunity: true, opportunity: arbitrage.Opportunity{Range: 3, Profit: 100}},
+		{itemID: "missing"},
+	}
+	byRange, err := readCriteria("", "Alle Kategorien", "Alle Tiers", "Alle Verzauberungen", "2", "", "")
+	if err != nil {
+		t.Fatal(err)
+	}
+	if got := filterRows(rows, items, byRange); len(got) != 1 || got[0].itemID != "range-two" {
+		t.Fatalf("range 2 filter = %#v", got)
+	}
+	byProfit, err := readCriteria("", "Alle Kategorien", "Alle Tiers", "Alle Verzauberungen", "Alle Ranges", "1", "")
+	if err != nil {
+		t.Fatal(err)
+	}
+	if got := filterRows(rows, items, byProfit); len(got) != 2 || got[0].itemID == "missing" || got[1].itemID == "missing" {
+		t.Fatalf("positive minimum profit filter retained missing-price rows: %#v", got)
 	}
 }
 
@@ -136,11 +179,11 @@ func TestSyncScopeUsesAllFilteredItemsAndRequiresAnItemFilter(t *testing.T) {
 	for index := range items {
 		items[index] = catalog.Item{ID: fmt.Sprintf("wood-%03d", index), Name: "Wood", Tier: 4}
 	}
-	all, err := readCriteria("", "Alle Kategorien", "Alle Tiers", "Alle Verzauberungen", "", "")
+	all, err := readCriteria("", "Alle Kategorien", "Alle Tiers", "Alle Verzauberungen", "Alle Ranges", "", "")
 	if err != nil || hasItemScope(all) {
 		t.Fatalf("unfiltered criteria scope = %v, error %v", hasItemScope(all), err)
 	}
-	wood, err := readCriteria("wood", "Alle Kategorien", "Alle Tiers", "Alle Verzauberungen", "", "")
+	wood, err := readCriteria("wood", "Alle Kategorien", "Alle Tiers", "Alle Verzauberungen", "Alle Ranges", "", "")
 	if err != nil || !hasItemScope(wood) {
 		t.Fatalf("search criteria scope = %v, error %v", hasItemScope(wood), err)
 	}

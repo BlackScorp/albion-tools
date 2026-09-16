@@ -45,6 +45,8 @@ func NewWindowWithData(a fyne.App, cached []catalog.Price, syncPrices syncFunc) 
 	tier.SetSelected("Alle Tiers")
 	enchantment := widget.NewSelect([]string{"Alle Verzauberungen", "0", "1", "2", "3", "4"}, nil)
 	enchantment.SetSelected("Alle Verzauberungen")
+	rangeFilter := widget.NewSelect([]string{"Alle Ranges", "1", "2", "3", "4", "5"}, nil)
+	rangeFilter.SetSelected("Alle Ranges")
 	minProfit := widget.NewEntry()
 	minProfit.SetPlaceHolder("Mindestgewinn")
 	minROI := widget.NewEntry()
@@ -117,6 +119,10 @@ func NewWindowWithData(a fyne.App, cached []catalog.Price, syncPrices syncFunc) 
 		if id.Row != 0 {
 			return
 		}
+		if id.Col == 3 {
+			table.UnselectAll()
+			return
+		}
 		sortedColumn, ascending = nextSortState(id.Col, sortedColumn, ascending)
 		sortRows(filteredRows, id.Col, ascending)
 		table.UnselectAll()
@@ -169,7 +175,7 @@ func NewWindowWithData(a fyne.App, cached []catalog.Price, syncPrices syncFunc) 
 		}
 	}
 	applyFilters := func() {
-		criteria, err := readCriteria(search.Text, selectedCategory, tier.Selected, enchantment.Selected, minProfit.Text, minROI.Text)
+		criteria, err := readCriteria(search.Text, selectedCategory, tier.Selected, enchantment.Selected, rangeFilter.Selected, minProfit.Text, minROI.Text)
 		if err != nil {
 			status.SetText("Filterfehler: " + err.Error())
 			return
@@ -197,6 +203,7 @@ func NewWindowWithData(a fyne.App, cached []catalog.Price, syncPrices syncFunc) 
 	search.OnChanged = func(string) { applyFilters() }
 	tier.OnChanged = func(string) { applyFilters() }
 	enchantment.OnChanged = func(string) { applyFilters() }
+	rangeFilter.OnChanged = func(string) { applyFilters() }
 	minProfit.OnChanged = func(string) { applyFilters() }
 	minROI.OnChanged = func(string) { applyFilters() }
 
@@ -206,7 +213,7 @@ func NewWindowWithData(a fyne.App, cached []catalog.Price, syncPrices syncFunc) 
 			if !syncMu.TryLock() {
 				return
 			}
-			criteria, err := readCriteria(search.Text, selectedCategory, tier.Selected, enchantment.Selected, minProfit.Text, minROI.Text)
+			criteria, err := readCriteria(search.Text, selectedCategory, tier.Selected, enchantment.Selected, rangeFilter.Selected, minProfit.Text, minROI.Text)
 			if err != nil {
 				syncMu.Unlock()
 				status.SetText("Filterfehler: " + err.Error())
@@ -259,7 +266,7 @@ func NewWindowWithData(a fyne.App, cached []catalog.Price, syncPrices syncFunc) 
 		}
 	}
 	toolbar := container.NewHBox(widget.NewLabel("Server:"), server)
-	filters := container.NewHBox(widget.NewLabel("Kategorie"), categoryButton, tier, enchantment)
+	filters := container.NewHBox(widget.NewLabel("Kategorie"), categoryButton, tier, enchantment, rangeFilter)
 	thresholds := container.NewGridWithColumns(2,
 		container.NewBorder(nil, nil, widget.NewLabel("Mindestgewinn:"), nil, minProfit),
 		container.NewBorder(nil, nil, widget.NewLabel("Mindest-ROI %:"), nil, minROI),
@@ -275,11 +282,12 @@ func NewWindowWithData(a fyne.App, cached []catalog.Price, syncPrices syncFunc) 
 type criteria struct {
 	query, category   string
 	tier, enchantment int
+	rangeValue        int
 	minProfit         int64
 	minROI            float64
 }
 
-func readCriteria(query, category, tier, enchantment, profit, roi string) (criteria, error) {
+func readCriteria(query, category, tier, enchantment, rangeFilter, profit, roi string) (criteria, error) {
 	c := criteria{query: strings.TrimSpace(query), category: category, enchantment: -1}
 	if tier != "" && tier != "Alle Tiers" {
 		parsed, err := strconv.Atoi(tier)
@@ -294,6 +302,13 @@ func readCriteria(query, category, tier, enchantment, profit, roi string) (crite
 			return c, fmt.Errorf("Verzauberung muss eine Zahl sein")
 		}
 		c.enchantment = parsed
+	}
+	if rangeFilter != "" && rangeFilter != "Alle Ranges" {
+		parsed, err := strconv.Atoi(rangeFilter)
+		if err != nil || parsed < 1 || parsed > 5 {
+			return c, fmt.Errorf("Range muss zwischen 1 und 5 liegen")
+		}
+		c.rangeValue = parsed
 	}
 	if strings.TrimSpace(profit) != "" {
 		parsed, err := strconv.ParseInt(strings.TrimSpace(profit), 10, 64)
@@ -396,6 +411,9 @@ func filterRows(rows []marketRow, items map[string]catalog.Item, c criteria) []m
 	for _, row := range rows {
 		item, ok := items[row.itemID]
 		if !ok || !itemMatches(item, c) {
+			continue
+		}
+		if c.rangeValue > 0 && (!row.hasOpportunity || row.opportunity.Range != c.rangeValue) {
 			continue
 		}
 		if (c.minProfit > 0 || c.minROI > 0) && !row.hasOpportunity {
@@ -573,6 +591,9 @@ func sortRows(rows []marketRow, col int, ascending bool) {
 		}
 	}
 	sort.SliceStable(rows, func(i, j int) bool {
+		if rows[i].hasOpportunity != rows[j].hasOpportunity {
+			return rows[i].hasOpportunity
+		}
 		if ascending {
 			return lessValue(rows[i], rows[j])
 		}

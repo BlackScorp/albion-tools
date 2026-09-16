@@ -47,8 +47,8 @@ Regel: Genau eine Aufgabe steht gleichzeitig auf **IN ARBEIT**. Der ausführende
   - Akzeptanz: Ergebnisse lassen sich aus bekannten Preisen exakt nachvollziehen; Null-/Verlustchancen fehlen.
 
 - [x] **T07 – Filter, Sortierung und UI-Zustände**
-  - Freitext, Kategoriebaum mit aufklappbaren Untermenüs, Tier, Enchantment, Mindestgewinn und Mindest-ROI anbinden.
-  - Alle sichtbaren Spalten sortierbar machen; Lade-, Leer-, Fehler- und Offline-Zustand gestalten.
+  - Freitext, Kategoriebaum mit aufklappbaren Untermenüs, Tier, Enchantment, Range, Mindestgewinn und Mindest-ROI anbinden.
+  - Alle sichtbaren Spalten außer der gefilterten Range sortierbar machen; Lade-, Leer-, Fehler- und Offline-Zustand gestalten.
   - Bruttowerte und nicht berücksichtigte Gebühren klar kennzeichnen.
   - Akzeptanz: Jeder Filter und jede Sortierung funktioniert auf gespeicherten und frisch synchronisierten Daten.
 
