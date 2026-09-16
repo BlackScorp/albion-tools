@@ -6,11 +6,11 @@ Stand: 2026-09-16
 
 | Feld | Wert |
 |---|---|
-| Phase | M4 – Der MVP löst die Nutzeraufgabe |
+| Phase | M5 – Reproduzierbare Übergabe |
 | Aktiver Task | keiner |
-| Nächster Task | T07 – Filter, Sortierung und UI-Zustände |
-| MVP-Fortschritt | 6/9 Tasks (67 %) |
-| Letzter grüner Build | 2026-09-16 – `make verify` nach T06 |
+| Nächster Task | T08 – Stabilisierung und MVP-Abnahme |
+| MVP-Fortschritt | 7/9 Tasks (78 %) |
+| Letzter grüner Build | 2026-09-16 – `make verify` nach T07 |
 | Blocker | keine |
 
 Hinweis zum Ausgangsstand: `PROJEKT.md` war vor der Planung bereits uncommittet und enthält durch CRLF-Zeilenenden `git diff --check`-Warnungen. Inhalt und Format dieser Nutzeränderung wurden nicht angefasst.
@@ -25,7 +25,7 @@ Hinweis zum Ausgangsstand: `PROJEKT.md` war vor der Planung bereits uncommittet 
 | T04 API-Client | ERLEDIGT | `make test` und `make verify` erfolgreich; lokale HTTP-Tests für Gzip, Batching, Teilantwort, JSON-/HTTP-Fehler und Timeout grün |
 | T05 Sync-Ablauf | ERLEDIGT | `make verify` erfolgreich; Synchronisierung mit aktuellem Item-Satz, Fehlerstatus, Sperre paralleler Läufe und Reload der atomar gespeicherten Preise |
 | T06 Arbitrage | ERLEDIGT | `make test`, `make verify` und `git diff --check` erfolgreich; profitable Richtungen, Bruttogewinn/ROI, Range und konservatives Datenalter getestet |
-| T07 Filter/UI-Zustände | OFFEN | – |
+| T07 Filter/UI-Zustände | ERLEDIGT | `make test`, `make verify` und `git diff --check` erfolgreich; Filter- und Sortierlogik getestet |
 | T08 Stabilisierung | OFFEN | – |
 | T09 Release | OFFEN | – |
 
@@ -62,6 +62,7 @@ Diese Punkte blockieren T01 nicht und werden spätestens vor T07 bestätigt:
 | 2026-09-16 | T05 Zwischenstand | Sync-Service und UI-Verbindung implementiert; die erste Docker-Prüfung fand einen Namenskonflikt zwischen UI-Button und Mutex. Docker wurde anschließend verfügbar gemacht und der Konflikt behoben. | Prüfung wiederholen |
 | 2026-09-16 | T05 Abschluss | `make verify` erfolgreich (gofmt, vet und gesamte Testsuite im Docker-Container); `git diff --check` erfolgreich. Sync-Ablauf integriert und getestet. | T06 umsetzen |
 | 2026-09-16 | T06 | Arbitrage-Berechnung je Item/Qualität mit Kauf zum niedrigsten Sell-Quote und Verkauf zum höchsten Buy-Quote; Bruttogewinn, ROI, Ring-/Sondermarkt-Range und Alter der älteren Quote; Grenzfälle getestet. `make test`, `make verify` und `git diff --check` erfolgreich. | T07 umsetzen |
+| 2026-09-16 | T07 | Arbitrage-Ergebnisse in der Tabelle; Freitext, Kategoriebaum, Tier, Verzauberung, Mindestgewinn und Mindest-ROI; Sortierung aller Spalten, Offline-/Leer-/Lade-/Fehlerstatus und Gebührenhinweis. `make test`, `make verify` und `git diff --check` erfolgreich. Ein zusätzlicher `make build-windows`-Versuch scheiterte an verweigertem Docker-Socket-Zugriff; der Windows-Build ist kein T07-Abnahmekriterium. | T08 umsetzen |
 
 
 ## Später-Parkplatz

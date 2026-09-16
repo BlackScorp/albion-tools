@@ -45,7 +45,7 @@ Regel: Genau eine Aufgabe steht gleichzeitig auf **IN ARBEIT**. Der ausführende
   - Grenzfälle mit fokussierten Unit-Tests abdecken.
   - Akzeptanz: Ergebnisse lassen sich aus bekannten Preisen exakt nachvollziehen; Null-/Verlustchancen fehlen.
 
-- [ ] **T07 – Filter, Sortierung und UI-Zustände**
+- [x] **T07 – Filter, Sortierung und UI-Zustände**
   - Freitext, Kategoriebaum, Tier, Enchantment, Mindestgewinn und Mindest-ROI anbinden.
   - Alle sichtbaren Spalten sortierbar machen; Lade-, Leer-, Fehler- und Offline-Zustand gestalten.
   - Bruttowerte und nicht berücksichtigte Gebühren klar kennzeichnen.
