@@ -39,7 +39,7 @@ Regel: Genau eine Aufgabe steht gleichzeitig auf **IN ARBEIT**. Der ausführende
 
 ## M4 – Der MVP löst die Nutzeraufgabe
 
-- [ ] **T06 – Arbitrage-Berechnung**
+- [x] **T06 – Arbitrage-Berechnung**
   - Für jedes Item/Qualität-Paar gültige Start-/Zielmarkt-Kombinationen berechnen.
   - Bruttogewinn, Brutto-ROI, Range und konservatives Datenalter bestimmen.
   - Grenzfälle mit fokussierten Unit-Tests abdecken.
