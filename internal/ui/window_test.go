@@ -8,6 +8,7 @@ import (
 
 	"fyne.io/fyne/v2"
 	"fyne.io/fyne/v2/test"
+	"fyne.io/fyne/v2/widget"
 	"github.com/blackscorp/albion-helper/internal/arbitrage"
 	"github.com/blackscorp/albion-helper/internal/catalog"
 )
@@ -240,6 +241,82 @@ func TestBestPriceRowsShowsSingleCityQuotesWithoutInventingARoute(t *testing.T) 
 	if values[1] != "Bridgewatch" || values[2] != "Bridgewatch" || values[3] != "–" || values[4] != "90" || values[5] != "110" || values[6] != "–" {
 		t.Fatalf("single-city row values = %v", values)
 	}
+}
+
+func TestAllRangesDisplaysRangeAndPriceColumns(t *testing.T) {
+	a := test.NewApp()
+	defer a.Quit()
+	prices := []catalog.Price{
+		{ItemID: "T5_CAPE", Market: catalog.Thetford, Quality: 1, Buy: 100, UpdatedAt: 1000},
+		{ItemID: "T5_CAPE", Market: catalog.Martlock, Quality: 1, Sell: 200, UpdatedAt: 1010},
+	}
+	w := NewWindowWithData(a, prices, nil)
+	defer w.Close()
+	search := findCanvasObject(w.Content(), func(object fyne.CanvasObject) bool {
+		entry, ok := object.(*widget.Entry)
+		return ok && entry.PlaceHolder == "Name, ID oder Kategorie filtern …"
+	}).(*widget.Entry)
+	rangeFilter := findCanvasObject(w.Content(), func(object fyne.CanvasObject) bool {
+		selectWidget, ok := object.(*widget.Select)
+		return ok && len(selectWidget.Options) > 0 && selectWidget.Options[0] == "Alle Ranges"
+	}).(*widget.Select)
+	table := findCanvasObject(w.Content(), func(object fyne.CanvasObject) bool {
+		_, ok := object.(*widget.Table)
+		return ok
+	}).(*widget.Table)
+	nextPage := findCanvasObject(w.Content(), func(object fyne.CanvasObject) bool {
+		button, ok := object.(*widget.Button)
+		return ok && button.Text == "Weiter ›"
+	}).(*widget.Button)
+	search.SetText("T5_CAPE")
+	assertTableCell := func(row, col int, want string) {
+		t.Helper()
+		cell := table.CreateCell()
+		table.UpdateCell(widget.TableCellID{Row: row, Col: col}, cell)
+		if got := cell.(*widget.Label).Text; got != want {
+			t.Errorf("table cell (%d,%d) = %q, want %q", row, col, got, want)
+		}
+	}
+	foundRow := 0
+	for page := 0; page < 10 && foundRow == 0; page++ {
+		rowCount, _ := table.Length()
+		for row := 1; row < rowCount; row++ {
+			cell := table.CreateCell()
+			table.UpdateCell(widget.TableCellID{Row: row, Col: 3}, cell)
+			if cell.(*widget.Label).Text == "1" {
+				foundRow = row
+				break
+			}
+		}
+		if foundRow == 0 {
+			nextPage.OnTapped()
+		}
+	}
+	if foundRow == 0 {
+		t.Fatal("unfiltered pages hid a cape row with a valid range")
+	}
+	assertTableCell(foundRow, 3, "1")
+	assertTableCell(foundRow, 4, "100")
+	assertTableCell(foundRow, 5, "200")
+	assertTableCell(foundRow, 6, "100")
+	rangeFilter.SetSelected("1")
+	assertTableCell(1, 3, "1")
+}
+
+func findCanvasObject(root fyne.CanvasObject, matches func(fyne.CanvasObject) bool) fyne.CanvasObject {
+	if matches(root) {
+		return root
+	}
+	container, ok := root.(*fyne.Container)
+	if !ok {
+		return nil
+	}
+	for _, child := range container.Objects {
+		if found := findCanvasObject(child, matches); found != nil {
+			return found
+		}
+	}
+	return nil
 }
 
 func TestBestPriceRowsShowsASingleAvailableSide(t *testing.T) {
