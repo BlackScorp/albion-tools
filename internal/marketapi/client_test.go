@@ -66,6 +66,24 @@ func TestFetchPricesBatchesBelowConfiguredURLLimit(t *testing.T) {
 	}
 }
 
+func TestFetchPricesAtAddsSelectedLocations(t *testing.T) {
+	server := httptest.NewServer(http.HandlerFunc(func(w http.ResponseWriter, request *http.Request) {
+		if got := request.URL.Query().Get("locations"); got != "Caerleon,Blackmarket,Brecilien" {
+			t.Fatalf("locations query = %q", got)
+		}
+		_, _ = io.WriteString(w, `[]`)
+	}))
+	defer server.Close()
+	client, err := NewClientWithConfig(Config{BaseURL: server.URL, RequestInterval: time.Nanosecond})
+	if err != nil {
+		t.Fatal(err)
+	}
+	markets := []catalog.Market{catalog.Caerleon, catalog.BlackMarket, catalog.Brecilien}
+	if _, err := client.FetchPricesAt(context.Background(), []string{"T4_WOOD"}, markets); err != nil {
+		t.Fatalf("FetchPricesAt() error = %v", err)
+	}
+}
+
 func TestFetchPricesAllowsPartialAPIResponse(t *testing.T) {
 	server := httptest.NewServer(http.HandlerFunc(func(w http.ResponseWriter, request *http.Request) {
 		_, _ = io.WriteString(w, `[{"item_id":"T4_WOOD","city":"Martlock","quality":1,"sell_price_min":10,"buy_price_max":20}]`)

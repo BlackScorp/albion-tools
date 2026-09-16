@@ -56,7 +56,8 @@ Regel: Genau eine Aufgabe steht gleichzeitig auf **IN ARBEIT**. Der ausführende
 
 - [ ] **T08 – Stabilisierung und MVP-Abnahme**
   - Vollständigen lokalen Katalog aus allen Item-IDs, übersetzten Namen, Kategorien und verknüpften XML-Rezepten einbetten.
-  - Alle Items beim Start anzeigen, Filtern und Paginieren; pro Preis-Sync nur die aktuelle Seite mit höchstens 50 Items laden.
+  - Alle Items beim Start anzeigen, Filtern und mit 50 Items pro Seite paginieren; beim Preis-Sync alle gefilterten Items laden, aber ohne Itemfilter keinen Vollkatalog-Sync starten.
+  - Ausgewählte Städte per Checkbox filtern; normale Royal Cities vorauswählen und Caerleon, Black Market sowie Brecilien zunächst abwählen.
   - Über stille Make-Ziele Gesamttests, Race-Test soweit mit UI-Build praktikabel, `git diff --check` und Windows-amd64-Build ausführen.
   - Ressourcen im Leerlauf messen, bekannte Grenzen dokumentieren und kritische Fehler beheben.
   - Akzeptanz: kompletter Abnahmelauf ist grün und in `STATUS.md` protokolliert.

@@ -25,6 +25,11 @@ type SyncService struct {
 
 // Sync fetches the full request before atomically replacing any stored prices.
 func (s SyncService) Sync(ctx context.Context, server marketapi.Server, itemIDs []string) ([]catalog.Price, error) {
+	return s.SyncAt(ctx, server, itemIDs, nil)
+}
+
+// SyncAt limits observations to selected markets when the configured fetcher supports it.
+func (s SyncService) SyncAt(ctx context.Context, server marketapi.Server, itemIDs []string, markets []catalog.Market) ([]catalog.Price, error) {
 	fetcher := s.Fetcher
 	if fetcher == nil {
 		var err error
@@ -36,7 +41,15 @@ func (s SyncService) Sync(ctx context.Context, server marketapi.Server, itemIDs 
 	if s.Store == nil {
 		return nil, fmt.Errorf("price repository is not configured")
 	}
-	prices, err := fetcher.FetchPrices(ctx, itemIDs)
+	var prices []catalog.Price
+	var err error
+	if locationFetcher, ok := fetcher.(interface {
+		FetchPricesAt(context.Context, []string, []catalog.Market) ([]catalog.Price, error)
+	}); ok {
+		prices, err = locationFetcher.FetchPricesAt(ctx, itemIDs, markets)
+	} else {
+		prices, err = fetcher.FetchPrices(ctx, itemIDs)
+	}
 	if err != nil {
 		return nil, err
 	}

@@ -16,9 +16,10 @@ const (
 	Martlock     Market = "Martlock"
 	Caerleon     Market = "Caerleon"
 	BlackMarket  Market = "Black Market"
+	Brecilien    Market = "Brecilien"
 )
 
-var Markets = []Market{Thetford, FortSterling, Lymhurst, Bridgewatch, Martlock, Caerleon, BlackMarket}
+var Markets = []Market{Thetford, FortSterling, Lymhurst, Bridgewatch, Martlock, Caerleon, BlackMarket, Brecilien}
 
 // Category is one node in the parent-linked item category tree.
 type Category struct {
@@ -33,6 +34,12 @@ func (c *Category) Path() string {
 		return ""
 	}
 	if c.Parent == nil {
+		return c.Name
+	}
+	if c.Name == "" {
+		return c.Parent.Path()
+	}
+	if c.Parent.Path() == "" {
 		return c.Name
 	}
 	return c.Parent.Path() + " / " + c.Name
@@ -62,6 +69,7 @@ func (c *Category) IncludesPath(path string) bool {
 type Item struct {
 	ID          string
 	Name        string
+	FullName    string
 	Category    *Category
 	Tier        int
 	Enchantment int
@@ -85,6 +93,7 @@ type CraftingResource struct {
 type ItemVariant struct {
 	ID           string
 	Name         string
+	FullName     string
 	Tier         int
 	Enchantment  int
 	CategoryPath string
@@ -117,7 +126,7 @@ func (d ItemDefinition) variants() []Item {
 	categories := catalogCategories()
 	for _, variant := range d.Variants {
 		items = append(items, Item{
-			ID: variant.ID, Name: variant.Name, Category: categories[variant.CategoryPath],
+			ID: variant.ID, Name: variant.Name, FullName: variant.FullName, Category: categories[variant.CategoryPath],
 			Tier: variant.Tier, Enchantment: variant.Enchantment, Recipe: variant.Recipe,
 		})
 	}
@@ -171,6 +180,9 @@ func RingDistance(from, to Market) (int, error) {
 	}
 	if from == to {
 		return 0, nil
+	}
+	if from == Brecilien || to == Brecilien {
+		return 5, nil
 	}
 	if isSpecial(from) || isSpecial(to) {
 		return 1, nil

@@ -67,6 +67,18 @@ func TestSortRowsHandlesNumericColumnsBothWays(t *testing.T) {
 	}
 }
 
+func TestSortHeaderStateTogglesOnRepeatedClick(t *testing.T) {
+	column, ascending := -1, true
+	column, ascending = nextSortState(7, column, ascending)
+	if column != 7 || !ascending {
+		t.Fatalf("first ROI click state = %d/%v, want ascending", column, ascending)
+	}
+	column, ascending = nextSortState(7, column, ascending)
+	if column != 7 || ascending {
+		t.Fatalf("second ROI click state = %d/%v, want descending", column, ascending)
+	}
+}
+
 func TestOpportunityRowsUsesArbitrageAndDropsUnknownItems(t *testing.T) {
 	items := map[string]catalog.Item{"sword": {ID: "sword", Name: "Sword", Category: catalog.SwordsCategory, Tier: 4}}
 	prices := []catalog.Price{
@@ -80,7 +92,7 @@ func TestOpportunityRowsUsesArbitrageAndDropsUnknownItems(t *testing.T) {
 	}
 }
 
-func TestPaginationLimitsDisplayedAndSynchronizedItemsToFifty(t *testing.T) {
+func TestPaginationLimitsDisplayedItemsToFifty(t *testing.T) {
 	all := make([]marketRow, 123)
 	for index := range all {
 		all[index] = marketRow{itemID: fmt.Sprintf("item-%03d", index)}
@@ -89,12 +101,6 @@ func TestPaginationLimitsDisplayedAndSynchronizedItemsToFifty(t *testing.T) {
 	last := pageRows(all, 2, maxItemsPerPage)
 	if len(first) != 50 || len(last) != 23 || last[0].itemID != "item-100" {
 		t.Fatalf("page sizes/last page = %d/%d, first last-page ID %q", len(first), len(last), last[0].itemID)
-	}
-	if ids := pageItemIDs(last); len(ids) != 23 {
-		t.Fatalf("last-page sync IDs = %d, want 23", len(ids))
-	}
-	if ids := pageItemIDs(all); len(ids) != maxItemsPerPage {
-		t.Fatalf("oversized sync IDs = %d, want cap %d", len(ids), maxItemsPerPage)
 	}
 }
 
@@ -117,11 +123,50 @@ func TestCatalogRowsShowEveryItemAndBestAvailableQuote(t *testing.T) {
 			unquoted = row
 		}
 	}
-	if !quoted.hasOpportunity || !strings.Contains(quoted.item, "Q2") {
+	if !quoted.hasOpportunity || strings.Contains(quoted.item, "Q2") {
 		t.Errorf("quoted item row = %+v", quoted)
 	}
 	if unquoted.hasOpportunity || !strings.Contains(unquoted.item, "Cape") {
 		t.Errorf("unquoted item row = %+v", unquoted)
+	}
+}
+
+func TestSyncScopeUsesAllFilteredItemsAndRequiresAnItemFilter(t *testing.T) {
+	items := make([]catalog.Item, 123)
+	for index := range items {
+		items[index] = catalog.Item{ID: fmt.Sprintf("wood-%03d", index), Name: "Wood", Tier: 4}
+	}
+	all, err := readCriteria("", "Alle Kategorien", "Alle Tiers", "Alle Verzauberungen", "", "")
+	if err != nil || hasItemScope(all) {
+		t.Fatalf("unfiltered criteria scope = %v, error %v", hasItemScope(all), err)
+	}
+	wood, err := readCriteria("wood", "Alle Kategorien", "Alle Tiers", "Alle Verzauberungen", "", "")
+	if err != nil || !hasItemScope(wood) {
+		t.Fatalf("search criteria scope = %v, error %v", hasItemScope(wood), err)
+	}
+	if got := filteredItemIDs(items, wood); len(got) != 123 {
+		t.Fatalf("IDs queued for sync = %d, want all 123 matching items", len(got))
+	}
+}
+
+func TestDefaultMarketSelectionAndMarketPriceFilter(t *testing.T) {
+	defaults := defaultCitySelection()
+	if strings.Contains(strings.Join(defaults, ","), "Caerleon") || strings.Contains(strings.Join(defaults, ","), "Black Market") || strings.Contains(strings.Join(defaults, ","), "Brecilien") || len(defaults) != 5 {
+		t.Fatalf("default city selection = %v", defaults)
+	}
+	selected := selectedCityMarkets([]string{"Thetford", "Martlock", "Caerleon"})
+	if len(selected) != 3 || selected[0] != catalog.Thetford || selected[2] != catalog.Caerleon {
+		t.Fatalf("selected cities = %v", selected)
+	}
+	prices := []catalog.Price{{Market: catalog.Thetford}, {Market: catalog.Caerleon}, {Market: catalog.Brecilien}}
+	if got := filterPricesByMarkets(prices, selected); len(got) != 2 {
+		t.Fatalf("market-filtered prices = %v, want Thetford and Caerleon", got)
+	}
+}
+
+func TestItemTitleUsesConciseFamilyNameAndTier(t *testing.T) {
+	if got := itemTitle(catalog.Item{Name: "Tasche", Tier: 5, Enchantment: 0}); got != "Tasche T5.0" {
+		t.Fatalf("item title = %q, want concise name", got)
 	}
 }
 

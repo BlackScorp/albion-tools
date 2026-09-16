@@ -30,6 +30,17 @@ func TestRingDistanceSpecialMarkets(t *testing.T) {
 	}
 }
 
+func TestRingDistanceBrecilienIsFive(t *testing.T) {
+	for _, other := range []Market{Thetford, BlackMarket} {
+		for _, pair := range [][2]Market{{Brecilien, other}, {other, Brecilien}} {
+			got, err := RingDistance(pair[0], pair[1])
+			if err != nil || got != 5 {
+				t.Errorf("RingDistance(%q, %q) = %d, %v; want 5", pair[0], pair[1], got, err)
+			}
+		}
+	}
+}
+
 func TestStartCatalogHasRepresentativeMetadata(t *testing.T) {
 	got := Items()
 	if len(got) != 12237 {
@@ -139,10 +150,10 @@ func TestItemDefinitionsExpandOnlyListedVariantRanges(t *testing.T) {
 
 func TestCatalogItemsCarryTranslatedNamesCategoriesAndCraftingRecipes(t *testing.T) {
 	sword := catalogItemByID(t, "T4_MAIN_SWORD")
-	if sword.Name != "Breitschwert des Adepten" {
-		t.Errorf("German sword name = %q", sword.Name)
+	if sword.Name != "Breitschwert" || sword.FullName != "Breitschwert des Adepten" {
+		t.Errorf("short/full sword name = %q / %q", sword.Name, sword.FullName)
 	}
-	if got, want := sword.Category.Path(), "Weapons / Sword / Sword Sword"; got != want {
+	if got, want := sword.Category.Path(), "Weapons / Sword"; got != want {
 		t.Errorf("sword category = %q, want %q", got, want)
 	}
 	if sword.Recipe == nil || sword.Recipe.SourceItemID != "T4_MAIN_SWORD" {
@@ -160,12 +171,29 @@ func TestCatalogItemsCarryTranslatedNamesCategoriesAndCraftingRecipes(t *testing
 	}
 
 	wood := catalogItemByID(t, "T4_WOOD_LEVEL1@1")
+	if wood.Name != "Holz" || wood.FullName != "Ungewöhnliches Kiefernholz" {
+		t.Errorf("short/full wood name = %q / %q", wood.Name, wood.FullName)
+	}
 	if wood.Tier != 4 || wood.Enchantment != 1 || wood.Recipe == nil || wood.Recipe.SourceItemID != "T4_WOOD_LEVEL1" {
 		t.Errorf("enchanted wood metadata = %+v", wood)
 	}
 	swordEnchanted := catalogItemByID(t, "T4_MAIN_SWORD@4")
 	if swordEnchanted.Enchantment != 4 {
 		t.Errorf("T4_MAIN_SWORD@4 enchantment = %d, want 4", swordEnchanted.Enchantment)
+	}
+}
+
+func TestCatalogCategoriesHideTechnicalRepeats(t *testing.T) {
+	checks := map[string]string{
+		"T5_CAPE":             "Capes / Standard",
+		"T4_MAIN_MACE":        "Weapons / One Handed",
+		"T4_SHOES_CLOTH_SET1": "Shoes / Set 1",
+	}
+	for id, want := range checks {
+		item := catalogItemByID(t, id)
+		if got := item.Category.Path(); got != want {
+			t.Errorf("%s category = %q, want %q", id, got, want)
+		}
 	}
 }
 

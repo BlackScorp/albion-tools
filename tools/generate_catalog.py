@@ -26,6 +26,44 @@ def readable(value):
     return " ".join(word[:1].upper() + word[1:].lower() for word in words)
 
 
+def short_name(value):
+    value = re.sub(r"^(?:Ungewöhnliches|Seltenes|Hervorragendes|Meisterhaftes|Uncommon|Rare|Exceptional|Masterpiece)\s+", "", value, flags=re.I)
+    value = re.sub(r"\s+(?:des|der|of|the)\s+[^ ]+(?:\s+[^ ]+)?$", "", value, flags=re.I)
+    return value.strip()
+
+
+def family_name(family_id, variants):
+    generic_resources = {"WOOD": "Holz", "FIBER": "Faser", "PLANKS": "Bretter"}
+    if family_id in generic_resources:
+        return generic_resources[family_id]
+    names = [short_name(entry[4]) for entry in variants]
+    return next((name for name in names if name), "Item")
+
+
+def category_name(path_parts):
+    ident = path_parts[-1]
+    parent_id = path_parts[-2] if len(path_parts) > 1 else ""
+    if ident.startswith("accessoires_capes_"):
+        suffix = ident.removeprefix("accessoires_capes_")
+        return "Standard" if suffix == "capes" else readable(suffix)
+    if ident in {"cloth_armor", "leather_armor", "plate_armor", "cloth_shoes", "leather_shoes", "plate_shoes", "cloth_helmet", "leather_helmet", "plate_helmet", "mace"}:
+        return ""
+    if ident.endswith(("_fey", "_hell", "_royal", "_keeper", "_morgana", "_avalon", "_crystal", "_undead", "_heretic", "_demon")):
+        return readable(ident.rsplit("_", 1)[-1])
+    label = readable(ident)
+    ancestor_words = {word.lower() for part in path_parts[:-1] for word in readable(part).split()}
+    label_words = [word for word in label.split() if word.lower() not in ancestor_words]
+    label = " ".join(label_words)
+    label = re.sub(r"\b(Set)([1-3])\b", r"\1 \2", label)
+    if ident.endswith("_main_mace"):
+        return "One Handed"
+    if ident.endswith("_2h_mace"):
+        return "Two Handed"
+    if parent_id and ident.startswith(parent_id + "_") and ident.endswith("_" + parent_id):
+        return ""
+    return label
+
+
 def item_ids():
     result = []
     for line in (ROOT / "items.txt").read_text(encoding="utf-8-sig").splitlines():
@@ -43,7 +81,7 @@ def category_data(root, xml_items):
             return
         path = "/".join(path_parts)
         if path not in specs:
-            specs[path] = (path_parts[-1], name or readable(path_parts[-1]), "/".join(path_parts[:-1]))
+            specs[path] = (path_parts[-1], name if name is not None else category_name(path_parts), "/".join(path_parts[:-1]))
 
     tree = root.find("shopcategories")
     if tree is not None:
@@ -162,9 +200,9 @@ def generate():
             enchantments = [entry[3] for entry in variants]
             min_tier, max_tier = (min(tiers), max(tiers)) if tiers else (0, 0)
             min_enchant, max_enchant = min(enchantments), max(enchantments)
-            family_name = variants[0][4]
+            display_family_name = family_name(family_id, variants)
             lines.append("\t{Name: %s, BaseID: %s, MinTier: %d, MaxTier: %d, MinEnchantment: %d, MaxEnchantment: %d, Variants: []ItemVariant{" %
-                         (go_string(family_name), go_string(family_id), min_tier, max_tier, min_enchant, max_enchant))
+                         (go_string(display_family_name), go_string(family_id), min_tier, max_tier, min_enchant, max_enchant))
             for _, item_id, tier, enchantment, name, cat_path, item in variants:
                 recipe_name = "nil"
                 if item is not None:
@@ -173,8 +211,8 @@ def generate():
                         signature = item.get("uniquename", "") + ET.tostring(req, encoding="unicode")
                         digest = hashlib.sha1(signature.encode()).hexdigest()[:12]
                         recipe_name = "recipe_" + digest
-                lines.append("\t\t{ID: %s, Name: %s, Tier: %d, Enchantment: %d, CategoryPath: %s, Recipe: %s}," %
-                             (go_string(item_id), go_string(name), tier, enchantment, go_string(cat_path), recipe_name))
+                lines.append("\t\t{ID: %s, Name: %s, FullName: %s, Tier: %d, Enchantment: %d, CategoryPath: %s, Recipe: %s}," %
+                             (go_string(item_id), go_string(display_family_name), go_string(name), tier, enchantment, go_string(cat_path), recipe_name))
             lines.append("\t}},")
         lines.append("}")
         (OUT / file).write_text("\n".join(lines) + "\n", encoding="utf-8")

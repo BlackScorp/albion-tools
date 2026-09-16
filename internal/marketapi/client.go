@@ -120,16 +120,23 @@ type apiPrice struct {
 // FetchPrices retrieves all current observations for the supplied item IDs.
 // IDs are split into requests whose complete URL stays below the API limit.
 func (c *Client) FetchPrices(ctx context.Context, itemIDs []string) ([]catalog.Price, error) {
+	return c.FetchPricesAt(ctx, itemIDs, nil)
+}
+
+// FetchPricesAt retrieves observations for the selected market locations. An
+// empty location list requests every location, as supported by the API.
+func (c *Client) FetchPricesAt(ctx context.Context, itemIDs []string, markets []catalog.Market) ([]catalog.Price, error) {
 	if len(itemIDs) == 0 {
 		return []catalog.Price{}, nil
 	}
-	batches, err := c.batches(itemIDs)
+	locationQuery := locationFilter(markets)
+	batches, err := c.batches(itemIDs, locationQuery)
 	if err != nil {
 		return nil, err
 	}
 	prices := make([]catalog.Price, 0)
 	for _, batch := range batches {
-		batchPrices, err := c.fetchBatch(ctx, batch)
+		batchPrices, err := c.fetchBatch(ctx, batch, locationQuery)
 		if err != nil {
 			return nil, err
 		}
@@ -138,7 +145,7 @@ func (c *Client) FetchPrices(ctx context.Context, itemIDs []string) ([]catalog.P
 	return prices, nil
 }
 
-func (c *Client) batches(itemIDs []string) ([][]string, error) {
+func (c *Client) batches(itemIDs []string, locations string) ([][]string, error) {
 	var batches [][]string
 	current := make([]string, 0)
 	for _, itemID := range itemIDs {
@@ -146,7 +153,7 @@ func (c *Client) batches(itemIDs []string) ([][]string, error) {
 			return nil, fmt.Errorf("invalid item ID %q", itemID)
 		}
 		candidate := append(append([]string(nil), current...), itemID)
-		if len(c.endpoint(candidate)) > c.maxURLLength {
+		if len(c.endpoint(candidate, locations)) > c.maxURLLength {
 			if len(current) == 0 {
 				return nil, fmt.Errorf("item ID %q cannot fit below URL limit", itemID)
 			}
@@ -162,22 +169,37 @@ func (c *Client) batches(itemIDs []string) ([][]string, error) {
 	return batches, nil
 }
 
-func (c *Client) endpoint(itemIDs []string) string {
+func locationFilter(markets []catalog.Market) string {
+	values := make([]string, 0, len(markets))
+	for _, market := range markets {
+		if market == catalog.BlackMarket {
+			values = append(values, "Blackmarket")
+		} else {
+			values = append(values, string(market))
+		}
+	}
+	return strings.Join(values, ",")
+}
+
+func (c *Client) endpoint(itemIDs []string, locations string) string {
 	encodedIDs := make([]string, 0, len(itemIDs))
 	for _, itemID := range itemIDs {
 		encodedIDs = append(encodedIDs, url.PathEscape(itemID))
 	}
 	path := "/api/v2/stats/prices/" + strings.Join(encodedIDs, ",") + ".json"
-	return c.baseURL + path
+	if locations == "" {
+		return c.baseURL + path
+	}
+	return c.baseURL + path + "?locations=" + url.QueryEscape(locations)
 }
 
-func (c *Client) fetchBatch(ctx context.Context, itemIDs []string) ([]catalog.Price, error) {
+func (c *Client) fetchBatch(ctx context.Context, itemIDs []string, locations string) ([]catalog.Price, error) {
 	if err := c.waitForRate(ctx); err != nil {
 		return nil, err
 	}
 	requestCtx, cancel := context.WithTimeout(ctx, c.timeout)
 	defer cancel()
-	request, err := http.NewRequestWithContext(requestCtx, http.MethodGet, c.endpoint(itemIDs), nil)
+	request, err := http.NewRequestWithContext(requestCtx, http.MethodGet, c.endpoint(itemIDs, locations), nil)
 	if err != nil {
 		return nil, fmt.Errorf("create prices request: %w", err)
 	}

@@ -10,7 +10,7 @@ Stand: 2026-09-16
 | Aktiver Task | T08 – Stabilisierung und MVP-Abnahme |
 | Nächster Task | T08 – Stabilisierung und MVP-Abnahme |
 | MVP-Fortschritt | 7/9 Tasks (78 %) |
-| Letzter grüner Build | 2026-09-16 – `make verify`, `make test-race` und `make build-windows` mit Gesamtkatalog |
+| Letzter grüner Build | 2026-09-16 – `make verify`, `make test-race` und `make build-windows` nach UI-/Sync-Nachbesserung |
 | Blocker | keine |
 
 Hinweis zum Ausgangsstand: `PROJEKT.md` war vor der Planung bereits uncommittet und enthält durch CRLF-Zeilenenden `git diff --check`-Warnungen. Inhalt und Format dieser Nutzeränderung wurden nicht angefasst.
@@ -26,7 +26,7 @@ Hinweis zum Ausgangsstand: `PROJEKT.md` war vor der Planung bereits uncommittet 
 | T05 Sync-Ablauf | ERLEDIGT | `make verify` erfolgreich; Synchronisierung mit aktuellem Item-Satz, Fehlerstatus, Sperre paralleler Läufe und Reload der atomar gespeicherten Preise |
 | T06 Arbitrage | ERLEDIGT | `make test`, `make verify` und `git diff --check` erfolgreich; profitable Richtungen, Bruttogewinn/ROI, Range und konservatives Datenalter getestet |
 | T07 Filter/UI-Zustände | ERLEDIGT | `make test`, `make verify` und `git diff --check` erfolgreich; Filter-, Untermenü- und Sortierlogik getestet |
-| T08 Stabilisierung | IN ARBEIT | 12.237 IDs, Kategorien, XML-Rezepte und 50er-Paginierung integriert; `make verify`, `make test-race`, `make build-windows` und `git diff --check` erfolgreich. Leerlaufmessung der gestarteten Windows-App steht noch aus. |
+| T08 Stabilisierung | IN ARBEIT | 12.237 IDs, Kategorien, XML-Rezepte, 50er-Paginierung, vollständiger gefilterter Sync und horizontale Stadtauswahl integriert; kurze Itemnamen und technische Kategorie-Dopplungen bereinigt. Mindestgewinn-/ROI-Felder sind verbreitert, der Sync-Button steht unter den Städten. `make verify`, `make test-race`, `make build-windows` und `git diff --check` erfolgreich. Leerlaufmessung der gestarteten Windows-App steht noch aus. |
 | T09 Release | OFFEN | – |
 
 Erlaubte Statuswerte sind `OFFEN`, `IN ARBEIT`, `BLOCKIERT` und `ERLEDIGT`. Es darf höchstens eine Zeile `IN ARBEIT` sein. Zu `ERLEDIGT` gehört immer ein kurzer Test- oder Buildnachweis.
@@ -70,6 +70,8 @@ Diese Punkte sollen bei der MVP-Abnahme bestätigt werden:
 | 2026-09-16 | Katalogmodell | Item-Familien in getrennten Go-Dateien mit konfigurierbaren Tier-/Enchant-Bereichen und ID-Mustern; Category mit Parent-Verknüpfung. Broadsword, Cape, Wood und Riding Horse ergeben 84 IDs, alle in den bereitgestellten Listen vorhanden. `make verify` und `git diff --check` erfolgreich. | Umfang und Kategoriezuordnung des Gesamtkatalogs festlegen |
 | 2026-09-16 | XML-Metadatenabgleich | Kategoriepfade der vier Beispiel-Familien auf `items.xml` abgestimmt. XML enthält zusätzlich Crafting-Anforderungen; diese liegen außerhalb des MVP-Umfangs. `make verify` und `git diff --check` erfolgreich. | Umfang des Go-Gesamtkatalogs vor Release abgleichen |
 | 2026-09-16 | T08 Zwischenstand | Alle 12.237 Item-IDs, vorhandene deutsche Namen (865 mit Englisch-/ID-Fallback), 1.107 Kategorie-Knoten, verfügbare XML-Rezeptdaten und 50er-Seiten-Sync eingebettet. `make verify`, `make test-race`, `make build-windows` und `git diff --check` erfolgreich. 266 IDs haben keinen XML-Itemknoten, 431 keine XML-Kategorie und bleiben mit den verfügbaren Daten sichtbar. Leerlaufmessung der gestarteten Windows-App ist in der headless Build-Umgebung nicht möglich. | Leerlaufmessung auf einer Windows-Desktop-Sitzung nachholen; danach T08 schließen |
+| 2026-09-16 | T08 UI-/Sync-Nachbesserung | Itemtitel zeigen kurze Familiennamen mit Tier/Enchant; Sortierung lässt wiederholte Header-Klicks zu; Namen werden abgeschnitten statt in Nachbarspalten zu laufen. Sync erhält alle Items aus den Itemfiltern, verlangt vorab einen begrenzenden Filter und bewahrt den Gesamtkatalog; Städte lassen sich wählen (5 Royal Cities vorausgewählt). API-Abfragen filtern Standorte; Brecilien wird mit Range 5 bewertet. Kategorien zeigen keine technischen Wiederholungen mehr. `make verify`, `make test-race`, `make build-windows` und `git diff --check` erfolgreich. | Leerlaufmessung auf einer Windows-Desktop-Sitzung nachholen; danach T08 schließen |
+| 2026-09-16 | T08 UI-Layout | Stadt-Checkboxen horizontal ausgerichtet; Mindestgewinn- und Mindest-ROI-Eingaben auf zwei gleich breite Felder verteilt; Aktualisieren-Button direkt unter die Städte verlegt. `make verify`, `make test-race`, `make build-windows` und `git diff --check` nach der Layoutänderung erfolgreich. | Leerlaufmessung auf einer Windows-Desktop-Sitzung nachholen; danach T08 schließen |
 
 
 ## Später-Parkplatz

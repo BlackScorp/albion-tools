@@ -28,8 +28,8 @@ func main() {
 	}
 	a := fyneapp.NewWithID("de.blackscorp.albion-helper")
 	syncService := appservice.SyncService{Store: repository}
-	w := ui.NewWindowWithData(a, prices, func(server string, itemIDs []string) ([]catalog.Price, error) {
-		return syncService.Sync(context.Background(), marketapi.Server(server), itemIDs)
+	w := ui.NewWindowWithData(a, prices, func(server string, itemIDs []string, markets []catalog.Market) ([]catalog.Price, error) {
+		return syncService.SyncAt(context.Background(), marketapi.Server(server), itemIDs, markets)
 	})
 	w.ShowAndRun()
 }

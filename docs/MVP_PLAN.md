@@ -8,16 +8,18 @@ Eine leichtgewichtige Windows-Desktop-App zeigt den vollständigen lokalen Albio
 
 ## Erfolgskriterium des MVP
 
-Ein Nutzer kann die App starten, im vollständigen lokalen Itembestand filtern und jeweils Preise für höchstens 50 Items der aktuellen Tabellenseite synchronisieren. Kategorien, gültige Varianten und verfügbare XML-Rezeptdaten sind im lokalen Go-Katalog verknüpft. Nach einem Neustart sind die zuletzt geladenen Preise ohne Netzwerkzugriff sichtbar.
+Ein Nutzer kann die App starten, im vollständigen lokalen Itembestand filtern und für die passende Auswahl Preise in den ausgewählten Städten synchronisieren. Die Tabelle zeigt höchstens 50 Items pro Seite. Kategorien, gültige Varianten und verfügbare XML-Rezeptdaten sind im lokalen Go-Katalog verknüpft. Nach einem Neustart sind die zuletzt geladenen Preise ohne Netzwerkzugriff sichtbar.
 
 ## Festgelegter MVP-Umfang
 
 - Desktop-UI in Go mit Fyne
 - Serverauswahl: Europe, Americas und Asia
-- Märkte: Thetford, Fort Sterling, Lymhurst, Bridgewatch, Martlock, Caerleon und Black Market
+- Märkte: Thetford, Fort Sterling, Lymhurst, Bridgewatch, Martlock, Caerleon, Black Market und Brecilien
 - Vollständiger lokaler Item-Katalog aus den bereitgestellten Item-IDs und vorhandenen deutschen Namen; bei fehlender Übersetzung wird Englisch, dann die ID verwendet. Go-Definitionen sind nach Kategorien gruppiert.
 - Parent-Child-Kategorien, gültige Variantenbereiche und verfügbare Crafting-Rezepte aus den bereitgestellten XML-Daten
-- Paginierte Tabelle; ein manueller Sync lädt nur die aktuelle Seite mit höchstens 50 Items
+- Paginierte Tabelle mit 50 Items pro Seite; ein manueller Sync lädt alle Items, die den aktiven Itemfiltern entsprechen
+- Stadt-Checkboxen unter den Filtern; Royal Cities sind vorausgewählt, Caerleon, Black Market und Brecilien zunächst abgewählt
+- Ein unbeschränkter Sync wird verhindert und fordert zuerst einen Itemfilter, damit keine Anfrage für den vollständigen Katalog gestartet wird
 - Aktuelle Buy- und Sell-Preise über `/api/v2/stats/prices/{item_ids}.json`
 - Gebündelte Requests unterhalb des API-URL-Limits, begrenzte Request-Rate, Timeout und verständliche Fehleranzeige
 - Speicherung der letzten Marktpreise und Sync-Zeitpunkte in SQLite
@@ -92,7 +94,7 @@ Jeder Meilenstein muss separat ausführbar bleiben. M1 wird zuerst geliefert, da
 - Keine Hintergrunddienste und keine Telemetrie.
 - Erfolgreiche Standard-Builds und -Tests erzeugen keine ausführlichen Logs im Terminal oder KI-Kontext.
 - Ein manueller Sync bleibt sicher unter den veröffentlichten API-Grenzen von 180 Requests/Minute und 300 Requests/5 Minuten.
-- Pro manuellem Sync werden höchstens 50 sichtbare Item-IDs angefragt; Item-IDs werden so gebündelt, dass jede URL unter 4096 Zeichen bleibt.
+- Die Tabellenanzeige umfasst höchstens 50 Items je Seite. Der Sync umfasst alle zum Itemfilter passenden IDs und filtert API-Antworten zusätzlich nach ausgewählten Städten; Requests werden URL-sicher gebündelt und auf 1 Request/Sekunde begrenzt.
 - Ziel für normalen Leerlauf: keine dauerhafte CPU-Last; Speicherverbrauch wird vor MVP-Abnahme einmal gemessen und in `STATUS.md` dokumentiert, ohne vorab künstlich zu optimieren.
 
 ## Hauptrisiken und frühe Prüfungen
