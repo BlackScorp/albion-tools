@@ -19,7 +19,7 @@ Regel: Genau eine Aufgabe steht gleichzeitig auf **IN ARBEIT**. Der ausführende
   - Ringdistanz und Sondermärkte mit Tabellentests absichern.
   - Akzeptanz: Katalog wird beim Start geladen und ersetzt die fest codierten UI-Beispielzeilen.
 
-- [ ] **T03 – SQLite-Persistenz**
+- [x] **T03 – SQLite-Persistenz**
   - Datenbankort pro Betriebssystem bestimmen, Schema/Migration und Price Repository implementieren.
   - Upsert sowie Lesen der letzten Preise und Zeitstempel testen.
   - Akzeptanz: Testdaten sind nach App-Neustart sichtbar; frische und vorhandene DB funktionieren.

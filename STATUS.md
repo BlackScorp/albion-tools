@@ -1,6 +1,6 @@
 # MVP-Status
 
-Stand: 2026-09-15
+Stand: 2026-09-16
 
 ## Überblick
 
@@ -8,9 +8,9 @@ Stand: 2026-09-15
 |---|---|
 | Phase | M2 – Daten bleiben lokal erhalten |
 | Aktiver Task | keiner |
-| Nächster Task | T03 – SQLite-Persistenz |
-| MVP-Fortschritt | 2/9 Tasks (22 %) |
-| Letzter grüner Build | 2026-09-15 – `make test`, `make verify` |
+| Nächster Task | T04 – Albion-Data-API-Client |
+| MVP-Fortschritt | 3/9 Tasks (33 %) |
+| Letzter grüner Build | 2026-09-16 – `make test`, `make verify` |
 | Blocker | keine |
 
 Hinweis zum Ausgangsstand: `PROJEKT.md` war vor der Planung bereits uncommittet und enthält durch CRLF-Zeilenenden `git diff --check`-Warnungen. Inhalt und Format dieser Nutzeränderung wurden nicht angefasst.
@@ -21,7 +21,7 @@ Hinweis zum Ausgangsstand: `PROJEKT.md` war vor der Planung bereits uncommittet 
 |---|---|---|
 | T01 Walking Skeleton | ERLEDIGT | `make test`, `make build-windows`, `make verify` erfolgreich; Windows-amd64-EXE erzeugt |
 | T02 Domänenmodell/Katalog | ERLEDIGT | `make test`, `make verify` und `git diff --check` erfolgreich |
-| T03 SQLite | OFFEN | – |
+| T03 SQLite | ERLEDIGT | `make test` und `make verify` erfolgreich; Persistenz-, Upsert-, Reopen- und Transaktionstests grün |
 | T04 API-Client | OFFEN | – |
 | T05 Sync-Ablauf | OFFEN | – |
 | T06 Arbitrage | OFFEN | – |
@@ -56,6 +56,7 @@ Diese Punkte blockieren T01 nicht und werden spätestens vor T07 bestätigt:
 | 2026-09-15 | Plan-Update | Windows amd64 priorisiert; stille Make-Ausgabe und Tokenregeln als Abnahmekriterien ergänzt | T01 umsetzen |
 | 2026-09-15 | T01 | Fyne-Walking-Skeleton erstellt; `make test`, Windows-amd64-Build und `make verify` erfolgreich. Fester Docker-Image-Tag wird wiederverwendet. | T02 umsetzen |
 | 2026-09-15 | T02 | Markt-/Preis-/Itemmodell, eingebetteter Startkatalog, UI-Katalogbindung und Ringdistanztests; `make test`, `make verify` und `git diff --check` erfolgreich. | T03 umsetzen |
+| 2026-09-16 | T03 | SQLite-Repository mit idempotenter Migration, per-OS-Datenbankpfad, atomarem Upsert und Lesen der letzten Preise; `make test` und `make verify` im Docker-Container erfolgreich. | T04 umsetzen |
 
 
 ## Später-Parkplatz
