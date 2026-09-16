@@ -46,7 +46,7 @@ def category_name(path_parts):
     if ident.startswith("accessoires_capes_"):
         suffix = ident.removeprefix("accessoires_capes_")
         return "Standard" if suffix == "capes" else readable(suffix)
-    if ident in {"cloth_armor", "leather_armor", "plate_armor", "cloth_shoes", "leather_shoes", "plate_shoes", "cloth_helmet", "leather_helmet", "plate_helmet", "mace"}:
+    if ident in {"cloth_armor", "leather_armor", "plate_armor", "cloth_shoes", "leather_shoes", "plate_shoes", "cloth_helmet", "leather_helmet", "plate_helmet"}:
         return ""
     if ident.endswith(("_fey", "_hell", "_royal", "_keeper", "_morgana", "_avalon", "_crystal", "_undead", "_heretic", "_demon")):
         return readable(ident.rsplit("_", 1)[-1])

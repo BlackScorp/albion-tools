@@ -186,7 +186,8 @@ func TestCatalogItemsCarryTranslatedNamesCategoriesAndCraftingRecipes(t *testing
 func TestCatalogCategoriesHideTechnicalRepeats(t *testing.T) {
 	checks := map[string]string{
 		"T5_CAPE":             "Capes / Standard",
-		"T4_MAIN_MACE":        "Weapons / One Handed",
+		"T4_MAIN_MACE":        "Weapons / Mace / One Handed",
+		"T4_2H_MACE":          "Weapons / Mace / Two Handed",
 		"T4_SHOES_CLOTH_SET1": "Shoes / Set 1",
 	}
 	for id, want := range checks {
