@@ -32,7 +32,7 @@ Regel: Genau eine Aufgabe steht gleichzeitig auf **IN ARBEIT**. Der ausführende
   - Tests mit lokalem HTTP-Server für Erfolg, partielle Daten, ungültige Antwort und Timeout schreiben.
   - Akzeptanz: Ein manueller Integrationslauf lädt Preise für den Startkatalog, ohne Limits zu überschreiten.
 
-- [ ] **T05 – Sync-Ablauf in der App**
+- [x] **T05 – Sync-Ablauf in der App**
   - Sync-Button mit ausgewähltem Server und aktuell gefiltertem Item-Satz verbinden.
   - Fortschritt anzeigen, parallelen Sync sperren, Ergebnis atomar speichern und Ansicht aktualisieren.
   - Akzeptanz: Fehler bleiben sichtbar und vorhandene Daten erhalten; Erfolg aktualisiert Tabelle und Sync-Zeit.

@@ -4,6 +4,8 @@ import (
 	"fmt"
 	"sort"
 	"strings"
+	syncpkg "sync"
+	"time"
 
 	"fyne.io/fyne/v2"
 	"fyne.io/fyne/v2/container"
@@ -16,19 +18,15 @@ type marketRow struct {
 	buy, sell                       int
 }
 
-var sampleQuotes = map[string]marketRow{
-	"T4_MAIN_SWORD":   {buyCity: "Martlock", sellCity: "Bridgewatch", buy: 1240, sell: 1590},
-	"T4_CAPE":         {buyCity: "Lymhurst", sellCity: "Thetford", buy: 8700, sell: 9450},
-	"T4_WOOD":         {buyCity: "Fort Sterling", sellCity: "Caerleon", buy: 410, sell: 525},
-	"T4_MOUNT_HORSE":  {buyCity: "Thetford", sellCity: "Martlock", buy: 18200, sell: 19750},
-	"T4_MAIN_SWORD@1": {buyCity: "Martlock", sellCity: "Bridgewatch", buy: 2450, sell: 2920},
-	"T5_MAIN_SWORD":   {buyCity: "Thetford", sellCity: "Fort Sterling", buy: 5600, sell: 6320},
-}
-
 var columns = []string{"Item", "Kaufstadt", "Verkaufsstadt", "Kaufpreis", "Verkaufspreis", "Bruttogewinn", "ROI (brutto)"}
 
 // NewWindow constructs the initial application window and its sample results.
-func NewWindow(a fyne.App) fyne.Window {
+type syncFunc func(string, []string) ([]catalog.Price, error)
+
+func NewWindow(a fyne.App) fyne.Window { return NewWindowWithData(a, nil, nil) }
+
+// NewWindowWithData creates the application window with cached prices and an optional sync action.
+func NewWindowWithData(a fyne.App, cached []catalog.Price, syncPrices syncFunc) fyne.Window {
 	w := a.NewWindow("Albion Helper")
 	w.Resize(fyne.NewSize(1100, 650))
 
@@ -37,14 +35,21 @@ func NewWindow(a fyne.App) fyne.Window {
 	filter := widget.NewEntry()
 	filter.SetPlaceHolder("Item filtern …")
 	sync := widget.NewButton("Preise aktualisieren", nil)
-	status := widget.NewLabel("Beispieldaten · Gebühren und Transportkosten nicht berücksichtigt")
+	status := widget.NewLabel("Offline · Gebühren und Transportkosten nicht berücksichtigt")
 
 	catalogItems := catalog.Items()
 	allRows := make([]marketRow, 0, len(catalogItems))
+	itemByID := make(map[string]catalog.Item, len(catalogItems))
 	for _, item := range catalogItems {
-		quote := sampleQuotes[item.ID]
-		name := fmt.Sprintf("%s · T%d.%d", item.Name, item.Tier, item.Enchantment)
-		allRows = append(allRows, marketRow{item: name, itemID: item.ID, buyCity: quote.buyCity, sellCity: quote.sellCity, buy: quote.buy, sell: quote.sell})
+		itemByID[item.ID] = item
+	}
+	for _, price := range cached {
+		item, ok := itemByID[price.ItemID]
+		if !ok {
+			continue
+		}
+		name := fmt.Sprintf("%s · T%d.%d · Q%d", item.Name, item.Tier, item.Enchantment, price.Quality)
+		allRows = append(allRows, marketRow{item: name, itemID: item.ID, buyCity: string(price.Market), sellCity: string(price.Market), buy: int(price.Buy), sell: int(price.Sell)})
 	}
 	rows := append([]marketRow(nil), allRows...)
 	ascending := true
@@ -107,6 +112,60 @@ func NewWindow(a fyne.App) fyne.Window {
 			}
 		}
 		table.Refresh()
+	}
+	var syncMu syncpkg.Mutex
+	if syncPrices != nil {
+		sync.OnTapped = func() {
+			if !syncMu.TryLock() {
+				return
+			}
+			ids := make([]string, 0, len(rows))
+			seen := map[string]bool{}
+			for _, row := range rows {
+				if !seen[row.itemID] {
+					seen[row.itemID] = true
+					ids = append(ids, row.itemID)
+				}
+			}
+			if len(ids) == 0 {
+				for _, item := range catalogItems {
+					if filter.Text == "" || containsFold(item.Name, filter.Text) || containsFold(item.ID, filter.Text) {
+						ids = append(ids, item.ID)
+					}
+				}
+			}
+			selectedServer := server.Selected
+			sync.Disable()
+			status.SetText("Synchronisierung läuft …")
+			go func() {
+				prices, err := syncPrices(selectedServer, ids)
+				fyne.Do(func() {
+					defer syncMu.Unlock()
+					sync.Enable()
+					if err != nil {
+						status.SetText("Synchronisierung fehlgeschlagen: " + err.Error())
+						return
+					}
+					allRows = allRows[:0]
+					for _, price := range prices {
+						item, ok := itemByID[price.ItemID]
+						if !ok {
+							continue
+						}
+						name := fmt.Sprintf("%s · T%d.%d · Q%d", item.Name, item.Tier, item.Enchantment, price.Quality)
+						allRows = append(allRows, marketRow{item: name, itemID: item.ID, buyCity: string(price.Market), sellCity: string(price.Market), buy: int(price.Buy), sell: int(price.Sell)})
+					}
+					rows = rows[:0]
+					for _, row := range allRows {
+						if filter.Text == "" || containsFold(row.item, filter.Text) {
+							rows = append(rows, row)
+						}
+					}
+					status.SetText(fmt.Sprintf("Synchronisierung %s abgeschlossen · %d Preisbeobachtungen", time.Now().Format("15:04:05"), len(prices)))
+					table.Refresh()
+				})
+			}()
+		}
 	}
 
 	toolbar := container.NewBorder(nil, nil, widget.NewLabel("Server:"), sync,

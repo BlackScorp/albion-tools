@@ -8,9 +8,9 @@ Stand: 2026-09-16
 |---|---|
 | Phase | M3 – Reale Daten fließen |
 | Aktiver Task | keiner |
-| Nächster Task | T05 – Sync-Ablauf in der App |
-| MVP-Fortschritt | 4/9 Tasks (44 %) |
-| Letzter grüner Build | 2026-09-16 – `make test`, `make verify` |
+| Nächster Task | T06 – Arbitrage-Berechnung |
+| MVP-Fortschritt | 5/9 Tasks (56 %) |
+| Letzter grüner Build | 2026-09-16 – `make verify` |
 | Blocker | keine |
 
 Hinweis zum Ausgangsstand: `PROJEKT.md` war vor der Planung bereits uncommittet und enthält durch CRLF-Zeilenenden `git diff --check`-Warnungen. Inhalt und Format dieser Nutzeränderung wurden nicht angefasst.
@@ -23,7 +23,7 @@ Hinweis zum Ausgangsstand: `PROJEKT.md` war vor der Planung bereits uncommittet 
 | T02 Domänenmodell/Katalog | ERLEDIGT | `make test`, `make verify` und `git diff --check` erfolgreich |
 | T03 SQLite | ERLEDIGT | `make test` und `make verify` erfolgreich; Persistenz-, Upsert-, Reopen- und Transaktionstests grün |
 | T04 API-Client | ERLEDIGT | `make test` und `make verify` erfolgreich; lokale HTTP-Tests für Gzip, Batching, Teilantwort, JSON-/HTTP-Fehler und Timeout grün |
-| T05 Sync-Ablauf | OFFEN | – |
+| T05 Sync-Ablauf | ERLEDIGT | `make verify` erfolgreich; Synchronisierung mit aktuellem Item-Satz, Fehlerstatus, Sperre paralleler Läufe und Reload der atomar gespeicherten Preise |
 | T06 Arbitrage | OFFEN | – |
 | T07 Filter/UI-Zustände | OFFEN | – |
 | T08 Stabilisierung | OFFEN | – |
@@ -59,6 +59,8 @@ Diese Punkte blockieren T01 nicht und werden spätestens vor T07 bestätigt:
 | 2026-09-15 | T02 | Markt-/Preis-/Itemmodell, eingebetteter Startkatalog, UI-Katalogbindung und Ringdistanztests; `make test`, `make verify` und `git diff --check` erfolgreich. | T03 umsetzen |
 | 2026-09-16 | T03 | SQLite-Repository mit idempotenter Migration, per-OS-Datenbankpfad, atomarem Upsert und Lesen der letzten Preise; `make test` und `make verify` im Docker-Container erfolgreich. | T04 umsetzen |
 | 2026-09-16 | T04 | API-Client für Europe/Americas/Asia mit URL-sicherem Batching, Gzip, Timeout, Rate-Limit und verständlichem Fehlerkontext; lokale HTTP-Tests sowie `make verify` erfolgreich. | T05 umsetzen |
+| 2026-09-16 | T05 Zwischenstand | Sync-Service und UI-Verbindung implementiert; die erste Docker-Prüfung fand einen Namenskonflikt zwischen UI-Button und Mutex. Docker wurde anschließend verfügbar gemacht und der Konflikt behoben. | Prüfung wiederholen |
+| 2026-09-16 | T05 Abschluss | `make verify` erfolgreich (gofmt, vet und gesamte Testsuite im Docker-Container); `git diff --check` erfolgreich. Sync-Ablauf integriert und getestet. | T06 umsetzen |
 
 
 ## Später-Parkplatz
