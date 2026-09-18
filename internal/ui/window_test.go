@@ -260,10 +260,12 @@ func TestAllRangesDisplaysRangeAndPriceColumns(t *testing.T) {
 		selectWidget, ok := object.(*widget.Select)
 		return ok && len(selectWidget.Options) > 0 && selectWidget.Options[0] == "Alle Ranges"
 	}).(*widget.Select)
-	table := findCanvasObject(w.Content(), func(object fyne.CanvasObject) bool {
-		_, ok := object.(*widget.Table)
-		return ok
-	}).(*widget.Table)
+	getTable := func() *widget.Table {
+		return findCanvasObject(w.Content(), func(object fyne.CanvasObject) bool {
+			_, ok := object.(*widget.Table)
+			return ok
+		}).(*widget.Table)
+	}
 	nextPage := findCanvasObject(w.Content(), func(object fyne.CanvasObject) bool {
 		button, ok := object.(*widget.Button)
 		return ok && button.Text == "Weiter ›"
@@ -271,6 +273,7 @@ func TestAllRangesDisplaysRangeAndPriceColumns(t *testing.T) {
 	search.SetText("T5_CAPE")
 	assertTableCell := func(row, col int, want string) {
 		t.Helper()
+		table := getTable()
 		cell := table.CreateCell()
 		table.UpdateCell(widget.TableCellID{Row: row, Col: col}, cell)
 		if got := cell.(*widget.Label).Text; got != want {
@@ -279,6 +282,7 @@ func TestAllRangesDisplaysRangeAndPriceColumns(t *testing.T) {
 	}
 	foundRow := 0
 	for page := 0; page < 10 && foundRow == 0; page++ {
+		table := getTable()
 		rowCount, _ := table.Length()
 		for row := 1; row < rowCount; row++ {
 			cell := table.CreateCell()
@@ -301,6 +305,30 @@ func TestAllRangesDisplaysRangeAndPriceColumns(t *testing.T) {
 	assertTableCell(foundRow, 6, "100")
 	rangeFilter.SetSelected("1")
 	assertTableCell(1, 3, "1")
+	rangeFilter.SetSelected("Alle Ranges")
+	foundRow = 0
+	for page := 0; page < 10 && foundRow == 0; page++ {
+		table := getTable()
+		rowCount, _ := table.Length()
+		for row := 1; row < rowCount; row++ {
+			cell := table.CreateCell()
+			table.UpdateCell(widget.TableCellID{Row: row, Col: 3}, cell)
+			if cell.(*widget.Label).Text == "1" {
+				foundRow = row
+				break
+			}
+		}
+		if foundRow == 0 {
+			nextPage.OnTapped()
+		}
+	}
+	if foundRow == 0 {
+		t.Fatal("returning to all ranges hid the priced cape row")
+	}
+	assertTableCell(foundRow, 3, "1")
+	assertTableCell(foundRow, 4, "100")
+	assertTableCell(foundRow, 5, "200")
+	assertTableCell(foundRow, 6, "100")
 }
 
 func findCanvasObject(root fyne.CanvasObject, matches func(fyne.CanvasObject) bool) fyne.CanvasObject {

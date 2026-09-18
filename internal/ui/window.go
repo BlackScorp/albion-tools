@@ -2,6 +2,7 @@ package ui
 
 import (
 	"fmt"
+	"log"
 	"math"
 	"sort"
 	"strconv"
@@ -76,6 +77,7 @@ func NewWindowWithData(a fyne.App, cached []catalog.Price, syncPrices syncFunc) 
 	}
 	allPrices := append([]catalog.Price(nil), cached...)
 	allRows := catalogRows(items, bestPriceRows(filterPricesByMarkets(allPrices, checkedCityMarkets(cityChecks)), itemByID, time.Now()))
+	log.Printf("Ansicht aufgebaut: Kategorie=%q Items=%d mitPreisen=%d mitRange=%d lokaleBeobachtungen=%d", selectedCategory, len(allRows), countRowsWithPrices(allRows), countRowsWithOpportunities(allRows), len(allPrices))
 	observationCount := len(allPrices)
 	if observationCount > 0 {
 		status.SetText(fmt.Sprintf("Offline · %d gespeicherte Marktbeobachtungen · %d Items im Katalog", observationCount, len(allRows)))
@@ -87,39 +89,29 @@ func NewWindowWithData(a fyne.App, cached []catalog.Price, syncPrices syncFunc) 
 	previousPage := widget.NewButton("‹ Zurück", nil)
 	nextPage := widget.NewButton("Weiter ›", nil)
 	pageLabel := widget.NewLabel("")
-	table := widget.NewTable(
-		func() (int, int) { return len(rows) + 1, len(columns) },
-		func() fyne.CanvasObject { return widget.NewLabel("#######") },
-		func(id widget.TableCellID, cell fyne.CanvasObject) {
-			label := cell.(*widget.Label)
-			label.Truncation = fyne.TextTruncateEllipsis
-			label.Wrapping = fyne.TextWrapOff
-			if id.Row == 0 {
-				label.SetText(columns[id.Col])
-				label.TextStyle = fyne.TextStyle{Bold: true}
+	var refreshPage func()
+	var table *widget.Table
+	makeTable := func() *widget.Table {
+		return newMarketTable(rows, columns, func(id widget.TableCellID) {
+			if id.Row != 0 {
 				return
 			}
-			r := rows[id.Row-1]
-			label.SetText(marketRowValues(r)[id.Col])
-		},
-	)
-	for col, width := range []float32{220, 130, 140, 65, 110, 120, 125, 105, 100} {
-		table.SetColumnWidth(col, width)
-	}
-	var refreshPage func()
-	table.OnSelected = func(id widget.TableCellID) {
-		if id.Row != 0 {
-			return
-		}
-		if id.Col == 3 {
+			if id.Col == 3 {
+				table.UnselectAll()
+				return
+			}
+			sortedColumn, ascending = nextSortState(id.Col, sortedColumn, ascending)
+			sortRows(filteredRows, id.Col, ascending)
 			table.UnselectAll()
-			return
-		}
-		sortedColumn, ascending = nextSortState(id.Col, sortedColumn, ascending)
-		sortRows(filteredRows, id.Col, ascending)
-		table.UnselectAll()
-		refreshPage()
-		table.Refresh()
+			refreshPage()
+		})
+	}
+	table = makeTable()
+	tableHost := container.NewStack(table)
+	rebuildTable := func() {
+		table = makeTable()
+		tableHost.Objects = []fyne.CanvasObject{table}
+		tableHost.Refresh()
 	}
 	refreshPage = func() {
 		pageCount := (len(filteredRows) + pageSize - 1) / pageSize
@@ -129,7 +121,8 @@ func NewWindowWithData(a fyne.App, cached []catalog.Price, syncPrices syncFunc) 
 			pageLabel.SetText("Keine Items")
 			previousPage.Disable()
 			nextPage.Disable()
-			table.Refresh()
+			rebuildTable()
+			log.Printf("Tabellenansicht: keine Zeilen; Seite=0 FilterRange=%q", rangeFilter.Selected)
 			return
 		}
 		if currentPage >= pageCount {
@@ -152,7 +145,8 @@ func NewWindowWithData(a fyne.App, cached []catalog.Price, syncPrices syncFunc) 
 		} else {
 			nextPage.Enable()
 		}
-		table.Refresh()
+		rebuildTable()
+		logVisibleRows(rows, currentPage+1, rangeFilter.Selected)
 	}
 	previousPage.OnTapped = func() {
 		if currentPage > 0 {
@@ -170,9 +164,11 @@ func NewWindowWithData(a fyne.App, cached []catalog.Price, syncPrices syncFunc) 
 		criteria, err := readCriteria(search.Text, selectedCategory, tier.Selected, enchantment.Selected, rangeFilter.Selected, minProfit.Text, minROI.Text)
 		if err != nil {
 			status.SetText("Filterfehler: " + err.Error())
+			log.Printf("Filterfehler: %v", err)
 			return
 		}
 		filteredRows = filterRows(allRows, itemByID, criteria)
+		log.Printf("Filter geändert: Kategorie=%q Range=%q Items=%d angezeigt=%d mitPreisen=%d mitRange=%d", selectedCategory, rangeFilter.Selected, len(allRows), len(filteredRows), countRowsWithPrices(filteredRows), countRowsWithOpportunities(filteredRows))
 		currentPage = 0
 		refreshPage()
 		if observationCount == 0 {
@@ -209,6 +205,7 @@ func NewWindowWithData(a fyne.App, cached []catalog.Price, syncPrices syncFunc) 
 			if err != nil {
 				syncMu.Unlock()
 				status.SetText("Filterfehler: " + err.Error())
+				log.Printf("Synchronisierung wegen Filterfehler abgebrochen: %v", err)
 				return
 			}
 			if !hasItemScope(criteria) {
@@ -238,11 +235,13 @@ func NewWindowWithData(a fyne.App, cached []catalog.Price, syncPrices syncFunc) 
 					syncButton.Enable()
 					if err != nil {
 						status.SetText("Synchronisierung fehlgeschlagen: " + err.Error())
+						log.Printf("Synchronisierung fehlgeschlagen: Server=%q Items=%d Städte=%d Fehler=%v", selectedServer, len(ids), len(selectedMarkets), err)
 						return
 					}
 					allPrices = mergePrices(allPrices, prices)
 					observationCount = len(allPrices)
 					allRows = catalogRows(items, bestPriceRows(filterPricesByMarkets(allPrices, selectedMarkets), itemByID, time.Now()))
+					log.Printf("Synchronisierung abgeschlossen: Server=%q APIBeobachtungen=%d ItemIDs=%d lokal=%d Stadtfilter=%d ZeilenMitPreisen=%d ZeilenMitRange=%d", selectedServer, len(prices), len(ids), observationCount, len(selectedMarkets), countRowsWithPrices(allRows), countRowsWithOpportunities(allRows))
 					applyFilters()
 					status.SetText(fmt.Sprintf("Synchronisierung %s abgeschlossen · API: %d Beobachtungen für %d gefilterte Items · lokal insgesamt %d Beobachtungen · Gebühren und Transportkosten nicht berücksichtigt", time.Now().Format("15:04:05"), len(prices), len(ids), observationCount))
 				})
@@ -267,8 +266,60 @@ func NewWindowWithData(a fyne.App, cached []catalog.Price, syncPrices syncFunc) 
 	filterPanel := container.NewVBox(toolbar, search, filters, thresholds, cityRow, syncButton, status)
 	pagination := container.NewHBox(previousPage, pageLabel, nextPage)
 	refreshPage()
-	w.SetContent(container.NewBorder(filterPanel, pagination, nil, nil, table))
+	w.SetContent(container.NewBorder(filterPanel, pagination, nil, nil, tableHost))
 	return w
+}
+
+func countRowsWithPrices(rows []marketRow) int {
+	count := 0
+	for _, row := range rows {
+		if row.hasPrices {
+			count++
+		}
+	}
+	return count
+}
+
+func newMarketTable(rows []marketRow, headers []string, onHeaderSelected func(widget.TableCellID)) *widget.Table {
+	pageRows := append([]marketRow(nil), rows...)
+	table := widget.NewTable(
+		func() (int, int) { return len(pageRows) + 1, len(headers) },
+		func() fyne.CanvasObject { return widget.NewLabel("#######") },
+		func(id widget.TableCellID, cell fyne.CanvasObject) {
+			label := cell.(*widget.Label)
+			label.Truncation = fyne.TextTruncateEllipsis
+			label.Wrapping = fyne.TextWrapOff
+			if id.Row == 0 {
+				label.SetText(headers[id.Col])
+				label.TextStyle = fyne.TextStyle{Bold: true}
+				return
+			}
+			label.TextStyle = fyne.TextStyle{}
+			label.SetText(marketRowValues(pageRows[id.Row-1])[id.Col])
+		},
+	)
+	for col, width := range []float32{220, 130, 140, 65, 110, 120, 125, 105, 100} {
+		table.SetColumnWidth(col, width)
+	}
+	table.OnSelected = onHeaderSelected
+	return table
+}
+
+func countRowsWithOpportunities(rows []marketRow) int {
+	count := 0
+	for _, row := range rows {
+		if row.hasOpportunity {
+			count++
+		}
+	}
+	return count
+}
+
+func logVisibleRows(rows []marketRow, page int, selectedRange string) {
+	log.Printf("Tabellenansicht: Seite=%d FilterRange=%q sichtbareZeilen=%d Spalten=%q", page, selectedRange, len(rows), columns)
+	for index, row := range rows {
+		log.Printf("Tabellenzeile: Seite=%d Zeile=%d ItemID=%q Werte=%q", page, index+1, row.itemID, marketRowValues(row))
+	}
 }
 
 type criteria struct {
